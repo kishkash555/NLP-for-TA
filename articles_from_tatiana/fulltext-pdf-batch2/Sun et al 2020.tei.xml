@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fulfillment by Amazon versus fulfillment by seller: An interpretable risk‐adjusted fulfillment model</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability status="unknown"><p>Copyright Wiley</p>
+				</availability>
+				<date type="published" when="2020-03-21">21 March 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Libo</forename><surname>Sun</surname></persName>
+							<idno type="ORCID">0000-0002-8924-1673</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="laboratory">Anhui Province Key Laboratory of Contemporary Logistics and Supply Chain</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">International Institute of Finance</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guodong</forename><surname>Lyu</surname></persName>
+							<email>guodong.lyu@u.nus.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="laboratory">Anhui Province Key Laboratory of Contemporary Logistics and Supply Chain</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Science and Technology on Information Systems Engineering Laboratory</orgName>
+								<orgName type="institution">National University of Defense Technology</orgName>
+								<address>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Operations Research and Analytics</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yugang</forename><surname>Yu</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chung‐piaw</forename><surname>Teo</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Institute of Operations Research and Analytics</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<postCode>117602</postCode>
+									<country>Singapore, Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fulfillment by Amazon versus fulfillment by seller: An interpretable risk‐adjusted fulfillment model</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Naval Research Logistics (NRL)</title>
+						<title level="j" type="abbrev">Naval Research Logistics</title>
+						<idno type="ISSN">0894-069X</idno>
+						<idno type="eISSN">1520-6750</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<biblScope unit="volume">67</biblScope>
+							<biblScope unit="issue">8</biblScope>
+							<biblScope unit="page" from="627" to="645"/>
+							<date type="published" when="2020-03-21">21 March 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1002/nav.21897</idno>
+					<note type="submission">Received: 27 July 2019 Revised: 15 January 2020 Accepted: 24 February 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>With dual-channel choices, E-retailers fulfill their demands by either the inventory stored in third-party distribution centers, or by in-house inventory. In this article, using data from a wedding gown E-retailer in China, we analyze the differences between two fulfillment choices-fulfillment by Amazon (FBA) and fulfillment by seller (FBS). In particular, we want to understand the impact of FBA that will bring to sales and profit, compared to FBS, and how the impact is related to product features such as sizes and colors. We develop a risk-adjusted fulfillment model to address this problem, where the E-retailer&apos;s risk attitude to FBA is incorporated. We denote the profit gaps between FBA and FBS as the rewards for this E-retailer fulfilling products using FBA, our goal is to maximize the E-retailer&apos;s total rewards using predictive analytics. We adopt the generalized linear model to predict the expected rewards, while controlling for the variability of the reward distribution. We apply our model on a set of real data, and develop an explicit decision rule that can be easily implemented in practice. The numerical experiments show that our interpretable decision rule can improve the E-retailer&apos;s total rewards by more than 35%.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

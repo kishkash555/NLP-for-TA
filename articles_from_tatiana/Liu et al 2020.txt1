@@ -1,0 +1,3062 @@
+Transportation Research Part E 136 (2020) 101914
+
+Contents lists available at ScienceDirect
+
+Transportation Research Part E
+journal homepage: www.elsevier.com/locate/tre
+
+The impacts of market size and data-driven marketing on the sales
+mode selection in an Internet platform based supply chain
+
+T
+
+Weihua Liua, , Xiaoyu Yana, , Xiang Lib, Wanying Weia
+⁎⁎
+
+a
+b
+
+⁎
+
+College of Management and Economics, Tianjin University, Tianjin, China
+College of Economic and Social Development, Nankai University, Tianjin, China
+
+ARTICLE INFO
+
+ABSTRACT
+
+Keywords:
+Internet platform based supply chain
+Agency selling
+Reselling
+Data-driven marketing (DDM)
+Supply chain management
+
+This study investigates a platform’s preferences between agency selling and reselling considering
+the impact of data-driven marketing (DDM). Four models are built: No-DDM+agency selling, NoDDM+reselling, DDM+agency selling, DDM+reselling. Sales volumes, profits and profit growth
+rates in different sales modes are compared. Results show that with an increase in DDM efficiency, the platform is more willing to adopt the reselling mode. In addition, without DDM, the
+sales mode with higher sales volume is not more profitable within a certain market size. DDM can
+help avoid this phenomenon to a certain extent.
+
+1. Introduction
+Affected by the rapid development of big data and Internet technologies, an Internet platform based supply chain is entering a
+new stage of digitization. Most e-commerce platforms, such as JD.com, Tmall.com, and Ctrip.com, have large amounts of data on
+consumer transactions and behaviors. Due to the natural data acquisition advantage, most of the platform’s marketing activities are
+implemented based on data-driven analysis (Choi et al., 2018). Data-Driven marketing (DDM) is a marketing method that enterprises
+describe, predict, analyze, and guide consumer behaviors based on data-driven analysis, and use creative contents suitable for a
+specific manufacturer to carry out marketing activities, ultimately improving consumer utility (Braverman, 2015; Cohen, 2018).
+DDM is conducted by the platform, based on characteristics of the specific manufacturer and targeted at consumers. In recent years,
+DDM has become the mainstream marketing method of the Internet platform based supply chain. For example, in September 2018,
+Tmall created a series of targeted, data-based, content-based marketing solutions for Shiseido and established a Shiseido-specific data
+bank to provide data for the marketing (Cri.cn, 2018). In 2018, JD.com adopted DDM by cooperating with well-known brands in
+many industries, such as the mobile phone brand Huawei, the food brand Langjiu, and the home appliance brand Xiaoxiong Electric
+(Beijing Business Daily, 2018).
+In the new stage of DDM being the mainstream marketing method, sales mode selection is still one of the most important decisions
+of internet platform based supply chains. Two different sales modes are widely adopted in the cooperation between manufacturers
+and platforms: agency selling and reselling (Hagiu and Wright, 2015). In the agency selling mode, manufacturers sell products to end
+consumers through an online platform, paying a percentage fee to the platform for each transaction. In the reselling mode, the
+platform is the online retailer who orders products from upstream manufacturers, and then sells them to end consumers. These two
+
+Corresponding author.
+Co-corresponding author.
+E-mail addresses: lwhliu@tju.edu.cn (W. Liu), tjuyanxiaoyu@163.com (X. Yan), Xiangli@nankai.edu.cn (X. Li),
+weiwanying@tju.edu.cn (W. Wei).
+⁎
+
+⁎⁎
+
+https://doi.org/10.1016/j.tre.2020.101914
+Received 23 October 2019; Received in revised form 28 February 2020; Accepted 2 March 2020
+1366-5545/ © 2020 Elsevier Ltd. All rights reserved.
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+modes are widely used in many platforms. For example, JD.com uses reselling mode when collaborating with brands such as Huawei,
+Coach, and Burberry, while uses the agency selling mode when collaborating with brands such as Topsports and Sephora (JD.com
+public welfare, 2020). Amazon changed the reselling-only sales mode from 2010 and began to cooperate with many manufacturers in
+agency selling mode, such as Lee, Kate Spade, Burberry, US Polo Association, Lacoste and Kimberly Clark (Abhishek et al., 2016).
+In the above Internet platform based supply chains, online platforms have been the primary architects of the e-channel as opposed
+to manufacturers. Some analysts attribute this to the bargaining power they command in the e-channel, owing to large customer
+bases that span several regions (Carr, 2012). For example, Amazon, as the largest online e-commerce platform in the United States,
+leads the cooperation with many manufacturers (e.g., Lee, Kate Spade) and e-book publishers (e.g., Random House) (Abhishek et al.,
+2016). Best Buy.com, an online shopping platform in the United States, is the dominant player and has the initiative of the sales mode
+when cooperating with manufacturers such as Apple, Samsung and Microsoft (Hagiu and Wright, 2015). Therefore, Abhishek et al.
+(2016) and Hagiu and Wright (2015) considered the platform to be a decision-maker for the sales mode selection. Our study follows
+Abhishek et al. (2016) and Hagiu and Wright (2015) by considering the platform to determine the sales mode, requiring manufacturers to accept the type of sales mode. As e-commerce becomes more and more important to consumers, new manufacturers are
+joining the platform for online sales, which makes the platform always face the sales mode selection problem. In addition, there are
+many new e-commerce platforms (for example, koala.com, Xiaohongshu.com) which also face the sales mode selection problem.
+Therefore, a research on the sales mode selection of platforms is very important.
+Under the background of DDM, the sales mode selection of the platform is affected by two important factors. First, through data
+analysis, the platform can accurately grasp the current consumption trend, find the marketing points that can most stimulate consumers’ purchasing desires, and create targeted promotional activities for manufacturers, thereby increasing the utility of consumers
+(Cohen, 2018; Curko et al., 2018). For example, in August 2019, JD.com used big data to guide Dyson to conduct advertising, making
+the selling point of the product accurately match the demand point of consumers. With the marketing support of JD.com, Dyson’s
+products have effectively moved the consumers and increased their willingness to pay (Sohu.com, 2019). Meanwhile, DDM generates
+new types of costs such as data collection cost and data analysis cost (Ghoshal et al., 2018). Therefore, DDM can influence the sales
+mode selection by affecting the utility of consumers and platform costs. Second, traditionally, different products have different
+market sizes, which will directly affect the market price and demand and further affect the platform’s sales mode selection. Some
+scholars have also shown that the market size will have an important impact on the mode selection by affecting the demand (Jin
+et al., 2015; Xu et al., 2018). Therefore, the difference in market size is also an important motivation for the platform to choose
+different sales modes.
+The above discussion shows that DDM has become the mainstream marketing method for e-commerce platforms. This new
+marketing method and market size jointly affect the profit of the platform, which further affect the sales mode selection. Therefore,
+this study focuses on the impacts of DDM and market size on the platform’s profit and sales mode selection. We thus examine the
+following questions:
+(i) Which sales mode is more favorable to the platform? How will DDM and market size affect the sales mode selection?
+(ii) After conducting DDM, what is the difference in profit growth between the agency selling mode and reselling mode?
+To answer the research questions above, we establish four models: (i) No-DDM + agency selling (NA model), (ii) NoDDM + reselling (NR model), (iii) DDM + agency selling (DA model), and (iv) DDM + reselling (DR model). First, we compare the
+sales volume and profit in different sales modes. Second, we analyze the profit growth rates of different sales modes. Finally, we
+examine the robustness of the results.
+First, addressing the first question, we find that the platform prefers agency selling mode only when the market size is moderate.
+When the market size is relatively smaller or larger, the platform prefers the reselling mode. With an increase in DDM efficiency, the
+scope of the market size applicable to agency selling gradually decreases. This contrasts with the traditional view that agency selling
+will mitigate the double marginal effect and benefit the platform through revenue sharing (Tian et al., 2018).
+Second, addressing the second question, when the data collection cost is not considered, in most cases, the platform adopting a
+reselling mode has a higher profit growth rate. Only when the market size and DDM efficiency are relatively low, will the platform
+adopting an agency selling mode have a higher profit growth rate. Thus, although DDM is more widely used in agency selling in the
+industry, in most cases, the platform adopting the reselling mode is more suitable for developing DDM.
+Third, when analyzing the first question, we also find an important result. Without DDM, when the market size meets certain
+conditions, the sales mode with higher sales volume is not more profitable. This will make managers have to give up higher sales
+volume while achieving higher profit. However, in DDM, this phenomenon can be avoided when DDM efficiency meets certain
+conditions.
+Overall, our study makes three main contributions. First, to the best of our knowledge, our research is one of the first to
+quantitatively describe the change in the platform’s sales mode selection after the rise of DDM. Different with Hagiu and Wright
+(2015), which focused on a single decision variable and viewed the control of marketing activities as the determining factor for the
+platform’s choice of sales mode, our paper focuses on the platform’s DDM activity and the differences between different sales modes
+are mainly reflected in product ownership and product-related decision-making power. Second, we reveal whether the platform can
+achieve high profit and high sales volume at the same time in a specific sales mode by establishing mathematical models in this paper,
+which can be a reference for improving the platform theory system. Third, this study provides new insights for platform managers.
+For example, when the platform uses the agency selling mode, regardless of whether the market size increases, if DDM is efficient
+enough, the platform should adjust its sales mode to achieve a higher profit.
+2
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+The remainder of this paper is organized as follows: Section 2 is the literature review. Section 3 develops models for No-DDM and
+DDM. Section 4 analyzes the impact of DDM on the profit and sales volume. Section 5 extends the model, and Section 6 presents the
+conclusion, managerial insights, and limitations.
+2. Literature review
+2.1. Platform selling
+In recent years, platforms have generated considerable interest in the literature, such as logistics platforms (Barenji et al., 2019),
+matching platforms (Liu et al., 2019), sharing platforms (Choi and He, 2019) and online sales platforms (Abhishek et al., 2016; Tian
+et al., 2018; Wei et al., 2020). This study is mainly related to online sales platforms. Before the rise of studies on platform selling,
+Internet retailing was a key concern for many scholars (Ansari et al., 2008; Ofek et al., 2009; Tucker and Zhang, 2011). Based on these
+studies, Jiang et al. (2011) began to focus on platforms that can be both an agency seller and a retailer. They considered the
+phenomenon of strategic underselling by agents selling on platforms under the threat of being replaced by the platform owner. After
+this study, research on platform selling gradually emerged. Some scholars have only considered either the agency selling mode or the
+reselling mode when introducing the platform, and then studied the impact of platform selling on manufacturers and traditional
+retailers (Ryan et al., 2012; Mantin et al., 2014). Zhang et al. (2019) determined whether a platform should choose revenue sharing
+or fixed fees as a price contract in the agency selling mode. Some scholars have examined the platform’s preference for agency selling
+and reselling considering different influence factors, including traditional channel competition (Abhishek et al., 2016), control of
+marketing activities (Hagiu and Wright, 2015), consumer reviews (Kwark et al., 2012), and upstream suppliers’ competition (Tian
+et al., 2018; Wei et al., 2020). Lu et al. (2018) focused on the publishing industry to find that there exists a Pareto zone where both
+the publisher and the bookstore benefit from platform selling.
+Among them, the most relevant study to this paper is Hagiu and Wright (2015). Hagiu and Wright (2015) focused on a single
+decision variable, the level of demand enhancing marketing activity, which is controlled by the supplier (or manufacturer) in the pure
+marketplace mode but by the intermediary in the pure reseller mode. In the model of Hagiu and Wright (2015), marketing activity is
+considered as the only factor affecting market demand, and the wholesale price between the platform and the manufacturer is also
+considered as zero. They view the control of marketing activities (manufacturer or platform) as the determining factor for the
+platform’s choice of sales mode. By contrast, this paper focuses on the platform’s DDM activity. The differences between different
+sales modes are mainly reflected in product ownership and product-related decision-making power. This paper studies the impact of
+the platform’s DDM activity on the selection of sales mode, considering market price, wholesale price, and the quality of DDM as
+endogenous variables. In addition, this paper also analyzes the difference in profit growth rate after conducting DDM in different sales
+modes.
+2.2. Data-Driven marketing
+With the advancement of technology, data-driven analysis is gradually receiving attention from industry and academic research
+(Yu et al., 2018). DDM is an important part of data-driven analysis (Arunachalam et al., 2018). Due to the natural data acquisition
+advantage, most of the platform’s marketing activities are implemented based on data-driven analysis (Choi et al., 2018). Under
+DDM, the platform can accurately grasp consumption trends by analyzing historical data, and use data-driven technologies to perform real-time calculations, cross-network platform aggregation, and multi-user behavior analysis, so as to find the marketing points
+that can most stimulate consumers’ purchasing desire. Based on the above analysis results, the platform creates targeted promotional
+activities for manufacturers, which increases the utility of the consumer (Cohen, 2018; Curko et al., 2018). This effect on consumer
+utility is similar to that of common marketing. In recent years, more research about DDM has begun to emerge. Most of the literature
+analyzes DDM qualitatively, including its definition, opportunities, challenges, data foundations, and typical applications
+(Braverman, 2015; Trnka, 2017; Choi et al., 2018; Cohen, 2018; Curko et al., 2018). In addition, many studies have explored how
+companies use big data to make marketing more precise from the perspective of system design; these studies improved mathematical
+models quantitatively. For example, Cali and Balaman (2019) proposed a novel decision support system for product ranking problems. They considered a set of product criteria and the customer comments related to these criteria posted on websites to recommend the most appropriate alternative to potential customers. Similar research on system design also includes Aral and Walker
+(2014) and Lu et al. (2016). Besbes et al. (2015) and Jiang et al. (2014) proposed improved mathematical models based on big data in
+terms of click-through rate prediction and product recommendation. Few scholars have analyzed the impact of DDM on decisions and
+profit by establishing mathematical models. Only Ghoshal et al. (2018) quantitatively analyzed a platform’s data alliance decisions in
+the context of personalized recommendations based on big data.
+2.3. Summary
+Our literature review reveals two research gaps. First, the existing studies have examined the platform’s preference for agency
+selling and reselling by considering the influence of traditional channel competition, control of marketing activities, consumer reviews, and upstream supplier competition. However, research on the sales mode selection under DDM has not been conducted.
+Second, some studies have examined how companies use big data to make marketing more precise from the perspective of system
+design and improved mathematical models. However, these works did not quantitatively explore the impact of DDM on a platform’s
+3
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Table 1
+Differences between this paper and relevant studies.
+Theme
+
+Literature
+
+Platform selling
+
+Hagiu and Wright
+(2015)
+Abhishek et al.
+(2016)
+Tian et al. (2018)
+
+DDM
+
+Research content
+
+Research gap
+
+This study
+
+Sales mode selection considering control rights of Ignore or do not focus on the
+marketing activities
+effect of the platform’s DDM
+Sales mode selection focusing on the traditional
+on the sales mode selection
+channel competition
+Sales mode selection focusing on the upstream
+supplier competition
+Ghoshal et al. (2018) When a personalizing firm should make a data
+Do not study the platform’s
+sharing alliance considering the personalized
+sales mode selection
+recommendation
+
+Analyzes the impact of DDM on the
+platform’s profit and sales mode
+selection
+
+Studies the platform’s preference of
+agency selling mode and reselling
+mode considering the DDM
+
+decisions and profits in different sales modes. Thus, our work enriches the research on DDM and platform selling by answering the
+research questions. Table 1 shows differences between this paper and relevant studies.
+3. Models
+This study considers an Internet platform based supply chain consisting of a manufacturer, an e-commerce platform and consumers. Following Abhishek et al. (2016) and Hagiu and Wright (2015), the platform is considered as a decision-maker for the sales
+mode. For example, when cooperating with manufacturers such as Apple, Samsung and Microsoft, Best Buy.com is the dominant
+player and can often choose under which sales mode to operate (Hagiu and Wright, 2015). To assess the impacts of the market size
+and DDM on the sales mode selection, four models are established, as shown in Table 2.
+1
+Without DDM, according to Liu et al. (2014), the utility function of the consumer is v = aq pq 2 bq2 , which has been widely
+utilized in the economics, marketing, and other related literature (Choi, 1991; Cai et al., 2012). Therefore, to maximize the consumer
+utility, we get that the relationship between product price and quantity (the inverse demand function) is p = a bq , where a
+represents the market size. In practice, the platform will invest a lot of capital and time in market research to estimate the market size
+of the products, and then make decisions such as marketing and the sales mode selection. Relying on the advantages of data-driven
+analysis, the platform can estimate the market size more accurately.
+In DDM, the platform can accurately grasp the current consumption trend through data-driven analysis, find the marketing points
+that can most stimulate consumers’ purchasing desires, and create targeted promotional activities for manufacturers, thereby increasing the utility of consumers (Cohen, 2018; Curko et al., 2018). Assume that under the influence of DDM, the increase in
+consumer utility per unit of product is ky, where y represents the DDM quality and k represents the consumer’s sensitivity of the DDM.
+1
+Therefore, in DDM, the utility function of the consumer is v = aq pq 2 bq2 + kyq , and the inverse demand function is
+p = a bq + ky .
+While increasing the consumer utility, the platform needs to pay related costs for DDM. The data management platform (DMP) is a
+technology platform that supports the platform in providing data-related services, which helps integrate, analyze, and evaluate data
+from multiple sources. In the process of using DMP to implement DDM, two types of costs are generated. First, there is a data
+collection cost unrelated to the DDM quality. The operation of DMP requires the collection of relevant data, such as the purchase time
+of the consumer and type of purchase. In practice, the cost that the platform pays for collecting data is mainly reflected in building a
+data collection system, and the cost of collecting data per unit can be ignored. Ghoshal et al. (2018) proposed that the marginal cost
+of collecting data on the platform is zero in their study. Therefore, we assume that the data collection cost paid by the platform is F.
+Second, there is a data analysis cost related to the DDM quality. To realize the DDM quality y, the platform needs to pay the
+corresponding data analysis cost. We can use a strictly convex service function ly 2 to depict the relationship between the DDM quality
+and its related analysis cost. This expression can reflect that the data analysis cost increases as the DDM quality increases. This is
+similar to the cost expression used by Ghoshal et al. (2018). Therefore, the total cost of the platform for DDM is F + ly 2 .
+k2
+
+We denote z = l as the DDM efficiency, which can reflect the size of the ratio of profit to cost per unit of DDM quality. It is clearly
+seen that the increase of k and/or the decrease of l leads to a higher level of z. That is, the platform can reduce the data analysis cost
+needed by increasing the unit DDM quality to improve the DDM efficiency. This can be achieved by improving the algorithm of the
+DMP platform or by collecting more accurate user data.
+Table 2
+Four settings of DDM and sales mode.
+Sales mode
+
+Agency selling
+Reselling
+
+Marketing type
+No-Data-Driven
+
+Data-Driven
+
+NA
+NR
+
+DA
+DR
+
+4
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Table 3 summarizes the basic notations used throughout the study. We denote optimal decisions with superscripts A for the
+agency selling mode and R for the reselling mode. We use subscripts M and P for manufacturer and platform. Furthermore, we add N
+and D to superscripts to represent scenarios under the No-DDM and DDM. In the Section 5.1, subscript i represents the manufacturer i,
+subscript n represents the optimal decision of the platform with multiple homogeneous manufacturers, and subscript d represents the
+optimal decision of the platform with two competitive manufacturers.
+3.1. Agency selling
+Under the agency selling mode, the platform is only a connector between manufacturers and consumers. The platform requires
+manufacturers to determine the quantity of products sold on the platform, and pay a percentage fee to the platform after the sale is
+completed. Suppose the percentage fee of the platform is u , u (0, 1) . In practice, the platform will announce the percentage fee in
+advance and not adjust it easily. Although a different type of product has different percentage fee, the percentage fee of manufacturers under the same type is the same. Therefore, we assume that the percentage fee is exogenous; Wei et al. (2020) also made
+similar assumptions. For example, Tmall.com publishes a “List of Percentage Fees for Various Types of Products” to disclose the
+percentage fee to the public every year; the percentage fee remains almost unchanged each year (TM public welfare, 2018).
+Fig. 1 reflects the supply chain structure under the agency selling mode. The sequence of events under the agency selling mode is:
+(i) the platform determines the DDM quality and (ii) the manufacturer decides the quantity of products sold on the platform (the final
+sales volume of the product).
+3.1.1. Model NA
+The profit of the manufacturer:
+NA
+M
+
+= (1
+
+u ) pq
+
+cq = (1
+
+u)(a
+
+bq) q
+
+(1)
+
+cq
+
+The profit of the platform:
+NA
+P
+
+= upq = u (a
+
+(2)
+
+bq) q
+
+3.1.2. Model DA
+The profit of the manufacturer:
+DA
+M
+
+= (1
+
+u) pq
+
+cq = (1
+
+u)(a
+
+bq + ky ) q
+
+(3)
+
+cq
+
+The profit of the platform:
+DA
+P
+
+= upq
+
+(F + ly 2 ) = u (a
+
+bq + ky ) q
+
+(4)
+
+(F + ly 2 )
+
+3.2. Reselling
+Under the reselling mode, the platform purchases products from the manufacturers, and then sells them to consumers. Unlike the
+agency selling mode, in the reselling mode, the platform needs to determine its wholesale price for different products.
+Fig. 2 reflects the supply chain structure under the reselling mode. The sequence of events under the reselling mode is: (i) the
+manufacturer decides the wholesale price, (ii) the platform determines the DDM quality, and (iii) the platform decides the quantity of
+products bought from the manufacturer (the final sales volume of the product).
+3.2.1. Model NR
+The profit of the manufacturer:
+NR
+M
+
+= wq
+
+(5)
+
+cq
+
+The profit of the platform:
+NR
+P
+
+= (p
+
+w ) q = (a
+
+bq
+
+(6)
+
+w) q
+
+3.2.2. Model DR
+The profit of the manufacturer:
+DR
+M
+
+= wq
+
+(7)
+
+cq
+
+The profit of the platform:
+DR
+P
+
+= (p
+
+w) q
+
+(F + ly 2 ) = (a
+
+bq + ky
+
+w) q
+
+(8)
+
+(F + ly 2 )
+4bl
+.
+u
+
+To make the second derivative of the profit function in four models less than zero, we obtain k 2 < 4bl <
+When k 2 > 4bl , the profit
+of the platform increases infinitely (k 2 > 4bl ) or remains unchanged (k 2 = 4bl ) as DDM quality increases. In these conditions, there is
+5
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Table 3
+Notations for the models.
+v
+
+Consumer’s utility
+
+a
+b
+p
+q
+c
+y
+k
+F
+l
+u
+w
+z
+
+Market size
+Quantity sensitivity
+Price of the product sold on the platform.
+Quantity of the product sold on the platform.
+Production cost of a unit product.
+DDM quality.
+Consumer’s sensitivity of the DDM.
+Data collection cost of DDM.
+Cost coefficient of variable cost of DDM.
+Percentage fee of the platform under an agency selling mode.
+Wholesale price of a unit product under a reselling mode.
+
+NA
+P (
+NA
+M (
+NR
+P (
+NR
+M (
+
+z=
+DA
+P )
+DA
+M )
+DR
+P )
+DR
+M )
+
+k2
+,
+l
+
+which represents the DDM efficiency.
+
+Profit growth rate of the platform.
+Profit of the platform in the agency selling mode without (or with) DDM.
+Profit of the manufacturer in the agency selling mode without (or with) DDM.
+Profit of the platform in the reselling mode without (or with) DDM.
+Profit of the manufacturer in the reselling mode without (or with) DDM.
+
+no optimal DDM quality, which is rare in practice. To make our study more practical and universal, we focus on the condition when
+k 2 < 4bl .
+4. Analysis
+For the four cases in Table 2, we compare combinations (NA, NR), (DA, DR), (NA, DA), and (NR, DR) in this section. Although
+these combinations are somewhat simplified compared to comparing all four cases to select the optimal sales mode, it still provides
+important management insights for different types of platforms to make sales mode decisions or DDM decisions in different scenarios.
+By comparing NA and NR, we provide a reference for small-scale platforms that do not conduct DDM in choosing sales mode, such as
+Shihuo.cn and Red.com in China. By comparing DA and DR, we provide a reference for large platforms where DDM is already
+ubiquitous in the cooperation between platforms and manufacturers, such as JD.com and Amazon. By comparing NA and DA (or NR
+and DR), we support the platform in making DDM decisions for manufacturers that have entered the platform and signed the sales
+mode. Table 4 summarizes the decisions and profits in different sales modes.
+c
+uz
+In our models, when a 1 u (1 4b ) , the platform’s profit is positive in two sales modes. In practice, the percentage fee of the
+platform will hardly exceed 25 percent (5 percent for Tmall.com, 15 to 25 percent for Baidu.com and Meituan.com, and 15 percent
+for Amazon). Jiang and Tian (2018) also contended that the percentage fee of the platform is typically between 10 percent (e.g., on
+Spinlister) to 25 percent (e.g., on RelayRides). Therefore, for practicality and simplicity, we narrow the scope of u to (0,0.25) in this
+section. In Section 5.2, we further analyze the situation of u 0.25 for the model extension.
+4.1. No-DDM
+We first compare the agency selling mode and the reselling mode without DDM. In addition to finding the optimal sales mode with
+the goal of maximizing the platform’s profit, this study also compares the sales volumes in different sales modes. This is because that
+the sales volume is also important to the platform. High sales volume not only helps the platform gain the investors’ favor, but also
+helps the platform create a winner-take-all situation (Inoue, 2019). Therefore, we further analyze the conditions under which the
+platform can achieve higher sales volume and higher profit by selecting a specific sales mode.
+
+Fig. 1. Supply chain structure under the agency selling mode.
+6
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Fig. 2. Supply chain structure under the reselling mode.
+
+4.1.1. Sales volumes
+Proposition 1 is obtained by comparing the sales volume of the agency selling mode with that of the reselling mode without DDM.
+Proposition 1 (NA vs. NR). Without DDM, we have
+(1)
+(2)
+
+q NA
+q NR
+> a > 0;
+a
+q NA > q NR if a >
+
+a0N , and q NA
+
+q NR if a
+
+a0N , where a0N =
+
+(1 + u) c
+.
+1 u
+
+According to Proposition 1, we find that, as the market size increases, the sales volumes in the two sales modes increase. When the
+c
+market size is very small (a = 1 u ), the sales volume in the agency selling mode is zero. That is, the manufacturer refuses to sell
+products on the platform. However, there are transactions in the reselling mode (q NR > 0 ) in this condition. Therefore, when the
+market size is small, the sales volume in the reselling mode is higher. As the market size increases, the sales volume in the agency
+selling mode increases at a faster rate, eventually exceeding the sales volume in the reselling mode at a certain threshold. Furthermore, we find that the threshold increases with the increase in production cost and the percentage fee.
+4.1.2. Sales mode selection
+Proposition 2 is obtained by comparing the profit of the agency selling mode with that of the reselling mode without DDM.
+Proposition 2 (NA vs. NR). Without DDM, we have
+(1)
+
+(2)
+(3)
+
+NA
+P
+
+NR
+P
+
+a
+a
+NA
+> PNR
+P
+q NA > q NR
+
+a0N =
+
+(1 + u) c
+,
+1 u
+
+NR
+
+c
+
+NA
+
+c
+
+> 0 if a 1 4u , and Pa > Pa > 0 if a > 1 4u ;
+NR
+if a1N < a < a2N , otherwise, PNA
+P ;
+NA
+NR
+a0N < a < a2N ;q NA < q NR
+>
+and
+if
+P
+P
+
+a1N =
+
+c (1 u) 2cu u + 2
+(1 4u)(1 u)
+
+, a2N =
+
+c (1 u) + 2cu u + 2
+(1 4u)(1 u)
+
+.
+
+and
+
+NA
+P
+
+<
+
+NR
+P
+
+if
+
+a < a1N ,where
+
+According to Proposition 2, as the market size increases, the profits in the two sales modes increase. If the market size is relatively
+c
+small (large), the profit in the agency selling (reselling) mode increases at a faster rate. When the market size is very small (a = 1 u ),
+the profit in the agency selling mode is smaller than that in the reselling mode. Therefore, when the market size is relatively small, the
+profit in the reselling mode is higher. Then, the profit in the agency selling mode increases at a faster rate, exceeding the profit in the
+reselling mode when the market size is moderate. However, when the market size is relatively large, the profit in the reselling mode
+increases at a faster rate, eventually exceeding the profit in the agency selling mode again at a certain threshold. Proposition 2 also
+indicates that, only when the market size meets a certain range (a0N < a < a2N or a < a1N ) can the platform improve both profit and
+sales volume by selecting a specific sales mode. Otherwise, the sales mode with higher sales volume has a lower profit. Fig. 3 reflects
+the parameter ranges (in terms of a) of the agency selling (reselling) mode in which the sales volume (a) or profit (b) is higher.
+
+Table 4
+The decisions and profits in a different sales mode.
+NA
+q
+
+q NA =
+
+a au c
+2b (1 u )
+
+w
+
+N /A
+
+y
+
+N /A
+
+P
+
+NA
+P
+
+=
+
+DA
+
+a2u (1
+4b (1
+
+NR
+
+4ab (1 u) c (4b uz )
+2b (1 u)(4b uz )
+
+q DA =
+
+N /A
+
+y
+u)2
+u)2
+
+c 2u
+
+DA
+P
+
+=
+
+DA
+
+=
+
+q NR =
+
+a
+
+c
+
+q DR =
+
+w NR =
+
+a+c
+2
+
+w DR =
+
+4bl uk2
+u)2 c 2 (4b uz )]
+4b (1 u)2 (4b uz )
+
+7
+
+4b
+
+N /A
+
+auk
+
+u [4ba2 (1
+
+DR
+
+F
+
+NR
+P
+
+=
+
+(a
+
+c )2
+16b
+
+y DR =
+DR
+P
+
+=
+
+a c
+4b z
+
+a+c
+2
+k (a c )
+8bl 2k2
+
+(a c )2
+4(4b z )
+
+F
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+4.2. DDM
+This section compares the sales volume, profit, and DDM quality between the agency selling mode and reselling mode under DDM
+and analyzes the impact of DDM in the different sales modes.
+4.2.1. Agency selling vs. Reselling
+4.2.1.1. Sales volumes. Proposition 3 is obtained by comparing the sales volume of the agency selling mode with that of the reselling
+mode under DDM.
+Proposition 3 (DA vs. DR). Under DDM, we have
+(1)
+
+q DA
+a
+
+q DR
+a
+
+>
+
+(2) When z <
+(3) When
+
+4b
+2
+
+> 0 if z <
+4b
+
+2
+
+u
+
+4b
+2
+
+u
+q DR
+
+, q DA >
+u
+
+, and
+if a >
+
+q DR
+q DA
+4b
+> a > 0 if 2 u
+a
+a0D (z ) , and q DA q DR
+
+< z < 4b .
+if a
+
+a0D (z ) , where a0D (z ) =
+
+< z < 4b , q DA < q DR .
+
+Proposition 3 shows that when the DDM efficiency is relatively small (z <
+
+[2b (1 + u) z ](4b
+2b (1 u)[4b (2
+
+uz ) c
+.
+u) z]
+
+4b
+
+), the sales volume is higher in the agency selling
+u
+c
+uz
+(reselling) mode under large (small) market size conditions. When the market size is very small (a = 1 u (1 4b ) ), the sales volume
+in the agency selling mode is smaller. However, it increases at a faster rate as the market size increases, exceeding the sales volume in
+the reselling mode at a certain threshold. According to Proposition 3, the value of this threshold is related to the production cost,
+4b
+price elasticity coefficient, percentage fee, and DDM efficiency. However, when the DDM efficiency is relatively large ( 2 u < z < 4b ),
+the sales volume in the reselling mode always increases at a faster rate. That is, the sales volume in the reselling mode is always
+higher. Fig. 4 shows the results of Proposition 3 using numerical simulation (Fig. 5).
+2
+
+4.2.1.2. Sales mode selection. Proposition 4 is obtained by comparing the profit of the agency selling mode with that of the reselling
+mode under DDM.
+Proposition 4 (DA vs. DR). Under DDM, we have
+(1)
+
+DA
+P
+
+DR
+P
+
+a
+
+a
+
+(2) When 0 < z <
+(3) When
+
+4b (u + 2)
+3
+
+Where a1D (z ) =
+
+a2D (z ) =
+
+c (4b uz )
+,
+4b (1 4u) + 3uz
+
+> 0 if a
+
+c
+2(4b z )
+
+4b (u + 2)
+,
+3
+
+DA
+P
+
+DA
+P
+
+z < 4b ,
+c
+2(4b z )
+
+cu
+1
+
+u
+
++
+
+>
+
+cu
+1
+
+u
+
+<
+
+DR
+P
+
+DR
+P
+
+otherwise,
+
+a
+
+>
+
+DA
+P
+
+a
+
+> 0.
+
+if a1D (z ) < a < a2D (z ) , otherwise,
+
+DA
+P
+
+DR
+P .
+
+DR
+P .
+
+[4b (u + 2) 3z ]
+4b (4b uz )(4b z )
+
+[4b (u + 2) 3z ]
+4b (4b uz )(4b z )
+
+/[ 4b
+
+/[ 4b
+
+2u
+uz
+
+2u
+uz
+
+1
+],
+2(4b z )
+
+1
+].
+2(4b z )
+
+Proposition 4 shows that, when the DDM efficiency is small (0 < z <
+), the platform prefers the reselling mode when the
+3
+market size is relatively smaller or larger. However, it prefers the agency selling mode when the market size is moderate. This is
+because the impact of DDM efficiency on decisions is continuous; when the DDM efficiency is relatively smaller, the rules of the sales
+4b (u + 2)
+z < 4b ), the profit gap between the agency selling
+mode selection do not change. When the DDM efficiency is high enough ( 3
+mode and the reselling mode will decrease as the market size increases at the beginning. However, when the profit in the agency
+selling mode has not exceeded the profit of the reselling mode, the profit in the agency selling mode begins to increase at a slower
+rate. Therefore, the profit in the reselling mode is always higher.
+To find the driven factors of the change in the optimal sales mode, we try to compare the profit of agency selling mode with the
+profit of reselling mode if u is assumed to be endogenous. When z = 0 , the platform always prefers the agency selling mode with u
+4b (u + 2)
+
+Fig. 3. The sales mode with higher sales volume or profit without DDM.Note. For example, when u = 0.05, b = 1 and c = 10 , we have
+a0N = 11.0526, a1N = 10.6161 and a2N = 14.3839 .
+8
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+being endogenous and the optimal percentage fee u increases as the market size increases (see Appendix D). When z = 0 and u is
+assumed to be exogenous, the platform does not have the option to adjust decisions to match the demand state. So, there is decision
+inefficiency in the agency selling mode. That is why the platform will prefer the reselling mode when the market size is very small or
+large. However, when z > 0 , although we cannot accurately obtain the mathematical expression of the condition that parameters
+need to be satisfied when PDA < PDR , the situation PDA < PDR has proven to exist (see Appendix D). In other words, when z > 0 and u
+is assumed to be exogenous, in addition to decision inefficiency, the existence of DDM is also an important driven factor of the change
+in the optimal sales mode.
+To further explore the impacts of DDM efficiency, we analyze how the scope of the market size applicable to agency selling or
+4b (u + 2)
+reselling mode will change as the DDM efficiency increases when 0 < z <
+. Next, Proposition 5 is obtained.
+3
+Proposition 5. With the increase in DDM efficiency, the scope of the market size applicable to the agency selling mode gradually decreases,
+4b (u + 2)
+eventually to zero until z
+.
+3
+Proposition 5 is an important result of this paper. Affected by DDM, the advantage of the sales mode without DDM may become a
+disadvantage. The findings of Proposition 5 provide new insights for platform managers in the expansion period. For a platform that
+uses the reselling mode without DDM, as the market size increases, this mode is no longer dominant without DDM. However, if the
+platform has developed DDM, the reselling mode may still be dominant. For a platform that the adopts agency selling mode, regardless of whether the market size increases, when the DDM efficiency is higher than a specific threshold, the platform should adjust
+its sales mode strategy to achieve a higher profit. For example, Tmall.com has traditionally adopted an agency selling mode.
+However, with the rise of DDM, it has begun to adopt the reselling modes with some types of manufacturers, such as the small
+appliance industry (China Daily News, 2019).
+4b (u + 2)
+,
+3
+
+Corollary 1. When (i) z 2 u and a > max(a0D (z ), a2D (z )) ; (ii) z
+select a specific sales mode to improve both profit and sales volume.
+4b
+
+a1D (z ) < a < a2D (z ) and a < a0D (z ) , the platform failed to
+
+Corollary 1 is another important result. Similar to the setting without DDM, when the market size and DDM efficiency meet
+certain conditions, the sales mode with higher sales volume is not more profitable. Fig. 6 reflects this view more vividly. In area (b),
+the agency selling mode obtains higher sales volume but lower profit; in area (c), the agency selling mode obtains higher profit but
+lower sales volume. Corollary 1 allows two insights for platform managers. First, when the market size and DDM efficiency meet the
+conditions in Corollary 1, the managers should realize that the sales mode with higher sales volume may not be more profitable. This
+makes managers have to give up higher sales volume while achieving higher profit. Second, without DDM, this situation is unavoidable within a certain market size. However, in DDM, this phenomenon can be avoided when DDM efficiency meets certain
+conditions.
+4.2.1.3. DDM quality. Proposition 6 is obtained by comparing the DDM quality of the agency selling mode with the reselling mode.
+Proposition 6. [DA vs. DR]Under DDM, we have
+(1)
+(2)
+
+y DR
+a
+y DA
+
+>
+>
+
+y DA
+> 0;
+a
+DR
+y if a <
+
+a3D (z ) , and y DA
+
+y DR if a
+
+a3D (z ) , where a3D (z ) =
+
+c (4b uz )
+.
+4b uz + 8bu
+
+According to Proposition 6, we find that, as the market size increases, the DDM quality in the two sales modes increase. When the
+c
+uz
+market size is very small (a = 1 u (1 4b ) ), the DDM quality in the agency selling mode is higher than that in the reselling mode.
+However, as the market size increases, the DDM quality in the reselling mode increases at a faster rate, eventually exceeding the DDM
+quality in the agency selling mode at a certain threshold. This explains why the DDM processes of Tmall.com are basically the same
+for different manufacturers, which leads to a lower DDM quality. Contrariwise, JD.com set up JD Digital Technology, officially
+
+Fig. 4. The sales mode with higher sales volume under DDM marketing. Note. This figure is generated based on u = 0.05, b = 1, and c = 10 .
+9
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Fig. 5. The sales mode with higher profit under DDM. Note. This figure is generated based on u = 0.05, b = 1, and c = 10 . Line 1 represents a1D (z ) ,
+4b (u + 2)
+line 2 represents a2D (z ) , and line 3 represents z =
+in Proposition 4.
+3
+
+entered the field of digital marketing (Beijing Business Daily, 2018), and customized the entire DDM process for many manufacturers
+using the reselling mode, leading to a higher DDM quality. Furthermore, we find that the trend wherein the DDM quality in the
+reselling mode is higher than that in the agency selling mode increases as the production cost increases.
+4.2.2. The impact of DDM in the different sales mode
+4.2.2.1. Agency selling. This section analyzes the condition for the platform benefiting from DDM and the profit growth rate in the
+agency selling mode. Profit growth rate refers to the ratio of increased profit benefiting from DDM to the profit before developing
+DDM. The calculation formula for profit growth rate is expressed as: (profit after developing DDM - profit before developing DDM)/
+profit before developing DDM. A and R represent the profit growth rates of the platform in the agency selling mode and the
+reselling mode, respectively.
+Lemma 7 (NA vs. DA). In the agency selling, we have
+(1) Only if F < F A = u [ 4b
+(2)
+(3)
+
+A
+
+z
+
+> 0;
+
+a
+
+< 0 if 0
+
+A
+
+F<
+
+a2
+
+4b (1
+
+uz
+
+u2c 2z
+u)2 (4b
+
+c2
+]
+4b (1 u)2
+
+uz )
+
+can the platform benefit from DDM;
+
+, and
+
+A
+
+a
+
+0 if
+
+4b (1
+
+u2c 2z
+u)2 (4b
+
+uz )
+
+F < FA.
+
+Lemma 7 shows that, in the agency selling mode, only when the data collection cost is small enough can the platform benefit from
+DDM. The threshold of the data collection cost increases as the DDM efficiency or the market size increases, but it decreases as the
+production cost increases. In addition, we find that when the data collection cost is small, the profit growth rate of the platform will
+decrease as the market size increases. Therefore, in the agency selling mode, when the data collection cost is small, the platform with
+smaller market size is more suitable for developing DDM.
+4.2.2.2. Reselling. This section analyzes the condition for the platform benefiting from DDM and the profit growth rate in the
+
+Fig. 6. The sales mode with higher sales volume or profit under DDM. Note. This figure is generated based on u = 0.05, b = 1, and c = 10 . Lines 1, 2,
+4b (u + 2)
+and 3 represent a1D (z ), a2D (z ) , and z =
+, respectively, in Proposition 4; line 4 represents a0D (z ) in Proposition 3.
+3
+10
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+reselling mode.
+Lemma 8 (NR vs. DR). In the reselling mode, we have
+(1) Only if F < F R =
+(2)
+(3)
+
+R
+
+z (a c ) 2
+16b (4b z )
+
+can the platform benefit from DDM;
+
+z
+
+> 0;
+
+a
+
+> 0 if 0 < F < F R , and
+
+R
+
+R
+
+a
+
+= 0 if F = 0 .
+
+Lemma 8 shows that, in the reselling mode, the threshold of the data collection cost that allows the platform to benefit from DDM
+still increases as the DDM efficiency or the market size increases, but it decreases as the production cost or the price elasticity
+coefficient increases. Different from agency selling, when the data collection cost is zero, the profit growth rate of the platform will
+remain unchanged even as the market size increases. Therefore, in the reselling mode, if the data collection cost is not considered, the
+market size of the platform cannot be a criterion for evaluating the platform’s suitability for DDM.
+4.2.2.3. Profit growth rate. Because of the data collection cost, the platform may not be able to benefit from DDM, which makes the
+comparison complicated and limited. Therefore, we only analyze the situation wherein the data collection cost is not considered
+(F = 0 ). It is also practical to analyze this special case. For example, far-sighted e-commerce platforms, such as Tmall.com, JD.com,
+and Amazon, have been collecting data even before developing DDM. Therefore, they do not need to consider the data collection cost
+after developing DDM.
+Proposition 9. Given F = 0 , if a
+
+c
+(1
+
+3
+
+u) 2
+
+, the profit growth rate under reselling is larger than that under agency selling. If a <
+
+profit growth rate under agency selling is larger when z
+
+c
+(1
+
+z and the profit growth rate under reselling is larger when z < z < 4b.
+
+3
+
+u) 2
+
+, the
+
+Proposition 9 shows that, if the data collection cost is not considered, the platform adopting the reselling mode always has a
+higher profit growth rate when the market size is relatively large. Only when the DDM efficiency and market size are both relatively
+small, does the platform adopting the agency selling mode have a higher profit growth rate. This indicates that, for far-sighted ecommerce platforms in the industry, the platform adopting the reselling mode is more suitable for developing DDM. Fig. 7 reflects the
+profit growth rate under agency selling and reselling. We find that, when a = 10.6, there exists a critical value of DDM described in
+Proposition 9. When a = 12 , the profit growth rate in the reselling mode is always higher.
+5. Model extensions
+To verify the robustness of our main results, we discuss the results of model comparisons when there are competitive manufacturers. Moreover, we further discuss the results of model comparisons when u 0.25.
+5.1. Competitive manufacturers
+5.1.1. Homogeneous manufacturers
+In this section, we consider multiple homogeneous manufacturers that sell the same type of product. Subscript n represents the
+optimal decision of the platform with multiple homogeneous manufacturers. Without DDM, the (inverse) demand function of the
+platform is p = a b (q1 + q2 + q3 + …+ qn) . Under DDM, the (inverse) demand function is p = a b (q1 + q2 + q3 + …+ qn) + ky .
+The profit functions of the manufacturer and platform in the agency selling mode are:
+DA
+Mi
+
+= (1
+
+DA
+P
+
+=
+
+u) pqi
+
+(9)
+
+cqi
+(F + nly 2)
+
+upqi
+
+(10)
+
+The profit functions of the manufacturer and platform in the reselling mode are:
+DR
+Mi
+
+= wi qi
+
+DR
+P
+
+=
+
+(p
+
+(11)
+
+cqi
+
+wi ) qi
+
+(F + nly 2)
+
+(12)
+
+The equilibrium results of this section are shown in Tables 5 and 6 in Appendix A. When z 2b (n + 1) , Propositions 1, 2 are still valid,
+but the thresholds of the market size and DDM efficiency will change. Like Propositions 4 and 5, as the market size increases, there are
+still two thresholds that make the platform choose the reselling mode first, then the agency selling mode, and finally the reselling mode.
+The scope of the market size applicable to the agency selling mode is still gradually decreasing. Therefore, the main management sights
+obtained in Section 4 are robust. In Fig. 8, when z = 0 and z = 2 , the thresholds of the sales mode selection vary with n. Although the
+threshold varies, there is still a case wherein the sales mode with higher sales volume may not be more profitable.
+We also analyze the change of profit growth rate in a different sales mode with the number of manufacturers using numerical
+simulation, as shown in Fig. 9. Regardless of the market size, the profit growth rates of the platform in the agency selling and reselling
+mode decrease with the number of manufacturers. This shows that a platform with a small number of manufacturers is more suitable
+for DDM.
+11
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Fig. 7. The profit growth rate under agency selling and reselling. Note. This figure is generated based on u = 0.05, b = 1, and c = 10 .
+
+5.1.2. Heterogeneous manufacturers
+In this section, we consider two competitive manufacturers that sell the same type of product, but with price difference. Under
+DDM, the (inverse) demand function for manufacturer 1 is p1 = a b (q1 + q2) + ky . To capture the distinction between the products
+from these two competitive suppliers, based on Niu et al. (2019), the (inverse) demand function for manufacturer 2 is
+p2 = a b (q1 + q2) + ky + m , (m 0) . Subscript i represents the manufacturer i and subscript d represents the optimal decision of
+the platform with two competitive manufacturers. The profit functions of the manufacturer and platform in the agency selling mode
+are:
+DA
+Mi
+
+= (1
+
+DA
+P
+
+=
+
+u) pqi
+
+(13)
+
+cqi
+
+(F + 2ly 2)
+
+upqi
+
+(14)
+
+The profit functions of the manufacturer and platform in the reselling mode are:
+DR
+Mi
+
+= wi qi
+
+DR
+P
+
+=
+
+(15)
+
+cqi
+
+(pi
+
+wi) qi
+
+(F + 2ly 2 )
+
+(16)
+
+The equilibrium results of this section are shown in Tables 7 and 8 in Appendix A. Similar to Section 5.1.1, when z 6b and
+m (z ) min(m1 (z ), m2 (z )), the main results and management insights in Section 4 are robust, but the thresholds of the market size
+and DDM efficiency will change. In Fig. 10, when z = 0 and z = 2 , the thresholds of the sales mode selection vary with m. Although
+the threshold varies, there is still a case wherein the sales mode with higher sales volume may not be more profitable (Fig. 11).
+5.2. u
+
+0.25
+
+During the calculation, we find that u = 0.25 is a critical value, and the comparison of sales volume and profit will have different
+results when u is less than 0.25 and greater than 0.25 (see Appendix B for details). As mentioned in Section 4, since the percentage fee
+of the platform will hardly exceed 25 percent in most companies in the industry, the above analysis is based on u < 0.25. However, in
+China, there are still a few cases where the percentage fee is more than 25 percent. For example, the percentage fee of the Shenzhou
+platform in Hunan Province is as high as 39 percent. Therefore, the previous assumption u < 0.25 is relaxed in this section to observe
+how the results will change when u 0.25. Since we only focus on the different range of u, we can directly use the equilibrium results
+in Table 4. We find that Propositions 1 and 3 are still valid. By comparing the profit between the agency selling and reselling modes
+with u 0.25 with (or without) DDM, we find that the sales selection of the platform is more complicated than u < 0.25, as shown in
+Propositions 10 and 11.
+Proposition 10 (NA vs. NR). Without DDM, when 0.25
+
+a1N
+
+=
+
+c (1 u) 2cu u + 2
+(1 4u)(1 u)
+
+.
+
+Proposition 11 (DA vs. DR). Under DDM, when 0.25
+(1) When 0 < z
+
+u < 1,
+
+4b (4u 1)
+,
+3u
+
+DA
+P
+
+>
+
+DR
+P
+
+NA
+P
+
+>
+
+NR
+P
+
+u < 1, we have
+
+if a > a1D (z ) , and
+
+DA
+P
+
+DR
+P
+
+12
+
+if a
+
+a1D (z ) .
+
+if a > a1N , and
+
+NA
+P
+
+NR
+P
+
+if a
+
+a1N , where
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Fig. 8. The thresholds of the sales mode selection vary with n. Note. This figure is generated based on u = 0.05, b = 1, and c = 10 .
+
+Fig. 9. The profit growth rate of the platform varies with n. Note. This figure is generated based on u = 0.05, b = 1, F = 0 , and c = 10 .
+
+(2) When
+
+4b (4u 1)
+3u
+
+(3) When
+
+4b (u + 2)
+3
+
+Where a1D (z ) =
+
+a2D (z ) =
+
+c
+2(4b z )
+
+4b (u + 2)
+,
+3
+
+<z
+
+DA
+P
+
+z < 4b ,
+c
+2(4b z )
+
+cu
+1
+
+u
+
++
+
+cu
+1
+
+u
+
+DA
+P
+
+<
+
+>
+
+DR
+P
+
+if a1D (z ) < a < a2D (z ) , otherwise,
+
+DA
+P
+
+DR
+P .
+
+DR
+P .
+
+[4b (u + 2) 3z ]
+4b (4b uz )(4b z )
+
+[4b (u + 2) 3z ]
+4b (4b uz )(4b z )
+
+/[ 4b
+
+/[ 4b
+
+2u
+uz
+
+A numerical simulation shows that, when z
+4b (4u 1)
+,
+3u
+
+2u
+uz
+
+1
+],
+2(4b z )
+
+1
+].
+2(4b z )
+4b (4u 1)
+,
+3u
+
+the scope of the market size applicable to the agency selling mode may
+
+increase. However, when z >
+the scope of the market size applicable to the agency selling mode is still gradually decreasing.
+This result matches Proposition 5. Therefore, the management sights for platform managers obtained through this proposition are
+robust. In Fig. 12, when z = 0 and z = 2 , the thresholds of the sales mode selection vary with u. Regardless of the value of u, there are
+still areas where the sales volume in the agency selling mode is lower but the profit is higher.
+6. Conclusion, implication and limitation
+6.1. Main Conclusions
+This study considers an Internet platform based supply chain consisting of a manufacturer, an e-commerce platform and consumers. Four models are established to compare the sales volumes and profits of the platform under different marketing types and
+
+13
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Fig. 10. The thresholds of the sales mode selection vary with m. Note. This figure is generated based on u = 0.05, b = 1, and c = 10 .
+
+Fig. 11. The sales mode with higher profit under DDM if 0.25 u < 1. Note. This figure is generated based on u = 0.3, b = 1, and c = 10 . Lines 1, 2,
+4b (u + 2)
+and 3 represent a1D (z ), a2D (z ) , and z =
+, respectively, in Proposition 9.
+3
+
+sales modes. We find that, first, the platform prefers agency selling only when the market size is moderate. When the market size is
+relatively large or small, it prefers reselling. With the increase in the DDM efficiency, the scope of the market size applicable to agency
+selling is gradually decreasing. Second, when the data collection cost is not considered, in most cases, the platform adopting a
+reselling mode has a higher profit growth rate after developing the DDM. Only when the market size and DDM efficiency are
+relatively low, does adopting an agency selling mode lead to a higher profit growth rate. Finally, without DDM, only when the market
+size is within a certain range, can the platform increase the profit and sales volume by choosing a specific sales mode. In other market
+sizes, the sales mode with higher sales volume is not more profitable. However, in DDM, the ”high profit with low sales volume”
+phenomenon can be avoided when DDM efficiency meets certain conditions.
+6.2. Management implications
+This study provides new insights for platform managers. First, when the platform uses the agency selling mode, regardless of
+whether the market size increases, if DDM is efficient enough, the platform should adjust its sales mode to achieve a higher profit.
+This view is confirmed in practice. For example, Tmall.com has traditionally adopted agency selling modes for all manufactures.
+However, with the rise of DDM, it has begun to adopt reselling modes with some types of manufacturers, such as those working in the
+small appliance industry.
+Second, when the platform uses the reselling mode, without DDM, the platform should adjust its sales mode when the market size
+increases. However, if the platform has developed DDM, and the DDM efficiency is relatively high, the platform should retain the
+reselling mode. For example, before DDM became popular, JD.com intended to transform into an agency selling mode for profit along
+with the increase in the market size of self-operated products. However, with the rise of DDM in China since 2016, JD.com has
+
+14
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Fig. 12. The thresholds of the sales mode selection vary with u. Note. This figure is generated based on b = 1, and c = 10 .
+
+maintained its reselling mode.
+Third, for the manufacturers newly cooperating with the platform, the platform needs to invest funds and time to estimate the
+manufacturer’s market size. According to the expressions given in this study, the actual threshold values of the market size for a
+specific manufacturer can be calculated. Therefore, the platform can determine whether the manufacturer’s market size is small,
+moderate, or large, which can help the platform choose a right sales mode.
+Fourth, compared with adopting a single reselling mode or a agency selling mode, the platform should choose different sales
+modes for different manufacturers to obtain more profit. For example, JD.com and Amazon both use the business mode in which two
+sales modes coexist.
+Finally, without DDM, when the market size is within a certain range, managers have to give up higher sales volume while
+achieving higher profit. However, in DDM, the ‘high profit with low sales volume’ phenomenon can be avoided when DDM efficiency
+meets certain conditions. This finding is very important for platforms. Because high sales volume not only helps the platform to be
+favored by investors, but also helps the platform to create a winner-take-all situation (Inoue, 2019).
+6.3. Limitations
+There are several limitations in this study. First, we only focus on the sales mode selection between the platform and the manufacturer and do not consider the impact of consumers, such as strategic and flaunting consumers. Second, we only consider a twotier supply chain consisting of a manufacturer, a platform, and consumers. The sales mode selection problem of the platform in a
+multi-tier supply chain is also worthy of further discussion. Finally, this study only analyzes the manufacturers competition in the
+model extension, without considering the competition between platforms. Future research can further explore the sales mode selection with DDM in the context of platforms competition.
+Acknowledgements
+This research is funded by Major Program of the National Social Science Foundation of China (Grant No. 18ZDA060). In addition,
+this research also thanks the supports of National Natural Science Foundation of China (NSFC) research fund (Grant No. 71772095)
+and the Fundamental Research Funds for the Central Universities (Grant no. 63192311).The reviewers’ comments are also highly
+appreciated.
+Appendix A
+Tables 5 and 6 shows the equilibrium results with homogeneous manufacturers in an agency selling mode and reselling mode.
+Tables 7 and 8 shows the equilibrium results with heterogeneous manufacturers.
+
+15
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Table 5
+Equilibrium results in an agency selling mode with homogeneous manufacturers.
+NA
+
+qi
+
+qiNA =
+
+DA
+
+[a (1 u) c]
+(1 u) b (n + 1)
+
+y
+
+qiDA =
+
+N /A
+
+P
+
+NA
+Pn
+
+=
+
+nu [a2 (1
+(1
+
+2b (n + 1)[a (1
+
+n2c 2u
+
+1)]
+(1
+
+DA
+Pn
+
+u )2 [(1 + n )2b]
+
+=
+
+c] + cuz
+
+nu [4a2b (1
+
+uk [2a (1
+
+uz ]
+
+c (1 n )]
+2(1 u)[bl (n + 1)2 uk2]
+u)2 + 4abc (1 u)(n 1)]
+c 2nu (4bn
+
+ynDA =
+
+u )2 + ac (1 u )(n
+u)2 [(1 + n )2b]
+
+u)
+
+u )[b (n + 1)2
+
+2b (1
+
+u)2 [(1 + n)2b
+
+4b (1
+
+u)
+
+uz]
+
+4b (1
+
+uz )
+
+u )2 [(1 + n )2b
+
+uz ]
+
+F
+
+Table 6
+Equilibrium results in a reselling mode with homogeneous manufacturers.
+NR
+
+qi
+
+qiNR =
+
+y
+
+DR
+a c
+4bn
+
+wi
+
+wiNR
+
+P
+
+NR
+Pn
+
+=
+
+ynDR
+
+a+c
+2
+
+=
+
+a+c
+=
+2
+n (a c )2
+4(4bn z )
+
+wiDR
+
+c )2
+
+(a
+
+=
+
+a c
+4bn z
+k (a c )
+8bnl 2k2
+
+qiDR =
+
+N /A
+
+DR
+Pn
+
+16b
+
+=
+
+F
+
+Table 7
+Equilibrium results in an agency selling mode with heterogeneous manufacturers.
+NA
+
+DA
+
+q1
+
+q1NA =
+
+(a
+
+m)(1 u)
+3b (1 u)
+
+c
+
+q2
+
+q2NA =
+
+(a + 2m)(1 u)
+3b (1 u)
+
+c
+
+y
+
+q2DA =
+
+N /A
+
+P
+
+NA
+Pd
+
+=
+
+u)
+
+c (6b uz ) (6b uz ) m (1
+2b (9b uz )(1 u)
+
+66ab (1
+
+u)
+
+c (6b uz ) + (12b uz ) m (1
+2b (9b uz )(1 u)
+
+ydDA =
+
+u [2a2 (1
+
++
+
+6ab (1
+
+q1DA =
+
+u) + 2ac 4c 2]
+2uam
++
+9b (1 u)
+9b
+u [cm + 5m2 (1 u )]
+F
+9b (1 u )
+
++
+
+uk [(2a + m)(1
+
+u)
+
+u) + c]
+
+uk2]
+u [4ba2 (1 u) + 4bac c 2 (8b zu)]
+DA
+Pd =
+2b (9b uz )(1 u )
+2uam
+u [2bcm + (10b uz ) m2 (1 u )]
++
+(9b uz )
+2b (9b uz )(1 u)
+2(1
+
+u)
+
+u)[9bl
+
+F
+
+Table 8
+Equilibrium results in a reselling mode with heterogeneous manufacturers
+NR
+
+qi
+
+qiNR =
+
+y
+
+DR
+
+a
+
+c
+
+N /A
+
+w1
+
+w1NR
+
+w2
+
+w2NR
+
+P
+
+=
+
+NR
+Pd
+
+ydDR =
+
+a+c
+=
+2
+a+c
++m
+2
+(a c )2
+
+=
+
+a c
+8b z
+k (a c )
+16bl 2k2
+
+qiDR =
+
+8b
+
+w1DR =
+w2DR
+DR
+Pd
+
+16b
+
+=
+
+=
+
+a+c
+2
+
+a+c
+2
+
++m
+
+(a c )2
+2(8b z )
+
+F
+
+Appendix B
+Proof of Proposition 1
+For positive profit and sales, without DDM, we have amin =
+and f1 (a min ) =
+
+c
+4b
+
+(1
+
+1
+1
+
+u
+
+) < 0. Therefore,
+
+Proof of Proposition 2
+Let f2 (a) =
+
+NA
+P
+
+NR
+P
+
+=
+
+(
+
+4u 1
+16b
+
+)a
+
+2
+
++
+
+ca
+8b
+
+q NA
+
+(
+
+q NR
+
+c
+1
+
+u
+
+. Let f1 (a) = q NA
+
+q NR=
+
+( )a +
+1
+4b
+
+c
+4b
+
+c
+. f (a )
+2b (1 u) 1
+
+increases in a
+
+is greater than zero first and then less than zero. Proposition 1 can be proved.
+
+uc 2
+4b (1 u)2
+
++
+
+c2
+16b
+
+). The quadratic coefficient of f (a) is
+2
+
+4u 1
+.
+16b
+
+ratic coefficient is negative. f2 (a) is a convex function and the discriminant of quadratic function is
+
+16
+
+0
+
+When u
+
+=
+
+0.25, the quad-
+
+c 2u2 (u + 2)
+.
+16b2 (1 u)2
+
+We can find
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+0 , which means f2 (a) has two unequal positive roots. Therefore, f2 (a) is less than zero first, then greater than
+0 > 0 and f2 (a min )
+zero, and finally less than zero.
+Proof of Proposition 3
+2
+1
+c
+c
+c
+uz
+a + 4b z
+For positive profit and sales, we have amin = 1 u 1 4b . Let F1 (a) = q DA q DR= 4b uz
+. When
+4b z
+2b (1 u)
+
+(
+
+z<
+
+4b
+2
+
+, F1 (a) increases in a and F1 (amin ) =
+u
+
+c
+4b
+
+z
+
+(
+
+)
+
+< 0 . Therefore, q DA
+
+4b uz
+4b (1 u)
+
+1
+
+zero. When z 2 u , F1 (a) decreases in a and F1 (amin ) < 0 . Therefore, q DA
+Proof of Proposition 4
+
+q DR is always less than zero. Proposition 3 is proved.
+
+4b
+
+Let F2 (a) =
+
+u
+0<
+the
+u
+
+DA
+P
+
+DR
+P
+
+4b (4u 1) 3uz
+4(4b z )(4b uz )
+
+=
+
+(
+
+ca
+2(4b z )
+
+a2 +
+
+uc 2
+4b (1 u)2
+
++
+
+)
+
+q DR is greater than zero first and then less than
+
+c2
+4(4b z )
+
+). The quadratic coefficient of F (a) is
+2
+
+4b (4u 1) 3uz
+.
+4(4b z )(4b uz )
+
+If
+
+0.25, the quadratic coefficient is always negative regardless of z. If u > 0.25, the quadratic coefficient is positive when
+4b (4u 1)
+4b (4u 1)
+z
+and the quadratic coefficient is negative when z >
+. Therefore, u = 0.25 is a critical value, and the results of
+3u
+3u
+model comparison will be slightly different when u is less than the critical value and greater than the critical value. If
+4b (u + 2)
+c 2u2 [4b (u + 2) 3z]
+0.25, F2 (a) is a convex function and the discriminant of quadratic function is 1 =
+, 1>0
+. When z <
+2
+3
+4b (4b
+
+uz )(1
+
+u) (4b
+
+z)
+
+and F2 (a min ) 0 , which means F2 (a) has two unequal positive roots. Therefore, F2 (a) is less than zero first, then greater than zero,
+4b (u + 2)
+, 1 0 , which means F2 (a) has no real roots. Therefore, F2 (a) 0 . Proposition 4 is
+and finally less than zero. When z
+3
+proved.
+Proof of Proposition 5
+The two roots of a1D (z ) =
+
+a2D (z )
+
+a1D (z )
+
+2cu
+(1 u) b
+
+=
+Proof of Corollary 1
+It is proved that a2D (z )
+
+c (4b uz )
+4b (4u 1) 3uz
+[4b (u + 2) 3z](4b z )(4b
+4b (1 4u) + 3uz
+
+Proof of Proposition 6
+
+y DR =
+
+In agency selling,
+
+k
+l
+
+A
+
+increases in z.
+
+a
+
+1 (4b
+4b (4u
+
+than
+
+=
+
+(1
+
+the
+
+a1N =
+
+4b uz ) a + c (4b uz )
+2(4b z )(4b uz )
+kcu
+F3 (amin ) = 8b (1 u)
+
+NA
+P
+
+NA
+P
+
+=
+
+4b (1 u)2 2
+a
+(4b uz )
+[a2 (1
+
+R
+
+a
+
+=
+
+32bF
+.
+(a c ) 3
+
+R
+
+=
+
+DR
+P
+
+NR
+P
+
+NR
+P
+
+Fig.
+2uc
+1 u
+
+and a2D (z ) =
+
+=
+
+Therefore, whether
+
+4b
+(4b z )
+R
+
+a
+
+16bF
+(a c )2
+
+6
+
+can
+
+be
+
+2
+
+c (4b uz )
+4b (4u 1) 3uz
+
+(z
+
+1 (4b
+4b (4u
+
+z )(4b uz )
+.Therefore,
+1) 3uz
+
+we have
+
+4b (1
+
+u)2
+
+c 2]
+
+u)2F
+
+and
+
+). Therefore, if we can prove that a
+
+0.25, we can find that 8bu
+
+1. We can get
+
+R
+
+z
+
+=
+
+4b
+(4b
+
+the
+
+Corollary
+
+1
+
+can
+
+be
+
+N
+0
+
+is
+
+proved.
+
+4b
+
+0 , which means F3 (a) de-
+
+uz
+
+y DR is greater than zero first and then less than zero.
+
+Therefore, whether
+
+1. We can get
+
+u
+
+0 . Corollary 1 is proved.
+
+0 . Therefore, y DA
+
+c2
+
+4b
+2
+
+obtained
+
+(u + 2) (1 + 2u)
+1 4u
+
+. When u
+
+u)22a [4b (1 u)2 (4b uz ) F uzc 2]
+.
+[a2 (1 u)2 c 2]2 (4b uz )
+
+4b (1 u) 2 (4b uz ) F uzc 2 is greater than zero.
+Proof of Lemma 2
+In reselling,
+
+z )(4b uz )
+1) 3uz
+
+, which decreases in z.
+
+(8bu
+
+DA
+P
+
+=
+
+A
+
+uz )
+
+a1N ,
+
+0 and a0N
+
+creases in a. In addition, we find
+Proposition 6 is proved.
+Proof of Lemma 1
+A
+
+2
+
+a1D (z ) decreases in z and we have that a0D (z )
+
+smaller than a2N and larger
+(u + 2) + 1 + 2u
+2uc
+a2N a0N = 1 u
+1 4u
+Let F3 (a) = y DA
+
++
+
+z )2
+
+A
+
+z
+A
+
+a
+
+=
+
+4b (1 u)2a2
+[a2 (1 u)2 c 2]
+
+u
+(4b
+
+> 0 , which means that
+
+uz )2
+
+is greater than zero depends on whether
+
+> 0 , which means that
+
+R
+
+increases in z. In addition,
+
+is greater than zero depends on whether F is greater than zero.
+
+Appendix C
+Proof of competition with homogeneous manufacturers
+
+n
+=
+First, we examine whether Proposition 3(1) is robust. For positive profit and sales, we have amin
+
+LetF1n (a)
+
+=
+
+n
+q DA
+i=1 i
+
+F1n (a) increases in a
+(n + 1)(3n
+
+1) b
+
+n
+q DR =
+i=1 i
+n
+)
+and F1n (a min
+
+(n + 1)
+b (n + 1)2 uz
+
+0.
+
+1
+a
+4bn z
+n
+Therefore, i = 1 qiDA
+
+{
+
+}
+
+(
+
+c
+1
+
+u
+
+1
+
+uz
+2b (1 + n)
+
+.
+
+)
+
+(n + 1)(3n 1) b
+2b (n + 1) uz
+1
+, 2b (n + 1) ,
+c . When z < min
+1+n u
+4bn z
+2b (1 u)[b (n + 1)2 uz]
+n
+DR
+q
+is
+greater
+than
+zero
+first
+and
+then
+less
+than
+zero. When
+i=1 i
+n
+n
+DA
+DR
+n
+n
+q is always less than zero.
+F1 (a min ) 0 . Therefore, i = 1 qi
+i=1 i
+
+z
+and z 2b (n + 1), F1n (a) decreases in a and
+1+n u
+Proposition 3 is proved to be robust with a duopoly competition. Proposition 1 can also be proved when z = 0 .
+DA
+DR
+n
+Second, we examine whether Proposition 4(2) is robust. Let F2n (a) = Pn
+Pn . The quadratic coefficient of F2 (a ) is
+b [16nu (1 + n)2] 3uz
+n
+. We can find that if u 0.25, F2 (a) is a convex function and the discriminant of quadratic function is
+2
+4[b (n + 1)
+
+uz ](4bn z )
+c 2u2n2 [4b (3n 1 + u) 3z]
+4b (3n 1 + u)
+d
+) 0 , which means F2n (a) has two unequal positive roots.
+, 3 > 0 and F2n (a min
+. When z <
+3
+4b (1 u)2 [b (n + 1)2 uz](4bn z )
+4b (3n 1 + u)
+, 3 0 , which means
+Therefore, F2n (a) is less than zero first, then greater than zero, and finally less than zero. When z
+3
+n
+n
+F2 (a) has no real roots. Therefore, F2 (a) 0 . Proposition 4 is proved. Proposition 2 can also be proved when z = 0 .
+Third, we examine whether Proposition 5 is robust. For convenience, we still call the two roots of F2n (a) are a1D (z ) and a2D (z ) . In
+[4b (3n 1 + u) 3z][b (n + 1)2 uz ](4bn z )
+2cun
+this condition, we have a2D (z ) a1D (z ) = 3 = (1 u) b
+, which decreases in z.
+b [(1 + n)2 16nu] + 3uz
+
+3
+
+=
+
+Proof of competition with heterogeneous manufacturers
+d
+=
+First, we examine whether Proposition 3(1) is robust. For positive profit and sales, we have amin
+17
+
+(6b
+
+c (6b uz )
+uz ) m
++ 6b (1 u)
+6b
+
+in this
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+(
+
+)
+
+(
+
+)
+
+2
+2
+6a
+2a
+2c
+c (6b uz )
+3bm
+15b
+q DA
+q DR = 9b uz
++ 8b z
++ b (9b uz ) . When z < min 3 u , 6b
+i=1 i
+i=1 i
+8b z
+b (9b uz )(1 u)
+2
+2
+2cu (6b z )
+DA
+DR
+d
+d
+d
+q is greater than zero first and
+m1 = (1 u)[42b (6 u) z ] , F1 (a) increases in a and F1 (amin ) 0 . Therefore, i = 1 qi
+i=1 i
+2
+2
+15b
+d
+d
+d
+q DR is always less
+than zero. When z 3 u and z 6b, F1 (a) decreases in a and F1 (amin ) 0 . Therefore, i = 1 qiDA
+i=1 i
+
+condition. Let F1d (a) =
+
+m
+
+and
+then
+
+less
+than
+zero. Proposition 3 is proved to be robust with a duopoly competition. Proposition 1 can also be proved when z = 0 .
+DA
+DR
+d
+Second, we examine whether Proposition 4(2) is robust. Let F2d (a) = Pd
+Pd . The quadratic coefficient of F2 (a) is
+9b (4u 1) 3uz
+d
+. We can find that if u 0.25, F2 (a) is a convex function and the discriminant of quadratic function is
+2(9b
+2
+
+=
+
+uz )(8b z )
+A (m) 3u2 [c 2
+b (9b uz )(1
+
+m2 (1 u)2] z
+.
+u)2 (8b z )
+
+When the value of z makes
+
+m2 is the positive root of f (m) =
+
+u (10b
+2b (9b
+
+uz ) 2
+m
+uz )
+
++
+
+(9b
+
+2
+
+cum
+uz )(1
+
+> 0 , to make the two roots of F2d (a) positive, we obtain that m
+c2
+2(8b z )
+
+u)
+
+c 2 (8b uz )
+.
+2b (9b uz )(1 u)
+
+Therefore, when m
+
+m2 ,
+
+m2 , where
+
+F2d (a)
+
+is less than
+
+zero first, then greater than zero, and finally less than zero. When the value of z makes 2 0 , which means F2d (a) has no real roots.
+Therefore, F2d (a) 0 . Proposition 4 is proved to be robust with a duopoly competition. Proposition 2 can also be proved when z = 0 .
+Third, we examine whether Proposition 5 is robust. For convenience, we still call the two roots of F2d (a) are a1D (z ) and a2D (z ) . In
+this condition, we have a2D (z )
+
+a1D (z ) =
+
+Therefore, when 2 0,
+Proof of Proposition 7
+R =
+Let F4 (z ) = A
+
+a1D (z )
+
+a2D (z )
+
+u
+
+A1 =
+
+c 2u
+a2 (1 u)2
+
+c2
+
+than zero. When a <
+
+2 (9b
+
+uz )(8b
+(1
+
+z ){A (m )
+
+3u2 [c 2
+
+u)[3uz + 9b (1
+
+decreases in z.
+
+z [(u A1 ) z + 4b (A1 1)]
+,
+(4b uz )(4b z )
+
+where
+
+m2 (1
+
+A1 =
+
+(1
+
+u)
+
+, A1
+3
+
+. When m
+
+a2u (1 u)2
+.
+a2 (1 u)2 c 2
+c
+
+< 0 , which means F4 (a) decreases in z. When a
+c
+
+u)2] z }
+
+4u)] b
+
+(1
+
+u )3
+
+We
+
+m1 , we can find that c 2
+
+find
+
+, F (0) = A1
+
+that
+
+1
+
+F4 (4b) = 4b (u
+
+m2 (1
+
+u )2
+
+1) < 0
+
+0,
+
+and
+
+0 , which means F4 (a) is always less
+
+1 > 0 , which means F4 (a) is greater than zero then less than zero.
+
+Proof of Proposition 8
+NR
+We have made f2 (a) = PNA
+0.25, f2 (a) is a convex function. Now
+P in the proof of Proposition 2. We have proved that if u
+0.25
+< u 1. When 0.25 < u 1, f2 (a) is a concave function and f2 (a min ) 0 . Its symmetry axis is to
+we examine the situation when
+the left of a = 0 . This means f2 (a) has one unequal positive root. Therefore, f2 (a) is less than zero first and then higher than zero.
+Proof of Proposition 9
+DR
+0.25, F2 (a) is a convex function. Now
+We have made F2 (a) = PDA
+P in the proof of Proposition 4. We have proved that if u
+4b (4u 1)
+4b (u + 2)
+, F2 (a) is a concave function and
+we examine the situation when 0.25 < u 1. When 0.25 < u 1, if 0 < z
+3u
+3
+F2 (a min ) 0 . Its symmetry axis is to the left of a = 0 . This means F2 (a) has one unequal positive root. Therefore, F2 (a) is less than
+4b (4u 1)
+, F2 (a) is a convex function and the proof process is the same as Proposition 4.
+zero first and then higher than zero. If z >
+3u
+Appendix D
+When u is endogenous, the sequence of events under the agency selling mode is: i) the platform determines the percentage fee, ii)
+the platform determines the DDM quality and iii) the manufacturer decides the quantity of products sold on the platform. Start with
+the simple case (z = 0 ).
+the condition
+into
+
+NA
+P
+
+a2
+c2
+
+NR
+P
+
+=
+
+NA
+P
+
+u
+
+(1 + u )
+,
+(1 u )3
+
+=
+
+1
+4b
+
+where
+
+and let x = 1
+
+a2
+
+(1
+
+(1 + u )
+(1 u )3
+
+c2
+u)2
+
++
+
+u
+4b
+
+(1
+
+2c 2
+u)3
+
+increases in u and
+
+c
+
+u, k = a .We can get
+
+NA
+P
+
+NA
+P
+
+. Let
+
+u
+
+(1 + u )
+(1 u )3
+
+NR
+P
+
+= 0 , we can get that the optimal percentage fee u should meet
+
+increases in a. Therefore, u increases in a. Substitute a2 =
+
+=
+
+4x +
+
+4x 2
+2 x
+
+4x
+2
+
+x
+
++2
+
+x3
+
+x3
+2
+
+x
+
+2
+
+x
+
++3
+
+a2
+16b
+
+c 2 (1 + u)
+(1 u)3
+
+> 0 . Therefore, when
+
+u is endogenous, the agency selling mode is always better than the reselling mode, and the optimal percentage fee increases as the
+market size increases.
+When z > 0 , although we cannot accurately obtain the mathematical expression to be satisfied when PDA < PDR , the condition
+DA
+< PDR has proven to exist. For example, if a = 20, c = 10, b = 1, z = 3.6, through the numerical simulation, we can get that when
+P
+4(u + 2)
+3.47 z = 3.6 < 4 , which satisfies the
+0.6 . At this point,
+u is greater than 0.6, PDA decreases in u, which means that u
+3
+situation (3) in Proposition 4. Therefore,
+
+DA
+P
+
+<
+
+DR
+P .
+
+Appendix E. Supplementary material
+Supplementary data associated with this article can be found, in the online version, at https://doi.org/10.1016/j.tre.2020.
+101914.
+
+References
+Abhishek, V., Jerath, K., Zhang, Z.J., 2016. Agency selling or reselling? Channel structures in electronic retailing. Manage. Sci. 62 (8), 2259–2280.
+Ansari, A., Mela, C.F., Neslin, S.A., 2008. Customer channel migration. J. Mark. Res. 45 (1), 60–76.
+Aral, S., Walker, D., 2014. Tie strength, embeddedness, and social influence: a large-scale networked experiment. Manage. Sci. 60 (6), 1352–1370.
+Arunachalam, D., Kumar, N., Kawalek, J.P., 2018. Understanding big data analytics capabilities in supply chain management: unravelling the issues, challenges and implications
+for practice. Transport. Res. Part E: Logist. Transport. Rev. 114, 416–436.
+Barenji, A.V., Wang, W.M., Li, Z., Guerra-Zubiaga, D.A., 2019. Intelligent E-commerce logistics platform using hybrid agent based approach. Transport. Res. Part E: Logist.
+Transport. Rev. 126, 15–31.
+
+18
+
+Transportation Research Part E 136 (2020) 101914
+
+W. Liu, et al.
+
+Beijing Business Daily. JD Finance upgraded to JD Digital Technology. 2018–11-20 <http://finance.sina.com.cn/roll/2018-11-20/doc-ihmutuec1864574.shtml> (in Chinese).
+Besbes, O., Gur, Y., Zeevi, A., 2015. Optimization in online content recommendation services: beyond click-through rates. Manuf. Serv. Oper. Manage. 18 (1), 15–33.
+Braverman, S., 2015. Global review of data-driven marketing and advertising. J. Direct, Data Digital Market. Pract. 16 (3), 181–183.
+Cai, G., Dai, Y., Zhou, S.X., 2012. Exclusive channels and revenue sharing in a complementary goods market. Market. Sci. 31 (1), 172–187.
+Carr, D., 2012. Book Publishing’s Real Nemesis The New York Times. 2012–4-15 <http://www.nytimes.com/2012/04/16/business/media/amazon-low-prices-disguise-ahighcost.html>.
+Choi, S.C., 1991. Price competition in a channel structure with a common retailer. Market. Sci. 10 (4), 271–296.
+Cali, S., Balaman, S.Y., 2019. Improved decisions for marketing, supply and purchasing: mining big data through an integration of sentiment analysis and intuitionistic fuzzy multi
+criteria assessment. Comput. Industr. Eng. 129, 315–332.
+China Daily News, 2019. Tmall supermarket turned to walking on two legs- Consignment and procurement. 2019–01-04 <https://baijiahao.baidu.com/s?id=
+1621691661181395405> (in Chinese).
+Choi, T.M., He, Y., 2019. Peer-to-peer collaborative consumption for fashion products in the sharing economy: Platform operations. Transport. Res. Part E: Logist. Transport. Rev.
+126, 49–65.
+Choi, T.M., Wallace, S.W., Wang, Y., 2018. Big data analytics in operations management. Prod. Oper. Manage. 27 (10), 1868–1883.
+Cohen, M.C., 2018. Big data and service operations. Prod. Oper. Manage. 27 (9), 1709–1723.
+Cri.cn. Shiseido cooperates with Tmall Super Brand Day to create a new retail model for the cosmetics industry. 2018–10-22 <http://talk.cri.cn/n/20181022/19684d09-c104c541-a6b6-fd4ee5d7665c.html> (in Chinese).
+Curko, K., Silovic, T., Merkas, Z., 2018. Challenges of application of the big data in marketing: case study Croatia. WSEAS Trans. Business Econ. 15, 162–170.
+Ghoshal, A., Kumar, S., Mookerjee, V., 2018. Production and Operations Management. Dilemma of Data Sharing Alliance: When Do Competing Personalizing and NonPersonalizing Firms Share Data. https://doi.org/10.1111/poms.12959.
+Hagiu, A., Wright, J., 2015. Marketplace or reseller? Manage. Sci. 61 (1), 184–203.
+Inoue, Y., 2019. Winner-takes-all or co-evolution among platform ecosystems: a look at the competitive and symbiotic actions of complementors. Sustainability 11 (3), 726.
+JD.com public welfare, 2020, <https://www.jd.com/> (in Chinese).
+Jiang, B., Jerath, K., Srinivasan, K., 2011. Firm strategies in the mid tail of platform-based retailing. Market. Sci. 30 (5), 757–775.
+Jiang, B., Tian, L., 2018. Collaborative consumption: strategic and economic implications of product sharing. Manage. Sci. 64 (3), 1171–1188.
+Jiang, H., Qi, X., Sun, H., 2014. Choice-based recommender systems: a unified approach to achieving relevancy and diversity. Oper. Res. 62 (5), 973–993.
+Jin, Y., Wang, S., Hu, Q., 2015. Contract type and decision right of sales promotion in supply chain management with a capital constrained retailer. Eur. J. Oper. Res. 240 (2),
+415–424.
+Kwark, Y., Chen, J., Raghunathan, S., 2012. Platform or wholesale: different effects on retailers of online product reviews. Proc. ICIS 18 (4), 2012.
+Liu, B., Cai, G.G., Tsay, A.A., 2014. Advertising in asymmetric competing supply chains. Prod. Oper. Manage. 23 (11), 1845–1858.
+Liu, W., Yan, X., Wei, W., Xie, D., 2019. Pricing decisions for service platform with provider’s threshold participating quantity, value-added service and matching ability.
+Transport. Res. Part E: Logist. Transport. Rev. 122, 410–432.
+Lu, Q., Shi, V., Huang, J., 2018. Who benefit from agency model: a strategic analysis of pricing models in distribution channels of physical books and e-books. Eur. J. Oper. Res.
+264 (3), 1074–1091.
+Lu, S., Xiao, L., Ding, M., 2016. A video-based automated recommender (VAR) system for garments. Market. Sci. 35 (3), 484–510.
+Mantin, B., Krishnan, H., Dhar, T., 2014. The strategic role of third-party marketplaces in retailing. Prod. Oper. Manage. 23 (11), 1937–1949.
+Niu, B., Li, J., Zhang, J., Cheng, H.K., Tan, Y., 2019. Strategic analysis of dual sourcing and dual channel with an unreliable alternative supplier. Prod. Oper. Manage. 28 (3),
+570–587.
+Ofek, E., Katona, Z., Sarvary, M., 2009. Bricks and clicks: the impact of product returns on the strategies of multichannel retailers. Market. Sci. 30 (1), 42–60.
+Ryan, J.K., Sun, D., Zhao, X., 2012. Competition and coordination in online marketplaces. Prod. Oper. Manage. 21 (6), 997–1014.
+Sohu.com. Dyson and JD.com solve the growth problem in the home appliance industry. 2019–08-28 <http://www.sohu.com/a/336925271_100003987> (in Chinese).
+Tian, L., Vakharia, A.J., Tan, Y., Xu, Y., 2018. Marketplace, reseller, or hybrid: strategic analysis of an emerging E-Commerce model. Prod. Oper. Manage. 27 (8), 1595–1610.
+TM public welfare, 2018, Tmall rules <https://rule.tmall.com/tdetail-9251.htm?spm=a2177.7731969.0.0.2e90c32fXy8wLr> (in Chinese).
+Trnka, A., 2017. Big data for big marketing. Eur. J. Sci. Theol. 13 (6), 191–196.
+Tucker, C., Zhang, J., 2011. How does popularity information affect choices? A field experiment. Manage. Sci. 57 (5), 828–842.
+Wei, J., Lu, J., Zhao, J., 2020. Interactions of competing manufacturers’ leader-follower relationship and sales format on online platforms. Eur. J. Oper. Res. 280 (2), 508–522.
+Xu, J., Hsu, V.N., Niu, B., 2018. The impacts of markets and tax on a multinational firm’s procurement strategy in China. A field experiment 27 (2), 251–264.
+Yu, W., Chavez, R., Jacobs, M.A., Feng, M., 2018. Data-driven supply chain capabilities and performance: a resource-based view. Transport. Res. Part E: Logist. Transport. Rev.
+114, 371–385.
+Zhang, J., Cao, Q., He, X., 2019. Contract and product quality in platform selling. Eur. J. Oper. Res. 272 (3), 928–944.
+
+19
+
+

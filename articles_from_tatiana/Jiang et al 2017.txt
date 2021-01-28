@@ -1,0 +1,1741 @@
+Vol. 26, No. 3, March 2017, pp. 509–524
+ISSN 1059-1478|EISSN 1937-5956|17|2603|0509
+
+DOI 10.1111/poms.12653
+© 2016 Production and Operations Management Society
+
+P2P Marketplaces and Retailing in the Presence of
+Consumers’ Valuation Uncertainty
+Lifei Jiang, Stanko Dimitrov, Benny Mantin
+Department of Management Sciences, University of Waterloo, 200 University Avenue West, Waterloo, Ontario Canada N2L 3G1,
+l43jiang@uwaterloo.ca, sdimitro@uwaterloo.ca, bmantin@uwaterloo.ca
+
+an peer-to-peer (P2P) marketplaces benefit traditional supply chains when consumers may experience valuation risk?
+P2P marketplaces can mitigate consumers’ risk by allowing them to trade mismatched goods; yet, they also impose a
+threat to retailers and their suppliers as they compete over consumers. Further, do profit-maximizing marketplaces always
+extract the entire consumer surplus from the online trades? Our two-period model highlights the effects introduced by
+P2P marketplaces while accounting for the platform’s pricing decisions. We prove that with low product unit cost, the
+P2P marketplace sets its transaction fee to the market clearing price, thereby extracting all of the seller surplus. In this
+range of product unit cost, the supply chain partners are worse off due to the emergence of a P2P marketplace. However,
+when the unit cost is high, the platform sets its transaction fee to be less than the market clearing price, intentionally leaving money on the table, as a mechanism to stimulate first period demand for new goods in expectation for some of them
+to be traded later, in the second period, via the marketplace. It is not until the surplus left with the sellers is sufficiently
+high that the supply chain partners manage to extract some of this surplus, ultimately making them better off due to a
+P2P marketplace. We further analyze the impact of a P2P marketplace on consumer surplus and social welfare. In addition, we consider model variants accounting for a frictionless platform and consumer strategic waiting.
+
+C
+
+Key words: consumers’ valuation risk; P2P marketplace; retailing strategy; backward induction
+History: Received: August 2014; Accepted: February 2016 by Haresh Gurnani, after 3 revisions.
+
+hurdles, such as (excessive) restocking fees,2 nonrefundable fees (e.g., activation fees for mobile
+phones), long waiting times (Tuttle 2013) (which exacerbates time spent on traveling back to the store or to
+the post office), missing receipts,3 and conditions
+imposed by stores for the returned goods to be in likenew condition (AT&T, for instance, also demands the
+software accompanying a mobile device to be in unopened shape) or even unopened (for example, computer components, drones, headphones or major
+appliances at BestBuy Canada)—a condition that is
+not always trivial to satisfy, especially if product fit is
+known only through experience. Importantly, for
+many goods and many consumers, the trial period
+may not suffice to conclude whether they would like
+to keep the good or not. These reasons probably
+explain the vast amount of unwanted goods that find
+their way into peer-to-peer (P2P) platforms, such as
+Craigslist, eBay, Kijiji, and more recently FaceBay,
+which are marketplaces in which consumers sell
+goods directly to one another (Wright 2014).4
+We further validate our qualitative observations
+above via a survey conducted on Amazon’s Mechanical Turk platform. In the survey, we asked 113 selfselected participants in the USA about how they use
+online platforms to alleviate their valuation uncertainty. Our survey reveals that 33% of all participants
+
+1. Introduction
+Buyer uncertainty can unfold in a variety of ways.
+Consumers may possess uncertainty regarding their
+consumption state—namely how many units they
+require and/or how often they use the product—the
+type of product they want to consume (Fay and Xie
+2010), or the fit of the good for their needs (e.g., as
+firms may intentionally limit the amount of information released to consumers (Chu and Zhang 2011)). In
+addition, when shopping, consumers may make
+quick purchasing decisions only to later realize that
+the purchased product has limited or no value to
+them. This valuation uncertainty (as in Prasad et al.
+2011) exposes consumers to risky decision making
+and, accordingly, their willingness to pay is diminished (Grewal et al. 1994, Teo and Yeong 2003). Thus,
+valuation uncertainty can inhibit potential consumers
+from purchasing, and hence harm the supply chain
+partners—the retailers and their immediate suppliers.
+Returning unwanted goods is not always an option.
+For instance, numerous stores do not accept returns
+(apparel, consumer electronics) simply because a customer did not like it, arguing that the experience at
+the store should suffice to determine fit.1
+Although in other cases consumers can return
+unwanted goods, they usually face a number of
+509
+
+510
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+have sold a product online only because it did not
+meet their expectations. Of those individuals, 92% stated that knowing that they may sell the product
+online alleviated their uncertainty regarding the product meeting their expectations. This survey further
+supports our qualitative observations. The complete
+survey description and results are provided in
+the Online Supplement that accompanies this
+manuscript.
+Do these P2P platforms hurt retailers in the same
+fashion that online retailing was blamed in stealing
+market share away from brick-and-mortar stores
+(Bhatnagar 2006)? Indeed, a McKinsey report
+(MacKenzie et al. 2013) pointed out that companies
+such as “Craigslist, eBay, and Etsy (home to almost a
+million small businesses) are creating [P2P] marketplaces ... [that] are eating into traditional demand for
+retail goods.” However, this view completely ignores
+the potential benefit for traditional retailing. Platforms argue that “they can help retailers because
+shoppers are more willing to spend if they know they
+can easily resale items later” (AP 2014). Evidently,
+consumers purchase goods while keeping in mind the
+resale value they can fetch through online P2P platforms (AP 2014). This was confirmed in our survey,
+however we consider platforms alleviating mismatch
+uncertainty more so than recouping costs.
+While independent P2P platforms, which are generally profit-maximizing entities, are not established to
+hurt or support traditional supply chains per se, in
+this manuscript we ask whether the latter are better
+off, or worse off, due to the emergence of the former.
+On the one hand, supply chain partners can leverage
+the advantage of the P2P marketplaces to reduce the
+risk faced by consumers and increase their sales. On
+the other hand, the supply chain partners need to
+compete with the P2P platforms who offer used goods
+that eats into their profits.5 Furthermore, profit-maximizing platforms may have the incentive to set the
+transaction fee equal to the selling price of the goods
+traded on the platform (see, Mantin et al. 2014). By
+doing so, all surplus gained could be extracted by the
+platform, neutralizing all benefits to the supply chain
+partners.
+Hence, in this manuscript, we focus our discussion
+on the friction between traditional retailing and P2P
+platforms by addressing the two opposing forces
+brought on by P2P platforms. It is this perspective
+that highlights our contribution, as to the best of our
+knowledge, this manuscript is the only one to explore
+the trade-off between buyer valuation uncertainty
+and P2P platforms. In particular, we address a number of important research questions: Would the platform always extract all benefits to sellers, and if not,
+why? Can, and under what conditions, P2P marketplaces benefit or harm supply chain partners in the
+
+presence of consumers’ valuation uncertainty? Additionally, can consumers receive any benefits from P2P
+marketplaces, or are these benefits neutralized by the
+operators of these marketplaces and/or supply chain
+partners? Lastly, does a P2P marketplace induce a net
+social welfare gain? Namely, a P2P marketplace is
+more likely to emerge if it can generate positive profit.
+Is this profit merely a redistribution of wealth or generation of new welfare?
+To study a P2P marketplace’s pricing decision and
+the implications of its emergence on the supply chain
+partners, consumers, and social welfare, we consider,
+in this study, a two-period setting in which a single
+retailer purchases a quantity of a single product from
+a single supplier and then sells to consumers. The
+consumers are forward-looking, as they take into consideration the possibility that the purchased product
+will not match their expectations after purchase. In
+each of the periods, the supplier sets the wholesale
+prices and then the retailer places his order quantity,
+which corresponds to the selling price. Once a platform is established, it allows consumers to salvage the
+mismatched products by selling them in the second
+period. The profit-maximizing platform generates
+revenue by charging consumers a fixed transaction
+fee, which is set ahead of any actions taken by the
+supply chain partners. Given the transaction fee set
+by the platform, the supply chain partners optimize
+their decisions to maximize their respective profits.6
+The analysis gives rise to several important
+insights. Our first finding is that the profit maximizing platform does not always extract all surplus form
+the consumers who sell their unwanted goods via the
+platform. While existing literature has either assumed
+an exogenous transaction fee or simply that the platform is a fringe and hence extracts all surplus from
+the marketplace sellers, we endogenize this decision
+made by the platform operator. Indeed, when the unit
+cost of the product is sufficiently low, the platform
+behaves as in Mantin et al. (2014) and extracts all surplus. However, when the unit cost is high, then the
+platform sets the transaction fee to be lower than the
+market clearing price. The incentive of the platform
+operator in this case is clear: the high unit cost, which
+is then reflected by a high selling price, inflicts a high
+loss to consumers when a mismatch occurs. To relieve
+consumers and stimulate first period demand, in
+expectation of increased platform traffic in the second
+period, the platform operator commits to a transaction fee that leaves sellers with some surplus.7
+Second, when a profit-maximizing P2P platform is
+involved, both supply chain partners will be better off
+if the product’s unit cost is sufficiently high and both
+will be worse off otherwise (we also note that the minimum unit cost that makes the supply chain partners
+better off is higher than the minimum unit cost that
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+makes consumers better off). The intuition behind this
+is that a P2P platform may stimulate first period
+demand by eliminating consumers’ valuation uncertainty and induce the supply chain partners to
+increase the price of new products, however, the platform also imposes competition that impairs the supply chain partners’ second period profit. When the
+product’s unit cost is low, the ratio of transaction fee
+to mismatched goods selling price is high, which
+means the platform extracts all or most of the surplus
+form its consumers and hence reduces first period
+demand. As a result, the supply chain partners will
+not gain enough to compensate the loss from the competition brought on by the platform in the second period due to low first period demand.
+Third, when the product’s unit cost is sufficiently
+high, a P2P platform benefits consumers in two ways:
+(1) it introduces competition between new and used
+goods in the second period and (2) it relieves consumers from their valuation uncertainty as they
+recoup some of the loss by selling mismatched products through the platform. Thus, the price of new
+goods in the second period is lower and consumers
+surplus in the first period can be higher while inducing more consumers to purchase the good, overall
+making consumers better off. Importantly, we find
+that the social welfare can be improved as all parties
+—the consumers, the marketplace, and the supply
+chain partners—may be simultaneously better off. In
+the alternate case, when the product’s unit cost is sufficiently low, the platform’s harm outweigh its benefit, making consumers worse off. In this setting, the
+upward price pressure on the retailer in the first period eliminates some consumers from purchasing in
+the first period—an effect that outweighs the benefit
+of additional consumers purchasing from the platform. In this case, not only consumers are worse off:
+the upward price pressure on the retailer results in
+net loss in profits for the supply chain partners as
+well.
+Fourth, as we also distinguish between a profitmaximizing platform and a frictionless P2P platform
+which charges no transaction fee for online trades
+among consumers, we find that the frictionless P2P
+platform further stimulates competition in the second
+period driven by the increased demand experienced
+in the first period. As the frictionless platform gains
+no profit from online transactions, the supply chain
+partners are generally better off unless the mismatched probability is high and the unit cost is low,
+and consumers are always better off compared to the
+benchmark scenario. All agents are never worse off
+and mostly better off compared to the profit-maximizing platform scenario.
+Last, the analysis of the setting where consumers
+exhibit strategic waiting—those who arrive in the first
+
+511
+
+period may delay their purchase of a new good to the
+second period—suggests that the retailer can still be
+better off due to the presence of a platform. Interestingly, the platform can further benefit the retailer
+when the probability of a mismatch is relatively high.
+This occurs as the platform, which provides consumers with a channel to trade their mismatched
+goods, allows the retailer to inter-temporally segment
+the consumers who arrive in the first period, by committing, in such a setting, to increase the price over
+time.
+The rest of the study is organized as follows. Section 2 presents a review of related literature. Section 3
+describes the model framework. The benchmark scenario and the scenario that accounts for the presence
+of a profit-maximizing platform are analyzed in section 4. In section 5, we further discuss the implications
+of the platform on the supply chain partners, consumers and social welfare. The scenarios with a frictionless platform and strategic waiting are analyzed
+in section 6. Lastly, section 7 concludes the study.
+
+2. Literature Review
+Several papers have studied the impact of secondary,
+used goods, markets on the primary, new goods, markets. For example, Chen et al. (2013) developed a
+dynamic model where consumers experience random
+valuation shocks and goods stochastically perish over
+time, and then calibrated the model using automotive
+sales data revealing a drop of 35% in retailers’ profitability due to secondary used goods trading. Johnson (2011) focused on the role of the retailers’ choice
+of product durability in a two-period setting with random redraw of consumers valuations, in suggesting
+constellations where secondary markets may increase
+a monopolist’s profits. Our study contributes to this
+stream by integrating the important aspect of buyer
+uncertainty and the corresponding product mismatch
+consumers face while accounting for the presence of a
+supplier to account for channel coordination
+considerations.
+A related stream of literature considers the impact
+of various secondary marketplaces on the supply
+chain. Shulman and Coughlan (2007), who explicitly
+account for the role of the supplier, limit the scope of
+their study to a retailer-controlled secondary market:
+the retailer buys back used goods at a pre-determined
+price (which is a major lever in controlling the flow of
+used goods back to the market) from the consumers
+and resells them in the second period alongside new
+goods, implying that under certain conditions, the
+retailer effectively operates a rental market. We differ
+from this model by capturing both the role of the
+independent secondary market where prices are
+determined endogenously and the valuation
+
+512
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+uncertainty that consumers encounter. A similar
+paper by Ghose et al. (2005) investigate in the impact
+of a retailer operated P2P platform on the suppliers.
+Specifically, they show while a monopoly supplier
+might be worse off due to a platform, duopoly suppliers with quality differentiated goods might be better
+off. An independent secondary market is studied by
+Oraiopoulos et al. (2012), where the market operator
+purchases used goods from consumers, refurbishes
+them and then the consumers who buy these units
+purchase a license from the Original Equipment Manufacturer (OEM). The OEM, by setting this relicensing
+fee, can control the secondary market (i.e., it can effectively shut down this market by charging a high
+licensing fee). The authors find that the OEM keeps
+the secondary market when consumers’ willingness
+to pay for a refurbished good is high as the OEM benefits twice: relicensing fee and higher selling price
+(due to resale value). In our setting, the retailer does
+not have this luxury of two streams of revenue while
+the entrant operates a platform (rather than as a retailer). Hence, our focus is on the effect of platforms in
+the absence of the relicensing fee while further
+accounting for the role of consumers’ uncertainty.
+Closely related to our contribution are the papers
+by Yin et al. (2010) and G€
+um€
+ußs et al. (2013). Yin et al.
+(2010) consider supplier induced product upgrades
+and the presence of a secondary used good market
+(either retailer-controlled and/or P2P platform),
+where they find that the supply-chain partners may
+benefit from the emergence of P2P platforms. G€
+um€
+ußs
+et al. (2013) explore the role of P2P platforms in affecting the supplier’s choice of return policies offered to
+the retailer in a two-period setting. The buyback
+option has an important role in mediating competition: the retailer returns all unsold goods back to the
+supplier to avoid competition with the platform.
+However, in both papers, consumers do not face valuation risk and after using the good, all consumers
+return or resell the good. Additionally, our manuscript further differentiates from the above contributions as we distinguish between platforms that charge
+a transaction fee from the sellers, with the transaction
+fee being endogenously determined in our model,
+(which are common in practice, such as eBay) and
+frictionless platforms (an assumption adopted by
+most of the above-mentioned papers). Endogenizing
+the platform transaction fee generalizes the only
+result we are aware of in profit maximizing P2P platforms by Mantin et al. (2014), who assumed the platform sets the transaction fee to the market clearing
+price. By contrast, we show that the profit maximizing
+platform does not always extract all consumer surplus and characterize the conditions, sufficiently high
+per-unit product cost, in which the platform extracts
+only some of the surplus.
+
+Online P2P platforms have attracted other research
+questions, such as the empirical investigation of the
+role of online deal-forums in influencing the trading
+prices on P2P platforms (which supports our assumption of a market clearance mechanism) Gopal et al.
+(2006). Others have focused on Amazon’s dual-format
+retailing, such as Mantin et al. (2014) and the substitution between new and used books offered on Amazon
+Ghose et al. (2006). More broadly, a P2P platform can
+be perceived as a two-sided market. The two-sided
+market literature endogenizes the transaction fee, but
+it is primarily concerned with market participation,
+by controlling access and usage fees. Generally, this
+literature does not consider competition between secondary and primary markets (Rochet and Tirole
+2006).
+The other aspect of our modeling framework is
+consumers’ buyer uncertainty, which then results
+with a product mismatch. A stream of research
+explores pricing strategies in the presence of such
+risk. Hsiao and Chen (2012) note that quality risk
+has an impact on the retailer’s return policy and
+pricing strategies. Other papers extend the product
+return literature to account for various constellations
+such as competition and supply chain considerations (see, e.g., Shulman et al. 2009, 2010, 2011). Gu
+and Liu (2013) argue that better matching between
+consumers and products may hurt the retailer’s
+profit, in which case, the retailer cuts its own sales
+commissions and blocks manufacturer SPIFF (Sales
+Person Incentive Funding Formula) programs so as
+to suppress retail sales assistance provided by its
+own personnel. In B2C channels, retailers and consumers face not only product quality risk, but also
+valuation uncertainty due to information asymmetry. Given consumers’ uncertainty, Chu and Zhang
+(2011) show that a retailer can induce consumers
+into pre-ordering goods by controlling product
+information release. Consumers’ valuation uncertainty plays an important role in their behaviors.
+Indeed, it is often considered in supply chain studies; yet, this consideration is rather absent when a
+P2P platform is present. Our study contributes to
+the literature by highlighting the role of consumers’
+valuation uncertainty in the interaction between a
+P2P platform and supply chain partners.
+
+3. Modeling Framework
+In this section, we describe our model setup and the
+methods to solve the model. In order, to capture the
+inter-temporal interaction within supply chain members and consumers, we simplify time, by only considering two periods, with pricing, production, and
+purchase decisions being made in both periods. We
+first consider a benchmark scenario, where a single
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+profit-maximizing retailer purchases new durable
+products from one profit-maximizing supplier and
+then retails them to consumers in the absence of a
+platform. We then consider a scenario, where a profitmaximizing platform is present and competes with
+the retailer in the second period by letting consumers
+trade mismatched goods purchased in the first period.
+Later in the manuscript, we also consider the special
+case of a frictionless platform scenario. For all scenarios, we consider ex ante equilibrium decisions and
+assume risk-neutral agents.
+Similar to Yin et al. (2010), a new set of consumers
+shows up in each period and their initial valuations
+v are uniformly distributed between 0 and 1. Those
+consumers also face valuation uncertainty: due to a
+variety of issues, not entirely modeled in this study,
+such as lack of information, consumers may find the
+good to be unfit for their purposes. Specifically, we
+assume that after some preliminary use, consumers
+realize their actual valuation for the good. In practice, consumers may develop expectations about
+their valuation for the goods based on, for example,
+media attention, commercials, or word-of-mouth.
+However, they may not know their true valuation
+for the good until some preliminary use. This is true
+for a variety of products such as some electronic
+goods, where the user experience can be quite instrumental in determining whether the consumer would
+like to own the good or not. Unfortunately, for many
+of these goods, it is not possible to return the item
+after initial use, and thus a consumer may be left
+with a negative net utility after realizing their true
+personal value of the good. Using the terminology
+used in Hsiao and Chen (2012), we assume that with
+some probability, consumers find the product to be
+mismatched and hence has no value for them, and
+with the complementary probability the good has
+the full initial valuation, v. We use ai 2 f0; 1g to indicate consumer i’s mismatch realization, where ai ¼ 1
+implies that the product is a mismatch and hence the
+realized valuation of the product is 0, and ai ¼ 0
+indicates a match and hence the full valuation v is
+materialized. We let h 2 [0,1] represent the probability of consumers having full private valuation, that
+is, ai ¼ 0. For the purpose of simplification, we
+assume consumers are homogeneous with respect to
+their uncertainty risk, which means h is also the
+expected probability of consumers having a matched
+product. Since consumers are risk-neutral and forward looking,8 they purchase the good only if their
+expected utility, hvp, where p denotes the price, is
+non-negative.
+Throughout the analysis, we use the following
+notation: Let the first superscript, i, denote the scenarios and the second superscript, j, denote the players.
+The first subscript, t, denotes the periods and the
+
+513
+
+second subscript, r, denotes the types of products.
+The complete notation is provided in Table 1.
+The sequence of events in the benchmark setting is
+depicted in the top row of Figure 1. In period 1, the
+supplier sets the wholesale price wBS
+1n , then the retailer
+purchases an amount, qBR
+,
+of
+new
+products from the
+1n
+supplier. This quantity corresponds to a first period’s
+9
+selling price pBR
+1n . We use c to denote the unit cost of
+acquiring one product for the supplier, and we
+assume c < h. This assumption is necessary to satisfy
+the supplier’s individual rationality constraint by
+guaranteeing positive profit in expectation in all scenarios. After pBR
+1n has been announced, consumers buy
+products based on their expected utility. At the end of
+period 1, individual mismatch, ai , is realized and all
+consumers with mismatched products (ð1  hÞqBR
+1n in
+expectation) experience a negative utility, pBR
+1n . As
+discussed previously, we assume that customers cannot return used goods to the retailer for a refund,
+instead, in our model the consumer may only sell
+their used goods via a P2P platform, if it is available.
+This is indeed the case for most electronic goods, and
+such goods may be seen sold on P2P platforms.
+In period 2, a new set of consumers shows up. In
+our study, we are not considering completely new
+products, period to period, and as such consumers
+that have made their decision in the first period have
+no reason to reconsider the decision again in the second. Implicitly, we do not consider strategic waiting
+by consumers in the main model of our study, however we discuss the impact of strategic consumers,
+those that decide to wait between period 1 to period 2
+in section 6.2. The supplier sets the new wholesale
+BR
+price wBS
+2n , then the retailer purchases an amount, q2n ,
+of new products from the supplier and hence the second period’s selling price pBR
+2n is determined. As
+before, consumers buy products based on their
+expected utility.10
+To capture the effect of a P2P platform, which
+allows used goods from the first period to be traded
+Table 1 Some Notation: i 2 {B,P,F}, j 2 {S,R,P}, t 2 {1,2}, r 2 {n,p},
+where B,P, and F stand for the benchmark, profit-maximizing,
+and frictionless platform scenarios, respectively; S,R, and P
+stand for the supplier, retailer, and platform, respectively; n
+and p stand for new and platform products, respectively.
+Utri
+wtniS
+ptrij
+qtrij
+iP
+tQ
+ij
+Qtij
+CS i
+SW i
+
+consumers’ expected utility from buying type r product in period
+t in scenario i
+wholesale price of new product in period t in scenario i
+selling price of type r product from player j in period t in
+scenario i
+demand of type r product from player j in period t in scenario i
+platform transaction fee in scenario i
+player j’s profit in period t in scenario i
+player j’s total profit in scenario i
+consumer surplus in scenario i
+social welfare in scenario i
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+
+514
+Figure 1
+
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+Timeline of Events: Events that Occur Only in the Presence of the Platform Are with Dashed Arrows; Non-Decision Events Are in Italic
+Platform
+commitment
+Benchmark
+only:
+
+Additional
+actions in
+presence of
+platform:
+
+Period 1
+
+Period 2
+
+Supplier: Retailer:
+w1n
+p1n
+realized
+
+Supplier: Retailer:
+w2n
+p2n
+realized
+
+Timeline
+Platform: t
+
+in the second period between consumers, on the supply chain partners and the consumers, we consider a
+variation to the benchmark scenario. In this augmented scenario, the retailer sells new products in
+both periods, while used products are traded through
+the platform only in the second period. Used goods
+sold on the platform are all mismatched goods from
+the first period that consumers were not able to return
+to the retailer.
+The Stackelberg game sequence of events in the
+presence of a platform, which is shown in Figure 1,
+is as follows: Following Mantin et al. (2014), in the
+first stage, the platform commits to a fixed transaction fee to charge consumers for selling through
+the platform; a profit-maximizing platform sets tPP ,
+whereas with a frictionless platform we have
+tFP ¼ 0. In practice P2P platform fees are posted
+online and are rarely changed, for example Amazon, EBay, and Etsy.11 Then, as in the benchmark
+scenario, the supplier sets wPS
+1n , the retailer purPR
+chases qPR
+1n units (corresponding to a price p1n ),
+and the consumers purchase based on their
+expected utility. At the end of period 1, all consumers with mismatched products (ð1  hÞqPR
+1n in
+expectation) wait to sell their products through the
+P2P market in the second period. In period 2, as
+a new set of consumers shows up, the supplier
+12
+sets wPS
+and the retailer purchases qPR
+2n units.
+2n ,
+PR
+Meanwhile qPP
+used products are
+2p ¼ ð1  hÞq1n
+offered through the platform. Used products
+traded through the P2P market are devalued by a
+factor d 2 [0,1]. That is, the expected benefit of
+these products by consumers in the second period
+is hdv. Since used products on the P2P platform
+are sold to clear the market, the corresponding
+prices of new and mismatched products, pPR
+2n and
+pPP
+,
+are
+determined
+simultaneously.
+Note,
+although
+2p
+we use P for the first superscript, the logic holds
+for F.
+
+4. Model Analysis
+Next, we solve using backward induction for each of
+the scenarios described earlier. We start with the
+benchmark scenario (section 4.1), and then proceed to
+the platform scenarios (section 4.2).
+
+p2p determined
+
+4.1. Benchmark Scenario: No P2P Platform
+In this section, we explore the supply chain partners’
+equilibrium decisions and resulting profit in the benchmark scenario. In period 1, the expected utility from
+buying a product is the consumer’s expected valuation
+of the product minus its selling price, that is,
+B
+¼ hv  pBR
+U1n
+1n . The consumer, indifferent between
+buying and not buying a product in period 1, has a valuation of vB1  pBR
+1n =h. Then the quantity of products
+sold in period 1 is given by qBR
+vB1 ¼ 1  pBR
+1n ¼ 1  
+1n =h,
+which follows from the assumption that consumers’
+valuations are uniformly distributed between 0 and 1.
+BR
+Similarly, in period 2, we have qBR
+2n ¼ 1  p2n =h.
+Having derived the demand functions, we can
+express the supplier’s and the retailer’s profit functions. In period 2, the profit of the retailer is given by
+QBR
+BR
+BS BR
+BR
+BS BR
+2 ¼ ðp2n  w2n Þq2n ¼ ðhð1  q2n Þ  w2n Þq2n , which
+Q
+BR
+with respect
+is concave in qBR
+2n . Maximizing
+2
+BR
+to q2n , we find the optimal decisions to be qBR
+¼
+QBR 2n
+BS
+BR
+BS
+ðh  w2n Þ= 2h [ 0, p2n ¼ ðh þ w2n Þ=2,
+¼ ðh
+2
+QBS
+2
+Þ
+=4h
+[
+0.
+Next,
+maximizing
+with
+respect
+to
+wBS
+2
+2n
+BS
+BS
+w2n leads to w2n ¼ ðh þ cÞ=2, and consequently
+QBS
+¼ ðh  cÞ2 = 8h [ 0. In this benchmark setting, the
+2
+two periods are independent of each other, hence all
+equilibrium decisions and profits in period 1 are as in
+period 2.
+BR
+In summary, we find that qBR
+1n ¼ q2n ¼ ðh  cÞ=4h,
+Q
+BR
+BS
+BS
+pBR
+¼
+p
+¼
+ð3h
+þ
+cÞ=4,
+w
+¼
+w
+¼
+ðh þ cÞ=2, BR
+1n
+2n
+1n
+2n
+Q
+¼ ðh  cÞ2 =8h, and BS ¼ ðh  cÞ2 =4h. Recall that we
+assume c<h, which guarantees strictly positive quantities. The profits of the supplier and the retailer are
+decreasing in c, and increasing in h. That is, higher unit
+cost and more consumers uncertainty regarding their
+valuation will harm the supply chain partners’ profits.
+In this benchmark scenario, there is no channel for
+consumers to trade their mismatched products; hence
+they receive negative utility when a product mismatch occurs. In the next subsection we explore if a
+P2P platform can remedy the mismatch issue.
+4.2. A P2P Platform Scenario
+In the presence of a platform, a consumer has the
+option of selling the product in the second period at
+PP
+the market clearing price, pPP
+2p , while paying a fee t
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+to the platform for using this service. Thus, in period
+1, the expected utility from buying a product is a consumer’s expected valuation of a product minus its
+selling price, plus his expected payoff from selling the
+product through the platform, that is,
+P
+U1n
+¼
+
+hv
+|{z}
+expected valuation
+
+PP
+PP
+ pPR
+1n þ ð1  hÞðp2p  t Þ
+|{z}
+|ﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄ{zﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄﬄ}
+price
+
+expected payoff
+
+A consumer is indifferent between buying and not
+buying a product in period 1 when his valuation of
+PP
+PP
+the product is 
+vP1 ¼ ðpPR
+1n  ð1  hÞðp2p  t ÞÞ=h,
+PR
+P
+implying q1n ¼ 1  
+v1 . In period 2, the expected utilP
+ity from buying a new product is U2n
+¼ hv  pPR
+2n ,
+whereas the expected utility of buying a used proP
+duct from the platform is U2p
+¼ hdv  pPP
+2p . A consumer is indifferent between buying a new product
+and a used product in period 2 if his valuation of
+PP
+the used P2P product is 
+vP2p ¼ ðpPR
+2n  p2p Þ=ð1  dÞh,
+PR
+P
+implying q2n ¼ 1  
+v2p . A consumer is indifferent
+between buying and not buying a used product
+from the platform when his valuation of the used
+PP
+product is 
+vPp ¼ pPP
+vP2p  vPp .
+2p =dh, implying q2p ¼ 
+Having derived the demand functions, we solve the
+Stackelberg game via backward induction.
+Let
+c1  h 
+
+hð1  hÞðd2 ð1  hÞ2 ð96  40dÞ þ 128dÞ
+128  ð1  hÞðð1  hÞðð1  hÞd2 ð36  11dÞ
+þ 56d2  144dÞ þ 16dhÞ
+
+c2  h 
+
+515
+
+corresponding decisions are demonstrated in Figure 2.
+From the platform’s perspective, his profit is affected by
+the transaction fee and the demand of new products in
+the first period, which in turn, determines the number of
+used goods available in the second period. Therefore,
+the platform is trading-off between setting a high transaction fee, referred to as the transaction fee effect, and
+having high first period demand, referred to as the
+demand effect, because a higher transaction fee
+decreases the demand, and vice verse. Therefore, the
+optimal transaction fee is a result of the interaction
+between the transaction fee effect and the demand effect.
+Lemma 1 shows that when the product’s unit cost
+is sufficiently low, the platform can set the transaction
+fee as high as possible, equal to the selling price of the
+used goods. In other words, the transaction fee effect
+dominates the demand effect, and the platform has
+the power to extract the entire surplus from consumers who use its service. As the unit cost increases,
+the transaction fee effect decreases while the demand
+effect increases, as seen in Segment 2 in Figure 2, in
+which case the platform’s power is weakened. In
+order to stimulate first period demand, the platform
+must reduce its transaction fee so as to compensate
+consumers that may experience a mismatched product. As the unit cost continues to increase, the platform will induce the supply chain partners to
+
+Figure 2
+
+Transaction Fee and Used Goods’ Price, h=0.2, d=0.9
+
+8hd2 ð1  hÞ2
+h
+64  ð1  hÞð19ð1  hÞd2 þ 64hd  56dÞ
+
+We have the following Lemma. All proofs are provided in Appendix A.
+LEMMA 1. In equilibrium, the profit-maximizing platform sets the transaction fee, tPP , depending on three different segments as follows:
+Segment 1: if the unit cost of acquiring the products is
+sufficiently low, c  c1 , then the platform transaction fee
+is equal to the used product’s selling price (tPP ¼ pPP
+2p ) to
+extract all benefits from its consumers;
+Segment 2: if c1 \c  c2 , then the transaction fee is lower
+than the used product’s selling price (tPP \pPP
+2p ) to
+induce more consumers to purchase in the first period;
+Segment 3: if the unit cost of acquiring the products is
+sufficiently high, c [ c2 , then the platform sets the transaction fee to price the supply chain partners out of the
+second period (i.e., qPR
+2n ¼ 0).
+Lemma 1 is formally restated in Appendix A. The
+optimal transaction fee and supply chain partners’
+
+Note. h is intentionally chosen to a low value to emphasize Segment 3. This segment always exist since c2 ≤ h.
+
+516
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+abandon their business in the second period (Segment
+3). Therefore, the mismatched goods on the platform
+are the only goods sold in the market during the second period. The platform may extract more of the surplus of the consumers using the platform to sell their
+mismatched goods, but not enough to extract the
+entire surplus because the threat of the retailer selling
+new goods in the second period. The existence of Segments 2 and 3 is important. They reveal that the platform has the incentive to leave money on the table by
+charging the users of the marketplace a fee that is
+strictly less than the market clearing price. This result
+is by contrast to the assumption made by Mantin
+et al. (2014) who assumed the platform will extract all
+surplus from the platform sellers.
+
+Figure 3
+
+Unit Cost Thresholds for Supply Chain, d=0.9
+
+5. The Impact of a Profit-Maximizing
+P2P Platform
+In this section, we investigate the net effect of a
+profit-maximizing P2P platform on supply chain
+partners and consumers. Comparing the profits of
+the supply chain partners between the benchmark
+and platform scenarios, we find that the supply
+chain partners can be better off with a high unit cost
+and worse off otherwise. This is formally stated in
+the following theorem.
+THEOREM 1.
+
+The introduction of a P2P platform
+
+(1) reduces the total expected profit of supply chain
+partners when the unit cost is sufficiently low,
+that is, c\~csc 2 ½c1 ; c2 ;
+(2) increases the total expected profit of supply chain
+partners when the unit cost is sufficiently high,
+that is, c  ~csc ,
+where Q~csc isQ theQ threshold
+Q
+BS
+þ BR ¼ PS þ PR .
+
+value
+
+that
+
+solves
+
+The threshold ~csc in Theorem 1 and its corresponding regions are depicted in Figure 3. From the supply
+chain partners’ perspective, the emergence of a P2P
+platform induces several effects. In the second period
+of the platform scenario relative to the second period
+of the benchmark scenario, the platform exposes the
+supply chain partners to competition from used products, which results in lower wholesale prices, selling
+prices, as well as lower demand for new products
+than those in the benchmark, and hence lower profit
+in the second period. At the same time, because the
+platform mitigates some of the mismatch risk, the
+supply chain partners can increase the prices of new
+products in the first period. However, higher selling
+price also has a negative effect on the first period
+demand. As the unit cost increases, c  c1 , the platform lowers the transaction fee to increase consumers’
+
+expected payoff to stimulate first period demand.
+When the platform’s demand stimulation effect dominates the negative effect of higher prices, it results in
+greater first period profit compared to the benchmark
+scenario. As the unit cost increases, the gain in the
+first period stemming the presence of the platform
+eventually exceeds the loss in the second period from
+the platform competition, which leads to a net positive effect of the platform (once c [ ~csc , in Segment 2
+in Figure 4). In other words, the advantage of a P2P
+platform is that it increases the price of new products
+and may stimulate first period demand, but the disadvantage is that the competition impairs the supply
+chain partners’ profit. Only when the unit cost is sufficiently high, will the benefit compensate the potential
+harm of having a platform, making the supply chain
+partners better off.
+While generally both supply chain partners are
+either better off or worse off with the introduction of a
+platform, there exists a relatively small range of c values where the retailer is better off while the supplier
+is worse off (see Proposition A.1 in the Online Supplement).
+The results above indicate that the effect of a
+platform on the supply chain partners depends on
+the value of product’s unit cost. We now consider the
+platform’s impact on consumer surplus, which is the
+cumulative integration of consumers’ net utility over
+valuation in two periods (see Proof of Theorem 2 in
+Appendix A for formal statement). That is, the monetary gain obtained by consumers for purchasing a
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+Figure 4 Comparisons of Supply Chain Partners’ Total Profits between
+Benchmark and Platform Scenarios, h=0.2, d=0.9
+
+product at a price less than the highest price that they
+would be willing to pay.
+THEOREM 2. The introduction of a profit-maximizing
+P2P platform makes consumers worse off when the
+probability of consumers having full private valuation
+and the products’ unit cost are both sufficiently low, that
+is, h  ~
+hðdÞ and c  ~ccs ðd; hÞ. Otherwise, consumers are
+better off in the presence of a platform, that is, h [ ~hðdÞ
+or h  ~
+hðdÞ and c [ ~ccs ðd; hÞ.
+This is an important insight. The perceived knowledge is that a P2P platform always benefits consumers
+as it offers a channel to trade used goods and provides downward pressure on the existing supply
+chain partners to lower prices. We find that this is
+generally true but not universally, as a platform
+allows consumers to recover some of the loss from a
+mismatched product and benefit from a more diverse
+second period market as well. Although the higher
+first period price erodes these gains, it is not enough
+to make consumers worse off, unless consumers are
+extremely uncertain about the products’ valuation
+and the unit cost is also very low. In that case, a
+profit-maximizing platform can be detrimental to consumers’ welfare (see Figure 5).
+Lastly, we consider the net effect of a profitmaximizing platform on social welfare, which is
+the aggregated welfare of all agents, that is,
+
+517
+
+Figure 5 Effect of Introduction of a Profit-Maximizing P2P Platform on
+Consumer Surplus and Social Welfare
+
+Q
+Q
+Q
+Q
+Q
+SW B  BS þ BR þCSB , SW P  PP þ PS þ PR þCSP .
+Trivially, when product’s unit cost is high, a platform is welfare-imposing, as the supply chain partners and consumers are better off and the platform
+makes positive profit. However, the two previous
+results reveal the erosion of the supply chain partners’ and possibly the consumers’ welfare in the
+presence of a platform when h and c are both sufficiently low. Below we explore if a profit-maximizing
+platform creates welfare in the system, or simply
+gravitates welfare away from the existing agents,
+the supplier, retailer and consumers. We have the
+following insight.
+THEOREM 3. The introduction of a profit-maximizing
+P2P platform makes total social welfare worse off when
+the probability of consumers having full private valuation
+and the products’ unit cost are both sufficiently low, that
+is, h  ~h0 ðdÞ and c  ~csw ðd; hÞ. Otherwise, social welfare is
+better off in the presence of a platform, that is, h [ ~
+h0 ðdÞ
+0
+~
+or h  h ðdÞ and c [ ~csw ðd; hÞ.
+This theorem indicates that a P2P platform is not
+always beneficial to society as shown in Figure 5.
+Specifically, when consumers are not certain about
+the product’s valuation and the unit cost is sufficiently low, the emergence of a P2P platform has a
+detrimental effect on social welfare.
+
+6. Model Extensions
+In this section, we consider two extensions to the
+model presented so far. We first consider a frictionless
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+
+518
+
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+P2P platform, one in which the platform does not
+charge any transaction fee. We then consider the
+impact of strategic consumers.13
+6.1. A Frictionless P2P Platform
+We have shown that a profit-maximizing platform
+can critically affect supply chain partners’ optimal
+decisions and profits. However, in practice we also
+observe a variety of frictionless platforms, such as
+Kijiji, Craigslist and autoTRADER, which allow their
+customers to trade through the platform generally for
+free but each profits from other sources, like advertisements and etc. In this section, we explore how a
+frictionless platform affects the supply chain partners
+and consumers as compared to the two scenarios
+studied earlier: the benchmark and in the presence of
+a profit-maximizing platform.
+From modeling perspective, when the platform is
+frictionless, the only difference from the profit-maximizing platform setting studied earlier is that the platform commits to a zero transaction fee, that is, tPP ,
+which is tFP in the current setting, is 0. Using backward induction, we derive the equilibrium decisions
+and corresponding profits. Similar to Lemma 1, we
+have the following result.
+LEMMA 2. In the presence of a frictionless platform, in
+equilibrium, there exists a threshold unit cost,
+cf  h 
+
+8hd2 ð1  hÞ2
+32  dð1  hÞð7dð1  hÞ  8ð3  4hÞÞ
+
+such that, when c [ cf , the supply chain partners are
+priced out of the second period (i.e. qFR
+2n ¼ 0). Additionally, cf \c2 , which implies that the range of unit cost values for which they are priced out is larger with a
+frictionless platform compared to a profit-maximizing
+one.
+Lemma 2 is very insightful and its intuition is as follows: When the platform charges no fee from its
+users, more mismatched goods are traded through
+the platform, thereby increasing the range of unit cost
+values under which the supply chain partners are
+priced out of the market in the second period. This
+raises a compelling question: as this occurs, are the
+supplier and retailer better off in the presence of a
+frictionless market? Importantly, no transaction fee
+stimulates the first period demand and further leads
+to greater supply of used goods in the second period.
+Consequently, we have the following statement.
+THEOREM 4.
+
+A frictionless P2P platform:
+
+(1) generally makes the supply chain partners better
+off and always makes consumers better off, as compared to the benchmark scenario. Specifically, the
+
+supply chain partners are worse off when the probability of consumers having full private valuation
+and the products’ unit cost are both sufficiently
+low, that is, h  ^hðdÞ and c  ^csc ðd; hÞ. Otherwise,
+they are better off in the presence of a frictionless
+platform, that is, h [ ^hðdÞ or h  ^hðdÞ and
+c [ ^csc ðd; hÞ.
+(2) always makes the supplier better off, and the retailer and consumers never worse off, as compared to
+a profit-maximizing platform scenario. Specifically,
+the retailer and consumers are better off when
+c\c2 and no worse off otherwise.14
+The introduction of a platform relieves consumers
+from some of their mismatch risk and exposes the
+supply chain partners to competition in the second
+period. A frictionless platform further stimulates
+competition in the second period, but the fact that it
+doesn’t charge any transaction fee and induces
+greater demand in the first period, which more than
+compensates the supply chain partners for the lost, or
+reduced, opportunity in the second period. Similarly,
+consumers are also better off as the reduction of risk
+more than compensates for the higher price charged
+in the first period.
+To conclude, a frictionless platform improves the
+profit of both supply chain partners as well as consumer welfare as compared to the benchmark scenario. Similar improvements are observed when
+compared to the presence of a profit-maximizing platform. Importantly, even when the supplier and the
+retailer are priced out of the second period, they can
+still be better off. These are important insights that
+suggest that supply chain partners could, and should,
+be engaged in facilitating such frictionless platforms
+for their consumers to trade mismatched goods.
+6.2. Strategic Waiting by Consumers
+Thus far, we have assumed that consumers are forward-looking in that they take future payoff into consideration. Another aspect of forward-looking
+behavior is strategic waiting. There is a significant
+body of literature that addresses pricing and inventory decisions in the presence of strategic consumers
+(see, e.g., reviews by Aviv et al. (2009) and Chen and
+Chen (2015)). In this section, we explore the effect of
+consumers’ strategic waiting as a P2P platform is
+introduced. A key simplifying assumption when considering strategic consumers is that the retailer commits to a pricing strategy before the first period starts.
+In particular, we assume that exact prices are
+unknown, but consumers know if the second period
+price will be lower or higher than the first. Knowing
+this relative price commitment a priori, either eliminates (second period price higher) or induces (second
+period price lower) strategic waiting.
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+Let us consider first the benchmark case (i.e., no
+P2P platform). To capture consumers’ strategic waiting, in this case, we assume that in the first period,
+consumers choose between buying the new good
+right away or defer and purchase a new good in the
+second period. When they wait, they incur utility loss
+from not using the product in the first period, captured by a factor c 2 [0,1]. Thus, in the first period,
+consumers compare the expected utility from buying
+right now, hv  p1n , with the expected utility from
+waiting, cðhv  p2n Þ.15 We have the following intuitive
+result (which is provided without a proof):
+PROPOSITION 1. In the absence of a P2P platform, the
+retailer commits to a decreasing prices trajectory. That is,
+the retailer encourages strategic waiting.
+The intuition is rather simple: by encountering strategic consumers again in the second period, the retailer
+is rewarded with a second opportunity to sell the
+goods to these consumers. This allows the retailer to
+price-discriminate between consumers. Traditional
+inter-temporal models generally suggest that in the
+presence of strategic consumers the retailer is better off
+by (credibly) committing to a fixed price (to eliminate
+the inter-temporal competition)—the discussion on
+this aspect dates back to the seminal paper by Coase
+(1972). However, in our setting, since there is a new
+cohort of consumers who arrive in the second period,
+they serve as a counter balance against dropping the
+price too severely in the second period and allow the
+retailer to take advantage of the segmentation offered
+via the inter-temporal price discrimination.
+We now turn our attention to the effect induced by
+the P2P platform. To capture consumers’ strategic
+waiting, in this case, we assume that in the first period, consumers choose between buying the new good
+right away, and having the chance of selling it on the
+platform, or defer and purchase a new good in the
+second period. Similar to the earlier scenario, the loss
+from not using the product in the first period is
+models via c 2 [0,1]. Thus, in the first period, consumers compare the expected utility from buying right
+now with the chance of returning, hv þ ð1  hÞ
+ðp2p  tÞ  p1n , with the expected utility from waiting,
+cðhv  p2n Þ. Recall from our analysis in section 5 that
+in the absence of strategic waiting the retailer benefits
+from the emergence of a P2P platform when the product’s unit cost is sufficiently high (as a function of
+other model’s parameters). With consumers’ strategic
+waiting, two natural questions arise: 1. Can the retailer be better off when consumes strategically wait? 2.
+Does the presence of a platform still benefit the retailer? Our observations below, derived based on
+numerical simulations, address the two questions
+above.
+
+519
+
+OBSERVATION 1. The retailer encourages strategic waiting when either h or c are sufficiently high.
+Figure 6a reveals the platform’s competitive pressure on the retailer in the second period hurts the
+retailer’s capacity to exercise inter-temporal price
+segmentation between consumers. However, we
+still find a wide range of parameters’ values where
+the retailer encourages strategic waiting, thereby
+making the retailer better off. In particular, with a
+high h, consumers are less likely to experience a
+mismatch and trade their goods through the platform, implying a limited competitive threat from
+the platform. Hence, with a high h, the retailer still
+prefers to practice inter-temporal price segmentation. When c is high, a similar argument emerges:
+the selling price of the good is high, limiting the
+market for used goods in the second period, again,
+allowing the retailer to benefit from inter-temporal
+price segmentation.
+OBSERVATION 2. The emergence of a P2P platform,
+benefits the retailer when either h is sufficiently low or c
+is sufficiently high.
+This observation is demonstrated in Figure 6b.
+Importantly, the range of parameters values under
+which the retailer is better off due to a P2P platforms
+seems to be extended to include a wider range of h
+values, as compared to the case where consumers do
+not exhibit strategic waiting. When c is sufficiently
+high, the same intuition applies as when consumers do
+not exhibit strategic waiting. With a low h the retailer
+also benefits from the platform as it provides consumers with a channel to trade their mismatched
+goods with the added advantage of inter-temporal
+pricing segmentation. Namely, the platform allows
+the retailer to improve the segmentation of the consumers who arrive in the first period as now the
+consumers have the opportunity to trade goods in
+the latter period, and this benefit outweighs the
+competition imposed by the platform goods since
+the overall amount of goods traded is relatively low.
+
+7. Conclusion
+The development of P2P platforms has changed traditional retailing. Our study fills a gap in the literature
+by incorporating a P2P platform as a decision maker,
+setting its own profit maximizing transaction fee, and
+while accounting for consumers’ valuation uncertainty about goods. We show in this study that when
+consumers’ valuation uncertainty is present, a P2P
+platform can mitigate some of the risk by allowing
+consumers to trade their used goods, however, at the
+same time, used goods on the platform also compete
+
+520
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+Figure 6 The Effect of Consumers’ Strategic Waiting on the Retailer, c=0.5, d=0.5
+
+(a)
+
+Pricing commitment facing a P2P
+
+with new goods from supply chain partners. Specifically, our model shows that when a product’s unit
+cost is low, a P2P platform sets the transaction fee
+equal to the market-clearing price. Thus, the platform
+extracts all the surplus from consumers who sells
+their unwanted goods, while inducing the retailer to
+increase prices of the goods in the first period. Consequently, a P2P platform makes both consumers and
+supply chain partners worse off relative to when it is
+not present by setting the transaction fee equal to the
+market-clearing price. However, as a product’s unit
+cost increases, the platform no longer sets the transaction fee to equal the market-clearing price, as a result
+the presence of the platform initially makes consumers better off, and as the unit cost increases further,
+makes both consumers and supply chain partners better off. The intuition is simple. From consumers’
+perspective, a P2P platform brings the following
+trade-off: increased price of new products vs. allowing consumer to sell unwanted goods while consumers enjoy buying at a lower price in the second
+period. From supply chain perspective the trade-off is
+between higher prices and possibly increased
+demand in the first period demand vs eroded second
+period profits. Only when the unit cost is sufficiently
+high, the benefit compensates the potential harm of
+facing a platform, making the supply chain partners
+better off. In terms of consumer surplus and social
+welfare, a P2P platform can be detrimental when both
+the probability of consumers having full private
+valuation and the product’s unit cost are sufficiently
+low. Additionally, a frictionless P2P platform generally makes the supply chain partners better off and
+always makes consumers better off compared to the
+benchmark scenario, when it is not present, and it
+
+(b)
+
+Eﬀect of P2P on the retailer
+
+makes all agents never worse off compared to the
+profit-maximizing platform scenario.
+The results in this study are based on a monopolistic
+model. In practice, there could be multiple suppliers
+and retailers offering identical or similar products and
+various P2P platforms can co-exist. Accordingly, fiercer
+competition may arise along more complicated interactions among market agents. A possible extension of
+the present model is to consider two or more supply
+chain channels and platforms. For instance, considering the competition between Microsoft and Sony in the
+video-game industry, or Staples and Office Depot, it
+could be better presented by a duopolistic or oligopolistic setting. However, we believe our core insights
+still apply in such setting, and our work is a necessary
+first step in analyzing these, more complex, settings.
+One may also consider the supply chain partners
+applying Platform mitigation strategies in order to
+improve their profit, such as buying out the platform,
+offering refunds, limiting the information released
+about products in order to increase consumer valuation uncertainty (similar to Chu and Zhang 2011), revenue-sharing with the platform and so on. If any
+strategy is effective in increasing supply chain partners’ profitability is an open question and needs to be
+explored further. For example, as shown in this study,
+the platform can mitigate some of consumers’ valuation uncertainty, but also impose competition. If the
+supply chain partners buy out the platform and operate it by themselves possibly at no charge to users, it
+might not be subgame: in the second period the incentive is to shut down the platform to eliminate competition; however, they also might go the other way by
+stimulating the first period demand to earn more
+transaction fees. Either way, it may help them
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+
+521
+
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+eliminate the threat of a P2P platform and boost their
+profits. Another modeling opportunity emerges from
+trading sites that pay consumers upfront for their
+unwanted goods. In such a channel the platform owns
+the goods sold and is responsible for reselling them in
+the second period. This may result with a secondary
+market that does not clear the market.
+
+Acknowledgments
+The authors thank the department editor Haresh Gurnani,
+senior editor and three referees for their constructive feedback and excellent suggestions that have significantly
+improved this manuscript. We thank Hossein Abouee Mehrizi and Bon Koo for providing feedback on Lifei Jiang’s
+MASc dissertation, the basis of this study. This research was
+supported by Natural Sciences and Engineering Research
+Council of Canada (NSERC) grants held by Stanko Dimitrov
+and Benny Mantin. The research leading to these results has
+received financial support from the Jean-Jacques Laffont
+Digital Chair on Digital Economy at TSE and the IAST. This
+manuscript has benefited from discussions with the participants of seminars held at ESMT, KLU, the University of
+Groningen, University of Toledo, University of Central Florida and West Virginia University.
+
+Appendix A. Proofs
+PROOF OF LEMMA 1.
+formally.
+
+tPP
+
+We first state the lemma
+
+The proof of Lemma 1 follows from backwards
+induction on the equilibrium decisions of the supply
+chain partners and the platform. We characterize the
+subgame perfect Nash equilibria for each game in
+our setting. Due to non-negativity constraints on
+production quantities, the transaction fee being at
+most the market-clearing price, and the wholesale
+price is at most the retail price, we have a large set
+of cases to consider in the analysis. The complete
+analysis may be found in the on-line supplement of
+this manuscript.
+h
+PROOF OF THEOREM 1. Denote Dsc as the difference of
+the entire supply chain’s profits between the benchmark scenario and the profit-maximizing platform
+Q
+Q
+Q
+Q
+scenario, that is, Dsc ¼ BS þ BR  PS  PR .
+We then consider Dsc in each of the segments
+defined earlier in Lemma 1.
+dD2
+
+When c  c1 , Dsc is convex in c since d2 scc  0. Also,
+when dDsc =dc ¼ 0, minimum Dsc ¼ 0 is achieved at
+c ¼ h  c1 . So Dsc is convexly decreasing when c  c1
+and Dsc jc¼c1 [ 0 for all 0 ≤ h ≤ 1.
+dD2
+When c1 \c  c2 , Dsc is convex in c since d2 csc  0.
+Also when Dsc ¼ 0, c ¼ ~csc or ~c0sc , where c1 \~csc  c2
+and ~c0sc  h. Therefore, ~c0sc is infeasible because of violation of individual rationality, c<h. Hence, if c  ~csc ,
+Dsc  0; otherwise, Dsc \0.
+
+8
+dðdð1  hÞ2 ð33dh þ 7dc  84h  4cÞ  8dhð1  hÞð1  cÞ  32hðh  cÞ  64ðh þ cÞÞ
+>
+>
+>
+>
+>
+8ðdð1  hÞ2 ð5d  12Þ  16Þ
+>
+>
+>
+<
+dð1  hÞð3h þ 5cÞ þ 8ðh  cÞ
+¼
+>
+16ð1  hÞ
+>
+>
+>
+>
+2
+2
+>
+>
+d ð1  hÞ ð15h  7cÞ þ 8ðh  cÞð7dh  4dh2  3d  4Þ
+>
+:
+8dð1  hÞ2
+
+if c  c1 ;
+if c1 \c  c2 ;
+if c [ c2 :
+
+The corresponding supply chain’s decisions are given by the following:
+
+
+8
+128ðh þ cÞ þ ð1  hÞA hð1  dð1  hÞqPR
+>
+1n Þ þ c
+>
+;
+>
+<
+2
+32ð8  dð1  hÞ2 ð3d  8ÞÞ
+PS
+PS
+fw1n ; w2n g ¼ 
+
+2
+>
+PP
+>
+> dð1  hÞðð1  hÞð5dh þ 8c  4h  dc  4t Þ þ 4h Þ  8ðh  cÞ ; hð1  dð1  hÞqPR Þ
+:
+1n
+4dð1  hÞ
+
+if c  c2 ;
+if c [ c2 ;
+
+where
+A ¼ dð1  hÞðð1  hÞð8ð7d  16ÞtPP  11d2 c  56dh2  45d2 hÞ þ 128ðh þ cÞ  8dð7h2 þ 3c þ 2hcÞÞ þ 16ðdc þ 7dh  8tPP Þ.
+8
+
+PS
+PP
+>
+8ðwPS
+ hÞ  dð1  hÞð5h þ 3cÞ hð1  dð1  hÞqPR
+>
+1n Þ  w2n
+1n þ ð1  hÞt
+>
+;
+if c  c2 ; :
+>
+ <
+
+2h
+hðdð1  hÞ2 ð5d  16Þ  16Þ
+PR PR
+¼ 
+q1n ; q2n
+
+>
+>
+hc
+>
+>
+;
+0
+if c [ c2 :
+:
+dhð1  hÞ
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+
+522
+
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+dD2
+
+When c [ c2 , Dsc is concave in c since d2 csc  0.
+Also, when dDsc =dc ¼ 0, maximum Dsc ¼ 0 is
+achieved at c ¼ h  c2 . So Dsc is concavely increasing
+when c [ c2 and Dsc jc¼c2 \0 for any 0 ≤ h ≤ 1.
+h
+PROOF OF THEOREM 2. Denote Dcs as the difference of
+consumer surplus between the benchmark scenario
+and the profit-maximizing platform scenario, that is,
+R1 B
+R1 B
+Dcs ¼ CSB  CSP , where CSB ¼ vB U1n
+dv þ vB U2n
+dv,
+1
+2
+P
+R
+R
+R
+
+v
+1
+1
+P
+P
+P
+dv þ vP2p U2n
+dv þ vP U2p
+dv. We then
+CSP ¼ vP U1n
+1
+
+p
+
+2p
+
+consider Dcs in each of the segments defined earlier
+in Lemma 1.
+dD2
+When c  c1 , solving d2 csc ¼ 0 reveals a threshold
+value, ~
+h, such that when h  ~
+h, Dcs is concave in c since
+dD2cs
+
+0.
+Also,
+when
+dD
+=dc
+¼ 0, maximum Dcs is
+cs
+d2 c
+achieved at c ¼ h  c1 . So Dcs is concavely increasing
+when c\c1 , h  ~
+h, and Dcs jc¼c1 \0 for all 0  h  ~h.2
+dD
+When c1 \c  c2 , Dcs is convex in c since d2 ccs  0.
+Also when dDcs =dc ¼ 0, the global minimum Dcs \0
+is achieved at c0 2 ½c1 ; c2 . Solving Dcs ¼ 0 reveals two
+threshold values, ~ccs and ~c0cs , where ~ccs  c1 if h  ~h,
+~ccs [ c1 otherwise; and ~c0cs  c2 .
+dD2
+When c [ c2 , Dcs is concave in c since d2 ccs  0.
+Also, when dD/dw=0, maximum Dcs ¼ 0 is achieved
+at c ¼ h  c2 . So Dcs is concavely increasing when
+c [ c2 and Dcs jc¼h ¼ 0 for any 0 ≤ h ≤ 1.
+h
+PROOF OF THEOREM 3. Denote Dsw as the difference
+of social welfare between the benchmark scenario
+and the
+platform
+Q profit-maximizing
+Q
+Q
+Q scenario, that
+Q is,
+Dsw ¼ BS þ BR þCSB  ð PS þ PR þCSP þ PP Þ.
+We then consider Dsw in each of the segments
+defined earlier in Lemma 1.
+dD2
+When c  c1 , Dsw is convex in c since d2swc  0. Solving Dsw jc¼0 ¼ 0 for h reveals a threshold value, ~
+h0 , such
+0
+that Dsw jc¼0  0 if h  ~
+h , Dsw jc¼0 [ 0 otherwise. Solving
+Dsw jc¼c1 ¼ 0 for h reveals another threshold value, ~h00 ,
+h00 , Dsw jc¼c1 [ 0 otherwise,
+such that Dsw jc¼c1  0 if h  ~
+0
+00
+h . Therefore, when h\~
+h0 , there exists a
+where ~
+h ~
+threshold value of c, ~csw 2 ½0; c1 , making Dsw ¼ 0.2
+dD
+When c1 \c  c2 , Dsw is convex in c since d2swc  0.
+Solving Dsw jc¼c1 ¼ 0 for h reveals a threshold value, ~h00 ,
+h00 , Dsw jc¼c1 [ 0 otherwise,
+such that Dsw jc¼c1  0 if h  ~
+h0 . Also Dsw j
+ 0 for any 0 ≤ h ≤ 1,
+where ~
+h00  ~
+c¼c2
+
+0 ≤ d ≤ 1. Therefore, when h\~
+h00 , there exists a threshold value of c, ~csw 2 ðc1 ; c2 , making Dsw ¼ 0.
+dD2
+When c [ c2 , Dsw is convex in c since d2swc  0.
+Dsw jc¼c2  0 for any 0 ≤ h ≤ 1, 0 ≤ d ≤ 1. Also,
+Dsw jc¼h ¼ 0 for any 0 ≤ h ≤ 1, 0 ≤ d ≤ 1.
+h
+
+PROOF OF THEOREM 4. The proof follows the same
+steps as in the proofs of Theorems 2 and 3. The complete proof is provided in the Online Supplement. h
+
+Notes
+1
+
+See, for example, http://www.china-mike.com/china-travel-tips/shopping-guide/, accessed 11/11/2015.
+2
+A research stream has evolved to address optimal
+restocking fees which can control consumer returns and
+segment the market, and which may change based on
+supply chain as well as competitive considerations (see,
+for example, Shulman et al. 2009, 2010, 2011).
+3
+A recent survey in the UK revealed that “around half of those
+who were refused a refund were told it was because they didn’t
+have the receipt” and a little over 70% of those surveyed experienced problems getting an instore refund (Lezemore 2010).
+4
+A systematic search on Kijiji.ca, an online frictionless P2P
+platform similar to Craigslist, found 4–8% of listings, category dependent, are “brand new in the box” (or “brand
+new with tags” for apparel) as described by the seller.
+This number increased to 10–20% if we only considered
+“brand new” items.
+5
+Marketplaces are usually operated by a platform and we
+use the terms P2P marketplace and P2P platform interchangeably throughout this study.
+6
+In the Online Supplement, we demonstrate that a percentage fee yields qualitatively similar insights.
+7
+To implement the fee structure emerging from our analysis,
+the platform operator can, for example, set a fee that changes
+with the product category. Thus, the insights behind our
+results can help explaining Amazon’s Marketplace transaction fee structure, which is open to individual sellers.
+8
+This notion of consumer forward looking behavior is different than that assumed in dynamic pricing models. Specifically, consumers are not engaged in the dynamic
+decision of whether to purchase the good right now or
+postpone the decision to a later period (an aspect that is
+explored later in section 6.2). In our model, consumers
+decide whether to purchase the good right now or not at
+all. The rational behavior comes into play by capturing
+their expectations about the actual valuation for the good
+and the money they can recoup in case their valuation risk
+materializes and they resell the good through the secondary market, if one is available.
+9
+In our setting, due to the deterministic nature of the
+model, prices and quantities are equivalent: once the
+quantity is determined, the price follows immediately.
+10
+Note that in our setting we maintain the same level of
+uncertainty about the product fit in both periods as the
+demand in the second period stems from a new cohort of
+consumers. One might consider an alternative approach
+where the uncertainty in the second period is alleviated. In
+the absence of late season uncertainty, holding everything
+else fixed, the (expected) consumer surplus may increase.
+Accordingly, the demand for the goods increases and we
+expect both prices in the late season to increase as well.
+With higher second period prices, consumers can recoup
+more of their loss in an event of mismatch, resulting with
+the retailer raising the price in the first period as well. This
+certainly benefits the supply chain partners. Indeed, as
+uncertainty is alleviated, the valuation for the good may
+change: if it increases universally, it further amplifies the
+intuitions above, while if it decreases universally, then it
+moderates, or even reverse, the intuitions above.
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+11
+
+We also explored other fee structures for the platform.
+An analysis with zero transaction fee, representing a frictionless secondary market, is discussed later in section 6.1
+of this study. Percentage transaction fee, which is adopted
+by a number of P2P platforms, is studied in the Online
+Supplement that accompanies this manuscript. The results
+suggest that the insights do not change as one adopts a
+percentage rather than a fixed fee. This observation is consistent with that of Chen et al. (2013) who state that with
+a percentage fee “the results are qualitatively and quantitatively very similar to those from our baseline specification” where they use a fixed transaction fee. In their
+model the transaction fee is merely a friction cost as they
+assume away the platform.
+12
+PS
+We find that wPS
+2n  w1n in the platform scenario, section
+4.2. Accordingly retailers have no incentive to hold inventory.
+Therefore, we abstract away from the issue of strategic inventories (see, e.g., Anand et al. (2008), Hartwig et al. (2015)).
+13
+In the Online Supplement that accompanies this manuscript we discuss the implication of switching from an
+additive transaction fee to a multiplicative transaction fee.
+14
+Although we do not provide visual illustration of Theorem 4 qualitatively, ^h behaves very similarly as ~h in Figure 5.
+15
+In practice, some consumers may wait to purchase a
+used good in the second period. We assume that such
+behavior is very limited as it relies on other consumers
+experiencing a mismatch and hence can be ignored.
+
+References
+Anand, K., R. Anupindi, Y. Bassok. 2008. Strategic inventories in
+vertical contracts. Management Sci. 54(10): 1792–1804.
+AP. 2014. Clothing resale sites boom as more shoppers buy with
+reselling in mind. New York Daily News, May 9, 2014 (accessed
+May 27, 2015).
+Aviv, Y., Y. Levin, M. Nediak. 2009. Counteracting strategic consumer behavior in dynamic pricing systems. Consumer-Driven
+Demand and Operations Management Models, Vol. 131. Springer,
+323–352.
+Bhatnagar, P. 2006. Why big retailers are shuttering stores.
+CNNMoney.com, January 24, 2006 (accessed May 27, 2015).
+Chen, M., Z.-L. Chen. 2015. Recent developments in dynamic
+pricing research: multiple products, competition, and limited
+demand information. Prod. Oper. Manag. 24(5): 704–731.
+Chen, J., S. Esteban, M. Shum. 2013. When do secondary markets
+harm firms?. Am. Econ. Rev. 103(7): 2911–2934. ISSN 00028282.
+doi:10.1257/aer.103.7.2911.
+Chu, L. Y., H. Zhang. 2011. Optimal preorder strategy with endogenous information control. Management Sci. 57(6): 1055–1077.
+Coase, R. H. 1972. Durability and monopoly. J. Law Econ. 15, 143.
+Fay, S., J. Xie. 2010. The economics of buyer uncertainty: Advance
+selling vs. probabilistic selling. Market. Sci. 29(6): 1040–1057.
+Ghose, A., R. Telang, R. Krishnan. 2005. Effect of electronic secondary markets on the supply chain. J. Manage. Inf. Syst.
+2(22): 91–120.
+Ghose, A., M. D. Smith, R. Telang. 2006. Internet exchanges for
+used books: An empirical analysis of product cannibalization
+and welfare impact. Inf. Syst. Res. 17(1): 3–19.
+Gopal, R. D., B. Pathak, A. K. Tripathi, F. Yin. 2006. From Fatwallet to eBay: An investigation of online deal-forums and sales
+promotions. J. Retailing 82(2): 155–164. ISSN 00224359.
+doi:10.1016/j.jretai.2006.02.002.
+
+523
+
+Grewal, D., J. Gotlieb, H. Marmorstein. 1994. The moderating
+effects of message framing and source credibility on the priceperceived risk relationship. J. Consumer Res. 21: 145–153.
+Gu, Z., Y. Liu. 2013. Retail Sales Advisory and Compensation in a
+Distribution Channel. Working paper.
+G€
+um€
+ußs, M., S. Ray, S. Yin, 2013. Returns policies between channel
+partners for durable products. Market. Sci. 32(4): 622–643.
+Hartwig, R., K. Inderfurth, A. Sadrieh, G. Voigt. 2015. Strategic
+inventory and supply chain behavior. Prod. Oper. Manag.
+24(8): 1329–1345.
+Hsiao, L., Y. J. Chen. 2012. Returns policy and quality risk in
+E-Business. Prod. Oper. Manag. 21(3): 489–503.
+Johnson, J. P. 2011. Secondary markets with changing preferences.
+RAND J. Econ. 42(3): 555–574. ISSN 07416261. doi:10.1111/
+j.1756-2171.2011.00139.x.
+Lezemore, J. 2010. Dont get stuck with unwanted items this
+Christmas. http://conversation.which.co.uk/shopping/dontget-stuck-with-unwanted-items-this-christmas/
+(accessed
+October 30, 2015).
+MacKenzie, I., C. Meyer, S. Noble. 2013. How retailers can keep
+up with consumers. McKinsey & Company white paper, October
+2013 (accessed May 27, 2015).
+Mantin, B., H. Krishnan, T. Dhar. 2014. The strategic role of thirdparty marketplaces in retailing. Prod. Oper. Manag. 23(11):
+1937–1949.
+Oraiopoulos, N., M. E. Ferguson, L. B. Toktay. 2012. Relicensing as
+a secondary market strategy. Management Sci. 58(5): 1022–1037.
+Prasad, A., K. E. Stecke, X. Zhao. 2011. Advance selling by a
+newsvendor retailer. Prod. Oper. Manag. 20(1): 129–142.
+doi:10.1111/j.1937-5956.2010.01133.x.
+Rochet, J.-C., J. Tirole. 2006. Two-sided markets: A progress
+report. RAND J. Econ. 37(3): 645–667.
+Shulman, J. D., A. T. Coughlan. 2007. Used goods, not used bads:
+Profitable secondary market sales for a durable goods channel. Quant. Market. Econ. 5(2): 191–210.
+Shulman, J. D., A. T. Coughlan, R. C. Savaskan. 2009. Optimal
+restocking fees and information provision in an integrated
+demand-supply model of product returns. Manuf. Serv. Oper.
+Manag. 11(4): 577–594.
+Shulman, J. D., A. T. Coughlan, R. C. Savaskan. 2010. Optimal
+reverse channel structure for consumer product returns. Market. Sci. 29(6): 1071–1085.
+Shulman, J. D., A. T. Coughlan, R. C. Savaskan. 2011. Managing
+consumer returns in a competitive environment. Management
+Sci. 57(2): 347–362.
+Teo, T. S. H., Y. D. Yeong. 2003. Assessing the consumer decision
+process in the digital marketplace. Omega 31(5): 349–363.
+Tuttle, B. 2013. Hey Walmart, Its Hard to Make Sales When Store
+Shelves Are Empty, http://business.time.com/2013/03/27/
+hey-walmart-its-hard-to-make-sales-when-store-shelves-areempty/ (accessed October 26, 2015).
+Wright, M. 2014. Move over ebay, facebay is just one of the new
+ways to sell unwanted stuff. The Guardian, August 4, 2014 (accessed May 27, 2015).
+Yin, S., S. Ray, H. Gurnani, A. Animesh. 2010. Durable products
+with multiple used goods markets: Product upgrade and
+retail pricing implications. Market. Sci. 29(3): 540–560.
+
+Supporting Information
+In the online appendix we first show that the range of
+production cost for which a P2P platform has a positive
+impact on a retailer and supplier differs for each. We next
+provided an extended proof of Lemma 1. We then provide
+
+524
+
+Jiang, Dimitrov, and Mantin: Impact of P2P on Retailing Under Valuation Uncertainty
+Production and Operations Management 26(3), pp. 509–524, © 2016 Production and Operations Management Society
+
+a numerical analysis of the impact of a multiplicative platform transaction fee and a separate study on the impact of
+a P2P platform in the presence of heterogeneous customers. We conclude this appendix with a detailed discussion of the results of our survey on how consumers use
+P2P marketplaces to alleviate their valuation uncertainty.
+
+Additional Supporting Information may be found in the
+online version of this article:
+Appendix S1. P2P Marketplaces and Retailing in the Presence of Consumers’ Valuation Uncertainty.
+
+

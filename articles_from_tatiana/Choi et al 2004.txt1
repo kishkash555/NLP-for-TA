@@ -1,0 +1,2333 @@
+ARTICLE IN PRESS
+
+Int. J. Production Economics 88 (2004) 205–227
+
+Optimal returns policy for supply chain with e-marketplace
+Tsan-Ming Choi, Duan Li*, Houmin Yan
+Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong, Shatin, NT, Hong Kong
+Received 4 February 2002; accepted 30 May 2003
+
+Abstract
+We study in this paper a supply chain which is integrated by a returns policy. In the past, owing to a lack of sales
+channels, the returned products would worth very little. Now, with the advance of the e-commerce, the returned
+products can be sold with a higher price on the e-marketplace. In light of this, we ﬁrst investigate the optimal returns
+policy under the existence of the e-marketplace. Through a mean–variance analysis, we further study the risk issue
+associated with the optimal policy. Extensive simulations are then carried out and the managerial insights are discussed.
+r 2003 Elsevier B.V. All rights reserved.
+Keywords: Supply chain management; E-marketplace; Returns policy; Risk management; Mean–variance theory
+
+1. Introduction
+E-commerce has been a bright growing star in modern business world since the commercialization of the
+Internet and the evolution of the dot.com in the early 1996. It is commonly predicted that the transactions
+volume via e-commerce will continue to grow in the coming years (see Ward, 2000, for a proof of it).
+According to a report by Forrester Research (Kafka et al., 2000), the online B2B transactions in the United
+States will reach $2.7 trillion by 2004 and the e-marketplace (also called e-hub or e-exchange) will account
+for 53% of all online business trade volume. The future of the use of the e-marketplace for B2B transactions
+thus seems to be optimistic. Different companies have different uses of the e-marketplace and different
+e-marketplaces take different roles. According to Kaplan and Sawhney (2000), we can classify the
+e-marketplace into four categories: MRO hubs (e.g. MRO.com, BizBuyer.com), yield managers (e.g.
+CapacityWeb.com, Adauction.com), exchanges (e.g. PaperExchange.com, NewView Technologies) and
+catalog hubs (e.g. SciQuest.com, PlasticsNet.com). In any one of the above categories, in general, the
+e-marketplace is characterized by the low searching and transactions costs, high efﬁciency with automated
+transactions, improved economic gain brought by the intermediation effect (see Lucking-Reiley and
+Spulber, 2001). Moreover, buyers and sellers from all around the world can come to the e-marketplace
+together and this aggregation effect also improves the efﬁciency of the business transactions. As a result, the
+e-marketplace is really a signiﬁcant invention and it will even re-structure the supply chains in many
+*Corresponding author. Tel.: +852-26098323; fax: +852-26035505.
+E-mail address: dli@se.cuhk.edu.hk (D. Li).
+0925-5273/03/$ - see front matter r 2003 Elsevier B.V. All rights reserved.
+doi:10.1016/S0925-5273(03)00188-9
+
+ARTICLE IN PRESS
+206
+
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+industries (see Gunasekaran et al., 2002; Keskinocak and Tayur, 2001; Sodhi, 2001 for some general
+descriptions of this).
+Since the e-marketplace takes a crucial role in e-commerce, the studies on the applications and the
+strategies on the e-marketplace have attracted much attention. Some of the reported studies include: The
+intermediary strategies, with respect to service pricing and product design, in an e-marketplace (Bhargava
+et al., 2001), the relationship between the B2B e-marketplace announcements and the shareholders’
+response in the ﬁnancial market (Chen and Siems, 2001), the use of the e-marketplace for supply chain
+inventory management (Keskinocak and Tayur, 2001), the impacts brought by the e-marketplace on
+the relationships between supply chain parties (Haller, 2002), the role and details of the e-marketplace as
+an e-hub (Kaplan and Sawhney, 2000), and the applications of operations research techniques in the
+e-marketplace (Sodhi, 2001). Other interesting articles for e-commerce related to operations management
+include Brynjolfsson and Smith (2000), Chaffey (2002), Dellarocas and Klein (2002), Ghosh (1998), Kaplan
+and Sawhney (2000), Kauffman and Walden (2001), Lucking-Reiley and Spulber (2001), Netessine and
+Rudi (2000), Ngai et al. (2003), Sarkis and Sundarraj (2002), Stefansson (2002), Turban et al. (2000), and
+Yau (2002).
+In this paper, instead of proposing a conceptual framework, we provide an analytical model for the use
+of e-marketplace in a supply chain. We consider a two-echelon supply chain with a single manufacturer
+who supplies a single item to a distributor and the manufacturer adopts a returns policy (also called a
+buyback policy). Under the returns policy, the distributor can return any unsold product to the
+manufacturer for a partial re-fund after the selling season. In fact, a returns policy of this type has been
+applied in the real world for a long time and it is especially popular in the publishing industry. It is known
+that the returns policy can improve supply chain’s efﬁciency by tackling the problem of double
+marginalization (Spengler, 1950). The ﬁrst well-known quantitative analysis of returns policy for channel
+coordination appears in the marketing science literature (Pasternack, 1985). In Pasternack’s (1985) paper,
+a single-period, single-manufacturer single-retailer supply chain with a newsvendor product is studied. The
+decision of the retailer is the order quantity and the manufacturer decides the product wholesale and
+buyback returns prices. Through a returns policy, it is shown that Pareto improvement in terms of expected
+proﬁt can be achieved. The optimal buyback returns price is also independent of the demand distribution.
+After that, Emmons and Gilbert (1998) study the important role of returns policies in pricing and inventory
+decisions of a manufacturer–retailer channel. Under the returns policy, the retailer commits to both the
+selling price and the order quantity from the manufacturer before the selling season. At the end of the
+season, the retailer can return unsold products to the manufacturer with a re-fund. The authors suggest that
+this is usually the case for catalogue goods retailers. With a price-dependent demand distribution, it is
+shown that the returns policy can increase the total supply chain’s expected proﬁt. Other articles studying
+returns policies for channel coordination in a supply chain include Donohue (2000), Kandel (1996),
+Lau et al. (2000), Lau and Lau (1999), and Webster and Weng (2000).
+The supply chain that we considered in this paper is vertically integrated with a central planner. The
+central planner can set the parameters which achieve the optimal supply chain and we call him the supply
+chain coordinator. Obviously, the optimal returns policy that we study in this paper would be set by
+this supply chain planner. Notice that the supply chain coordinator can be the manufacturer himself or a
+third party (for instance, when the manufacturer and the distributor are different divisions under the
+same corporation, the supply chain coordinator can hence be another division in the company who is
+responsible for system coordination). Under the original practice (without the use of the e-marketplace), the
+manufacturer uses a returns policy to attract the distributor to order more while the returned products
+(from the distributor) usually worth very little to the manufacturer. Now, with the advance of e-commerce,
+we propose that the manufacturer can contemplate selling the returned products at a higher price (higher
+than the salvage value) on the e-marketplace. In this paper, we ﬁrst state the optimal returns policy in
+the absence of the e-marketplace (this has basically been studied in Pasternack, 1985). Then, we study the
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+207
+
+problem’s structural properties with the use of the e-marketplace. We give conditions under which the
+unique solution to the problem exists. After that, we study through simulation experiments the impacts
+brought by the e-marketplace to the supply chain and the individual echelons. Trade-off by the mean–
+variance analysis (Markowitz, 1959) is also applied for the studies of risk level associated with the returns
+policy and the e-marketplace.
+The organization of the rest of this paper is as follows: We ﬁrst propose the basic model and deﬁne the
+cost–revenue parameters. Then, we derive the expected proﬁts for all the parties in the supply chain and
+propose the optimal returns policy. Afterwards, we study the variance of proﬁts in the supply chain system.
+Simulation analysis for the supply chain with and without the e-marketplace is then carried out. Finally, we
+conclude with a discussion of the managerial issues.
+
+2. Basic model
+In this paper, we consider a supply chain inside which a single manufacturer ﬁrst supplies a single
+product to a distributor. The distributor then sells the product to the customers in the lower echelon. We
+consider the case where the selling season of this product is short. At the end of the selling season,
+the distributor can return the unsold products to the manufacturer following a returns policy. In this paper,
+we only consider a ﬂat rate of unit buyback returns price (or ‘‘buyback price’’ for short). Without the
+e-marketplace, the manufacturer would salvage the returned products at a unit value v. Now, with the
+e-marketplace, the manufacturer can consider selling the returned products with a higher price (higher than
+the salvage price v) through the Internet. This is an example of using the Internet as a marketplace for
+selling excess products as mentioned in Keskinocak and Tayur (2001). Companies that regularly sell used,
+obsolete, and overstocked products via the e-marketplace include Landsend.com, Yardsales.com and
+Egghead.com (see the description in Kannan and Kopalle, 2001). In this paper, before the returned
+products can be sold, we consider the situation under which the manufacturer needs to make some
+modiﬁcation or ‘‘re-work’’ over the returned products. This can be realized by an example of selling
+electronic products. For instance, a certain brand of digital camera was sold in the United States. After the
+product was faded-out and returned to the manufacturer in the United States, the manufacturer can sell
+this product via the web with a big discount and other businesses around the Globe can buy it. For
+example, a personal computer (PC) retailer in China would like to buy it and use it as a supplementary
+hardware for its PC products. However, before the product can be sold, the manufacturer needs to
+customize the product so that it could ﬁt the customers in China. The usual necessary customization rework includes the re-packaging of the product, the changing of the product’s voltage requirement, the
+changing of language in the user menu, and the revised warranty details, etc. Owing to the necessity of the
+product’s re-work before selling on the web, we consider the situation under which only the manufacturer,
+but not the distributor, can use the web for selling the product. Furthermore, we do not consider the
+situation under which the manufacturer re-sells the re-worked product to the distributor for re-distribution.
+The reasons are: (1) Since the manufacturer can sell the returned products directly via the e-marketplace, reselling the re-worked products to the distributor for re-distribution would reduce the proﬁt margin of the
+manufacturer. (2) The distributor may have good distribution channels in the local market, but may not
+necessarily be the case for the e-market.
+We now deﬁne the cost–revenue structure. First, the unit production cost at the manufacturer is m: The
+manufacturer sells the product to the distributor with a unit price of c: The distributor then sells the product
+to the lower-echelon parties with a unit selling price of r. For simplicity, we assume r to be ﬁxed. Notice that
+we can also carry out the analysis when r is not ﬁxed with the local market’s demand following a pricesensitive distribution (see Petruzzi and Dada, 1999). However, the derivations of the optimal returns policy
+would then become more complicated. Since it is not the objective of this paper to study this local market’s
+
+ARTICLE IN PRESS
+208
+
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+pricing policy, we just assume r to be ﬁxed. Following the returns policy, the unsold products can be
+returned from the distributor to the manufacturer at a unit price b at the end of the selling season. Any
+unsold products cost the distributor a unit holding cost h. After the distributor has returned the unsold
+products, the manufacturer can sell them to the salvage market at a unit price of v. In order to avoid trivial
+cases, we assume vpboc and mXv (if v > m; the manufacturer will produce inﬁnite amount of the product
+because there is always a proﬁt margin out of it). Notice that when we look at the supply chain with the
+manufacturer and the distributor together as a single entity (i.e. vertically integrated), c and b can be viewed
+as the internal costs transfer inside the system. Thus, c and b are the decision variables for the optimal
+supply chain coordinating returns policy and they would be set by the supply chain coordinator. Besides
+salvaging the returned products at a low salvage value, the manufacturer can also consider selling the
+returned products in the e-marketplace with a unit selling price of rE : We assume rE pr; i.e. the selling price
+of the product at the e-marketplace is no larger than the selling price at the local market, and the products
+to be sold in the e-marketplace would cost a re-work expense of mE : If the manufacturer chooses to sell
+the returned products through the e-marketplace and some products cannot be sold ﬁnally, it will incur
+an additional unit holding cost of hE and it can still be sold to the salvage market. To make the decision
+of selling on the e-marketplace sound, we have the marginal proﬁt generated by the sales through the
+e-marketplace larger than the salvage value: rE  mE  hE > v: Moreover, in order to establish the
+e-marketplace, the manufacturer needs to pay a ﬁxed operational cost of CE : This ﬁxed operational cost can
+be visualized as the fee for using the services provided by the e-marketplace owner.
+Observe that the use of the e-marketplace as a secondary market for selling the returned product from the
+local market is similar to the concept of having a secondary salvage market. In Section 2 of Petruzzi and
+Dada (1999), a multi-period pricing and inventory decision making problem, with the existence of the
+salvage market at each period, has been studied. However, since the e-marketplace is clearly very different
+in nature from the local market and its demand is stochastic, our model is neither the same nor a special
+case of Petruzzi and Dada (1999). Moreover, notice that one of the important issues that we address in this
+paper is the ‘‘proﬁt uncertainty’’ associated with the optimal returns policy with the use of the
+e-marketplace. This issue has not been mentioned in Petruzzi and Dada (1999) and it will be less interesting
+if we do not have a price-dependent and stochastic demand structure from the e-marketplace.
+The product’s demand faced by the distributor is called x: The probability density function (pdf) and the
+cumulative distribution function (cdf) for x are represented by fD ðÞ and FD ðÞ; respectively. We assume in
+this paper that the inverse function of FD ðÞ has a one to one mapping with its argument. After the local
+selling season, if the manufacturer uses the e-marketplace for selling the returned products, the
+corresponding market demand is denoted by xE ; and xE distributes with pdf and cdf of fE ðÞ and FE ðÞ;
+respectively.
+One of the objectives of this paper is to investigate the impact of the existence of the e-marketplace on the
+performance of the supply chain. So, we consider the situation under which the supply chain is vertically
+integrated with a central planner. Moreover, we assume the local market and the e-marketplace are two
+different market segments and the existence of the e-marketplace will not affect signiﬁcantly the demand in
+the local market. The arguments behind this assumption include: First, it takes a relatively long time from
+the time the products are returned from the distributor to the manufacturer. So, most consumers who can
+buy and want to buy the product during the local selling season is unlikely to wait that long for the locally
+faded-out product. Moreover, the availability of the returned product on the e-marketplace is not
+guaranteed. It is possible that the amount of returned product is very small. To an extreme, there can be no
+returned product at all. Second, the product under investigation is a seasonal and short-life product, most
+of the consumers in its retail market are not interested in it after the local selling season. However, this
+locally faded-out product may be attractive to people overseas (e.g. people who cannot buy the product at
+the ﬁrst instance due to the geographical barrier). Since the e-marketplace is open to everywhere, the
+demand for the locally faded-out product in a global sense can be substantial.
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+209
+
+Fig. 1. The structure of the supply chain with the e-marketplace.
+
+With the above details, Fig. 1 shows the structure of the supply chain with the use of the e-marketplace.
+In the following sections, we use the terminology of ‘‘primary market’’ interchangeably to represent the
+local market faced by the distributor during the ﬁrst selling season.
+
+3. Expected proﬁts and optimal returns policy
+We derive in this section the expected proﬁts of the manufacturer, the distributor and the supply chain as
+a whole. We also develop the optimal returns policy. First, we have the following notations:
+q
+qE
+PD
+PED
+PM
+PEM
+PS
+PES
+E½
+V ½
+
+quantity of product without the e-marketplace
+quantity of product with the e-marketplace
+proﬁt of the distributor without the e-marketplace
+proﬁt of the distributor with the e-marketplace
+proﬁt of the manufacturer without the e-marketplace
+proﬁt of the manufacturer with the e-marketplace
+proﬁt of the supply chain without the e-marketplace
+proﬁt of the supply chain with the e-marketplace
+unconditional expectation
+unconditional variance
+
+Using the standard derivation for expected proﬁt in the single-period inventory literature, we can express
+PM and PD as follows:
+PM ¼ ðc  mÞq  ðb  vÞL;
+
+ð3:1Þ
+
+PD ¼ ðr  cÞq  ðr þ h  bÞL;
+
+ð3:2Þ
+
+where L represents the amount of returned product at the end of the local selling season and it is deﬁned as
+follows:
+L ¼ max ð0; q  xÞ:
+
+ð3:3Þ
+
+The supply chain’s proﬁt PS is nothing more than the summation of PM and PD :
+PS ¼ ðr  mÞq  ðr þ h  vÞL:
+
+ð3:4Þ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+210
+
+Taking expectation with respect to x for (3.1), (3.2) and (3.4), we have
+E½PM  ¼ ðc  mÞq  ðb  vÞE½L;
+
+ð3:5Þ
+
+E½PD  ¼ ðr  cÞq  ðr þ h  bÞE½L;
+
+ð3:6Þ
+
+E½PS  ¼ ðr  mÞq  ðr þ h  vÞE½L;
+
+ð3:7Þ
+
+where
+E½L ¼
+
+Z
+
+q
+
+ðq  xÞfD ðxÞ dx:
+
+ð3:8Þ
+
+0
+
+Checking the second-order derivatives of (3.6) and (3.7) shows that E½PD  and E½PS  are concave
+functions. The optimal quantities that maximize E½PD  and E½PS ; respectively are found as follows:
+
+
+dE½PD 
+rc
+
+1
+¼ 0 ) Optimal quantity for the distributor qD ¼ FD
+;
+dq
+rþhb
+
+
+dE½PS 
+rm
+
+1
+¼ 0 ) Optimal quantity for the supply chain qS ¼ FD
+:
+dq
+rþhv
+ ¼ q iff
+Simple algebraic manipulation shows that qD
+S
+
+
+
+
+
+
+rm
+rm
+b  c ¼ ðr þ hÞ
+r :
+ð3:9Þ
+rþhv
+rþhv
+Thus, the central planner can set the buyback price b and the manufacturer’s wholesale price c such that
+(3.9) is satisﬁed. (Notice that the approach of (3.9) is well-known in the literature, see Pasternack (1985).)
+This will maximize the expected proﬁt of the supply chain. Now, let us consider the situation when we have
+the e-marketplace. For the distributor, when all the parameters are given, the proﬁt and expected proﬁt
+would be similar to the case without the e-marketplace:
+PED ¼ ðr  cÞqE  ðr þ h  bÞLE ;
+
+ð3:10Þ
+
+where
+LE ¼ maxð0; qE  xÞ;
+
+ð3:11Þ
+
+E½PED  ¼ ðr  cÞqE  ðr þ h  bÞE½LE 
+Z qE
+¼ ðr  cÞqE  ðr þ h  bÞ
+ðqE  xÞfD ðxÞ dx:
+
+ð3:12Þ
+
+0
+
+Similar to (3.6), E½PED  is concave. We denote the distributor’s optimal quantity which maximizes E½PED 
+ : Then
+by qE;D
+
+
+rc
+qE;D ¼ FD1
+:
+ð3:13Þ
+rþhb
+On the other hand, the proﬁt expressions for the manufacturer and the supply chain would be much more
+complicated when we have the e-marketplace. In fact, the optimal quantity decision would involve two
+separate uncertain demands at two different time points, i.e. we have a dynamic situation (and we will use
+the idea of dynamic programming to derive the expected proﬁt at two stages). To be speciﬁc, suppose that
+we are now at the end of the selling season of the primary market when LE units of unsold products have
+been returned from the distributor to the manufacturer. In this case, the proﬁt for the manufacturer is as
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+211
+
+shown below:
+PEM ¼ ðc  mÞqE  bLE þ ðrE  mE Þ min ðLE ; xE Þ þ ðv  hE Þ maxðLE  xE ; 0Þ  CE
+¼ ðc  mÞqE þ ðrE  mE  bÞLE  ðrE  mE  v þ hE Þ max ðLE  xE ; 0Þ  CE :
+
+ð3:14Þ
+
+Notice that in the above deﬁnition of PEM ; the amount of re-worked products is the same as the amount of
+products sold on the e-marketplace. In other words, we assume that the manufacturer only re-works those
+products after he has observed the demand from the e-marketplace. We have not considered the situation
+where the manufacturer needs to re-work the product before the demand from the e-marketplace is known.
+Obviously, this situation is an interesting extension and can be studied in the future research.
+For a given LE ; taking expectation of (3.14) with respect to the e-marketplace’s demand xE yields
+E ½PEM jLE  ¼ ðc  mÞqE þ ðrE  mE  bÞLE  ðrE  mE  v þ hE ÞGE ðLE Þ  CE ;
+RL
+where GE ðLE Þ ¼ 0 E ðLE  xE ÞfE ðxE Þ dxE :
+Similarly, we have the conditional expectation on the supply chain’s proﬁt:
+xE
+
+E ½PES jLE  ¼ ðr  mÞqE þ ðrE  mE  r  hÞLE  ðrE  mE  v þ hE ÞGE ðLE Þ  CE :
+
+xE
+
+ð3:15Þ
+
+ð3:16Þ
+
+From the deﬁnition of LE ; it is not difﬁcult to see that the distribution of LE is closely related to the
+distribution of x: Essentially, the distribution of LE is a mixed one with continuous and discrete parts as
+shown below:
+(RN
+qE fD ðxÞ dx for LE ¼ 0;
+fLE jqE ðLE Þ ¼
+ð3:17Þ
+fD ðqE  LE Þ for LE > 0:
+Now, we go back to the time instance when the local selling season has not started yet. By taking
+expectation towards (3.15) with respect to LE ; we have the manufacturer’s unconditional expected proﬁt
+before the selling season starts:
+
+
+E
+E
+E½PM  ¼ E E ½PM jLE 
+LE x E
+Z qE
+¼
+½ðrE  mE  bÞLE  ðrE  mE  v þ hE ÞGE ðLE Þ fD ðqE  LE Þ dLE þ ðc  mÞqE  CE :
+0
+
+Substituting y ¼ qE  LE gives
+Z qE
+E
+½ðrE  mE  bÞ ðqE  yÞ  ðrE  mE  v þ hE ÞGE ðqE  yÞ fD ðyÞ dy
+E½PM  ¼
+0
+
+þ ðc  mÞqE  CE :
+
+ð3:18Þ
+
+Taking the expected proﬁt of the supply chain as the summation of the respective expected proﬁt terms of
+the manufacturer and the distributor, we have
+E½PES  ¼ E½PED  þ E½PEM 
+Z qE
+¼
+½ðrE  mE  r  hÞLE  ðrE  mE  v þ hE ÞGE ðLE Þ fD ðqE  LE Þ dLE
+0
+
+þ ðr  mÞqE  CE ;
+Z qE
+E½PES  ¼
+½ðrE  mE  r  hÞ ðqE  yÞ  ðrE  mE  v þ hE ÞGE ðqE  yÞ fD ðyÞ dy
+
+ð3:19aÞ
+
+0
+
+þ ðr  mÞqE  CE :
+
+ð3:19bÞ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+212
+
+In the discussion so far, we have not assumed any speciﬁc forms for the demand distributions in both the
+primary market and the e-marketplace. In the following, we separate the studies into two cases. In the ﬁrst
+case, we assume the product’s selling price on the e-marketplace is ﬁxed and it is independent of the amount
+of returned product. In the second case, we consider a more general situation under which the product’s
+selling price on the e-marketplace would be determined with respect to the actual amount of returned
+product LE and the price-sensitive e-marketplace demand. Obviously, the e-marketplace pricing policy
+under the ﬁrst case is not optimal. On the other hand, the pricing policy under the second case is optimal.
+We will present the respective optimal returns policies in both cases.
+Case (1) rE is a constant:
+In this case, rE is not a decision and the supply chain’s expected proﬁt is given by (3.19b). Notice that in
+this case, rE is independent of the amount of returned product and it is obviously not an optimal pricing
+strategy. Despite this fact, ﬁxing rE at the very beginning can provide a simpler returns policy and it is easier
+to implement. It also gives the manager an idea of the value for the e-marketplace selling price. Directly
+checking the structural properties of E½PES ; we have the following proposition.
+Proposition 3.1. When rE is a constant fixed at the very beginning, E½PES  is a concave function of qE and a
+ ; exists.
+unique supply chain’s optimal quantity, qE;S1
+Proof. See Appendix.
+ ; can be determined easily by
+With Proposition 3.1, the optimal supply chain’s quantity for Case 1, qE;S1
+E
+solving dE½PS =dqE ¼ 0:
+ ¼ argfdE½PE =dq ¼ 0g:
+qE;S1
+E
+S
+
+ð3:20Þ
+
+Case (2) rE is a decision variable:
+In this case, suppose that the e-marketplace’s demand depends on rE and the demand distribution is a well-deﬁned function of rE ; 8rE prE pr%E ; where r%E and rE are positive constants which denote
+%
+the upper and lower bounds for rE ; respectively.
+Moreover, since% we have the model assumptions of
+rE  mE  hE > v and rE pr; we must have: r%E pr and mE þ hE þ vorE pr: We have the following
+proposition.
+Proposition 3.2. E xE ½PES jLE  is strictly concave of rE ; 8rE prE pr%E , if any one of the following is true:
+%
+(a) ðdGE ðLE Þ=drE ÞX0 and ðd2 GE ðLE Þ=dr2E ÞX0; with at least one strict inequality.
+(b) 2ðdGE ðLE Þ=drE Þ þ ðrE  mE  v þ hE Þ ðd2 GE ðLE Þ=dr2E Þ > 0:
+Proof. See Appendix.
+An example of the price-dependent demand distribution which satisﬁes Proposition 3.2 is the popular
+linear demand distribution (see Lau and Lau, 1988)
+xE ¼ a  brE þ e;
+
+ð3:21Þ
+
+where
+a > 0; b > 0;
+
+eBNð0; s2 Þ:
+
+ð3:22Þ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+213
+
+Observe that (3.22) means that e follows a normal distribution with a zero mean and a variance of s2 :
+To be speciﬁc, we have the following corollary when xE is given by (3.21).
+Corollary 3.2. When xE follows the linear price-dependent distribution given by (3.21), E xE ½PES jLE  is strictly
+concave of rE ; 8rE prE pr%E :
+%
+Proof. See Appendix.
+Notice that rE is, in general, a function of LE : Suppose that we have rE written as a function of LE :
+rE ¼ tðLE Þ:
+ð3:23aÞ
+Since rE is well-bounded, rE ¼ tðLE Þ is also bounded for all 0pLE pqE : Putting rE into (3.19a) gives us
+the expected proﬁt under the optimal e-market selling price (or ‘‘beneﬁt-to-go’’), E½PES jrE ; before the local
+selling season starts:
+E½PES jrE 
+Z qE
+¼
+½ðrE  mE  r  hÞLE  ðrE  mE  v þ hE ÞGE ðLE Þ fD ðqE  LE Þ dLE þ ðr  mÞqE  CE
+0
+Z qE
+¼
+½ðtðLE Þ  mE  r  hÞLE  ðtðLE Þ  mE  v þ hE ÞGE ðLE Þ fD ðqE  LE Þ dLE þ ðr  mÞqE  CE :
+0
+
+ð3:23bÞ
+With (3.23b), we have Proposition 3.3.
+Proposition 3.3. If rE is a continuous, non-increasing and concave function of LE , i.e. drE =dLE p0 and
+d2 rE =dL2E p0; then a unique supply chain’s optimal quantity which maximizes E½PES jrE  exists.
+Proof. See Appendix.
+Remarks: First, notice that the condition in Proposition 3.3 is sufﬁcient but not necessary. Second, the
+condition of having rE as a non-increasing function of LE makes very good sense because the larger the
+amount of returned product for e-marketplace, the more desirable to have a larger e-market. With this in
+mind, it is wise to lower the e-marketplace selling price and increase the size of the market demand.
+Moreover, d2 rE =dL2E p0 means that the marginal decrease of rE would get smaller and smaller as LE
+increases. It is also a usual occurrence. So, when the condition in Proposition 3.3 is satisﬁed, the optimal
+supply chain’s quantity under Case 2, qE;S2 ; can be found as follows:
+ð3:24Þ
+q ¼ arg fdE½PE jr =dq ¼ 0g:
+E;S2
+
+S
+
+E
+
+E
+
+Since the optimal-order quantity of the distributor, under the use of the e-marketplace in the supply
+ ¼ F 1 ðr  cÞ=ðr þ h  bÞ : Thus, the supply chain coordinator can achieve
+chain, is given by (3.13): qE;D
+D
+the optimal supply chain by adjusting the buyback price b and the wholesale price c such that
+For Case 1:
+
+
+rc
+1
+
+qE;S1 ¼ FD
+ð3:25Þ
+rþhb
+which implies
+c  FD ðqE;S1 Þb þ hFD ðqE;S1 Þ  r½1  FD ðqE;S1 Þ ¼ 0:
+
+ð3:26Þ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+214
+
+For Case 2:
+q
+
+E;S2
+
+¼
+
+FD1
+
+
+
+rc
+rþhb
+
+
+ð3:27Þ
+
+which implies
+c  FD ðqE;S2 Þb þ hFD ðqE;S2 Þ  r½1  FD ðqE;S2 Þ ¼ 0:
+
+ð3:28Þ
+
+Notice that the solutions (c, b) which achieve (3.25) and (3.27), respectively, are not unique. When c is
+ﬁxed, we can then solve for a unique b which achieves (3.25) and (3.27).
+
+4. Variance of proﬁts
+In this section, we study the variance of proﬁts of the supply chain, the manufacturer and the distributor.
+Recall that in our model, the demand faced by the distributor is uncertain. If the manufacturer makes use of
+the e-marketplace, the e-marketplace demand is also uncertain. The expected proﬁt terms give us the
+average proﬁt but they do not tell us the amount of ﬂuctuation associated with the proﬁt. It is well-known
+that a large variance of proﬁt will hinder the chance of achieving the expected proﬁt. Moreover, following
+the mean–variance theory, pioneered by Markowitz (1959) in portfolio management, we can quantify the
+risk of making proﬁt by the variance of proﬁt. In order to develop a deeper insight about the use of the
+e-marketplace discussed in this paper, we derive and study the variance of proﬁts for the supply chain and
+its individual parties.
+First of all, we consider the case without the e-marketplace. Denote the variance of proﬁts of the supply
+chain, the manufacturer and the distributor as V ðPS Þ; V ðPM Þ and V ðPD Þ; respectively. Taking variance of
+(3.1), (3.2) and (3.4), we have
+V ðPM Þ ¼ ðb  vÞ2 V ½L;
+
+ð4:1Þ
+
+V ðPD Þ ¼ ðr þ h  bÞ2 V ½L;
+
+ð4:2Þ
+
+V ðPS Þ ¼ ðr þ h  vÞ2 V ½L;
+
+ð4:3Þ
+
+where
+V ½L ¼ Ef½max ðq  x; 0Þ2 g  fE½max ðq  x; 0Þg2
+Z q
+Z q
+2
+¼
+ðq  xÞ2 fD ðxÞ dx 
+ðq  xÞfD ðxÞ dx :
+0
+
+ð4:4Þ
+
+0
+
+We use the relation of V ½X  ¼ E½X 2   ðE½X Þ2 in (4.4). Checking the derivative of V ½L with respect to q,
+we have
+Z q
+dV ½L
+¼ 2½1  FD ðqÞ
+ðq  xÞfD ðxÞ dxX0:
+ð4:5Þ
+dq
+0
+Next, we consider the case with the e-marketplace. We denote the variance of proﬁts of the supply chain,
+the manufacturer, and the distributor by V ðPES Þ; V ðPEM Þ; and V ðPED Þ; respectively. Taking the variance of PED
+yields
+V ðPED Þ ¼ ðr þ h  bÞ2 xD ðqE Þ;
+
+ð4:6Þ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+215
+
+where
+Z
+
+xD ðqE Þ ¼
+
+qE
+
+ðqE  xÞ2 fD ðxÞ dx 
+
+0
+
+Z
+
+2
+
+qE
+
+ðqE  xÞfD ðxÞ dx :
+
+ð4:7Þ
+
+0
+
+For the variance of PEM and PES ; since there are two random variables: LE and xE ; we use the following
+formula for the derivation:
+V ½Z ¼ V E ðZÞ þ E V ðZÞ :
+Y jX
+
+X
+
+ð4:8Þ
+
+X Y jX
+
+In (4.8), we have the unconditional variance being evaluated as the summation of the variance of the
+conditional mean and the expectation of the conditional variance.
+Using (4.8), we have
+V ðPEM Þ ¼ V
+
+E ðPEM Þ þ E
+
+LE xE jLE
+
+V ðPEM Þ
+
+LE xE jLE
+
+¼ V ½ðc  mÞqE þ ðrE  mE  bÞLE  ðrE  mE  v þ hE ÞGE ðLE Þ  CE 
+LE
+
+
+þ E V ½ðrE  mE  v þ hE Þ max ðLE  xE ; 0Þ
+LE
+
+xE jLE
+
+¼ ðrE  mE  bÞ2 V ½LE  þ ðrE  mE  v þ hE Þ2 V ½GE ðLE Þ
+LE
+LE
+
+
+þ ðrE  mE  v þ hE Þ2 E V ½max ðLE  xE ; 0Þ :
+LE
+
+ð4:9Þ
+
+xE jLE
+
+After simpliﬁcation (see Appendix), we have
+V ðPEM Þ ¼ ðrE  mE  bÞ2 H½qE  þ ðrE  mE  v þ hE Þ2 J½qE ;
+where
+H½qE  ¼
+
+Z
+
+qE
+0
+
+L% E ¼
+
+Z
+
+½y  ðqE  L% E Þ2 fD ðyÞ dy þ L% 2E
+
+Z
+
+ð4:10Þ
+
+N
+
+fD ðyÞ dy;
+
+ð4:11Þ
+
+qE
+
+qE
+
+ðqE  xÞfD ðxÞ dx;
+
+ð4:12Þ
+
+0
+
+J½qE  ¼
+
+Z
+
+qE
+
+GE ðqE  yÞ2 fD ðyÞ dy 
+
+0
+
+xE ðqE  yÞ ¼
+
+Z
+
+2
+
+qE
+
+GE ðqE  yÞfD ðyÞ dy þ
+
+0
+
+Z
+
+qE y
+
+ðqE  y  xE Þ2 fE ðxE Þ dxE 
+
+Z
+
+qE
+
+xE ðqE  yÞfD ðyÞ dy;
+
+ð4:13Þ
+
+0
+
+Z
+
+0
+
+2
+
+qE y
+
+ðqE  y  xE ÞfE ðxE Þ dxE :
+
+ð4:14Þ
+
+0
+
+Similarly, we have (see Appendix for the derivation)
+V ðPES Þ ¼ ðrE  mE  r  hÞ2 H½qE  þ ðrE  mE  v þ hE Þ2 J½qE :
+Proposition 4.1. When all the parameters are fixed:
+(a) V ðPS Þ; V ðPM Þ; and V ðPD Þ are increasing functions of q:
+(b) V ðPED Þ; V ðPEM Þ; and V ðPES Þ are increasing functions of qE :
+
+ð4:15Þ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+216
+
+Proof. (a) From (4.5). (b) See Appendix.
+From Proposition 4.1, we know that when the ordering quantity increases and everything else remains
+constant, the variance of proﬁts is increasing in the respective quantities. However, in our supply chain
+model, the supply chain is coordinated by setting the optimal buyback and wholesale prices and rE can be a
+decision variable (in Case 2 of Section 3). When the buyback price b increases, the optimal quantity qE should
+increase and the optimal e-marketplace selling price rE may vary by different extent. As a result, compared
+with the supply chain without the e-marketplace, the supply chain system with the e-marketplace for selling
+the returned products online may increase its expected proﬁt while the variance of proﬁt may also increase.
+In order to analyze the performance of the optimal returns policy with and without the e-marketplace, we
+carry out numerical studies in the next section. Observe that the analytical expressions of the expected proﬁt
+and the variance of proﬁt under the optimal policies are quite complicated for direct computation. As a
+result, instead of ﬁnding the exact values by solving the analytical condition and plugging in the numbers
+into the expressions directly, we study the policies by running simulations.
+
+5. Simulation studies
+We carry out in this section the simulation studies towards the supply chains with and without the use of
+the e-marketplace under the respective optimal policies. The cost–revenue parameters are given as: m ¼ 2;
+r ¼ 10; h ¼ 0:01; v ¼ 0:4; c ¼ 4: Here, we ﬁx the manufacturer’s wholesale price and reduce our strategy
+space to the determination of the buyback price b only. Furthermore, we do not include the ﬁxed
+operational cost CE in the following analysis (we can then study how big CE can be under which the
+e-marketplace is still beneﬁcial to proceed). The primary market’s demand is normally distributed with a
+mean of 1000 and a variance of 3002, i.e.
+fD ðxÞ ¼ Nð1000; 3002 Þ:
+
+ð5:1Þ
+
+The e-marketplace’s demand is price dependent with the following structure:
+fE ðxE Þ ¼ Nðk1  k2 rE ; s2E Þ;
+
+82prE p10:
+
+ð5:2Þ
+
+In order to investigate the impact of the size of the e-marketplace, we consider the e-marketplace with
+three expected demand sizes:
+High: k1 ¼ 400; k2 ¼ 200 and sE ¼ 120;
+Medium: k1 ¼ 200; k2 ¼ 10 and sE=60,
+Low: k1 ¼ 100; k2 ¼ 5 and sE=30.
+Notice that in deﬁning the parameters of the above ‘‘High, Medium and Low’’ demands, we take into
+account the coefﬁcient of variation (deﬁned as the standard deviation over the mean) of them. We try to set
+the value under which the parameters are all in proportion and so they would have similar coefﬁcients of
+variation. On the other hand, observe that the coefﬁcients of variation cannot be the same as rE is not ﬁxed
+under Policy 2 and this makes the mean vary from time to time.
+With the above details, we can start the simulation experiments towards the cases with and without the
+e-marketplace:
+Case i: Without the use of the e-marketplace.
+Case ii: With the use of the e-marketplace:
+*
+*
+
+Policy 1: rE is ﬁxed in advance.
+Policy 2: The optimal rE is set dynamically with respect to the amount of returned product.
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+217
+
+In each case above, all results are obtained after running the simulation experiments for 500 times. The
+precision of the optimal buyback price b and the optimal e-marketplace selling price rE is up to 1 decimal
+place. During the experiments, we determine the optimal buyback price b and the corresponding expected
+proﬁts for the supply chain, the manufacturer and the distributor. At the same time, we study the associated
+standard deviation of proﬁts. To be more precise, we also include the 90% conﬁdence interval to capture
+the interval with which the real expected proﬁt lies given the simulation-generated proﬁts. Using the
+formula proposed in Law and Kelton (1991, p. 286) and representing the 90% conﬁdence interval as
+follows:
+90%CI=90%Conﬁdence interval towards the expected proﬁt, we have
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+90%  CI ¼ EP71:645 VP=500;
+ð5:3Þ
+where EP and VP denote the expected proﬁt and the variance of proﬁt, respectively, towards the random
+proﬁts obtained from the simulation experiments.
+We deﬁne
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+CIEP ¼ 71:645 VP=500
+ð5:4Þ
+for representing the bounds of the deviation of the real expected proﬁt from the simulation in the
+90%conﬁdence interval.
+For a notational purpose, we use the following abbreviations in the discussions below:
+*
+*
+*
+
+*
+
+EP=Expected proﬁt, SP=Standard deviation of proﬁt
+DEP=Change of expected proﬁt, DSP=Change of standard deviation of proﬁt
+%DEP=Percentage change of expected proﬁt, %DSP=Percentage change of standard deviation of
+proﬁt
+EMP=E-marketplace
+
+Case i: Without the e-marketplace.
+When there is no e-marketplace, the optimal buyback price b is found to be 2.8. The corresponding
+expected proﬁts and standard deviation of proﬁts are shown in Table 1:
+Case ii: With the e-marketplace.
+First, under Policy 1 with a ﬁxed rE ¼ 6; the optimal buyback price b and the corresponding EP and SP
+are shown in Table 2.
+Under Policy 2, the optimal rE is set dynamically with respect to the amount of returned products.
+We have the simulation results stated in Table 3.
+5.1. Observations and discussions 1
+*
+
+*
+
+From Tables 2 and 3, we can observe that the larger the demand size on the e-marketplace, the larger
+the value of the optimal buyback price b. This is very intuitive because the larger the e-market size, the
+more expected returned products could be sold on the web. This accounts for a tendency to increase
+the buyback price in the primary market. Moreover, when there is the e-marketplace, the buyback prices
+(under Policies 1 and 2) are larger than the buyback price under the case without the e-marketplace.
+Comparing the case without the e-marketplace and each case with the e-marketplace, the expected proﬁt
+with the use of the e-marketplace is always larger. This is reasonable because we have not included
+the setup cost of operating the e-marketplace and the returned products could be sold with a higher
+price than the salvage value. On the other hand, the standard deviation of proﬁt is also larger when
+we have the e-marketplace. If we take a mean–variance consideration in which we capture the risk by the
+variance (or equivalently the standard deviation) measure, we can see that the use of the e-marketplace
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+218
+
+Table 1
+Optimal b and the corresponding EP and SP when there is no EMP
+b
+
+Supply chain
+
+2.8
+
+Manufacturer
+
+Distributor
+
+EP
+
+CIEP
+
+SP
+
+EP
+
+CIEP
+
+SP
+
+EP
+
+CIEP
+
+SP
+
+7526
+
+7172
+
+2332
+
+1882
+
+743
+
+582
+
+5644
+
+7129
+
+1749
+
+Table 2
+Optimal b and the corresponding EP and SP under Policy 1
+Demand
+
+High
+Medium
+Low
+
+b
+
+3.7
+3.4
+3.1
+
+Supply chain
+
+Manufacturer
+
+Distributor
+
+EP
+
+CIEP
+
+SP
+
+EP
+
+CIEP
+
+SP
+
+EP
+
+CIEP
+
+SP
+
+8578
+7994
+7715
+
+7182
+7182
+7180
+
+2480
+2479
+2449
+
+2699
+2256
+2061
+
+764
+754
+748
+
+870
+733
+647
+
+5878
+5738
+5654
+
+7133
+7133
+7134
+
+1808
+1811
+1822
+
+Table 3
+Optimal b and the corresponding EP and SP under Policy 2
+Demand
+
+High
+Medium
+Low
+
+b
+
+3.7
+3.4
+3.2
+
+Supply chain
+
+Manufacturer
+
+Distributor
+
+EP
+
+CIEP
+
+SP
+
+EP
+
+CIEP
+
+SP
+
+EP
+
+CIEP
+
+SP
+
+8965
+8174
+7771
+
+7189
+7183
+7182
+
+2572
+2482
+2475
+
+3087
+2436
+2111
+
+788
+761
+752
+
+1191
+824
+701
+
+5878
+5738
+5660
+
+7133
+7133
+7134
+
+1808
+1811
+1818
+
+brings an improvement of expected proﬁt but it may also bring a larger standard deviation of proﬁt
+which implies a larger risk.
+Next, in order to get a better picture about the amount of changes in the expected proﬁt and standard
+deviation of proﬁt with the use of the e-marketplace, we have the results in Tables 4–6.
+5.2. Observations and discussions 2
+*
+
+From Table 4, we can observe that the improvements of the expected proﬁt brought by Policy 1 are 1052,
+468 and 189 for the cases with high, medium and low demand sizes, respectively. Thus, in the respective
+cases, when the setup cost for the e-marketplace CE is less than the expected proﬁt improvement, it
+should be beneﬁcial to proceed if we take a risk neutral expected measure as the objective. For the
+case with high and medium demand sizes, the improvement of expected proﬁt with the use of the
+e-marketplace is substantial. On the other hand, observe that the expected proﬁt improvement also
+brings an un-negligible amount of increase of standard deviation of proﬁt. This implies that the
+uncertainty associated with the attainment of the optimal expected proﬁt is larger. In light of that,
+we propose that unless the net expected proﬁt, i.e. expected proﬁt improvement brought by the
+e-marketplace minus the setup cost of the e-marketplace, is large enough to compensate the increase of
+the standard deviation of proﬁt, it is unwise to proceed with the use of the e-marketplace. Obviously, the
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+219
+
+Table 4
+Change and percentage change of EP and SP: Comparing the case with the e-marketplace under Policy 1 and the case without the
+e-marketplace
+Demand
+
+High
+Medium
+Low
+
+Supply chain
+
+Manufacturer
+
+Distributor
+
+DEP
+
+DSP
+
+DEP (%)
+
+DSP (%)
+
+DEP
+
+DSP
+
+DEP (%)
+
+DSP (%)
+
+DEP
+
+DSP
+
+DEP (%)
+
+DSP (%)
+
+1052
+468
+189
+
+148
+147
+117
+
+13.98
+6.22
+2.51
+
+6.35
+6.30
+5.02
+
+817
+374
+179
+
+288
+151
+65
+
+43.41
+19.87
+9.51
+
+49.48
+25.95
+11.17
+
+234
+94
+10
+
+59
+62
+73
+
+4.15
+1.67
+0.18
+
+3.37
+3.54
+4.17
+
+Table 5
+Change and percentage change of EP and SP: Comparing the case with the e-marketplace under Policy 2 and the case without the
+e-marketplace
+Demand
+
+High
+Medium
+Low
+
+Supply chain
+
+Manufacturer
+
+Distributor
+
+DEP
+
+DSP
+
+DEP (%)
+
+DSP (%)
+
+DEP
+
+DSP
+
+DEP (%)
+
+DSP (%)
+
+DEP
+
+DSP
+
+DEP (%)
+
+DSP (%)
+
+1439
+648
+245
+
+240
+150
+143
+
+19.12
+8.61
+3.26
+
+10.29
+6.43
+6.13
+
+1205
+554
+229
+
+609
+242
+119
+
+64.03
+29.44
+12.17
+
+104.64
+41.58
+20.45
+
+234
+94
+16
+
+59
+62
+69
+
+4.15
+1.67
+0.28
+
+3.37
+3.54
+3.95
+
+Table 6
+Increase and percentage increase of EP and SP: Comparing Policy 2 with Policy 1
+Demand
+
+High
+Medium
+Low
+
+*
+
+*
+
+Supply chain
+
+Manufacturer
+
+Distributor
+
+DEP
+
+DSP
+
+DEP (%)
+
+DSP (%)
+
+DEP
+
+DSP
+
+DEP (%)
+
+DSP (%)
+
+DEP
+
+DSP
+
+DEP (%)
+
+DSP (%)
+
+387
+180
+56
+
+92
+3
+26
+
+4.51
+2.25
+0.73
+
+3.71
+0.12
+1.06
+
+388
+180
+50
+
+321
+91
+54
+
+14.38
+7.98
+2.43
+
+36.90
+12.41
+8.35
+
+0
+0
+6
+
+0
+0
+4
+
+0.00
+0.00
+0.64
+
+0.00
+0.00
+0.22
+
+judgement would be different for different decision makers. Similar situation takes place for Policy 2 as
+revealed by Table 5.
+When we compare the impact of having the e-marketplace on the supply chain, distributor and
+manufacturer, it is found that the e-marketplace affects the manufacturer most. Despite the fact that the
+manufacturer’s expected proﬁt is improved with the e-marketplace, the increase of uncertainty, as
+revealed by the increase of standard deviation of proﬁt, is also big. As revealed by the numerical results,
+the manufacturer’s percentage increase of the standard deviation of proﬁt is even bigger than the
+percentage increase of expected proﬁt as shown in Tables 4 and 5 after using the e-marketplace. Thus, in
+integrating the supply chain, the supply chain central planner should take care of not only the issues of
+the proﬁt sharing and information sharing, but also the risk sharing.
+When we compare the performance of the two policies under the case with the e-marketplace (Table 6),
+we ﬁnd that Policy 2 is always better than Policy 1. In fact, Policy 2 is optimal while Policy 1 is not
+optimal since Policy 1 does not set the value for rE dynamically with respect to the amount of returned
+products. Thus, when we are given a price-dependent demand distribution for the e-marketplace,
+Policy 2 should be adopted.
+
+ARTICLE IN PRESS
+220
+
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+5.3. Sensitivity studies
+We also use simulation experiments to study the sensitivity of the outcomes to various parameters of the
+EMP. We ﬁnd that the outcomes are sensitive to all the parameters of the e-market demand distribution, k1 ;
+k2 and sE ; and the unit product re-work cost mE : They affect the expected proﬁt and standard deviation of
+proﬁt with the use of the e-marketplace signiﬁcantly. On the other hand, the outcome is relatively
+insensitive to the holding cost in the e-marketplace, hE ; and its changes do not affect the supply chain a lot.
+
+6. Conclusion, managerial insights and future studies
+In this paper, we have analyzed quantitatively the use of the e-marketplace for selling the returned
+products after rework in a vertically integrated supply chain. We have illustrated a way to achieve the
+optimal supply chain by setting a buyback pricing policy under the case with the e-marketplace. The
+structural properties of the supply chain’s expected proﬁt with the e-marketplace and the speciﬁc details on
+setting the optimal returns policy have been revealed analytically. Thus, the supply chain coordinator can
+make use of these mathematical formulae to set the respective prices. For the use of the e-marketplace, we
+propose that the manager should not ﬁx the e-marketplace selling price of the product before the actual
+amount of returned product is known. In fact, the product’s selling price on the e-marketplace should be set
+dynamically with respect to the amount of stock on hand. Moreover, Proposition 3.2 has given us the
+condition under which we could solve the optimal e-marketplace selling price analytically.
+On the other hand, through the simulation studies, we ﬁnd that the introduction of the e-marketplace can
+be beneﬁcial to the supply chain and the amount of improvement depends on the ﬁxed operational cost and
+the demand size of the e-marketplace. For the e-marketplace with a relatively large demand, we ﬁnd that
+the improvement of expected proﬁts for the supply chain can be substantial. Since the web is open to a
+global market without geographical barrier, the potential demand for those ‘‘locally fade-out’’ products can
+be high. As a result, the potential use of the world wide web as an e-marketplace for selling the returned
+products should not be neglected. However, the use of the e-marketplace is not without drawback. We ﬁnd
+that the use of the e-marketplace may bring a large standard deviation of proﬁt which accounts for an
+increase of uncertainty and risk towards the supply chain system. This increase is essentially signiﬁcant
+for the manufacturer. This calls for the supply chain coordinator’s attention and a mean–variance type
+of trade-off judgement would be helpful in making a wise decision on whether or not to implement an
+e-marketplace. It can also be a measure for the risk sharing among the supply chain echelons.
+As a remark, in this paper, we consider the two marketplaces separately. We can see that with an
+existence of the e-marketplace as a secondary market for the returned products, the optimal supply chaincoordinating buyback price would be increased and this would attract the distributor to order more. This
+increased amount of order quantity would reduce the probability of having stockout in the primary market.
+This accounts for a saving in terms of the opportunity cost and an improvement of service level. After the
+unsold products at the primary market are returned, an optimal e-marketplace selling price is then
+determined which makes the best use of these returned products. This is very appealing. However, notice
+that a bad case can also occur under which the demands in both the primary and the secondary markets
+turn out to be low and the increased amount of products would also account for a big loss to the company.
+As a result, the ﬂuctuation of proﬁt with the use of an e-marketplace (for the returned products) would be
+higher. This is reﬂected by the increase of the standard deviation of proﬁt. Finally, notice that we have not
+considered the situation with which the manufacturer could sell directly on the e-marketplace at the ﬁrst
+time instance. The reasons of not doing so include the need of rework before re-selling and the potential
+channel conﬂict barrier in the industry. It is well-known that conﬂict with original buyers exists in the real
+world when the manufacturer sells online. One of the examples is the Levi Straus & Co.’s case (Laudon and
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+221
+
+Laudon, 2002) where the company had to abandon the direct online sales because of the channel conﬂict
+with her buyers—other retail stores. The use of the e-marketplace for the returned products, as what we
+have proposed in this paper, will not create such a channel conﬂict situation. Moreover, we would like to
+look into the operational issues analytically with respect to the use of the e-marketplace and its pros and
+cons. Thus, we start in this paper by ﬁrst building a neat and relatively simple supply chain model. Actually,
+one of the possible future research directions is to extend our results to more general situations where there
+are multiple buyers and the manufacturer has an option of selling online at the ﬁrst instance.
+
+Acknowledgements
+The authors are grateful for the constructive and insightful comments from the editor and two
+anonymous referees. Thanks are especially given to an anonymous referee for suggesting an important
+reference. The authors are also indebted to Jian Chen and David J. Robb for their comments on some parts
+of this paper during the Asian e-Biz Workshop in Beijing, July, 2001.
+
+Appendix
+Proof of Proposition 3.1. From (3.19b), we have
+Z qE
+E
+E½PS  ¼
+½ðrE  mE  r  hÞðqE  yÞ  ðrE  mE  v þ hE ÞGE ðqE  yÞ fD ðyÞ dy
+0
+
+þ ðr  mÞqE  CE ;
+Z qE
+E
+dE½PS =dqE ¼ ðr  mÞ þ
+½ðrE  mE  r  hÞ
+0
+
+ ðrE  mE  v þ hE Þ dGE ðqE  yÞ=dqE  fD ðyÞ dy;
+d2 E½PES =dq2E
+¼ ½ðrE  mE  r  hÞ  ðrE  mE  v þ hE Þ dGE ðqE  qE Þ=dqE Þ fD ðqE Þ
+Z qE
+þ
+½ðrE  mE  v þ hE Þ d2 GE ðqE  yÞ=dq2E  fD ðyÞ dy:
+
+ðA:1Þ
+
+0
+
+By deﬁnition, we have GE ðqE  yÞ ¼
+to qE gives
+
+R qE y
+0
+
+ðqE  y  xE ÞfE ðxE Þ dxE : Differentiating GE ðqE  yÞ with respect
+
+dGE ðqE  yÞ=dqE ¼ FE ðqE  yÞ;
+
+ðA:2Þ
+
+d2 GE ðqE  yÞ=dq2E ¼ fE ðqE  yÞ:
+
+ðA:3Þ
+
+Putting (A.2) and (A.3) into (A.1), we have
+d2 E½PES =dq2E
+¼ ½ðrE  mE  r  hÞ  ðrE  mE  v þ hE ÞFE ð0Þ fD ðqE Þ
+Z qE
+þ
+½ðrE  mE  v þ hE ÞfE ðqE  yÞ fD ðyÞ dy
+0
+Z qE
+¼ ðrE  mE  r  hÞfD ðqE Þ  ðrE  mE  v þ hE Þ
+fE ðqE  yÞfD ðyÞ dy:
+0
+
+ðA:4Þ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+222
+
+Since rE pr and rE  mE  hE > v in our model description, we have from (A.4)
+d2 E½PES =dq2E p0
+
+ðA:5Þ
+
+and the equality only holds when qE ¼ 0 and fD ð0Þ ¼ 0:
+Thus, E½PES  is a concave function. Moreover, observing from the expression for dE½PES =dqE : When
+qE ¼ 0; we have dE½PES =dqE > 0; when qE -N; we have dE½PES =dqE ¼ m  h  hE þ vo0: As
+a result, the solution for dE½PES =dqE ¼ 0 exists when the function is continuous. This structural property
+together with the concavity of E½PES  proves the existence of a unique optimal quantity which maximizes
+E½PES : &
+Proof of Proposition 3.2. From (3.16), we have
+E ½PES jLE  ¼ ðr  mÞqE þ ðrE  mE  r  hÞLE  ðrE  mE  v þ hE ÞGE ðLE Þ  CE :
+
+xE
+
+Differentiating E xE ½PES jLE  with respect to rE once and twice gives the following:
+q E ½PES jLE =qrE ¼ LE  ðrE  mE  v þ hE ÞqGE ðLE Þ=qrE  GE ðLE Þ;
+xE
+
+2
+
+q E ½PES jLE =qr2E ¼ ðrE  mE  v þ hE Þq2 GE ðLE Þ=qr2E  2qGE ðLE Þ=qrE :
+xE
+
+From (A.6), we immediately yield Proposition 3.2.
+
+ðA:6Þ
+
+&
+
+Proof of Corollary 3.2. When xE is deﬁned by (3.21), we represent the corresponding GE ðqE Þ by G# E ðqE Þ:
+Z LE
+ðLE  xE ÞfE ðxE Þ dxE :
+ðA:7Þ
+G# E ðqE Þ ¼
+N
+
+Substituting y ¼ ðxE  ða  brE ÞÞ=s into (A.7) gives
+Z ðLE ðabrE ÞÞ=s
+#
+ðLE  sy  ða  brE ÞÞfðyÞ dy;
+GE ðqE Þ ¼
+N
+
+where fðÞ is the standard normal density.
+
+
+Z LE ðabrE Þ
+s
+dG# E ðqE Þ
+LE  ða  brE Þ
+¼
+bfðyÞ dy ¼ bF
+X0;
+drE
+s
+N
+where fðÞ is the standard normal cdf.
+
+
+d2 G# E ðqE Þ b2 LE  ða  brE Þ
+¼ f
+> 0:
+s
+s
+dr2E
+
+ðA:8Þ
+
+ðA:9Þ
+
+From (A.8) and (A.9), we can see that the conditions in Proposition 3.2 are satisﬁed when xE distributes
+as (3.21) and Corollary 3.2 follows. &
+Proof of Proposition 3.3. From (3.23b), we have
+E½PES jrE 
+Z qE
+¼
+½ðtðLE Þ  mE  r  hÞLE  ðtðLE Þ  mE  v þ hE ÞGE ðLE Þ fD ðqE  LE Þ dLE
+0
+
+þ ðr  mÞqE  CE :
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+223
+
+Substituting qE  LE ¼ y gives
+E½PES jrE 
+Z qE
+¼
+½ðtðqE  yÞ  mE  r  hÞ ðqE  yÞ  ðtðqE  yÞ  mE  v þ hE ÞGE ðqE  yÞfD ðyÞ dy
+0
+
+þ ðr  mÞqE  CE :
+
+ðA:10Þ
+
+Differentiating (A.10) with respect to qE once and twice yields the following:
+Z qE 
+dE½PES jrE 
+dtðqE  yÞ
+¼ ðr  mÞ þ
+ðtðqE  yÞ  mE  r  hÞ þ ðqE  yÞ
+dqE
+dqE
+0
+
+dtðqE  yÞ
+ ðtðqE  yÞ  mE  v þ hE ÞFE ðqE  yÞ  GE ðqE  yÞ
+fD ðyÞ dy
+dqE
+
+Z qE
+dtðqE  yÞ
+½tðqE  yÞ  mE  r  h þ ½ðqE  yÞ  GE ðqE  yÞ
+¼
+dqE
+0
+
+ ½tðqE  yÞ  mE  v þ hE FE ðqE  yÞ fD ðyÞ dy þ ðr  mÞ:
+
+ðA:11Þ
+
+Notice that tð0Þ is ﬁnitely bounded under our model assumption.
+Z qE 
+d2 E½PES jrE 
+dtðqE  yÞ
+d2 tðqE  yÞ
+¼
+½tð0Þ
+
+m
+
+r
+
+hf
+ðq
+Þ
+þ
+þ ½ðqE  yÞ  GE ðqE  yÞ
+E
+D E
+2
+dqE
+dq2E
+dqE
+0
+dtðqE  yÞ
+þ
+½1  FE ðqE  yÞ  ðtðqE  yÞ  mE  v þ hE ÞfE ðqE  yÞ
+dqE
+
+dtðqE  yÞ
+ FE ðqE  yÞ
+fD ðyÞ dy
+dqE
+
+Z qE
+dtðqE  yÞ
+¼
+ðtðqE  yÞ  mE  v þ hE ÞfE ðqE  yÞ þ 2½1  FE ðqE  yÞ
+dqE
+0
+
+2
+d tðqE  yÞ
+þ ½ðqE  yÞ  GE ðqE  yÞ
+fD ðyÞ dy
+dq2E
+þ ½tð0Þ  mE  r  h fD ðqE Þ:
+
+ðA:12Þ
+
+In (A.12), by our model assumption, we have mE þ hE þ vorE pr:
+Thus, we have
+ðtðqE  yÞ  mE  v þ hE Þ > 0;
+tðqE  yÞpr;
+
+80pypqE ;
+
+80pypqE :
+
+Observe that
+
+ðA:13Þ
+ðA:14Þ
+
+Z
+
+qE y
+
+qE  y  GE ðqE  yÞ ¼ qE  y 
+ðqE  y  xE ÞfE ðxE Þ dxE
+0
+Z qE y
+Z qE y
+¼ qE  y 
+ðqE  yÞfE ðxE Þ dxE þ
+xE fE ðxE Þ dxE
+0
+0
+Z qE y
+¼ ðqE  yÞð1  FE ðqE  yÞÞ þ
+xE fE ðxE Þ dxE ;
+0
+
+X0;
+
+80pypqE :
+
+ðA:15Þ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+224
+
+With (A.13), (A.14) and (A.15), we can read from (A.12) that if dtðqE  yÞ=dqE p0 and d2 tðqE  yÞ=
+dq2E p0; 80pypqE ; then it is sufﬁcient to state that E½PES jrE  is strictly concave. Using the chain-rule and
+denoting LE ¼ qE  y; we have
+dtðqE  yÞ dtðLE Þ dLE dtðLE Þ
+¼
+¼
+;
+dqE
+dLE dqE
+dLE
+d2 tðqE  yÞ d2 tðLE Þ
+¼
+:
+dq2E
+dL2E
+Thus:
+dtðqE  yÞ
+dtðLE Þ
+p0 )
+p0 and
+dqE
+dLE
+d2 tðqE  yÞ
+d2 tðLE Þ
+p0
+)
+p0:
+dq2E
+dL2E
+Furthermore, from (A.11): When qE ¼ 0; we have dE½PES jrE =dqE > 0; when qE -N; we have
+dE½PES jrE =dqE o0 if dtðqE  yÞ=dqE p0; 80pypqE : Thus, we have Proposition 3.3. &
+Proof of Eq. (4.10). From (4.9), we have
+V ðPEM Þ ¼ ðrE  mE  bÞ2 V ½LE  þ ðrE  mE  v þ hE Þ2 V ½GE ðLE Þ
+LE
+LE
+
+
+2
+þ ðrE  mE  v þ hE Þ E V ½maxðLE  xE ; 0Þ :
+LE
+
+ðA:16Þ
+
+xE jLE
+
+We derive the expressions for VLE ½LE ; V LE ½GE ðLE Þ; and E LE fVxE jLE ½maxðLE  xE ; 0Þg:
+By deﬁnition, from the distribution of LE ; we have
+Z N
+Z qE
+2
+2
+½LE  EðLE Þ fD ðqE  LE Þ dLE þ ½0  EðLE Þ
+fD ðyÞ dy:
+V ½LE  ¼
+LE
+
+ðA:17Þ
+
+qE
+
+0
+
+Substituting y ¼ qE  LE and simplifying, we have
+Z N
+Z qE
+2
+2
+%
+%
+½qE  y  LE  fD ðyÞ dy þ LE
+fD ðyÞ dy
+V ½LE  ¼
+LE
+0
+qE
+Z N
+Z qE
+½y  ðqE  L% E Þ2 fD ðyÞ dy þ L% 2E
+fD ðyÞ dy;
+¼
+
+ðA:18Þ
+
+qE
+
+0
+
+where
+L% E ¼ E½LE  ¼
+
+Z
+
+qE
+
+ðqE  xÞfD ðxÞ dx;
+
+ðA:19Þ
+
+0
+
+V ½GE ðLE Þ ¼ E ½GE ðLE Þ2   E ½GE ðLE Þ2
+LE
+
+LE
+
+¼
+
+Z
+
+LE
+
+qE
+
+2
+
+½GE ðqE  yÞ fD ðyÞ dy 
+0
+
+Z
+
+2
+
+qE
+
+GE ðqE  yÞfD ðyÞ dy ;
+
+where (A.20) is derived with the substitution of y ¼ qE  LE :
+(Z
+
+
+Z
+LE
+½LE  xE 2 fE ðxE Þ dxE 
+E V ½maxðLE  xE ; 0Þ ¼ E
+LE
+
+xE jLE
+
+ðA:20Þ
+
+0
+
+LE
+
+0
+
+0
+
+2
+
+LE
+
+ðLE  xE ÞfE ðxE Þ dxE
+
+)
+: ðA:21Þ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+Substituting y ¼ qE  LE into (A.21) and deﬁning:
+Z qE y
+Z
+2
+ðqE  y  xE Þ fE ðxE Þ dxE 
+xE ðqE  yÞ ¼
+0
+
+2
+
+qE y
+
+ðqE  y  xE ÞfE ðxE Þ dxE ;
+0
+
+we have
+
+ Z
+E V ½maxðLE  xE ; 0Þ ¼
+LE
+
+225
+
+xE jLE
+
+qE
+
+xE ðqE  yÞfD ðyÞ dy:
+
+ðA:22Þ
+
+0
+
+We represent the RHS of (A.18) by H½qE ; and the summation of V LE ½GE ðLE Þ and E LE fV xE jLE ½maxðLE 
+xE ; 0Þg in (A.20) and (A.22) by J½qE : This yields (4.10). &
+Proof of Eq. (4.15). By deﬁnition, the supply chain’s proﬁt PES ¼ PEM þ PED ; using (3.10) and (3.14):
+PES ¼ ðc  mÞqE þ ðrE  mE  bÞLE  ðrE  mE  v þ hE Þ maxðLE  xE ; 0Þ  CE
+þ ðr  cÞqE  ðr þ h  bÞLE
+¼ ðr  mÞqE þ ðrE  mE  r  hÞLE  ðrE  mE  v þ hE Þ maxðLE  xE ; 0Þ  CE :
+Following the same procedure as the derivation for V ðPEM Þ; we have the expressions for V ðPES Þ:
+
+&
+
+Proof of Proposition 4.1. First, V ðPED Þ is increasing following the same property of (4.4). Next, we prove the
+results for V ðPEM Þ and V ðPES Þ by identifying the increasing nature of H½qE  and J½qE  with respect to qE :
+Differentiating H½qE  and J½qE  with respect to qE ; we have the following:
+Z qE
+dH½qE  dqE 2
+L% E fD ðqE Þ þ
+¼
+2½y  qE þ L% E ½1 þ FD ðqE Þ fD ðyÞ dy
+dqE
+dqE
+0
+
+
+Z N
+Z N
+d
+dL% E
+2
+fD ðyÞ dy þ
+fD ðyÞ dy 2L% E
+þ L% E
+dqE qE
+dqE
+qE
+Z qE
+¼ L% 2E fD ðqE Þ þ 2½1 þ FD ðqE Þ
+ðy  qE þ L% E ÞfD ðyÞ dy þ L% 2E fD ðqE Þ þ ½1  FD ðqE Þ2L% E FD ðqE Þ
+0
+Z qE
+%
+¼ 2½1 þ FD ðqE Þ LE FD ðqE Þ þ
+ðy  qE ÞfD ðyÞ dy þ 2½1  FD ðqEÞL% E FD ðqE Þ
+0
+Z qE
+¼ 2½1 þ FD ðqE Þ
+ðy  qE ÞfD ðyÞ dy
+Z q0E
+¼ 2ð1  FD ðqE ÞÞ
+ðqE  yÞfD ðyÞ dyX0;
+ðA:23Þ
+0
+
+dJ½qE 
+d
+¼
+dqE
+dqE
+
+Z
+0
+
+d
+þ
+dqE
+
+qE
+
+xE ðqE  yÞfD ðyÞ dy
+Z
+0
+
+qE
+
+2
+
+½GE ðqE  yÞ fD ðyÞ dy
+
+Z
+
+2
+
+qE
+
+GE ðqE  yÞfD ðyÞ dy
+
+!
+:
+
+ðA:24Þ
+
+0
+
+We consider the derivatives on the RHS of (A.24) one by one
+Z qE
+Z qE
+d
+d
+xE ðqE  yÞfD ðyÞ dy ¼
+x ðqE  yÞfD ðyÞ dy;
+dqE 0
+dqE E
+0
+
+ðA:25Þ
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+226
+
+d
+x ðqE  yÞ ¼
+dqE E
+
+Z
+
+qE y
+
+2ðqE  y  xE ÞfE ðxE Þ dxE
+0
+
+Z
+
+Z
+
+qE y
+
+
+
+qE y
+
+2
+ðqE  y  xE ÞfE ðxE Þ dxE
+fE ðxE Þ dxE
+0
+0
+Z qE y
+Z qE y
+¼2
+ðqE  y  xE ÞfE ðxE Þ dxE  2FE ðqE  yÞ
+ðqE  y  xE ÞfE ðxE Þ dxE
+0
+0
+Z qE y
+¼ 2½1  FE ðqE  yÞ
+ðqE  y  xE ÞfE ðxE Þ dxE
+0
+
+¼ 2½1  FE ðqE  yÞGE ðqE  yÞ:
+
+ðA:26Þ
+
+Putting (A.26) into (A.25), we have
+Z qE
+Z qE
+d
+xE ðqE  yÞfD ðyÞ dy ¼
+2½1  FE ðqE  yÞGE ðqE  yÞfD ðyÞ dy:
+dqE 0
+0
+Next,
+d
+dqE
+¼
+
+Z
+Z
+
+qE
+
+2
+
+½GE ðqE  yÞ fD ðyÞ dy 
+
+Z
+
+0
+
+2
+
+qE
+
+ðA:27Þ
+
+!
+
+GE ðqE Þ  yÞ fD ðyÞ dy
+
+0
+
+qE
+
+2½GE ðqE  yÞFE ðqE  yÞfD ðyÞ dy  2
+
+0
+
+Z
+
+qE
+
+½GE ðqE  yÞ fD ðyÞ dy
+0
+
+Z
+
+qE
+
+½FE ðqE  yÞ fD ðyÞ dy :
+0
+
+ðA:28Þ
+Putting (A.27) and (A.28) into (A.24), we have
+Z qE
+Z qE
+dJ½qE 
+¼
+2½1  FE ðqE  yÞGE ðqE  yÞfD ðyÞ dy þ
+2½GE ðqE  yÞFE ðqE  yÞfD ðyÞ dy
+dqE
+0
+0
+Z qE
+Z qE
+2
+GE ðqE  yÞfD ðyÞ dy
+FE ðqE  yÞfD ðyÞ dy
+0
+0
+Z qE
+Z qE
+Z qE
+¼2
+GE ðqE  yÞfD ðyÞ dy  2
+FE ðqE  yÞfD ðyÞ dy
+GE ðqE  yÞfD ðyÞ dy :
+0
+
+0
+
+ðA:29Þ
+
+0
+
+Rq
+Rq
+Since 0 E FE ðqE  yÞfD ðyÞ dyp 0 E fD ðyÞ dy; (A.29) becomes
+Z qE
+Z qE
+dJ½qE 
+X2
+GE ðqE  yÞfD ðyÞ dy  2FD ðqE Þ
+GE ðqE  yÞfD ðyÞ dyX0:
+dqE
+0
+0
+
+ðA:30Þ
+
+Combining (A.23) and (A.30) yields
+dV ðPEM Þ
+X0
+dqE
+
+and
+
+dV ðPES Þ
+X0:
+dqE
+
+&
+
+References
+Bhargava, H., Choudhary, V., Krishnan, R., 2001. Pricing and product design: Intermediary strategies in an electronic market,
+Working Paper, Carnegie Mellon University.
+Brynjolfsson, E., Smith, M.D., 2000. Frictionless commerce? A comparison of Internet and conventional distributor. Management
+Science 46, 563–585.
+Chaffey, D., 2002. E-Business and E-Commerce Management. Prentice-Hall, Englewood Cliffs, NJ, pp. 215–328.
+
+ARTICLE IN PRESS
+T.-M. Choi et al. / Int. J. Production Economics 88 (2004) 205–227
+
+227
+
+Chen, A.H., Siems, T.F., 2001. (First Quarter), B2B emarketplace announcements and shareholder wealth, Economic and Financial
+Review, Federal Reserve Bank of Dallas, pp. 12–22.
+Dellarocas, C., Klein, M., 2002. Designing robust, open electronic marketplaces of contract net agents, Working Paper, Sloan School
+of Management, MIT.
+Donohue, K.L., 2000. Efﬁcient supply contract for fashion goods with forecast updating and two production modes. Management
+Science 36, 1397–1411.
+Emmons, H., Gilbert, S.M., 1998. Note. The role of returns policies in pricing and inventory decisions for catalogue goods.
+Management Science 44, 276–283.
+Ghosh, S., 1998. Making business sense of Internet. Harvard Business Review 76, 126–135.
+Gunasekaran, A., Marri, H.B., McGaughey, R.E., Nebhwani, M.D., 2002. E-commerce and its impact on operations management.
+International Journal of Production Economics 75, 185–197.
+Haller, J., 2002. The impact of electronic markets on B2B relationships, Working Paper, University of Stuttgart.
+Kafka, S.J., Temkin, B.D., Sanders, M.R., Sharrard, J., Brown, T.O., 2000. E-marketplace boost B2B trade, Forrester Research
+Report.
+Kandel, E., 1996. The right to return. Journal of Law and Economics 39, 329–356.
+Kannan, P.K., Kopalle, P.K., 2001. Dynamic pricing on the Internet: Importance and implications for consumer behavior.
+International Journal of Electronic Commerce 5, 63–83.
+Kaplan, S., Sawhney, M., 2000. E-hubs: The new B2B marketplaces. Harvard Business Review 78, 97–103.
+Kauffman, R.J., Walden, E.A., 2001. Economics and electronic commerce: Survey and directions for research. International Journal of
+Electronic Commerce 5, 5–116.
+Keskinocak, P., Tayur, S., 2001. Quantitative analysis for Internet-enabled supply chains. Interfaces 31, 70–89.
+Lau, A.H.L., Lau, H.S., 1988. The newsboy problem with price-dependent demand distribution. IIE Transactions 20, 168–175.
+Lau, A.H.L., Lau, H.S., Willett, K.D., 2000. Demand uncertainty and returns policies for a seasonal product: An alternative model.
+International Journal of Production Economics 66, 1–12.
+Lau, H.S., Lau, A.H.L., 1999. Manufacturer’s pricing strategy and return policy for a single-period commodity. European Journal of
+Operational Research 116, 291–304.
+Laudon, K.C., Laudon, J.P., 2002. Management Information Systems—Managing the Digital Firm, 7th Edition. Prentice-Hall,
+Englewood Cliffs, NJ, p. 130.
+Law, A.M., Kelton, W.D., 1991. Simulation Modeling and Analysis, 2nd Edition. McGraw-Hill, New York.
+Lucking-Reiley, D., Spulber, D.F., 2001. Business-to-business electronic commerce. Journal of Economic Perspectives 15, 55–68.
+Markowitz, H.M., 1959. Portfolio selection: Efﬁcient diversiﬁcation of investment. Wiley, New York.
+Ngai, E.W.T., Cheng, T.C.E., Lee, C.M.Y., 2003. Development of a web-based system for supporting sales in a mineral water
+manufacturing ﬁrm: A case study. International Journal of Production Economics 83, 153–167.
+Netessine, S., Rudi, N., 2000. Supply chain structures on the internet: Marketing-operations coordination. Working Paper, University
+of Rochester.
+Pasternack, B.A., 1985. Optimal pricing and returns policies for perishable commodities. Marketing Science 4, 166–176.
+Petruzzi, N.C., Dada, M., 1999. Pricing and the newsvendor problem: A review with extensions. Operations Research 47, 183–194.
+Sarkis, J., Sundarraj, R.P., 2002. Evolution of brokering; paradigms in e-commerce enabled manufacturing. International Journal of
+Production Economics 75, 21–31.
+Sodhi, M.S., 2001. Applications and opportunities for operations research in Internet-enabled supply chains and electronic
+marketplaces. Interfaces 31, 56–69.
+Spengler, J.J., 1950. Vertical restraints and antitrust policy. Journal of Political Economy 58, 347–352.
+Stefansson, G., 2002. Business-to-business data sharing: A source for integration of supply chains. International Journal of Production
+Economics 75, 135–146.
+Turban, E., Lee, J., King, D., Chung, H.M., 2000. Electronic Commerce—A Managerial Perspective. Prentice Hall, Englewood Cliffs,
+NJ, pp. 197–239.
+Ward, M.R., 2000. On forecasting the demand for e-commerce. Working Paper, University of Illinois, Urbana, Champaign.
+Webster, S., Weng, Z.K., 2000. A risk-free perishable item returns policy. Manufacturing and Service Operations Management 2,
+100–106.
+Yau, O.B., 2002. Business-to-business electronic commerce (B2B-EC) and its potential applications in the manufacturing industries
+(a review of literature), Working Paper, University of South Australia.
+
+

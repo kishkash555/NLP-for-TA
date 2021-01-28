@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Marketplace or Reseller?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Institute for Operations Research and the Management Sciences (INFORMS)</publisher>
+				<availability status="unknown"><p>Copyright Institute for Operations Research and the Management Sciences (INFORMS)</p>
+				</availability>
+				<date type="published" when="2014-11-21">November 21, 2014.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrei</forename><surname>Hagiu</surname></persName>
+							<email>ahagiu@hbs.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julian</forename><surname>Wright</surname></persName>
+							<email>jwright@nus.edu.sg</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard Business School</orgName>
+								<address>
+									<postCode>02163</postCode>
+									<settlement>Boston</settlement>
+									<region>Massachusetts</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Economics</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<postCode>117570</postCode>
+									<settlement>Singapore</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Marketplace or Reseller?</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Management Science</title>
+						<title level="j" type="abbrev">Management Science</title>
+						<idno type="ISSN">0025-1909</idno>
+						<idno type="eISSN">1526-5501</idno>
+						<imprint>
+							<publisher>Institute for Operations Research and the Management Sciences (INFORMS)</publisher>
+							<biblScope unit="volume">61</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page" from="184" to="203"/>
+							<date type="published" when="2014-11-21">November 21, 2014.</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1287/mnsc.2014.2042</idno>
+					<note type="submission">Received July 9, 2013; accepted July 7, 2014, by Bruno Cassiman, business strategy.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>intermediation</term>
+					<term>multisided platforms</term>
+					<term>control rights</term>
+					<term>marketing</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Please scroll down for article-it is on subsequent pages With 12,500 members from nearly 90 countries, INFORMS is the largest international association of operations research (O.R.) and analytics professionals and students. INFORMS provides unique networking and learning opportunities for individual professionals, and organizations of all types and sizes, to better understand and use O.R. and analytics tools and methods to transform strategic visions and achieve better outcomes. For more information on INFORMS, its publications, membership, or meetings visit http://www.informs.org</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

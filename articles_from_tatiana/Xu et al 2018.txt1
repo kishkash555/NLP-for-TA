@@ -1,0 +1,1951 @@
+International Journal of Production Economics 204 (2018) 160–173
+
+Contents lists available at ScienceDirect
+
+International Journal of Production Economics
+journal homepage: www.elsevier.com/locate/ijpe
+
+Review
+
+Supply chain ﬁnance: A systematic literature review and bibliometric
+analysis
+
+T
+
+Xinhan Xua, Xiangfeng Chena, Fu Jiab,∗, Steve Brownc, Yu Gongc, Yifan Xua
+a
+
+School of Management, Fudan University, 670 Guoshun Road, Shanghai 200433, China
+The York Management School, University of York, Heslington, York YO10 5DD, UK
+c
+Southampton Business School, University of Southampton, Southampton SO17 1BJ, UK
+b
+
+A R T I C LE I N FO
+
+A B S T R A C T
+
+Keywords:
+Supply chain ﬁnance
+Literature review
+Bibliometric analysis
+Network analysis
+Co-citation
+Content analysis
+
+Supply Chain Finance (SCF) is an eﬀective method to lower ﬁnancing costs and improve ﬁnancing eﬃciency and
+eﬀectiveness, and it has gained research momentum in recent years. This paper adopts a systematic literature
+review methodology combined with bibliometric, network and content analysis based on 348 papers identiﬁed
+from mainstream academic databases. This review provides insights not previously fully captured or evaluated
+by other reviews on this topic, including key authors, key journals and the prestige of the reviewed papers. Using
+rigorous bibliometric and visualisation tools, we identiﬁed four research clusters, including deteriorating inventory models under trade credit policy based on the EOQ/EPQ model; inventory decisions with trade credit
+policy under more complex situations; interaction between replenishment decisions and delay payment strategies in the supply chain and roles of ﬁnancing service in the supply chain. Based on the clusters identiﬁed, we
+carried out a further content analysis of 112 papers, identifying research gaps and proposing seven actionable
+directions for future research. The ﬁndings provide a robust roadmap for further investigation in this ﬁeld.
+
+1. Introduction
+
+controlling the ﬂow of ﬁnancial resources on an inter-organisational
+level.
+Pfohl and Gomm (2009) deﬁne SCF as the inter-company optimisation of ﬁnancing and the integration of ﬁnancing processes with
+customers, suppliers, and service providers to increase the value of all
+participating companies. Gomm (2010) states that the objective of SCF
+is to optimise ﬁnancing across company borders to decrease the cost of
+capital and accelerate cash ﬂow. Pfohl and Gomm (2009) deﬁnition is
+adopted in this paper. However, we realise that early studies in SCF
+tend to focus on the eﬀects of only one supply chain player's ﬁnancing
+on inventory, which has implications for other supply chain members
+(supplier or retailer). To trace the complete evolution of the topic, we
+include these early studies in this review. The methods we used to select
+the papers are reﬂected in the search strings and keywords in the
+methodology section.
+SCF aims to optimise ﬁnancial ﬂows through solutions implemented
+by ﬁnancial institutions (Camerinelli, 2009) or technology providers
+(Lamoureux and Evans, 2011). The ultimate objective is to align ﬁnancial ﬂows with product and information ﬂows within the supply
+chain, improving cash ﬂow management from a supply chain perspective (Wuttke et al., 2013). The beneﬁts of the SCF approach rely on
+
+Supply Chain Finance (SCF) has played an increasingly important
+role in operational and ﬁnancial practices and attracted growing attention from academia and industry alike (Yan et al., 2016; Milder,
+2008). The history of SCF research can be traced back to the 1970s, well
+before the popularisation of the term supply chain management. For
+example, Budin and Eapen (1970) study the net ﬂow of cash generated
+over the course of business operations in a cash planning period and
+how such net inﬂows are aﬀected by changes in policies concerning
+trade credit and inventories. Haley and Higgins (1973) investigate the
+relationship between inventory policy and trade credit policy in the
+context of the basic lot-size model.
+The ﬁrst formal deﬁnition of SCF did not appear until the 2000s.
+Stemmler (2002) ﬁnds that the key characteristic of SCF is the integration of ﬁnancial ﬂows into the physical supply chain, and SCF can
+be characterised as an essential part of supply chain management.
+Hofmann (2005) describes SCF as located at the intersection of logistics,
+supply chain management, and ﬁnance and deﬁnes it as an approach
+for two or more organisations in a supply chain, including external
+service providers, to jointly create value by planning, steering, and
+
+∗
+
+Corresponding author.
+E-mail addresses: xuxh15@fudan.edu.cn (X. Xu), chenxf@fudan.edu.cn (X. Chen), fu.jia@york.ac.uk (F. Jia), steve.brown@soton.ac.uk (S. Brown),
+y.gong@soton.ac.uk (Y. Gong), yfxu@fudan.edu.cn (Y. Xu).
+https://doi.org/10.1016/j.ijpe.2018.08.003
+Received 9 September 2016; Received in revised form 31 July 2018; Accepted 2 August 2018
+Available online 11 August 2018
+0925-5273/ © 2018 Elsevier B.V. All rights reserved.
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+Network analysis through bibliometric tools proves powerful for identifying established and emerging topical areas. These algorithmically
+identiﬁed clusters set the stage for topical classiﬁcation of the published
+models and further investigation of the evolution of these clusters over
+years. Based on the bibliometric and network analysis, we selected
+papers published in 3, 4 and 4* journals of the Association of Business
+Schools' Academic Journal Guide (AJG) from each cluster and carried
+out a content analysis. From these results, we gained additional insights
+into the current research themes and potential directions for future
+research.
+The AJG, which was called the ABS Guide before 2015, is recognised as an inﬂuential journal ranking system. It is based upon peer
+review, editorial and expert judgements and is informed by statistical
+information relating to citations. The guide not only is based on a
+weighted average of journal metrics but also reﬂects the perceptions of
+the subject experts and scholarly associations (AJG, 2015). We choose
+the AJG because it has been widely adopted as a policy tool for staﬃng
+in business schools (Kelly et al., 2009; Hussain, 2011) and is commonly
+used by researchers in papers (Mingers and Willmott, 2013; Tüselmann
+et al., 2016).
+We make contributions to SCF research in the following ways. First,
+this is one of the most comprehensive reviews of this emerging albeit
+important topic in supply chain management. Second, the combination
+of bibliometric and content analysis presents a methodological contribution to a systematic literature method. Third, the identiﬁcation of
+the four clusters and additional insights from the content analysis
+provide a systematic knowledge structure for SCF based on which actionable ideas for future research are proposed.
+The remainder of the paper begins with an introduction to the literature review methodology used and descriptive analysis in section 2.
+Section 3 presents the results of bibliometric analysis and network
+analysis (including citation and co-citation analysis). In Section 4, we
+carry out a content analysis. Section 5 discusses the ﬁndings of all the
+analysis and proposes numerous future research directions. Section 6
+summarises the results and presents the limitations of this study.
+
+cooperation among stakeholders within the supply chain and typically
+result in lower debt costs, new opportunities to obtain loans (especially
+for weak supply chain players) or reduced working capital within the
+supply chain (Gelsomino et al., 2016).
+Speciﬁcally, when we selected search strings and keywords, we
+chose “trade credit” and “factoring” because trade credit, factoring and
+reverse factoring are all speciﬁc solutions in SCF that should be included in the review of SCF. Trade credit is a short-term loan between
+ﬁrms that is tied in both timing and value to the exchange of goods
+between them (Ferris, 1981). Seifert et al. (2013) point out that the role
+of trade credit in the global economy is extensive and consequently, it
+has received considerable attention in the SCF research. Factoring is a
+type of supplier ﬁnancing in which ﬁrms independently sell their
+creditworthy accounts receivable at a discount to a ﬁnancier, the factor,
+and receive immediate cash (Klapper, 2006; Soufani, 2002). Reverse
+factoring is a ﬁnancial arrangement in which a corporation facilitates
+early payment of its trade credit obligations to suppliers; this arrangement has received considerable attention from both the business and
+research communities (van der Vliet et al., 2015; Tanrisever et al.,
+2012). In reverse factoring, the lender purchases accounts receivables
+only from speciﬁc informationally transparent, high-quality buyers, and
+the credit risk becomes the default risk of the high-quality buyers instead of the risky Small and Medium-sized Enterprise (SME), which
+make it possible to provide low-risk ﬁnancing to high-risk suppliers
+(Klapper, 2006).
+There have been a few literature reviews on certain themes of SCF.
+These review papers cover one or two themes of SCF. For example,
+Chang et al. (2008) provide a review of inventory lot-size models under
+conditions of extended payment privileges. Birge (2015) discusses the
+interaction of operations and ﬁnance in which ﬁnancial activity has
+signiﬁcant potential to make an impact on operations and operational
+considerations provide new perspectives for ﬁnancial decisions. Zhao
+and Huchzermeier (2015) propose a risk management framework for
+the multidimensional integration of operations-ﬁnance interface
+models.
+However, there is no comprehensive review paper except for
+Gelsomino et al. (2016). There are several signiﬁcant diﬀerences between our review and that of Gelsomino et al. (2016): 1) Gelsomino's
+study is focused on SCF concepts and solutions, while we review papers
+containing all aspects of SCF; 2) We include a more comprehensive list
+of keywords than Gelsomino's study and separate keywords into two
+search strings (ﬁnancing and supply related), which theirs does not; 3)
+Gelsomino et al. (2016) identify more than 2000 articles and select 119
+papers for ﬁnal review, while our study examines more than 4700 articles and focuses on 348 papers for bibliometric analysis together with
+112 papers for content analysis; 4) Gelsomino's study ﬁrst covers papers
+from a period between 2000 and 2014 and then examines the reference
+of the papers selected in the ﬁrst step based on a handful of elite
+journals, while we trace back to the origin and did not put a time limit
+or constrain the review with a set of journals for the bibliometric
+analysis (we do constrain the journals as AJG 3, 4 and 4* for the content
+analysis to be explained later); 5) Gelsomino's paper adopts only the
+content analysis method for reviewing selected papers while we adopt a
+combination of bibliometric and content analysis and the results are
+signiﬁcantly diﬀerent. In a sense, we provide a more comprehensive
+view of how SCF research developed and identify four clusters based on
+rigorous mathematics tools, which are diﬀerent from their themes and
+advanced a diﬀerent set of future research directions for SCF researchers. To illustrate the similarities and diﬀerence between Gelsomino's and our paper more explicitly, Table 1 is presented for comparison.
+In this study, we ﬁrst carried out a comprehensive and systematic
+literature review and rigorous bibliometric and network analysis on
+SCF (e.g., citation and co-citation analysis) to map out the knowledge
+structure of this topic and then conducted a content analysis of the key
+papers based on journal quality and the papers' PageRank score.
+
+2. Research methodology and descriptive data analysis
+Literature reviews aim to map and evaluate the body of literature to
+identify potential research gaps and highlight the boundaries of
+knowledge (Tranﬁeld et al., 2003). Structured literature reviews are
+typically completed through an iterative cycle of deﬁning appropriate
+search keywords, searching the literature, and completing the analysis
+(Saunders et al., 2009). Rowley and Slack (2004) recommend a structured methodology for scanning resources, designing the mind map to
+structure the literature review, writing the study and building the
+bibliography. In this study, we follow a systematic literature review
+methodology (Tranﬁeld et al., 2003) combined with bibliometric and
+network analysis for a comprehensive evaluation of the ﬁeld, aiming to
+identify the most inﬂuential studies and authors and the existing topical
+areas of research and provide insights for current research interests.
+2.1. Deﬁning the appropriate search terms
+The term SCF consists of two elements (i.e., supply chain and ﬁnance) and is cross-disciplinary, straddling supply chain management
+and ﬁnance. To ensure that both aspects are fully captured by the
+keywords, we included two search strings, which are shown in Table 2.
+The ﬁrst string is supply chain-related terms, including keywords such
+as “supply chain”, “value chain”, “inventory” and “purchasing”
+(Seuring and Müller, 2008). The second search string contains ﬁnancerelated keywords such as “ﬁnance”, “ﬁnancing”, “trade credit” and
+“bank credit”. The keywords were chosen based on previous literature
+reviews on similar topics, the authors' own research experience and
+expert views from fellow SCF academics.
+161
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+Table 1
+Comparisons of Gelsomino et al. (2016) the current review.
+Gelsomino et al. (2016)
+
+Our paper
+
+Time limit set
+Keywords
+
+A speciﬁc time frame (2000–2014)
+A selected list of keywords and strings
+
+Journals
+
+Major logistics and supply chain management journals and
+top ﬁnance and management journals
+SCF concepts and solutions
+Content analysis
+Deﬁnitions of SCF reﬂect the “ﬁnance oriented”
+perspective and the “supply chain oriented” perspective
+
+No time limit (1970–2016)
+A comprehensive list of supply chain related and ﬁnance
+related keywords
+AJG 3, 4, and 4* for content analysis;
+No constrain for bibliometric analysis
+All aspects of SCF
+Bibliometric analysis, network analysis and content analysis
+The two perspectives of SCF are reﬂected in keywords
+selection.
+Four clusters with diﬀerent research focus are identiﬁed.
+Seven directions:
+
+Focus
+Review methods
+Findings
+
+Gaps and future directions (Numbers refer to the
+sequences of contents in both papers)
+
+Four gaps/directions:
+(1) No general theory of SCF
+(2) Weak empirical-based holistic analyses on the
+application of SCF
+(3) Few assessment models consider the impact of SCF
+programs on supply chain ﬁnancial performance.
+(4) Lack of tools for choosing SCF solutions for diﬀerent
+supply chains and objectives
+
+ﬁnance; or 2) they mainly focused on ﬁnance but superﬁcially touched
+on the supply chain. To do this, two of the co-authors drew a table with
+all 420 papers and a column to judge ‘include’ or ‘exclude’ or ‘unsure’
+based on their independent reasons. We then compared the results and
+reached agreements on all the items with which we did not agree initially.
+
+Table 2
+The search string and keywords.
+Supply chain-related keywords: (supply chain) OR (value chain) OR logistics OR
+inventory OR procurement OR purchasing OR sourcing
+AND
+Finance-related keywords: ﬁnance OR ﬁnancing OR (trade credit) OR (bank credit)
+OR (early payment) OR (dela* payment) OR (advanc* payment) OR (capital
+constraint) OR (ﬁnancial constraint) OR factoring OR (limited liability) OR (cash
+conversion cycle)
+
+2.3. Descriptive analysis
+The 348 journal articles were published between 1970 and 2016.
+Fig. 1 shows an upward trend in terms of the number of articles published per year since 2000. Before 2003, 1 or 2 papers were published
+per year. This shows that the 348 papers are scattered approximately
+120 journals, 56 of which have contributed 80.17% of all publications
+reviewed. The top 12 journals have published 161 of these identiﬁed
+articles, representing approximately 46.26% of the 348 papers. Table 4
+shows the top 12 journals that published the largest number of these
+papers. It can be seen that the majority of the journals are operations
+research journals.
+
+2.2. Search results
+We followed a three-step approach to identify the papers for ﬁnal
+review. First, in the Scopus and EBSCO databases, we collected and
+stored journal articles (conference papers, books and chapters of books
+excluded) for the deﬁned search terms with an open starting time to
+include as many publications as possible up to December 2016. The
+initial search attempts identiﬁed 4787 titles (2381 papers in EBSCO and
+2406 papers in Scopus). The search results were stored in CSV format to
+include all the essential paper information such as paper title, authors'
+names and aﬃliations, abstract, keywords and references.
+There is some degree of overlap between the two databases. After
+eliminating duplicates, 4078 papers remained. Second, we reviewed the
+titles and abstracts, applying inclusion and exclusion criteria (Table 3).
+In particular, studies focusing on the eﬀects of one supply chain player's
+ﬁnancing on their inventory, which has implications for other supply
+chain members (suppliers or retailers), are included. Four hundred and
+twenty journal articles were selected for the third round of selection.
+Third, we reviewed the full text of these papers applying the same inclusion and exclusion criteria and identiﬁed 348 journal articles for
+bibliometric analysis. Papers were excluded when 1) they mainly focused on supply chain management but superﬁcially touched on
+
+3. Bibliometric and network analysis
+3.1. Description of bibliometric and network analysis
+3.1.1. Bibliometric analysis
+Bibliometric analysis oﬀers additional data statistics including author, aﬃliation and keywords. Several software packages such as
+HistCite and BibExcel have been used in the past for bibliometric
+analysis, and each has diﬀerent capabilities and limitations (Garﬁeld,
+2009; Persson et al., 2009). BibExcel was chosen for this study due to its
+high degree of ﬂexibility in modifying and/or adjusting the input data
+imported from various databases, including Scopus and Web of Science,
+and its ability to provide comprehensive data analysis for use in a range
+of network analysis tools, including Gephi, VOSviewer and Pajek
+(Persson et al., 2009). We used BibExcel to perform some initial bibliometric and statistical analysis and to prepare the input data for additional network analysis in Gephi. Due to space constraints, we do not
+report bibliometric analysis here. The original data source containing
+the bibliographic information of the articles is in CSV format. We
+transferred the CSV format to TXT format using a Python program to
+create a suitable format to input into BibExcel. Citation information
+such as author, title, journal, publication year, keyword, aﬃliation, and
+
+Table 3
+Inclusion and exclusion criteria in the reﬁnement.
+Inclusion criteria
+
+Exclusion criteria
+
+Focus on SCF
+
+Supply chain management not related to
+ﬁnance
+Finance not related to supply chain
+
+Peer-reviewed journal paper in
+English
+
+(7) More researches using empirical and case study methods
+are needed.
+(1) SCF of multi-tier supply chains and more complex forms of
+trade credit policies need to be considered;
+(4) More forms of ﬁnancing mechanisms should be introduced.
+(3) Scholars needs adjust and extend the research models for
+SCF practice, and the function of SCF changes
+(2) Assumptions of models can be relaxed
+(5) Combining SCF with sustainable supply chain management
+(6) Combining SCF with speciﬁc industry sectors
+
+Non-English language journals
+
+162
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+Number of papers
+80
+
+71
+
+70
+60
+50
+
+40
+
+40
+23 23 24
+
+30
+20
+10
+
+1 1 1 1 1 1 1 2 1 1 1 1 2 2
+
+9
+6
+5 7
+
+12
+
+28
+
+36
+
+32
+
+15
+
+1970
+1973
+1977
+1981
+1984
+1985
+1986
+1987
+1994
+1995
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+
+0
+
+Fig. 1. Publishing trend in SCF (N = 348).
+Table 4
+Top 12 journals contributing to SCF (N = 348).
+
+Table 5
+Top 11 papers by local citation.
+
+Journals
+
+Total
+
+Author (year)
+
+Local citation
+
+Global citation
+
+International Journal of Production Economics (IJPE)
+European Journal of Operational Research (EJOR)
+Applied Mathematical Modelling (AMM)
+International Journal of Systems Science (IJSS)
+International Journal of Operational Research (IJPR)
+Computers & Industrial Engineering (CIE)
+International Journal of Information and Management Sciences (IJIMS)
+Management Science (MS)
+Journal of the Operational Research Society (JORS)
+Asia-Paciﬁc Journal of Operational Research (APJOR)
+Yugoslav Journal of Operations Research (YJOR)
+OPSEARCH
+
+39
+20
+18
+13
+12
+10
+10
+10
+8
+7
+7
+7
+
+Goyal (1985)
+Abad and Jaggi (2003)
+Chung and Liao (2004)
+Teng et al. (2005)
+Chung et al. (2005)
+Huang (2007)
+Teng and Chang (2009)
+Sarker et al. (2000)
+Liao (2008)
+Ho et al. (2008)
+Shinn and Hwang (2003)
+
+187
+60
+59
+57
+54
+51
+50
+49
+48
+48
+48
+
+1309
+300
+233
+288
+189
+209
+189
+350
+176
+153
+250
+
+Table 5 shows the top 11 of 348 papers based on the number of their
+citations. A local citation analysis shows how many times a paper has
+been cited by others within this 348-node network, while a global citation analysis provides the overall number of citations in all databases,
+including citations from other disciplines and research areas.
+
+reference was extracted from the papers identiﬁed.
+3.1.2. Network analysis
+A network analysis and graphical investigation was then applied to
+the 348 papers. We used Gephi software to perform a citation analysis
+and topical content-based classiﬁcation of the existing literature of SCF.
+Gephi was chosen for this study over existing network analysis software
+such as Pajek (Batagelj and Mrvar, 2011) and VOSviewer (van Eck and
+Waltman, 2013) due to its easy and broad access to network data, visualisation ﬂexibility (editable and user-friendly environment), advanced ﬁltering capabilities, specialised clustering of data, ability to
+work with diﬀerent data formats, and built-in network analysis toolboxes (Gephi, 2013; Bastian et al., 2009). To use Gephi to map and
+visualise the citations among papers, a graph dataset needed to be
+generated, with published papers shown as nodes and citations represented by the arcs/edges between the nodes. The bibliographic data
+were reformatted with BibExcel to represent a graph dataset, which is
+in “.NET” format, to allow for Gephi analysis. The network analysis
+consists of citation and co-citation analyses, which are detailed in sections 3.2 and 3.3, respectively.
+
+3.2.1. Journal quality analysis
+We analysed paper quality based on the AJG 2015 journal guide.
+Among the 348 papers, 14 papers were published in AJG Grade 4*
+journals, which are world-leading journals; 24 papers were published in
+Grade 4 journals; 82 papers were published in Grade 3 journals; 26
+papers were published in Grade 2 journal and 35 papers were published
+in Grade 1 journals. The other 167 papers were published in journals
+with no rating. 52.01% of the papers were published in journals of
+Grade 1 and above, and 34.48% of the papers were published in journals of Grade 3 and above.
+3.2.2. PageRank analysis
+In addition to citations, Ding et al. (2009) argue that “prestige” is an
+important indicator of impact. Prestige can be measured by the number
+of times a paper is cited by other highly cited papers. A highly cited
+paper may not necessarily be a prestigious paper, although in some
+cases there might be a strong positive correlation between the two
+measures. PageRank (Brin and Page, 1998) can be used as a measure of
+both popularity and prestige. PageRank was introduced to prioritise
+web pages when a keyword search is performed in a search engine.
+Although originally created to discover the connectivity of webpages,
+PageRank can be extended to ﬁnd the citation link between papers.
+Consider paper A, which has been cited by other papers—namely, T1, …,
+Tn , where paper Ti has citations C (Ti ) . In this case, the PageRank of
+
+3.2. Citation analysis
+In the past, diﬀerent methods have been used to measure the signiﬁcance of a publication. The most common method is a citation
+analysis, which aims to determine the popularity of a publication by
+counting the number of times a publication is cited by other publications (Cronin and Ding, 2011). A citation analysis for the 348 papers
+revealed that 214 papers have cited others in this 348-node network.
+163
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+pattern, which is unsurprising in light of the random nature of the
+positioning. The nodes have identical sizes but diﬀerent (x, y) coordinates.
+
+paper A (denoted by PR(A) ) in a network of N papers can be calculated
+as
+
+PR(A) =
+
+PR (T1)
+PR (Tn ) ⎞
+(1 − d )
++ d⎛
++…+
+C (Tn ) ⎠
+N
+⎝ C (T1)
+⎜
+
+⎟
+
+3.3.1. Literature classiﬁcation: data clustering
+The nodes of a network can be divided into clusters or modules in
+which the connection (density of edges) is greater between the nodes of
+the same cluster compared to those of diﬀerent clusters (Clauset et al.,
+2004; Leydesdorﬀ, 2011; Radicchi et al., 2004). In a co-citation network, a cluster can be seen as a group of well-connected publications in
+a research area with limited connection to publications in other clusters
+or research areas. Data clustering (also termed modularity) has been
+used in the past as a classiﬁcation tool for grouping a set of given
+publications (Radicchi et al., 2004). It allows for the topological analysis of a co-citation network, identifying topics, interrelations and
+collaboration patterns. Data clustering has received increasing attention
+from scholars and research organisations, turning it into a critical research ﬁeld in social network analysis (Blondel et al., 2008).
+The default clustering tool in Gephi is based on the Louvain algorithm, an iterative optimisation model that aims to determine the optimal number of partitions that maximise the modularity index (Blondel
+et al., 2008). The modularity index of a partition is a scalar value between −1 and + 1 that measures the density of links inside communities versus the links between communities. According to Blondel et al.
+(2008), for a weighted network (i.e., networks with weighted links,
+such as the number of co-occurrence of two articles in the reference
+list), modularity index Q can be calculated as
+
+where parameter d is a damping factor between 0 and 1 that represents
+the fraction of random walks that continue to propagate along the citations.
+PageRank forms a probability distribution over papers, so the sum
+of all papers' PageRank calculations will be equal to one. Using this
+formula, PageRank is calculated based on an iterative algorithm and
+corresponds to the principal eigenvector of the normalised citation
+matrix of the papers. In the original Google PageRank algorithm of Brin
+and Page (1998), the parameter d was chosen to be 0.85. This value was
+prompted by the anecdotal observation that an individual surﬁng the
+web will typically follow approximately six hyperlinks, corresponding
+to a leakage probability of 1/6 ∼ = 0.15 = (1 − d), before becoming
+either bored or frustrated with the search and beginning a new search.
+In the context of citations, the entries in the reference list of a typical
+paper are collected following somewhat shorter paths of average length
+2 (Chen et al., 2007), making the choice d = 0.5 more appropriate for a
+similar algorithm applied to the citation network.
+For the 214 papers identiﬁed from co-citation analysis (detailed in
+the next section 3.3), PageRank values vary between 0.0009 and
+0.0164. When we focus on the journals of AJG Grade 3, 4 and 4*, the
+top 10 papers based on a PageRank measure are shown in Table 6. It
+can be seen that a higher number of local and global citations cannot
+guarantee the prestige of a paper. For example, Chung and Liao (2004)
+is a high-ranked paper by citations (ranks the third in Table 5), but only
+lists tenth as a prestigious paper in Table 6. Equally, there are prestigious papers that are not highly ranked (e.g., Jaggi et al., 2008;
+Buzacott and Zhang, 2004).
+
+Q=
+
+Table 6
+Top 10 papers by PageRank.
+Local citation
+
+Global citation
+
+Goyal (1985)
+Jaggi et al. (2008)
+Huang (2007)
+Abad and Jaggi (2003)
+Teng and Chang (2009)
+Buzacott and Zhang (2004)
+Huang and Hsu (2008)
+Liao (2008)
+Ho et al. (2008)
+Chung and Liao (2004)
+
+0.01638354
+0.01065293
+0.01061392
+0.01048360
+0.01030263
+0.01016512
+0.01007087
+0.00999925
+0.00972325
+0.00964314
+
+187
+46
+51
+60
+50
+37
+47
+48
+48
+59
+
+1309
+205
+209
+300
+189
+579
+156
+176
+153
+233
+
+ij
+
+⎣
+
+ki kj ⎤
+δ(c i , c j)
+2m ⎥
+⎦
+
+the sum of the weights of the edges attached to node i ⎛⎜ki = ∑j Aij⎟⎞, c i is
+⎝
+⎠
+the community to which node i is assigned, δ(u, v) equals 1 if u= v ; and
+1
+equals 0 otherwise, and m= 2 ∑ij Aij, which represents the sum of the
+weights of all the edges, as every edge is calculated twice when we add
+up all the Aij.
+To get the optimal value eﬃciently, the Louvain algorithm repeats
+two phases below iteratively. First, each node of the network is assigned
+to a diﬀerent community. For each node i , the gain of modularity is
+evaluated by removing i from its community and by placing it in the
+community of each neighbour j of i . Second, node i is placed in the
+community for which this gain is maximum if the gain is positive or i
+stays in the original community if no positive gain is possible (Blondel
+et al., 2008). The ﬁrst phase stops when a local maximum of the
+modularity is attained. Applying this algorithm to the ﬁltered 214-node
+co-citation network in Gephi resulted in the creation of four clusters.
+The number of papers in each cluster varies from 31 articles for
+Cluster two to 63 articles each for Clusters one and three, the largest
+modules (Table 7). To capture the high-quality papers for the content
+analysis (next section 4), we only chose papers published in journals of
+AJG Grade 3, 4 and 4* due to their generally higher academic rigour
+and quality. Overall, 96 papers out of the 214 were selected for further
+clustering and content analysis. Among them, 34 papers fall into Cluster
+one, 11 papers fall into Cluster two, 25 papers fall into Cluster three,
+and 26 papers fall into Cluster four.
+To determine the research focus for each cluster, we needed to
+identify the lead papers (top 10 papers) in each cluster (Table 8). This is
+a common practice in other bibliometric analysis papers (e.g., Fahimnia
+et al., 2015). The lead papers provide a general description of each
+cluster. A PageRank measure was used for this purpose. In a co-citation
+network, the PageRank algorithm takes into account how many times a
+paper is co-cited with other papers (the popularity measure) and how
+many times it is co-cited with highly co-cited papers (the prestige
+measure). Most of the papers in this study that have a high PageRank
+
+A co-citation network consists of a set of nodes representing journal
+articles and a set of edges or links representing the co-occurrence of the
+nodes (articles) in other papers (Leydesdorﬀ, 2011). Therefore, two
+publications are considered to be co-cited if they appear together in the
+reference lists of other documents. Papers that are more often cited
+together are more likely to present similar subject areas or be related
+(Hjørland, 2013). The co-citation map visualisation is a form of exploratory data analysis (EDA) that relies on graph theory to explore
+data structure (Pampel, 2004). The initial co-citation mapping with
+Gephi revealed that 214 of the 348 articles have been co-cited by other
+papers within this sample. We use these 214 papers for the further
+Gephi data-clustering analysis. When opening the ‘.NET’ ﬁle in Gephi
+for the ﬁrst time, the positioning of the nodes in the co-citation map is
+randomly generated by the software. This layout has no discernible
+
+PageRank
+
+∑ ⎡⎢Aij −
+
+where Aij represents the weight of the edge between nodes i and j, ki is
+
+3.3. Co-citation analysis
+
+Author (year)
+
+1
+2m
+
+(Note: Local citation: citation within the 348 papers; Global citation: citation in
+all databases).
+164
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+Table 7
+Literature classiﬁcation: the primary research clusters (N = 214).
+(Note: selected papers refer to papers published in journals of ABS Grade 3, 4 and 4*)
+Cluster
+
+No. of papers
+
+No. of selected papers
+
+Area of research focus
+
+1
+2
+3
+4
+Total
+
+63
+31
+63
+57
+214
+
+34
+11
+25
+26
+96
+
+Deteriorating inventory model under trade credit policy based on EOQ/EPQ model
+Inventory decision with trade credit policy under more complex situations
+Interaction between replenishment decisions and delay payment strategies in the supply chain
+Roles of ﬁnancing service in the supply chain
+
+3.3.2. Analysis of the research clusters
+As discussed in section 3.3.1, four research clusters have been
+identiﬁed with co-citation analysis. To identify the area of research
+focus of each cluster, we analysed and evaluated the contents of the top
+10 papers of each cluster shown in Table 8. Cluster one focuses on the
+deteriorating inventory model under trade credit policy. This cluster is
+focused on the impact of trade credit policy on the optimal ordering or
+production quantity based on the classical EOQ or EPQ model, respectively. Cluster two is about the inventory decisions made with
+trade credit policy and was primarily developed from cluster one. It
+examines how trade credit policy impacts optimal ordering/product
+quantity within the EOQ or EPQ framework but tends to extend the
+traditional model or assumptions. Cluster three is a transition from
+Clusters one and two to Cluster four. It focuses on the interaction between replenishment decisions and delay payment strategies in the
+supply chain. This cluster begins to study the impact of SCF throughout
+the supply chain. Cluster four is mainly focused on the roles of ﬁnancing service in the supply chain. This cluster investigates how
+formal or informal ﬁnancing services (e.g., bank credit or trade credit)
+aﬀect joint operational and ﬁnancial decisions in a supply chain and
+show whether the SCF coordinates the supply chain or creates value for
+individual companies or the entire supply chain.
+
+Table 8
+The lead papers using a PageRank measure.
+Cluster 1
+
+Cluster 2
+
+Goyal (1985)
+Abad and Jaggi (2003)
+Liao (2008)
+Ho et al. (2008)
+Chung and Liao (2004)
+Ouyang et al. (2009)
+Huang (2007)
+Teng (2009)
+Haley and Higgins (1973)
+Chung et al. (2005)
+
+Huang (2007)
+Teng and Chang (2009)
+Huang and Hsu (2008)
+Mahata (2012)
+Chang et al. (2010)
+Kreng and Tan (2011)
+Su (2012)
+Thangam (2012)
+Mahata and Goswami (2007)
+Soni and Patel (2012)
+
+Cluster 3
+
+Cluster 4
+
+Jaggi et al. (2008)
+Chen et al. (2014b)
+Chern et al. (2013)
+Wu et al. (2014)
+Zhou et al. (2013)
+Ouyang and Chang (2013)
+Wang et al. (2014)
+Tsao and Sheen (2008)
+Chen et al. (2014a)
+Zhou et al. (2012)
+
+Buzacott and Zhang (2004)
+Raghavan and Mishra (2011)
+Lee and Rhee (2011)
+Kouvelis and Zhao (2012)
+Gupta and Wang (2009)
+Jing et al. (2012)
+Chen (2015)
+Protopappa-Sieke and Seifert (2010)
+Chen and Wang (2012)
+Zhang et al. (2014)
+
+3.3.3. Dynamic co-citation analysis
+To understand the evolution of SCF research over time, we also
+completed a dynamic co-citation analysis for the papers of all clusters,
+which shows the evolution/development of clusters over time. Table 10
+shows the number of papers published in each cluster since 1973. The
+earlier publications are more focused on Cluster one. Research on
+cluster one appeared in the 1970s and developed steadily but declined
+from 2014 onwards. The numbers of articles for Clusters three and four
+began to grow nearly at the same time, in 2005 and 2004, respectively.
+Cluster two emerged the latest (in 2007) and declined from 2014 onwards. Clusters one and two stopped developing in recent years while
+Clusters three and four continue to grow (Table 10).
+
+Note: only papers published in journals of ABS Grade 3, 4 and 4* are included.
+
+also have a high citation count.
+Identifying the contributing journals for each research cluster can
+help determine the most relevant journal outlets in each area. Table 9
+shows the key contributing journals for each cluster. We ﬁnd that IJPE
+contributes the most to three out of the four clusters (the only exception
+being Cluster four). EJOR ranks the second in contributing journals
+based on the number of papers in the four clusters.
+
+Table 9
+Key contributing journals in each research area (N = 214).
+Clusters
+
+Top journals
+
+Number of papers
+
+1. Deteriorating inventory model under trade credit policy based on EOQ/EPQ model
+
+International Journal of Production Economics
+European Journal of Operational Research
+Journal of the Operational Research Society
+Computers & Operations Research
+Production Planning & Control
+International Journal of Production Economics
+European Journal of Operational Research
+Expert Systems with Applications
+International Journal of Production Economics
+European Journal of Operational Research
+Computers & Operations Research
+Journal of the Operational Research Society
+Management Science
+European Journal of Operational Research
+International Journal of Production Economics
+Operations Research
+Production and Operations Management
+
+15
+7
+4
+3
+2
+5
+2
+2
+12
+6
+2
+2
+5
+5
+5
+2
+2
+
+2. Inventory decision with trade credit policy under more complex situations
+
+3. Interaction between replenishment decisions and delay payment strategies in the supply chain
+
+4. Roles of ﬁnancing service in the supply chain
+
+165
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+papers (Table 7) from the co-citation analysis plus the 16 papers published in the most recent three years. Overall, 112 papers (all published
+in AJG 3, 4 and 4* journals) were reviewed for content analysis.
+
+Table 10
+The number of published papers in each cluster (1973–2016).
+Year
+
+Number of published articles
+Cluster 1
+
+1973
+1981
+1985
+1986
+1987
+1994
+1995
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+Total
+
+Cluster 2
+
+Cluster 3
+
+4.1. Cluster one: deteriorating inventory model under trade credit policy
+based on EOQ/EPQ model
+
+Cluster 4
+
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+3
+5
+8
+3
+8
+5
+5
+5
+2
+3
+3
+
+1
+63
+
+With 34 papers, Cluster one is the largest cluster and emerged as
+early as 1973. This cluster focuses on the impact of speciﬁc forms of
+ﬁnancing mechanisms on decisions of the classical inventory model
+(Haley and Higgins, 1973; Goyal, 1985; Jaggi and Aggarwal, 1994;
+Abad and Jaggi, 2003; Liao, 2008; Ho et al., 2008). The papers in this
+cluster have similar research frameworks. First, and more speciﬁcally,
+almost all the research objectives of these papers are perishable products or deteriorating inventory systems. Second, the ﬁnancing mechanisms that these papers study are all trade credit policies in the
+forms of permissible delays in payment, discounted cash ﬂows (DCF)
+and date terms (Robb and Silver, 2006). Third, inventory decisions are
+focused on the optimal price, ordering quantity or replenishment frequency. These models are all based on traditional EOQ or EPQ models.
+One empirical paper in Cluster one analyses the ﬁrm-level data of
+ﬁve African countries from the survey administered by the Regional
+Program on Enterprise Development (RPED) at the World Bank
+(Fisman, 2001). That paper found that the supplier credit is positively
+correlated with capacity utilisation i.e., ﬁrms lacking trade credit are
+likely to face inventory shortages, which lead to lower rates of capacity
+utilisation (Fisman, 2001). Papers within Cluster one have strong connections with one another.
+
+2
+1
+1
+2
+1
+6
+3
+6
+7
+5
+1
+
+31
+
+3
+5
+2
+9
+14
+14
+9
+6
+63
+
+2
+9
+4
+8
+7
+4
+5
+8
+6
+57
+
+This chronological evolution of the four clusters is also shown graphically in Fig. 2. One node represents one article and the size of a node
+for each layout represents the PageRank score of the article. Hence, the
+larger the size of a node, the more highly cited and prestigious the
+corresponding paper. The links between the nodes represent the citation rates: the thicker the links, the closer the clusters. It can be seen
+that Cluster one had many papers published between 1973 and 2013
+but has gone silent since 2013. Cluster four did not catch up until 2007
+after which the number of its papers has increased signiﬁcantly. Cluster
+three emerged and has grown steadily since 2005. Cluster two has a
+relatively smaller number of papers, emerged in 2007 and has declined
+since 2013.
+Additionally, we observe that Clusters two, three and four have
+grown since approximately 2008. The reason for this may lie in the
+rapid development of literature on supply chain management in the late
+2000s. We refer the readers to de Kok and Graves (2003) and SimchiLevi et al. (2004) for a general overview of supply chain management.
+Supply chain management is focused on the coordination of material,
+information, and capital ﬂows, and therefore it is logical for scholars to
+start examining the eﬀects of joint ﬁnancial and operation decisions of
+ﬁrms on their supply chain management (Babich and Sobel, 2004;
+Buzacott and Zhang, 2004). As a result, the literature on SCF has grown
+rapidly since 2008.
+
+4.2. Cluster two: inventory decision with trade credit policy under more
+complex situations
+With only 11 papers, Cluster two is the smallest cluster and emerged
+the latest, in 2007. This cluster develops from Cluster one and includes
+further study of the impact of trade credit policy on inventory decisions.
+It is focused on deteriorating items and considers inventory decisions
+within the EOQ or EPQ framework, but extends the traditional model
+and assumptions compared with Cluster one in two ways. The ﬁrst way
+in which this cluster extends the traditional model and assumptions is
+to extend the classical EOQ or EPQ models by introducing new methods
+such as fuzzy sense into the modelling and considering the demand rate,
+holding cost, ordering cost and purchasing cost as fuzzy numbers
+(Mahata and Goswami, 2007). Some other papers extend the model in
+terms of trade credit by considering two-level trade credit instead of
+one-level trade credit (Teng and Chang, 2009; Chang et al., 2010). The
+second way in which this cluster extends the traditional model and
+assumptions is to extend the assumptions and consider extreme cases.
+For example, some papers assume that retailers can obtain the full trade
+credit oﬀered by suppliers while they oﬀer partial trade credit to their
+customers (Huang and Hsu, 2008; Mahata, 2012); other papers consider
+extreme scenarios in which suppliers oﬀer retailers a partially permissible delay in payments when the order quantity is smaller than a
+predetermined quantity (Huang, 2007a).
+
+4. Content analysis of the four clusters
+4.3. Cluster three: interaction between replenishment decisions and delay
+payment strategies in the supply chain
+
+To obtain insights into each cluster, a content analysis was conducted to identify the research sub-themes within each of the four
+clusters identiﬁed from co-citation analysis. Since co-citation analysis
+considers only co-cited papers, recent articles tend to be missed due to a
+low number of citations. To perform the content analysis, we screened
+papers that were published in 2014, 2015 and 2016, but not included in
+the 214-node co-citation network. Overall, 90 papers were found to be
+published in these three years outside the 214-node and 16 papers of
+that 90 were published in AJG Grade 3, 4 and 4* journals. We found
+that the 16 papers ﬁt in the existing clustering structure and fall into
+Clusters 2, 3 and 4. Finally, the content analysis is based on the 96
+
+Cluster three consists of 25 articles and began in 2005. This cluster
+represents a transition from Clusters one and two to Cluster four. It
+focuses on the interaction between replenishment decisions and delayed payment strategies in the supply chain. Because Cluster three
+developed earlier than Cluster two, it not only contains similar topics
+(e.g., replenishment/ordering/inventory decisions) to those contained
+in Clusters one and two and extends the classical EOQ or EPQ models
+(Chung et al., 2014) but also begins to consider various forms of supply
+chain-level ﬁnancing mechanisms that are totally diﬀerent from those
+166
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+Fig. 2. The evolution of SCF research over time (i) 1973–2006, (ii) 1973–2008, (iii) 1973–2010, (iv) 1973–2012, (v) 1973–2014, (vi) 1973–2016.
+
+permissible delay period at the full price. However, Zhou et al. (2013)
+assume that the retailer may pay for any fraction of the ordered items
+within a short permissible delay period to receive a cash discount and
+then the remaining is paid within a long permissible delay period,
+which oﬀers more ﬂexible payment choices to retailers in reality. Furthermore, it adds new assumptions such as uncertain investment opportunity, varying deterioration and limited storage space (Marchi
+et al., 2016; Sarkar et al., 2015; Zhong and Zhou, 2013). It also considers imperfect situations, e.g., the items are of imperfect quality and
+the production processes are imperfect (Ouyang and Chang, 2013).
+Third, it tends to consider new research ideas such as cost and credit
+risks (Wu et al., 2014) and the coordination of the supply chain in the
+form of supply chain contracts (Kouvelis and Zhao, 2016), combining
+
+considered in Clusters one and two but are closer to those considered in
+Cluster four, e.g., it focuses on the entire supply chain instead of a
+single player and SCF mechanisms other than trade credit. Thus, we
+conclude that Cluster three represents a transition from Clusters one
+and two to Cluster four.
+More speciﬁcally, this cluster has three main features compared to
+Clusters one and two. First, it extends the traditional replenishment
+models, which are focal company focused, by considering supply chain
+players and trade credit stages and constructing a Stackelberg game
+(Zhou and Zhou, 2013). Second, it relaxes some strict assumptions. For
+example, one commonly used assumption is that the retailer either pays
+for all the ordered items within a short permissible delay period to
+receive a cash discount or pays for all the ordered items within a long
+167
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+these ideas with supply chain ﬁnance.
+
+chain performance, e.g., the coordination of entire supply chains.
+Kutsuna et al. (2016) study ﬁnancial and supply-chain data for private
+ﬁrms from the Cosmos database provided by Teikoku Databank
+(https://www.tdb.co.jp/english/news_reports/t030918.html), which
+contains ﬁnancial reports and ﬁrm-attribute data for each ﬁrm's top 5
+suppliers and customers. They examined the eﬀects of Initial Public
+Oﬀering (IPO) on revenue growth, PP&E (property, plant and equipment), accounts receivable, and the cash and loans of diﬀerent supply
+chain players.
+Birge (2015) studies the relationship between operations management and ﬁnancial management in which ﬁnancial activities have a
+signiﬁcant impact on operations and operation management provides
+new perspectives on ﬁnancial decisions. He provides examples and
+empirical observations about the relationship between operations and
+ﬁnance under the conditions of the absence of arbitrage, the diﬀerences
+between systematic and idiosyncratic risk, the valuation of limited
+production resources and imperfect market assumptions (Birge (2015)).
+In addition, adopting a case study method, Caniato et al. (2016)
+analyse 14 cases involving the application of SCF solutions among
+Italian companies and provide a reference framework in which under
+the two objectives (improving the adopter's ﬁnancial performance
+(objective 1) vs. securing the upstream/downstream supply chain's ﬁnancial performance (objective 2)), diﬀerent factors lead to the adoption of diﬀerent SCF solutions. For objective 1-driven SCF solutions, the
+factors that aﬀect successful adoption include the level of trade process
+digitalisation (negatively related), inter-company collaboration and the
+bargaining power towards supply chain players; for objective 2-driven
+SCF solutions, the factors leading to adoption include intra-company
+collaboration, level of trade process digitalisation and the ﬁnancial
+attractiveness of the focal companies (Caniato et al. (2016)).
+
+4.4. Cluster four: roles of ﬁnancing service in supply chains
+With 26 papers, Cluster four is the second largest cluster. The earliest article in Cluster four was published in 1981, but the number of
+papers for this cluster then remained stagnant until 2004. This cluster
+developed rapidly, especially after 2008 and is primarily focused on the
+impact of integrated operations and ﬁnancing decisions on supply chain
+performance.
+This cluster also studies the roles of ﬁnancing service providers in
+the supply chain, i.e., how they innovate and transform SCF. First, it
+investigates how formal or informal ﬁnancing services, e.g., bank credit
+and trade credit, aﬀect joint operational and ﬁnancial decisions in a
+supply chain. Some papers in this cluster compare trade credit with
+bank credit (Chen, 2015). Second, this cluster considers not only trade
+credit but also other forms of supply chain ﬁnancing mechanisms, e.g.,
+reverse factoring (van der Vliet et al., 2015) and diﬀerent supply chain
+contracts (Lee and Rhee, 2010). Cluster four pays more attention to
+supply chain coordination and examines how supply chain ﬁnancing
+service providers coordinate the supply chain or creates value for both
+individual companies and the entire supply chain. Third, the models in
+this cluster can be applied to more complicated situations. This cluster
+stresses the budget-constrained conditions of supply chain players and
+introduces new conditions of tariﬀ or ﬂuctuated demand information or
+bankruptcy (Shang et al., 2009; Yan and Sun, 2013). Finally, we notice
+that unlike Clusters one, two and three, which almost exclusively adopt
+the modelling method, more diverse methods were adopted in Cluster
+four, including surveys, experiments (e.g., Chen et al., 2013) and a
+combination of empirical and modelling methods (e.g., Ferris, 1981;
+Bougheas et al., 2009).
+Two papers in Cluster four used a mixed method of modelling and
+empirical methods. Ferris (1981) develops a theory of trade credit
+adopted by supply chain partners to decrease the transaction costs
+arising out of trading uncertainty and then used data collected from the
+Internal Revenue Service publication Statistics of Income: Corporate
+Income Tax Returns, Total Active Returns (in the US) for the years
+between 1945 and 1972 to test his theory. In our analysis, this paper is
+the earliest published article to use the empirical method in SCF research. Bougheas et al. (2009) develop a model that recognises the
+motivation for a ﬁrm to oﬀer and receive trade credit, which in turn
+aﬀects inventory and proﬁtability. To validate their model, they use the
+proﬁt and loss balance sheet data gathered by Bureau Van Dijk Electronic Publishing in the FAME database (https://www.bvdinfo.com/engb/home) and focus on ﬁrms in the manufacturing sector from 1993 to
+2003 (Bougheas et al. (2009)).
+
+5. Discussion and future research directions
+Cluster one appeared ﬁrst, in 1973, and Cluster two emerged last, in
+2007, but both clusters declined beginning in 2014. From 2008 onwards, there was a boost in Clusters three and four. SCF research has
+gradually developed into two main streams. One stream consists of
+Clusters one and two, which represents the traditional SCF research
+with a focal company focus. Cluster two was developed from Cluster
+one. These two clusters are focused on how ﬁnancial mechanisms aﬀect
+operation decisions through inventory models, especially classical EOQ
+and EPQ models and their variations within a ﬁrm's boundary.
+The other stream is represented by Cluster four, which examines
+how ﬁnancial mechanisms inﬂuence the operation decisions in the
+entire supply chain and focus more on how SCF services create value for
+the supply chain, usually under conditions of uncertain demand and
+information asymmetry. The focus of the second stream (i.e., ﬁnancing
+in the supply chain) represents a step change from the traditional internal operations management view of ﬁnancing within a ﬁrm's
+boundary to a supply chain view of ﬁnancing going beyond a ﬁrm's
+boundary. Cluster three is a transition from the ﬁrst stream to the
+second.
+The following key conclusions can be drawn from the ﬁndings obtained from bibliometric, network and content analyses:
+
+4.5. Papers published in the recent three years
+In this section, we present additional insights and trends identiﬁed
+from the review of the 16 papers published in 2014, 2015 and 2016 and
+not included in 214 papers from the co-citation analysis. The 16 papers
+primarily fall into Clusters two, three and four and contain six empirical
+studies (out of 10 overall). Some empirical papers examine the factors
+aﬀecting the SCF solution. Fabbri and Klapper (2016) use a novel ﬁrmlevel database of Chinese ﬁrms to investigate how the supplier's bargaining power aﬀects trade credit. Houston et al. (2016) analyse an
+extensive dataset that captures the supply chain relationships of
+bankrupt ﬁrms over the period of 1990–2009 and examine how a ﬁrm's
+bankruptcy aﬀects the bank ﬁnancing costs of its key suppliers. They
+ﬁnd that the borrowing costs of key suppliers signiﬁcantly increased in
+the aftermath of their client ﬁrm's bankruptcy. Alan et al. (2014) analyse a sample of publicly listed US retailers during the period of
+1985–2010 and ﬁnd that inventory productivity strongly predicts future stock returns.
+Some other empirical papers examine the eﬀects of SCF on supply
+
+(1) A frequency analysis showed that SCF research has had a long research history since 1973, but it has gained momentum and started
+growing rapidly especially in and after 2008.
+(2) After ﬁltering the papers based on the journal quality, 82.14% of
+the 112 articles are published in 8 major journals. IJPE and EJOR
+published the most number of SCF papers with relatively high
+quality among all journals.
+(3) SCF research can be classiﬁed into two main streams comprising
+four clusters. Research stream two (Cluster four) develops from
+research stream one (Clusters one and two). Cluster three is a
+transition from the ﬁrst stream to the second. Cluster four
+168
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+Table 11
+Identifying research directions in SCF research.
+Category
+
+Gap/issue
+
+Research direction
+
+Number of SCF levels
+Assumption for modelling
+Models and functions of SCF
+
+Focus on one-level or two-level trade credit
+Existing assumptions are strict.
+1. Certain demand is limited.
+2. Only considering cost reduction
+3. Limited forms of models
+4. Only as a marketing tool
+
+Forms of ﬁnancing
+Link to SCM topics
+Industry sector
+Research method
+
+Lack of ﬁnancing forms
+Few papers study the sustainable SCF.
+Few papers consider SCF in a speciﬁc industry.
+Dominated by modelling
+
+Studying multi-level SCF
+Relaxing existing assumptions and introducing new assumptions
+1. Considering more forms of demand
+2. Considering proﬁt increase
+3. Adopting game theory
+4. Working as a coordination tool
+5. Considering co-operation
+Studying the impact of tax or exchange rates on SCF
+Relating sustainability with SCF
+Studying SCF in agricultural sectors
+Calling for empirical analysis e.g. case study, statistical analysis
+
+ﬁnancial market are risk-neutral. In reality, however, diﬀerent ﬁrms
+have diﬀerent attitudes towards risk. Tang and Musa (2011) literature
+survey points out that ﬁnancial risk is one of the major risk issues in
+supply chain research. According to Heckmann et al. (2015), the subjective perception of the importance of risk is divided into three groups:
+risk-averse, risk-seeking, and risk-neutral. Risk attitudes have a decisive
+inﬂuence on the measurement of future supply chain performance and
+consequently co-determine supply chain decisions (Heckmann et al.
+(2015)). In Cluster four, researchers begin to investigate the SCF in riskaverse cases (Babich and Sobel, 2004; Yan and Sun, 2013; Zhang et al.,
+2014). Kouvelis and Zhao (2012) build their basic model with the riskneutral assumption and extend the model to a scenario in which there is
+a risk-averse retailer. They ﬁnd that the risk-averse retailer can order a
+larger quantity and obtain larger expected utility under supplier ﬁnancing when the supplier's interest rate equals the bank's, which
+means that supplier ﬁnancing is preferable over bank ﬁnancing for a
+retailer regardless of its risk preferences (Kouvelis and Zhao (2012)).
+However, Heckmann et al. (2015) ﬁnd that there is a lack of research
+focusing on the eﬀects of diﬀerent attitudes towards supply chain risk
+on supply chain decision-making. The same conclusion can be drawn
+from our content analysis of the four clusters. Interestingly, none of the
+reviewed paper across the clusters examine the risk-seeking assumption. Future research may consider assumptions based on diﬀerent attitudes towards risk, which will lead to diﬀerent operational and ﬁnancial decisions in SCs (Chen and Wang, 2012).
+Third, with the rapid development of SCF practice, scholars will
+need to adjust and extend the research models to adapt to a more
+turbulent environment for SCF. This is reﬂected in the following aspects:
+
+represents a new and emerging research area in SCF, emphasising
+ﬁnancing service and exploring the value creation for the whole
+supply chain, which deserves more attention. Based on the bibliometric and content analyses, we propose seven future research
+directions for SCF (Table 11).
+First, existing studies tend to investigate either one-level or twolevel trade credit. Cluster one focuses on the one-level trade credit and
+Cluster two develops the model based on Cluster one and considers the
+two-level trade credit so that the retailer can obtain the full trade credit
+oﬀered by the supplier and the retailer just oﬀers the partial trade credit
+to customers. There is a need to go beyond one or two levels and to look
+into the SCF of multi-tier supply chains. In Cluster three, Pal et al.
+(2014) investigate the optimal replenishment lot size of the supplier
+and optimal production rate of the manufacturer under three levels of
+trade credit policy in which the supplier provides a ﬁxed credit period
+to the manufacturer while the manufacturer gives a ﬁxed credit period
+to the retailer, who in turn oﬀers a credit period to each of its customers. In the future, scholars may focus on the multi-level trade credit or
+even SCF in a supply network.
+Additionally, from the papers across the clusters, we found a few
+limited forms of trade credits. Usually, the papers consider partial or
+full trade credit, e.g., permissible delay in payment, discounted cash
+ﬂows (DCF), and date terms. In the future, SCF scholars may consider
+more complex forms of trade credit policies and may assume that the
+credit amount or period oﬀered by suppliers is based on the order
+quantity of retailers. More speciﬁcally, SCF researchers may study
+whether the conclusions in the one- or two-level SCF will stand in the
+multi-level situation or how the conclusions will change from the original forms of trade credit to more complex forms.
+Second, some assumptions for SCF research are strict and may be
+relaxed and new assumptions may be introduced. For example, all the
+existing SCF research papers across Clusters one to three have the assumption of symmetric information, i.e., all the players in the supply
+chain have equal information about ﬁnancing. In reality, however, this
+may not be the case, e.g., more powerful ﬁrms in the supply chain tend
+to have more ﬁnancial information than others. In Cluster four, more
+papers consider the asymmetric information assumption (Daripa and
+Nilsen, 2011; Jing et al., 2012; Cai et al., 2014). Shang et al. (2009)
+examine three information scenarios: echelon, local, and quasilocal. In
+the echelon scenario, each supply chain player can access the inventory
+and cost information within its echelon, which includes the player itself
+and all downstream players, including customer demands; in the local
+scenario, each local supply chain partner accesses only local information, i.e., its own inventory and cost information; in the quasi-local
+scenario, all customer-demand information is shared by the supply
+chain players, but not cost information is not. Future research could
+consider how ﬁnancing adds value to the entire supply chain under the
+condition of information asymmetry.
+Another example is that nearly all of the papers except for one (i.e.,
+Birge, 2015) in Clusters one to three assume that all the players in the
+
+1) The assumptions of certain demand considered in EOQ or EPQ
+models do not match reality. Most of the papers in Clusters one and
+two, especially in Cluster one, adopt the classical EOQ or EPQ
+models considering that demand is certain. As the research and
+application of SCF develop, the theoretical analysis of inventory
+under certain demand cannot satisfy the sophisticated demand
+found in reality. In the future, more ﬂexible forms of demand or
+ﬂuctuated demand information should be considered for a broader
+scope of application. For example, Ouyang et al. (2009), in Cluster
+one, suggest that future research could assume that demand is a
+function of selling price and varying time. Cai et al. (2014), in
+Cluster four, argue that demand could be a random variable following a cumulative distribution function.
+2) According to all the papers in Clusters one and two, optimal decisions are made based on the cost of SCF using EOQ or EPQ models
+(e.g., Chen and Kang, 2007, Cluster one). However, the aim of
+adopting SCF could be not only to reduce the cost of the supply
+chain but also to increase the revenue of supply chain players. Zhou
+et al. (2012), in Cluster three, consider a two-echelon supply chain
+in which the supplier hopes to incentivise the retailer to order more
+items by oﬀering trade credit. They show that trade credit policy
+169
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+researchers could focus on how co-opetition between players aﬀects
+SCF or even co-opetition in ﬁnance at the supply network level.
+Researchers may investigate how co-opetitive dynamics change as
+ﬁrms allocate ﬁnancial resources and respond to environmental
+changes and the actions of other ﬁrms over time (Pathak et al.,
+2014).
+
+could increase not only the overall chain proﬁt but also each
+member's proﬁt under some conditions (Zhou et al. (2012)). In the
+future, more research focusing on both cost reduction and proﬁt
+generation by the supply chain players should be conducted.
+3) Without being limited to the classical inventory models and theories, diﬀerent models and theories may be considered. For example, scholars tend to adopt game theory to model the decisions of
+supply chain players engaging with SCF and compare the bargaining
+power of each player. Caldentey and Haugh (2009), in Cluster four,
+study the performance of a stylised supply chain in which two ﬁrms
+compete in a Stackelberg game and consider the payoﬀ of the retailer and producer. In their paper, the producer acts as a Stackelberg leader and oﬀers a ﬁxed wholesale price; the retailer acts as a
+follower and determines the purchasing quantity. Guan et al.
+(2016), in Cluster four, consider a two-stage Stackelberg game between the assembler and the two suppliers, in which the assembler
+is a leader and initially chooses the contract type and the buﬀer
+time, and the two suppliers are followers and simultaneously determine their production lead times. These studies suggest that more
+game theory models and their variations can be used to analyse the
+SCF problems in further research; examples include the Bertrand
+duopoly model or dynamic games with complete or incomplete information.
+4) One important transition involves the transformation of the function
+of SCF from a marketing tool to a coordination tool. Clusters one and
+two study the change of inventory or replenishment policies with or
+without trade credit. Some papers ﬁnd that trade credit increases
+optimal replenishment quantities and others do not (e.g.,
+Daellenbach, 1986; Cluster one). In this way, trade credit is considered a marketing tool in these two clusters. However, scholars
+now tend to shift their attention towards the coordination of upstream and down-stream supply chain players instead of the inventory decisions or replenishment policies of a single player. In
+Clusters three and four, we ﬁnd that more papers began to consider
+supply chain coordination contracts, thus demonstrating that trade
+credit plays an important role in coordination and incentive mechanism of supply chain and works as a coordination tool. For instance, Lee and Rhee (2011), in Cluster four, consider coordination
+contract, employ a buyback/markdown allowance contract, and
+derive the optimal markdown allowance and risk premium in the
+trade credit for full coordination. This shows that trade credit is an
+instrument for supply chain coordination (Lee and Rhee (2011)).
+Yan et al. (2016), in Cluster four, design a partial credit guarantee
+contract for SCF that incorporates the bank credit ﬁnancing and
+manufacturer's trade credit guarantee to analyse its equilibrium ﬁnancing strategies. They ﬁnd that the partial credit guarantee contract may realise proﬁt maximisation and channel coordination in
+the SCF system and achieve the super-coordination eﬀect with a
+suitable guarantee coeﬃcient (Yan et al. (2016)). In the future, more
+SCF research can be done by combining diﬀerent contracts with
+trade credit to achieve the coordination of the supply chain. Scholars can also design contracts combining the advantages of diﬀerent
+types of credit to better coordinate the whole supply chain.
+5) Co-opetition in SCF deserves more attention from researchers.
+According to Pathak et al. (2014), the concept of co-opetition, or
+simultaneous competition and cooperation, originated from the
+game theory literature and is a network-level phenomenon. They
+specify four supply network archetypes that cover a wide range of
+economic activities: Community, Federation, Consortium and Hierarchy. They then explain how co-opetitive relationships may evolve
+in these supply network archetypes (Pathak et al. (2014)). As discussed previously, the focus of SCF research turns to the combination of game theory and SCF, and scholars should do more work on
+the multi-level trade credit or even SCF in a supply network. Additionally, combining contracts and trade credit provides opportunities for supply chain collaboration and competition. In the future,
+
+Fourth, papers in Cluster four have examined complicated situations, e.g., considering budget-constrained conditions, and introduce
+new conditions of tariﬀs or bankruptcy (e.g., Yan et al., 2016), assuming that the retailer may have bankruptcy risk. In addition to existing forms of trade credit policy studied across the clusters, more
+forms of ﬁnancing mechanisms such as taxes should be introduced to
+SCF research. For instance, future research could study the eﬀects of tax
+and exchange rates on SCF in a global supply chain context. Brick and
+Fung (1984) and Qin et al. (2015) study the eﬀect of taxes on the trade
+credit decision and replenishment policies, but generally, there are few
+papers of this kind. It is interesting to study how taxes inﬂuence the
+decisions of governments and supply chain players. Additionally, there
+are diﬀerent tax codes such as sales tax and value-added tax. According
+to Consumption Tax Trends (2016), 166 of the world's approximately
+193 countries have adopted a VAT system. Taking the two biggest
+economies in the world as examples, the United States has used a sales
+tax while China conducted a tax reform that transitioned from sales tax
+to value-added tax in 2016. Scholars may study the eﬀects of diﬀerent
+tax codes on the entire supply chain so that researchers and policy
+makers can obtain a better understanding of whether a tax reform is
+needed. Especially with globalisation, more research is needed on the
+global supply chain, and the topics of exchange rates will become
+salient in SCF. Hsu and Zhu (2011) study the impacts of a set of Chinese
+export-oriented tax and tariﬀ rules on the optimal supply chain design
+and operations for a ﬁrm that produces its product in China and sells it
+in markets both inside and outside China. Kazaz et al. (2005) examine
+the impact of exchange rate uncertainty on the choice of various optimal production policies and the conditions that lead to them. Their
+model identiﬁes the value of ﬁnancial hedging for each ﬁrm rather than
+a single price for all ﬁrms (Kazaz et al. (2005)). In the future, scholars
+may consider the application of SCF in global supply chains and examine the impact of exchange rate or tariﬀ rules on the SCF decisions of
+supply chain players. Researchers could provide more ideas about how
+to improve the proﬁt and eﬃciency of the global supply chain with SCF,
+helping ﬁrms make better import and export decisions and oﬀering
+suggestions to policy makers.
+Fifth, we found that SCF papers across the four clusters tend to be a
+niche since the link to other SCM topics is lacking. Increasing attention
+is being paid to sustainable development and sustainable supply chain
+management. Suppliers and retailers have begun to care about the environmental and social sustainability of their supply chains. For example, Nestlé was the world's largest food and beverage company in
+terms of revenue in 2015 and has adopted the “creating shared value”
+principle as its sustainability strategy. Nestlé purchases fresh milk from
+dairy farmers and helps them upgrade and modernise their dairy farms.
+Lack of capital is a big challenge for dairy farmers. To tackle this, Nestlé
+collaborated with local governments and local banks to provide farmers
+with ﬁnancial support (Gong et al., 2017). However, few papers examine the relationship between sustainable development and SCF. Future research could examine the eﬀects of the adoption of sustainability
+criteria in the supply chain on SCF or explore how SCF promotes supply
+chain sustainability. For example, Dye and Yang (2015), in Cluster
+three, study sustainable trade credit and replenishment decisions under
+carbon emission regulations. The combination of sustainability and SCF
+may become a fertile area for SCF research.
+Sixth, combining SCF with speciﬁc industry sectors or real problems
+would add value to SCF research. SCF in speciﬁc industry sectors, such
+as the manufacturing sector or the retail sector, deserves more attention
+from SCF researchers. Speciﬁcally, there is very little research on SCF in
+170
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+6. Conclusions
+
+the agricultural sectors. Obaidullah (2015) reviews the principles,
+modes and models of Islamic agricultural ﬁnance targeted at smallholder farmers and adopts a case study method to examine several
+modes of Islamic agricultural ﬁnance for the rural poor. Among them,
+credit-based and sharing-based modes work well under speciﬁc conditions, and there is no one-size-ﬁts-all solution for ﬁnancing the rural
+poor. Chen et al. (2015) conduct a review of the existing literature on
+agricultural value chains and their ﬁnancing mechanisms in China and
+India. They ﬁnd that the internal ﬁnancing of value chains (in terms of
+provision of inputs, technology and services) plays a dominant role in
+both countries and that value chain ﬁnance from commercial banks and
+other ﬁnancial institutions is limited and primarily occurs through tripartite agreements among ﬁnancing institutions, lead ﬁrms and farmers
+(Chen et al. (2015)).
+Boyabatlı et al. (2011) examine the integration of long-term and
+short-term contracting (i.e., a form of SCF) in the beef supply chain.
+They analyse the optimal decision of the meat-processing company in
+the beef supply chain and focus on the structure of optimal sourcing
+portfolios between spot sourcing and long-term contracts. Here, they
+analyse window contracts, with the contract price equal to a linear
+function of the spot price but capped by upper and lower limits on the
+realised contract price. Their paper shows that the meat-processing
+company beneﬁts from a low correlation between the spot price and
+product market uncertainties, and this conclusion is independent of the
+form of the window contract (Boyabatlı et al. (2011)). Using a calibration based on the GIPSA (2007) report, this paper elucidates for the
+ﬁrst time the value of long-term contracting as a complement to spot
+sourcing in the beef supply chain (Boyabatlı et al. (2011)).
+In reality, crop failure and market volatility may bring signiﬁcant
+risks to SCF. The practice of SCF in agricultural sectors develops
+quickly, and many governments, such as China, publish policies to
+promote and support agricultural SCF. However, the existing SCF research in agricultural supply chains is fairly rudimentary, e.g., few ﬁnancing service tools have been applied to the agricultural supply
+chain. All players in the agricultural supply chain need to have a better
+understanding of underlying ﬁnancing risks and mitigating strategies
+with the help of trade credits, therefore more research on SCF in agricultural supply chains is needed.
+Seventh, we found that papers in Clusters one, two and three predominantly adopt a modelling method, whereas Cluster four shows
+some early signs of adopting an empirical method, including the mixed
+method, e.g., case studies and surveys in addition to the modelling
+method. More studies using empirical and case study methods are
+called for in the future to gain a better understanding of SCF.
+Speciﬁcally, it would be meaningful to conduct case studies to study the
+business models and determinants of SCF. In future research, diﬀerent
+types of SCF business models could be identiﬁed. The empirical method
+of statistical analysis based on secondary data is a common method
+found in the empirical studies in our sample (see the supplementary
+table for details). For example, to understand how bankruptcy risk is
+transformed through the supply chain, Houston et al. (2016), in Cluster
+four, collect and construct data on bankrupt companies and their suppliers from various sources such as BankruptcyData.com, the Moody's
+Default and Recovery Database and the DealScan database. Fabbri and
+Klapper (2016), in Cluster four, use ﬁrm-level data on 2500 Chinese
+ﬁrms that were collected as part of the World Bank Enterprise Surveys
+conducted by the World Bank with partners in 76 developed and developing countries. With the development of data science, databases
+will be improved and integrated. We may have more data on diﬀerent
+ﬁrms or sectors, e.g., the Cosmos database provided by Teikoku Databank, which contains ﬁnancial reports and ﬁrm-attribute data that include each ﬁrm's top 5 suppliers and customers (Kutsuna et al., 2016,
+Cluster four). Therefore, future research could adopt a statistical analysis based on secondary data.
+
+Supply Chain Finance (SCF) has been established as an important
+but niche research area in supply chain management. The increasing
+number of publications in this area supports this argument. We have
+used bibliometric and network analysis tools to analyse the SCF literature, examine the evolution of this research area and identify four
+research themes/clusters. In addition, based on the co-citation/clustering analysis, we carry out a content analysis focusing on AJG 3, 4 and
+4* journal publications and obtain additional insights into SCF.
+Adopting diﬀerent objective measures, our study makes the following contributions that can help SCF researchers position their research against this mapping. First, we have mapped out the knowledge
+structure of SCF and identiﬁed the contributions of journals and papers
+in the SCF research. Second, we have identiﬁed existing research themes
+in diﬀerent streams of research (four clusters) and additional insights
+from the content analysis. These themes can help SCF researchers
+identify and avoid mature, saturated or stagnant research themes in
+their own research. Third, seven actionable future research directions
+are advanced based on the bibliometric and content analysis and topics
+outside the SCF research (e.g., sustainability and tax) for SCF scholars.
+Fourth, the combination of bibliometric, network and content analysis
+presents a methodological contribution to systematic literature review,
+as we found that the bibliometric and network analysis and content
+analysis complement each other: the former lacks topical details or
+insights while the latter is often criticised for a lack of academic rigour
+due to the subjective judgement of researchers in coding. By combining
+the two, the weaknesses could be signiﬁcantly reduced, if not removed.
+This paper is not exempt from limitations. We choose our keywords
+according to the deﬁnition of SCF and the related literature. Although
+we have tried our best, the keywords used may not be exhaustive. Some
+papers that ﬁt our inclusion and exclusion criteria were omitted because they do not have both supply chain and ﬁnance-related keywords
+in the keyword section. In addition, a diﬀerent set of search terms could
+generate diﬀerent clusters, resulting in diﬀerent interpretations for the
+state of art of the ﬁeld. Expanding the keywords to include supplier
+ﬁnance, ﬁnancial supply chain, working capital optimisation, hedging,
+VMI, and so on could result in a more exhaustive review of the ﬁeld,
+and include much border scope of papers studying the integration of
+ﬁnance and operations of the supply chain.
+For instance, we used the keyword “supplier” combined with all the
+ﬁnance-related keywords deﬁned in Section 2.1 and searched the
+Scopus and EBSCO databases; 2444 papers were returned. We read
+through these papers and identiﬁed 372. Among those 372 papers, 206
+papers duplicate what we have in our sample of 348, and most of the
+remaining 166 papers (approximately 75%) focus on traditional EOQ/
+EPQ modelling of supplier or retailer (Cluster 1), while the others are
+focused on decisions of credit period or other trade credit policy of a
+single ﬁrm, which should be excluded. Furthermore, of the 166 papers,
+only 34 papers are published in journals such as AJG 3, 4 and 4*.
+SCF is an emerging area that has developed rapidly in recent years,
+and the choice of relevant search terms is open to debate. In addition,
+the constraint put on selecting papers from AJG 3 and above journals
+for the content analysis also excluded certain papers that ﬁt the inclusion criteria. Diﬀerent criteria and ranking systems may also inﬂuence
+the results.
+
+Acknowledgements
+We appreciate the ﬁnancial support from the National Natural
+Science Foundation of China (Grant No.: 71472049, 71531005,
+1629001), the Ministry of Education of Humanities and Social Sciences
+project (Grant No.: 17YJA630034), the Natural Science Foundation of
+Fujian Province of China (Grant No. 2017J01519) and innovation team
+project of the humanities and social sciences of Fudan University.
+171
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+Appendix A. Supplementary data
+
+Issues. Secretary-General of the OECDhttps://doi.org/10.1787/ctt-2016-en. ISBN
+978-92-64-22394-3.
+Cronin, B., Ding, Y., 2011. Popular and/or prestigious? Measures of scholarly esteem. Inf.
+Process. Manag. 47, 80–96.
+Daellenbach, H.G., 1986. Inventory control and trade credit. J. Oper. Res. Soc. 37 (5),
+525–528.
+Daripa, A., Nilsen, J., 2011. Ensuring sales: a theory of inter-ﬁrm credit. Am. Econ. J.
+Microecon. 3, 245–279.
+de Kok, A.G., Graves, S.C. (Eds.), 2003. Supply chain Management: Design, Coordination
+and Operation, vol. 11 Elsevier, Amsterdam.
+Ding, Y., Yan, E., Frazho, A., Caverlee, J., 2009. PageRank for ranking authors in cocitation networks. J. Am. Soc. Inf. Sci. Technol. 60, 2229–2243.
+Dye, C.Y., Yang, C.T., 2015. Sustainable trade credit and replenishment decisions with
+credit-linked demand under carbon emission constraints. Eur. J. Oper. Res. 244 (1),
+187–200.
+Fabbri, D., Klapper, L.F., 2016. Bargaining power and trade credit. J. Corp. Finance 41,
+66–80.
+Fahimnia, B., Sarkis, J., Davarzani, H., 2015. Green supply chain management: a review
+and bibliometric analysis. Int. J. Prod. Econ. 162, 101–114.
+Ferris, J.S., 1981. A transactions theory of trade credit use. Q. J. Econ. 96 (2), 243–270.
+Fisman, R., 2001. Trade credit and productive eﬃciency in developing countries. World
+Dev. 29 (2), 311–321.
+Garﬁeld, E., 2009. From the science of science to Scientometrics visualizing the history of
+science with HistCite software. J. Inform. 3 (3), 173–179.
+Gelsomino, L.M., Mangiaracina, R., Perego, A., Tumino, A., 2016. Supply chain ﬁnance: a
+literature review. Int. J. Phys. Distrib. Logist. Manag. 46, 348–366.
+Gephi, 2013. Gephi – Makes Graphs Handy.
+Gomm, M.L., 2010. Supply chain ﬁnance: applying ﬁnance theory to supply chain management to enhance ﬁnance in supply chains. Int. J. Logist.: Res. Appl. 13, 133–142.
+Gong, Y., Jia, F., Brown, S., Koh, L., 2017. Supply chain learning of sustainability in multitier supply chains: a resource orchestration perspective. In: 24th EurOMA
+Conference, Edinburgh, UK, 1–5 July, 2017.
+Goyal, S.K., 1985. Economic order quantity under conditions of permissible delay in
+payments. J. Oper. Res. Soc. 335–338.
+Grain Inspection, Packers and Stockyards Administration (GIPSA), 2007. GIPSA Livestock
+and Meat Marketing Study. Report. Fed Cattle and Beef Industries, vol. 3 U.S.
+Department of Agriculture, Washington, DC.
+Guan, X., Li, G., Yin, Z., 2016. The implication of time-based payment contract in the
+decentralized assembly system. Ann. Oper. Res. 240 (2), 641–659.
+Gupta, D., Wang, L., 2009. A stochastic inventory model with trade credit. Manuf. Serv.
+Oper. Manag. 11, 4–18.
+Haley, C.W., Higgins, R.C., 1973. Inventory policy and trade credit ﬁnancing. Manag. Sci.
+20, 464–471.
+Heckmann, I., Comes, T., Nickel, S., 2015. A critical review on supply chain risk - deﬁnition, measure and modeling. Omega 52, 119–132.
+Hjørland, B., 2013. Citation analysis: a social and dynamic approach to knowledge organization. Inf. Process. Manag. 49, 1313–1325.
+Ho, C.H., Ouyang, L.Y., Su, C.H., 2008. Optimal pricing, shipment and payment policy for
+an integrated supplier-buyer inventory model with two-part trade credit. Eur. J.
+Oper. Res. 187 (2), 496–510.
+Hofmann, E., 2005. Supply chain Finance: Some Conceptual Insights. Beiträge Zu
+Beschaﬀung Und Logistik. pp. 203–214.
+Houston, J.F., Lin, C., Zhu, Z., 2016. The ﬁnancial implications of supply chain changes.
+Manag. Sci. 62 (9), 2520–2542.
+Hsu, V.N., Zhu, K., 2011. Tax-eﬀective supply chain decisions under China's export-oriented tax policies. Manuf. Serv. Oper. Manag. 13 (2), 163–179.
+Huang, Y.F., 2007a. Economic order quantity under conditionally permissible delay in
+payments. Eur. J. Oper. Res. 176 (2), 911–924.
+Huang, Y.F., 2007b. Optimal retailer's replenishment decisions in the EPQ model under
+two levels of trade credit policy. Eur. J. Oper. Res. 176, 1577–1591.
+Huang, Y.F., Hsu, K.H., 2008. An EOQ model under retailer partial trade credit policy in
+supply chain. Int. J. Prod. Econ. 112, 655–664.
+Hussain, S., 2011. Food for thought on the ABS academic journal quality guide. Account.
+Educ. 20 (6), 545–559.
+Jaggi, C.K., Aggarwal, S.P., 1994. Credit ﬁnancing in economic ordering policies of deteriorating items. Int. J. Prod. Econ. 34 (2), 151–155.
+Jaggi, C.K., Goyal, S.K., Goel, S.K., 2008. Retailer's optimal replenishment decisions with
+credit-linked demand under permissible delay in payments. Eur. J. Oper. Res. 190
+(1), 130–135.
+Jing, B., Chen, X., Cai, G.G., 2012. Equilibrium ﬁnancing in a distribution channel with
+capital constraint. Prod. Oper. Manag. 21, 1090–1101.
+Kazaz, B., Dada, M., Moskowitz, H., 2005. Global production planning under exchangerate uncertainty. Manag. Sci. 51 (7), 1101–1119.
+Kelly, A., Morris, H., Harvey, C., 2009. Modelling the Outcome of the UK Business and
+Management Studies RAE 2008 with Reference to the ABS Journal Quality Guide.
+Association of Business Schools.
+Klapper, L., 2006. The role of factoring for ﬁnancing small and medium enterprises. J.
+Bank. Finance 30 (11), 3111–3130.
+Kouvelis, P., Zhao, W., 2012. Financing the newsvendor: supplier vs. bank, and the
+structure of optimal trade credit contracts. Oper. Res. 60, 566–580.
+Kouvelis, P., Zhao, W., 2016. Supply chain contract design under ﬁnancial constraints and
+bankruptcy costs. Manag. Sci. 62 (8), 2341–2357.
+Kreng, V.B., Tan, S.J., 2011. Optimal replenishment decision in an EPQ model with defective items under supply chain trade credit policy. Expert Syst. Appl. 38 (8),
+9888–9899.
+Kutsuna, K., Smith, J.K., Smith, R., Yamada, K., 2016. Supply-chain spillover eﬀects of
+
+Supplementary data related to this article can be found at https://
+doi.org/10.1016/j.ijpe.2018.08.003.
+References
+Abad, P.L., Jaggi, C.K., 2003. A joint approach for setting unit price and the length of the
+credit period for a seller when end demand is price sensitive. Int. J. Prod. Econ. 83,
+115–122.
+Academic Journal Guide (AJG), 2015. The Association of Business Schools. https://
+charteredabs.org/academic-journal-guide-2015/.
+Alan, Y., Gao, G.P., Gaur, V., 2014. Does inventory productivity predict future stock returns? A retailing industry perspective. Manag. Sci. 60 (10), 2416–2434.
+Babich, V., Sobel, M.J., 2004. Pre-IPO operational and ﬁnancial decisions. Manag. Sci. 50
+(7), 935–948.
+Bastian, M., Heymann, S., Jacomy, M., 2009. Gephi: an open source software for exploring and manipulating networks. In: Third International AAAI Conference on
+Weblogs and Social Media.
+Batagelj, V., Mrvar, A., 2011. Pajek: Program for Analysis and Visualization of Large
+Networks-Reference Manual. University of Ljubljana, Slovenia.
+Birge, J.R., 2015. OM forum-Operations and ﬁnance interactions. Manuf. Serv. Oper.
+Manag. 17, 4–15.
+Blondel, V.D., Guillaume, J.L., Lambiotte, R., Lefebvre, E., 2008. Fast unfolding of communities in large networks. J. Stat. Mech. Theor. Exp. 2008, P10008.
+Bougheas, S., Materu, S., Mizen, P., 2009. Corporate trade credit and inventories: new
+evidence of a trade-oﬀ from accounts payable and receivable. J. Bank. Finance 33,
+300–307.
+Boyabatlı, O., Kleindorfer, P.R., Koontz, S.R., 2011. Integrating long-term and short-term
+contracting in beef supply chains. Manag. Sci. 57 (10), 1771–1787.
+Brick, I.E., Fung, W.K., 1984. The Eﬀect of Taxes on the Trade Credit Decision. Financial
+Management, pp. 24–30.
+Brin, S., Page, L., 1998. The anatomy of a large-scale hypertextual Web search engine.
+Comput. Netw. ISDN Syst. 30, 107–117.
+Budin, M., Eapen, A.T., 1970. Cash generation in business operations: some simulation
+models. J. Finance 25, 1091–1107.
+Buzacott, J.A., Zhang, R.Q., 2004. Inventory management with asset-based ﬁnancing.
+Manag. Sci. 50, 1274–1292.
+Cai, G., Chen, X., Xiao, Z., 2014. The roles of bank and trade credits: theoretical analysis
+and empirical evidence. Prod. Oper. Manag. 23 (4), 583–598.
+Caldentey, R., Haugh, M., 2009. Supply contracts with ﬁnancial hedging. Oper. Res. 57
+(1), 47–65.
+Camerinelli, E., 2009. Supply chain ﬁnance. J. Payments Strategy & Syst. 3 (2), 114–128.
+Caniato, F., Gelsomino, L.M., Perego, A., Ronchi, S., 2016. Does ﬁnance solve the supply
+chain ﬁnancing problem? Supply Chain Manag.: Int. J. 21 (5), 534–549.
+Chang, C.T., Teng, J.T., Goyal, S.K., 2008. Inventory lot-size models under trade credits: a
+review. Asia Pac. J. Oper. Res. 25, 89–112.
+Chang, C.T., Teng, J.T., Chern, M.S., 2010. Optimal manufacturer's replenishment policies
+for deteriorating items in a supply chain with up-stream and down-stream trade
+credits. Int. J. Prod. Econ. 127 (1), 197–202.
+Chen, X., 2015. A model of trade credit in a capital-constrained distribution channel. Int.
+J. Prod. Econ. 159, 347–357.
+Chen, L., Kang, F., 2007. Integrated vendor-buyer cooperative inventory models with
+variant permissible delay in payments. Eur. J. Oper. Res. 183, 658–673.
+Chen, X., Wang, A., 2012. Trade credit contract with limited liability in the supply chain
+with budget constraints. Ann. Oper. Res. 196, 153–165.
+Chen, P., Xie, H., Maslov, S., Redner, S., 2007. Finding scientiﬁc gems with Google's
+PageRank algorithm. J. Inform. 1, 8–15.
+Chen, L., Kok, A., Tong, J., 2013. The eﬀect of payment schemes on inventory decisions:
+the role of mental accounting. Manag. Sci. 59, 436–451.
+Chen, S.C., Teng, J.T., Skouri, K., 2014a. Economic production quantity models for deteriorating items with up-stream full trade credit and down-stream partial trade
+credit. Int. J. Prod. Econ. 155, 302–309.
+Chen, S.C., Cárdenas-Barrón, L.E., Teng, J.T., 2014b. Retailer's economic order quantity
+when the supplier oﬀers conditionally permissible delay in payments link to order
+quantity. Int. J. Prod. Econ. 155, 284–291.
+Chen, K.Z., Joshi, P.K., Cheng, E., Birthal, P.S., 2015. Innovations in ﬁnancing of agri-food
+value chains in China and India: lessons and policies for inclusive ﬁnancing. China
+Agric. Econ. Rev. 7 (4), 616–640.
+Chern, M.S., Pan, Q., Teng, J.T., Chan, Y.L., Chen, S.C., 2013. Stackelberg solution in a
+vendor–buyer supply chain model with permissible delay in payments. Int. J. Prod.
+Econ. 144 (1), 397–404.
+Chung, K.J., Liao, J.J., 2004. Lot-sizing decisions under trade credit depending on the
+ordering quantity. Comput. Oper. Res. 31 (6), 909–928.
+Chung, K.J., Goyal, S.K., Huang, Y.F., 2005. The optimal inventory policies under permissible delay in payments depending on the ordering quantity. Int. J. Prod. Econ. 95
+(2), 203–213.
+Chung, K.J., Cárdenas-Barrón, L.E., Ting, P.S., 2014. An inventory model with non-instantaneous receipt and exponentially deteriorating items for an integrated three
+layer supply chain system under two levels of trade credit. Int. J. Prod. Econ. 155,
+310–317.
+Clauset, A., Newman, M.E.J., Moore, C., 2004. Finding community structure in very large
+networks. Phys. Rev. 70, 1–6.
+Consumption Tax Trends 2016, 2016. VAT/GST and Excise Rates, Trends and Policy
+
+172
+
+International Journal of Production Economics 204 (2018) 160–173
+
+X. Xu et al.
+
+Simchi-Levi, D., Wu, S.D., Shen, Z.J.M. (Eds.), 2004. Handbook of quantitative supply
+chain analysis: modeling in the e-business era, vol. 74 Springer Science & Business
+Media.
+Soni, H.N., Patel, K.A., 2012. Optimal strategy for an integrated inventory system involving variable production and defective items under retailer partial trade credit
+policy. Decis. Support Syst. 54 (1), 235–247.
+Soufani, K., 2002. On the determinants of factoring as a ﬁnancing choice: evidence from
+the UK. J. Econ. Bus. 54 (2), 239–252.
+Stemmler, L., 2002. The Role of Finance in Supply Chain Management. Cost Management
+in Supply Chains. Physica, Heidelberg, pp. 165–176.
+Su, C.H., 2012. Optimal replenishment policy for an integrated inventory system with
+defective items and allowable shortage under trade credit. Int. J. Prod. Econ. 139 (1),
+247–256.
+Tang, O., Musa, S.N., 2011. Identifying risk issues and research advancements in supply
+chain risk management. Int. J. Prod. Econ. 133 (1), 25–34.
+Tanrisever, F., Cetinay, H., Reindorp, M., Fransoo, J., 2012. Value of Reverse Factoring in
+Multi-stage Supply Chains. Available at: SSRN, 2183991.
+Teng, J.T., 2009. Optimal ordering policies for a retailer who oﬀers distinct trade credits
+to its good and bad credit customers. Int. J. Prod. Econ. 119 (2), 415–423.
+Teng, J.T., Chang, C.T., 2009. Optimal manufacturer's replenishment policies in the EPQ
+model under two levels of trade credit policy. Eur. J. Oper. Res. 195 (2), 358–363.
+Teng, J.T., Chang, C.T., Goyal, S.K., 2005. Optimal pricing and ordering policy under
+permissible delay in payments. Int. J. Prod. Econ. 97 (2), 121–129.
+Thangam, A., 2012. Optimal price discounting and lot-sizing policies for perishable items
+in a supply chain under advance payment scheme and two-echelon trade credits. Int.
+J. Prod. Econ. 139 (2), 459–472.
+Tranﬁeld, D., Denyer, D., Smart, P., 2003. Towards a methodology for developing evidence-informed management knowledge by means of systematic review. Br. J.
+Manag. 14, 207–222.
+Tsao, Y.C., Sheen, G.J., 2008. Dynamic pricing, promotion and replenishment policies for
+a deteriorating item under permissible delay in payments. Comput. Oper. Res. 35
+(11), 3562–3580.
+Tüselmann, H., Sinkovics, R.R., Pishchulov, G., 2016. Revisiting the standing of international business journals in the competitive landscape. J. World Bus. 51 (4),
+487–498.
+van der Vliet, K., Reindorp, M.J., Fransoo, J.C., 2015. The price of reverse factoring:
+ﬁnancing rates vs. payment delays. Eur. J. Oper. Res. 242 (3), 842–853.
+van Eck, N.J., Waltman, L., 2013. Manual for VOS Viewer Version 1.5.4. Universiteit
+Leiden and Erasmus Universiteit Rotterdam, The Netherlands.
+Wang, W.C., Teng, J.T., Lou, K.R., 2014. Seller's optimal credit period and cycle time in a
+supply chain for deteriorating items with maximum lifetime. Eur. J. Oper. Res. 232
+(2), 315–321.
+Wu, J., Ouyang, L.Y., Cárdenas-Barrón, L.E., Goyal, S.K., 2014. Optimal credit period and
+lot size for deteriorating items with expiration dates under two-level trade credit
+ﬁnancing. Eur. J. Oper. Res. 237 (3), 898–908.
+Wuttke, D.A., Blome, C., Henke, M., 2013. Focusing the ﬁnancial ﬂow of supply chains: an
+empirical investigation of ﬁnancial supply chain management. Int. J. Prod. Econ. 145
+(2), 773–789.
+Yan, N., Sun, B., 2013. Coordinating loan strategies for supply chain ﬁnancing with
+limited credit. OR Spectrum 35 (4), 1039–1058.
+Yan, N., Sun, B., Zhang, H., Liu, C., 2016. A partial credit guarantee contract in a capitalconstrained supply chain: ﬁnancing equilibrium and coordinating strategy. Int. J.
+Prod. Econ. 173, 122–133.
+Zhang, Q., Dong, M., Luo, J., Segerstedt, A., 2014. Supply chain coordination with trade
+credit and quantity discount incorporating default risk. Int. J. Prod. Econ. 153,
+352–360.
+Zhao, L., Huchzermeier, A., 2015. Operations-ﬁnance interface models: a literature review and framework. Eur. J. Oper. Res. 244, 905–917.
+Zhong, Y.G., Zhou, Y.W., 2013. Improving the supply chain's performance through trade
+credit under inventory-dependent demand and limited storage capacity. Int. J. Prod.
+Econ. 143 (2), 364–370.
+Zhou, Y.W., Zhou, D., 2013. Determination of the optimal trade credit policy: a supplierStackelberg model. J. Oper. Res. Soc. 64 (7), 1030–1048.
+Zhou, Y.W., Zhong, Y.G., Li, J., 2012. An uncooperative order model for items with trade
+credit, inventory-dependent demand and limited displayed-shelf space. Eur. J. Oper.
+Res. 223, 76–85.
+Zhou, Y.W., Zhong, Y.G., Wahab, M.I.M., 2013. How to make the replenishment and
+payment strategy under ﬂexible two-part trade credit. Comput. Oper. Res. 40 (5),
+1328–1338.
+
+IPOs. J. Bank. Finance 64, 150–168.
+Lamoureux, J.F., Evans, T.A., 2011. Supply chain Finance: a New Means to Support the
+Competitiveness and Resilience of Global Value Chains. Working Paper 2179944.
+Social Science Research Network, Rochester, NY.
+Lee, C.H., Rhee, B.D., 2010. Coordination contracts in the presence of positive inventory
+ﬁnancing costs. Int. J. Prod. Econ. 124 (2), 331–339.
+Lee, C.H., Rhee, B.D., 2011. Trade credit for supply chain coordination. Eur. J. Oper. Res.
+214 (1), 136–146.
+Leydesdorﬀ, L., 2011. Bibliometrics/citation networks. In: Barnett, G.A. (Ed.),
+Encyclopedia of Social Networks. SAGE Publications, Inc, Thousand Oaks, CA.
+Liao, J.J., 2008. An EOQ model with noninstantaneous receipt and exponentially deteriorating items under two-level trade credit. Int. J. Prod. Econ. 113, 852–861.
+Mahata, G.C., 2012. Analysis of partial trade credit ﬁnancing in a supply chain by EOQbased inventory model for exponentially deteriorating items. Int. J. Oper. Res. 15,
+94–124.
+Mahata, G.C., Goswami, A., 2007. An EOQ model for deteriorating items under trade
+credit ﬁnancing in the fuzzy sense. Prod. Plann. Contr. 18, 681–692.
+Marchi, B., Ries, J.M., Zanoni, S., Glock, C.H., 2016. A joint economic lot size model with
+ﬁnancial collaboration and uncertain investment opportunity. Int. J. Prod. Econ. 176,
+170–182.
+Milder, B., 2008. Closing the gap: reaching the missing middle and rural poor through
+value chain ﬁnance. Enterp. Dev. Microﬁnance 19 (4), 301–316.
+Mingers, J., Willmott, H., 2013. Taylorizing business school research: on the ‘one best
+way’ performative eﬀects of journal ranking lists. Hum. Relat. 66 (8), 1051–1073.
+Obaidullah, M., 2015. Enhancing food security with Islamic microﬁnance: insights from
+some recent experiments. Agric. Finance Rev. 75 (2), 142–168.
+Ouyang, L.Y., Chang, C.T., 2013. Optimal production lot with imperfect production
+process under permissible delay in payments and complete backlogging. Int. J. Prod.
+Econ. 144 (2), 610–617.
+Ouyang, L.Y., Teng, J.T., Goyal, S.K., Yang, C.T., 2009. An economic order quantity
+model for deteriorating items with partially permissible delay in payments linked to
+order quantity. Eur. J. Oper. Res. 194 (2), 418–431.
+Pal, B., Sana, S.S., Chaudhuri, K., 2014. Three stage trade credit policy in a three-layer
+supply chain–a production-inventory model. Int. J. Syst. Sci. 45 (9), 1844–1868.
+Pampel, F.C., 2004. Exploratory data analysis. In: Lewis-Beck, M.S., Bryman, A., Liao, T.F.
+(Eds.), Encyclopedia of Social Science Research Methods. SAGE Publications, Inc.
+Pathak, S.D., Wu, Z., Johnston, D., 2014. Toward a structural view of co-opetition in
+supply networks. J. Oper. Manag. 32 (5), 254–267.
+Persson, O., Danell, R., Schneider, J.W., 2009. How to use Bibexcel for various types of
+bibliometric analysis. In: Astrom, F., Danell, R., Larsen, B., Schneider, J.W. (Eds.),
+Celebrating Scholarly Communication Studies.
+Pfohl, H.C., Gomm, M., 2009. Supply chain ﬁnance: optimizing ﬁnancial ﬂows in supply
+chains. Logist. Res. 1, 149–161.
+Protopappa-Sieke, M., Seifert, R.W., 2010. Interrelating operational and ﬁnancial performance measurements in inventory control. Eur. J. Oper. Res. 204 (3), 439–448.
+Qin, J., Bai, X., Xia, L., 2015. Sustainable trade credit and replenishment policies under
+the cap-and-trade and carbon tax regulations. Sustainability 7 (12), 16340–16361.
+Radicchi, F., Castellano, C., Cecconi, F., Loreto, V., Parisi, D., 2004. Deﬁning and identifying communities in networks. Proc. Natl. Acad. Sci. Unit. States Am. 101,
+2658–2663.
+Raghavan, N.S., Mishra, V.K., 2011. Short-term ﬁnancing in a cash-constrained supply
+chain. Int. J. Prod. Econ. 134 (2), 407–412.
+Robb, D.J., Silver, E.A., 2006. Inventory management under date-terms supplier trade
+credit with stochastic demand and leadtime. J. Oper. Res. Soc. 57 (6), 692–702.
+Rowley, J., Slack, F., 2004. Conducting a literature review. Manag. Res. News 27, 31–39.
+Sarkar, B., Saren, S., Cárdenas-Barrón, L.E., 2015. An inventory model with trade-credit
+policy and variable deterioration for ﬁxed lifetime products. Ann. Oper. Res. 229 (1),
+677–702.
+Sarker, B.R., Jamal, A.M.M., Wang, S., 2000. Supply chain models for perishable products
+under inﬂation and permissible delay in payment. Comput. Oper. Res. 27 (1), 59–75.
+Saunders, M., Lewis, P., Thornhill, A., 2009. Research Methods for Business Students.
+Pearson, Harlow.
+Seifert, D., Seifert, R.W., Protopappa-Sieke, M., 2013. A review of trade credit literature:
+opportunities for research in operations. Eur. J. Oper. Res. 231 (2), 245–256.
+Seuring, S., Müller, M., 2008. From a literature review to a conceptual framework for
+sustainable supply chain management. J. Clean. Prod. 16, 1699–1710.
+Shang, K.H., Song, J.S., Zipkin, P.H., 2009. Coordination mechanisms in decentralized
+serial inventory systems with batch ordering. Manag. Sci. 55 (4), 685–695.
+Shinn, S.W., Hwang, H., 2003. Optimal pricing and ordering policies for retailers under
+order-size-dependent delay in payments. Comput. Oper. Res. 30 (1), 35–50.
+
+173
+
+

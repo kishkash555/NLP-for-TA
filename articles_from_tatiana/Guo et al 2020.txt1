@@ -1,0 +1,1945 @@
+International Journal of Production Research
+
+ISSN: 0020-7543 (Print) 1366-588X (Online) Journal homepage: https://www.tandfonline.com/loi/tprs20
+
+Green supply chain contracts with eco-labels
+issued by the sales platform: profitability and
+environmental implications
+Xiaolong Guo, Lihong Cheng & Jie Liu
+To cite this article: Xiaolong Guo, Lihong Cheng & Jie Liu (2020) Green supply chain
+contracts with eco-labels issued by the sales platform: profitability and environmental
+implications, International Journal of Production Research, 58:5, 1485-1504, DOI:
+10.1080/00207543.2019.1658911
+To link to this article: https://doi.org/10.1080/00207543.2019.1658911
+
+Published online: 28 Aug 2019.
+
+Submit your article to this journal
+
+Article views: 757
+
+View related articles
+
+View Crossmark data
+
+Citing articles: 8 View citing articles
+
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=tprs20
+
+International Journal of Production Research, 2020
+Vol. 58, No. 5, 1485–1504, https://doi.org/10.1080/00207543.2019.1658911
+
+Green supply chain contracts with eco-labels issued by the sales platform: profitability and
+environmental implications
+Xiaolong Guo
+
+, Lihong Cheng and Jie Liu ∗
+
+School of Management, University of Science and Technology of China, Hefei, People’s Republic of China
+(Received 6 April 2019; accepted 11 August 2019)
+Considering environmentally conscious consumers, a manufacturer, and a sales platform which provides eco-labels for qualified manufacturers, this paper develops a supply chain model to study how eco-labels affect green supply chain operations,
+from the profitability and environmental perspectives. The results show that the sales platform prefers the agency contract,
+but the manufacturer prefers the wholesale price contract. Considering the performance of the supply chain, the agency contract brings a higher profit while the wholesale price contract results in a bigger environmental improvement. An unexpected
+but interesting result is that when the agency contract is used and consumer green awareness increases, the sale price declines
+rather than increasing as it does under the wholesale price contract. This decline happens because the required marketing
+effort of the sales platform will be lower, which incentivises the platform to reduce the commission rate. Consequently, the
+manufacturer faces a lower commission rate and a higher margin when consumers display greater green awareness. Moreover, as the core and more powerful player of the supply chain, the sales platform can propose a platform-led revenue sharing
+contract to fully coordinate the supply chain, which improves the performance of the supply chain both in profitability and
+environmental perspectives.
+Keywords: green supply chain; sustainable supply chain; sustainable operations; sales platform eco-label; agency contract;
+wholesale price contract
+
+1. Introduction
+Due to the improvement of environmental consciousness, many consumers are changing their lifestyle to reduce their
+impact on the environment, and research has shown that they could gain additional value from the environmental attributes
+of green products (Wu and Pagell 2011). According to a Carbon Trust survey, 70% of the interviewed consumers are willing
+to follow energy-saving advice on product packaging to reduce their carbon footprints (Morrison 2011). As a consequence,
+many companies are starting to focus on sustainable development to improve their reputation and competitiveness. For
+example, Method, a household products company in the U.S., reduces oil and energy use by 33% and reduces plastic usage
+by 36% with its condensed laundry detergent, compared to regular detergents (Larson 2011, Section 6.3).
+Different from conventional quality attributes, the greenness of a product is difficult for consumers to observe directly
+(Baksi and Bose 2007). Therefore, manufacturers need to not only produce green products but also show their environmental
+efforts to consumers through tools that help buyers make environment-friendly choices. Some research shows that using an
+eco-label is an effective strategy to publicise the environmental impact information of products to consumers (Murali, Lim,
+and Petruzzi 2019). Eco-labels are labels put onto products that meet certain environmental standards, indicated by a graphic
+affixed to the packaging of qualified products. For enterprises, such labels can help to gain consumer trust and successfully
+carry out green marketing1 . According to the Carbon Trust survey performed by Morrison (2011), 47% of the interviewed
+consumers are willing to pay more for a labelled product than a non-labelled one with the same quality. As a result, firms
+generally affix eco-labels to their products, labels which are either produced by themselves (referred to as self-labels)
+or obtained from nongovernmental organisations (NGOs). Self-labels are extensively adopted by retailers thanks to their
+accessibility. For example, Whole Foods Market and Walmart self-label their green products as ‘Responsibly Grown’ and
+‘Natural’, respectively. However, consumers do not necessarily fully trust in the greenness of self-labelled products; the level
+of trust depends on the firms’ reputation. This situation may result in undervaluation of the product (Horne 2009; Murali,
+Lim, and Petruzzi 2019). In comparison, eco-labels endorsed by NGOs are much more trusted by consumers (Fischer
+and Lyon 2014). For instance, PG Tips adopts the Rainforest Alliance label, and Co-operative (Twinings and Taylors of
+*Corresponding author. Email: jiel@ustc.edu.cn
+© 2019 Informa UK Limited, trading as Taylor & Francis Group
+
+1486
+
+X. Guo et al.
+
+Harrogate) displays the Fair Trade label (Heyes and Martin 2016). However, the drawback of eco-labels from NGOs is that
+the standards are relatively low, such labels cannot display the specific green information of each product, and the NGOs
+are out of touch with sales.
+Apart from self-labels and eco-labels of NGOs, a third type of eco-label provided by sales platforms has emerged with the
+development of e-commerce; such labels are referred to as SPE-labels. Many sales platforms label products to indicate that
+these products have been tested to be green. For example, Red Star Macalline (hereafter referred to as Macalline), the leading
+home furnishing and service sales platform in China, has launched a ‘Green Leading’ project since 2013 in cooperation with
+the China Quality Certification Centre. Macalline labels products from qualified manufacturers and provides marketing
+efforts (e.g. ‘the Green and Environmental Week’2 ) to promote these brands in the Macalline marketplace. More and more
+manufacturers are adopting green environmental protection as a core competency element and apply for this SPE-label.
+Furthermore, according to a survey about the year-over-year growth in the sales of manufacturers who had SPE-labels in
+2018 (e.g. La-Z-Boy, KingKoil, OLO, and Laishi), the sales volumes of the SPE-labelled manufacturers are growing at a
+much higher rate than the total retail sales volume for consumer goods (Macalline and Centre 2018).
+SPE-labels have advantages over self-labels and the eco-labels of NGOs. Firstly, such SPE-labels, endorsed by sales
+platforms, have higher credibility for consumers than self-labels and can provide a higher level of greenness certification
+with more detailed information rather than just a basic standard required by an NGO. Therefore, the SPE-labels will influence the consumers’ purchasing behaviour and the manufacturer’s green product design. Secondly, considering that the sales
+platform is a part of the green supply chain, providing SPE-labels can not only promote the greenness of the manufacturer’s
+products but also bring a positive crossover effect on sales through marketing efforts. The effect of SPE-labels, although
+closely relevant to practice, is rarely considered in the literature. This motivates our study of the effect of SPE-labels, which
+can improve the efficiency and effectiveness of the manufacturer’s production and the sales platform’s operation.
+To generate implications of using such SPE-labels from both the profitability and environmental perspectives, this paper
+models the interactions between the manufacturer and the sales platform in a green supply chain. Because the sales platform
+can act as a marketplace or a reseller, we will analyse the effect of SPE-labels on the green level decision of the manufacturer
+and marketing effort level of the sales platform, as well as their pricing decisions, subject to the agency contract and
+wholesale price contract. We restrict our attention to the wholesale price contract and the agency contract due to their wide
+use in practice as well as in prior research. The wholesale price contract and the agency contract are the two most common
+and important contracts in supply chains, so investigating the effect of SPE-labels under these two contracts can lead to
+fundamental research results. As examples in academia, previous studies have investigated sales platforms’ strategic choice
+between the wholesale price contract and agency contract (Jiang, Jerath, and Srinivasan 2011; Tan and Carrillo 2017).
+As examples in practice, Taobao.com adopts the agency contract, BestBuy.com adopts the wholesale price contract, and
+Amazon and JD.com adopt hybrid contracts. Given the focus of our work, we refer the readers to Hong and Guo (2019)
+for more sophisticated contracts in the green supply chain. In addition, the current research involves designing a contract to
+help the supply chain reach full channel coordination by considering both the profitability and environmental impact. Our
+analysis generates the following main results and managerial insights about the effect of SPE-labels under different supply
+chain structures.
+Firstly, we enrich the green supply chain operation literature by studying the agency contract in a green supply chain.
+For the manufacturer, when the agency contract is used and consumer green awareness increases, the sale price declines
+rather than increasing as it does under the wholesale price contract. This decline happens because, with the increase of
+consumer green awareness, the relative influence of the SPE-labels becomes stronger than that of the marketing effort since
+the SPE-labels and marketing effort have a complementary effect on consumers. Thus, the required marketing effort of the
+sales platform will be lower, which incentivises the platform to reduce the commission rate. As a result, the manufacturer
+faces a lower commission rate and a higher margin.
+Secondly, our work contributes to the eco-label literature by exploring a new type of eco-label, one certified by the
+sales platform, under two common supply chain contracts: the wholesale price contract and agency contract. Comparing
+the profitability and environmental performance of the supply chain under these two contracts, the agency contract brings
+a higher profit while the wholesale price contract results in a bigger environmental improvement. The driving force is the
+relative influence of the SPE-label and marketing effort based on consumer green awareness.
+Thirdly, we complement the supply chain coordination literature by proposing a platform-led revenue sharing contract
+which can fully coordinate the supply chain, wherein the coordinator is the sales platform rather than the manufacturer. This
+contract can improve both the profitability and environmental performance of the green supply chain rather than just bringing
+economic benefit. Moreover, both the economic benefit and environmental performance will be improved if consumer green
+awareness can be enhanced by publicity and education provided by the sales platform or the manufacturer.
+The rest of this study is organised as follows. In Section 2, the relevant literature is reviewed to show the research gaps.
+In Section 3, the Stackelberg game and utility function are introduced. This is followed by the problem description and
+
+International Journal of Production Research
+
+1487
+
+analysis under the agency contract and wholesale price contract in Section 4 and Section 5. In Section 6, a platform-led
+revenue sharing contract is proposed to coordinate the supply chain. Section 7 presents the comparison of the supply chain
+performance for both profitability and environmental implications under all three contracts, and Section 8 concludes the
+paper by summarising the contributions and future research directions.
+2. Literature review
+This paper is related to three streams of literature: operational decisions of green supply chain, the value of different eco-label
+schemes, and research on the contract structure of sales platforms.
+2.1. Operational decisions of green supply chain
+Due to the increase of consumer environmental consciousness and the requirements of sustainable social development, the
+literature on green supply chain management is growing (Linton, Klassen, and Jayaraman 2007; Wu and Pagell 2011; Dey,
+Roy, and Saha 2019), with a particular focus on the coordination of economic and environmental implications. Sarkis and
+Zhu (2018) reviewed the literature of the past 55 years in IJPR, and found that the call for incorporating environmental
+sustainability into production research goes back for decades to the early years of IJPR publications. Several studies have
+investigated the trade-off between profitability and environmental implications (Gouda, Jonnalagedda, and Saranga 2016;
+Hong, Chu, and Yu 2016; Niu et al. 2018; Kusi-Sarpong, Gupta, and Sarkis 2019). For example, Kuiti et al. (2019) built a
+game-theoretic model to investigate how green efforts influence the profitability and environmental waste in a green supply
+chain. Niu et al. (2019a); Niu, Mu, and Li (2019b) showed that the coordination of economic and environmental sustainability could be attained through adjusting an OEM’s procurement outsourcing. Also, other studies have explored the influence
+of consumer environmental awareness on green supply chain management. In particular, Yalabik and Fairchild (2011) found
+that consumer environmental consciousness can improve firms’ investments in environmental innovation. Incorporating corporate social responsibility into the model, Zhu, Zou, and Zhang (2019) suggested that technology innovation and marketing
+innovation can improve environmental performance and economic performance through consumer involvement.
+We enrich the green supply chain operation literature by applying the agency contract in the green supply chain and
+considering that environmentally conscious consumers can gain additional value from green products with an SPE-label.
+An unexpected but interesting result is that when the agency contract is used and consumer green awareness increases, the
+sale price declines rather than increasing as it does under the wholesale price contract.
+2.2. Value of different eco-label schemes
+Unlike conventional quality attributes, the actual greenness of a product is difficult for consumers to observe directly
+(Baksi and Bose 2007). Therefore, many manufacturers publicise their environmental efforts to consumers through ecolabels, whose valuation for consumers and firms has been widely studied in environmental economics research (Chun and
+Bidanda 2013; Castka and Corbett 2016). Studies have found that products with an eco-label are more popular with consumers, but the environmental implications are not necessarily positive because of over-consumption. Several eco-label
+schemes have been studied in prior literature, including self-labels, eco-labels of NGOs, and government regulation (Jorjani, Leu, and Scott 2004; Murali, Lim, and Petruzzi 2019). Considering government regulation, Zhu and Sarkis (2007)
+empirically found that high regulatory pressures encourage manufacturers to make green purchases and investments, resulting in better environmental performance. For self-labels and NGO eco-labels, Murali, Lim, and Petruzzi (2019) showed that
+credibility asymmetry between two firms drives different eco-label schemes in a competitive environment. To be specific,
+the firm with low credibility usually chooses eco-labels of NGOs while the firm with high credibility may choose self-labels
+or NGO eco-labels. Also, Heyes and Martin (2016) and Fischer and Lyon (2014) considered the problem of multiple ecolabels coexisting in the market, and the latter found that the competition between voluntary standards by NGOs and industry
+standards may lead to lower environmental benefits compared to having only voluntary standards.
+Our study contributes to the literature by proposing a new type of eco-label, which is certified by the sales platform. The
+sales platform, acting as a marketplace or a reseller, is a part of the green supply chain, and, as discussed above, SPE-labels
+are also more effective than self-labels and eco-labels of NGOs from different perspectives. It is interesting to explore the
+profitability and environmental implications of SPE-labels for the green supply chain.
+2.3. Contract structure of sales platform
+Many online sales platforms have emerged with the development of e-commerce. Because the sales platform can act as a
+marketplace or a reseller, the supply chain mode may use the agency contract or wholesale price contract, so our paper is
+
+1488
+
+X. Guo et al.
+
+Table 1. Summary of relevant literature.
+Major Concern
+Operational decisions of green
+supply chain
+
+Value of different eco-label
+schemes
+
+Contract structure of sales
+platform
+
+Most relevant literature
+
+Research gap
+
+Linton, Klassen, and Jayaraman (2007),
+Yalabik and Fairchild (2011), Hong,
+Chu, and Yu (2016), Niu et al. (2019a),
+Kuiti et al. (2019), Zhu, Zou, and
+Zhang (2019), etc.
+Baksi and Bose (2007), Chun and
+Bidanda (2013), Fischer and
+Lyon (2014), Heyes and Martin (2016),
+Castka and Corbett (2016), Murali, Lim,
+and Petruzzi (2019), etc.
+
+These papers focus on the coordination of
+economic and environmental implications in a
+supply chain structure. We enrich this literature
+by incorporating the agency contract into this
+model, which has not been done before.
+In contrast to these eco-label studies that primarily
+consider self-labels and eco-labels from NGOs,
+our paper explicitly investigates a new type
+of eco-label (SPE-labels) certified by the sales
+platform. From some perspectives, SPE-labels
+are more effective than self-labels and NGO
+eco-labels.
+The sales platform contract literature merely
+analyses sales the platforms’ strategic choices
+between the agency contract and wholesale
+price contract from the economic perspective.
+We additionally explore the environmental
+implication of sales platform contract and
+propose a platform-led revenue sharing contract
+to fully coordinate the green supply chain
+where the coordinator is the sales platform
+rather than the manufacturer.
+
+Jiang, Jerath, and Srinivasan (2011), Tan
+and Carrillo (2017), Tian et al. (2018),
+Song and Gao (2018), Zhu, Li, and
+Zhao (2018), etc.
+
+also related to the literature about the contract structure of sales platforms. Several studies analyse sales platforms’ strategic choices between the agency contract and wholesale price contract from the economic perspective (Jiang, Jerath, and
+Srinivasan 2011; Johnson 2018). For example, Tan and Carrillo (2017) indicated that the agency contract outperforms the
+wholesale price contract, because, under the agency contract, the partners can negotiate the revenue sharing proportion and
+coordinate the supply chain in digital goods industries. Considering two competing upstream suppliers, Tian et al. (2018)
+compared the marketplace, reseller, and hybrid modes and found that the competition intensity and order-fulfilment cost
+both significantly influence the sales platform’s choice. Although the agency contract allows partners to negotiate the revenue sharing proportion in advance, this type of contract cannot fully coordinate the supply chain. Other studies have
+explored the green supply chain coordination contract (Linton, Klassen, and Jayaraman 2007; Zhu, Sarkis, and Lai 2012;
+Swami and Shah 2013; Wang et al. 2019). These studies adjust the price, order quantity, cost sharing, or revenue sharing to
+coordinate the supply chain, which can improve the overall performance of the supply chain, not just maximise the profit
+of a stakeholder. For example, Li et al. (2016) designed a quantity-flexibility contract which performed well, and Awan,
+Kraslawski, and Huiskonen (2018) revealed that contract governance might be effective for collaboration. Also, Zhu, Li,
+and Zhao (2018) designed two cost-sharing contracts which, put in place by a dominant player, cannot fully coordinate the
+supply chain but do improve the profitability of both stakeholders. In a context close to ours, Song and Gao (2018) designed
+a retailer-led revenue sharing contract which can lead to greener products and higher profits, but the supply chain still cannot
+achieve full coordination.
+Different from the existing literature, we incorporate the agency contract into the green supply chain model to investigate how the agency contract influences the profitability and environmental implications of the green supply chain. We also
+propose a platform-led revenue sharing contract to fully coordinate the supply chain where the coordinator is the sales platform rather than the manufacturer, and we prove this contract can improve both profitability and environmental performance
+rather than just bringing economic benefit.
+Table 1 presents a summary of relevant literature and the research gaps addressed in the current study.
+3. Methodology
+In this section, we introduce the methodology used in this paper – the Stackelberg game, and discuss the utility function
+adopted to characterise the consumer utility and demand.
+The Stackelberg game model is named after the German economist Heinrich Freiherr von Stackelberg. He published
+Market Structure and Equilibrium in 1934, wherein this model was first proposed (Von Stackelberg 2010). Different from
+the Cournot model and Bertrand Model, where the position of competing players in the market is equal, the position of the
+competitors is asymmetric in a Stackelberg game. Thus, competing players are not making decisions at the same time, but
+
+International Journal of Production Research
+
+1489
+
+rather making decisions in some defined order. This strategic game involves one leader and one or more followers, who
+interact with each other and achieve their optimal decision equilibrium. The player with a strong position or high bargaining
+power is the leader, who moves first. Other players with a low position are followers, who move after the leader (Simaan
+and Cruz 1973). As the follower can observe the decision of the leader before making a decision, the Stackelberg game
+is solved by backward induction (Rasmusen 2007). Specifically, the follower makes a decision to maximise the follower’s
+objective and does so knowing the leader’s action. The leader has first mover advantage but takes into account the fact that
+the follower’s decision is made with full knowledge of the first move.
+The Stackelberg game has been widely adopted in the field of marketing and operation management research to study
+the interactions among several asymmetrical players, such as manufacturers, retailers, sales platforms, and suppliers (Li
+et al. 2016; Tan and Carrillo 2017; Geng, Tan, and Wei 2018; Kuiti et al. 2019). For example, Tian et al. (2018) used a
+Stackelberg game to investigate an online sales platform’s strategic choice of being a marketplace, reseller, or hybrid. Ma
+and Xie (2016) adopted this method to study the competition between a manufacturer and its retailer. In this paper, to explore
+the effects of SPE-labels in a green supply chain, we explore the interactions among the sales platform, manufacturer,
+and consumers. The sales platform and the manufacturer decide the product greenness, sale price, and marketing effort
+to maximise their own profit. Due to their different roles and bargaining power, they make decisions sequentially. For
+example, under the traditional wholesale price contract, the manufacturer has a dominant position; it produces a green
+product and determines the wholesale price of the product. Observing the product greenness and wholesale price, the sales
+platform, acting as a reseller, decides the sale price and marketing effort. Differently, under the agency contract, the sales
+platform, acting as a marketplace, has more bargaining power than the manufacturer. Therefore, in this paper, we formulate
+a Stackelberg game model to characterise the decisions of the sales platform and the manufacturer.
+After the manufacturer and sales platform determine the green level and pricing of the product, the consumer decides
+whether to purchase the product based on consumer utility. The consumer utility of a product depends on personal preference, product characteristics, and price. The market demand for the product is realised after each consumer chooses whether
+to purchase the product. In the marketing and economic literature, most research assumes that consumer utility is a function
+of valuation, product price, product greenness, and effort (Levitt 1960; Desai and Srinivasan 1995; Desiraju and Moorthy 1997). For example, u = V − p + ke + t in a green supply chain (Hong and Guo 2019), and uij = R − pij − td + asij
+in a competitive environment (Pun 2013).
+In this paper, the consumer utility and demand depend on the basic valuation for product functionality, product price,
+product greenness, and the marketing effort of the sales platform. Based on classical economic theory and previous empirical research findings, we also adopt a utility function to describe consumer utility. Such a function is sufficient to capture
+the features that consumer utility and demand decrease in product price but increase in product greenness and marketing
+effort. Several studies have empirically verified the relationship between product price, product greenness, marketing effort,
+and consumer purchase behaviour (Van den Bulte and Lilien 2001; Mukhopadhyay, Su, and Ghose 2009). For example,
+Gleim et al. (2013) claimed that providing detailed information about product greenness can increase the consumers’ purchase intention, and that price is the main barrier hindering the consumers’ purchases. Also, it is generally agreed that the
+importance of the marketing effort is positively related to product popularity and consumer purchase intention in business
+(Levitt 1960; Mukhopadhyay, Su, and Ghose 2009). In particular, Van den Bulte and Lilien (2001) empirically showed
+that marketing efforts play an important role in product diffusion. In this paper, the product’s green design and the sales
+platform’s marketing effort are assumed to influence the consumers’ purchase behaviour. Thus, we adopt a utility function
+to describe the consumer utility.
+4. Problem description
+In this paper, a supply chain model is built to study how SPE-labels affect the profitability and environmental performance of
+the green supply chain, assuming different supply chain structures. The methodology in this paper is a Stackelberg game in
+a green supply chain that consists of a sales platform acting as a marketplace or a reseller, a manufacturer producing green
+products, and a market of environmentally conscious consumers. According to the different roles of the sales platform,
+the supply chain structure may involve the agency contract or wholesale price contract. Under the agency contract, the
+sales platform serves as a marketplace and supply chain leader, deciding the commission fee and the marketing effort, and
+the manufacturer is the follower, deciding the sale price and the product greenness. Under the wholesale price contract,
+the manufacturer is the leader, deciding the wholesale price and the product greenness, and the sales platform serves as
+a reseller, deciding the sale price and the marketing effort. Next, we describe the setting of the consumer utility and the
+demand function.
+In the green supply chain, the manufacturer and sales platform fulfil their responsibilities for sustainability by providing
+and promoting green products to consumers. The manufacturer produces a green product with greenness g, which represents
+
+1490
+
+X. Guo et al.
+
+the percentage emission reduction by each unit product relative to the traditional product (0 ≤ g ≤ 1). Because the greenness
+is a quality dimension, the investment is considered as a convex increasing function of g and generally defined as kgβ with
+β > 1 in the literature (Kim, Cohen, and Netessine 2007; Ling, Guo, and Yang 2014). Without fundamentally changing the
+insights afforded by the model, we assume that the required investment for product greenness g is a quadratic function with
+k = 1 and β = 2, i.e. g2 , which is commonly used in the research and development of technology production (Tyagi 2004;
+Shi, Liu, and Petruzzi 2013). The sales platform evaluates the product greenness and decides whether to give the product
+its SPE-label. For the manufacturer, the specific labelling criteria for the SPE-label is not known in advance. The rule is
+that the higher the green level of the product, the more likely it is to get the SPE-label. Therefore, the probability that the
+product can be labelled can be denoted by g, and the probability of the product not getting the SPE-label is (1 − g). The
+sales platform, whether it is a marketplace or a reseller, promotes the product to consumers. The marketing effort level is
+denoted by e, and higher values of e can increase product visibility and the buying interest of consumers, thereby increasing
+consumer utility. Similarly with the required investment for product greenness of the manufacturer, the marketing effort cost
+for the sales planform is assumed to be e2 .
+Let v denote the consumers’ basic valuation for product functionality; v is a nonnegative random variable. In this paper, v
+is assumed to follow a uniform distribution, that is, v ∼ U[0, 1], and the market size is normalised to 1. For environmentally
+conscious consumers, SPE-labels on green products will increase the willingness to pay (Morrison 2011). Let α denote
+the consumers’ preference for a product with an SPE-label, which also indicates the consumer’s green awareness. If the
+product is eco-labelled by the sales platform, consumers can perceive the environmental value of α. Otherwise, the consumer
+perceives an environmental value of zero. Intuitively, the green investment is no less than the marginal environmental value,
+i.e. g2 ≥ αg (Hong and Guo 2019), so 0 ≤ α ≤ 1; otherwise, the manufacturer has no incentive to invest in making the green
+product. Since the sales platform has good authority and can provide endorsement through the SPE-label, it is reasonable
+to assume that consumers believe fully in the SPE-label (Fischer and Lyon 2014; Murali, Lim, and Petruzzi 2019). The sale
+price of the product decided by the manufacturer or the sales platform is p. Using the terminology above, in this paper, the
+consumers’ utility is expressed as the following utility function:
+u = g(v − p + α + e) + (1 − g)(v − p + e) = v − p + αg + e.
+
+(1)
+
+The consumer will choose to buy the product if his or her utility for the product is non-negative, i.e. u ≥ 0; otherwise,
+the consumer will not buy the product. Let D(p, g, e) denote the market demand of the green product. Therefore, the green
+product demand is D(p, g, e) = P{v ≥ p − αg + e}. As the consumers’ basic valuation for product functionality v is assumed
+to follow a uniform distribution, that is, v ∼ U[0, 1], and the market size is normalised to 1, the demand for green product
+is given by:
+D(p, g, e) = P{v > p − αg − e} = 1 − p + αg + e.
+
+(2)
+
+In the next section, we will analyse the optimal decisions of the players under different supply chain structures and explore
+the profitability and environmental implications of having SPE-labels in the green supply chain.
+5. Decision analysis
+In this section, we investigate the green supply chain decisions under the agency contract and wholesale price contract.
+Under the agency contract, the sales platform is the leader, whereas, under the wholesale contract, the manufacturer is the
+leader.
+5.1. Agency contract
+In this subsection, we explore the decision problem of the green supply chain under the agency contract. The subscript a
+is used to denote the agency contract. The dominant sales platform (e.g. Amazon, JD.com, Red Star Macalline) acts as the
+leader in this scenario. The sales platform serves as a marketplace and yields the pricing power to the manufacturer who
+sells the product to consumers directly in the marketplace. The sales platform draws a commission, that is, a proportion of
+the manufacturer’s revenue at a rate of ka , which is determined by the sales platform (Tian et al. 2018). The commission
+rate ka can be regarded as the referral fee from the sales platform (Geng, Tan, and Wei 2018). On the Amazon platform, the
+commission fee ka varies from 6% to 25% of the sale price depending on the product category, while for JD.com, the fee
+for most product categories ranges from 5% to 12% (Tian et al. 2018).
+Assuming the agency contract, a sales platform-manufacturer-consumer Stackelberg game is built to describe the problem with the following sequence of events (seeing in Figure 1). The sales platform first determines the commission rate ka ,
+
+International Journal of Production Research
+
+1491
+
+Figure 1. Sequence of events under the agency contract.
+
+after which the manufacturer decides the product greenness ga and the sale price pa . Knowing the manufacturer’s decisions,
+the platform determines the marketing effort ea .
+Using backward induction, the first step is to explore how the sales platform decides the marketing effort to maximise
+profit. The sales platform receives a commission from the manufacturer’s revenue and pays a marketing effort cost, so its
+profit function is given by:
+max πap (ea ) = ka pa (1 − pa + αga + ea ) − e2a .
+
+(3)
+
+ea
+
+p
+
+Because the profit of sales platform πa (ea ) is concave in ea , the unique best response function of ea in reaction to ka , pa , and
+p
+ga is obtained through the first-order condition dπa /dea = 0,
+e∗a (ka , pa , ga ) =
+
+ka pa
+.
+2
+
+Given the commission rate ka , the manufacturer decides the product greenness ga and the sale price pa to maximise profit.
+The manufacturer obtains the remaining sales revenue and pays for the production cost of the green product. Without loss
+of generality, the marginal production cost of the product is assumed to be zero (Liu and Tyagi 2011). The problem for the
+manufacturer is:
+max πam (pa , ga ) = (1 − ka )pa (1 − pa + αga + ea ) − ga2 .
+
+(4)
+
+pa ,ga
+
+By substituting the best response function of e∗a (ka , pa , ga ) into Equation (4), we solve the decision problem of the manufacturer. Because the profit function of the manufacturer πam (pa , ga ) is jointly concave in (pa ,ga ), the unique optimal solution
+pair (p∗a , ga∗ ) is obtained as follows:
+p∗a (ka ) =
+
+2
+,
+4 − 2ka − (1 − ka )α 2
+
+ga∗ (ka ) =
+
+α − αka
+.
+4 − 2ka − (1 − ka )α 2
+
+Finally, the sales platform determines the commission rate ka to maximise profit. The profit function of the manufacturer is
+rewritten as follows:
+max πap (ka ) = ka pa (1 − pa + αga + ea ) − e2a .
+
+(5)
+
+ka
+
+p
+
+By substituting above results into Equation (5), the profit function of the sales platform πa (ka ) is concave in ka . The unique
+optimal solution ka∗ is:
+ka∗ = 2 −
+
+8
+.
+8 − α2
+
+Substituting ka∗ into the best response function of e∗a (ka , pa , ga ), p∗a (ka ), and ga∗ (ka ), the optimal decisions of the players under
+the agency contract are shown in the following lemma (all proofs are given in the appendix):
+Lemma 1 The optimal decisions of the players in the green supply chain under the agency contract are:
+ka∗ = 2 −
+
+8
+,
+8 − α2
+
+ga∗ =
+
+α3
+,
+16 − α 4
+
+p∗a =
+
+2(8 − α 2 )
+,
+16 − α 4
+
+e∗a =
+
+2
+.
+4 + α2
+
+1492
+
+X. Guo et al.
+
+Substituting Lemma 1’s results into Equation (2), Equations (3), and (4), the market demand of the product and the
+profits of stakeholders are:
+D∗a =
+
+8
+,
+16 − α 4
+
+πap∗ =
+
+4
+,
+16 − α 4
+
+πam∗ =
+
+α2
+.
+16 − α 4
+
+Let π sc denote the total supply chain profit, which is the sum of the profits of the manufacturer and the sales platform. Under
+the agency contract, the supply chain profit is given by:
+πasc∗ = πam∗ + πap∗ =
+
+1
+.
+4 − α2
+
+Through comparative static analysis, this paper determines how the consumer green awareness α influences the optimal
+decisions of the players and stakeholders’ profits under the agency contract; the results are stated in Proposition 1.
+Proposition 1 The optimal decisions of the players and stakeholders’ profits in the green supply chain under agency
+contract have the following properties:
+dka∗
+< 0,
+dα
+dD∗a
+> 0,
+(ii)
+dα
+(i)
+
+dga∗
+dp∗a
+de∗
+> 0,
+< 0, a < 0;
+dα
+dα
+dα
+p∗
+πa
+πam∗
+π sc∗
+> 0,
+> 0, a > 0.
+dα
+dα
+dα
+
+Proposition 1 gives some unexpected but interesting results about the effect of consumer green awareness on the optimal
+decisions of the players and the stakeholders’ profits in the green supply chain under the agency contract. Specifically, when
+the consumer green awareness is higher, (i) the manufacturer produces a greener product but sets a lower sale price, (ii) both
+the marketing effort and the commission rate of the sales platform become lower, and (iii) the total supply chain profit is
+higher. These results are interpreted as follows. Since the SPE-labels and marketing effort have a complementary effect on
+consumers, as consumer green awareness increases, the relative influence of the SPE-label becomes stronger compared to
+that of the marketing effort. The manufacturer has the incentive to produce a greener product to get the SPE-label. Thus, the
+sales platform can reduce its marketing effort and the commission rate to get greener products and higher profit. Given that
+the commission rate is reduced, the manufacturer can obtain higher margin and has the motivation to lower the sale price to
+attract more consumers. Therefore, as the sale price falls and consumer green awareness increases, more consumers choose
+to buy the SPE-labelled product, so profits increase for both the sales platform and manufacturer, and the profit of the total
+supply chain also increases.
+5.2. Wholesale price contract
+This subsection explores the decision problem of the green supply chain under the wholesale price contract, a contract which
+is widely used in reality. The subscript w denotes the wholesale price contract. Assuming the wholesale price contract is used,
+a manufacturer-sales platform-consumer Stackelberg game is built to describe the problem with the following sequence of
+events (seeing in Figure 2). The manufacturer, as the leader, decides the product greenness gw and wholesale price ww to the
+sales platform to maximise its profit. The sales platform, acting as the follower, decides the sale price pw and the marketing
+effort ew to maximise its profit.
+
+Figure 2. Sequence of events under the wholesale price contract.
+
+International Journal of Production Research
+
+1493
+
+Using backward induction, we first investigate the decision problem of the sales platform. The sales platform buys the
+product from the manufacturer and resells to consumers and pays for marketing effort cost. Therefore, the profit function of
+the sales platform is
+max πwp (pw , ew ) = (pw − ww )(1 − pw + αgw + ew ) − e2w .
+pw ,ew
+
+(6)
+
+Maximising πw (pw , ew ), which is jointly concave in (pw ,ew ), the unique best response function of (p∗w ,e∗w ) in reaction to ww
+p
+p
+and gw are obtained through the first-order condition dπw /dpw = 0, dπw /dew = 0.
+p
+
+p∗w (ww , gw ) = 13 (2 + ww + 2αgw ),
+
+e∗w (ww , gw ) = 13 (1 − ww + αgw ).
+
+The manufacturer, acting as the leader, decides the product greenness and the wholesale price to the sales platform, and pays
+for the green cost. The profit function of the manufacturer is given by
+max πwm (ww , gw ) = ww (1 − pw + αgw + ew ) − gw2 .
+
+(7)
+
+ww ,gw
+
+By substituting the best response functions of the sales platform into Equation (7), we solve the decision problem of the
+manufacturer. As the profit function of the manufacturer πwm (ww , gw ) is jointly concave in (ww ,gw ), the optimal solution pair
+(w∗w , gw∗ ) is uniquely determined as follows:
+w∗w =
+
+3
+,
+6 − α2
+
+gw∗ =
+
+α
+.
+6 − α2
+
+Therefore, the optimal solutions of the players under the wholesale price contract are obtained, as expressed in the following
+lemma:
+Lemma 2 The optimal decisions of the players in the green supply chain under the wholesale price contract are:
+w∗w =
+
+3
+,
+6 − α2
+
+gw∗ =
+
+α
+,
+6 − α2
+
+p∗w =
+
+5
+,
+6 − α2
+
+e∗w =
+
+α
+.
+6 − α2
+
+Substituting w∗w , gw∗ , p∗w , and e∗w into Equations (2), (6), and (7), the market demand of the product and the profits of
+stakeholders are obtained as follows:
+D∗w =
+
+2
+,
+6 − α2
+
+πwp∗ =
+
+3
+,
+(6 − α 2 )2
+
+πwm∗ =
+
+1
+,
+6 − α2
+
+πwsc∗ =
+
+9 − α2
+.
+(6 − α 2 )2
+
+Through comparative static analysis, we explore how the consumer green awareness α influences the optimal decisions of
+the players and the stakeholders’ profits under the wholesale price contract. The results are expressed in Proposition 2.
+Proposition 2 The optimal decisions of the players and the stakeholders’ profits in the green supply chain under the
+wholesale price contract have the following properties:
+dgw∗
+dp∗w
+de∗
+dw∗w
+> 0,
+> 0,
+> 0, w > 0;
+dα
+dα
+dα
+dα
+p∗
+πw
+πwm∗
+πwsc∗
+dD∗w
+> 0,
+> 0,
+> 0,
+> 0.
+(ii)
+dα
+dα
+dα
+dα
+(i)
+
+Proposition 2 indicates that higher green awareness among consumers induces higher optimal values in the parameters
+decided by the players and better economic performance. Specifically, the manufacturer produces a greener product and sets
+a higher wholesale price, and the sales platform sets a higher sale price and pays more for the marketing effort. Moreover,
+more consumers choose to buy the product, so both the manufacturer and the sales platform gain higher profits. As consumer
+green awareness increases, the consumers are more willing to pay a higher price, and the influence of the SPE-label also
+becomes greater. The sales platform can increase the sale price and marketing effort to yield higher demand and profit, and
+the manufacturer also benefits from higher market demand and has the motivation to produce a greener product both to gain
+the SPE-label and increase the wholesale price. In general, a higher green awareness of consumers encourages better supply
+chain economic performance.
+
+1494
+
+X. Guo et al.
+
+5.3. Agency contract vs. wholesale price contract
+In this subsection, we compare the optimal decisions of the players and the stakeholders’ profits, under the agency contract and wholesale price contract, to investigate the supply chain performance. The results are shown in the following
+proposition.
+Proposition 3 Under the agency contract and wholesale price contract, the optimal decisions of the players and
+stakeholders’ profits satisfy the following relationships:
+(i) ga∗ ≤ gw∗ , e∗a > e∗w , when 0 ≤ α ≤ α ∗ , p∗a ≥ p∗w , otherwise, p∗a < p∗w ;
+p∗
+p∗
+(ii) D∗a > D∗w , πa > πw , πam∗ < πwm∗ , πasc∗ ≥ πwsc∗ .
+Proposition 3 reveals that neither the agency contract nor the wholesale price contract can dominate the other in all
+aspects. To be specific, the agency contract can improve the sales platform’s marketing effort and its profit, the market
+demand, and the total supply chain profit, but it will reduce product greenness and the manufacturer’s profit. Besides, the
+sale price is higher under the agency contract when consumer green awareness is relatively low, and conversely, the sale
+price is lower under the agency contract when consumer green awareness is high.
+Before explaining these results, we compare the role of the manufacturer and sales platform under these two contracts.
+First, the negotiation power of the manufacturer is stronger under the wholesale price contract. Under the wholesale price
+contract, the manufacturer is the leader and adjusts the sale price and marketing effort of the sales platform by deciding
+the wholesale price and product greenness. The income of the manufacturer is the wholesale revenue, and the manufacturer
+determines the wholesale price. On the contrary, under the agency contract, the sales platform is the leader and controls the
+performance of the supply chain by deciding the commission rate. The manufacturer’s income is part of the sales revenue,
+but the sales platform determines the revenue sharing proportion. Therefore, the manufacturer has strong negotiation power
+under the wholesale price contract, whereas the sales platform has strong negotiating power under the agency contract.
+Second, the supply chain is more integrated under the agency contract. Under the wholesale price contact, the manufacturer
+decides the wholesale price to maximise the wholesale revenue, and the sales platform decides the sale price to maximise the
+sales revenue. The two players are quite independent and serious double marginalisation occurs. Under the agency contract,
+they share the sales revenue, and the decision-making tends to integrate the supply chain.
+Noting the above differences between these two contracts, the first result in Proposition 3 can be explained as follows.
+Considering the product greenness, under the wholesale price contract, the manufacturer can obtain all the wholesale revenue, so the manufacturer has an incentive to produce a more environmentally friendly product to attract more consumers.
+However, under the agency contract, the manufacturer does not gain the wholesale revenue and only shares the sales revenue with the sales platform, so it does not have enough motivation to produce greener product. Considering the marketing
+effort, under the agency contract, the sales platform can only obtain income from indirect sales revenue, which induces the
+sales platform to make greater marketing effort to attract consumers. Considering the sale price, based on Propositions 1
+and 2, the sale price increases with consumer green awareness under the wholesale price contract but decreases under the
+agency contract. When consumer green awareness is quite low (0 ≤ α ≤ α ∗ ), the relative impact of the marketing effort
+is strong. As the marketing effort under the agency contract is much larger than that under the wholesale price contract,
+the manufacturer can set a higher sale price under the agency contract. On the contrary, when consumer green awareness
+is quite high (α ∗ < α ≤ 1), the relative influence of the SPE-label is strong. As the product greenness under the agency
+contract is lower than that under the wholesale price contract, the manufacturer can only set a lower sale price under the
+agency contract.
+Considering the higher market demand under the agency contract in the second statement in Proposition 3, the driving
+force is that, under the agency contract, the marketing effort is quite high, which could offset the impact of low product
+greenness and serve more consumers. In contrast to the wholesale price contract, under the agency contract, the leader is the
+sales platform. Therefore, the sales platform can obtain higher profit under the agency contract, and the manufacturer can
+obtain higher profit under the wholesale price contract. As the supply chain is more integrated under the agency contract,
+the total supply chain profit also becomes higher.
+6. Full supply chain coordination
+Proposition 3 states that neither the agency contract nor the wholesale price contract can dominate each other in both
+economic performance and environmental improvement. Under both the agency contract and the wholesale price contract,
+the supply chain is decentralised. In the decentralised supply chain, each stakeholder makes decisions which maximise that
+stakeholder’s profit. The objective of the integrated supply chain is different: to maximise the total supply chain profit.
+
+International Journal of Production Research
+
+1495
+
+Therefore, neither of these two contracts can achieve optimal decisions like integrated supply chains. To be specific, on the
+one hand, from the perspective of profitability, the sales platform prefers the agency contract while the manufacturer prefers
+the wholesale price contract. On the other hand, looking at the performance of the supply chain, the agency contract brings a
+higher profit while the wholesale price contract results in greater environmental improvement. Consequently, in this section,
+we try to design an autonomous coordination contract to improve the supply chain performance in both profitability and
+environmental perspective. First, a centralised situation is considered. The subscript c denotes the centralised system. The
+product greenness gc , the sale price pc , and the marketing effort ec are designed to maximise the total supply chain profit.
+The problem in the centralised system is given by
+max πcsc (gc , pc , ec ) = pc (1 − pc + αgc + ec ) − gc2 − e2c .
+
+gc ,pc ,ec
+
+(8)
+
+The total profit function of the supply chain πcsc (gc , pc , ec ) is jointly concave in (gc , pc , ec ), so the unique optimal
+solution pair (gc∗ , p∗c , e∗c ) is obtained as stated in the following lemma:
+Lemma 3
+
+The optimal decisions of the players in the green supply chain in the centralised system are:
+gc∗ =
+
+α
+,
+3 − α2
+
+p∗c =
+
+2
+,
+3 − α2
+
+e∗c =
+
+1
+.
+3 − α2
+
+Substituting gc∗ , p∗c , and e∗c into Equations (2) and (8), the market demand of the product and the total profit of the supply
+chain in the centralised system are:
+2
+1
+, πcsc∗ =
+.
+D∗c =
+3 − α2
+3 − α2
+Recall that the total profit of the green supply chain under the agency contract and the wholesale price contract are πasc∗ =
+1/(4 − α 2 ) and πwsc∗ = (9 − α 2 )/(6 − α 2 )2 , respectively. Neither the wholesale price contract nor the agency contract can
+fully coordinate the supply chain. Similar to the situation under the wholesale price contract, we find that a higher consumer
+level of green awareness induces higher optimal price decisions and better supply chain economic performance in the
+centralised system because the influence of the SPE-labels becomes greater and consumers are willing to pay a higher price
+for the green product.
+In prior research, the sales platform is mainly assumed to be a reseller. Under the agency contract in this paper, the
+sales platform acts as a marketplace and draws a commission fee from each transaction. Shy and Wang (2011) suggested
+that such a commission fee could be regarded as a revenue sharing mechanism. However, the supply chain still cannot be
+fully coordinated by the agency contract, and the resulting product greenness is quite low. Based on the agency contract, a
+platform-led revenue sharing contract is proposed to coordinate the supply chain for better supply chain performance; this
+is the type of contract which is used by emerging online retailers (Song and Gao 2018).
+Under the platform-led revenue sharing contract, the sales platform is still the leader of the coordination and it designs
+the contract, and this control enables the manufacturer to implement coordinated actions. The sales platform first detects the
+product greenness to decide whether to SPE-label the product, then designs the coordination contract based on the product
+greenness and the sales revenue. The subscript rs denotes the platform-led revenue sharing contract. The sales platform
+offers a coordination contract (krs , ers ) to the manufacturer. Then the manufacturer optimises its decisions (grs , prs ). The
+profit function of the sales platform and the manufacturer are given by
+max πrsp (krs , ers ) = krs prs (1 − prs + αgrs + ers ) − e2rs ,
+krs ,ers
+
+2
+max πrsm (prs , grs ) = (1 − krs )prs (1 − prs + αgrs + ers ) − grs
+.
+
+(9)
+
+prs ,grs
+
+Let φ denote the proportion of the total supply chain revenue that the manufacturer could obtain. The coordination contract
+offered by the sales platform is as follows:
+Proposition 4 The sales platform can coordinate the supply chain through the platform-led revenue sharing contract by
+setting the following contract terms:
+krs = 1 − φ −
+e∗rs =
+
+1
+.
+3 − α2
+
+2
+(1 − φ)grs
+φe∗rs
++
+,
+prs Drs
+prs Drs
+
+1496
+
+X. Guo et al.
+
+Figure 3. Revenue proportion of the manufacturer.
+2
+Substituting the coordination contract into the manufacturer’s profit function, we can get πrsm = φ(prs Drs − grs
+− e∗2
+rs ) =
+that is, the optimisation problem of the manufacturer is equivalent to maximising the profit of the total supply chain.
+The optimal decisions of the players equal those in the centralised system, and the supply chain achieves full coordination.
+The optimal decisions and realised profits of the players under the platform-led revenue sharing contract are:
+
+φπrssc ,
+
+∗
+=
+grs
+
+α
+,
+3 − α2
+
+p∗rs =
+
+2
+,
+3 − α2
+
+e∗rs =
+
+1
+,
+3 − α2
+
+πrsp∗ =
+
+1−φ
+,
+3 − α2
+
+πrsm∗ =
+
+φ
+,
+3 − α2
+
+πrssc∗ =
+
+1
+.
+3 − α2
+
+The maximal total supply chain profit can be guaranteed by adopting the platform-led revenue sharing contract. It is noteworthy that this platform-led revenue sharing contract is based on the agency contract. To ensure that both the sales platform and
+p∗
+p∗
+the manufacturer benefit from the coordination contract, the conditions that need to be met are πrsm∗ ≥ πam∗ and πrs ≥ πa .
+Thus, comparing the players’ profits under the agency contract and platform-led revenue sharing contract, the revenue
+proportion of the manufacturer φ follows:
+4 + 4α 2 − α 4
+α 2 (3 − α 2 )
+≤
+φ
+≤
+.
+16 − α 4
+16 − α 4
+(3−α ) 4+4α −α
+(3−α )
+−α
+, and ( 4+4α
+) − ( α 16−α
+As shown in Figure 3, since α 16−α
+4 ,
+4 ) all increase with α, the scope application of the
+16−α 4
+16−α 4
+coordination contract becomes larger and the revenue proportion of the manufacturer also becomes higher as the consumer
+green awareness increases. The reason is that the relative influence of the SPE-labels becomes stronger as consumer green
+awareness increases. As the one deciding the product greenness, the manufacturer has stronger negotiation power.
+Recall the results given in Proposition 3, the agency contract cannot improve all players’ benefits compared with the
+wholesale price contract: the sales platform becomes more profitable, whereas the manufacturer is worse off. Next, we
+examine whether the platform-led revenue sharing contract can benefit all players compared to both the agency contract
+and wholesale price contract. In other words, we want to determine whether the profit of the manufacturer can be higher
+than that under the wholesale price contract (πrsm∗ ≥ πwm∗ > πam∗ ), and the profit of the sales platform can be higher than that
+p∗
+p∗
+p∗
+under the agency contract (πrs ≥ πa > πw ). We get the revenue proportion of the manufacturer φ as follows:
+2
+
+2
+
+2
+
+4
+
+2
+
+4
+
+2
+
+2
+
+4 + 4α 2 − α 4
+3 − α2
+≤φ≤
+.
+2
+6−α
+16 − α 4
+
+
+√
+This condition is only meaningful when the consumer green awareness α is quite large (i.e. 27 (9 − 39) ≤ α ≤ 1). As
+explained above, with the increase of green awareness, the relative influence of the SPE-labels becomes stronger and the
+manufacturer has stronger negotiation power, which induces the manufacturer to produce a greener product and get higher
+profit. The results also reveal that the more consumers are concerned about the environment, the more motivated the sales
+platform is to coordinate the supply chain and produce better supply chain performance. Therefore, the sales platform or
+manufacturer should conduct publicity and education campaigns to raise green awareness among consumers. Such activities
+are seen in reality, such as the Red Star Macalline’s ‘Green and Environmental Week’.
+As mentioned previously, this platform-led revenue sharing contract is based on the agency contract, and the manufacturer will obtain higher profit under the wholesale price contract than the agency one. As a result, the platform-led revenue
+
+International Journal of Production Research
+
+1497
+
+sharing contract will not be applicable if the coordinated supply chain profit is smaller than the sum of the platform profit
+under the agency contract and the manufacturer profit under the wholesale price contract. Fortunately, this platform-led
+revenue sharing contract can benefit all players when green awareness is quite high. In other words, the profit of the manufacturer is higher than that under the wholesale price contract, and the profit of the sales platform is higher than that under
+the agency contract, simultaneously.
+7. Discussion
+In the previous sections, we investigated the green supply chain decisions under three different contracts. In this section, we
+compare the optimal decisions of the players and the supply chain performances under these three contracts.
+Proposition 5 The optimal decisions of the players in the green supply chain under the three contracts satisfy the
+following relationships:
+(i)
+(ii)
+(iii)
+(iv)
+
+∗
+≥ gw∗ ≥ ga∗ ;
+grs
+∗
+pa ≥ p∗w > p∗rs , if 0 ≤ α ≤ α ∗ ; p∗w > p∗a ≥ p∗rs , if α ∗ < α ≤ α ∗∗ ; p∗w ≥ p∗rs > p∗a , if α ∗∗ < α ≤ 1;
+e∗a ≥ e∗rs > e∗w , if 0 ≤ α ≤ α ∗ ; otherwise, e∗rs > e∗a > e∗w ;
+D∗rs > D∗a > D∗w .
+
+Proposition 5 reveals that, as illustrated in Figure 4, the platform-led revenue sharing contract can improve the supply
+chain performance overall (producing the highest product greenness, low sale price, high marketing effort, and highest
+market demand).
+Similar to the situation in Proposition 3, the product greenness is the highest under the platform-led revenue sharing
+contract, whereas, it is the lowest under the agency contract. Because of the transfer of supply chain leadership and the supply
+chain integration, the manufacturer does not have the motivation to produce a greener product under the agency contract
+while it produces the greenest product to coordinate the supply chain under the platform-led revenue sharing contract.
+∗
+− ga∗ and
+Some further analysis demonstrates that the product greenness difference between these contracts (grsa = grs
+
+Figure 4. Optimal decisions of the players. (a) Product greenness. (b) Sale price. (c) Marketing effort. (d) Market demand.
+
+1498
+
+X. Guo et al.
+
+∗
+grsw = grs
+− gw∗ ) increases with the consumer green awareness, α, which reveals that the advantage of the platform-led
+revenue sharing contract in producing a greener product is more significant when consumer green awareness increases.
+The analysis results show that the sale price under the platform-led revenue sharing contract is basically the lowest,
+and it increases with green awareness. The platform-led revenue sharing contract fully coordinates the supply chain, which
+eliminates the double marginalisation, so the manufacturer can set the lowest price to attract more consumers. With the
+increase of green awareness, the manufacturer can also raise the sale price to gain higher profit. Furthermore, analysing
+the marketing effort under these three contracts, the sales platform exerts the lowest marketing effort under the wholesale
+price contract because it is a follower of the supply chain with a small voice and does not have much motivation for such
+effort. Under the platform-led revenue sharing contract, supply chain coordination enables the manufacturer to provide a
+greener product, and the sales platform can reduce its marketing investment. With the increase of green awareness, both
+the product greenness and marketing effort increase, resulting in a higher sale price and higher market demand under the
+platform-led revenue sharing contract. Due to the high product greenness, high marketing effort, and low sale price under
+the platform-led revenue sharing contract, the market demand for the green product, in this case, is significantly higher than
+when using the other two contracts.
+In addition to the economic benefits of the partners in the green supply chain, we use social welfare to analyse societal
+impacts. Social welfare consists of three parts: the total supply chain profit, the consumer surplus, and the environmental
+impact (Krass, Nedorezov, and Ovchinnikov 2013; Hong and Guo 2019). The total supply chain profit (denoted as π sc )
+equals the sum of the profits of the manufacturer and the sales platform. The consumer surplus (denoted as CS) shows the
+surplus from consuming the green product. The environmental impact (denoted as EI) signifies the product emissions. Since
+the product greenness under the agency contract is the lowest, we take this case as the benchmark. Therefore, in this paper,
+the environmental impact of the green product is positive, which indicates environmental improvement. The social welfare
+(SW ) is given by
+
+SW = π sc + CS + EI.
+
+(10)
+
+Here, π sc denotes the total supply chain profit, π sc∗ = π m∗ + π p∗ . Therefore, the total supply chain profit under the three
+contracts are, respectively,
+πrssc∗ =
+
+1
+,
+3 − α2
+
+πasc∗ =
+
+1
+,
+4 − α2
+
+and
+
+πwsc∗ =
+
+9 − α2
+.
+(6 − α 2 )2
+
+The consumer surplus is the consumers’ remnant utility, which equals the difference between the maximal acceptable sale
+price and the actual sale price (Hong and Guo 2019). We denote p̂ as the maximal acceptable sale price, where p̂ = 1 +
+αg∗ + e∗ . Thus, the consumer surplus is:
+CS ∗ = 12 (p̂ − p∗ )D∗ .
+The consumer surpluses under these three contracts are as follows:
+∗
+CSrs
+=
+
+2
+,
+(3 − α 2 )2
+
+CSa∗ =
+
+32
+,
+(16 − α 4 )2
+
+and
+
+CSw∗ =
+
+2
+.
+(6 − α 2 )2
+
+In this study, the environmental improvement under the agency contract is specified to be zero (i.e. EIa∗ = 0) and is taken
+as the benchmark. Thus, the environmental improvement under the other two contracts is EIw∗ = (gw∗ − ga∗ )D∗w and EIrs∗ =
+∗
+− ga∗ )D∗rs . We obtain the environmental improvements under the three contracts as follows:
+(grs
+EIrs∗ =
+
+32α − 6α 3
+,
+(3 − α 2 )2 (16 − α 4 )
+
+EIa∗ = 0,
+
+and
+
+EIw∗ =
+
+4α(8 − 3α 2 )
+.
+(6 − α 2 )2 (16 − α 4 )
+
+Substituting the value of π sc , SC ∗ , and EI ∗ into Equation (10), the social welfare formulas under these three contracts are as
+follows:
+
+and
+
+SWrs∗ =
+
+80 + α(32 − α(16 + 5α 2 − α 4 + 6α))
+,
+(3 − α)2 (16 − α 4 )
+
+SWw∗ =
+
+176 + α(32 − α(16 + α(12 + 11α − α 3 )))
+.
+(6 − α)2 (16 − α 4 )
+
+SWa∗ =
+
+1
+32
++
+,
+4 − α2
+(16 − α 4 )2
+
+Comparing the total supply chain profit, the environmental improvements, and the social welfare results under the three
+contracts, we have the following proposition:
+
+International Journal of Production Research
+
+1499
+
+Figure 5. Comparison of the societal impacts of the three contracts. (a) Total supply chain profit. (b) Environmental improvement. (c)
+Social welfare.
+
+Proposition 6 The total supply chain profit, the environmental improvements, and the social welfare results under the
+three contracts satisfy the following relationships:
+(i) πrssc∗ > πasc∗ ≥ πwsc∗ ;
+(ii) EIrs∗ ≥ EIw∗ ≥ EIa∗ ;
+(iii) SWrs∗ > SWa∗ > SWw∗ .
+Proposition 6 reveals that, as illustrated in Figure 5, the platform-led revenue sharing contract can improve societal
+impacts, producing the highest total supply chain profit, highest environmental improvement, and highest social welfare.
+Compared with the wholesale price contract, the agency contract achieves higher total supply chain profit and higher
+social welfare but lower environmental improvement. In addition, the social welfare differences between these contracts
+(SWrsa = SWrs∗ − SWa∗ and SWrsw = SWrs∗ − SWw∗ ) increase with consumer green awareness α, which indicates that the
+advantage of the platform-led revenue sharing contract in the societal impact is stronger when consumer green awareness
+increases. The result can be interpreted in a manner similar to our above analysis of the property of product greenness. The
+environmental improvement is lower under the agency contract than under the wholesale price contract because the product
+is less green. The agency contract can provide a lower sale price to increase the consumer surplus and induce a higher marketing effort to attract consumers to increase the total supply chain profit, which offsets the disadvantage of environmental
+improvement. Thus, the social welfare under the agency contract is higher than that under the wholesale price contract. In
+general, supply chain integration can improve supply chain performance, not only in terms of profit but also in terms of the
+environment.
+
+8. Conclusion
+As consumers become more environmentally conscious and more environmentally friendly, more and more consumers
+are inclined to buy products with eco-labels. In addition to self-labels and eco-labels from NGOs, some sales platforms
+provide sales platform eco-labels (SPE-labels) and green marketing effort. Motivated by the higher credibility and positive
+crossover effect on sales of SPE-labels, this paper develops a game-theoretic model to investigate the green product design
+and marketing effort with SPE-labels in a green supply chain. Furthermore, we compare the profitability and environmental
+implications of two types of contracts commonly used by sales platforms, i.e., the wholesale price contract and the agency
+contract, and propose a platform-led revenue sharing contract to coordinate the green supply chain.
+Previous research explored sales platforms’ strategic choice between the wholesale price contract and the agency contract only from the economic perspective. This paper compares these two contracts from two perspectives: profitability and
+environmental impact. We find that neither the agency contract nor the wholesale price contract can dominate in all aspects.
+To be specific, on the one hand, from the perspective of profitability, the sales platform prefers the agency contract while
+the manufacturer prefers the wholesale price contract. On the other hand, considering the performance of the supply chain,
+the agency contract brings a higher profit while the wholesale price contract results in greater environmental improvement.
+Therefore, the sales platform and the manufacturer will make different decisions under these two contracts considering the
+relative influence of the SPE-label and marketing effort based on consumer green awareness. Furthermore, it is interesting
+to find that when the agency contract is used and consumer green awareness increases, the sale price declines rather than
+increasing as it does under the wholesale price contract. As consumer green awareness increases, the manufacturer provides
+a greener product. Consequently, more consumers buy the product, which raises the total supply chain profit and social
+welfare.
+
+1500
+
+X. Guo et al.
+
+We also argue that neither the agency contract nor the wholesale price contract achieves decisions which are optimal for
+the integrated supply chain. However, acting as the core and more powerful player of the supply chain, the sales platform
+can propose a platform-led revenue sharing contract, wherein the coordinator is the sales platform rather than the traditional
+manufacturer. Such a platform-led revenue sharing contract would fully coordinate the green supply chain, and improve
+the supply chain performance both in profitability and in the environmental perspective. Finally, our analytical results show
+that consumers’ higher green awareness is the essential factor to promote green production of the manufacturer, which can
+improve the total supply chain profit and the positive environmental impact. Therefore, it is necessary and beneficial for
+manufacturers or sales platforms to organise green promotion and publicity activities to raise consumer awareness of green
+environmental protection.
+Although we believe that our analysis has generated useful insights, there are limitations in our model that future research
+can investigate further. Firstly, since we have investigated the effect of SPE-labels through analytical models, it would
+also be interesting and meaningful to test the main results and the specific utility function through empirical data. We are
+also to cooperate with companies to empirically test the practical application of our results, verifying the effects of the
+green product design of the manufacturers and the green purchasing behaviour of consumers. Secondly, in practice, the
+bargaining power of the sales platform and manufacturer under different contracts are different due to their size, assets,
+and influence. Empirically investigating the economic and environmental influence of the SPE-labels on green supply chain
+under practical operation contracts can provide constructive guidance for companies. For instance, in this paper, we find that
+the manufacturer prefers the wholesale price contract while the sales platform prefers the agency contract. Considering the
+heterogeneous bargaining power of the sales platform and the manufacturer, designing an optimal contract to improve the
+performance of the supply chain can lead to practical guidance for the platform’s economic benefit. Finally, we study SPElabels provided by a sales platform in this paper and offer some practical guidelines to sales platforms and manufacturers.
+Currently, several kinds of eco-labels coexist in the market, including manufacturers’ self-labels, eco-labels from NGOs,
+and mandatory government regulation. Investigating the effects of various labelling schemes in a competitive setting may
+bring meaningful managerial insights to green supply chain management. For example, which eco-label will be preferred by
+manufacturers whose products have high green levels? Which eco-label is the best for manufacturers of products with low
+green levels? Does the coexistence of multiple types of eco-labels affect the consumers’ trust in the green level of products?
+We leave these problems for future research.
+
+Notes
+1. http://www.ecolabelindex.com/
+2. Red Star Macalline hosts several ‘Green and Environmental Week’ activities in multiple cities each year, which provide consumers
+with opportunities to ‘run for greenness’, visit green brand factories, and view green product testing in the lab. These activities
+can enhance consumers’ awareness of green environmental protection, increase the visibility of green goods and green brands, and
+stimulate the consumers’ green buying behaviour.
+
+Acknowledgments
+The authors are grateful to the associate editor and the anonymous referees for their valuable comments, constructive suggestions, and
+encouragements. The quality of this article was improved substantially as a result of their precious feedbacks.
+
+Disclosure statement
+No potential conflict of interest was reported by the authors.
+
+Funding
+This work is supported by the National Natural Science Foundation of China under [grant numbers 71871207, 71520107002, 71771201
+and 71921001], the Fundamental Research Funds for the Central Universities of the University of Science and Technology of China [grant
+number WK2040160028], and the financial support of the USTC Research Institute of Modern Logistics Engineering.
+
+ORCID
+Xiaolong Guo
+
+http://orcid.org/0000-0002-1261-6852
+
+International Journal of Production Research
+
+1501
+
+References
+Awan, U., A. Kraslawski, and J. Huiskonen. 2018. “Governing Interfirm Relationships for Social Sustainability: the Relationship Between
+Governance Mechanisms, Sustainable Collaboration, and Cultural Intelligence.” Sustainability 10 (12): 4473.
+Baksi, S., and P. Bose. 2007. “Credence Goods, Efficient Labelling Policies, and Regulatory Enforcement.” Environmental and Resource
+Economics 37 (2): 411–430.
+Castka, P., and C. J. Corbett. 2016. “Governance of Eco-labels: Expert Opinion and Media Coverage.” Journal of Business Ethics 135
+(2): 309–326.
+Chun, Y., and B. Bidanda. 2013. “Sustainable Manufacturing and the Role of the International Journal of Production Research.”
+International Journal of Production Research 51 (23–24): 7448–7455.
+Desai, P. S., and K. Srinivasan. 1995. “Demand Signalling Under Unobservable Effort in Franchising: Linear and Nonlinear Price
+Contracts.” Management Science 41 (10): 1608–1623.
+Desiraju, R., and S. Moorthy. 1997. “Managing a Distribution Channel Under Asymmetric Information with Performance Requirements.”
+Management Science 43 (12): 1628–1644.
+Dey, K., S. Roy, and S. Saha. 2019. “The Impact of Strategic Inventory and Procurement Strategies on Green Product Design in a
+Two-period Supply Chain.” International Journal of Production Research 57 (7): 1915–1948.
+Fischer, C., and T. P. Lyon. 2014. “Competing Environmental Labels.” Journal of Economics & Management Strategy 23 (3): 692–716.
+Geng, X., Y. Tan, and L. Wei. 2018. “How Add-on Pricing Interacts with Distribution Contracts.” Production and Operations Management
+27 (4): 605–623.
+Gleim, M. R., J. S. Smith, D. Andrews, and J. J. Cronin Jr. 2013. “Against the Green: a Multi-method Examination of the Barriers to
+Green Consumption.” Journal of Retailing 89 (1): 44–61.
+Gouda, S. K., S. Jonnalagedda, and H. Saranga. 2016. “Design for the Environment: Impact of Regulatory Policies on Product
+Development.” European Journal of Operational Research 248 (2): 558–570.
+Heyes, A., and S. Martin. 2016. “Social Labeling by Competing Ngos: A Model with Multiple Issues and Entry.” Management Science
+63 (6): 1800–1813.
+Hong, Z., C. Chu, and Y. Yu. 2016. “Dual-mode Production Planning for Manufacturing with Emission Constraints.” European Journal
+of Operational Research 251 (1): 96–106.
+Hong, Z., and X. Guo. 2019. “Green Product Supply Chain Contracts Considering Environmental Responsibilities.” Omega 83: 155–166.
+Horne, R. E. 2009. “Limits to Labels: The Role of Eco-labels in the Assessment of Product Sustainability and Routes to Sustainable
+Consumption.” International Journal of Consumer Studies 33 (2): 175–182.
+Jiang, B., K. Jerath, and K. Srinivasan. 2011. “Firm Strategies in the Mid Tail of Platform-based Retailing.” Marketing Science 30 (5):
+757–775.
+Johnson, J. P. 2018. “The Agency and Wholesale Models in Electronic Content Markets.” Available at SSRN 2126808.
+Jorjani, S., J. Leu, and C. Scott. 2004. “Model for the Allocation of Electronics Components to Reuse Options.” International Journal of
+Production Research 42 (6): 1131–1145.
+Kim, S. H., M. A. Cohen, and S. Netessine. 2007. “Performance Contracting in After-sales Service Supply Chains.” Management Science
+53 (12): 1843–1858.
+Krass, D., T. Nedorezov, and A. Ovchinnikov. 2013. “Environmental Taxes and the Choice of Green Technology.” Production and
+Operations Management 22 (5): 1035–1055.
+Kuiti, M. R., D. Ghosh, S. Gouda, S. Swami, and R. Shankar. 2019. “Integrated Product Design, Shelf-space Allocation and Transportation
+Decisions in Green Supply Chains.” International Journal of Production Research27: 1–21.
+Kusi-Sarpong, S., H. Gupta, and J. Sarkis. 2019. “A Supply Chain Sustainability Innovation Framework and Evaluation Methodology.”
+International Journal of Production Research 57 (7): 1990–2008.
+Larson, A. 2011. Sustainability, Innovation, and Entrepreneurship. New York: Flat World Knowledge Inc.
+Levitt, T. 1960. Marketing Myopia. 4, Vol. 38, 24–47. Boston: Harvard Business Review.
+Li, X., Z. Lian, K. K. Choong, and X. Liu. 2016. “A Quantity-flexibility Contract with Coordination.” International Journal of Production
+Economics 179: 273–284.
+Ling, L., X. Guo, and C. Yang. 2014. “Opening the Online Marketplace: An Examination of Hotel Pricing and Travel Agency on-line
+Distribution of Rooms.” Tourism Management 45: 234–243.
+Linton, J. D., R. Klassen, and V. Jayaraman. 2007. “Sustainable Supply Chains: An Introduction.” Journal of Operations Management
+25 (6): 1075–1082.
+Liu, Y., and R. K. Tyagi. 2011. “The Benefits of Competitive Upward Channel Decentralization.” Management Science 57 (4): 741–751.
+Ma, J., and L. Xie. 2016. “The Comparison and Complex Analysis on Dual-channel Supply Chain Under Different Channel Power
+Structures and Uncertain Demand.” Nonlinear Dynamics 83 (3): 1379–1393.
+Macalline, R. S., and C. Q. C. Centre. 2018. The Chinese Home Green Environmental Competitiveness White Paper. Shanghai, China.
+http://www.chinaredstar.com/news/article-34
+Morrison, H. 2011. Consumer Demand for Lower-Carbon Lifestyles is Putting Pressure on Business. Carbon Trust.
+Mukhopadhyay, S. K., X. Su, and S. Ghose. 2009. “Motivating Retail Marketing Effort: Optimal Contract Design.” Production and
+Operations Management 18 (2): 197–211.
+
+1502
+
+X. Guo et al.
+
+Murali, K, M. K. Lim, and N. C. Petruzzi. 2019. “The Effects of Ecolabels and Environmental Regulation on Green Product
+Development.” Manufacturing & Service Operations Management 21 (3): 519–535.
+Niu, B., Y. Liu, L. Chen, and P. Ji. 2018. “Outsource to An Oem Or An Odm? Profitability and Sustainability Analysis of a Fashion
+Supply Chain.” Journal of Systems Science and Systems Engineering 27 (4): 399–416.
+Niu, B., Z. Mu, L. Chen, and C. K. Lee. 2019a. “Coordinate the Economic and Environmental Sustainability Via Procurement Outsourcing
+in a Co-opetitive Supply Chain.” Resources, Conservation and Recycling 146: 17–27.
+Niu, B., Z. Mu, and B. Li. 2019b. “O2o Results in Traffic Congestion Reduction and Sustainability Improvement: Analysis of Online-tostore Channel and Uniform Pricing Strategy.” Transportation Research Part E: Logistics and Transportation Review 122: 481–505.
+Pun, H. 2013. “Channel Structure Design for Complementary Products Under a Co-opetitive Environment.” Decision Sciences 44 (4):
+785–796.
+Rasmusen, Eric. 2007. Games and Information: An Introduction to Game Theory. 4th ed. Mai Blackwell Publishing.
+Sarkis, J., and Q. Zhu. 2018. “Environmental Sustainability and Production: Taking the Road Less Travelled.” International Journal of
+Production Research 56 (1–2): 743–759.
+Shi, H., Y. Liu, and N. C. Petruzzi. 2013. “Consumer Heterogeneity, Product Quality, and Distribution Channels.” Management Science
+59 (5): 1162–1176.
+Shy, O., and Z. Wang. 2011. “Why Do Payment Card Networks Charge Proportional Fees?” American Economic Review 101 (4): 1575–
+1590. Why do payment card networks charge proportional fees?
+Simaan, M., and J. B. Cruz. 1973. “On the Stackelberg Strategy in Nonzero-sum Games.” Journal of Optimization Theory and
+Applications 11 (5): 533–555.
+Song, H., and X. Gao. 2018. “Green Supply Chain Game Model and Analysis Under Revenue-sharing Contract.” Journal of Cleaner
+Production 170: 183–192.
+Swami, S., and J. Shah. 2013. “Channel Coordination in Green Supply Chain Management.” Journal of the Operational Research Society
+64 (3): 336–351.
+Tan, Y., and J. E. Carrillo. 2017. “Strategic Analysis of the Agency Model for Digital Goods.” Production and Operations Management
+26 (4): 724–741.
+Tian, L., A. J. Vakharia, Y. Tan, and Y. Xu. 2018. “Marketplace, Reseller, Or Hybrid: Strategic Analysis of An Emerging E-commerce
+Model.” Production and Operations Management 27 (8): 1595–1610.
+Tyagi, R. K. 2004. “Technological Advances, Transaction Costs, and Consumer Welfare.” Marketing Science 23 (3): 335–344.
+Van den Bulte, C., and G. L. Lilien. 2001. “Medical Innovation Revisited: Social Contagion Versus Marketing Effort.” American Journal
+of Sociology 106 (5): 1409–1435.
+Von Stackelberg, H. 2010. Market Structure and Equilibrium. Berlin, Germany: Springer Science & Business Media.
+Wang, J., Y. Yan, H. Du, and R. Zhao. 2019. “The Optimal Sales Format for Green Products Considering Downstream Investment.”
+International Journal of Production Research 1–20. doi:10.1080/00207543.2019.1612963.
+Wu, Z., and M. Pagell. 2011. “Balancing Priorities: Decision-making in Sustainable Supply Chain Management.” Journal of Operations
+Management 29 (6): 577–590.
+Yalabik, B., and R. J. Fairchild. 2011. “Customer, Regulatory, and Competitive Pressure As Drivers of Environmental Innovation.”
+International Journal of Production Economics 131 (2): 519–527.
+Zhu, Q., X. Li, and S. Zhao. 2018. “Cost-sharing Models for Green Product Production and Marketing in a Food Supply Chain.” Industrial
+Management & Data Systems 118 (4): 654–682.
+Zhu, Q., and J. Sarkis. 2007. “The Moderating Effects of Institutional Pressures on Emergent Green Supply Chain Practices and
+Performance.” International Journal of Production Research 45 (18–19): 4333–4355.
+Zhu, Q., J. Sarkis, and Kh. Lai. 2012. “Examining the Effects of Green Supply Chain Management Practices and Their Mediations on
+Performance Improvements.” International Journal of Production Research 50 (5): 1377–1394.
+Zhu, Q., F. Zou, and P. Zhang. 2019. “The Role of Innovation for Performance Improvement Through Corporate Social Responsibility
+Practices Among Small and Medium-sized Suppliers in China.” Corporate Social Responsibility and Environmental Management
+26 (2): 341–350.
+
+Appendix
+A.1. Proof of Lemma 1
+Under the agency contract, the sales platform first determines the commission rate ka . Then the manufacturer decides the product greenness ga and the sale price pa . After knowing the manufacturer’s decisions, the platform determines the marketing effort ea . As before,
+2 p
+using backward induction, we first explore how the sales platform decides the marketing effort to maximise its profit. As ∂∂eπ2a = −2 < 0,
+a
+
+p
+
+the sales platform’s profit function πa (ea ) is concave in ea , we obtain the unique best response function of ea in reaction to ka , wa , and
+p
+ga through the first-order condition dπa /dea = −2ea + ka pa = 0.
+e∗a (ka , wa , ga ) =
+
+ka pa
+.
+2
+
+International Journal of Production Research
+
+1503
+
+Knowing the commission rate ka , the manufacturer decides the product greenness
+ ∂ 2 π m ∂ 2 πgm a and the sale price pa to maximise its profit. The Hesa 
+
+
+ 2a
+
+ a ∂ga ∂pa   −2
+α(1−ka )
+=
+sian matrix of the manufacturer’s profit function is negative definite:  ∂∂g
+
+
+m
+2πm
+2
+α(1−ka ) −(1−ka )(2−ka )  = (1 − ka )((1 − ka )(1 −
+ ∂p ∂ga ∂ π2a 
+a
+
+∂pa
+
+a
+
+α 2 ) + (3 − ka )) > 0. Therefore, the profit function of the manufacturer πam (pa , ga ) is jointly concave in (pa ,ga ). We can get the unique
+optimal solution pair (p∗a , ga∗ ) as follows:
+2
+α − αka
+p∗a (ka ) =
+, ga∗ (ka ) =
+.
+4 − 2ka − (1 − ka )α 2
+4 − 2ka − (1 − ka )α 2
+Finally, the sales platform determines the commission rate ka to maximise its profit. By substituting the best response function of
+p
+p∗a (ka ), ga∗ (ka ) into Equation (5), the profit function of the sales platform πa (ka ) is concave in ka . We can get the unique optimal solution
+ka∗ as follows:
+8
+.
+ka∗ = 2 −
+8 − α2
+∗
+∗
+∗
+∗
+Substituting ka into pa (ka ), ga (ka ), and ea (ka , wa , ga ), we get the optimal solutions under the agency contract as follows:
+8
+,
+8 − α2
+
+ka∗ = 2 −
+
+ga∗ =
+
+α3
+,
+16 − α 4
+
+p∗a =
+
+2(8 − α 2 )
+,
+16 − α 4
+
+e∗a =
+
+2
+.
+4 + α2
+
+A.2. Proof of Proposition 1
+We can obtain the market demand, the profit of the manufacturer, the profit of the sales platform, and the total profit of the supply chain
+under the agency contract as follows:
+D∗a =
+Therefore, we can get:
+32α 3
+(16−α 4 )2
+
+> 0,
+
+p∗
+
+dπa
+dα
+
+=
+
+dka∗
+dα
+
+16α 3
+(16−α 4 )2
+
+8
+,
+16 − α 4
+
+p∗
+
+πa =
+
+4
+,
+16 − α 4
+
+πam∗ =
+
+α2
+,
+16 − α 4
+
+πasc∗ =
+
+1
+.
+4 − α2
+
+dga∗
+dp∗a
+α 2 (α 4 +48)
+4α(α 4 −16α 2 +16)
+dα = (16−α 4 )2 > 0, dα = −
+(16−α 4 )2
+dπasc∗
+2α(α 4 +16)
+2α
+> 0, dα = (4−α2 )2 > 0.
+(16−α 4 )2
+
+16α
+= − (8−α
+2 )2 < 0,
+
+> 0,
+
+dπam∗
+dα
+
+=
+
+< 0,
+
+de∗a
+dα
+
+= − (α 24α
+< 0,
++4)2
+
+dD∗a
+dα
+
+=
+
+A.3. Proof of Lemma 2
+Under the traditional wholesale price contract, the manufacturer, as the leader, decides the product greenness gw and wholesale price ww to
+maximise its profit. The sales platform, as the follower, decides the sale price pw and the marketing effort ew to maximise its own profit.
+Using backward induction, we first investigate the
+ decision problem of the sales platform. The Hessian matrix of the sales platform’s
+ ∂ 2 π2wp ∂ 2 πwp  
+
+∂pw ∂ew 
+
+p
+1 
+profit function is negative definite:  ∂∂p2 πwp ∂ 2 π p  =  −2
+= 3 > 0. Since πw (pw , ew ) is jointly concave in (pw ,ew ) in Equation (6),
+1
+−2
+w
+w
+ ∂e ∂p
+
+2
+w
+
+w
+
+∂ew
+
+we obtain the unique best response function of (p∗w ,e∗w ) in reaction to ww and gw through the first-order condition dπw /dpw = 1 + ew −
+p
+2pw + ww + αgw = 0, dπw /dew = −2ew + pw − ww = 0.
+p
+
+p∗w (ww , gw ) = 13 (2 + ww + 2αgw ), e∗w (ww , gw ) = 13 (1 − ww + αgw ).
+The manufacturer, acting as the supply chain leader, decides the product greenness and the wholesale price, and pays for the green cost. By
+substituting the best response functions of p∗w (ww , gw ), e∗w (ww , gw ) into Equation (7), we solve the decision problem of the manufacturer.
+ ∂2πm ∂2πm  
+
+w 
+ 2w
+ w ∂gw ∂ww   −2 2α3  4(6−α 2 )
+=
+> 0. Thus, the profit
+The Hessian matrix of the manufacturer’s profit function is negative definite:  ∂∂g
+
+m
+2α
+2πm
+4
+2
+ 3 −3  =
+9
+∂ πw 
+w
+
+∂ww ∂gw
+
+∂w2
+w
+
+of the manufacturer πwm (ww , gw ) is jointly concave in (ww ,gw ). We can get the unique optimal solution pair (w∗w , gw∗ ) as follows:
+3
+α
+w∗w =
+, gw∗ =
+.
+6 − α2
+6 − α2
+∗
+∗
+∗
+∗
+Substituting ww and gw into pw (ww , gw ) and ew (ww , gw ), we get the optimal solutions under the wholesale price contract as follows:
+3
+α
+5
+α
+w∗w =
+, gw∗ =
+, p∗w =
+, e∗w =
+.
+2
+2
+2
+6−α
+6−α
+6−α
+6 − α2
+
+A.4. Proof of Proposition 2
+We can obtain the market demand, profit of the manufacturer, profit of the sales platform, and total profit of the supply chain under the
+wholesale price contract as follows:
+D∗w =
+dw∗w
+dα
+2α
+(6−α 2 )2
+
+Using these, we can get:
+12α
+(6−α 2 )3
+
+> 0,
+
+dπwm∗
+dα
+
+=
+
+2
+,
+6 − α2
+
+p∗
+
+πw =
+
+3
+,
+(6 − α 2 )2
+
+dg∗
+6α
+α 2 +6
+> 0, dαw = (6−α
+2 )2
+(6−α 2 )2
+sc∗
+2
+dπ
+)
+> 0, dαw = 2α(12−α
+>
+0.
+2
+3
+(6−α )
+
+=
+
+πwm∗ =
+> 0,
+
+1
+,
+6 − α2
+
+dp∗w
+dα
+
+=
+
+p∗
+
+πwsc∗ = πwm∗ + πw =
+
+10α
+(6−α 2 )2
+
+> 0,
+
+de∗w
+dα
+
+=
+
+2α
+(6−α 2 )2
+
+9 − α2
+.
+(6 − α 2 )2
+> 0,
+
+dD∗w
+dα
+
+=
+
+4α
+(6−α 2 )2
+
+> 0,
+
+p∗
+
+dπw
+dα
+
+=
+
+1504
+
+X. Guo et al.
+
+A.5. Proof of Proposition 3
+2α(8−3α )
+∗
+∗
+Based on Lemmas 1 and 2, we can get: ga∗ − gw∗ = − (6−α
+2 )(16−α 4 ) < 0, ea − ew =
+2
+
+p∗
+
+πw =
+
+7α −48α +96
+(6−α 2 )2 (16−α 4 )
+4
+
+2
+
+2(8−3α )
+sc∗ − π sc∗ =
+> 0, πam∗ − πwm∗ = − (6−α
+2 )(16−α 4 ) < 0, πa
+w
+2
+
+For the sale price, p∗a − p∗w =
+0≤α≤
+p∗w < 0.
+
+α∗ ,
+
+7α 4
+
+− 28α 2
+
++ 16 >
+
+8−3α 2
+, D∗a
+(4+α 2 )(6−α 2 )
+2
+α
+≥ 0.
+(6−α 2 )2 (4−α 2 )
+
+− D∗w =
+
+2(α 4 −4α 2 +8)
+(6−α 2 )(16−α 4 )
+
+4
+2
++16)
+7α 4 −28α 2 +16
+. As d(7α −28α
+= −28α(2 − α 2 ) < 0, there is a threshold α ∗ =
+dα
+(6−α 2 )(16−α 4 )
+0, that is, p∗a − p∗w > 0; otherwise, when α ∗ < α ≤ 1, we have 7α 4 − 28α 2 + 16
+
+p∗
+
+> 0, πa −
+
+
+
+
+
+2−2
+
+3
+7,
+
+when
+
+< 0, that is, p∗a −
+
+A.6. Proof of Lemma 3
+Under the centralised system, the product greenness gc , sale price pc , and marketing effort ec need to be determined
+ ∂ 2 π scto ∂maximise
+the
+ c 2 πcsc ∂ 2 πcsc 
+ ∂gc2 ∂gc ∂pc ∂gc ∂ec 
+ 2 sc 2 sc 2 sc 
+total supply chain profit. The Hessian matrix of the total profit function of the supply chain is negative definite:  ∂p∂ cπ∂gc c ∂ ∂pπ2c ∂p∂ cπ∂ec c  =
+ ∂ 2 πcsc ∂ 2 πccsc ∂ 2 πcsc 
+ ∂ec ∂gc ∂ec ∂pc
+
+∂e2c
+
+
+ −2 α 0 
+ α −2 1 . This means that the total profit function of the supply chain π sc (gc , pc , ec ) is jointly concave in (gc , pc , ec ). We can get the
+c
+
+
+0
+
+1 −2
+
+unique optimal solution (gc∗ , p∗c , e∗c ) as follows:
+
+gc∗ =
+
+α
+,
+3 − α2
+
+p∗c =
+
+2
+,
+3 − α2
+
+e∗c =
+
+1
+.
+3 − α2
+
+A.7. Proof of Proposition 4
+We propose the platform-led revenue sharing contract to coordinate the supply chain. As the leader, the sales platform designs a contract
+specifying the commission rate and marketing effort as follows:
+krs = 1 − φ −
+e∗rs =
+
+2
+(1 − φ)grs
+φe∗rs
++
+,
+prs Drs
+prs Drs
+
+1
+.
+3 − α2
+
+m = φ(p D − g2 − e∗2 ) =
+Substituting the coordination contract into the manufacturer’s profit function Equation (9), we can get πrs
+rs rs
+rs
+rs
+sc . That is, the manufacturer’s objective function is consistent with the objective function of supply chain coordination. The profit
+φπrs
+m (g , p ) is jointly concave in (g , p ), so we can get the unique optimal solution (g∗ , p∗ ) as follows:
+function of the manufacturer πrs
+rs rs
+rs rs
+rs rs
+∗
+grs
+=
+
+α
+,
+3 − α2
+
+p∗rs =
+
+2
+.
+3 − α2
+
+Therefore, the supply chain is fully coordinated by the specified platform-led revenue sharing contract.
+
+A.8. Proof of Proposition 5
+Based on Lemmas 1–3, the proof of Proposition 5 is similar to that of Proposition 3. We omit the details.
+
+A.9. Proof of Proposition 6
+Considering the societal impact, we compare the total supply chain profit, environmental improvement, and social welfare of the three
+1
+α2
+sc∗ − π sc∗ =
+contracts. First, from the perspective of the total supply chain profit, πrs
+> 0, πasc∗ − πwsc∗ = (4−α2 )(6−α
+2 )2 ≥ 0.
+a
+(3−α 2 )(4−α 2 )
+6α(α 6 −50α 2 +144)
+4α(8−3α 2 )
+> 0, EIw∗ − EIa∗ = (6−α
+2 )2 (16−α 4 ) > 0.
+(16−α 4 )(α 4 −9α 2 +18)2
+2(α 8 −48α 4 +96α 2 +112)
+2(−α 8 +48α 4 −192α 2 +320)
+∗
+∗
+∗
+∗
+> 0, CSa − CSw =
+> 0.
+From the perspective of consumer surplus, CSrs − CSa = (3−α2 )2 (16−α 4 )2
+(6−α 2 )2 (16−α 4 )2
+sc∗ > π a∗ , CS ∗ > CS ∗ , EI ∗ > EI ∗ , hence we get SW ∗ > SW ∗ and SW ∗ − SW ∗
+From the perspective of social welfare, as πrs
+rs
+rs
+a
+rs
+a
+rs
+a
+a
+w
+−3α 8 −12α 7 −4α 6 +32α 5 +112α 4 +192α 3 −320α 2 −512α+640
+> 0.
+(α 6 −6α 4 −16α 2 +96)2
+∗ − EI ∗ =
+From the perspective of environmental improvement, EIrs
+w
+
+=
+
+

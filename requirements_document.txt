@@ -1,0 +1,33 @@
+path on disk
+author
+title
+year
+keywords
+
+
+process files:
+1. get author and year from file name
+2. get title from metadata
+
+
+## tables
+- records
+- references
+- nicknames
+- corrected_nicknames
+
+
+
+capabilities
+1. 'register' a record
+2. get a record
+
+3. create a record from a pdf
+4. create records from bibtex
+
+2. 'register' a record from a reference
+3. map nicknames to corrected nicknames
+
+4. extract a reference graph
+5. extract bibliographic coupling graph
+

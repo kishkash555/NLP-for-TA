@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The strategic analysis of logistics service sharing in an e-commerce platform</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2019-11-12">12 November 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xuelian</forename><surname>Qin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Huazhong University of Science and Technology</orgName>
+								<address>
+									<postCode>430074</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhixue</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Huazhong University of Science and Technology</orgName>
+								<address>
+									<postCode>430074</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lin</forename><surname>Tian</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The strategic analysis of logistics service sharing in an e-commerce platform</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Omega</title>
+						<title level="j" type="abbrev">Omega</title>
+						<idno type="ISSN">0305-0483</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">92</biblScope>
+							<biblScope unit="page">102153</biblScope>
+							<date type="published" when="2019-11-12">12 November 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.omega.2019.102153</idno>
+					<note type="submission">Received 5 December 2018 Accepted 5 November 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Logistics service sharing E-commerce Hybrid platform Coopetition</keywords>
+			</textClass>
+			<abstract>
+				<p>In e-commerce, the success of hybrid online platforms is well documented where the platform not only works as a retailer but also offers online marketplace services to sellers. Logistics service is one of the most expensive operations for e-commerce and plays a critical role in promoting online purchases. In most cases, the platform builds a self-supporting logistics service system to deliver its own products, and the seller outsources the logistics service to third-party logistics service providers (TPLPs). Recently, the e-commerce market has emerged with a new trend of business-to-business logistics service sharing-the platform shares its logistics service system with the seller. In this paper, we first analyze the strategic and economic impacts of logistics service sharing. Our analysis shows that whereas logistics service sharing will lead to a lose-win situation for the platform and the seller when the TPLP&apos;s logistics service level and the market potential are low, it will lead to a win-lose situation when the TPLP&apos;s logistics service level or the market potential is very high. Furthermore, a win-win situation can be achieved when the TPLP&apos;s logistics service level and the market potential are in the middle regions. Then, we examine the equilibrium mode by considering the strategic interactions between the platform and the seller. We find that when the TPLP&apos;s logistics service level and the market potential are relatively low, the equilibrium mode is No-Service-Sharing. As the TPLP&apos;s logistics service level, the market potential, or both increase, the equilibrium mode will evolve from No-Service-Sharing to Service-Sharing.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

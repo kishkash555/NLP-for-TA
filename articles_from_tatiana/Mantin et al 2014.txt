@@ -1,0 +1,1516 @@
+Vol. 23, No. 11, November 2014, pp. 1937–1949
+ISSN 1059-1478|EISSN 1937-5956|14|2311|1937
+
+DOI 10.1111/poms.12203
+© 2014 Production and Operations Management Society
+
+The Strategic Role of Third-Party Marketplaces in
+Retailing
+Benny Mantin
+Department of Management Sciences, University of Waterloo, 200 University Avenue West, Waterloo, Ontario N2L 3G1, Canada
+bmantin@uwaterloo.ca
+
+Harish Krishnan
+Sauder School of Business, University of British Columbia, 2053 Main Mall, Vancouver, British Columbia V6T 1Z2, Canada
+krishnan@sauder.ubc.ca
+
+Tirtha Dhar
+University of Ontario Institute of Technology, Oshawa, Ontario L1H 7K4, Canada, tirtha.dhar@uoit.ca
+
+etailers are increasingly adopting a dual-format model. In addition to acting as traditional merchants (buying and
+reselling goods), these retailers provide a platform for third-party (3P) sellers to access and compete for the same customers. We investigate the strategic rationale for a retailer to introduce a 3P marketplace. Our analysis provides insights
+into the growing prevalence of 3P marketplaces. We show that by committing to having an active 3P marketplace, the
+retailer creates an “outside option” that improves its bargaining position in negotiations with the manufacturer. This can
+explain the increasing prevalence of such marketplaces. On the other hand, the manufacturer would prefer to eliminate
+the retailer’s outside option and should seek to limit or prevent sales through 3P marketplaces. This is consistent with
+actions that several manufacturers have taken to limit such sales. Interestingly, if the manufacturer fails to eliminate sales
+of competing products through the 3P marketplace, then the best strategy for the manufacturer is to allow the retailer to
+dictate the terms of their contract. This is because a powerful retailer will rely less on its outside option in generating
+profit, and therefore it will increase the fees charged to 3P sellers and soften the competition between 3P sellers and the
+manufacturer. The decrease in competition will lead to an increase in the value of outside option of the manufacturer and
+improve its profit. Additionally, we find that the presence of a 3P marketplace benefits consumers, but this benefit diminishes as the retailer becomes more powerful.
+
+R
+
+Key words: marketing channels; dual-format retailing; third-party marketplaces; internet retailing; bargaining
+History: Received: April 2012; Accepted: November 2013 by Vishal Gaur, after 4 revisions.
+
+1. Introduction
+The increasing prevalence of third-party (3P) marketplaces, where 3P sellers use a platform provided by
+another firm to access customers, has sparked an
+interest in understanding the economics of platforms
+(Rochet and Tirole 2006). Such 3P marketplacese-bay
+is a prominent example—have gained in popularity
+and have largely been facilitated by the growth of
+electronic commerce. While e-bay is a “pure” 3P marketplace, other such marketplaces are associated with
+firms that also operate a more traditional retailing
+business. We refer to this business model as “dualformat” retailing.
+The best known example of dual-format retailing is
+the largest online retailer, Amazon. In addition to performing the traditional “merchant” function (buying
+and reselling goods), Amazon provides a platform—
+Amazon Marketplace—for 3P sellers to compete for
+
+the same customers. In many product categories, a
+customer shopping for a product (e.g., a camera) has
+the option of buying it directly from Amazon, or
+through other Amazon Marketplace sellers (as a new
+or used product). Third-party transactions now
+account for about 40% of Amazon’s sales (Barr 2012),
+up from 30% in 2009 (Stone 2009). Amazon is not
+alone in adopting this dual-format retailing model.
+Other retailers that have launched a 3P platform
+include Walmart (Walmart Marketplace), Sears (Marketplace at Sears), Best Buy (Best Buy Marketplace).
+Barnes & Noble, and the largest Canadian bookseller,
+Indigo.
+While the traditional “merchant” approach to
+retailing is still the dominant structure of retail markets, the growing interest in the dual-format model
+raises several questions. Why would a retailer allow
+3P sellers to compete with its “first-party” (1P) sales?
+How do retailers benefit from the 3P marketplace? Is
+
+1937
+
+1938
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+it only due to the revenue that the retailer can extract
+from the 3P sellers? And what about the manufacturers? Do they benefit from the 3P marketplace as well?
+Within the context of online book retailing, publishers (and authors) have taken a position against dualformat retailing arguing that if “aggressive promotion
+of used book sales becomes popular among Amazon’s
+customers, this service will cut significantly into sales
+of new titles, directly harming authors and publishers” (Frishberg 2000). Amazon’s response has been
+that the two formats can complement each other and
+the existence of both formats is a “service to readers
+that allows them to explore new authors and areas of
+interest. In that way, both authors and publishers benefit in the long run from the practice.” Ghose et al.
+(2006) support this argument by empirically estimating that “used books are poor substitutes for new
+books for most of Amazon’s customers,” implying
+that the two formats are complements rather than
+substitutes.
+For many other products, however, 3P sellers offer
+substitutes rather than complements. Even in the case
+of new books, for example, a buyer can buy the latest
+edition from Amazon or from a 3P seller. While it is
+conceivable that part of the motivation for retailers to
+open 3P marketplaces is to provide customers with
+more choice, it is also possible that 3P marketplaces
+play some other role in dual-format retailers’ overall
+strategy. It has been reported (Weise 2013) that
+“Walmart considers Amazon’s Marketplace platform
+the e-tailer’s ‘number one weapon’.”
+Anecdotal evidence suggests that Amazon uses the
+3P marketplace as a bargaining chip in negotiations
+with upstream channel players. For example, in a dispute with Hachette Group, Britain’s largest publisher,
+Amazon removed the “buy new” button for Hachette’s books with only 3P (used) copies being offered
+for sale (Alberge 2008). According to Paul Aiken,
+executive director of the Authors Guild, “[t]he buy
+button is their [Amazon’s] weapon of choice and
+that’s how they impose market discipline” (Carvajal
+2008).
+We investigate the strategic rationale for retailers to
+introduce a 3P marketplace, by addressing the following questions: how does the introduction of a 3P marketplace alter the outcome of the bargaining game
+between a manufacturer and the retailer and how
+does it affect their profits? To do so, we develop a stylized model of bargaining between the retailer and the
+manufacturer. Because we are interested in the strategic role of the 3P marketplace, we assume that the
+manufacturer has an alternative channel to reach consumers that is as efficient as the retailer. Hence, in the
+absence of a 3P marketplace, the manufacturer’s outside option is equal to the total channel profits
+and the retailer’s outside option is zero. Under the
+
+corresponding bargaining equilibrium with no 3P
+marketplace, the retailer would earn zero profit.
+Introducing a 3P marketplace has several immediate effects. First, it improves the outside option for the
+retailer—by creating a revenue stream for the retailer
+that is separate from sales of the manufacturer’s product. Second, it reduces the manufacturer’s outside
+option by creating downstream competition for 1P
+sales. Third, it reduces total profits as 3P sales cannibalize sales of the manufacturer’s product. Yet,
+because the 3P marketplace increases the retailer’s
+position vs. the manufacturer in the bargaining game,
+the retailer has an incentive to open a 3P marketplace.
+Lastly, a 3P marketplace benefits consumers due to
+the introduction of downstream competition.
+A surprising result is that, when it exists, the 3P
+marketplace neutralizes the manufacturer’s bargaining power: the manufacturer’s profit increases with
+the retailer’s bargaining power.1 This is because retail
+profit depends both on the retailer’s share of the joint
+profit from selling the manufacturer’s product and
+the profit generated from the 3P marketplace. A
+“powerful” retailer will, in equilibrium, focus more
+on strategies to maximize joint profit, while a “weak”
+retailer will focus more on strategies to maximize its
+outside option. Any retail strategy that maximizes
+joint profit will, in this setting, also help the manufacturer because such strategies lessen competition
+between the manufacturer and the 3P marketplace.
+This implies that in a market where the retailer controls a 3P marketplace, the manufacturer will be better
+off by letting the retailer set the terms of the contract.
+Note that even a retailer with high bargaining
+power would not want to shut down the 3P marketplace. By shutting down the 3P marketplace, the
+retailer is giving up its outside option. Thus, even
+“powerful” retailers—such as Amazon and Walmart
+—strategically benefit by operating a 3P marketplace.
+Overall, our results indicate that 3P marketplaces
+benefit retailers and hurt manufacturers by altering
+the outside options in the retailer–manufacturer bargaining game. These results can help explain the
+increasing adoption of 3P marketplaces by retailers.
+Conversely, our results also imply that manufacturers
+will be better off if they can prevent 3P sales on the
+retailer’s marketplace. Recently, Adidas banned 3P
+sellers from re-selling its products on Amazon (Barr
+2012). Other brand-name shoe manufacturers, including Nike and Asics, have followed suit (Miller 2012).
+Barr (2012) also reports that the German chef knife
+maker W€
+usthof has stopped selling goods on Amazon
+because W€
+usthof did not want third-parties selling its
+goods. Swiss Gourmet, a distributor of Swiss
+Diamond cookware, has also “threatened to pull out
+unless Amazon limits discounting and cracks
+down on unauthorized 3P sellers.” (In some cases,
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+manufacturers explicitly forbid sales through 3P
+channels. Resellers who violate this prohibition and
+list their products on 3P platforms are therefore
+“unauthorized” sellers). In addition, Barr (2012)
+reports that “Ralph Lauren Corp, Hugo Boss AG and
+Guess Inc have all protested recently about unauthorized sellers” on the 3P marketplace.2
+The concerns manufacturers have raised about 3P
+sellers are that (1) counterfeit products may be sold
+on the 3P marketplace, damaging the brand reputation, and that (2) the presence of 3P sellers creates
+price competition for the brands. It is possible that the
+former concern is a significant issue for some brands,
+and this is an issue we do not model in this paper.
+The latter issue of price competition is central to our
+model and results. It is this competition that changes
+the outside options in the bargaining game.
+Our results are consistent with the observation that
+manufacturers would want to limit competition from
+3P sellers. Also, our model predicts that Amazon
+would not want to limit 3P sales. This is what we
+observe in practice. According to Barr (2012), “the
+brands want Amazon to help them weed out such
+sellers, but the online retailer prefers not to get
+involved, according to industry executives. [. . .] Amazon has little incentive to discipline sellers because it
+takes a cut of 3P sales through its lucrative 3P marketplace, these executives say.” For example, when
+W€
+usthof complained, “Amazon told W€
+usthof to crack
+down on these 3P sellers itself.”
+The argument made above—that Amazon does not
+have the incentive to discipline sellers because of the
+revenue it earns from these sellers—is, according to
+our analysis, only partially correct. Amazon does earn
+revenue from these 3P sellers, but our results imply
+that the more significant reason for maintaining a 3P
+marketplace is the impact that this has on the outside
+options of the retailer and the manufacturer in the
+bargaining game. It is the impact on the off-equilibrium path that is more important—rather than the
+revenues that are directly earned in equilibrium. And,
+as we have argued above, Amazon has been willing
+to stop carrying a manufacturer’s product—and only
+sell 3P products—as a way to signal to manufacturers
+that the 3P marketplace represents a credible threat.
+In other words, there is a strategic rationale for maintaining a 3P marketplace—which has not been examined before this paper.
+
+2. Related Literature
+The result that retailers introduce downstream competition as a way to increase their bargaining position
+is not new. Narasimhan and Wilcox (1998) argue that
+retailers introduce private label products in a category
+to elicit concessions from the manufacturer(s) of
+
+1939
+
+branded products in that category. If customers are
+more willing to switch to the private label, the retailer
+can extract more concessions from the branded manufacturer. Morton and Zettelmeyer (2004) also note that
+retailers “list bargaining with manufacturers as one of
+the prime benefits of introducing private labels in a
+category.” They go on to demonstrate that a retailer
+introducing a store brand would want it to imitate,
+and therefore compete aggressively with, the national
+brand. We add to these insights by showing that a
+retailer-controlled 3P marketplace can similarly
+weaken the upstream monopolist’s ability to extract
+profits from a downstream retailer.
+Our result, that a manufacturer facing a dual-format retailer prefers that the retailer has high bargaining power, is also reflected in some other papers that
+discuss the value in having a powerful channel partner. In an asymmetric information context (the retailer
+has better information than manufacturer), Iyer and
+Villas-Boas (2003) have shown that it is better for the
+manufacturer to let the retailer be powerful in the bargaining process. In their case, the powerful retailer
+can leverage its information to generate a better outcome for both channel players. Similarly, Dukes et al.
+(2006), using an upstream oligopoly setup, have
+shown that it is better for the dominant manufacturer
+(in terms of market share) to have a powerful downstream retailer. Feng and Lu (2012) consider a model
+of bargaining between supplier and downstream
+manufacturers. In their model, because the supplier is
+negotiating with two manufacturers, its share of profit
+from trading with one manufacturer affects the profit
+that can be earned from the other manufacturer. In
+such an interaction, a manufacturer’s profit may
+decrease as its bargaining power increases.
+Another context where upstream manufacturers
+prefer downstream retailers to have more decision
+making authority is in the “strategic delegation” literature (e.g., Gilbert et al. 2006, Liu and Tyagi 2011,
+McGuire and Staelin 1983). In that stream of literature, a manufacturer can soften competition (with
+another manufacturer) by delegating the pricing function to a downstream retailer and by raising the
+wholesale price above marginal cost. However, while
+the competition-softening effect in this set of papers
+arise from decentralization, in our model, it arises
+from the increase in the retailer’s bargaining power.
+Our contribution is to emphasize how an increase in
+the retailer’s bargaining power softens competition
+and how a dual-format retailer can use its ability to
+soften competition as a way to extract bargaining
+power from an upstream manufacturer.
+While there is limited work on 3P marketplaces in
+the marketing and operations literatures, two issues
+relating to 3P marketplaces have been studied.
+Jiang et al. (2011) note that an important benefit of
+
+1940
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+dual-format retailing is that it allows the retailer to
+learn about the demand for the “long-tail” products
+sold on its 3P marketplace. The retailer may then
+cherry-pick the successful products to stock and sell
+by itself. Our paper sets aside the benefits of learning
+about demand, and instead focuses on the impact of
+the 3P marketplace on the bargaining game. Ryan
+et al. (2012) consider the problem facing an independent retailer, selling a product through its own website, who may also choose to also sell its product as a
+3P seller on another retailer’s marketplace. This
+expands the market for the retailer, but the cost is that
+the retailer pays a fixed participation fee or shares
+revenue with the other retailer. The question Ryan
+et al. (2012) address is, under what conditions should
+the retailer sell through the marketplace system. Their
+focus is on the strategic decisions of a 3P seller while,
+in our paper, 3P retailers are modeled as price takers.
+The questions we address in this paper—the impact
+of a 3P marketplace on the retailer, manufacturer and
+consumers—have not been studied in the literature.
+
+3. Analytical Model
+Our stylized model of a dual-format retailer considers
+two vertically differentiated products. The retailer
+sells the manufacturer’s product; we refer to this as
+1P sales and denote this product by the subscript 1. In
+addition, 3P sellers sell a substitutable product and
+this product is denoted by the subscript 3. For example, the 1P product may be “new” and the 3P product
+could be “used.” Even if both products are “new,” we
+assume that the 3P sellers provide a product that is
+perceived as having lower quality (e.g., in delivery
+lead time) as compared with the 1P product. We
+assume that the 3P product’s quality does not vary by
+the seller, i.e., all products sold through the 3P marketplace are identical. The model therefore has four
+types of players: the consumers, the retailer, the manufacturer, and the 3P sellers. We describe each in
+detail below.
+3.1. Consumers
+Adopting the Mussa and Rosen (1978) consumer utility
+model, consumers’ income (or their willingness to pay)
+is denoted by i and is uniformly distributed between
+zero and one. The utility that consumer i gets from the
+1P product is Ui1 = i  p1 and the utility this consumer
+gets from the 3P product is Ui3 = ia  p3, where the 1P
+product is offered for a price of p1, the 3P product is
+sold for p3, and a < 1 denotes the quality of the 3P product. (The product quality of the 1P is normalized to
+one). Consumers purchase the product that provides
+them with the most utility, as long as this is positive.
+The marginal consumer who is indifferent between
+purchasing and not purchasing either product is
+
+located at i ¼ pa3 , and the marginal consumer who is
+indifferent between purchasing the higher quality 1P
+product or the lower quality 3P product is located at
+1 p3
+. We focus attention only on markets where
+i ¼ p1a
+0 < i* < i** < 1, to guarantee existence of both 1P and
+3P products. Based on this utility model, the demand
+expressions for the 1P and 3P products are
+q1 ¼ 1 
+
+p1  p3
+1a
+
+and
+
+q3 ¼
+
+p1  p3 p3
+ ;
+1a
+a
+
+ð1Þ
+
+respectively, and the inverse demand functions are
+p1 ¼ 1  q1  aq3
+
+and
+
+p3 ¼ að1  q3  q1 Þ: ð2Þ
+
+From Equation (2), it can be verified that p3 < p1
+since a < 1.
+3.2. Third-Party Sellers
+The 3P sellers are modeled as a competitive fringe.
+Each 3P seller is a price taker and makes zero profit.
+The retailer charges the 3P sellers a per-unit transaction fee of T ≥ 0 for each product sold on the 3P marketplace. In our stylized model, because sellers earn
+zero profits, it is sufficient to consider a per-unit fee
+alone. The model can be generalized to account for a
+revenue share in addition to a per-unit fee, and the
+basic insights of the paper follow through.3
+For simplicity, we normalize the per-unit cost of the
+3P product to zero. Third-party sellers need to satisfy
+the following zero-profit condition: Π3 = p3q3 
+Tq3 = 0. Thus, we have that p3 = T, i.e., the 3P product
+price is determined by the transaction fee. This marketplace transaction fee, T, is a key strategic decision
+for the dual-format retailer in our model. On one
+hand, this fee helps to extract surplus from the 3P sellers and, on the other hand (as explained below), the
+fee also influences the supply of the 1P product.
+3.3. Manufacturer, Retailer and Bargaining
+There are two stages in the game between the manufacturer and the retailer. In Stage 1, the retailer commits to the per-unit marketplace transaction fee, T, for
+3P sellers. In Stage 2, the manufacturer and the retailer bargain over the quantity of the 1P product brought
+to the market, q1, and the wholesale price, w1, to be
+paid by the retailer to the manufacturer for each unit
+purchased. The timing of the events is depicted in Figure 1. The bargaining game in Stage 2 is modeled as a
+standard Nash bargaining problem (see Muthoo
+(1999) for more details).
+Let k be the bargaining power parameter of the retailer; the manufacturer’s bargaining power is 1  k.4
+The retailer’s outside option, if bargaining fails, is DR;
+the manufacturer’s outside option is DM.5 We define c1
+to be the per-unit production cost (incurred by the
+manufacturer) for the 1P product. In our analysis, we
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+Figure 1
+
+Timeline of the Game
+
+Stage 1:
+Retailer’s commitment
+
+The retailer
+sets T
+
+Stage 2:
+Bargaining process
+
+Bargaining over
+q1 and w1
+takes place
+
+normalize this cost to zero.6 Let ΠR and ΠM denote the
+profit of the retailer and the manufacturer, respectively, if the bargaining process is successful.
+Bargaining between the retailer and the manufacturer is over total quantity and wholesale price,
+(q1, w1), of the 1P product. Unlike in a wholesale-pricing only contract, this contract design will lead to vertical coordination. This is due to the double
+marginalization, which arises in a wholesale-price
+only setting, is eliminated because the firms also contract on the total quantity.7
+The Nash bargaining solution with this quantity
+forcing contract is the pair of q1 and w1 which solves:
+maxq1 ;w1 ½ ln ðPR  DR Þ þ ð1  Þ ln ðPM  DM Þ;
+s.t. PR  DR and PM  DM
+
+ð3Þ
+
+We define Π  ΠR + ΠM  DR  DM as the gains
+from trade. If bargaining is successful, the retailer
+purchases q1 units and pays a total of w1q1 = (1  k)Π
+to the manufacturer, and gets to keep kΠ. The equilibrium profit expressions can be written as:
+PR ¼ DR þ P and
+
+1941
+
+PM ¼ DM þ ð1  ÞP:
+
+ð4Þ
+
+In traditional bargaining models, the outside
+options of both players are exogenously determined
+and constants. This can be interpreted as the firms
+exiting the market and pursuing other options. When
+the outside options of the retailer and the manufacturer are determined exogenously, then the interests
+of both players are aligned: the profits of both the
+retailer and the manufacturer are fixed fractions of
+their gains from trade. In our model, if bargaining
+fails, the retailer and the manufacturer continue to
+operate, but compete against each other in the same
+market. The manufacturer sells its product through
+an alternative channel, and the retailer only operates
+the 3P marketplace. The outside options are therefore
+the profits the two firms will earn in this setting.
+We assume that the manufacturer’s alternative
+channel provides the same profit that can be earned
+
+If bargaining fails: manufacturer
+sells its products independently;
+retailer only sells platform products
+
+from 1P sales. This implies two things: (1) the manufacturer’s alternative channel is as efficient as selling
+through the retailer, i.e., the manufacturer does not
+incur a higher costs when selling directly to customers and (2) customers perceive the quality of the good
+to be same, whether it is sold directly by the manufacturer or as 1P sales by the retailer. In practice, this
+assumption is questionable.8 But, by giving the manufacturer this advantage, this assumption helps us to
+focus on the strategic role of the 3P marketplace by
+allowing us to highlight how the retailer benefits from
+having a 3P marketplace.
+We also assume that, irrespective of the outcome of
+the bargaining game, the retailer remains contractually committed to the per-unit marketplace transaction fee, T, that was initially offered to the 3P sellers.
+This is because of the difficulty inherent in negotiating and renegotiating contracts with multiple 3P sellers. In practice, Amazon does commit to the payment
+terms that are set for the 3P sellers.9
+
+4. Analysis
+We solve the two-stage game by backward induction.
+The solution to Stage 2, the bargaining game between
+the retailer and manufacturer, itself requires two
+steps: we first solve for both firms’ outside options
+and then we solve for the bargaining outcome.
+Throughout the analysis, we let the superscript O
+denote the outside options outcomes and the superscript B denote the outcomes when the bargaining
+process is successful.
+When solving for the outside options, the manufacturer (who is now selling its product independent of
+the retailer) is competing with the 3P sellers and sets
+its outside option price, pO
+1 , appropriately. During
+bargaining, the firms take the outside options profits
+and the 3P price determined in Stage 1 to jointly
+decide the optimal quantity (and therefore price) of
+the 1P product. Finally, in Stage 1, the retailer considers the outcome of the Stage 2 bargaining game to
+optimally choose the 3P price, T.
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+
+1942
+
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+4.1. Stage 2: Analysis of the Bargaining Process
+First consider the two firms’ outside options. If bargaining fails, the retailer’s outside option profit is
+DR ¼ TqO
+3 and the manufacturer’s outside option
+O
+profit is DM ¼ pO
+1 q1 . The price of the 3P product is
+the predetermined transaction fee, i.e., pO
+3 ¼ T. The
+O
+manufacturer chooses p1 to maximize DM, i.e.,
+1
+O
+O
+pO
+1 ¼ 2 ð1  a þ TÞ. Plugging the values of p3 and p1
+into (1), the quantities of the two products are
+aa2 þaT2T
+1aþT
+qO
+and qO
+1 ¼ 2ð1aÞ . Note that as the price
+3 ¼
+2ð1aÞa
+for the 3P product increases, 1P sales increase even
+though the price of the 1P product is also increasing.
+Also note that to ensure non-negative 3P sales in
+að1aÞ
+the outside option, qO
+3  0, we need T  2a .
+Based on this, the outside option profits are:
+2
+
+and DM ¼ ð1aþTÞ
+DR ¼ Tðað1aÞþTða2ÞÞ
+4ð1aÞ .
+2ð1aÞa
+Taking these outside option profits, we can find the
+outcome of the bargaining process by maximizing
+k ln (ΠR  DR) + (1  k) ln (ΠMDM) to obtain the
+pair qB1 and w1 (see Equation (3)), where qB1 is the
+quantity of the manufacturer’s product under
+the bargaining solution. The retailer’s profit under the
+bargaining outcome is the revenue from the 3P product market (TqB3 ) plus the profit from the manufacturer’s product (pB1 qB1 ) less the transfer amount to the
+manufacturer (w1 qB1 ). Hence, the retailer’s profit is
+PR ¼ TqB3 þ pB1 qB1  w1 qB1 . The manufacturer’s profit
+is simply the transfer amount, i.e., PM ¼ w1 qB1 .
+In the bargaining solution, the retailer and the manufacturer will set the wholesale price to be
+w1 ¼
+
+T2 ð2  Þ þ Tð2  2aÞ þ 1þa2 2a
+2ð1aÞ
+
+and the quantity of the
+
+manufacturer’s product to be qB1 ¼ 12. Hence, the
+retailer pays the manufacturer a total of
+2a
+. Since qB1 and pB3 are
+w1 qB1 ¼ T ð2ÞþTð22aÞþ1þa
+4ð1aÞ
+known, the equilibrium bargaining outcome is determined. The quantity of the 3P product at equilibrium
+under the bargaining outcome is given by qB3 ¼ a2T
+2a
+and the price of the manufacturer’s product under the
+bargaining outcome is pB1 ¼ 12 ð1 þ 2T  aÞ. Note that
+to ensure qB3  0, we need T  a2.
+The above expressions reveal that even though the
+quantity of the 3P product decreases and the quantity
+of the 1P product does not change as the marketplace
+transaction fee goes up, the prices of both types of
+products go up. The intuition is as follows: As the
+marketplace transaction fee T increases, so does the
+price of the 3P product and this allows the price of the
+1P product to be raised.
+An interesting and unexpected observation here is
+that the retail price of the 1P product under bargaining, pB1 , is less than the wholesale price that the retailer
+2
+
+2
+
+pays the manufacturer, w1. In other words, under the
+bargaining outcome, the retailer loses on each sale of
+the manufacturer’s product. This implies that the
+retailer transfers some of the profits from the 3P marketplace to the manufacturer. However, both firms
+are better off under bargaining because their profits
+are at least equal to their outside options plus a fraction of the gains from trade.
+Having derived the bargaining outcome, we can
+now express the profits of the retailer and the manufacturer. Entering the bargaining process, the retailer’s expected profit is PR ¼ pB3 qB3 þ pB1 qB1  w1 qB1
+¼
+
+ð2aþa4ÞðTÞ2 þ2að1aÞT
+,
+4ð1aÞa
+
+and the manufacturer’s profit
+2
+
+Þ
+.
+is given by PM ¼ w1 qB1 ¼ ð2ÞðTÞ þð22aÞTþð12aþa
+4ð1aÞ
+From these expressions, we can see that, for a fixed T,
+the retailer’s profit is increasing in its bargaining
+power k while the manufacturer’s profit is decreasing
+
+in
+
+k
+
+(note
+
+that
+
+@PR
+@
+
+¼
+
+aðTÞ2
+4ð1aÞa
+
+0
+
+2
+
+and
+
+@PM
+@
+
+¼
+
+2
+
+ðTÞ
+ 4ð1aÞ
+
+ 0). In our model, however, T is not
+arbitrarily fixed. Rather, it is chosen optimally by the
+retailer in Stage 1 so as to maximize its profit. We
+consider this next.
+4.2. Stage 1: Choice of Marketplace Transaction
+Fee by the Retailer
+The retailer’s choice of the per-unit marketplace transaction fee, T, has two impacts: (1) it affects the outside
+options of both the manufacturer and the retailer and
+(2) it affects the total surplus when bargaining is successful. The retailer is the first mover in this game and
+it commits to the marketplace transaction fee prior to
+bargaining with the manufacturer. The retailer therefore sets the fee that maximizes its own profit. The
+concavity of the retailer’s profit function (since
+@ 2 ðPR Þ
+@ðT Þ2
+
+¼
+
+að2þÞ4
+2að1aÞ
+
+\ 0) allows us to characterize the
+
+optimal T for the retailer:
+p3 ¼ T  ¼
+
+að1  aÞ
+;
+4  ð2 þ Þa
+
+ð5Þ
+
+and it can be shown that for any a and k 2 (0,1),
+O
+T*, qB
+3 and q3 are positive.
+Note that the manufacturer’s profit is increasing in
+2Tð2Þþ2ð1aÞ
+M
+ 0 for T ≥ 0). In other
+T (since @P
+@T ¼
+4ð1aÞ
+words, the manufacturer prefers the retailer to set T
+as high as possible, to choke-off the 3P product market. However, the manufacturer cannot eliminate the
+3P marketplace under both the outside option and
+bargaining outcomes.10
+The optimal marketplace transaction fee set by the
+retailer will determine the outside options of both
+parties. Recall that the retailer’s and the manufac-
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+turer’s outside options are DR ¼ TqO
+and
+3
+O
+q
+,
+respectively.
+Hence,
+evaluating
+these
+D M ¼ pO
+1 1
+values at T = T*, we have DR ¼ ð1aÞð2aaÞa
+and
+2ð42aaÞ2
+DM ¼
+
+ð4aaÞ2 ð1aÞ
+.
+4ð42aaÞ2
+
+Thus, for T = T*, the outside
+
+option of the retailer is decreasing in its bargaining
+power k (since
+manufacturer’s
+
+@DM
+@
+
+¼
+
+@DR
+@
+
+is
+
+ð1aÞð4aaÞa2
+2ð42aaÞ3
+
+a ð1aÞ
+¼  2ð42aaÞ
+3 \ 0), while the
+3
+
+increasing
+
+in
+
+k
+
+(since
+
+[ 0).
+
+This implies that, with more bargaining power, the
+retailer is less concerned about the outside option,
+and increases the 3P product’s price (recall that it is
+increasing in k), which lessens the competition
+between the two products in the outside option outcome. The direct result is that the retailer’s outside
+option decreases. However, at the same time, the
+manufacturer’s outside option improves.
+We now find expressions for the retailer’s and manufacturer’s equilibrium profits. Using Equation (4),
+the equilibrium profits when T = T* are:
+PR ¼
+¼
+
+ð1  aÞa
+and PM
+4ð4  2a  aÞ
+ð1  aÞða2 ð2 þ  þ 2 Þ  8að1 þ Þ þ 16Þ
+4ð2a þ a  4Þ2
+
+ð6Þ
+
+Based on the analysis of the bargaining game
+between the manufacturer and retailer, we can now
+discuss the strategic role of the 3P marketplace. We
+do this in the next section.
+
+5. The Role and Impact of the 3P
+Marketplace
+5.1. Profits and Consumer Surplus
+To understand the role of the 3P marketplace, consider the case where the 3P marketplace does not
+exist. For example, assume that 3P sellers cannot get
+any supply of the products that they would like to sell
+on the marketplace. When the 3P marketplace does
+not exist, the retailer has no ability to influence its outside option. If bargaining between the manufacturer
+and the retailer fails, the retailer’s outside option is
+zero. On the other hand, the manufacturer’s outside
+option is equal to the monopoly profit from selling
+the 1P product (recall that the manufacturer can sell
+its product just as efficiently as the retailer). Furthermore, absent the 3P marketplace, there are no gains
+from trade and the manufacturer always makes
+the same profit—the monopoly profit—regardless of
+whether it sells through the retailer or directly to
+consumers.
+From the retailer’s perspective, the strategic
+value of the 3P marketplace is now clear: if the 3P
+
+1943
+
+marketplace exists, then the retailer has an outside
+option. Furthermore, because the retailer commits to
+the marketplace transaction fee (and therefore to the
+3P price) before bargaining with the manufacturer,
+the retailer can influence the outside options of both
+players and therefore can influence the outcome of
+the bargaining game. The marketplace, therefore,
+plays a strategic role in improving the bargaining
+position of the retailer. Because the 3P marketplace
+tilts the bargaining game in its favor, the retailer has
+an incentive to introduce a 3P marketplace. Conversely, the 3P marketplace hurts the manufacturer.
+The manufacturer would want to prevent the 3P
+marketplace from carrying competing products
+while the retailer has an incentive to continue carrying these products.
+But what is the impact on total channel profits (producer surplus) and on consumer surplus? To answer
+this question, first note that the monopoly profit that
+the manufacturer would earn in the absence of the 3P
+marketplace is given by p1q1 where p1 = 1q1. (This is
+from the Mussa–Rosen utility model with q3 set to
+zero—see section 3.1.) The manufacturer’s monopoly
+price and quantity are both equal to 12, and the monopoly profit is equal to 14. This is the same profit that the
+manufacturer would earn even if it sold through
+the retailer. Since total channel profits are identical to
+the manufacturer’s outside option, the manufacturer
+keeps the entire channel profits, equal to 14, and retailer’s profit is zero.
+Compare these profits with the equilibrium manufacturer and retailer bargaining profits, PR and PM ,
+in Equation (6). Note also that total supply chain
+profit under bargaining is PSC ¼ PR þ PM ¼
+ð1aÞð16þa2 2 4að1þ2ÞÞ
+að2aÞ2
+¼ 14  4ð2ð2aÞaÞ
+2.
+4ð4að2þÞÞ2
+*
+
+Comparing chan-
+
+nel profits under bargaining, Π , with the channel
+profits without the 3P marketplace, 14, we can see that
+the 3P marketplace does the following: (1) it increases
+the retailer profit from zero to a positive value, PR ; (2)
+it reduces the manufacturer profit from 14 to PM \ 14,
+and (3) it reduces total channel profits (producer surplus) from 14 to PSC \ 14. This leads us to the following
+result, which is also illustrated in Figure 2(a).
+PROPOSITION 1. Introduction of the 3P marketplace
+increases the retailer’s profit, decreases the manufacturer’s
+profit and decreases channel profits.
+The above proposition summarizes the strategic
+role of the 3P marketplace. Since the retailer always
+benefits from the 3P marketplace, and because the
+retailer makes the decision about whether to open a
+3P marketplace or not, it can explain why 3P marketplaces are being increasingly adopted by retailers like
+Amazon, Walmart, Sears, Best Buy and others. Note
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+
+1944
+
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+that even a retailer with a high bargaining power will
+benefit from opening a 3P marketplace because,
+absent the marketplace, the retailer makes zero profit.
+Similarly, since 3P marketplaces reduce manufacturer
+profit, it is clear that manufacturers will want to prevent 3P marketplaces by disallowing 3P sales. This is
+consistent with the observation that several brandname manufacturers, including Adidas and others,
+have banned 3P sales of their products. For some
+manufacturers, however, preventing 3P sales may be
+impossible. For example, book publishers have to
+contend with used-book sales, which is much harder
+to disallow.
+It is also worth observing that the 3P marketplace reduces channel profits. The logic is straightforward. By creating downstream competition, the
+manufacturer’s monopoly pricing power is reduced
+and this leads to lower channel profits. It is possible that the manufacturer and retailer could agree
+on a coordinating contract, for example one where
+the retailer receives a fixed fee equal to its outside
+option. The manufacturer would, in effect, pay the
+retailer to forgo the 3P marketplace. But once the
+retailer forgoes the 3P marketplace, the manufacturer could seek to renegotiate the contract to
+avoid paying the fixed fee. In other words, for the
+retailer’s outside option to be credible, the retailer
+arguably needs to maintain an active 3P marketplace (and not merely hold the threat of starting
+one). Also, the strategic impact of the 3P marketplace is not limited to the bargaining agents in
+the channel. The effect also extends to the consumers. By increasing competition, lowering the
+price of the manufacturer’s product, and increasing choice for consumers, the 3P marketplace
+increases consumer surplus. This is evident from
+Figure 2(b).
+5.2. Impact of Retailer Bargaining Power
+Figure 2(a) also illustrates an unexpected result. Note
+that, when the 3P marketplace exists, both the retailer’s and the manufacturer’s profit are increasing in
+the retailer’s bargaining power k. The intuition for
+this result is as follows: As the retailer’s bargaining
+power increases, the retailer is less concerned with
+the outside option. Consequently, a retailer with high
+bargaining power commits to a higher 3P product
+@p
+
+price ( @3 [ 0), which improves the channel profit as
+it lessens competition between the two types of products. This pricing choice made by the powerful retailer allows the manufacturer to sell more units of its
+(1P) product under the outside option outcome
+@qO
+M
+@
+@pO
+( @M
+
+(
+
+[ 0) even as it raises the price of its product
+[ 0). This improvement in the manufacturer’s
+
+outside option is greater than the loss of profit from
+the bargaining process due to its decreased bargaining power.
+PROPOSITION 2. When the retailer commits to the marketplace transaction fee, T ¼ p3 , before bargaining with
+the manufacturer, both the retailer’s and the manufacturer’s profits are increasing in k.
+PROOF.
+@PM
+@
+
+¼
+
+@PR
+@
+
+¼
+
+ð1aÞa2
+4ð2aþa4Þ2
+
+ð1aÞa2 ð3a2a4Þ
+4ð2aþa4Þ3
+
+[ 0 and
+
+[ 0.
+
+h
+
+In other words, if the manufacturer cannot block the
+3P marketplace, then the manufacturer’s bargaining
+power is irrelevant. The manufacturer would be better
+off by simply letting the retailer set the terms of the
+contract. In other words, this result can be interpreted
+to imply that, when the 3P marketplace exists, the manufacturer wants the retailer to act as the principal in
+this game. We can also think in terms of the allocation
+of decision rights. Our result implies that, when a 3P
+marketplace exists, it is optimal for the manufacturer
+to allocate the right to offer a contract to the retailer.
+We next look at the impact of retailer bargaining
+power on consumers. As noted earlier, the 3P marketplace increases consumer surplus. But note also that,
+according to Figure 2(b), the consumer surplus is
+declining with the retailer’s bargaining power, k. This
+is because a more powerful retailer relies less on the
+outside option and will focus, instead, on the bargaining outcome. As the retailer can extract more surplus
+from the channel’s profits, it will internalize and dampen price competition, ultimately hurting consumers
+(note that the surplus is constant in k when there is no
+3P marketplace).
+PROPOSITION 3. In the presence of a 3P marketplace,
+consumer surplus is decreasing in k.
+
+PROOF. Let CS1 and CS3 denote the consumer surplus from 1P and 3P
+R 1 sales, respectively. We have
+that CS1 ðp1 ; p3 ; aÞ ¼ i ði  p1 Þdi and CS3 ðp1 ; p3 ; aÞ
+R i
+¼ i ðia  p3 Þdi. Thus, total consumer surplus is
+given by CSðp1 ; p3 ; aÞ ¼ CS1 ðp1 ; p3 ; aÞ þ CS3 ðp1 ; p3 ; aÞ
+p23 2p1 p3 aþð1þp21 þ2p1 ð1þaÞaÞa
+. By Equation (5), p3 ¼
+2ð1aÞa
+að1aÞ
+T  ¼ 4ð2þÞa, and recalling that the optimal p1
+under bargaining is 12 ð1 þ 2T  aÞ ¼ 12 ð1  a þ
+2ð1aÞa
+2ð1aÞa
+we have that CSð12 ð1  a þ 4að2þÞ
+Þ;
+4að2þÞÞ,
+3
+2
+2
+að1aÞ
+16það48Þþa ð4þ3Þþa ð412þ Þ
+. The first
+4ð2þÞa ; aÞ ¼
+8ð4það2þÞÞ2
+2
+ð1þaÞa ð3þaþaÞ
+, is negative (for
+derivative @CS
+@ ¼
+ð4það2þÞÞ3
+
+¼
+
+0 < a < 1 and 0 < k < 1)
+
+h
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+Figure 2
+
+1945
+
+Profits and Consumer Surplus With and Without a 3P Marketplace. (a) Retailer, Manufacturer and Channel Profits. (b) Consumer Surplus
+
+(a)
+
+This result is in contrast to the prediction of the
+“countervailing-power hypothesis” (Chen 2003) that
+powerful retailers will extract surplus from upstream
+manufacturers and this will benefit consumers. Chen
+(2003) model also has an upstream manufacturer, a
+large downstream retailer and a competitive fringe of
+smaller retailers. If the dominant retailer extracts
+more surplus from the manufacturer, the manufacturer counters by increasing supply to the competitive
+fringe which results in lower prices for customers. In
+our model, the competitive fringe (i.e., 3P marketplace) is controlled by the retailer. As a result, when
+the retailer’s bargaining power increases, the retailer
+restricts supply of 3P products by raising fees for marketplace sellers. This hike in fees hurts 3P product
+availability and thereby hurts consumer surplus.
+5.3. Implications of our Results
+Given the stylized nature of our model, our results
+have to be interpreted with care. However, there are
+some themes that emerge from the preceding discussion. For retailers, our results indicate that setting up
+3P marketplaces is beneficial because it weakens the
+manufacturer in the channel bargaining game by
+improving the retailer’s outside option and reducing
+the manufacturer’s outside option. In other words,
+the reason that retailers should (and do) open 3P marketplaces is not just because of the revenue that this
+brings in. But it is also the impact that the 3P marketplace has on the off-equilibrium payoffs—by chang-
+
+(b)
+
+ing the outside options of the two firms, the retailer
+can extract more of the channel profits.
+For manufacturers, especially strong brands that
+have monopoly power, our results indicate that 3P
+marketplaces are a source of competition that negatively affects their profit. It therefore makes sense that
+manufacturers would try and prevent 3P sellers from
+gaining access to its products. This is what we
+observe some manufacturers doing. Some manufacturers, however, may not be able to prevent 3P sales.
+As noted earlier, book publishers have limited power
+to prevent used book sales. In these cases, our results
+indicate that the manufacturers have no choice but to
+acquiesce to the terms that the retailer sets. This follows from Proposition 2—both firms’ profits are
+increasing in the retailer’s bargaining power. In other
+words, if the manufacturer cannot shut down the 3P
+marketplace, it is best to make peace with the retailer
+and accept its terms.
+Finally, from a public policy perspective, our
+results indicate that 3P marketplaces are good for consumers. It weakens the pricing power of manufacturers, reduces prices, and increases choice for
+consumers. This is consistent with the argument that
+Amazon has made—that the reason they open 3P
+marketplaces is to provide customers with more convenience and choice. Our results indicate that retailers
+have a strategic interest in opening 3P marketplaces—
+it places the retailer at a bargaining advantage over a
+monopoly manufacturer. The positive impact that 3P
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+
+1946
+
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+marketplaces have on consumers is a happy byproduct.
+
+6. Extensions
+In this section, we relax some of the assumptions of
+our basic model. These extensions demonstrate that
+the insights from our paper continue to hold under a
+wider range of assumptions.
+6.1. Two-Period Model with Used Products Sold
+on the 3P Marketplace
+In our basic model, we assumed that a supply of 3P
+goods always exists. In practice, marketplace sellers
+often sell used goods. To account for these dynamics,
+we consider a two-period selling horizon with two
+independent cohorts of consumers in each of the periods. In the first period, only the new product is available in the market. Some, or all, of the units sold in
+the first period may be resold by the marketplace sellers in the second period as used products.11
+The demand for new product in the first period as
+well as the new and used products in the second period are:
+q11 ¼ 1  p21 ;
+q23 ¼
+
+q21 ¼ 1 
+
+
+ ;
+1a
+a
+
+p21
+
+p23
+
+p23
+
+
+;
+1a
+
+p21
+
+p23
+
+and
+
+ð7Þ
+
+respectively, where the superscripts 1 and 2 denote
+the corresponding periods. Since the used products
+sold in the second period are derived from the
+amount of new products sold in the first period, we
+further impose the following constraint: q23 \ q11 :12
+The bargaining process is similar to that defined
+earlier, with the exception that now the two players,
+the manufacturer and the retailer, negotiate the terms
+for the two periods. Prior to entering the bargaining
+process, the retailer commits to the marketplace transaction fee to be charged to the fringe sellers using the
+3P marketplace in the second period. The Nash bargaining solution with this quantity forcing contract is
+the triplet of w1, q11 , and q21 which solves:
+max ½ lnðPR  DR Þ þ ð1  Þ lnðPM  DM Þ:
+
+w1 ;q11 ;q21
+
+ð8Þ
+
+Note that the retailer’s outside option consists of
+profit from selling the new product in both the first
+and second periods, while the retailer serves as a
+platform for the used product only in the second
+period.
+Solving the model in the same fashion carried out
+að1aÞ
+in section 4, the resulting profits are PR ¼ 4ð42aaÞ
+and
+
+PM ¼
+
+2a3 a3 2 a3 þ14a2 þ13a2 þ22 a2 40a16aþ32
+,
+4ð42aaÞ2
+
+which yield the same result stated in Proposition 2.
+Specifically, as in section 4, both players are better off
+as the retailer has greater bargaining power.
+6.2. Non-Zero Marginal Production Cost for
+Manufacturer
+In this section, we consider the case where the per
+unit cost of the manufacturer’s product, c1, is positive.
+We focus our attention only on the impact on Proposition 2. Specifically, we investigate whether the manufacturer is still better off when the retailer’s
+bargaining power increases.
+3a2aþ4
+PROPOSITION 4. As long as c1 \ 3a 2a
+, the
+1210aa
+manufacturer’s profit increases as the retailer’s bargaining power increases.
+2
+
+2
+
+PROOF. Considering a marginal cost c1, the manufacturer’s outside option and profit become
+B
+O
+O
+B
+DO
+M ¼ ðp1  c1 Þq1 and PM ¼ ðw1  c1 Þq1 , respectively. Solving the model following the same steps
+as in section 4, we find that the optimal T is
+1Þ
+T ¼ að1aþc
+Consequently, we have PR ¼
+4ð2þÞa .
+að1aþc1 Þ2
+4ð42aaÞð1aÞ
+2
+4
+
+and PM ¼
+
+X
+, where X ¼
+4ð42aaÞ2 ð1aÞ
+ðþ  þ 2Þa þ ð2c1 2 þ 10c1  þ 4c1  22  1012Þa3
+þð2c1 2 þ 5c21  þ 2 þ c21 2 þ 10c21  36c1 þ 34 þ 17
+26c1 Þa2 þ ð24c21 ;40  8c21 64c1  8 þ 16c1 Þa;þ16
+@PM
+We
+now
+have
+þ16c21  32c1 .
+@ ¼
+a2 ð1aþc1 Þð3a2 2a2 þ10ac1 þc1 a3a2aþ412c1 Þ
+.
+Since
+the
+4ð42aaÞ3 ð1aÞ
+
+denominator is positive and the first two terms in
+@P
+the numerator are positive as well, @M [ 0 if
+3a2aþ4
+.
+c1 \ 3a 2a
+1210aa
+2
+
+2
+
+h
+
+Proposition 4 characterizes the effect of c1 ≥ 0. This
+result is relatively robust with respect to the unit cost
+of the manufacturer’s product, as it holds for a wide
+range of values. Specifically, there exists a threshold
+value of c1 below which the manufacturer is better off
+when the retailer’s bargaining power k increases.
+Also, this threshold value of c1 decreases in a. Indeed,
+a sufficiently high unit cost of the manufacturer’s
+product drives the prices of these products higher
+and squeezes the profit margin of the manufacturer
+(and this effect is more pronounced when the quality
+of the 3P product, a, is higher) and lessens its outside
+option.
+6.3. Non-Zero Marginal Cost for Manufacturer
+Pursuing Outside Option
+Recall our assumption that the manufacturer’s alternative channel, i.e., outside option, is as efficient as
+selling through the retailer. But, in practice, the
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+Figure 3
+
+1947
+
+The Manufacturer’s Bargaining Profit When s ≥ 0. (a) a = 0.25 (b) a = 0.75
+
+(a)
+
+retailer’s channel is likely to be more efficient and the
+manufacturer is likely to incur a higher cost if he has
+to distribute its product through its alternative channel. In this section, we assume that the manufacturer
+incurs a per-unit distribution cost s when bargaining
+fails and it needs to sell the product independently.
+Figure 3 illustrates the effect of s.
+This figure reveals that Proposition 2 continues to
+hold as long as the additional per unit distribution
+cost, s, is not too high. The intuition is straightforward.
+Suppose the incremental cost s is very high. This
+would make the manufacturer’s outside option very
+unattractive. In this case, whatever the bargaining
+power of the retailer, it has less need to use the 3P
+marketplace as a bargaining chip. This will lead us
+closer to the traditional bargaining result—as the
+retailer’s bargaining power increases, the manufacturer’s profit decreases. Interestingly, we notice that in
+Panel (b) of Figure 3, there is a range where the manufacturer’s profit decreases and then increases in k.
+6.4. Other Extensions
+The stylized model that we consider in this paper
+suppresses many features that are observed in practice. In this section, we briefly discuss the implications
+of considering some of these other features. Details of
+these extensions are available in an Online appendix
+that accompanies this paper.
+One common, and perhaps surprising, feature of
+dual-format retailing is that some “new” products
+sold directly by the retailer are also available on the
+3P marketplace. A new Nikon camera may be sold by
+
+(b)
+
+Amazon, and may also be available from other electronic retailers who use Amazon’s platform. In this
+setting, the manufacturer has some ability to influence
+the 3P marketplace through the wholesale price it
+charges the 3P sellers. We model this extension
+(Appendix S1), and show that a version of Proposition
+2 continues to hold.
+Another feature of our stylized model is the use of
+the Mussa–Rosen demand framework, which is an
+address or location based model. To check the sensitivity of our results to alternative demand systems,
+we also analyze a (quadratic utility) linear demand
+model. As we show in Online Appendix S2, our key
+results are not sensitive to changes in the demand
+specification.
+Lastly, recall our assumption that the retailer commits to the 3P marketplace transaction fee before bargaining with the manufacturer. We justify this
+assumption because, as discussed earlier, it is difficult
+for the retailer to negotiate and renegotiate contracts
+with multiple used product sellers. Also, this is what
+is observed in practice: Amazon specifies the payment
+terms for 3P marketplace sellers up front, and sticks
+to these terms regardless of the outcome of the bargaining game. But what if this sequence of events
+were to be altered? We show (Appendix S3) that a
+powerful retailer would want to alter this sequence of
+events, i.e., it would not want to commit to the marketplace transaction fee ex ante. The intuition is that a
+powerful retailer has no need to use the 3P marketplace strategically, whereas a weak retailer would
+prefer to make such a commitment ex ante.
+
+1948
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+
+7. Conclusions
+The adoption of 3P marketplaces by retailers has created channel conflicts between these retailers and
+upstream manufacturers. In this paper, we show that
+a 3P marketplace plays a critical strategic role in the
+negotiation between a dual-format retailer and a manufacturer. Third-party marketplaces benefit retailers
+and hurt manufacturers. Total channel profit (producer surplus) is reduced, while consumers benefit.
+These results are consistent with evidence that many
+retailers are opening 3P marketplaces, and manufacturers are trying to limit 3P sales of their products.
+Interestingly, if the manufacturer cannot limit sales
+by 3P sellers, then the manufacturer would prefer that
+the right to offer a contract is allocated to the retailer.
+This is because, as the retailer’s bargaining power
+increases, it will seek to maximize total profit by limiting competition between the 3P and 1P markets. This
+ends up benefiting the manufacturer.
+The emergence of dual-format retailing offers several other avenues for further research. One issue is
+that the presence of a variety of sellers on the 3P marketplace could give rise to price dispersion for some
+products. In fact, price dispersion can be observed on
+Amazon Marketplace by looking at the prices charged
+by 3P sellers. Price dispersion has been studied extensively in the literature and theories (such as Baye and
+Morgan 2001, Varian 1980) have been developed to
+explain the existence of price dispersion (e.g., through
+search frictions, switching costs, and heterogeneous
+demand). Abstracting away from the phenomenon of
+price dispersion on the 3P marketplace, our model
+implicitly assumes that marketplace sellers set a single market clearing price.
+A second issue is that some 3P sellers may not be
+price takers and may be able to bargain with the
+dual-format retailer for improved contract terms.
+Also, a manufacturer who is unable to completely
+restrict 3P sales may try to influence the 3P market
+as a way to mitigate the retailer’s strategic behavior.
+For example, the manufacturer could sell both
+through the retailer and through 3P sellers—potentially influencing the platform price and benefiting
+from platform sales. As 3P marketplaces evolve, we
+expect to see manufacturers and dual-format retailers vying for control over the 3P marketplace
+because the controlling firm is in a position to tilt
+the bargaining outcome in its favor.
+
+Acknowledgments
+The authors thank Yigal Gerchak, Daniel Granot, Eran
+Hanany, Mahesh Nagarajan and Charles Weinberg, as well
+as the participants of the Product and Service Innovation
+conference, the INFORMS Marketing Science conference,
+
+and seminar participants at the Richard Ivey School of Business and the Indian School of Business for their valuable
+comments and suggestions.
+
+Notes
+1
+
+Note that by “bargaining power,” we refer to the bargaining “ability” of the players and not to their market powers. As in existing models of channel bargaining, we
+assume that this bargaining power is predetermined and
+known to channel players before the bargaining starts. In
+reality, there can be many sources of bargaining power
+(e.g., negotiation skills of managers). Further interesting
+discussions on some of these sources of bargaining power
+are provided by Iyer and Villas-Boas (2003), Kuksov and
+Pazgal (2007), and Draganska et al. (2010).
+2
+In many cases, manufacturers have tried to minimize
+competition from the 3P sellers by insisting on minimum
+advertised pricing (MAP). Under MAP, 3P sellers are not
+allowed to advertise prices lower than those approved by
+the manufacturer. The MAP strategy has been adopted
+thus far by LG, Sony, Sharp, and Samsung among others.
+As reported by Tarr (2012): “LG [is] opting [. . .] to restrict
+selling by third parties through marketplace sites on large
+retail portals like Amazon and Sears.com.”
+3
+In reality, sellers sometimes pay a per-unit fee as well as a
+fixed percentage of the sale price (a revenue share). See, for
+example, http://www.amazon.com/gp/help/customer/
+display.html?nodeId=1161232.
+4
+The bargaining setup captures, at the limit of bargaining
+power (k = 0 and k = 1), the often-used marketing channel
+and supply chain models based on a principal-agent
+framework with a take-it-or-leave-it offer. For example, in
+Shaffer (1991), the downstream retailer acts as the principal (k = 1); on the other hand, Tirole (1988) in his design
+of two-part tariff contract assumes the upstream manufacturer as the principal (k = 0).
+5
+Note that the failure of bargaining is an “off-equilibrium” outcome, i.e., bargaining will be successful in
+equilibrium. The outside options, however, will affect
+the equilibrium profits of both players.
+6
+In section 6, we illustrate the behavior of the model when
+c1 > 0.
+7
+The proposed contract design is equivalent to quantity
+forcing contracts employed, for example, by Marx and
+Shaffer (2010) and O’Brien and Shaffer (2005). Alternatively, we could have assumed that the firms bargain over
+the wholesale price only, as in Iyer and Villas-Boas (2003).
+But the contract we analyze allows us to focus on the bargaining issues (splitting the pie) without introducing the
+additional complication that arises due to the double marginalization that would accompany a standard wholesale
+price only contract. Besides, one can argue that since the
+manufacturer and retailer can recognize the inefficiency
+introduced by a wholesale price only contract, they would,
+as rational agents, choose to expand the space of bargaining parameters to achieve efficiency. Further justification
+for adopting a contract with two terms is provided by
+Krishnan and Winter (2007).
+8
+In section 6.3, we discuss the impact of relaxing this
+assumption.
+
+Mantin, Krishnan, and Dhar: Strategic Role of Third-Party Marketplaces
+Production and Operations Management 23(11), pp. 1937–1949, © 2014 Production and Operations Management Society
+9
+
+See
+http://www.amazonservices.com/content/sell-onamazon.htm?ld=AZBASOACTO.
+10
+Once the 3P product is priced out of the market in the
+outside option outcome (by setting T ¼ að1aÞ
+2a leading to
+a
+qO
+¼
+0),
+a
+positive
+quantity
+of
+of
+the
+3P product is
+3
+2ð2aÞ
+still expected to be sold under the bargaining outcome.
+This occurs as the manufacturer competes fiercely in the
+outside option outcome as to reduce the retailer’s outside
+option, whereas under the bargaining outcome, this competition is internalized by the retailer.
+11
+We assume that the consumers, when considering a purchase in the first period, do not account for the surplus
+that may arise from reselling the product in the second
+period. Regardless, consumers, as they emerge as marketplace sellers in the second period, make zero profit from
+the marketplace transaction.
+12
+We note that when this constraint is binding, that is,
+when q23 ¼ q11 , no decision is required in the second period
+as both the quantity and price of the used good are
+known (where the latter is determined from the retailer’s
+commitment to the marketplace transaction fee) and,
+hence, the corresponding price and quantity of the new
+product can be calculated from Equation (7).
+
+References
+Alberge, D. 2008. Amazon uses all its might to wage price war
+against publisher. The Times (London). July 19.
+Baye, M. R., J. Morgan. 2001. Information gatekeepers on the internet and the competitiveness of homogeneous product markets. Am. Econ. Rev. 91: 454–474.
+Barr, A. 2012. Brands Cry Foul Over Unauthorized Sellers on
+Amazon. Reuters. Available at http://www.reuters.com/article/2012/10/23/us-amazon-sellers- idUSBRE89M1CT20121023
+(accessed date March 27, 2013).
+Carvajal, A. 2008. Small publishers feel power of Amazon’s ‘buy’
+button. N. Y. Times, June 16.
+Chen, Z. 2003. Dominant retailers and the countervailing-power
+hypothesis. RAND J. Econ. 34(4): 612–625.
+Draganska, M., D. Klapper, S. B. Villas-Boas. 2010. A larger slice
+or a larger pie? An empirical investigation of bargaining
+power in the distribution channel. Mark. Sci. 29(1): 57–74.
+Dukes, A. J., E. Gal-Or, K. Srinivasan. 2006. Channel bargaining
+with retailer asymmetry. J. Mark. Res. 43(2): 84–97.
+Feng, Q., L. X. Lu. 2012. The strategic perils of low cost outsourcing. Manage. Sci. 58(6): 1196–1210.
+Frishberg, M. 2000. Authors Hate Feeling Cheap, Used. Wired Magazine. Available at http://www.wired.com/print/techbiz/
+media/news/2000/12/40886 (accessed date December 2000).
+Ghose, A., M. D. Smith, R. Telang. 2006. Internet exchanges for
+used books: An empirical analysis of product cannibalization
+and welfare Impact. Inf. Syst. Res. 17(1): 3–19.
+Gilbert, S. M., Y. Xia, G. Yu. 2006. Strategic outsourcing for competing OEMs that face cost reduction opportunities. IIE Trans.
+38(11): 903–915.
+Iyer, G., J. M. Villas-Boas. 2003. A bargaining theory of distribution channels. J. Mark. Res. 40(2): 80–100.
+
+1949
+
+Jiang, B., K. Jerath, K. Srinivasan. 2011. Firm strategies in the “Mid
+Tail” of platform-based retailing. Mark. Sci. 30(5): 757–775.
+Krishnan, H., R. A. Winter. 2007. Vertical control of price and
+inventory. Am. Econ. Rev. 95(5): 1840–1857.
+Kuksov, D., A. Pazgal. 2007. The effects of cost and competition
+on slotting allowances. Mark. Sci. 26(2): 259–267.
+Liu, Y., R. K. Tyagi. 2011. The benefits of competitive upward
+channel decentralization. Manage. Sci. 57(4): 741–751.
+McGuire, T. W., R. Staelin. 1983. An industry equilibrium analysis
+of downstream vertical integration. Mark. Sci. 2(2) 161–191.
+Marx, L. M., G. Shaffer. 2010. Slotting allowances and scarce shelf
+space. J. Econ. Manage. Strat. 19 (3): 575–603.
+Morton, F. S., F. Zettelmeyer. 2004. The strategic positioning of
+store brands in retailer-manufacturer negotiations. Rev. Ind.
+Organ. 24: 161–194.
+Miller, M. J. 2012. The Other Shoe Drops: Adidas, Nike and Asics
+Ban eBay and Amazon. brandchannel.com. Available at
+http://www.brandchannel.com/home/post/2012/07/12/Adi
+das-Nike-Asics-Ban-eBay-Amazon-071212.aspx (accessed date
+March 27, 2013.
+Mussa, M., S. Rosen. 1978. Monopoly and product quality. J. Econ.
+Theory. 18(08): 301–317.
+Muthoo, A. 1999. Bargaining Theory with Applications. Cambridge
+University Press, Cambridge.
+Narasimhan, C., R. T. Wilcox. 1998. Private labels and the channel
+relationship: A cross category analysis. J. Bus. 71(4): 573–600.
+O’Brien, D. P., G. Shaffer. 2005. Bargaining, bundling, and clout:
+The portfolio effects of horizontal mergers. RAND J. Econ.
+36(9): 573–595.
+Rochet, J.-C., J. Tirole. 2006. Two-sided markets: A progress
+report. RAND J. Econ. 37(09): 645–667.
+Ryan, J. K., D. Sun, X. Zhao. 2012. Competition and coordination
+in online marketplaces. Prod. Oper. Manag. 21(6): 997–1014.
+Shaffer, G. 1991. Slotting allowances and resale price maintenance:
+A comparison of facilitating practices. RAND J. Econ. 22: 120–
+136.
+Stone, B. 2009. Can Amazon be the wal-mart of the web? N. Y.
+Times September 20.
+Tarr, G. 2012. LG Imposes Online UPP Restrictions. TWICE, Available at http://www.twice.com/articletype/news/lg-imposesonline-upp-restrictions/103090 (accessed date April 14, 2013.
+Tirole, J. 1988. The Theory of Industrial Organization, MIT Press,
+Cambridge, Massachusetts.
+Varian, H. R. 1980. A model of sales. Am. Econ. Rev. 70(4): 651–659.
+Weise, K. 2013. Company News: Wal-Mart, Verizon, Time Warner, Microsoft, News Corp. Bloomberg Businessweek. Available at http://www.businessweek.com/articles/2013-03-07/
+company-news-wal-mart-verizon-tblime-warner-microsoftnews-corp-dot (accessed date March 28, 2013).
+
+Supporting Information
+Additional Supporting Information may be found in the
+online version of this article:
+Appendix S1: 1P New—3P New—3P Used Model.
+Appendix S2: Quadratic Utility.
+Appendix S3: Contingent Contract.
+
+

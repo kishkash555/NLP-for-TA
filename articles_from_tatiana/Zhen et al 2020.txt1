@@ -1,0 +1,2542 @@
+Transportation Research Part E 133 (2020) 101820
+
+Contents lists available at ScienceDirect
+
+Transportation Research Part E
+journal homepage: www.elsevier.com/locate/tre
+
+Manufacturer’s financing strategy in a dual-channel supply chain:
+Third-party platform, bank, and retailer credit financing
+
+T
+
+Xueping Zhena, Dan Shib, , Yongjian Lic, , Chu Zhangd
+⁎
+
+⁎
+
+a
+
+Department of Management Science and Engineering, School of Economics and Management, Shanghai Maritime University, Shanghai 201306, China
+Department of E-Commerce, School of Business, Dalian University of Technology, Panjin 124221, China
+Department of Management Science and Engineering, School of Business, Nankai University, Tianjin 300071, China
+d
+Department of Management Science and Engineering, School of Economics and Management, Beihang University, Beijing 100191, China
+b
+c
+
+ARTICLE INFO
+
+ABSTRACT
+
+Keywords:
+Third-party platform credit financing
+Retailer credit financing
+Capital constraint
+Dual-channel supply chain
+
+The third-party platform channel has been widely used in addition to the traditional retail
+channel to sell products. In practice, some third-party platforms provide financing services to
+small businesses that sell products on them. However, few studies addressed the capital constraint problem faced by a manufacturer who sells products through both retailers and thirdparty platforms, especially when considering the third-party platform’s lending service behavior.
+This research establishes a model where a capital-constrained manufacturer sells products
+through a retailer and a third-party platform and may pursue a financing strategy by borrowing
+from the third-party platform (3PF), the retailer (RF), or the bank (BF). We investigate the impact
+of the third-party platform’s or retailer’s dual role—lending provider and channel participant—on dual-channel operational management and study the manufacturer’s financing strategy
+choices by comparing profits under different financing strategies. The results of our analysis show
+that for the manufacturer, the 3PF strategy is always better than the BF strategy. Furthermore,
+the manufacturer is more likely to prefer the RF strategy to the 3PF strategy as the channel
+competition increases or as the revenue sharing rate or unit production cost decreases. We also
+find that the retailer’s retail price increases as the revenue sharing rate increases if there is no
+capital constraint, but it decreases under the BF and 3PF strategies. This indicates that the
+manufacturer’s financing behavior has a significant impact on the retailer’s retail price decision.
+We extend our model by considering random demand and find that these findings continue to
+hold when the potential demand equals its expected value.
+
+1. Introduction
+With the increasing prevalence of online retailing, many upstream manufacturers are able to engage in direct selling in addition to
+their existing traditional channel. While paying a fee to a third-party platform to access online customers, they can make decisions
+regarding key factors, such as retail price, without investing in stores or a website. Indeed, third-party platforms, such as Taobao in
+China (Bonfils, 2012), Flipkart in India (Tiwari, 2014), and Amazon in the United States (Barr, 2012), have embraced this widely.
+Moreover, lack of funding for business development can be a challenge that hinders growth. Thus, some third-party platforms provide
+lending services to manufacturers or suppliers selling products on them. For instance, firms selling goods on Amazon can obtain loans
+Corresponding authors.
+E-mail addresses: zhxueping842@163.com (X. Zhen), shidan56@dlut.edu.cn (D. Shi), liyongjian@nankai.edu.cn (Y. Li),
+zhangchu@buaa.edu.cn (C. Zhang).
+⁎
+
+https://doi.org/10.1016/j.tre.2019.101820
+Received 10 May 2019; Received in revised form 4 December 2019; Accepted 5 December 2019
+Available online 12 December 2019
+1366-5545/ © 2019 Elsevier Ltd. All rights reserved.
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+from the company ranging from $1,000 to $750,000 for up to a year, with annual interest rates ranging from 6% to 17% (Dean,
+2017). Alibaba, the owner of Taobao.com, provides loans to small foreign and domestic business-to-business (B2B) enterprises operating on Taobao.com (Interfax, 2011). San Diego-based food and beverage maker LonoLife has been selling on Amazon since 2016
+in addition to its traditional channel, and it was offered a line of credit about a year later. According to the president of LonoLife Inc.,
+“Customers expect to be able to buy LonoLife on Amazon. The loan from Amazon Lending gave LonoLife the ability to procure bulk
+raw materials and packaging to build inventory to keep up with incredible customer demand” (Terzo, 2017). The third-party platform’s lending service may affect both the manufacturer’s direct channel and traditional channel operations. As a participant in the
+manufacturer’s direct channel, the third-party platform’s joint consideration of the lending and operation management increases the
+complexity in the decision-making process.
+How a third-party platform’s dual role of lending and participating in a direct channel influences a manufacturer’s dual-channel
+management is an open question. A third-party platform must balance interest income and revenue sharing payments from the
+manufacturer when it sets its interest rate. A high interest rate may increase lending income, but reduce the quantity of products sold
+on the platform. The manufacturer’s wholesale price and selling price decisions are affected by the third-party platform’s lending
+policy, which then affects the retailer’s pricing decision in the traditional channel. Channel competition makes the problem more
+complex. Therefore, it is crucial to understand how borrowing from a third-party platform affects a manufacturer’s and a retailer’s
+pricing decisions and the collective effects on their profits in a dual-channel supply chain.
+In addition to the lending provided by a third-party platform, a brick-and-mortar retailer, as a downstream firm, may lend to a
+capital-constrained manufacturer. For instance, Li & Fung (www.lifung.com), the largest fashionable goods trading company in Hong
+Kong, provides financial assistance, such as lines of credit and loans, to its suppliers, ensuring continued production and delivery
+(Tang et al., 2017). Furthermore, Rolls-Royce lends money to suppliers that cannot access bank finance (Salmon, 2012). A Hong
+Kong-based supply chain intermediary specializing in the apparel sector procures fabrics for its suppliers and treats procurement costs
+as interest-bearing loans (Cheng, 2015). As a key participant in a dual-channel supply chain, the retailer may benefit from an increase
+in the manufacturer’s selling price in the direct channel due to the financing cost and interest income, but may also be hurt by the
+manufacturer’s wholesale price increase in the traditional channel. Thus, it is essential to assess the influence of the retailer’s interest
+decision on its retail pricing and the manufacturer’s decisions regarding the selling price and the wholesale price.
+A manufacturer with capital constraints may get access to three types of financing: third-party platform credit financing (3PF),
+retailer credit financing (RF), or bank credit financing (BF). Under the 3PF strategy, the manufacturer obtains credit from the thirdparty platform to produce products at an interest rate, but also directly sells products on the third-party platform. Under the RF
+strategy, the manufacturer sells products to the retailer at a wholesale price, but also receives a loan from the retailer. Thus, a
+question naturally arises: Which type of financing is best for a capital-constrained upstream firm (a manufacturer in our study)? We
+extended the existing theoretical research by considering the 3PF and RF strategies in a dual-channel supply chain. We investigate
+two important research questions:
+(1) How does a third-party platform’s or a retailer’s dual role—lending provider and channel participant in a dual-channel supply
+chain—affect a manufacturer’s dual-channel operational management?
+(2) Which type of financing is best for the manufacturer? Or under what conditions can the manufacturer choose the 3PF strategy?
+To answer these questions, we establish a model in which a manufacturer with capital constraints sells his products through both
+a retailer and a third-party platform. The third-party platform and the retailer can provide lending services to the manufacturer.
+Therefore, the manufacturer can borrow from the third-party platform or the retailer in addition to the bank. The third-party platform
+or the retailer sets the interest rate and then the manufacturer determines the wholesale price and selling price. Finally, the retailer
+makes the retail price decision. Our theoretical analysis reveals that for the manufacturer, the 3PF strategy is better than the BF
+strategy. The manufacturer prefers the RF strategy to the BF strategy. In other words, the BF strategy is the worst one. We also find
+that if the revenue sharing rate is higher and the channel competition is lower, the 3PF strategy is more likely to be the best strategy.
+If there is no credit financing, the retailer’s optimal retail price increases as the revenue sharing rate increases. However, it decreases
+as the revenue sharing rate increases when the manufacturer borrows from the bank or the third-party platform. This implies that the
+manufacturer’s financing decision has a significant impact on the retailer’s pricing decision. We extend our model by assuming that
+the demand is random and find that the above results continue to hold when the manufacturer's inventory level is equal to the
+expected demand in the direct channel and the retailer's order quantity is equal to the expected demand in the retail channel.
+In the next section, we review the literature on supply chain finance and dual-channel supply chain before describing our theoretical model in Section 3. Subsequently, in Section 4, we analyze a case where the manufacturer is not capital constrained. The
+different financing strategies are discussed and compared in Sections 5 and 6, respectively. We present a sensitivity analysis in Section
+7 and the extension of our model in Section 8. In Section 9, we conclude the paper. All proofs are available in the Appendix.
+2. Literature review
+In this section, we review related work on supply chain finance and dual-channel supply chain. Although our work relates to a
+large number of studies on supply chain finance and dual-channel supply chain published in the past several decades, it is worth
+noting that few studies have examined the impact of the manufacturer’s capital constraint on dual-channel operation when the
+retailer or the third-party platform is both a participant and a lender. The literature on supply chain finance is vast, but most studies
+focus on issues other than the financing role of third-party platforms/retailers in a dual-channel supply chain.
+2
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+The literature on supply chain finance discusses two types of financing. One is external financing, where financial institutions
+outside of the supply chain, such as banks, third-party logistics, or other financial institutions, provide loans to capital-constrained
+firms. The other is internal financing, where a firm in the supply chain provides loans to its upstream/downstream firms, such as
+trade credit and buyer credit financing (Li et al., 2016b; Tang et al., 2017).
+Research on internal financing mainly studies trade credit financing, and most studies focus on operational decisions under trade
+credit (Peura et al., 2017; Zhang et al., 2018), contract design and coordination (Lee and Rhee, 2011), and credit risk (Kavussanos
+and Tsouknidis, 2016; Li et al., 2016a; Tsao, 2017). Our work complements these studies by identifying the effects of third-party
+platform credit financing and retailer credit financing—two types of internal financing—on operational management in a dualchannel supply chain. Moreover, we discuss how the dual role of the retailer or third-party platform affects pricing decisions.
+Most papers on external financing focus on how financing impacts inventory or operational management in a newsvendor setting
+and contract design/supply chain coordination. Caldentey and Haugh (2009) study the design of procurement contracts in a supply
+chain with two firms—a producer and a budget-constrained retailer. Kouvelis and Zhao (2015) study contract design and coordination in the presence of bankruptcy risks and costs when both the retailer and supplier borrow from the bank. Lee and Rhee
+(2011) study supply chain coordination when a retailer with capital constraints can borrow from a financial institution or a supplier.
+Unlike these papers that focus on a downstream firm’s capital constraint problem in a supply chain consisting of one manufacturer
+and one supplier, our study focuses on an upstream firm’s capital constraint problem in light of channel competition. It is significant
+to study how the upstream manufacturer’s capital constraint affects the dual-channel operation.
+Our work is closely related to the supply chain finance literature on firms’ financing equilibrium or preferences by comparing the
+sources of external and internal financing. For instance, Jing et al. (2012) investigate the financing equilibrium between bank credit
+and trade credit in a channel where the retailer is capital constrained. Kouvelis and Zhao (2017) also discuss how credit ratings affect
+firms’ financing choices—namely, trade credit or bank loan. Cai et al. (2014) investigate the retailer’s optimal borrowing strategy and
+the relationship between trade credit and bank loan under moral hazards. They also empirically validate their results using a panel of
+674 manufacturing firms in China over the period 2001–2007. Li et al. (2018a) compare partial credit guarantee and trade credit
+financing. Yang and Birge (2017) explore the supplier’s trade credit contract design and how capital-constrained retailer finance
+affects its inventory by considering the risk-sharing role of trade credit. The above studies provide significant insights into the choices
+among different financing solutions. However, few studies have investigated how an upstream firm uses third-party platform credit
+financing or retailer credit financing to deal with the capital constraint problem in a dual-channel supply chain with a third-party
+platform. The impact of channel competition on financing strategy preference in a dual-channel supply chain distinguishes our
+research from these studies.
+The related dual channel or multichannel literature considers factors such as service competition (Chen et al., 2008; Tsay and
+Agrawal, 2004a), impact of the internet channel (Chiang et al., 2003; Hsiao and Chen, 2014), channel selection (Arya and Mittendorf,
+2018; Li et al. 2018b; Matsui, 2017), channel synergy (Jing, 2018; Harsha et al., 2019; Li et al., 2019; Niu et al, 2019; Zhang et al.,
+2019b; Zhang and Zhang, 2020), pricing strategy and inventory management (Alawneh and Zhang, 2018; Chen and Chen, 2019; Liu
+et al., 2016; Zhang et al., 2019c; Zhou et al, 2019), or channel coordination (Foros et al., 2009; Modak and Kelle, 2019). A comprehensive review of dual-channel supply chains can be found in the studies of Tsay and Agrawal (2004b) and Cai et al. (2016).
+However, most of studies on dual-channel supply chain assume that the firm is not capital constrained. Our paper focuses on a capitalconstrained manufacturer’s financing strategy preference in dual-channel supply chain. Besides, our paper considers the third-party
+platform financing strategy in a dual-channel supply chain. Some studies on dual-channel operation assume that the third-party
+platform only serves as a channel participant. However, the third-party platform in our paper has dual roles—lending provider and
+channel participant. We investigate how a third-party platform’s dual role affects a capital-constrained manufacturer’s dual-channel
+operational management and financing strategy preference.
+Our research is also closely related to the literature on channel competition in a dual-channel supply chain. Channel competition
+plays an important role in dual-channel supply chain management. For example, Bernstein et al. (2009) discuss how competition
+between retail and direct channels affects a manufacturer’s supply chain structure decision. Chen et al. (2008) identify optimal dual
+channel strategies when the channels compete in service. This paper focuses on how channel competition influences a manufacturer’s
+financing strategy preference when a capital-constrained manufacturer borrows from a bank, a retailer, or a third-party platform,
+which distinguishes our study from the above work.
+Some studies consider the role of a third-party platform in dual-channel supply chain management. Ryan et al. (2012) discuss how
+channel competition affects a retailer’s channel selection decision and a marketplace firm’s decision regarding whether to sell a
+competing product. Abhishek et al. (2016) show that the channel competition affects e-tailers’ selling format preference when a
+manufacturer sells products through traditional and electronic channels. Shen et al. (2018) reveal that the slotting fee is neither
+always beneficial to the platform retailer nor always harmful to the manufacturer, depending on demand substitution (channel
+competition). However, the above research on a dual-channel supply chain with a third-party platform (or marketplace firm) is based
+on the assumption that the firms are not capital constraint. In our study, we investigate a capital-constrained manufacturer’s financing problem in a dual-channel supply chain consisting of a manufacturer, a retailer, and a third-party platform. The impact of the
+financing behavior on operational decisions of the dual-channel supply chain is also investigated.
+We choose some classical research focusing on different types of financing to highlight the contributions of our study (see
+Table 1).
+Our research contributes to extant literature on three folds. First, most of studies on dual-channel supply chain assume that there
+is no capital constraint. We establish a dual-channel supply chain model in which a capital-constrained manufacturer can borrow
+credit from the retailer or the third-party platform on which it sells. Our work complements the studies on dual-channel supply chain
+3
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Table 1
+The study’s positioning in the literature.
+Types of financing
+External financing
+
+Bank financing
+
+Internal financing
+
+Third-party logistics
+financing
+Peer-to-peer lending
+Trade credit financing
+Buyer direct financing
+
+Third-party platform
+credit financing
+
+Research
+
+Upstream firm with
+capital constraint
+
+Dual-channel supply chain
+with a third-party platform
+
+Price-dependent
+demand
+
+Jing et al. (2012)
+Kouvelis and Zhao (2015)
+Chen et al. (2019)
+
+×
+√
+×
+
+×
+×
+×
+
+×
+×
+×
+
+Gao et al. (2018)
+Lee and Rhee (2011); Jing
+et al. (2012); Cai et al. (2014)
+Tang et al. (2017); Li et al.
+(2016b)
+Deng et al. (2018)
+The current work
+Wang et al. (2019)
+The current work
+
+√
+×
+
+×
+×
+
+×
+×
+
+√
+
+×
+
+×
+
+√
+√
+√
+√
+
+×
+√
+×
+√
+
+×
+√
+×
+√
+
+by identifying how the third-party platform’s or the retailer’s dual role—lending provider and channel participant—affects the dualchannel operation. Second, in the supply chain finance field, a large number of studies focus on trade credit used when a downstream
+firm is capital constrained, but few studies explore an upstream firm’s capital constraint problem by using internal financing, such as
+buyer (retailer) direct financing or third-party platform credit financing. Tang et al. (2017) compare two financing schemes—a loan
+offered by a financial institution or a manufacturer—when an unreliable supplier facing performance risk is capital constrained in a
+single-channel supply chain. Wang et al. (2019) and Gao et al. (2018) consider platform financing in a single-channel supply chain.
+Wang et al. (2019) investigate the supply chain financing coordination problem when an online retailer can choose between bank
+credit financing and electronic business platform financing. Gao et al. (2018) investigate how the platform’s service rate affects the
+manufacturer’s wholesale price decision and the retailer’s order quantity decision when either the retailer or the manufacturer
+borrows money from an online peer-to-peer lending platform. This paper investigates the manufacturer’s financing strategy preference problem when both a traditional channel and a direct channel exist, which distinguish the paper from Tang et al. (2017),
+Wang et al. (2019) and Gao et al. (2018). Third, the results of the paper can provide some valuable insights on financing for a dualchannel supply chain management. For instance, for the manufacturer, the BF strategy is the worst financing strategy. The manufacturer prefers the 3PF strategy over the RF strategy as the revenue sharing rate or the unit production cost increases or as the
+channel competition decreases.
+3. Model description
+We consider a dual-channel supply chain where, on the one hand, a manufacturer (he) sells his products to a retailer at wholesale
+price w and the retailer (she) then sells the products to consumers at the retail price PR , which is known as a retail channel or
+traditional channel. On the other hand, the manufacturer can also directly sell products to consumers through a third-party platform,
+such as Taobao, Amazon, or eBay, at the selling price PM , which can be regarded as a direct channel or third-party platform channel.
+With a direct channel, the manufacturer must pay the third-party platform a proportion of his revenue (Zhang et al., 2019a). The
+variables qR and qM are demands in the retail channel and the direct channel, respectively. Thus, the third-party platform’s profit is
+PM qM , where is the revenue sharing rate and 0
+< 1.
+We assume that is exogenous (Shen et al., 2018; Yan et al., 2018, 2019). In practice, most third-party platforms enforce charge
+policies when they do not offer lending services. For example, Amazon, which was founded in 1995, began offering loans to its online
+sellers in 2012 and maintained its charge policy. Taobao.com, which was launched in 2003 by Alibaba Group, began providing loans
+to firms operating on its website in 2011. Taobao’s lending service does not influence its charge policy. Besides, a third-party platform
+has hundreds of manufacturers and charges an identical revenue sharing rate to all manufacturers under similar situations
+(Weinstein, 2019). Thus, the manufacturer must make operational and financing decisions when the revenue sharing rate is given.
+Therefore, we assume that the revenue sharing rate is exogenous. The channel structure of the proposed model is presented in Fig. 1.
+We assume a linear price-dependent demand structure, which is widely used in the literature, such as Shen et al. (2018) and Deo
+and Corbett (2009). The demand functions are as follows:
+
+qR = a
+
+qM = (1
+
+bPR + dPM
+
+)a
+
+bPM + dPR
+
+where b(>0 ) represents the manufacturer’s or retailer’s demand sensitivity to his/her own selling/retail price. This means that a unit
+of price reduction increases the demand by b, corresponding to the total of marginal and switching customers. d is the coefficient of
+cross-price sensitivity. A large value of d corresponds to switching customers who are sensitive to differences between the selling
+price, PM , and the retail price, PR . In other words, the degree of differentiation between direct and retail channels decreases as d
+increases. Thus, d captures the degree of competition between the two channels (Abhishek et al., 2016, Huang et al., 2018). As d
+increases, the channel competition in the market becomes more intense. Since, in general, the demand of each channel is largely
+4
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Fig. 1. Structure of the dual-channel supply chain.
+
+affected by its own price, we assume that b > d . In this model, we regard a as a parameter of the total potential market size (if prices
+are all 0). The value can be thought of as the retailer’s underlying market share. Thus, a is the retailer’s demand if all prices are
+) a is the manufacturer’s demand. Since the demand is not negative, we assume that a > (b d)(PR + PM ) .
+zero, while (1
+The manufacturer with an internal capital B may face a capital constraint problem when it produces products at cost c . As the
+focus is on financing strategy preference, we assume B = 0 (Li et al. 2018a; Jing et al., 2012; Tang et al., 2017). The manufacturer can
+borrow credit from the bank to produce products, called bank credit financing (BF). As mentioned before, the third-party platform
+provides financial services to firms that sell products on the platform. Thus, the manufacturer can borrow cash from the third-party
+platform, called third-party platform credit financing (3PF). The retailer may provide financial assistance to the manufacturer to deal
+with the capital constraint problem. That is, the manufacturer can borrow from the retailer, called retailer credit financing (RF). We use
+r i to represent the interest rate, where i = B , T , or R represents bank credit, third-party platform credit, or retailer credit, respectively.
+For demands qR and qM , the manufacturer’s total cash consumed to produce products is c (qR + qM ) . Conditional on the manufacturer’s
+initial capital, B = 0 , at time zero, the manufacturer borrows c (qR + qM ) of credit at interest rate r i , then must repay
+c (qR + qM )(1 + r i ) to the creditor at the end of the period, provided realized revenue exceeds c (qR + qM )(1 + r i ) . Otherwise, the
+manufacturer will repay the entire realized revenue. Therefore, the manufacturer has limited liability. The limited liability of the
+borrower (the manufacturer in our study) is common in the literature (Deng et al., 2018; Jing et al. 2012). As the demand is certain
+and depends on the retail price, the manufacturer will set a selling price that ensures his revenue is greater than his cost—that is,
+wqR + (1
+) PM qM > c (qR + qM )(1 + r i) . The manufacturer will produce nothing otherwise. In other words, the manufacturer always repays the entire debt. Therefore, we assume that the manufacturer does not face bankruptcy risk. In Section 8, we extend our
+model by assuming that the demand is random.
+Under the BF, 3PF or RF strategy, the lender, i.e., the bank, third-party platform or the retailer, sets the interest rate, then the
+manufacturer decides the wholesale price and selling price. Finally, the retailer determines the retail price. We assume that channel
+prices must exceed marginal costs such that PR w c (1 + r i ) 0 and PM c (1 + r i) 0 without a loss of generality. The retailer
+cannot purchase from the direct channel; thus, we have PM w . To ensure that the problem is significant, we assume that
+= 8(
+1) b2 + d 2 ( 2 8 + 8) < 0 .
+4. Benchmark without capital constraint
+In this section, we analyze the decisions of the retailer and manufacturer with no capital constraints. Both the manufacturer and
+retailer seek maximum profit. The manufacturer provides a wholesale price to the retailer and determines the selling price of the
+product sold on the third-party platform simultaneously. Given the manufacturer’s decisions, the retailer sets her own retail price.
+The manufacturer’s profit can be written as
+N
+N
+M (PM ,
+
+w N ) = w N qRN + (1
+
+) PMN qMN
+
+where qRN = a bPRN + dPMN and qMN = (1
+The retailer’s profit can be written as
+N
+N
+R (PR )
+
+= (PRN
+
+c (qRN + qMN ),
+)a
+
+(1)
+
+bPMN + dPRN .
+
+w N ) qRN .
+
+(2)
+
+Proposition 1.. Without capital constraint, the retailer’s optimal retail price is
+5
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+a + bw N + dPMN
+2b
+
+PRN =
+
+Proposition 1 indicates that the retail price set by the retailer increases as the manufacturer’s direct selling price increases. If the
+retailer raises her retail price, the demand is reduced, but she benefits from the high retail price. As the manufacturer’s selling price
+increases, the retailer benefits more from the increased demand. That is, the manufacturer’s selling price increase can partially cover
+the retailer’s demand decrease due to the retail price increase, which may enable the retailer to benefit more from the retail increase
+than be hurt by it. Therefore, the retail price increases in the manufacturer’s selling price.
+Proposition 1 suggests that given the manufacturer’s wholesale price and selling price, the increase in channel competition (d )
+leads to a higher retail price. That is, if the channel competition increases after the manufacturer makes his pricing decisions, the
+retailer will increase the retail price. Given the selling price, the retailer’s demand increases as the channel competition increases, but
+d
+decreases as the retail price increases. Substituting PRN into qRN , we have qRN = 2 (dPMN + a bw N ) , which indicates that the retailer’s
+demand increases as the channel competition increases. In other words, the positive impact of increased channel competition on the
+demand outweighs the negative impact of the retail price increase on the demand. Besides, the retail price increase can enhance the
+retailer’s profit margin. Therefore, the retail price increases in the channel competition. Proposition 1 also shows that the optimal
+retail price decreases in the demand sensitivity (b). A higher b means that the consumer becomes more sensitive to the retail price
+after the manufacturer makes his pricing decisions. Thus, if b is higher, the retailer’s demand will become smaller as the retail price
+increases. Therefore, the retailer reduces the retail price, which increases her demand.
+Proposition 2.. When the manufacturer has no capital constraint, his optimal wholesale price and selling price are given, respectively, by
+
+PMN =
+
+[(4(1
+
+)(
+
+1) b + (3
+4) d )] a
+8(
+1) b2 + d 2 ( 2
+
+[4b2 (
+
+1)
+
+d 2 + 2db (
+
+wN =
+
+[4b d (
+8 + 8)
+
+4)](b
+
+d) c
+
+,
+
+2)](b d ) c + [2db (
+2)(
+1) + (4b2
+2
+2
+2
+[8(
+1) b + d (
+8 + 8)] b
+
+d 2)](
+
+1) a
+
+.
+
+Proposition 2 shows that the manufacturer’s decisions regarding the wholesale price and the selling price are affected by the thirdparty platform’s revenue sharing rate. Other parameters, such as market factors (a , d , b, ) and the manufacturer’s production factor
+(c ), also play important roles in the manufacturer’s pricing decisions. In practice, the market factors rely on consumer behavior, while
+the revenue sharing rate usually depends on the product. It is impossible for the manufacturer producing a product to influence them.
+However, the manufacturer may be able to reduce the production cost. If the production cost is higher, the manufacturer must invest
+more money in production, which increases his capital pressure. Therefore, reducing the production cost can be an efficient method
+for easing the manufacturer’s pressure on capital.
+5. Financing with bank, third-party platform, or retailer credit
+This section presents analyses of three scenarios where the manufacturer with capital constraints borrows credit from the bank,
+the third-party platform, or the retailer, respectively.
+5.1. Bank credit financing (BF)
+At time zero, the bank chooses interest rate r B . Observing r B , the manufacturer simultaneously announces wholesale price wB and
+selling price PMB . The retailer determines retail price PRB . Finally, the manufacturer borrows c (qRB + qMB ) dollars from a bank and
+produces qRB + qMB units of product.
+We then proceed backwards to derive the optimal solutions under the BF strategy. The retailer’s problem is maximizing her profit
+by determining retail price PRB , described as follows:
+
+max
+qRB
+
+B
+B
+R (PR )
+
+= a
+
+= (PRB
+
+bPRB
+
++
+
+w B ) qRB
+
+(3)
+
+dPMB
+a + bw B + dP B
+
+M
+Solving the above problem, under the BF strategy, the retailer’s optimal retail price is PRB =
+. The result is similar to
+2b
+that of Proposition 1. Given the manufacturer’s wholesale and selling prices, the retailer’s optimization problem under the BF strategy
+remains the same as that under the benchmark situation. However, the manufacturer’s financing behavior has a direct impact on the
+wholesale price and selling price decisions (see Proposition 3), which further indirectly affects the retail price decision.
+Considering the retailer’s optimal retail price, the manufacturer’s profit can be written as
+
+B
+B
+M (w ,
+
+PMB ) = w BqRB + (1
+
+) PMB qMB
+
+c (1 + r B )(qMB + qRB ).
+
+(4)
+
+= a
++
+= (1
+)a
++
+where
+and
+The manufacturer’s revenue comprises two parts: one is the payment received from the retailer when products are produced and
+delivered to the retailer; the other is sales revenue minus the payment to the third-party platform. At the end of the period, the
+manufacturer should repay the bank c (qMB + qRB )(1 + r B ) , including the principle and interest of the loan. Given the retailer’s best
+response, specified by PRB , the manufacturer’s objective is to maximize profit by simultaneously determining w B and PMB .
+qRB
+
+bPRB *
+
+dPMB
+
+qMB
+
+bPMB
+
+dPRB* .
+
+6
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Proposition 3..
+(i). Under the BF strategy, the manufacturer’s optimal wholesale price is
+
+wB = wN +
+
+c (b
+
+d )[4b2 (
+1) + 2bd (
+2)
+d 2] B
+r
+b [8(
+1) b2 + d2 ( 2 8 + 8)]
+
+Correspondingly, the manufacturer’s optimal selling price is
+
+PMB = PMN +
+
+8(
+
+c (b d )[4b + (4
+) d] B
+r .
+1) b2 + d 2 ( 2 8 + 8)
+
+(ii). w B and PMB increase in r B ;
+(iii). w B > w N ; PMB > PMN .
+Proposition 3(i) indicates that the bank’s interest rate decision has a significant impact on the manufacturer’s wholesale price and
+selling price decisions. Proposition 3(ii) shows that the manufacturer’s optimal wholesale price or selling price increases as the
+interest rate increases. That is, the manufacturer’s financing leads to high wholesale price and selling price. Note that the retailer’s
+optimal retail price increases as the manufacturer’s wholesale price and selling price increase. Thus, the retailer’s optimal retail price
+also increases as the interest rate increases. The increases of the selling price and the retail price hurt the consumer’s welfare because
+the total quantity of the product provided by the manufacturer and retailer is reduced. Proposition 3(iii) indicates that the manufacturer’s optimal wholesale price and optimal selling price under the BF strategy are greater than that without capital constraint. In
+other words, the manufacturer transfers his financing cost to the retailer by increasing the wholesale price and to the consumer by
+increasing the selling price.
+Now, let us determine the bank’s optimal interest rate. Since the manufacturer can repay the entire debt, the bank’s profit can be
+written as
+B (r
+
+B)
+
+= r Bc (qMB + qRB )
+
+(6)
+
+Conditional on the best responses of both the retailer and the manufacturer, the bank determines an interest rate to maximize its
+profit.
+Proposition 4..
+(i). Under the BF strategy, the bank’s optimal interest rate is r B = rBc , where
+
+rBc =
+
+(8b2 ( 1 + ) + d2 (8 + ( 8 + ) ))(a (b ( 2 + )
+8c (b
+
+d ) + (b
+
+N + b (2P N + w N )))
+d )(dPM
+M
+
+d )2 (b + d )( d + b ( 3 + ))
+
+.
+
+(ii). r B decreases in the unit production cost (c ).
+Proposition 4(i) shows that market factors play an important role in the interest rate decision, such as total potential market size
+(a ), demand sensitivity (b), channel competition (d ), and market share ( ). In addition, when determining the interest rate, the bank
+should consider the third-party platform’s revenue sharing rate and the manufacturer’s production cost. Because there is no bankruptcy, the bank’s interest rate decision is mainly determined by the amount of the loan (i.e., c (qMB + qRB ) ). The production cost
+directly influences the amount of the loan, but other factors, such as the market factors and the revenue sharing rate, affect the price
+decisions, which determine the demand and further affect the amount of the loan. Proposition 4(ii) indicates that the optimal interest
+rate is a decreasing function of the unit production cost. The unit production cost increase will lead to a decrease in the total demand;
+thus, the bank reduces its interest rate to enhance the manufacturer’s financing quantity.
+5.2. Third-party platform credit financing (3PF)
+Now, we suppose that the manufacturer adopts the 3PF strategy. At time zero, the third-party platform sets the interest rate r T .
+T
+Then the manufacturer simultaneously determines the wholesale price wT and the selling price PM
+. Observing the manufacturer’s
+T
+decisions, the retailer announces the retail price PR . After the demand is realized, the manufacturer borrows c (qRB + qMB ) from the
+third-party platform to produce products. At the end of the period, the manufacturer repays the third-party platform.
+The retailer’s problem is maximizing profit by determining the retail price PRT , described as follows:
+
+max
+
+T
+T
+R (PR )
+
+qRT = a
+
+= (PRT
+
+wT ) qRT
+
+(7)
+
+T
+bPRT + dPM
+
+a + bwT + dPT
+
+M
+The retailer’s optimal retail price can be obtained by solving the above problem. That is, PRT =
+. Given the retailer’s
+2b
+best response, the manufacturer’s problem is to maximize profit by determining the wholesale price and the selling price. The
+manufacturer’s profit can be written as
+
+7
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+T
+T
+M (w ,
+
+where
+
+qRT
+
+T
+PM
+) = wT qRT + (1
+
+bPRT
+
+= a
+
++
+
+T
+dPM
+
+T T
+) PM
+qM
+
+and
+
+T
+qM
+
+T
+c (1 + r T )(qM
++ qRT )
+
+= (1
+
+)a
+
+T
+bPM
+
++
+
+dPRT
+
+(8)
+.
+
+Proposition 5..
+(i). Under the 3PF strategy, the manufacturer’s optimal wholesale price is
+
+wT = w N +
+
+c (b
+
+d )[4b2 (
+1) + 2bd (
+2)
+d 2] T
+r
+b [8(
+1) b2 + d 2 ( 2 8 + 8)]
+
+The manufacturer’s optimal selling price is
+T
+PM
+= PMN +
+
+8(
+
+c (b d )[4b + (4
+) d] T
+r
+1) b 2 + d2 ( 2 8 + 8)
+
+T
+(ii). wT and PM
+increase in r T .
+T
+> PMN ; wT > w N .
+(iii). PM
+
+Comparing Proposition 5 with Proposition 3, we find that the retailer’s and manufacturer’s best response functions under the 3PF
+strategy are the same as those under the BF strategy. In other words, the key difference between the 3PF strategy and the RF strategy
+T
+= PMB and PRT = PRB .
+is the lender’s different profit structure which will lead to different interest rates. If r T = r B , then wT = w B , PM
+That is, there is no difference between the 3PF and BF strategies when r T = r B . However, if r T r B , then the different interest rates
+between the 3PF and BF strategies will lead to different pricing decisions (wholesale price decision, selling or retail price decision)
+and, further, will result in different profits. Thus, the impact of the interest rate decision on these pricing decisions influences the
+manufacturer’s financing preference. In other words, the manufacturer should not pay too much attention to the interest rate, as
+manufacturers usually do in practice, but should instead consider the interaction between the interest rate and pricing decisions when
+he chooses a financing strategy. A low interest rate does not mean a high profit if we consider the impact of financing behavior on
+operational management. Propositions 5(ii) and (iii) show the same intuitive results as Proposition 3.
+Considering the best responses of both the retailer and the manufacturer, the third-party platform makes its interest rate decisions.
+The third-party platform’s profit is
+T (r
+
+T)
+
+T T
+T
+= PM
+qM + r T c (qM
++ qRT )
+
+(9)
+
+Proposition 6..
+(i). Under the 3PF strategy, the third-party platform’s optimal interest rate is r T = rTc , whererTc =
+
+B1 = a (4(b
+
+B2 = 2(b
+D=
+
+d)(b + d)(b ( 2 + )
+
+d ) + 2(b
+
+d )(b + d )(2b + d ) + bd (b
+
+d )(b + d )( 2d 2PMN + bd ( 2 + )(PMN + w N ) + 2b2 (2PMN + w N
+
+A (B1 + B 2 )
+D
+
+and A =
+
+8b2 ( 1 + ) + d2 (8 + ( 8 + ) )
+2c (b
+
+d )2 (b + d )
+
+,
+
+b + d ) 2)
+
+w N ))
+
+8b2d ( 2 + ) + 8d 3 ( 2 + ) + bd 2 ( 48 + ( 12 + )( 4 + ) ) + 16b3 (3 + ( 3 + ) )
+
+(ii). r T decreases in c .
+Proposition 6(i) indicates that the third-party platform’s interest rate decision is affected by market factors (market size (a ),
+demand sensitivity (b), channel competition (d ), and market share ( )), the manufacturer’s production cost or financing quantity (c ),
+and the third-party platform’s revenue sharing rate ( ). As mentioned before, some factors are determined by the consumer or the
+product’s characteristics, and it may be difficult for the firm to change them. For example, demand sensitivity and channel competition may not be very high for luxury goods because the consumer may focus more on the product’s quality or design than on its
+price. Therefore, in practice, the third-party platform can first classify firms according to these market factors and then pay attention
+to factors that can be changed, such as the revenue sharing rate and the manufacturer’s production cost.
+The third-party platform reduces the interest rate as the unit production cost increases (Proposition 6(ii)). Unlike the BF strategy,
+under which the bank determines the interest rate by simply considering the interplay between the interest rate and the amount of the
+T T
+qM . From Proposition
+loan, the third-party platform as a lender must consider both the interest and the payment from the retailer, PM
+5(ii) and the optimal retail price, we find that a decrease in the interest rate results in a decrease in the selling and retail prices. Thus,
+the total demand of two channels increases. In other words, the total amount of the loan increases as the unit production cost
+increases, although the interest rate decreases. However, the manufacturer’s demand increases because of the decrease in the selling
+price but decreases due to the decrease in the retail price. If the advantage of the loan amount increase and the manufacturer’s
+demand increase outweighs the disadvantage of the decreases in the selling price and the interest rate, the third-party platform will
+set a lower interest rate as the unit production cost increases.
+8
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+5.3. Retailer credit financing (RF)
+Now, we turn to the scenario where the manufacturer obtains credit from the retailer. We use superscript R to represent the RF
+type of credit. At time zero, the retailer first sets interest rate r R ; then the manufacturer determines the wholesale price w R and the
+selling price PMR . Given r R , w R , and PMR , the retailer makes a retail price decision, represented by PRR . The demand functions of the
+) a bPMR + dPRR , respectively. Knowing the product quantity
+retailer and the manufacturer are qRR = a bPRR + dPMR and qMR = (1
+R
+R
+produced, the manufacturer borrows c (qM + qR ) dollars from the retailer. At the end of the period, the manufacturer repays the debt
+to the retailer. We then proceed backward and first compute the optimal retail prices given r R , w R , and PRR .
+The retailer’s profit can be written as RR (PRR; r R) = (PRR w R ) qRR + r Rc (qMR + qRR ) .
+The manufacturer’s profit can be written as
+R
+R
+M (PM ;
+
+w R) = w RqRR + (1
+
+) PMR qMR
+
+c (1 + r R)(qMR + qRR ).
+
+(10)
+
+Proposition 7..
+(i). Under the RF strategy, the retailer’s optimal retail price is
+
+PRR =
+
+cr R (d
+
+b) + a + bw R + dPMR
+2b
+
+the manufacturer’s optimal wholesale price and selling price are, respectively, given by
+
+wR = wN +
+PMR = PMN +
+
+1) b2 + d2 ( 2 8 + 8) + 2d (
+b [8(
+1) b2 + d 2 ( 2 8 + 8)]
+
+c (b
+
+d )[8(
+
+8(
+
+4c ( b 2 d 2 )
+·r R
+1) b2 + d 2 ( 2 8 + 8)
+
+2)(b + d )]
+
+·r R
+
+(ii). w R and PMR increase in r R .
+(iii). PMR > PMN ; w R > w N .
+From Proposition 7(i), we find that in contrast to the results under the BF and 3PF strategies, the retailer’s optimal retail price is
+directly affected by the interest rate and unit production cost. In other words, the retailer must balance the interest income and sales
+revenue by considering the relationship between the interest rate and retail price decisions. Since d < b , the optimal retail price
+decreases as the interest rate increases given the manufacturer’s decisions, w R and PMR . Propositions 7(ii) and (iii) show the same
+intuitive results as Propositions 3 and 5.
+Substituting PRR , PMR and w R into RR , we then compute the retailer’s optimal interest rate, r R . Thus, the following Proposition 8 is
+given.
+Proposition 8..
+(i). Under the RF strategy, the retailer’s optimal interest rate is
+
+rR =
+where
+
+a (b
+
+d)[ + d (b + d)] ab
+(b2 d 2)[ bdw N + ( + d 2 ) PMN ]
+2
+2
+2c (b d ) (b + d ) 2 [4 + 2d 2]
+
+= 8(
+
+1) b2 + d 2 (
+
+2
+
+8 + 8);
+
+(ii). r R decreases in c .
+Similar to Proposition 6, the retailer should consider the following factors when she makes the interest rate decision: market size
+(a ), demand sensitivity (b), channel competition (d ), market share ( ), the manufacturer’s production cost or financing quantity (c ),
+and the third-party platform’s revenue sharing rate ( ). Proposition 8(ii) shows that the retailer’s interest rate decreases as the unit
+production cost increases. Although it is the same as that under BF or 3PF strategy, the retailer must consider the manufacturer’s
+wholesale price decision in addition to the interest rate and the amount of the loan.
+T
+= PMB , PRR < PRT = PRB and w R < wT = w B .
+Proposition 9.. Givenr B = r T = r R , we have PMR < PM
+
+Proposition 9 indicates that there is no difference between the BF and 3PF strategies when the difference in the interest rate is not
+considered. In other words, the interest rate is a key factor that the manufacturer should consider when choosing between the BF and
+3PF strategies. Specifically, the manufacturer will choose the financing strategy that offers a lower interest rate. Why does the bank or
+the third-party platform set different interest rates? Unlike the bank, the third-party platform is both a lender and a participant in the
+manufacturer’s channel; therefore, the interest rate decision is affected by both the amount of the loan and the manufacturer’s
+operation in the direct channel. The dual role of the third-party platform in the dual-channel supply chain may make the 3PF strategy
+advantageous.
+9
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Proposition 9 also shows that if the interest rate remains the same under different financing strategies, the selling price or retail
+price under the RF strategy is lower than that under the other strategies. This implies that the quantity of the product provided to the
+consumer is greatest, which indicates that the amount of the loan under the RF strategy is the largest. When the RF strategy exists, the
+interest rate is not the only factor that the manufacturer should consider. The retailer’s retail price decision will play an important
+role in the manufacturer’s financing strategy preference. This is similar to the 3PF strategy. That is, it may be difficult for the
+manufacturer to choose between the 3PF and RF strategies.
+6. The manufacturer’s financing strategy preference
+Although we have analytically characterized the optimal solution for each strategy, analytically comparing the optimal profit
+functions and obtaining the manufacturer’s preference remained a challenge. Therefore, we resort to a numerical study to obtain
+more insights. We ran our models for various input parameters. However, for expositional brevity, we will report the results for the
+following dataset. To avoid the retailer purchasing from the direct channel, the direct channel price should be equal to or greater than
+0.5. Specifically, we set = 0.4 . Referring to some studies on dual-channel supply chain
+the wholesale price, which requires that
+(Chiang et al., 2003: Ingene and Parry, 1995), we use the following parameters in all instances unless otherwise stated: the potential
+market a = 1, b = 1, d = 0.5, c = 0.4 . In practice, to ensure that the manufacturer chooses the third-party platform (marketplace) for
+selling products, the third-party platform sets a low revenue sharing rate. For instance, Amazon takes a referral fee for its role in
+facilitating the buyer–seller sales relationship by deducting a percentage of the seller’s revenue ranging from 6% to 25% (an average
+of 13%) (Weinstein, 2019). Thus, we set = 0.15.
+Fierce channel competition means that the consumer is very sensitive to price and will switch to another channel if one channel’s
+
+Fig. 2. The manufacturer’s financing strategy preference.
+
+10
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+price increases. Thus, we use d to represent the channel competition. A higher d means fiercer channel competition.
+i j
+i j
+j
+i
+j . If
+We define the profit difference
+M > 0 , then the iF strategy is better than
+M = M
+M , for i = T , R , j = B , R , and i
+T B
+> 0 , then the 3PF strategy is better than
+the jF strategy; otherwise, the jF strategy is better than the iF strategy. For instance, if M
+the BF strategy. That is, the manufacturer prefers the 3PF strategy over the BF strategy.
+Fig. 2 shows that for the manufacturer, the 3PF strategy is better than the BF strategy. This is reasonable because the interest rate
+under the 3PF strategy may be lower than that under the BF strategy. Under the 3PF strategy, the third-party platform considers both
+its interest income and revenue sharing from the borrower—namely, the manufacturer—when determining the interest rate. The
+prices (including the wholesale price, selling price, and retail price) decrease as the interest rate decreases (Proposition 7), which may
+increase demand in the direct channel. A low interest rate hurts the third-party platform’s profit, but the demand increase in the
+direct channel benefits the third-party platform. Thus, if the benefit outweighs the harm, the third-party platform will provide a low
+interest rate. The manufacturer benefits from the low interest rate and the demand increase in the direct channel. Therefore, the
+manufacturer prefers the 3PF strategy to the BF strategy.
+Fig. 2 also indicates that if the channel competition is not too low, the RF strategy dominates the BF strategy. This result derives
+from the retailer’s dual role under the RF strategy—as the price decision-maker and the lender setting the interest rate. Different from
+the BF strategy, under which the bank as the lender does not take part in operational management, under the RF strategy, the retailer
+can set a high interest rate and make the manufacturer increase his selling price. Thus, the retailer benefits from the high interest rate
+and the demand increase. However, the manufacturer responds to the retailer’s high interest rate by setting a high wholesale price for
+the retailer. The high wholesale price will compel the retailer to set a high retail price, which benefits the manufacturer because of the
+demand increase in the direct channel. Therefore, for the manufacturer, if the benefits from the high wholesale price and the demand
+increase outweigh the harm of a high interest rate, then the RF strategy is preferable.
+The above discussion shows that the BF strategy is the worst financing strategy, especially when the channel competition is very
+low. Thus, the choice between the 3PF strategy and the RF strategy becomes a key question. As Fig. 2 illustrates, the manufacturer is
+more likely to prefer the 3PF strategy to the RF strategy if the unit production cost or the revenue sharing rate increases, or if the
+channel competition decreases. Thus, the fierce channel competition reduces the advantage of the 3PF strategy, while the high
+production cost and revenue sharing rate increase 3PF’s advantage. In other words, under the scenario where production is inefficient, the third-party platform sets a high revenue sharing rate and channel competition is low (e.g., luxury goods), the manufacturer should choose the 3PF strategy rather than the RF strategy, especially when the BF strategy is difficult to access.
+Fig. 2(A) indicates that the 3PF strategy is more likely to be the best strategy as the revenue sharing rate increases. The revenue
+sharing rate increase compels the third-party platform to focus more on the income from the profit share than interest income. This
+can reduce the interest rate, thus leading to a low selling price and a demand increase in the direct channel. The manufacturer
+benefits more from an interest rate decrease and a demand increase under the 3PF strategy than under the RF or BF strategy as the
+revenue sharing rate increases. Therefore, the manufacturer is more likely to prefer the 3PF strategy as the revenue sharing rate
+increases.
+Fig. 2(B) shows that as the channel competition increases, the manufacturer is more likely to deal with his capital constraint
+problem by using the RF strategy than the 3PF or BF strategy. First, it may be more difficult for the third-party platform to share the
+additional profit from the manufacturer as the channel competition increases. Thus, the third-party platform may try to increase its
+profit mainly by setting a high interest rate, which makes it similar to the bank. Besides, under the RF strategy, the retailer’s retail
+price is affected by her interest rate decision and the manufacturer’s wholesale price decision, which is different from the scenario
+under the BF and 3PF strategies. The interaction between the retail price and the interest rate becomes more significant as the
+channel competition increases (see Proposition 7). This may make the RF strategy more advantageous.
+Fig. 2(C) shows that the manufacturer prefers the 3PF strategy to the RF strategy if the unit production cost. As Fig. 2(C) indicates,
+as the unit production cost increases, the profit disparity between the RF and BF strategies first increases and then decreases, while
+the profit disparity between the 3PF and RF strategies first decreases and then increases. This suggests that whether the RF strategy is
+advantageous depends on the unit production cost.
+To investigate the robust effects of several key inputs on the manufacturer’s strategy preference, we randomly generated 2000 test
+problem instances from uniform distribution on the given intervals. Table 1 shows the distributions for the dataset. To ensure that the
+manufacturer chooses the third-party platform to sell products, the third-party platform sets an revenue sharing rate which is usually
+lower than 0.5. Thus, we set the upper bound for be 0.4. The parameters that do not appear in Table 2 remain the same.
+Table 3 shows that for the manufacturer, the 3PF strategy is better than the BF strategy for 100% of the instances and 99.07% of
+the instances support the result that the manufacturer prefers the RF strategy to the BF strategy. This means that the BF strategy is the
+worst financing strategy for the manufacturer in most situations. To further verify the result, we let the upper bound for d be 0.2. The
+Table 2
+Distributions of randomly generated data.
+d
+
+c
+
+[0.04, 0.7]
+
+[0.1, 0.6]
+
+11
+
+[0, 0.4]
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Table 3
+Robust effects of key attributes on strategy preference.
+Difference Value
+T B
+i
+
+Manufacturer (i = M )
+
+R B
+i
+
+>0
+
+100%
+
+>0
+
+99.07%
+
+T R
+i
+
+>0
+
+46.73%
+
+numerical results show that the manufacturer chooses the 3PF strategy rather than the BF strategy for 100% of the instances, while
+the RF strategy is better than the BF strategy for 96.04% of the instances.
+Table 3 also indicates that among the 2000 test problem instances, 46.73% show that for the manufacturer, the 3PF strategy is
+better than the RF strategy. If the upper bound for is 0.2, 24.19% of the total instances indicate that the 3PF strategy dominates the
+RF strategy. This indicates that for the manufacturer, the question of how to choose between the 3PF and RF strategies is a big
+challenge. In addition to the factors addressed in Fig. 2, the potential market share affects the manufacturer’s financing strategy
+preference. As the direct channel’s potential market share has a strong relationship with the third-party platform’s revenue share from
+the manufacturer and further affects the third-party platform’s interest rate decision, large values of can decrease the advantage of
+T R
+> 0 is somewhat small when the value of is large. In other
+the 3PF strategy. Therefore, the number of instances that satisfy
+i
+
+Fig. 3. Impact of the revenue sharing rate on decisions under various financing strategies.
+
+12
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+words, a decrease in the retailer’s potential market share weakens the advantage of the RF strategy.
+The above results indicate that the strategy preference is robust. This means that for the manufacturer, the 3PF strategy is always
+better than the BF strategy. The BF strategy is the worst strategy, but the choice between the 3PF and RF strategies depends on some
+key factors, such as the revenue sharing rate, the channel competition, and the market share. The robust characteristic is important
+for financing management because the markets and consumer behavior never remain the same. The increasing uncertainty can
+increase the complexity of decisions that must be made as well as reduce the efficiency of such decisions. A robust financing strategy
+preference will enable the manufacturer to manage regular fluctuations efficiently.
+7. Sensitivity analysis
+In this section, we investigate the impact of certain key parameters on the decisions and profits of both the manufacturer and the
+retailer. The parameters are the same as those reported in Section 6.
+7.1. Revenue sharing rate’s impact on decisions and profits
+Figs. 3 and 4 indicate that the manufacturer’s and the retailer’s decisions or profits under the 3PF strategy are closer to the
+scenario without capital constraint as the revenue sharing rate increases. In other words, the manufacturer’s financing behavior under
+the 3PF strategy has less of an impact on the decisions of both the manufacturer and the retailer as the revenue sharing rate increases.
+
+Fig. 4. Impact of the revenue sharing rate on profit and total market demand under different financing strategies.
+
+13
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Fig. 3(A) indicates that the interest rate decreases as the revenue sharing rate increases. That is, if the manufacturer pays a lower
+proportion of his revenue to the third-party platform, the one providing credit financing to the manufacturer, such as a bank, thirdparty platform, or retailer, will require a higher interest rate to achieve a higher profit.
+Fig. 3(B) and (C) show that the manufacturer sets a lower wholesale price and a higher selling price as the revenue sharing rate
+increases. A high revenue sharing rate will increase the manufacturer’s direct channel cost. Therefore, to avoid a profit loss arising
+from a high revenue sharing rate, the manufacturer increases sales in its retail channel by providing a low wholesale price. Fig. 3(C)
+also shows that the manufacturer’s selling price remains stable as the revenue sharing rate increases under the 3PF strategy. Thus, if
+the third-party platform’s revenue sharing rate frequently changes, and the manufacturer does not want to adjust his selling price,
+then the manufacturer can choose the 3PF strategy.
+From Fig. 3(D), we find an interesting result: the retail price decreases as the revenue sharing rate increases under the BF and 3PF
+strategies, and the retail price first decreases and then increases as the revenue sharing rate increases under the RF strategy. However,
+when the manufacturer is not capital constrained, the retail price increases as the revenue sharing rate increases. In other words, the
+manufacturer’s financing behavior changes the retailer’s response behavior with the revenue sharing rate.
+When the manufacturer is not capital constrained, it is costlier for him to sell his product through the direct channel as the
+revenue sharing rate increases. Thus, the manufacturer may hope to sell more products to the retailer by reducing the wholesale
+price. Due to the revenue sharing rate increase, the manufacturer sets a higher selling price. Thus, the retailer benefits from both the
+low wholesale price and the manufacturer’s high selling price. Intuitively, the retailer may reduce the retail price and earn a higher
+profit from the increase in demand. However, the advantage of the retail price increase outweighs the disadvantage of the demand
+decrease. Therefore, the retailer increases her retail price as the revenue sharing rate increases under the benchmark case. That is, the
+revenue sharing rate increase hurts the manufacturer, but benefits the retailer. Fig. 4 affirms this result.
+Different results are found when the manufacturer with capital constraints borrows money from the bank or other firms. In this
+case, the retailer’s retail price decreases as the revenue sharing rate increases under the BF and 3PF strategies. Under the RF strategy,
+in most cases, the retail price decreases in the revenue sharing rate. The lower retail price increases the demand (advantage), but
+decreases the marginal profit (disadvantage). As the advantage of the retail price decrease outweighs the disadvantage of the
+marginal profit decrease, the retailer decreases her retail price as the revenue sharing rate increases under the financing case.
+Fig. 4(A) shows that under the 3PF, BF, or RF strategy, the manufacturer’s profit first decreases and then increases as the revenue
+sharing rate increases. The manufacturer’s financing cost decreases because the interest rate decreases (advantage). The manufacturer
+also benefits from the selling price increase (advantage). The demand or the wholesale price decreases as the revenue sharing rate
+increases (disadvantage). This result indicates that the advantages are more likely to outweigh the disadvantages as the revenue
+sharing rate increases.
+Fig. 4(B) shows that the retailer’s profit increases under the BF or 3PF strategy, but decreases under the RF strategy as the revenue
+sharing rate increases. The disadvantage of the interest rate increase outweighs the advantage of the selling price increase and the
+wholesale price decrease. That is, the lower interest rate hurts the retailer’s profit. Therefore, the retailer’s profit decreases as the
+revenue sharing rate increases. The retailer benefits from the wholesale price decrease and the selling price increase when the
+revenue sharing rate increases; therefore, the profit increases in the revenue sharing rate under the BF or 3PF strategy.
+Fig. 4(C) indicates that the manufacturer’s financing behavior reduces the amount of products sold in the market. This is reasonable because the selling price and the retail price increase due to the financing behavior. Fig. 4(C) also shows that the amount of
+products sold in the market decreases under the BF or RF strategy, but increases under the 3PF strategy as the revenue sharing rate
+increases. This is because the impact of the selling price increase outweighs that of the retail price’s fluctuation under the RF or BF
+strategy, while under the 3PF strategy, the influence of the retail price decrease outweighs that of the selling price’s fluctuation. From
+Fig. 4(C), we find that the total market demand under the benchmark case decreases as the revenue sharing rate increases.
+7.2. The impact of channel competition on decisions and profits
+Next, the impact of channel competition on the decisions of the manufacturer and the retailer is investigated by numerical
+analysis. The parameters remain the same as in Section 6.
+Fig. 5 indicates that the interest rate, wholesale price, selling price, or retail price increases as the channel competition increases.
+When the channel competition is fierce, the manufacturer compels the retailer to increase the retail price by setting a higher
+wholesale price. Thus, the manufacturer benefits from both the wholesale price increase and the demand increase. Since the advantage of the selling price increase outweighs the decrease in demand, the manufacturer also increases his own selling price.
+Fig. 5(A) suggests that the interest rate under the RF strategy is higher than that under the BF or 3PF strategy when channel
+competition is low. The interest rate under the 3PF strategy is the lowest. However, the best financing strategy is not always the 3PF
+strategy (see Fig. 6). This implies that the interaction between the manufacturer’s financing behavior and pricing decisions affects the
+manufacturer’s financing strategy preference.
+
+14
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Fig. 5. Impact of channel competition on decisions under different financing strategies.
+
+Fig. 6 shows that both the manufacturer and the retailer benefit from the increase of the channel competition because their profits
+increase in the channel competition. The retailer achieves an additional profit under the RF strategy, making the retailer’s profit
+under the RF strategy higher than that under the other strategies. The manufacturer is more likely to choose the RF strategy as the
+channel competition increases (please see Figs. 6(A) and 2(B)). Therefore, the retailer’s profit can increase dramatically if the channel
+competition is very fierce.
+Fig. 6(C) shows that the total market demand increases in the channel competition. That is, more products are provided as the
+channel competition increases. The total market demand decreases as the selling price and the retail price increase, but it increases as
+the channel competition increases. The selling price and the retail price increase as the channel competition increases (see Fig. 5(C)
+and (D)). The influence of the decreased channel competition outweighs the influence of the selling and retail price increases.
+Therefore, the total market demand increases as the channel competition increases.
+
+15
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Fig. 6. Impact of channel competition on profit and total market demand under different financing strategies.
+
+8. Extension
+In this section, we extend our basic model by considering a situation in which the demand is uncertain. The extension demonstrates that the insights presented in this paper continue to hold under the random demand assumption.
+The demand functions are given as follows:
+
+q~R = a
+
+q~M = (1
+
+bPR + dPM
+
+)a
+
+bPM + dPR
+
+where a is an random variable given by
+
+a=
+
+aH with probability ,
+aL with probability 1
+
+.
+
+) aL . Moreover, we assume that aL is sufficiently large so that the
+We assume that aH > aL and the mean of a is µ = aH + (1
+probability of the demands being negative is negligible. That is, q~R > 0 and q~M > 0 . Some discrete demand models have been employed in marketing and operation literatures (Chen, 2005; Ha and Tong, 2008; Jiang et al., 2016; Huang et al., 2018).
+Given the lender’s interest rate, the manufacturer’s wholesale price and the selling price, the retailer’s retail price, the manui
+facturer and the retailer make inventory level and order quantity decisions. Let qRi and qM
+for i {N , B, T , R} denote the retailer’s
+order quantity to satisfy the demand in the retail channel and the manufacturer’s inventory level to satisfy the demand in the direct
+channel, respectively. The analysis is analytically intractable, so we resort to a heuristic method which is widely used by decisionmakers to improve the efficiency of obtaining acceptable solutions. Specifically, the manufacturer and the retailer solve problems of
+
+16
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Fig. 7. Impact of the probability of aH on the manufacturer’s financing strategy preference.
+
+inventory level decision and order quantity decision by using a rule: the potential demand equals its expected value1. Given the
+random demand, the retailer’s order quantity equals the expected demand in the retail channel, while the manufacturer’s inventory
+i
+i
+i
+= (1
+) µ bPM
++ dPRi .
+and qM
+level equals the expected demand in the direct channel. Thus, we have qRi = µ bPRi + dPM
+i
+i
+~
+When the value of a is known, the manufacturer sells min{qM , qM } products on the third-party platform and the retailer sells
+i
+i
+i
+= (1
+) a bPM
++ dPRi and q~i R = a bPRi + dPM
+min {q~Ri , qRi} , where q~M
+.
+In the case of financing, the manufacturer’s profit can be written as
+i
+M
+
+i +
+= { ~M
+} for i
+
+(11)
+
+{B , T , R }
+i
+i
+i
+) PM
+min{q~M
+, qM
+}
+
+~i = wiq i + (1
+M
+R
+
+i
+c (1 + r i )(qM
++ qRi )
+
+~i can be rewritten as follows:
+M
+~i = [wi
+M
+
+i
+i
+i
+) PM
+min{q~M
+, qM
+}
+
+c (1 + r i )] qRi + [(1
+
+i
+c (1 + r i ) qM
+]
+
+i
+i
+i
+i
+i
+> qM
+= [wi c (1 + r i )] qRi + [(1
+) PM
+c (1 + r i)] qM
+If a = aH , then q~M
+and we have ~M
+;
+i
+i
+i
+i ~i
+i
+< qM
+= [wi c (1 + r i )] qRi + [(1
+) PM
+qM c (1 + r i ) qM
+].
+If a = aL , then q~M
+. Thus, ~M
+i
+i
+i
+< 0 . That is, the manufacturer will
+) PM
+> c (1 + r i ) , we have q~Ri < 0 or/and q~M
+< 0 if a = aH and ~M
+Since wi > c (1 + r i ) and (1
+i
+~
+produce nothing or just sell a product through a single channel if M < 0 and a = aH . However, if a = aL , we have
+i
+i
+(1
+) PM
+qM
+ā where
+(1
+) P i q~i
+c (1 + r i ) q i
+0 when
+, i.e., a
+M M
+
+a¯L =
+
+i
+(bPM
+
+M
+
+dPRi )
+(1
+
+[(1
+
+c (1 + r i )
+
+)
+) [(1
+
+i
+PM
+
+L
+
+i
+q~M
+
+c (1 + r )] aH c (1
+i
+) PM
+c (1 + r ) (1
+
+L
+
+) (1 + r )
+)]
+
+In other words, if the aL is high enough, then the manufacturer sells through direct channel and has no bankruptcy risk. If aL < āL ,
+then the manufacturer will not sell his products on the third-party platform.
+bP i
+dPRi
+In this paper, we focus on a dual channel—that is, q~i > 0 and q~i > 0 . Therefore, we have a > M
+. Since
+i
+) PM
+
+i
+bPM
+
+R
+
+dPRi
+
+L
+
+M
+
+1
+
+i ~i
+i
+i
+< 1, we find that 1
+> āL . Thus, if q~M
+) PM
+qM c (1 + r i ) qM
+0 . Finally,
+> 0 , then aL > āL . That is, (1
+i
+(1
+) PM
+c (1 + r ) (1
+)
+~
+~
+we prove that given aL is sufficiently large so that qR > 0 and qM > 0 , the manufacturer has no bankruptcy risk in a dual-channel
+supply chain.
+The manufacturer’s expected profit can be rewritten as follows:
+(1
+
+c (1 + r )
+
+i
+E ( ~M
+) = [wi
+
+c (1 + r i )] qRi + (1
+
+i
+) PM
+[(1
+
+)( µ + (1
+
+) aL)
+
+i
+bPM
++ dPRi]
+
+i
+c (1 + r i ) qM
+
+(12)
+
+The retailer’s expected profit is
+
+E ( ~Ri) = PRi Emin {q~Ri , qRi}
+
+wiqRi = PRi [ ( µ + (1
+
+) aL)
+
+i
+bPRi + dPM
+]
+
+wiqRi for i
+
+{N , B, T }, Where q~Ri = a
+
+i
+bPRi + dPM
+
+(13)
+Under RF strategy, the retailer’s expected profit is
+1
+The lower the demand volatility, the more effective the heuristic method is. Besides, with the development of big data technology, it will be easy
+to accurately estimate the market size (potential demand in our paper).
+
+17
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+E ( ~RR ) = PRR E min{q~RR , qRR} + r Rc (qMR + qRR )
+=
+
+PRR [
+
+( µ + (1
+
+) aL)
+
+bPRR
+
++
+
+dPMR ]
+
++
+
+r Rc (µ
+
+(b
+
+w RqRR
+d)(PMR + PRR ))
+
+w RqRR
+
+(14)
+
+As the focus here is on a manufacturer’s financing strategy in a dual-channel supply chain, given a dual-channel supply chain, we
+need to investigate the manufacturer’s financing strategy when he can repay the interest and principal to the creditor—in other
+) aL in the whole paper, we obtain the
+words, when the potential market demand is high enough. Replacing a with µ or µ + (1
+) aL = µ if = 0 or = 1
+expected profits and the optimal solutions under different financing strategies. We also find that µ + (1
+or aL = aH . This implies that the case of certain potential demand is a special case of random potential demand. We let = 0.6,
+aL = 0.8, aH = 1 and the other parameters stay the same as Section 6. The numerical analysis shows that the results of our paper
+continue to hold. Next the impact of the on the manufacturer’s financing strategy preference is investigated.
+Fig. 7 indicates that as the increases, the manufacturer is more likely to prefer the RF strategy. The increase in implies that the
+expected potential demand increases. In this case, to earn more profit, the manufacturer will set higher wholesale price and selling
+price, while the retailer will determine a higher retail price (numerical analysis). The interest rate increases as the increases
+(numerical analysis). Our numerical analysis also finds that the wholesale price and the selling price under the RF strategy are higher
+than that under other strategies, but the interest rate under the 3PF strategy is lower than that under other strategies. The manufacturer benefits more from the wholesale price increase and the selling price increase under the RF strategy than that under the 3PF
+strategy as the expected potential demand increases. Therefore, for the manufacturer, the RF strategy is more likely to be better than
+the 3PF strategy as the increases. Fig. 7 also shows that the BF strategy is the worst strategy, which is consistent with the result of
+Section 6.
+9. Conclusions
+There is a large body of research on supply chain finance and dual-channel supply chain, but few studies investigate the interplay
+between capital constraint and dual-channel operation. Moreover, a third-party platform participating in a manufacturer’s direct
+channel may provide lending services to the manufacturer. The retailer, as a participant in a traditional channel, may also lend to the
+manufacturer. Thus, this study investigates the manufacturer’s financing strategy preference and analyzes how the third-party
+platform’s or the retailer’s dual role—lending provider and channel participant—affects operation management in a dual-channel
+supply chain. We also investigated the manufacturer’s financing strategy preference.
+We established a dual-channel supply chain model where a capital-constrained manufacturer sells products through both a retailer and a third-party platform. The manufacturer has three financing options for solving the capital constraint problem: 3PF, RF,
+and BF. Our theoretical analyses reveal that the manufacturer always prefers the 3PF strategy over the BF strategy. The difference
+between these two strategies is the interest rate decision. The third-party platform’s role as a channel participant leads to a low
+interest rate, which is the advantage of the 3PF strategy. The manufacturer is more likely to prefer the RF strategy over the 3PF
+strategy as the channel competition increases or as the revenue sharing rate or unit production cost decreases. The manufacturer faces
+the following trade-off when he chooses a financing strategy: the financing cost (the interest rate) decreases, but the demand increases. Furthermore, this study shows that the retailer’s retail price increases as the revenue sharing rate increases if there is no
+capital constraint, but it decreases under the BF and 3PF strategies. This indicates that the manufacturer’s financing behavior has a
+significant impact on the retailer’s pricing decision. We extend our model by considering random demand and find that the results of
+the paper continue to hold when the manufacturer’s inventory level equals the expected demand in the direct channel and the
+retailer’s order quantity equals the expected demand in the retail channel.
+This study can be extended in several directions. We assume that market demand depends on price, which allows us to focus on
+channel competition. However, in practice, the demand may be affected by some other factors, such as strategic consumer behavior
+or a low-carbon strategy. Thus, the problem can be discussed under different scenarios. Furthermore, in general, the third-party
+platform institutes a charge policy when it does not provide a lending service. Thus, we assume that the revenue sharing rate is
+exogenous. However, the third-party platform may have the power to adjust the charge policy once it offers a lending service.
+Therefore, the revenue sharing rate can become an endogenous variable in this case.
+CRediT authorship contribution statement
+Xueping Zhen: Conceptualization, Methodology, Software, Formal analysis, Validation, Visualization, Investigation, Writing original draft, Writing - review & editing, Supervision, Funding acquisition. Dan Shi: Conceptualization, Methodology, Data curation,
+Formal analysis, Investigation, Visualization, Writing - review & editing, Project administration, Funding acquisition. Yongjian Li:
+Visualization, Investigation, Validation, Data curation, Writing - review & editing, Supervision, Funding acquisition. Chu Zhang:
+Data curation, Resources, Investigation.
+Acknowledgements
+The first author acknowledges support from the National Natural Science Foundation of China (NSFC) [Grants 71602115 and
+71971134] and the Natural Science Foundation of Shanghai [18ZR1416900]. The second author acknowledges support from NSFC
+[Grants 71702021 and 71802143]. The third author acknowledges support from the National Natural Science Foundation of China
+18
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+(NSFC) [Grant 71725004]. The fourth author acknowledges support from the National Natural Science Foundation of China (NSFC)
+[Grant 71901013].
+Appendix:
+Proof of Proposition 1.. From the first order condition of
+
+d RN
+dPRN
+
+bPRN + dPMN
+
+= a
+
+Because
+
+d2 RN
+
+wN )b = 0
+
+Proof of Proposition 2.. Substituting PRN into
+
+b
+
+H=
+
+we have
+
+N
+a + bw N + dPM
+
+2b < 0 , there is a unique optimal retail price PRN =
+
+=
+
+dPRN 2
+
+(PRN
+
+N
+N
+R (PR ) ,
+
+d (1
+
+/2) (
+
+N
+N
+M (PM ,
+
+2b
+
+.
+
+w N ) , we have
+
+d (1
+/2)
+1)(2b2 d 2)/ b
+
+1) b2 + d 2 ( 2 8 + 8) < 0 , the Hessian matrix is negative definite, then
+If = 8(
+N
+andw . From the first order conditions of MN , we can get the optimal solution as follows:
+PMN =
+
+wN =
+
+[(4(1
+
+)(
+
+1) b + (3
+4) d )] a
+8(
+1) b2 + d 2 ( 2
+
+[4b2 (
+
+1)
+
+d 2 + 2db (
+
+[4b d (
+8 + 8)
+
+4)](b
+
+N
+N
+M (PM ,
+
+w N ) is jointly concave on PMN
+
+d) c
+
+2)](b d ) c + [2db (
+2)(
+1) + (4b2
+[8(
+1) b2 + d 2 ( 2 8 + 8)] b
+
+d 2)](
+
+1) a
+
+And we can also get that < 0 is necessary to ensure PMN , w N > 0 . The proof is as follows.
+We first analyze the molecular part of PMN .
+= 4(1
+) ab + (b
+)(
+1) b + (3
+4) d )] a [4b d (
+4)](b d ) c , we have
+Let = [(4(1
+
+d ) cd + 3ad > 0 , which
+
+implies the molecular part of
+increases with .
+[0, 1], thus reaches its maximum at = 1.
+Note that
+(4b 3d )(b d ) c < 0 . Therefore, to ensure PMN > 0 , the denominator
+Because b > d , it’s easy to get that the largest = ad
+N
+2
+2
+2
+P
+=
+8(
+1)
+b
++
+d
+(
+8 + 8) < 0 . < 0 is also a necessary condition for w N > 0 , which
+part of M should be negative, that is,
+can be proven similarly.
+
+PMN
+
+Proof of Proposition 3.. From the first order condition of
+
+d RB
+dPRB
+
+bPRB + dPMB
+
+= a
+d2 B
+
+(PRB
+
+B
+B
+R (PR )
+
+, we have
+
+w B) b = 0
+
+Because dP BR2 =
+
+2b < 0 , there is a unique optimal retail pricePRB =
+
+Substituting
+
+into
+
+R
+
+H=
+
+PRB
+
+B
+B
+M (PM ,
+
+b
+d (1
+
+/2) (
+
+B
+a + bw B + dPM
+
+2b
+
+.
+
+w B ) , we have
+
+d (1
+/2)
+1)(2b2 d 2)/ b
+
+1) b2 + d 2 ( 2 8 + 8) < 0 , the Hessian matrix is negative definite, then
+If = 8(
+From the first order conditions of MB , we can get the optimal solution as follows:
+
+PMB = PMN +
+wB = wN +
+
+8(
+
+B
+B
+M (PM ,
+
+w B ) is jointly concave on PMB and w B .
+
+c (b d)[4b + (4
+) d]
+·r B
+1) b2 + d 2 ( 2 8 + 8)
+
+c (b
+
+d )[4b2 (
+1) + 2bd (
+2)
+d 2] B
+·r
+2
+2
+2
+b [8(
+1) b + d (
+8 + 8)]
+
+Taking the first-order derivatives of PMB and w B with respect to r B , we have
+
+PMB
+c (b d )[4b + (4
+) d]
+=
+,
+rB
+8(
+1) b 2 + d 2 ( 2 8 + 8)
+Note that b > d > 0 and
+
+= 8(
+
+1) b2
+
++
+
+d2 ( 2
+
+c (b d )[4b 2 (
+1) + 2bd (
+2)
+d 2]
+wB
+=
+rB
+b [8(
+1) b2 + d 2 ( 2 8 + 8)]
+
+[0, 1], we have [4b + (4
+
+8 + 8) < 0 , therefore,
+
+Similarly, we can easily prove that
+
+wB
+rB
+
+B
+PM
+
+rB
+
+) d] > 0 and [4b2 (
+
+> 0 . Because
+
+rB
+
+> 0 and w B > w N .
+
+Proof of Proposition 4.. Substituting PRB , PMB andw B into
+
+B (r
+
+B)
+
+, we have
+19
+
+1) + 2bd (
+
+[0, 1] , it is easy to get that
+
+PMB
+
+d 2] < 0 . Moreover,
+
+2)
+>
+
+PMN
+
+.
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+2
+
+B
+
+4c ( b
+b (8(
+
+=
+
+r B2
+
+d )((
+3) b
+1) b + d ( 2
+
+d )(b + d )
+8 + 8))
+2
+
+1) b2 + d 2 ( 2 8 + 8) < 0 , thus
+[0, 1] and = 8(
+Because
+first order condition is optimal solution to maximize B .
+According to BB = 0 , we can get that
+
+< 0 , which implies
+
+B
+
+r B2
+
+B (r
+
+B)
+
+is concave and the root of the
+
+r
+
+rB =
+
+·
+
+2) d ) + (b d )(dPMN + b (2PMN + w N ))
+8c (b d )2 (b + d )(b (3
+) + d)
+
+a (b (
+
+PN
+
+(b
+
+d )(4b + d (4
+
+))
+
+Since Mc =
+rate is decreasing with c .
+
+> 0,
+
+wN
+c
+
+=
+
+(b
+
+) b2 + 2bd (2
+·b
+
+d )(4(1
+
+Proof of Proposition 5.. From the first order condition of
+
+d RT
+dPRT
+Since
+
+T
+bPRT + dPM
+
+= a
+
+T
+d2 R
+
+dPRT 2
+
+(PRT
+
+T
+T
+R (PR ) ,
+
+b
+d (1
+
+T
+T
+M (PM ,
+
+T
+
+2c 2 (b
+
+=
+
+Because
+Let
+
+d )[4b2 (
+1) + 2bd (
+2)
+d 2] T
+·r
+2
+2
+2
+1) b + d (
+8 + 8)]
+b [8(
+
+d ) 2 (b + d )[bd 2
+b (8(
+
+[0, 1], thus
+T
+
+rT
+
+under 3PF strategy. Similar to the case under BF
+
+T
+wT ) is jointly concave on PM
+andwT . Hence, we can easily get the
+
+T
+T
+M (PM ,
+
+T
+PM
+
+rT
+
+> 0,
+
+T
+Proof of Proposition 6.. Substituting PRT , PM
+and wT into
+
+rT 2
+
+2b
+
+wT ) is
+
+Similar to the case under BF strategy, we have
+
+2
+
+T
+a + bwT + dPM
+
+c (b d )[4b + (4
+) d]
+·r T
+1) b 2 + d2 ( 2 8 + 8)
+
+c (b
+
+wT = w N +
+
+= 0,
+
+2
+
+T
+
+rT 2
+
+3
+
+T (r
+
+> 0 . Because r T
+T)
+
+can
+
+T (r
+
+T)
+
+get
+
+T
+> PMN , wT > w N .
+[0, 1], hence, PM
+
+, we have
+
++ 8(b2 d 2 )(2b ( 2 3 + 3) + (2
+1) b 2 + d 2 ( 2 8 + 8))2
+
+< 0 , which implies
+
+we
+
+wT
+rT
+
+) d )]
+
+is concave on r T .
+that
+
+rTc =
+
+A (B1 + B 2 )
+,
+D
+
+A=
+
+a (4(b d )(b + d )(b ( 2 + ) d ) + 2(b d)(b + d)(2b + d ) + bd (b b + d ) 2)
+B2 = 2(b d )(b + d )( 2d 2PMN + bd ( 2 + )(PMN + w N ) + 2b2 (2PMN + w N
+w N )),
+2
+3
+2
+3
+D = 8b d ( 2 + ) + 8d ( 2 + ) + bd ( 48 + ( 12 + )( 4 + ) ) + 16b (3 + ( 3 + ) ) .
+Similar to the proof of Proposition 4, we have
+
+rT
+c
+
+R
+R
+
+Because
+
+= a
+2 R
+R
+PRR2
+
+bPRR + dPMR
+
+=
+
+(PRR
+
+8b2 ( 1 + n ) + d2 (8 + ( 8 + n) n)
+,
+2c (b d )2 (b + d )
+
+B1 =
+
+< 0 , which implies r T is decreasing with c .
+
+Proof of Proposition 7.. From the first order condition of
+
+PRR
+
+< 0 . That is, the optimal interest
+
+wT ) b = 0
+
+1) b2 + d 2 ( 2 8 + 8) < 0 is satisfied,
+If = 8(
+optimal solution from the first order conditions:
+
+8(
+
+rB
+c
+
+d (1
+/2)
+1)(2b2 d 2)/ b
+
+/2) (
+
+T
+PM
+= PMN +
+
+> 0 , we can get that
+
+we have
+
+2b < 0 , there is a unique optimal retail pricePRT =
+
+=
+
+strategy, the Hessian matrix of
+
+H=
+
+) + d2)
+
+R
+R
+R (PR ,
+
+r R ) , we have
+
+w R) b + c ( b + d) r R = 0
+
+2b < 0 , there is a unique optimal retail price, i.e., PRR =
+
+cr R (d
+
+R
+b) + a + bw R + dPM
+
+2b
+
+under RF strategy.
+
+b
+d (1
+/2)
+.
+d (1
+/2) (
+1)(2b2 d 2)/ b
+1) b2 + d 2 ( 2 8 + 8) < 0 is satisfied, MR (PMR , w R ) is jointly concave on PMR andw R . Hence, we can easily get the
+If = 8(
+optimal solution from the first order conditions:
+Similar to the case under BF strategy, the Hessian matrix of
+
+PMR = PMN +
+
+wR = wN +
+
+R
+R
+M (PM ,
+
+w R ) is H =
+
+4c ( b 2 d 2 )
+·r R
++ d 2 ( 2 8 + 8)
+
+8(
+
+1) b2
+
+c (b
+
+d )[8(
+
+1) b2 + d2 ( 2 8 + 8) + 2d (
+b [8(
+1) b2 + d 2 ( 2 8 + 8)]
+
+2)(b + d )]
+
+·r R
+
+Taking the first-order derivatives of PMR and w R with respect to r R , we have
+20
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+R
+PM
+
+rR
+
+=
+
+4c (b2 d2)
+1) b2 + d2 ( 2 8 + 8)
+
+8(
+
+c (b
+wR
+=
+rR
+wR
+
+because
+> wN .
+
+> 0,
+
+d )[8(
+
+1) b 2 + d 2 ( 2 8 + 8) + 2d (
+b [8(
+1) b2 + d 2 ( 2 8 + 8)]
+
+[0, 1], b > d > 0 , and = 8(
+
+1) b2 + d 2 (
+
+Proof of Proposition 8.. Substituting PRR , PMR and w R into
+2
+
+R
+R
+
+=
+
+2
+rR
+
+Let
+
+2c 2 (b
+
+According to
+
+rR =
+
+a (b
+
+R
+R
+rR
+
+2
+
+2
+
+8 + 8) , if 4 + d 2
+
+8 + 8) < 0 . Therefore, we can easily get that PMR > PMN
+
+R
+R
+R (PR ,
+
+r R ) , we have
+
+2
+
+< 0,
+
+R R
+R (r )
+
+is concave on r R .
+
+d)[ + d (b + d)] ab
+(b2 d 2)[ bdw N + ( + d 2 ) PMN ]
+2
+2
+2c (b d ) (b + d ) 2 [4 + 2d 2]
+rR
+c
+
+< 0 , which implies r R is decreasing with c .
+
+Proof of Proposition 9.. Let r R = r B = r T = r . Then we have PMR
+
+Since
+
+wR
+
+c (b d )[4b + (4
+) d]
+8(
+1) b2 + d 2 ( 2 8 + 8)
+
+B [8(
+
+and
+
+= 0 , we can get that
+
+Similar to Proposition 4, we have
+
+B=
+
+>0
+
+d )2 (b + d ) 2 [32(
+1) b2 + 4d 2 ( 2 8 + 8) + d 2 2]
+b [8(
+1) b2 + d2 ( 2 8 + 8)]2
+
+1) b2 + d 2 (
+
+= 8(
+
+2)(b + d )]
+
+1) b2 + d2 ( 2
+c (b d )
+
+8 + 8)]
+
+w B = Ar and A
+
+b [8(
+
+1) b2 + d2 ( 2
+c (b
+
+d )(
+
+1)
+wT
+
+4c (b2 d2)
++ d2 ( 2 8 + 8)
+
+1) b2
+
+8(
+
+= d > 0 and
+8 + 8)]
+
+T
+PM
+= Br , where
+
+= 8(
+=
+
+1) b2 + d 2 (
+
+4b2 + 4d 2
+
+2
+
+8 + 8) < 0 , we have B < 0 . That is, PMR
+
+T
+PM
+< 0.
+
+d 2 < 0 . Thus, A < 0 . That is, w R < w B .
+
+T
+= PMB and w R < w B = wT .
+=
+If r R = r B = r T = r , we have w B =
+,
+.Therefore, we have PMR < PM
+R
+T
+B
+R
+T
+B
+R
+B
+T
+Since PM < PM = PM , w < w = w and b > d , we have PR < PR = PR .
+T
+PM
+
+PMB
+
+References
+Abhishek, V., Jerath, K., Zhang, Z.J., 2016. Agency selling or reselling? Channel structures in electronic retailing. Manage. Sci. 62 (8), 2259–2280.
+Alawneh, F., Zhang, G., 2018. Dual-channel warehouse and inventory management with stochastic demand. Transport. Res. Part E: Logist. Transport. Rev. 112,
+84–106.
+Arya, A., Mittendorf, B., 2018. Bricks-and-mortar entry by online retailers in the presence of consumer sales taxes. Manage. Sci. 64 (11), 5220–5233.
+Barr, A., 2012. October 23). Brands cry foul over unauthorized sellers on Amazon, Reuters Retrieved from http://www.reuters.com/article/2012/10/23/us-amazonsellers-idUSBRE89M1CT20121023.
+Bernstein, F., Song, J.S., Zheng, X., 2009. Free riding in a multichannel supply chain. Naval Res. Logist. (NRL) 56 (8), 745–765.
+Bonfils, M. (2012, August 24). Taobao SEO: A guide to one of the world’s largest consumer marketplaces. Search Engine Watch. Retrieved from < http://
+searchenginewatch.com/article/2200749/Taobao-SEO-A-Guide-to-One-of-the-Worlds-Largest-Consumer-Marketplaces > .
+Cai, G., Chen, X., Xiao, Z., 2014. The roles of bank and trade credits: theoretical analysis and empirical evidence. Prod. Oper. Manage. 23 (4), 583–598.
+Cai, G., Dai, Y., Zhang, W., 2016. Modeling multichannel supply chain management with marketing mixes: a survey. Handbook Res. Distrib. Channels 165.
+Caldentey, R., Haugh, M.B., 2009. Supply contracts with financial hedging. Oper. Res. 57 (1), 47–65.
+Chen, F., 2005. Salesforce incentives, market information, and production/inventory planning. Manage. Sci. 51 (1), 60–75.
+Chen, J., Chen, B., 2019. When should the offline retailer implement price matching? Eur. J. Oper. Res. 277 (3), 996–1009.
+Chen, K.Y., Kaya, M., Özer, Ö., 2008. Dual sales channel management with service competition. Manuf. Serv. Oper. Manage. 10 (4), 654–675.
+Chen, X., Cai, G., Song, J.S., 2019. The cash flow advantages of 3PLs as supply chain orchestrators. Manuf. Serv. Oper. Manage. 21 (2), 251–477.
+Cheng, P., 2015. Personal Communication. Chairman of Hanbo Enterprise.
+Chiang, W.Y.K., Chhajed, D., Hess, J.D., 2003. Direct marketing, indirect profits: a strategic analysis of dual-channel supply-chain design. Manage. Sci. 49 (1), 1–20.
+Dean, J., 2017. Amazon lending challenges the banks. The Times (United Kingdom) 43.
+Deng, S., Gu, C., Cai, G., Li, Y., 2018. Financing multiple heterogeneous suppliers in assembly systems: buyer finance vs. bank finance. Manuf. Serv. Oper. Manage. 20
+(1), 53–69.
+Deo, S., Corbett, C.J., 2009. Cournot competition under yield uncertainty: The case of the U.S. influenza vaccine market. Manuf. Serv. Oper. Manage. 11 (4), 563–576.
+Foros, Ø., Hagen, K.P., Kind, H.J., 2009. Price-dependent profit sharing as a channel coordination device. Manage. Sci. 55 (8), 1280–1291.
+Gao, G.X., Fan, Z.P., Fang, X., Lim, Y.F., 2018. Optimal Stackelberg strategies for financing a supply chain through online peer-to-peer lending. Eur. J. Oper. Res. 267
+(2), 585–597.
+Ha, A.Y., Tong, S., 2008. Contracting and information sharing under supply chain competition. Manage. Sci. 54 (4), 701–715.
+Harsha, P., Subramanian, S., Uichanco, J., 2019. Dynamic pricing of omnichannel inventories: honorable mention—2017 M&SOM Practice-Based Research
+Competition. Manuf. Serv. Oper. Manage. 21 (1), 47–65.
+Hsiao, L., Chen, Y.J., 2014. Strategic motive for introducing internet channels in a supply chain. Prod. Oper. Manage. 23 (1), 36–47.
+Huang, S., Guan, X., Xiao, B., 2018. Incentive provision for demand information acquisition in a dual-channel supply chain. Transport. Res. Part E: Logist. Transport.
+Rev. 116, 42–58.
+Ingene, C.A., Parry, M.E., 1995. Channel coordination when retailers compete. Market. Sci. 14 (4), 360–377.
+Interfax. (2011, June 22). Alibaba establishes small loans lender in Chongqing. China IT Newswire, p. 1.
+Jiang, B., Tian, L., Xu, Y., Zhang, F., 2016. To share or not to share: demand forecast sharing in a distribution channel. Market. Sci. 35 (5), 800–809.
+Jing, B., 2018. Showrooming and webrooming: information externalities between online and offline sellers. Market. Sci. 37 (3), 469–483.
+Jing, B., Chen, X., Cai, G., 2012. Equilibrium financing in a distribution channel with capital constraint. Prod. Oper. Manage. 21 (6), 1090–1101.
+Kavussanos, M.G., Tsouknidis, D.A., 2016. Default risk drivers in shipping bank loans. Transport. Res. Part E: Logist. Transport. Rev. 94, 71–94.
+
+21
+
+Transportation Research Part E 133 (2020) 101820
+
+X. Zhen, et al.
+
+Kouvelis, P., Zhao, W., 2015. Supply chain contract design under financial constraints and bankruptcy costs. Manage. Sci. 62 (8), 2341–2357.
+Kouvelis, P., Zhao, W., 2017. Who should finance the supply chain? Impact of credit ratings on supply chain decisions. Manuf. Serv. Oper. Manage. 20 (1), 19–35.
+Lee, C.H., Rhee, B.D., 2011. Trade credit for supply chain coordination. Eur. J. Oper. Res. 214 (1), 136–146.
+Li, B., An, S.M., Song, D.P., 2018a. Selection of financing strategies with a risk-averse supplier in a capital-constrained supply chain. Transport. Res. Part E: Logist.
+Transport. Rev. 118, 163–183.
+Li, G., Li, L., Sun, J., 2019. Pricing and service effort strategy in a dual-channel supply chain with showrooming effect. Transport. Res. Part E: Logist. Transport. Rev.
+126, 32–48.
+Li, H., Leng, K., Qing, Q., Zhu, S.X., 2018b. Strategic interplay between store brand introduction and online direct channel introduction. Transport. Res. Part E: Logist.
+Transport. Rev. 118, 272–290.
+Li, Y., Zhen, X., Cai, X., 2016a. Trade credit insurance, capital constraint, and the behavior of manufacturers and banks. Ann. Oper. Res. 240 (2), 395–414.
+Li, Y., Zhen, X., Qi, X., Cai, G.G., 2016b. Penalty and financial assistance in a supply chain with supply disruption. Omega 61, 167–181.
+Liu, M., Cao, E., Salifou, C.K., 2016. Pricing strategies of a dual-channel supply chain with risk aversion. Transport. Res. Part E: Logist. Transport. Rev. 90, 108–120.
+Matsui, K., 2017. When should a manufacturer set its direct price and wholesale price in dual-channel supply chains? Eur. J. Oper. Res. 258 (2), 501–511.
+Modak, N.M., Kelle, P., 2019. Managing a dual-channel supply chain under price and delivery-time dependent stochastic demand. Eur. J. Oper. Res. 272 (1), 147–161.
+Niu, B., Mu, Z., Li, B., 2019. O2O results in traffic congestion reduction and sustainability improvement: analysis of “Online-to-Store” channel and uniform pricing
+strategy. Transport. Res. Part E: Logist. Transport. Rev. 122, 481–505.
+Peura, H., Yang, S.A., Lai, G., 2017. Trade credit in competition: a horizontal benefit. Manuf. Serv. Oper. Manage. 19 (2), 263–289.
+Ryan, J.K., Sun, D., Zhao, X., 2012. Competition and coordination in online marketplaces. Prod. Oper. Manage. 21 (6), 997–1014.
+Salmon, J. (October 18, 2012). Rolls lends to its own suppliers. Daily Mail, p. 2.
+Shen, Y., Willems, S.P., Dai, Y., 2018. Channel selection and contracting in the presence of a retail platform. Prod. Oper. Manage. https://doi.org/10.1111/poms.
+12977.
+Tang, C.S., Yang, S.A., Wu, J., 2017. Sourcing from suppliers with financial constraints and performance risk. Manuf. Serv. Oper. Manage. 20 (1), 70–84.
+Terzo, G., 2017. Amazon vs. banks. DeBanked. Retrieved from < https://debanked.com/2017/06/amazon-vs-banks/ > , 2017.
+Tiwari, A., 2014. Flipkart to grow marketplace to compete with Amazon. DNA India, April 17. Retrieved from < http://www.dnaindia.com/money/report-flipkart-togrow-marketplace-to-compete-with-amazon-1979084 > .
+Tsao, Y.C., 2017. Managing default risk under trade credit: Who should implement Big-Data analytics in supply chains? Transport. Res. Part E: Logist. Transport. Rev.
+106, 276–293.
+Tsay, A.A., Agrawal, N., 2004a. Channel conflict and coordination in the e-commerce age. Prod. Oper. Manage. 13 (1), 93–110.
+Tsay, A., Agrawal, N., 2004b. Modeling conflict and coordination in multi-channel distribution systems: A review. In: Simchi-Levi, D., Wu, S.D., Shen, Z.M. (Eds.),
+Handbook of Quantitative Supply Chain Analysis: Modeling in the e-business era. International Series in Operations Research and Management Science. Kluwer
+Academic Publishers, Norwell, MA, pp. 557–606.
+Wang, C., Fan, X., Yin, Z., 2019. Financing online retailers: Bank vs. electronic business platform, equilibrium, and coordinating strategy. Eur. J. Oper. Res. 276 (1),
+343–356.
+Weinstein, M., 2019. How to sell on Amazon: everything you need to know for 2019. CPC Strategy. https://www.cpcstrategy.com/blog/2019/04/sell-on-amazon/.
+Yan, Y., Zhao, R., Liu, Z., 2018. Strategic introduction of the marketplace channel under spillovers from online to offline sales. Eur. J. Oper. Res. 267 (1), 65–77.
+Yan, Y., Zhao, R., Xing, T., 2019. Strategic introduction of the marketplace channel under dual upstream disadvantages in sales efficiency and demand information.
+Eur. J. Oper. Res. 273 (3), 968–982.
+Yang, S.A., Birge, J.R., 2017. Trade credit, risk sharing, and inventory financing portfolios. Manage. Sci. 64 (8), 3667–3689.
+Zhang, B., Wu, D.D., Liang, L., 2018. Trade credit model with customer balking and asymmetric market information. Transport. Res. Part E: Logist. Transport. Rev.
+110, 31–46.
+Zhang, J., Cao, Q., He, X., 2019a. Contract and product quality in platform selling. Eur. J. Oper. Res. 272 (3), 928–944.
+Zhang, P., He, Y., Zhao, X., 2019b. “Preorder-online, pickup-in-store” strategy for a dual-channel retailer. Transport. Res. Part E: Logist. Transport. Rev. 122, 27–47.
+Zhang, Q., Tang, W., Zaccour, G., Zhang, J., 2019c. Should a manufacturer give up pricing power in a vertical information-sharing channel? Eur. J. Oper. Res. 276 (3),
+910–928.
+Zhang, S., Zhang, J., 2020).. Agency selling or reselling: E-tailer information sharing with supplier offline entry. Eur. J. Oper. Res. 280 (1), 134–151.
+Zhou, J., Zhao, R., Wang, W., 2019. Pricing decision of a manufacturer in a dual-channel supply chain with asymmetric information. Eur. J. Oper. Res. 278 (3),
+809–820.
+
+22
+
+

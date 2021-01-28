@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Predicting online e-marketplace sales performances: A big data approach</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2016-08-21">21 August 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Boying</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">International Doctoral Innovation Centre</orgName>
+								<orgName type="institution" key="instit1">Nottingham University Business School</orgName>
+								<orgName type="institution" key="instit2">University of Nottingham Ningbo China</orgName>
+								<address>
+									<addrLine>199 Taikang East Road</addrLine>
+									<postCode>315100</postCode>
+									<settlement>Ningbo</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eugene</forename><surname>Ch’ng</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alain Yee-Loong</forename><surname>Chong</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Haijun</forename><surname>Bao</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Public Administration</orgName>
+								<orgName type="institution">Zhejiang University of Finance &amp; Economics</orgName>
+								<address>
+									<addrLine>No. 18, Xueyuan Street</addrLine>
+									<postCode>310018</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Predicting online e-marketplace sales performances: A big data approach</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Computers &amp; Industrial Engineering</title>
+						<title level="j" type="abbrev">Computers &amp; Industrial Engineering</title>
+						<idno type="ISSN">0360-8352</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">101</biblScope>
+							<biblScope unit="page" from="565" to="571"/>
+							<date type="published" when="2016-08-21">21 August 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.cie.2016.08.009</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>E-business Product reviews Moderation effect Big data architecture</keywords>
+			</textClass>
+			<abstract>
+				<p>To manage supply chain efficiently, e-business organizations need to understand their sales effectively. Previous research has shown that product review plays an important role in influencing sales performance, especially review volume and rating. However, limited attention has been paid to understand how other factors moderate the effect of product review on online sales. This study aims to confirm the importance of review volume and rating on improving sales performance, and further examine the moderating roles of product category, answered questions, discount and review usefulness in such relationships. By analyzing 2939 records of data extracted from Amazon.com using a big data architecture, it is found that review volume and rating have stronger influence on sales rank for search product than for experience product. Also, review usefulness significantly moderates the effects of review volume and rating on product sales rank. In addition, the relationship between review volume and sales rank is significantly moderated by both answered questions and discount. However, answered questions and discount do not have significant moderation effect on the relationship between review rating and sales rank. The findings expand previous literature by confirming important interactions between customer review features and other factors, and the findings provide practical guidelines to manage e-businesses. This study also explains a big data architecture and illustrates the use of big data technologies in testing theoretical framework.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

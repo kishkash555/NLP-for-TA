@@ -1,0 +1,3122 @@
+International Journal of Production Economics 189 (2017) 40–51
+
+Contents lists available at ScienceDirect
+
+Int. J. Production Economics
+journal homepage: www.elsevier.com/locate/ijpe
+
+Competition in the multi-sided platform market channel
+a,⁎
+
+a
+
+MARK
+
+b
+
+Renato de Matta , Timothy J. Lowe , Dengfeng Zhang
+a
+b
+
+Department of Management Sciences, University of Iowa, Iowa City, IA 52242-1000, United States
+Ping An Bank, No. 5047 East Shen Nan Road, Shenzhen, Guangdong 51800, China
+
+A R T I C L E I N F O
+
+A BS T RAC T
+
+Keywords:
+Price competition
+Supply chain management
+
+We model the decisions in two simple, structurally diﬀerent, ﬁxed price online channel settings comprised of
+marketplaces (retailers) where two sellers of substitutable products transact with buyers (consumers) of those
+products. The ﬁrst setting is a common retailer setting (CRS) with one marketplace, while the other is an
+exclusive retailer setting (ERS) where each seller is selling in an exclusive marketplace. We study how price
+competition and cost sharing in those settings inﬂuence the key factors that attract the seller and buyer to a
+marketplace, i.e. the seller's revenue share and price respectively. We formulate analytic and optimization
+models of the retailer revenue sharing decision and the suppliers pricing decision under CRS and ERS. Applying
+these models to market environments with diﬀerent consumer demand patterns, cost structures, and levels of
+competition yielded a fairly consistent behavior in supplier price and retailer revenue share for each channel
+setting. The CRS retailer is better oﬀ (i.e. higher proﬁts) than the ERS retailers, whereas the ERS suppliers are
+better oﬀ than the CRS suppliers. Finally, the buyer in ERS is better oﬀ because the seller in ERS charges a lower
+price.
+
+1. Introduction
+The rapid growth of online marketplaces serving as intermediaries
+between sellers and buyers present opportunities for cost savings,
+revenue growth, and expansion to new markets. Online marketplaces
+can be classiﬁed under two broad categories: (1) product resellers who
+either acquire and sell the products (e.g. WalMart and Target) or sell
+the products on consignment (e.g. eBay Consignment Store); (2) pure
+multisided platform (PMP) (like the traditional eBay.com, and its
+counterparts in Japan, Rakuten, and Taobao in China), who enable
+buyers and sellers to transact directly with each other. Companies can
+take various positions on the continuum between a reseller model and a
+PMP model. The product pricing and presentation, fee structure, as
+well as the responsibility for fulﬁlling orders and delivering products,
+which collectively inﬂuence the buyers' purchasing decisions,
+distinguish these companies (Hagiu and Wright, 2013). In this study,
+we focus on PMP marketplaces.
+There are numerous factors that attract sellers and buyers to a
+marketplace. First is the scale of online presence. Amazon.com draws
+nearly 85 million unique monthly visitors where, according to an
+Amazon executive, suppliers report an average 50% increase in sales
+
+when they join Amazon.1 Second is shopping infrastructure. An all-inone shopping venue with a single stream checkout and fulﬁlment
+support creates a seamless experience for buyers. Third is fees and
+revenue share. Fourth is competition. To attract more customers,
+sellers reduce prices, and sometimes oﬀer services such as free
+shipping. There is also competition between marketplaces to attract
+sellers, for example cost sharing, reducing listing fees, and loyalty
+programs such as Amazon's pro-merchant program. Published articles
+on the ﬁrst and second factors abound in both retail marketing and
+trade magazines.2 This paper will focus on the third and fourth.
+Using two simple, structurally diﬀerent but with comparable decisions,
+ﬁxed price3 online channel settings, we study how the competition between
+sellers and cost sharing between the seller and marketplace, inﬂuence two
+key decisions in those settings, i.e. the revenue sharing and pricing
+decisions that attract sellers (suppliers) and buyers (consumers) respectively to transact in a marketplace (retailer). The settings are: (1) a single
+retailer and two suppliers of substitutable products referred to a “Common
+Retailer Setting (CRS)”, e.g. Apple employs PMP with thousands of app
+developers in its App store. (2) A two retailer-two supplier channel setting
+where each supplier is served exclusively by a single retailer called the
+“Exclusive Retailer Setting (ERS),” e.g. an author might sell wordpress
+
+⁎
+
+Corresponding author.
+E-mail addresses: renato-dematta@uiowa.edu (R. de Matta), timothy-lowe@uiowa.edu (T.J. Lowe), dengfeng.zhang@gmail.com (D. Zhang).
+See “Pros of selling on amazon & ebay” at http://www.shopify.com/blog/6399562-the-pros-and-cons-of-selling-on-amazon-and-ebay#ixzz2vmf6mn5f.
+2
+For studies on consumer attraction to marketplaces due to online presence and shopping infrastructure, see for example Bughin et al., 2011; Hamza and Saidalavi, 2014.
+3
+Distinguished from online auction.
+1
+
+http://dx.doi.org/10.1016/j.ijpe.2017.03.022
+Received 2 September 2016; Received in revised form 29 March 2017; Accepted 30 March 2017
+Available online 07 April 2017
+0925-5273/ Published by Elsevier B.V.
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+
+themes and plugins4 exclusively on Envato ThemeForest marketplace,
+whereas another author might want to sell a similar product on MojoTheme marketplace. We address three basic questions: (1) What are the
+optimal pricing and revenue sharing decisions in each channel setting? (2)
+Which channel setting attracts sellers and buyers to a marketplace? (3)
+How sensitive are channel decisions in each setting to changes in the
+economic environment (i.e. the level of channel competition, symmetry in
+supplier and retailer costs, and consumer demand patterns)?
+Our results for two deterministic cases, which are distinguished by
+the consumer demand functions, are as follows. Using a nonlinear,
+price-based consumer demand function, our analytic results reveal that
+the level of competition between sellers and the relative costs of the
+seller and marketplace or cost sharing have an impact on the optimal
+revenue share and price in CRS. Whereas in ERS, those key factors are
+only impacted by the cost sharing seller and marketplace. Using a
+linear price-based consumer demand function yielded a PMP model
+that is intractable analytically. In this case we resorted to a computational study. The numerical results of this study also show that changes
+in the level of competition between sellers and the relative costs of the
+seller and marketplace have an impact on those key factors in both CRS
+and ERS. For both cases, we report counterintuitive results and provide
+plausible explanations for some of them.
+For both CRS and ERS, we found the CRS marketplace is better oﬀ
+(i.e. higher proﬁts) than the ERS marketplaces. Being a single retailer,
+the CRS retailer is able to extract more revenues from the suppliers.
+Whereas ERS suppliers are better oﬀ than CRS suppliers. Moreover,
+ERS channel proﬁt is generally higher when competition between
+suppliers is weak, however ERS loses its dominance over CRS when
+competition is strong. Finally, ERS customers are better oﬀ because
+ERS suppliers charge lower prices.
+The remainder of this paper is organized as follows. Section 2
+reviews the literature relevant to our study. Section 3 presents our
+model assumptions and formulations. Section 4 provides analytical
+results of the retailer and supplier decisions for the nonlinear demand
+case. Section 5 considers the linear demand case. Because ﬁnding
+closed-form analytic solutions is extremely diﬃcult for this case, we
+resort to a numerical study. Finally, Section 6 summarizes the takeaways of this research and provides fruitful avenues for future
+extensions of our work.
+
+channel setting. In a succeeding work, Choi (1996) explores a duopoly
+channel consisting of two retailers and two manufacturers with each
+retailer selling the products of the manufacturers (see also Trivedi,
+1998). Whereas Lee and Staelin (1997) generalize the analysis of the
+industry model in (Choi, 1996) by relaxing the demand assumptions
+and studying the channel decisions and proﬁts under three strategic
+settings and three diﬀerent games.
+McGuire and Staelin (1983) examine Nash equilibria in duopoly
+structures in which each of two competing manufacturers can distribute its goods through a common and exclusive retailer. They ﬁnd
+that product substitutability aﬀects the supply chain's equilibrium
+decisions and proﬁts. Geylani et al. (2007) study a channel consisting
+of a manufacturer and two competing retailers with diﬀerent price
+bargaining powers. They investigate the manufacturer's strategic
+response to a dominant retailer. More recent works are as follows.
+Yang and Zhou (2006) study the pricing and quantity decisions of a
+two-echelon system with one manufacturer and two competing retailers. They analyze the retailers' competitive behaviors using three game
+settings: Cournot, collusion, and Stackelberg. Under a Nash-Bertrand
+price equilibrium, Sinha and Sarmah (2010) analyze the coordination
+of decisions in a wholesale market channel with two suppliers
+competing to sell diﬀerentiated products through a common retailer.
+Channel ineﬃciency could coexist with competition as the following
+studies of the reseller channel show. Bernstein and Federgruen (2005)
+study the equilibrium price and stocking decisions in a channel
+comprised of a single supplier and competing retailers. They develop
+a price-discount scheme to coordinate the decentralized channel.
+Under a Nash equilibrium, Hu et al. (2017) show that revenue sharing
+contracts can coordinate the decisions between two competing suppliers of substitutable products and one retailer in a decentralized
+wholesale channel setting. Also using the same channel setting,
+Zhang et al. (2012) study how to coordinate the channel using revenue
+sharing but with demand disruptions. In a non-cooperative dynamic
+game, Ouardighi and Kim (2010) study a single supplier who collaborates with two manufacturers on product quality improvements. The
+manufacturers compete in the same market on both price and quality.
+Wholesale price contract and revenue-sharing contract are used to
+coordinate the allocation of resources for improving product quality.
+Yao et al. (2008) study the impact of demand variability, pricesensitivity, and competition on retail prices, order quantity and proﬁt
+in a supply chain with one manufacturer and two competing retailers
+facing stochastic demands. Equilibrium prices and order quantities are
+obtained in a Bayesian Nash game setting. They also use revenue
+sharing to coordinate the market channel. The PMP setting diﬀers from
+the aforementioned reseller channel settings in that the retailer does
+not purchase and take possession of the products from the supplier.
+Unlike in the wholesale channel, the PMP retailer generally does not
+control the accuracy of product advertisement postings, product
+quality, and service reliability. In this paper, we also coordinate market
+channels using revenue sharing contracts, but for tractability, we model
+decisions in the supply chain assuming deterministic demand functions
+with price-based competition.
+Like the PMP retailer, a consignee can also charge a percentage of
+the proceeds when the product is sold. But in contrast to a PMP
+retailer, the consignee will take possession and control of the product.
+Adida and Ratisoontorn (2011) and Ratisoontorn (2012) study how the
+presence of retail competition and retailer diﬀerentiation aﬀect the
+decisions and performance of the supply chain. Utilizing a gametheoretic Stakelberg-based model, they analyze the channel decisions
+and performance in two diﬀerent contracts: consignment price contract
+and consignment with revenue sharing contract. Avinadav et al. (2015)
+study a consignment contract with revenue sharing between multiple
+suppliers and one retailer where suppliers compete on price and
+product quality. Equilibrium strategies of transacting parties with
+diﬀerent risk proﬁles are presented. While in Adida and Ratisoontorn
+(2011) and Ratisoontorn (2012) the one supplier-two retailer channel
+
+2. Literature review
+There is abundant literature in the social sciences on how PMP
+electronic marketplaces are facilitating peer-to-peer transactions and
+exchanges. Kashkooli (2010) provides a comprehensive survey of this
+literature and studies the underlying challenges in eBay.com's construction
+and incentives for market actors that produced the rapid expansion of the
+marketplace. Kollock and Braziel (2006) study the central mechanisms
+through which people and organizations construct markets.
+Most existing supply chain management literature on modeling
+how competition inﬂuences the decisions in the supply chain focuses
+on reseller channels, i.e. wholesale and consignment channels. Early
+works that are devoted to the choice of channel structure, competition,
+and coordination between a retailer and supplier in a wholesale supply
+chain channel in the past two decades include (Coughlan, 1985;
+Coughlan and Wernerfelt, 1989; Jeuland and Shugan, 1983, 2008;
+McGuire and Staelin, 1983. Choi (1991) investigates the impact of
+competition in a wholesale channel with one retailer and two suppliers
+of substitutable products. He studies the channel pricing decisions and
+proﬁts under three game settings: retailer Stakelberg, manufacturer
+Stakelberg, and vertical Nash. He also examines the impact of retailer
+level competition on channel pricing and proﬁts in an exclusive retailer
+4
+See online article “Eight Marketplaces to Sell Wordpress Themes & Plugins” at
+https://www.competethemes.com/sell-wordpress-themes-plugins-marketplaces/.
+
+41
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+
+high substitutability and this also means strong competition between
+suppliers.
+The coeﬃcients β , δ , b, and γ can be estimated via regression on
+historical price and demand data. Clearly the linear demand model
+lends itself to linear regression to estimate b and γ . The nonlinear
+model can be linearized by taking logarithms as ln di(p) = ln an - β ln pi +
+δ ln pj , so that again linear regression can lead to estimates of β and δ .
+For more discussion on these demand models, as well as others, see
+Huang et al. (2013).
+There is a ﬁnite selling season and the sequence of events in selling
+a product in either CRS or ERS is described as follows: (1) Before the
+start of the season, the supplier visits online marketplaces to compare
+the revenue sharing and cost sharing policies (all other things being
+equal); (2) the supplier chooses a marketplace, list the product, and
+sets the price; (3) demand is realized and the supplier ships the
+product; and (4) the marketplace remits the supplier's revenue share at
+the end of the season.
+The decision variables are the retailers' revenue shares r = (r1, r2 )5
+and the suppliers’ prices p = (p1 , p2 ). The revenue share is a fraction of
+the revenue received from product sales. We derive the closed-form
+expressions of these decision variables for the nonlinear demand case
+in the next section. Proofs of major results are provided in Appendix.
+Finally, we remark that there are other PMP channel structures (e.g.
+Adida and Ratisoontorn, 2011; Cachon and Kok, 2010; Ratisoontorn,
+2012), demand functions (e.g. Choi, 1991, 1996), and game settings
+(e.g. Geylani et al., 2007; McGuire and Staelin, 1983) that are
+worthwhile to study. We reserve them for our future work.
+
+performance is compared with a similar channel structure that uses a
+price only-wholesale contract, we compare the two supplier-one
+retailer channel performance with exclusive retailer performance
+assuming both channels use revenue sharing contracts. We also
+distinguish our work in that we model the channel competition using
+deterministic nonlinear and linear demand functions, while Adida and
+Ratisoontorn (2011), Avinadav et al. (2015), and Ratisoontorn (2012)
+use a stochastic exponential demand function and the retailer uses a
+newsvendor order policy.
+The market structure may also impact channel decisions and
+proﬁts. Cachon and Kok (2010) ﬁnd that some key conclusions from
+market structures with single supplier and multiple retailers do not
+apply in a setting where multiple manufacturers sell through a single
+retailer because of the competition among the manufacturers in the
+latter. Using one of three types of contracts: a wholesale-price contract,
+a quantity-discount contract, or a two-part tariﬀ contract, they show
+that the retailer may prefer quantity-discount contract and a two-part
+tariﬀ contract because these contracts induce the manufacturers to
+compete more aggressively leaving them worse oﬀ and the retailer
+better oﬀ. Adida and DeMiguel (2010) study multiple manufacturers
+competing to supply a set of products to multiple risk-averse retailers
+who are also competing amongst each other to satisfy uncertain
+consumer demand. For suﬃciently large supply chains with many
+manufacturers and retailers, they show that the competition from
+retailer diﬀerentiation can eliminate supply chain ineﬃciency. They
+also ﬁnd supply chain eﬃciency to be decreasing in the diﬀerence
+between the number of manufacturers and retailers. Our results
+support the ﬁndings of the aforementioned studies, that is, channel
+decisions and proﬁts in peer-to-peer transactions between sellers and
+buyers facilitated by online marketplaces are impacted by the type of
+supply chain structure and market competition. To our knowledge, this
+comparison of channel structures in PMP has not been investigated in
+the existing literature. The next section presents our models.
+
+4. The channel settings with nonlinear demand
+In this section, for both CRS and ERS, we ﬁrst determine the
+optimal revenue share and price which we’ve identiﬁed earlier as the
+key factors that attract sellers and buyers respectively to transact in a
+marketplace assuming a nonlinear demand function. Then we compare
+the revenue shares and prices of those channel settings for the general
+case with non-symmetric supplier costs and non-symmetric retailer
+costs, and the special case with symmetric supplier costs and symmetric retailer costs.
+
+3. Model assumptions and formulations
+The retailers in both channel settings are Stakelberg leaders who
+are oﬀering a take-it-or-leave-it revenue sharing contract to the
+supplier. The consumer demand is deterministic and we assume that
+it is either a nonlinear or linear function of product prices. We also
+assume that suppliers have unlimited manufacturing capacities so their
+optimal stocking quantity decision is to satisfy exactly the market
+demand. Next we present the model notation.
+Let the independent suppliers of substitutable products i = 1, 2 be
+Si and the retailers of those products be Ri . Note that R1 and R2 in CRS
+are collectively representing one marketplace. In other words, one
+retailer is selling both products. Whereas R1 and R2 in ERS are two
+independent marketplaces as shown in Fig. 1a and b. Supplier Si 's unit
+cost is cSi and retailer Ri 's unit cost is cRi . Let the total unit cost of a
+product i be ci = cRi + cSi . To avoid trivial cases, we assume cSi > 0 ,
+cRi > 0 , and ci ≥ 1, i = 1, 2 .
+Denote the suppliers' prices as p = (p1 , p2 ). We consider the product
+demands of suppliers 1 and 2 as either nonlinear or linear functions of
+p. In the nonlinear case, the product demand functions are
+d1(p) = anp1−β p2δ
+and d 2(p) = anp2−β p1δ where β represents the self
+price demand elasticity, δ is the cross price demand elasticity which is a
+measure of product substitutability, and an is a constant term (see
+Moorthy (1988) for details). A large δ implies strong competition
+between suppliers. We assume symmetry in β and δ , and in order to
+guarantee an equilibrium, we assume an > 0, β > 2, 1 ≤ δ < (β − 1).
+In this region, di(p) is continuous and twice diﬀerentiable.
+Following Choi (1996), Jeuland and Shugan (1983) and McGuire
+and Staelin (1983), we utilize the linear demand expressions
+d1(p) = aℓ − bp1 + γp2 and d 2(p) = aℓ − bp2 + γp1 where aℓ > 0 and
+b > γ > 0 . Note that b − γ is inversely related to the degree of
+substitutability between two products, namely, a small b − γ implies
+
+4.1. CRS prices and revenue shares
+Suppose the CRS retailer oﬀers a single revenue share for products
+in the same category (i.e. r1crs = r2crs = r crs ).6 Supplier Si 's proﬁt function
+is given by
+
+πSicrs = di(p)[(1 − r crs )pi − cSi ].
+
+(1)
+
+Maximizing (1) with respect to pi gives the following results:
+Proposition 1. For any given r crs , Si 's optimal price is
+
+picrs * =
+
+βcSi
+,
+(β − 1)(1 − r crs )
+
+i = 1, 2.
+
+(2)
+
+Proposition 1 implies that each CRS supplier makes a pricing
+decision independent of the other supplier's price. Also note that the
+optimal price not only increases in cSi , but also in r crs . This result is
+consistent with that reported in Lee and Staelin (1997) and Choi
+(1991).
+Given the supplier price in (2), the optimal revenue share r is found
+by maximizing the retailer proﬁt function
+5
+
+The suppliers' revenue shares are 1-r1 and 1-r2 .
+This is quite common in PMP markets, e.g. Amazon.com charges 8% commission for
+the sale of any brand of digital camera. See the July 28, 2009 posting about Amazon.com.
+http://www.auctionbytes.com/cab/abn/y09/m07/i24/s04.
+6
+
+42
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+
+Fig. 1. CRS and ERS channel structure (p – price, r – retailer's revenue share).
+
+⎡ βc S
+⎤
+⎛
+βc S ⎞
+i
+g(riers ) = (1 − riers )(β −1)⎢ (β − 1)
+− ⎜cRi + β − i1 ⎟(1 − riers )⎥
+and
+⎠
+⎝
+⎣
+⎦
+−(β − δ )
+⎛ β ⎞
+Θi = an⎜ β − 1 ⎟
+cS−i βcSδj (1 − rjers )−δ,i = 1, 2, j = 1, 2, i ≠ j . Notice Θi is
+⎠
+⎝
+independent of retailer Ri 's revenue share ri , so we need only to
+maximize g(ri ) to ﬁnd the optimal revenue share for retailer i.
+
+2
+
+πRcrs =
+
+∑ di(pcrs*)(r crspicrs* − cRi ).
+
+where
+
+(3)
+
+i=1
+
+Substituting pi
+
+crs *
+
+−β
+
+in (3) yields
+−β
+
+δ
+
+πRcrs = an(p1crs * ) (p2crs * ) (r crsp1crs * − cR1) + an(p2crs * )
+δ
+
+(p1crs * ) (r crsp2crs * − cR2 )
+
+Proposition 3. For i = 1, 2, retailer Ri 's optimal revenue share is
+
+⎡ ⎛ r crs
+⎞⎤
+⎛ r crs
+⎞
+= (1 − r crs )(β − δ )⎢M3⎜
+crs M1 − cR1⎟ + M4⎜
+crs M2 − cR2⎟⎥
+⎠⎦
+⎝1 − r
+⎠
+⎣ ⎝1 − r
+
+riers * = 1 −
+
+⎡ r
+⎤
+= (1 − r crs )(β − δ )⎢
+(M M + M2M4 ) − (M3cR1 + M4cR2 )⎥
+⎣ 1 − r crs 1 3
+⎦
+crs
+
+⎞
+⎛ r
+= (1 − r crs )(β − δ )⎜
+K − Kc⎟ ,
+⎠
+⎝ 1 − r crs m
+
+Si
+
+Substituting
+
+crs
+
+(4)
+
+pi
+
+βc
+
+βc
+
+where M1 = (β −S11) , M2 = (β −S21) , M3 = anM1−βM2 δ , M4 = anM2−βM1δ ,
+Km = (M1M3 + M2M4 ) and Kc = (M3cR1 + M4cR2 ). Note that Km and Kc are
+constants.
+Proposition 2. The retailer's optimal revenue share r
+determined by
+
+r
+
+crs *
+
+ers *
+
+=
+
+riers *
+
+(8)
+
+in (2), supplier Si 's optimal price is
+
+⎡
+c ⎤
+βcSi⎢β + (β − 1) cRi ⎥
+Si ⎦
+⎣
+(β − 1)2
+
+.
+
+(9)
+
+Compared to CRS, the cost sharing or relative cost of the supplier
+and retailer cRi , has a direct inﬂuence on r ers * and piers *. Notice that r ers *
+cSi
+
+and piers * do not depend on the price completion δ .
+
+is uniquely
+
+(β − δ − 1)
+1
+=1 −
+.
+(β − δ ) 1 + Kc
+K
+
+(β − 1)
+1
+.
+β−1c
+β
+1 + β cRi
+
+4.3. Comparison of CRS and ERS prices and revenue shares
+
+crs *
+
+As mentioned in the previous section, a general observation is that
+the price competition and relative cost of supplier and retailer in CRS
+have an impact on the optimal revenue shares and prices. Whereas in
+ERS, it is the cost sharing between the retailer and supplier that
+directly inﬂuences the optimal revenue shares and prices. Note
+however that both πRiers and πSiers are impacted by δ . So to increase proﬁt,
+the retailer could increase its share of the total cost which incentivizes
+the supplier to reduce the price. Next we study the eﬀects of diﬀerent
+cost structures on revenue share and price. Speciﬁcally, we consider
+three cost structures: non-symmetric supplier and retailer costs,
+symmetric retailer costs and non-symmetric supplier costs, and the
+fully symmetric channel costs.
+
+(5)
+
+m
+
+Substituting r crs * in (2) yields the supplier equilibrium prices:
+
+pi
+
+crs *
+
+crs *
+
+β (β − δ )(1 +
+=
+
+Kc
+)c
+Km Si
+
+(β − 1)(β − δ − 1)
+
+, i=1,2.
+
+(6)
+
+crs *
+
+r
+and pi
+are both inﬂuenced by the relative cost share of the
+K
+suppliers and retailer, which is contained in the ratio c , and the price
+completion δ . Next consider ERS.
+
+Km
+
+4.2. ERS prices and revenue shares
+
+Case 1. Nonsymmetric retailer and supplier costs
+
+For i = 1, 2 , denote πSiers as supplier Si 's proﬁt, πRiers as retailer Ri 's
+proﬁt, and riers as retailer Ri 's revenue share. Note that the ERS revenue
+shares can be diﬀerent. The supplier proﬁt function is the same as in
+CRS (see (1)) and thus piers * is also given by (2). Given the supplier
+prices, the retailer proﬁt functions are
+
+Proposition 4.
+
+cR1
+c
+≤ R2 in ERS, then
+cS1
+cS 2
+
+(10)
+
+r1ers * ≤ r2ers * and p1ers * ≤ p2ers *
+
+(11)
+
+If
+
+⎞δ
+−β ⎛
+πRiers = di(pers *)(rierspiers * − cRi ) = an(piers *) ⎜pjers *⎟ (rierspiers * − cRi ) = Θi⋅g(riers ),
+⎝
+⎠
+
+Furthermore, given (10) and cS1 > cS2 in CRS,
+
+(7)
+
+43
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+
+r1ers * < r crs * and p1ers * < pcrs * .
+
+πSicrs * = an(picrs * )−β (pjcrs * )δ [(1 − r crs *)picrs * − cSi ]
+
+(12)
+
+The result in (11) is easily obtained from (8). All other things being
+equal, (11) implies that the ERS retailer with the lower cost will attract
+sellers and buyers. Eq. (12) implies that S1 will attract buyers in an ERS
+because S1 can price the product lower than if he were in a CRS.
+
+2
+
+πRcrs * =
+
+i = 1, 2.
+(16)
+Proposition 6. πRcrs * and πScrs * have the following properties:
+1. πRcrs * increases with δ ;
+2. For given cR , cS , and β , if there exists δ0S such that
+
+⎧ [β (c + c ) − c ](β − δ S )
+⎫
+1
+S
+R
+R
+0
+⎨ln
+⎬=0,
+−
+S
+S
+(β − 1)(β − δ0 − 1)
+β − δ0 − 1 ⎭
+⎩
+
+and
+
+picrs * =
+
+(β − 1)(β − δ − 1)
+
+⎪
+
+πSiers *
+
+(17)
+
+and decreases with δ when
+
+⎤−(β − δ )
+⎡
+ancS
+β
+⎥
+[β (cS + cR ) − cR]−(β − δ ) ⎢
+β−1
+⎣ (β − 1)2 ⎦
+
+(18)
+
+and,
+(13)
+
+πRiers * = an(piers * )−β (pjers * )δ [riers *piers * − cRi ]
+=
+
+.
+
+increases with δ when δ <
+
+δ0S ,
+
+= an(piers * )−β (pjers * )δ [(1 − riers *)piers * − cSi ]
+=
+
+For i = 1, 2, supplier Si 's optimal price is:
+
+⎡
+c ⎤
+(β − δ )cS ⎢β + (β − 1) cR ⎥
+S⎦
+⎣
+
+⎪
+
+⎪
+
+As an example, suppose an = 1000, β = 3, cS = 2, andcR = 1.
+With δ0S =1.6, (17) holds. Using (16), the retailer proﬁt for competition
+level δ , 1 ≤ δ < 2 , yields 125 ≤πRcrs *< 1246. The maximum proﬁt of CRS
+supplier 1 is πScrs *=24.86 and it is attained at δ = δ0S =1.6 (see Fig. 2).
+For ERS, the retailer and supplier proﬁts are:
+
+⎛ βc ⎞
+K
+β−1c
+M3 = M4 = an⎜ β −S1 ⎟
+. It follows that Km = β cR . Substituting Km / Kc
+c
+S
+⎠
+⎝
+into the optimal revenue share decision (5), we obtain
+
+S
+
+⎪
+
+then πScrs *
+δ > δ0S .
+
+−(β − δ )
+
+(β − δ − 1)
+1
+.
+(β − δ ) 1 + β − 1 cR
+β c
+
+di(pcrs *)(r crs *picrs * − cRi )
+
+⎡
+⎤−(β − δ −1)
+2a1
+(β − δ )
+[β (cS + cR ) − cR]−(β − δ −1) ⎢
+,
+⎥
+⎣ (β − 1)(β − δ − 1) ⎦
+(β − δ )
+
+=
+
+Case 3. Fully symmetric channel costs
+In a fully symmetric channel cost,8 cS1 = cS2 = cS and cR1 = cR2 = cR .
+
+r crs *=1 −
+
+∑
+i=1
+
+Proposition 5. When cR1 = cR2 = cR , r crs * and picrs *, i = 1, 2, increase in
+δ.
+Intuitively, one would expect the price to decrease as competition
+gets stronger. A plausible explanation of Proposition 5's counterintuitive result is that the competition between the suppliers may be
+giving the retailer the bargaining advantage to raise its revenue share
+which in turn induces the suppliers to raise prices in order to maintain
+their proﬁts.7 Next we discuss the case with fully symmetric channel
+costs.
+
+βcS
+(β − 1)
+
+(15)
+
+The retailer proﬁt is:
+
+Case 2. Symmetric retailer costs with non-symmetric supplier costs
+This case is a special instance of Case 1. When cR1 = cR2 = cR and cS1
+> cS2 , it is easily shown that if there exists a δ , 1 < δ < β − 1, such that
+r1ers * = r crs *, then r1ers * ≥ r crs * if δ ≤ δ (weak competition) and
+r1ers * < r crs * if δ > δ (strong competition). Consider for example
+an = 2, β = 3,
+cR1 = cR2 = cR = 2, cS1 = 10, and cS2 = 2. We obtain
+r1ers * = r crs * = 0.8462 when δ = 1.144 . Speciﬁcally, S1 is indiﬀerent
+between a CRS and an ERS when δ = 1.144 . But when δ ≤ 1.144 , S1
+and buyers would prefer an ERS. Another result is presented in the
+next proposition.
+
+For CRS, the terms in (4) can be simpliﬁed as M1 = M2 =
+
+⎡
+⎤−(β − δ )
+ancS
+(β − δ )
+[β (cS + cR ) − cR]−(β − δ ) ⎢
+.
+⎥
+⎣ (β − 1)(β − δ − 1) ⎦
+β−1
+
+=
+
+(14)
+
+⎤−(β − δ −1)
+⎡
+an
+β
+⎥
+[β (cS + cR ) − cR]−(β − δ −1) ⎢
+, i = 1, 2.
+β
+⎣ (β − 1)2 ⎦
+
+(19)
+
+Comparing ERS and CRS proﬁts we have:
+Proposition 7. For i = 1, 2, the properties of πSiers * and πRiers * and their
+relationships with πSicrs * and πRcrs * are:
+
+In ERS, the fully symmetric channel costs assumption does not
+change the optimal revenue share and price which are given by (8) and
+(9), respectively. Since Condition (10) in Proposition 4 is satisﬁed also
+in the fully symmetric channel costs case, our analysis in Case 1 still
+applies except now not only r1ers * < r crs * shown in (12), but also
+r2ers * < r crs *. This might lead to a stronger supplier preference to sell
+in an ERS. It also follows that p1ers * < pcrs * and also p2ers * < pcrs * which
+could entice buyers to purchase from ERS suppliers.
+
+1. πSiers * and πRiers * increase in δ .
+ers *
+crs *
+*
+2. πSiers * > πSicrs *. However, πRers
+.
+1 + πR2 < πR
+The ﬁrst result of Proposition 7 easily follows from (18) and (19).
+But note that πSiers * and πRiers * cannot increase indeﬁnitely. Recall in
+Section 3, we assume 1 ≤ δ < (β − 1) in order to guarantee equilibrium.
+With large δ , the ERS suppliers might be better oﬀ than CRS suppliers
+because the ERS retailers may set lower revenue shares which could
+translate to relatively larger proﬁts for the ERS suppliers. Finally, we
+compare the CRS and ERS total channel proﬁts. Let
+
+4.4. Comparison of CRS and ERS proﬁts
+In this section, we examine the retailers, suppliers, and total
+channel proﬁts for the fully symmetric channel costs only. This special
+case yields intuitive results which also apply in the case of general nonsymmetric channel costs.9 For CRS, the supplier proﬁt is
+
+ρC ≡
+
+ers
+ers
+ers
+πSers
+1 * + πS 2 * + πR1 * + πR2 *
+crs *
+crs
+πScrs
+1 * + πS 2 * + πR
+
+represent the channel proﬁt ratio between
+
+ERS and CRS. Substituting the expressions for retailer and supplier
+proﬁts into ρC yields
+
+⎡ 1+ K ⎤
+(β − δ )
+β − 1 ⎥⎡ (β − 1)(β − δ ) ⎤
+ρC = ⎢⎢
+⎢
+⎥
+K
+⎥⎣ β (β − δ − 1) ⎦
+⎣1 + β−δ−1 ⎦
+
+7
+
+We note that this may not be the case in a duopoly setting where the overall demand
+is not signiﬁcantly aﬀected if both suppliers increase their prices. Suppliers, for example,
+raise prices seasonally, usually in the fall when Christmas is near and rushed shoppers
+pay less heed to prices.
+8
+Note that a fully symmetric manufacturing cost assumption is fairly common in the
+literature (e.g., see Choi (1991) and Lee and Staelin (1997)). The symmetric suppliers'
+cost assumption is reasonable particularly when products are diﬀerentiated merely by
+their packaging or brand name labels, e.g. popular Japanese DVD players.
+9
+We note that the general case with non-symmetric costs yields very complex (messy)
+analytic expressions. But it is easy to show numerically, utilizing the general expressions
+
+where K =
+
+(20)
+
+2[β (cS + cR ) − cR]
+.
+cS
+
+(footnote continued)
+in the preceding sections, that the intuitive results obtained from the fully symmetric
+channel costs case also apply to the general case.
+
+44
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+
+Fig. 2. CRS supplier proﬁt over a range of competition level δ .
+
+Fig. 3. Total proﬁt ratio ρc as a function of δ .
+
+(two-stage) nonlinear programming model formulations of CRS and
+ERS problems (see for example Bard, 1983; Colson et al., 2005;
+Dempe, 2002). In each model formulation, we maximize the retailer
+proﬁt with respect to revenue share, subject to maximizing the supplier
+proﬁt with respect to price. Analytically we are able to show for both
+CRS and ERS problems that the retailer objective function has a unique
+optimizing revenue share. We reformulate each bi-level model into an
+equivalent nonlinear programming (NLP) model which has a single
+objective function subject to constraints on supplier prices. The
+supplier prices are closed-form expressions which are expressed as
+functions of the retailer revenue shares. The CRS problem is an
+unconstrained NLP model, whereas the ERS problem is a constrained
+NLP model. We solve the former using an eﬃcient search algorithm,
+while the latter using LINGO version 10.0. (For details, see Lindo
+Systems Inc.'s online documentation on webinfo@lindo.com.) We
+present numeric solutions to a wide range of CRS and ERS problems
+and study how price competition in those settings is aﬀecting revenue
+share and price, the key factors which attract the supplier and buyer to
+transact in the marketplace.
+
+It is diﬃcult to analytically determine the impact of δ on ρC . Instead,
+we perform a small numerical study to investigate ρC 's behavior as a
+response to changes in the δ by setting β = 3 and δ between 0.8 and 1.9
+inclusive. We set supplier and retailer costs to cR = 1, cS = 2 . The
+results are plotted in Fig. 3. When δ < 1.003, ERS dominates CRS
+( ρC > 1). But when δ > 1.003, this dominance ﬂips in CRS's favor (). This
+example shows that although ERS suppliers are generally better oﬀ, the
+channel as a whole can be worse oﬀ.
+We summarize the results of the nonlinear demand case as follows:
+1. Both the level of competition (δ ) between the suppliers and cost
+sharing between suppliers and retailer are impacting the optimal
+revenue share and prices in CRS. Whereas in ERS, the revenue
+shares and prices are not inﬂuenced by δ , but instead they are
+impacted only by the cost sharing between the supplier and
+marketplace;
+2. The CRS retailer is better oﬀ (i.e. higher proﬁts) than the ERS
+retailers because the CRS retailer is able to extract higher revenues
+from the suppliers. But suppliers are attracted to ERS retailers
+because they get a larger share of the revenues. ERS retailers also
+attract buyers because prices are lower.
+3. Finally, ERS channel proﬁt is generally higher when the competition
+between suppliers is weak. However, ERS loses its dominance over
+CRS when competition is strong.
+
+5.1. CRS prices and revenue shares
+Similar to the nonlinear demand case, we assume in this section
+that the CRS retailer charges a single revenue share for products in the
+same category (i.e. r1crs = r2crs = r crs ). Also as before, we assume that the
+retailer is the Stackelberg leader. The bi-level problem representing the
+retailer and supplier decisions is:
+Problem CRS:
+
+5. CRS and ERS with linear demand
+As deﬁned earlier, the deterministic linear demand functions are
+d1(p) = aℓ − bp1 + γp2 and d 2(p) = aℓ − bp2 + γp1 where aℓ > 0 and
+b > γ > 0 . This demand/price relationship has been widely used in
+the literature to study decision-making processes of two agents (see for
+example Choi, 1991). We employ the same modeling approach used in
+the nonlinear demand case. However, unlike the nonlinear demand
+case, closed-form expressions for the optimal retailer revenue share are
+diﬃcult to obtain. In other words, the linear demand case is unlikely to
+lead to any closed-form analytical solutions. Many studies in the
+literature work around this diﬃculty by showing the conditions when
+an optimal solution exists and providing a comprehensive numerical
+study to obtain insights. As will be shown shortly, we present bilevel
+
+Max πRcrs = (aℓ − bp1crs + γp2crs )(r crsp1crs − cR1) + (aℓ − bp2crs + γp1crs )
+
+0≤ r crs ≤1
+
+(r crsp2crs − cR2 )
+
+(21)
+
+subject to:
+crs
+crs
+Max πScrs
++ γp2crs )[(1 − r crs )p1crs − cS1].
+1 (p2 ) = (aℓ − bp1
+
+p1crs ≥0
+
+crs
+Max πScrs
+2 (p1 )
+p2crs ≥0
+
+= (aℓ −
+
+bp2crs
+
++
+
+γp1crs )[(1
+
+−r
+
+crs
+
+)p2crs
+
+− cS1].
+
+(22)
+(23)
+
+The retailer objective function (21) is to maximize total revenue
+45
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+
+Given the supplier prices per s * = (piers * , pjers * ), retailer Ri 's proﬁt
+function is given by
+
+over the revenue share subject to Constraints (22) and (23) where
+individual suppliers also maximize their proﬁts over the price, given
+the retailer revenue share.
+The next proposition provides the closed-form expressions of the
+optimal prices for (22) and (23).
+
+πRiers = di(per s *)[rierspiers * − cRi ]
+⎡
+⎤
+= (aℓ − bpiers * + γpjers * )⎢riersi p ers * − cRi ⎥ , i = 1, 2, j = 1, 2, i ≠ j .
+i
+⎣
+⎦
+
+Proposition 8. For a given r , Si 's optimal decision is given by
+
+(29)
+
+γ
+
+pi
+
+crs *
+
+cSi + 2b cSj
+aℓ
+=
++
+γ
+2b − γ
+2(1 − r crs )(1 − 2b )(1 +
+
+γ ,
+)
+2b
+
+To obtain meaningful results, we again restrict the demand parameters such that when riers = 0 , di(per s *) > 0 , i = 1, 2 . The next proposition is useful in ﬁnding the optimal retailer revenue share in an ERS.
+
+i = 1, 2, j = 1, 2, i ≠ j .
+(24)
+
+Proposition 10. For a given rjers , retailer Ri can choose an riers *,
+0 < riers * < 1, that uniquely maximizes the proﬁt function πRiers .
+The proof of Proposition 10 is similar to that of Proposition 9 and is
+thus omitted. From Proposition 10, we know that for any revenue share
+set by one retailer, we can ﬁnd the revenue share of the other retailer
+such that its proﬁt is maximized. A pair of revenue shares (r1ers *,r2ers *) is
+in equilibrium if it maximizes the retailers' objective functions simultaneously.
+We will determine (r1ers *,r2ers *) numerically by solving the following
+bi-level optimization problems.
+Problem ERS-1:
+
+The next proposition shows the existence of at least one r crs , , such
+that the retailer's proﬁt is positive,10 i.e., πRcrs > 0 .
+Proposition 9. There exists an r crs , , that uniquely maximizes the
+retailer proﬁt πRcrs .
+The proof of Proposition 9 reveals that the retailer's proﬁt function
+πRcrs is strictly concave in 1 crs which implies the existence of a unique
+1−r
+maximizer r crs *.
+Utilizing the results of Proposition 8 and 9, problem CRS can be
+transformed into an unconstrained nonlinear optimization problem.
+Speciﬁcally, we substitute (24) into (21) which yields an expression in
+terms of the retailer revenue share r.
+
+πRcrs
+
+= (aℓ − bpi
+
+crs *
+
++
+
+γpjcrs * )(r crspicrs *
+
+− cRi ) + (aℓ −
+
+bpjcrs *
+
++ γpi
+
+crs *
+
+ers
+ers
+Max πRers
++ γp2ers )(r1ersp1ers − cR1)
+1 (r2 ) = (aℓ − bp1
+
+0≤ r1ers ≤1
+
+)
+
+subject to:
+
+(r crspjcrs * − cRj )
+= −
+
+ers
+ers
+Max πSers
++ γp2ers )[(1 − r1ers )p1ers − cS1].
+1 (p2 ) = (aℓ − bp1
+
+1
+1
+T1 +
+T2 + T3 − 2(1 − r crs )T4,
+4(1 − r crs )
+4(1 − r crs )2
+
+p1ers ≥0
+
+where T1, T2, T3, and T4 are parameters independent of r . (See proof
+of Proposition 9 in the Appendix for the expressions of
+T1, T2, T3, and T4 .)
+One can use an eﬃcient search algorithm to ﬁnd r crs * over the
+interval 0 < r crs < 1. We note that the retailer revenue share aﬀects the
+supplier prices and those prices impact demand. However, whether
+demand is increasing or decreasing in r crs depends on the supplier costs
+and the parameters b and γ . (This is shown by substituting (24) in
+di = aℓ − bpicrs * + γpjcrs * and determining the ﬁrst order derivatives
+with respect to r crs .) Next we analyze the ERS retailer and supplier
+decisions.
+
+ers
+ers
+Max πRers
++ γp2ers )(r1ersp1ers − cR1)
+1 (r2 ) = (aℓ − bp1
+
+0< r1ers <1
+
+= di(p)[(1 − riers )piers − cSi ]
+(26)
+
+pi
+
+pi
+
+γcSj
+c
++ 2(1 −Sir ers)
+4b(1 − r jers )
+i
+γ
+γ
+(1 − 2b )(1 + 2b )
+
+.
+
+p2ers =
+
+aℓ
++
+2b − γ
+
+γcS1
+c
++ 2(1 −S 2r ers)
+4b(1 − r1ers )
+2
+γ
+γ
+(1 − 2b )(1 + 2b )
+
+.
+
+0< r 2ers <1
+
+(33)
+
+(34)
+
+,
+
+(35)
+
+subject to: (33) and (34).
+We use the following iterative procedure to ﬁnd an equilibrium
+solution. We initialize r2ers to a small value and solve problem ERS-1′ to
+ﬁnd a trial value of r1ers . Then we substitute the trial r1ers in problem
+ERS-2′ and solve for a new value of r2ers . We iterate solving problems
+ers
+ERS-1′ and ERS-2′ until either the improvement in πRers
+1 and πR2 is less
+than ξ or the maximum number of iterations N is reached. To prove
+convergence to an equilibrium would at least require showing that r1ers *
+increases in r2ers and vice versa. It is diﬃcult to prove this analytically so
+instead we provide a numerical example and ﬁnd the equilibrium
+solution using the aforementioned iterative procedure.
+aℓ = 10 ,
+cR1 = 0. 1, cS1 = 1. 9
+b = 3,
+γ = 2.5,
+Let
+and
+cR2 = 0.3, cS2 = 1.7. At iteration 0, we initially set retailer 2's revenue
+share to 0.10. Then we optimize problem ERS-1′ which yields retailer
+1's revenue share of 0.586268. Next we substitute this value in problem
+
+(27)
+
+For any given revenue shares of retailers R1 and R2 , the supplier
+price piers can be obtained by solving Eq. (27) simultaneously for piers
+and pjers which yields
+
+aℓ
+=
++
+2b − γ
+
+γcS 2
+c
++ 2(1 −S1r ers)
+4b(1 − r 2ers )
+1
+γ
+γ
+(1 − 2b )(1 + 2b )
+
+ers
+ers
+Max πRers
++ γp1ers )(r2ersp2ers − cR2 )
+2 (r1 ) = (aℓ − bp2
+
+leads to
+
+cSi
+a
+γ ers
+= ℓ +
+p +
+, i = 1, 2, j = 1, 2, i ≠ j .
+2b
+2b j
+2(1 − riers )
+
+ers *
+
+aℓ
++
+2b − γ
+
+Given the revenue share
+of retailer R2 , we maximize retailer
+R1's proﬁt to ﬁnd r1ers * over 0 < r1ers * < 1 subject to the prices of
+suppliers S1 and S2 .
+Similarly, given the revenue share (r1ers ) of retailer R1, we maximize
+retailer R2 's proﬁt to ﬁnd r2ers * over subject to the prices of suppliers S1
+and S2 . The problem of retailer R2 is shown next.
+Problem ERS-2′:
+
+= (aℓ − bpiers + γpjers )[(1 − ri )piers − cSi ], i = 1, 2, j = 1, 2, i ≠ j .
+
+ers
+
+p1ers =
+
+(r2ers )
+
+The ERS proﬁt function of supplier Si is
+
+Setting
+
+(32)
+
+subject to:
+
+5.2. ERS prices and revenue shares
+
+ers
+∂πSi
+=0
+∂pi
+
+(31)
+
+Problem ERS-1 can be transformed into a nonlinear programming
+problem as shown below.
+Problem ERS-1′:
+
+(25)
+
+πSiers
+
+(30)
+
+i = 1, 2, j = 1, 2, i ≠ j .
+(28)
+
+10
+This result is not restrictive. Obviously r crs=0 beneﬁts the suppliers the most
+because they will charge the lowest prices which will surely attract a lot of buyers.
+However, it is only when r crs > 0 such that πRcrs > 0 that will motivate the retailer to oﬀer a
+contract to suppliers. Later we use this result again in ERS.
+
+46
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+
+Table 1
+Example finding an equilibrium solution.
+Iteration
+
+0
+1
+2
+
+Sup. price
+
+Ret. Proﬁt
+
+Sup. proﬁt
+
+R1
+
+R2
+
+S1
+
+S2
+
+R1
+
+R2
+
+S1
+
+S2
+
+0.586268
+0.586268
+0.640647
+0.640647
+0.642706
+0.642706
+0.642799
+0.642799
+
+0.100000
+0.665513
+0.665513
+0.674714
+0.674714
+0.675104
+0.675104
+0.675121
+
+6.11
+6.92
+7.34
+7.37
+7.39
+7.39
+7.39
+7.39
+
+5.16
+7.09
+7.27
+7.35
+7.36
+7.36
+7.36
+7.36
+
+15.88
+27.58
+28.30
+28.94
+28.94
+28.94
+28.97
+28.97
+
+2.12
+26.61
+29.70
+29.72
+29.8
+29.87
+29.87
+29.87
+
+2.87
+6.71
+4.53
+4.69
+4.61
+4.61
+4.62
+4.62
+
+28.85
+4.04
+4.78
+4.41
+4.44
+4.44
+4.43
+4.43
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+Optimal Revenue Share of R1
+
+3
+
+Rev. share
+
+Total ret. proﬁt
+
+Total sup. proﬁt
+
+Channel proﬁt
+
+18.00
+54.19
+58.00
+58.66
+58.81
+58.81
+58.84
+58.84
+
+31.72
+10.75
+9.31
+9.10
+9.05
+9.05
+9.05
+9.05
+
+49.72
+64.94
+67.31
+67.76
+67.86
+67.86
+67.89
+67.89
+
+0.93
+0.88
+0.83
+0.78
+0.73
+0.68
+0.63
+0.58
+0.53
+0.1
+
+0.2
+
+0.7
+
+0.8
+
+0.9
+
+Revenue Share of R2
+Fig. 4. The relationship between r1ers and r2ers .
+
+a. CRS retailer is better oﬀ (retailer proﬁt is higher).
+b. Suppliers and buyers are attracted to ERS because suppliers
+proﬁts are higher and buyers pay a lower price.
+
+ERS-2′ and solve it giving retailer 2's revenue share of 0.665513. In
+iteration 1, we utilize 0.665513 as retailer 2's revenue share and repeat
+the steps. Table 1 shows the retailer revenue shares, supplier prices,
+retailer proﬁts, supplier proﬁts, total retailer proﬁt, total supplier proﬁt
+and channel proﬁt obtained from three iterations. Fig. 4 shows r1ers * is
+increasing in r2ers and also r2ers is increasing in r1ers *.
+Next we report on a numerical study of the price and revenue share
+decisions for both CRS and ERS for the general channel cost structure
+with cR1 ≠ cR2 and cS1 ≠ cS2 , and symmetric channel cost structure i.e.
+cR1 = cR2 and cS1 = cS2 . We tried diﬀerent parameter values to identify
+instances with intuitive results and they are as follows. We set aℓ = 10 ,
+b = 3, and the cross price elasticity γ to either 0.5, 1, 1.5 ,2 or 2.5.
+Note that for ﬁxed b , as γ increases, the value of b − γ decreases which
+simulates an increasing product competition. Again we consider the 3
+cases: the nonsymmetric supplier and retailer costs was represented by
+cR1 = 0.1, cS1 = 1.9 and cR2 = 0.3, cS2 = 1.7; nonsymmetric supplier
+costs and symmetric retailer costs was represented by
+cR1 = 0.1, cS1 = 1.9 and cR2 = 0.1, cS2 = 1.7; and ﬁnally the symmetric
+suppliers’ costs and symmetric retailer costs was represented by
+cR1 = 0.1, cS1 = 1.9 and cR2 = 0.1, cS2 = 1.9 . For each problem, we set
+rjers initially to 0.50. The stopping parameters that worked best were
+ξ = 0.001 and N = 20. Table 2 shows the results.
+We summarize our observations below:
+
+4. The above results are generally consistent with the decisions for the
+nonlinear demand case with one exception. The results of ERS for
+the non-symmetric supplier and retailer costs and symmetric retailer
+costs do not conform with (11) of Proposition 4. Speciﬁcally,
+r1ers * < r2ers * but p1ers * > p2ers * which is counterintuitive. Other than
+the diﬀerence in demand functions, it is hard to explain what is
+causing this behavior because of the complex relationships between
+price and revenue share in the NLP optimization problems ERS-1
+and ERS-2. We reserve this for our future work.
+6. Conclusion
+In this study, we examine two PMP channel settings: a “Common
+Retailer Setting” (CRS) where sellers sell substitutable products
+through an online marketplace, and an “Exclusive Retailer Setting”
+(ERS) where the seller sells products through an exclusive marketplace.
+As expected, the retailer is better oﬀ in a CRS because larger retailer
+proﬁts are possible in that setting.
+In order to adequately compare supplier proﬁt diﬀerences, it is
+necessary to focus on the fully symmetric case. In that case the supplier
+is better oﬀ in the ERS because supplier proﬁts exceed those in the
+CRS, Also note that buyer (consumer) prices are lower in ERS versus
+CRS. Finally, the ERS channel proﬁt is generally higher when the price
+competition between sellers is weak. However, ERS may lose its
+dominance over CRS when the price competition is strong. These
+results are fairly consistent regardless whether the relationship between the product demand and price is linear or nonlinear.
+Our research can be extended in a number of ways. The retailer's
+service level and reputation are important drivers of consumers'
+purchase decision. Tsay and Agrawal (2000) study these retailer's
+performance attributes in a wholesale channel setting with a single
+manufacturer and two retailers of identical products. To our knowledge, no work has been done to extend the results in Tsay and Agrawal
+(2000) to competing PMP channels.
+
+1. ERS and CRS retailer revenue shares, supplier prices, retailer
+proﬁts, and channel proﬁts all increased in competition. Prices were
+increasing as competition increased. As explained earlier, this
+counterintuitive result, which we observed also in the nonlinear
+demand case, may be due to the price competition that gives the
+retailer the bargaining advantage to raise its revenue share which in
+turn induces the suppliers to raise prices in order to maintain their
+proﬁts.
+2. The last column shows ρC , which is the ratio of the ERS total channel
+proﬁt to that of CRS's, cresting at b − γ = 2.0 . We also observed a
+similar behavior in ρC for the nonlinear demand case (see Fig. 3 in
+Section 4.4). In other words, CRS dominance over ERS depends on
+the level of competition between suppliers.
+3. Comparing the CRS and ERS channels, we found that
+47
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+
+Table 2
+Results of 3 cases with linear demand.
+
+R1
+
+S1
+
+R2
+
+0.10
+1.90
+0.30
+(Nonsymmetricretailer and
+supplier costs)
+
+Note ρC ≡
+
+3.27
+6.49
+13.16
+28.55
+78.06
+3.27
+6.48
+12.84
+26.30
+58.87
+3.60
+6.96
+13.78
+29.36
+79.13
+3.57
+6.92
+13.39
+26.90
+59.63
+3.22
+6.48
+
+1.03
+1.59
+2.25
+2.74
+2.42
+1.09
+1.94
+3.30
+5.49
+9.05
+1.12
+1.69
+2.33
+2.82
+2.44
+1.21
+2.07
+3.45
+5.64
+9.20
+1.00
+1.58
+
+4.30
+8.08
+15.41
+31.29
+80.48
+4.36
+8.42
+16.14
+31.79
+67.92
+4.72
+8.65
+16.11
+32.18
+81.57
+4.78
+8.99
+16.84
+32.54
+68.83
+4.22
+8.06
+
+1.12
+1.37
+1.17
+0.56
+0.99
+1.69
+2.82
+4.68
+
+1.12
+1.37
+1.17
+0.56
+0.99
+1.69
+2.82
+4.68
+
+13.16
+28.60
+78.50
+3.20
+6.42
+12.72
+26.20
+58.94
+
+2.24
+2.74
+2.34
+1.12
+1.98
+3.38
+5.64
+9.36
+
+15.40
+31.34
+80.84
+4.32
+8.40
+16.10
+31.84
+68.30
+
+Ret. proﬁt
+
+Sup. proﬁt
+
+R1
+
+S1
+
+S2
+
+R1
+
+S1
+
+1.70
+
+CRS
+
+0.50
+1.00
+1.50
+2.00
+2.50
+0.50
+1.00
+1.50
+2.00
+2.50
+0.50
+1.00
+1.50
+2.00
+2.50
+0.50
+1.00
+1.50
+2.00
+2.50
+0.50
+1.00
+
+0.41
+0.45
+0.55
+0.67
+0.82
+0.33
+0.40
+0.47
+0.55
+0.64
+0.36
+0.44
+0.54
+0.66
+0.82
+0.33
+0.40
+0.47
+0.55
+0.64
+0.34
+0.43
+
+3.45
+4.05
+4.96
+6.65
+11.53
+3.37
+3.88
+4.60
+5.64
+7.40
+3.43
+4.02
+4.93
+6.61
+11.50
+3.36
+3.87
+4.58
+5.62
+7.36
+3.39
+3.99
+
+3.35
+3.89
+4.78
+6.42
+11.15
+3.35
+3.86
+4.57
+5.62
+7.36
+3.30
+3.87
+4.75
+6.39
+11.11
+3.29
+3.82
+4.52
+5.56
+7.30
+3.39
+3.99
+
+3.27
+6.49
+13.16
+28.55
+78.06
+1.60
+3.18
+6.30
+12.90
+29.00
+3.60
+6.96
+13.78
+29.36
+79.13
+1.56
+3.14
+6.21
+12.70
+28.56
+3.22
+6.48
+
+1.50
+2.00
+2.50
+0.50
+1.00
+1.50
+2.00
+2.50
+
+0.53
+0.65
+0.81
+0.33
+0.39
+0.47
+0.55
+0.64
+
+4.89
+6.57
+11.91
+3.37
+3.89
+4.61
+5.67
+7.44
+
+4.89
+6.57
+11.91
+3.37
+3.89
+4.61
+5.67
+7.44
+
+13.16
+28.60
+78.50
+1.60
+3.21
+6.36
+13.10
+29.47
+
+1.70
+
+CRS
+
+1.90
+
+CRS
+
+ERS
+
+a
+
+0.68
+1.03
+1.45
+1.80
+1.77
+0.54
+0.96
+1.63
+2.70
+4.43
+0.73
+1.09
+1.49
+1.85
+1.78
+0.66
+1.10
+1.80
+2.89
+4.64
+0.50
+0.79
+
+Sup. price
+
+ERS
+
+0.10
+1.90
+0.10
+(Symmetric retailer and
+supplier costs)
+
+0.35
+0.56
+0.80
+0.94
+0.65
+0.55
+0.98
+1.67
+2.79
+4.62
+0.39
+0.60
+0.84
+0.97
+0.66
+0.55
+0.97
+1.65
+2.75
+4.56
+0.50
+0.79
+
+Rev. share
+
+S2
+
+Cross
+price
+elas.
+
+ERS
+
+0.10
+1.90
+0.10
+(Symmetric retailer costs)
+
+Total
+sup.
+proﬁt
+
+Channel
+proﬁt
+
+S2
+
+Total
+ret.
+proﬁt
+
+Supply
+chain
+setting
+
+Cost
+
+R2
+
+0.40
+0.45
+0.52
+0.59
+0.68
+
+0.35
+0.42
+0.50
+0.58
+0.67
+
+0.33
+0.39
+0.47
+0.55
+0.64
+
+R2
+
+1.67
+3.30
+6.54
+13.40
+29.87
+
+2.01
+3.78
+7.18
+14.20
+31.07
+
+1.60
+3.21
+6.36
+13.10
+29.47
+
+ρc
+
+a
+
+1.01
+1.04
+1.05
+1.02
+0.84
+
+1.01
+1.04
+1.05
+1.01
+0.84
+
+1.02
+1.04
+1.05
+1.02
+0.84
+
+ers
+ers
+ers
+πSers
+1 * + πS 2 * + πR1 * + πR2 *
+.
+crs
+crs
+πScrs
+1 * + πS 2 * + πR *
+
+numerous market mechanisms that existing marketplaces have put in
+place for mitigating the occurrence of a market failure, for example: (1)
+focusing on a niche market and growing from it which, for example,
+eBay.com did with collectors of PEZ Candy dispensers; and (2)
+instituting a feedback system for buyers and sellers and oﬀering
+money back guarantees that will earn sellers and buyers conﬁdence
+and trust.
+
+Another possible extension would be to model the economic
+uncertainties, which could lead to a market failure in the PMP channel,
+such as: (1) when buyers (sellers) are not joining because there are not
+enough sellers (buyers); (2) large variability in product quality and
+service reliability; and, (3) large variability in information or bargaining advantage between buyers and sellers. Also, it would be worthwhile
+to study how the competition in the PMP channel is impacted by
+
+Appendix
+Proof of Proposition 1. The ﬁrst derivative of πSicrs with respect to pi is
+
+∂πSicrs
+= −βanpi−β −1pjδ [(1 − r crs )pi − cSi ]+anpi−β pjδ (1 − r crs )
+∂pi
+= anpi−β −1pjδ [−(β − 1)(1 − r crs )pi + βcSi ].
+
+Setting
+
+crs
+∂πSi
+=0
+∂pi
+
+gives [−(β − 1)(1 − r crs )pi + βcSi]=0 , resulting in pi =
+
+βcSi
+.
+(β − 1)(1 − r crs )
+
+When pi > pi ,
+
+pseudo-concave function of pi , and picrs * = pi is the unique maximizer.
+Proof of Proposition 2. The ﬁrst derivative of πRcrs with respect to the revenue share r is
+
+⎡
+⎤
+⎞
+⎛ r
+Km
+∂πRcrs
+r crs
+= (β − δ )(1 − r crs )(β − δ −1)( − 1)⎜
+Km − Kc⎟ + (1 − r crs )(β − δ )⎢
+Km +
+crs ⎥
+2
+crs
+⎠
+⎝1 − r
+∂r
+(1 − r ) ⎦
+⎣ (1 − r )
+⎡
+⎤
+r crs
+r crs
+crs (β − δ −1)
+= (1 − r )
+Km + (β − δ )Kc + Km +
+Km ⎥
+⎢ −(β − δ )
+⎣
+1 − r crs
+1 − r crs ⎦
+= (1 − r crs )(β − δ −2)[−(β − δ )(Km + Kc )r crs + Km + (β − δ )Kc].
+48
+
+crs
+∂πSi
+∂pi
+
+< 0 , and
+
+crs
+∂πSi
+∂pi
+
+> 0 when pi < pi . Thus πSics is a
+
+R. de Matta et al.
+
+International Journal of Production Economics 189 (2017) 40–51
+
+∂πRcrs
+∂r crs
+
+= 0 , we derive r crs *. It can be shown that πRcrs is a pseudo-concave function of r crs and so r crs * uniquely maximizes the retailer's proﬁt.
+
+Setting
+
+Proof of Proposition 3. Consider retailer R1 and supplier S1.
+Let g(r1ers ) = (1 − r1ers ) β −1[M1 − (cR1 + M1)(1 − r1ers )], where M1 =
+
+βcS1
+.
+β−1
+
+∂g(r1ers )
+= −(β − 1)(1 − r1ers ) β −2 [M1 − (cR1 + M1)(1 − r1ers )] + (1 − r1ers ) β −1(cR1 + M1)
+∂r1ers
+= −(β − 1)M1(1 − r1ers ) β −2 + (cR1 + M1)β (1 − r1ers ) β −1
+= (1 − r1ers ) β −2[−(β − 1)M1 + (cR1 + M1)β (1 − r1ers )].
+∂g(r1ers )
+
+Setting
+in
+
+r1ers . r1ers *
+
+∂r1ers
+
+Since when r1ers > r1ers *,
+
+∂g(r1ers )
+∂r1ers
+
+< 0 and when r1ers < r1ers *,
+
+is the unique maximizer. Substituting for M1 gives (8) for i=1. A similar analysis leads to
+
+Proof of Proposition 4. When
+
+M c + M4cR2
+Kc
+= 3 R1
+=
+Km
+M1M3 + M2M4
+
+M3
+c
+M4 R1
+M3
+M
+M4 1
+
++ cR2
+
+cR1
+cS1
+
+=
+
++ M2
+
+≤
+
+cR2
+, r ers *
+cS 2 1
+
+≤
+
+r2ers *
+
+is rather obvious. Since 1 ≤ δ < (β − 1), 0 <
+
+⎛ cS1 ⎞−(β + δ )
+cR1 + cR2
+⎜c ⎟
+⎝ S2 ⎠
+⎛ cS1 ⎞−(β + δ ) βcS1
++
+⎜c ⎟
+β−1
+⎝ S2 ⎠
+
+βcS 2
+β−1
+
+cR1
+cS1
+
+≤
+
+r2ers *.
+
+∂g(r1ers )
+∂r1ers
+
+> 0 , g(r1ers ) is pseudo-concave
+
+This completes the proof.
+
+β−δ−1
+β−δ
+
+<
+
+β−1
+.
+β
+
+Expanding Kc / Km we have
+
+⎤
+⎡ ⎛ ⎞−(β + δ )
+⎢ cR ⎜ cS1 ⎟
++ cR2 ⎥
+1
+c
+2
+S
+⎥
+β − 1⎢ ⎝ ⎠
+=
+⎥.
+⎢
+β ⎢ ⎛ c ⎞−(β + δ )
+⎥
+S1
+c
+c
++
+⎟
+⎜
+S2 ⎥
+⎢⎣ S1⎝ cS 2 ⎠
+⎦
+
+⎛ c ⎞−(β + δ )
+⎡c y + c ⎤
+c
+and letting y=⎜ cS1 ⎟
+it follows that cR1 ≤ ⎢ cR1y + cR2 ⎥ so that
+S1
+⎣ S1 S 2 ⎦
+⎝ S2 ⎠
+K
+β−1
+β−δ−1
+1
+1
+≤ 1 − β−δ
+=r crs *. Also, piers * =
+≤ K c . Thus r1ers * = 1 − β
+Kc
+β − 1 cR1
+
+When
+β − 1 cR1
+β cS1
+
+M1
+β−1
+.
+β (cR1 + M1)
+
+= 0 , we derive r1ers * = 1 −
+
+cR2
+,
+cS 2
+
+m
+
+(1 +
+
+β
+
+proof.
+
+cS1
+
+)
+
+(1 +
+
+Km
+
+)
+
+βcSi
+(β − 1)(1 − riers *)
+
+< picrs * =
+
+βcSi
+(β − 1)(1 − r crs *)
+
+. This completes the
+
+⎛c ⎞
+Proof of Proposition 5. Letting x = ⎜ cS1 ⎟, we have
+⎝ S2 ⎠
+∂(Kc / Km )
+(β − δ − 1)
+1
+1
+1
+∂r crs *
+=
++
+.
+K
+2
+2
+∂δ
+∂δ
+(β − δ ) ⎛
+⎞
+1 + K c (β − δ )
+K
+m
+⎜1 + K c ⎟
+m⎠
+⎝
+Taking the ﬁrst derivative of
+
+∂(Kc / Km )
+β − 1 [cS1x
+=
+β
+∂δ
+=
+
+β−1x
+β
+
+−(β + δ )
+
+Kc
+Km
+
+with respect to δ leads to
+
++ cS 2]cR1x −(β + δ )( − 1) ln x
+2
+
+[cS1x −(β + δ ) + cS 2]
+
+−
+
+−(β + δ )
++ cR2]cS1x −(β + δ )( − 1) ln x
+β − 1 [cR1x
+2
+β
+[cS1x −(β + δ ) + cS 2]
+
+−(β + δ )
+
+lnx (cS1cR2 − cS 2cR1)
+2
+
+[cS1x −(β + δ ) + cS 2]
+
+.
+
+Assuming cR1 = cR2 = cR and if cS1 > cS 2 , then (cS1cR2 − cS 2cR1) > 0 and ln x > 0 . Thus
+
+ln x < 0 . So
+
+crs *
+
+∂(Kc / Km )
+∂δ
+
+By Proposition
+
+∂r
+> 0 holds as well. This concludes that ∂δ
+βcSi
+crs *
+= (β − 1)(1 − r crs) . Thus, picrs *
+1, we know pi
+
+∂(Kc / Km )
+∂δ
+
+> 0 . When cS1 < cS 2 , we have (cS1cR2 − cS 2cR1) < 0 and
+
+> 0 when cR1 = cR2 = cR .
+
+is positively related to r crs , and so it increases with δ as well.
+
+Proof of Proposition 6. We ﬁrst prove the property of the retailer's proﬁt with respect to δ .
+
+⎡
+⎤−(β − δ −1)
+2a n
+(β − δ )
+[β (cS + cR ) − cR]−(β − δ −1) ⎢
+⎥
+⎣ (β − 1)(β − δ − 1) ⎦
+(β − δ )
+= 2any(δ ),
+
+πRcrs * =
+
+where y(δ ) =
+
+⎤−(β − δ −1)
+K5(β − δ )
+1 ⎡
+⎥
+β − δ⎢
+(
+β
+−
+1)(
+β
+−
+δ
+−
+1)
+⎣
+⎦
+
+and K5 = [β (cS + cR ) − cR].
+
+The ﬁrst derivative of y(δ ) with respect to δ is given by
+⎡
+⎤
+K5(β − δ )
+⎢−ln(β − δ )−(β − δ −1)ln (β −1)(β − δ −1) ⎥
+⎦
+
+∂y(δ )
+∂eln(y(δ ))
+∂e⎣
+=
+=
+∂δ
+∂δ
+
+∂δ
+⎡ 1
+K5(β − δ )
+= eln(y(δ ))⎢ β − δ + ln (β − 1)(
+−
+β − δ − 1)
+⎣
+
+1 ⎤
+β − δ⎥
+⎦
+
+K (β − δ )
+
+5
+= eln(y(δ ))ln (β − 1)(
+.
+β − δ − 1)
+
+K5(β − δ )
+. Since
+(β − 1)(β − δ − 1)
+πRcrs *
+and so ∂δ > 0 .
+
+Let hR(δ ) =
+∂y(δ )
+∂δ
+
+cS > 0 , cR > 0 , and c ≥ 1, we have K5 = [β (cS + cR ) − cR] = cS + (β − 1)(cS + cR ) > β − 1. It follows that hR(δ ) > 1.
+
+>0
+Thus,
+Next we prove the property of the supplier's proﬁt with respect to δ .
+49
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+
+⎡
+⎤−(β − δ )
+ancS
+(β − δ )
+[β (cS + cR ) − cR]−(β − δ ) ⎢
+⎥
+⎣ (β − 1)(β − δ − 1) ⎦
+(β − 1)
+ancS
+=
+x (δ ),
+(β − 1)
+
+* =
+πScrs
+i
+
+⎡ K6(β − δ ) ⎤−(β − δ )
+where x (δ ) = ⎢ (β − 1)(
+and K6 = [β (cS + cR ) − cR].
+β − δ − 1) ⎥
+⎣
+⎦
+Taking the ﬁrst derivative of x (δ ) with respect to δ leads to
+K6(β − δ )
+
+∂x (δ )
+∂eln(x(δ ))
+∂e−(β − δ )ln (β −1)(β − δ −1)
+=
+=
+∂δ
+∂δ
+∂δ
+⎡
+K 6 (β − δ )
+ln(x (δ ))
+= e
+⎢ln (β − 1)(β − δ − 1) −
+⎣
+K (β − δ )
+
+6
+−
+Let hS (δ ) = ln (β − 1)(
+β − δ − 1)
+
+1
+.
+β−δ−1
+
+⎤
+1
+β − δ − 1⎥
+⎦
+
+We can prove hS (δ ) decreases with δ as follows.
+
+∂hs(δ )
+1
+1
+1
+= −
++
+−
+∂δ
+β−δ
+β−δ−1
+(β − δ − 1)2
+1
+1
+=
+−
+.
+(β − δ )(β − δ − 1)
+(β − δ − 1)2
+S
+S
+Since hS (δ0 )=0 , when δ > δ0 , we have hs(δ ) < 0 and
+
+∂x (δ )
+∂δ
+
+< 0 . When δ < δ0S , we have hS (δ ) > 0 and
+
+∂x (δ )
+∂δ
+
+> 0 . This completes the proof.
+
+Proof of Proposition 7. With cS > 0 , cR > 0 , and c ≥ 1, we have [β (cS + cR ) − cR] = cS + (β − 1)(cS + cR ) > β − 1. Thus
+
+* and π Rers * with respect to δ can be observed directly from (18) and (19). Since
+relationship of πSers
+i
+i
+have
+
+ers *
+πSi
+crs *
+πSi
+
+⎡ (β − 1)(β − δ ) ⎤
+= ⎢ β(β − δ − 1) ⎥
+⎣
+⎦
+
+β−δ
+
+> 1. Also, φR(δ ) =
+
+πRes1* + πRes2*
+πRcs *
+
+β − δ ⎡ (β − 1)(β − δ ) ⎤
+= β ⎢ β(β − δ − 1) ⎥
+⎣
+⎦
+
+(β − 1)(β − δ )
+β (β − δ − 1)
+
+[β (cS + cR ) − cR]β
+
+2
+
+=
+
+β − βδ − β + δ
+β 2 − βδ − β
+
+(β − 1)2
+
+> 1. Now, the
+
+> 1 and δ < (β − 1), we
+
+β − δ −1
+
+< 1 since we can show φR(δ ) decreases with δ for given β , and when
+
+⎡ (β − 1)(β − δ ) ⎤ β − δ −1
+δ=0 , φR(δ ) reaches a maximum of 1. We now prove φR(δ ) decreases with δ . Let y1(δ ) = ⎢ β(β − δ − 1) ⎥
+.
+⎣
+⎦
+ln
+y
+δ
+(
+(
+))
+∂φR(δ )
+∂e 1 β − δ
+1
+=
+− eln(y1(δ ))
+∂δ
+∂δ
+β
+β
+⎧ ⎡ (β − 1)(β − δ ) ⎤⎛ β − δ ⎞
+1⎫
+ln(y (δ )) 1
+⎥⎜
+= eln(y1(δ ))⎨−⎢ln
+⎟+ ⎬−e 1
+β
+(
+β
+−
+δ
+−
+1)
+β
+β
+β
+⎠
+⎝
+⎦
+⎣
+⎭
+⎩
+⎧ ⎡ (β − 1)(β − δ ) ⎤⎛ β − δ ⎞⎫
+⎥⎜
+= eln(y1(δ ))⎨−⎢ln
+⎟⎬ < 0.
+⎩ ⎣ β (β − δ − 1) ⎦⎝ β ⎠⎭
+This completes the proof.
+⎪
+
+⎪
+
+⎪
+
+⎪
+
+⎪
+
+⎪
+
+⎪
+
+⎪
+
+Proof of Proposition 8. For given pjcrs , take the ﬁrst derivative of πSicrs with respect to picrs , we can obtain
+
+∂πSicrs
+= −b[(1 − r crs )picrs − cSi ] + (aℓ − bpicrs + γpjcrs )(1 − r crs )
+∂picrs
+= −2b(1 − r crs )picrs + bcSi + aℓ(1 − r crs ) + γpjcrs (1 − r crs ).
+
+Setting
+have pjcrs =
+
+crs
+∂πSi
+∂picrs
+
+aℓ
+2b
+
+= 0 leads to picrs =
+
++
+
+γ crs
+p
+2b i
+
++
+
+cSj
+2(1 − r crs )
+
+aℓ
+2b
+
++
+
+γ crs
+p
+2b j
+
++
+
+cSi
+.
+2(1 − r crs )
+
+Since πSicrs is a concave function of picrs for given pjcrs , picrs maximizes Si 's proﬁt. Similarly, we
+
+maximize Sj 's proﬁt. Thus, picrs =
+
+aℓ
+2b
+
++
+
+γ ⎡ aℓ
+2b ⎢
+⎣ 2b
+
++
+
+γ crs
+p
+2b i
+
++
+
+cSj
+
+⎤
+
+2(1 − r crs ) ⎥
+⎦
+
++
+
+cSi
+.
+2(1 − r crs )
+
+Solving this equation for pi arrives at
+
+(24). Notice that the Hessian matrix of the problem
+
+⎡ ∂ 2πSicrs
+⎢ ∂p crs2
+⎢ i
+⎢ ∂ 2πSjcrs
+⎢ ∂pcrs ∂p crs
+⎣ j i
+
+crs ⎤
+∂ 2πSi
+∂picrs ∂pjcrs ⎥
+crs
+∂ 2πSj
+
+∂pjcrs2
+
+crs
+crs ⎤
+⎡
+⎥ = ⎢−2b(1 − r ) γ (1 − r ) ⎥
+⎥ ⎣ γ (1 − r crs ) −2b(1 − r crs )⎦
+⎥
+⎦
+
+is negative-deﬁnite, which indicates that (24) is an equilibrium solution between the two suppliers.
+Proof of Proposition 9. Substituting picrs * in (24) in the retailer proﬁt function (3) yields
+
+πRcrs = (aℓ − bp1crs * + γp2crs * )(r crsp1crs * − cR1) + (aℓ − bp2crs * + γp1crs * )(r crsp2crs * − cR2 )
+⎡
+⎡
+⎤⎡
+⎤
+⎡
+⎤
+N3 ⎤ crs⎡
+N3 ⎤⎡
+N4
+N2
+N4
+N1 ⎤
+= r crs⎢N5 −
+⎥⎢N +
+⎥ − cR1⎢N5 −
+⎥+r ⎢N5 −
+⎥⎢N +
+⎥ − cR2⎢N5 −
+⎥
+⎣
+⎣
+⎣
+⎣
+2(1 − r ) ⎦⎣
+2(1 − r ) ⎦
+2(1 − r ) ⎦
+2(1 − r crs ) ⎦⎣
+2(1 − r crs ) ⎦
+2(1 − r crs ) ⎦
+1
+1
+T1 +
+T2 + T3 − 2(1 − r crs )T4,
+= −
+4(1 − r crs )
+4(1 − r crs )2
+where
+
+N=
+
+aℓ
+,
+2b − γ
+
+Ni =
+
+γ
+c
+2b Sj
+γ
+γ ,
+)(1 + )
+2b
+2b
+
+c Si +
+(1 −
+
+i , j = {1,2},i ≠ j ,
+
+N3 = N1b − N2γ ,
+
+50
+
+N4 = N2b − N1γ ,
+
+N5 = aℓ − (b − γ )N ,
+
+T = N1N5 − N3N + N2N5 − N4N ,
+
+International Journal of Production Economics 189 (2017) 40–51
+
+R. de Matta et al.
+1
+
+T1 = N1N3 + N2N4 , T2 = T1 + 2(cR1N3 + cR2N4 ) + 2T , T3 = − N5(cR1 + cR2 ) − 2 T + 2N5N , and T4 = N5N . Note all the above parameters are independent of r .
+Next let x =
+
+πRcrs = −
+
+1
+.
+(1 − r crs )
+
+We can rewrite the retailer's proﬁt function (3) as
+
+2
+
+x
+x
+2
+T1 + T2 + T3 − T4.
+4
+4
+x
+
+Taking the ﬁrst derivative of the retailer's proﬁt function w.r.t. x , we have
+
+∂πRcrs
+∂x
+
+1
+2
+x
+= − T1 + T2 + 2 T4.
+2
+4
+x
+
+The second derivative of πRcs w.r.t. x is
+
+∂ 2πRcrs
+∂x 2
+
+1
+4
+= − T1 − 3 T4.
+2
+x
+
+If we can show T1 > 0 and T4 > 0 , then , i.e., πRcrs is strictly concave in x , for 0 < x < ∞. First we show T1 > 0 .
+
+T1 = N1N3 + N2N4 = N12b − N1N2γ + N22b − N1N2γ
+= N12b − 2N1N2γ + N22b = b(N1 − N2 )2 + 2N1N2(b − γ ) > 0.
+In addition,
+
+T4 = N5N =
+
+aℓb
+aℓ
+(aℓ )2b
+=
+> 0.
+2b − γ 2b − γ
+(2b − γ )2
+
+Thus πRcrs is strictly concave in x for 0 < x < ∞. We now prove the existence of a unique maximizer x* to πRcrs where 1 < x* < ∞.
+∂πRcrs
+∂x
+
+x
+
+1
+
+∂π crs
+
+2
+
+T4 → − ∞. If we can show that there exists a x , 1 < x < ∞, such that ∂Rx |x = x > 0 , then we can
+conclude the existence of a unique maximizer x* to πRcrs where 1 < x* < ∞. We now show the existence of such x . When r crs = 0 , i.e., x = 1, by the
+retailer's proﬁt function (3), we know that the retailer's proﬁt is negative, i.e., πRcrs < 0 . Also, by our restrictions on the parameters, there exists at
+When x → ∞ we have
+
+= − 2 T1 + 4 T2 +
+
+x2
+
+least one r crs , , such that the retailer's proﬁt is positive, i.e., πRcrs > 0 . Thus, there must exist at least one r , 0 < r < 1, where
+for any 0 < r crs < 1, we can conclude that there exists at least one x where x =
+
+1
+1−r
+
+and 1 < x < ∞ such that
+
+∂πRcrs
+|
+∂x x = x
+
+∂πRcrs
+| crs
+∂r crs r = r
+
+∂x
+
+> 0 . Since ∂r crs > 0
+
+> 0 . Thus it follows that there
+
+exists a unique maximizer x* to πRcrs where 1 < x* < ∞. Since x strictly increases with r , we conclude the existence of a unique maximizer r crs * to πRcrs
+where 0 < r crs * < 1.
+
+3333088491/a-study-on-online-shopping-experience-and-customer〉.
+Hu, B., Xu, D., Meng, C., 2017. Inconsistency of a retailer's optimal policies and channel
+performance under revenue sharing contracts. Int. J. Prod. Econ. 183, 53–65.
+Huang, J., Mingming, L., Parlar, M., 2013. Demand functions in decision modeling: a
+comprehensive survey and research directions. Decis. Sci. 44, 557–609.
+Jeuland, A., Shugan, S., 1983. Managing channel proﬁts. Mark. Sci. 2, 239–272.
+Jeuland, A., Shugan, S., 2008. Commentary: managing channel proﬁts. Mark. Sci. 27,
+49–51.
+Kashkooli, K., 2010. The Making of a Modern Market: eBay.com (unpublished
+Dissertation). University of California, Berkeley.
+Kollock, P., Braziel, E., 2006. How not to build an online market: the sociology of market
+microstructure. In: Thye, S.R., Lawler, E.J. (Eds.), Advances in Group Processes:
+Social Psychology of the Workplace. Elsevier Science, New York.
+Lee, E., Staelin, R., 1997. Vertical strategic interaction: implications for channel pricing
+strategy. Mark. Sci. 16, 185–207.
+McGuire, T.W., Staelin, R., 1983. An industry equilibrium analysis of downstream
+vertical integration. Mark. Sci. 2, 161–192.
+Moorthy, K.S., 1988. Strategic decentralization in channels. Mark. Sci. 7, 335–355.
+Ouardighi, F., Kim, B., 2010. Supply quality management with wholesale price and
+revenue-sharing contracts under horizontal competition. Eur. J. Oper. Res. 206,
+329–340.
+Ratisoontorn, N., 2012. Consignment Contract with Competition (Doctoral Dissertation).
+University of Illinois at Chicago, Chicago, Illinois , USA.
+Sinha, S., Sarmah, S., 2010. Coordination and price competition in a duopoly common
+retailer supply chain. Comput. Ind. Eng. 59, 280–295.
+Trivedi, M., 1998. Distribution channels: an extension of exclusive retailership. Manag.
+Sci. 44, 896–909.
+Tsay, A.A., Agrawal, N., 2000. Channel dynamics under price and service competition.
+Manuf. Serv. Oper. Manag. 2, 372–391.
+Yang, S., Zhou, Y., 2006. Two-echelon supply chain models: considering duopolistic
+retailers' diﬀerent competitive behaviors. Int. J. Prod. Econ. 103, 104–116.
+Yao, Z., Leung, S.C.H., Lai, K.K., 2008. Manufacturer's revenue sharing contract and
+retail competition. Eur. J. Oper. Res. 186 (2), 637–651.
+Zhang, W., Fu, J., Li, H., Xu, W., 2012. Coordination of supply chain with a revenuesharing contract under demand disruptions when retailers compete. Int. J. Prod.
+Econ. 138, 68–75.
+
+References
+Adida, E., DeMiguel, V., 2010. Supply chain competition with multiple manufacturers
+and retailers. Oper. Res. 59 (1), 156–172.
+Adida, E., Ratisoontorn, N., 2011. Consignment contracts with retail competition. Eur. J.
+Oper. Res. 215 (1), 136–148.
+Avinadav, T., Chernonog, T., Perlman, Y., 2015. Consignment contract for mobile apps
+between a single retailer and competitive developers with diﬀerent risk attitudes.
+Eur. J. Oper. Res. 246 (3), 949–957.
+Bard, J., 1983. An eﬃcient point algorithm for a linear two stage optimization problem.
+Oper. Res. 31 (4), 670–684.
+Bernstein, F., Federgruen, A., 2005. Decentralized supply chain with competing retailers
+under demand uncertainty. Manag. Sci. 51, 18–29.
+Bughin, J., Corb, L., Manyika, J., Nottebojn, O., Chui, M., Barbat, B., Said, R., 2011. The
+Impact of Internet Technologies: Search@〈http://ﬁle:///C:/Users/rdematta/
+Downloads/Impact_of_Internet_technologies_search_ﬁnal2.pdf〉.
+Cachon, G., Kok, A., 2010. Competing manufacturers in a retail supply chain: on
+contractual form and coordination. Manag. Sci. 56 (3), 571–589.
+Choi, S.C., 1991. Price competition in a channel structure with a common retailer. Mark.
+Sci. 10, 271–296.
+Choi, S.C., 1996. Price competition in a duopoly common retailer channel. J. Retail. 72,
+117–134.
+Colson, B., Marcotte, P., Savard, G., 2005. Bilevel programming: a survey. Oper. Res. 3,
+87–105.
+Coughlan, A.T., 1985. Competition and cooperation in marketing channel choice: theory
+and application. Mark. Sci. 4, 110–129.
+Coughlan, A.T., Wernerfelt, B., 1989. On credible delegation by oligopolists: a discussion
+of distribution channel management. Manag. Sci. 35, 226–239.
+Dempe, S., 2002. Bilevel Programming – A Survey. Kluwer Academic Publishers,
+Dordrecht, The Netherlands.
+Geylani, T., Dukes, A., Srinivasan, K., 2007. Strategic manufacturer response to a
+dominant retailer. Mark. Sci. 26, 164–178.
+Hagiu, A., Wright, J., 2013. Do you really want to be an eBay? Harv. Bus. Rev. 91 (3),
+102–108.
+Hamza, V., Saidalavi, K., 2014. A study on online shopping experience and customer
+satisfaction, Adv. Manag., 〈https://www.questia.com/library/journal/1P3-
+
+51
+
+

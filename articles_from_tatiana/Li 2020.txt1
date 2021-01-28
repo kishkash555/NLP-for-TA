@@ -1,0 +1,1967 @@
+Transportation Research Part E 137 (2020) 101927
+
+Contents lists available at ScienceDirect
+
+Transportation Research Part E
+journal homepage: www.elsevier.com/locate/tre
+
+Reducing channel costs by investing in smart supply chain
+technologies
+
+T
+
+Xiang Li
+College of Economic and Social Development, Nankai University, Tianjin 300071, PR China
+
+ARTICLE INFO
+
+ABSTRACT
+
+Keywords:
+Smart supply chain
+Channel cost reduction
+Technology investment
+Platform
+
+This paper establishes a modeling framework that incorporates channel costs as a decision
+variable when smart supply chain technology can be invested in. A traditional manufacturerretailer supply chain is studied, and the conditions under which the technology should be invested are identified. Issues of supply chain efficiency and coordination are addressed. A platform
+supply chain is also investigated, and it is found that a platform may invest in reducing the
+channel cost even if it does not bear any part of this cost. In this case, the percentage fee is found
+to be an important parameter.
+
+1. Introduction
+Channel cost reduction is a major objective of supply chain management. Different from traditional production optimization in a
+single firm, supply chain management underlines the objectives of reducing circulation costs and achieving greater efficiency within
+the end-to-end processes of product production, distribution and sales. Especially, today’s rapid development of technologies such as
+the Internet of Things, big data, artificial intelligence and blockchain has led to the emergence of smart supply chains (SSCs). To a
+large extent, these SSC technologies have changed the ways in which supply chain members manage their production, logistics,
+distribution and marketing activities, which has further lowered channel transaction and operation costs.
+SSC technologies can be embedded in supply, production and distribution processes such that upstream and downstream entities
+of a supply chain are interconnected in real time. In this way, channel costs are lowered and operation efficiencies are improved. For
+example, China Tobacco Zhejiang Industrial Co., Ltd. has upgraded its ERP (Enterprise Resource Planning) and DMS (Database
+Management System) structures by putting into practice RFID (Radio Frequency Identification), big data and other technologies.
+Specifically, the company has taken the following measures: i) extending the application of automatic identification labels of barcodes and RFID from finished products and pallets to storage locations, vehicles and all packages of tobacco leaves and raw materials,
+ii) setting up hundreds of read-write points and sensors at logistics links from the production line through commercial logistics
+centers to final retailers, iii) putting forward full supply chain batch management based on the minimum packing unit, which covers
+raw materials, cases of finished products, cartons of cigarettes and even packs of cigarettes. Investment in these technologies secures
+abnormal returns: the labor cost is reduced and storage utilization is increased with 750 thousand RMB saved per year; supply chain
+transaction cost savings are estimated at 0.2% of annual revenue, i.e., approximately 7 million RMB per year.
+In the last decade, Internet-based platforms have played more important roles in improving supply chain performance through
+operational innovation and technology application. Through this trend, not only large manufacturing companies but also major
+platform companies such as Amazon in the U.S. and Alibaba in China are vigorously promoting the construction of SSCs. A typical
+example includes the Alibaba and Cainiao Alliance’s adoption of intelligent technologies such as the IoT (Internet of Things) and
+
+E-mail address: xiangli@nankai.edu.cn.
+https://doi.org/10.1016/j.tre.2020.101927
+Received 31 December 2019; Received in revised form 1 March 2020; Accepted 25 March 2020
+Available online 09 April 2020
+1366-5545/ © 2020 Elsevier Ltd. All rights reserved.
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+cloud computing1, which have been elevated to layouts in the field of platform-led SSCs. In terms of business digitization, in May
+2014, Cainiao Electronic Sheet was formally introduced with the provision of technical support by Cainiao. In 2016, Cainiao Electronic Sheet’s penetration into the Alibaba Electronic System’s e-commerce platform (Tmall + Taobao) reached nearly 80%, and the
+transit link misclassification rate was reduced by 40% on average. In terms of intelligent distribution, the Cainiao network adopts
+intelligent sub-warehousing, utilizes big data technology to predict future sales of goods, and pre-stocks goods to sub-warehouses
+closest to consumers, in turn greatly shortening delivery distances. The Cainiao network also integrates social resources to accelerate
+the construction of intelligent distribution networks at the county level, reducing per order delivery costs for rural areas by more than
+0.5 RMB.
+Motivated by the above industrial practices, this paper establishes stylized models to investigate the problem of reducing channel
+costs by investing in SSC technology. Based on our industrial observations, two supply chain modes are considered: the manufacturerretailer mode and the platform mode. In the manufacturer-retailer supply chain mode, we consider centralized and decentralized
+cases of a manufacturer initiating technology investment. This mode corresponds with the traditional distribution channel in the real
+economy. For the platform supply chain mode, we consider two case: a manufacturer initiates technology investment and a platform
+initiates this investment. The platform supply chain mode corresponds with a business model adopted in the booming platform
+economy, in which SSC technologies have been widely adopted. Following the standard Stackelberg game framework, we assume
+that supply chain members are independent entities interested in maximizing their own profits dependent on the performance of SSC
+technology investment and market price decisions. By analyzing optimal strategies for different cases, we seek answers to the following questions: Under what conditions should SSC technology be invested in, and when it is invested in, to what extent should the
+channel cost be reduced? What parameters are related to these decisions? In a manufacturer-retailer channel, how does supply chain
+efficiency manifest? Does the option of technology investment enhance or weaken the manufacturer’s power? In a platform supply
+chain, what is the platform enterprise’s motivation to invest in SSC technology, and how is this related to the percentage fee paid by
+the manufacturer to the platform?
+The remainder of the paper is organized as follows. In the next section, we review the existing literature. In Section 3, we analyze
+the manufacturer-retailer supply chain mode and study the C and MR cases. In Section 4, we analyze the platform supply chain mode
+and study the MP and P cases. The final section concludes our findings and discusses avenues for future research.
+2. Literature review
+Our work is closely related to the application of information technologies to supply chain management, including big data,
+artificial intelligence, expert system, RFID, blockchain, etc. In recent years, the importance of these technologies has been widely
+recognized in research on operations and supply chain management. For example, big data and AI analytics help firms reduce channel
+costs (Choi et al., 2018), raise levels of supply chain efficiency (Giannakis and Louis, 2016), and add economic value by satisfying
+customers’ changing needs (Choi, 2018, Zhan and Tan, 2020). In this regard, we refer the readers to Arunachalam et al. (2018),
+Govindan et al. (2018), Sanders and Ganeshan (2019), Baryannis et al. (2019), Chung et al. (2020), and Kraus et al. (2020) for a
+review of the latest findings. Other techniques adopted in supply chain management include RFID (Zelbst et al., 2012), blockchain
+(Choi, 2019; Choi et al., 2019), and 3D printing (Beltagui et al., 2019). Related survey-based papers include Sarac et al. (2010), Chan
+et al. (2018), Babich and Hilary (2019), and Choi and Luo (2019), which describe current research progress and avenues for future
+research. Throughout this paper, all of the above technologies are collectively referred to as SSC technologies, as they correspond
+with the objective of rendering the supply chain “smarter” through the realization of lower costs, greater efficiency and more
+customer value. In particular, this paper focuses on one function of SSC technology, i.e., reducing channel costs within the supply
+chain, and examines the tradeoff between its benefits and drawbacks utilizing a theoretical modeling approach.
+Our work is also related to optimization problems considering cost reductions in a production system. The mainstream research
+on cost reduction is largely based on the classical EOQ (Economic Order Quantity) model, including the early works of Porteus
+(1985), (1986a,b), Billington (1987) and Kim et al. (1992). Later, works link other issues such as production quality and lead time.
+Affisco et al. (2002) proposes a quality-adjusted economic lot sizing model in consideration of three strategies: setup cost reduction,
+quality improvement, and simultaneous setup cost reduction and quality improvement. Ouyang et al. (2002) further show that lead
+times can be shortened with an extra crashing cost in addition to improving process quality and reducing setup costs. The problem
+then involves simultaneously optimizing the lot size, reorder point, process quality, setup cost, and lead time. Ben-Daya and Hariga
+(2003) investigate a continuous review inventory model wherein lead time is considered a controllable variable and divided into setup, processing and non-productive time. These components reflect setup cost reduction, lot size lead time interaction and lead time
+crashing, respectively. Chang et al. (2006) address the lead time and ordering cost reduction problem using the single-vendor singlebuyer integrated inventory model, in which the buyer’s lead time can be shortened at an extra cost. Glock (2012) considers alternative methods for reducing lead time and studies their impacts on the safety stock and expected total costs of a continuous review
+inventory control system. In contrast to the above works on production cost reduction optimization in a manufacturing system, the
+present work incorporates the reduction of channel costs shared by a manufacturer and a retailer and focuses more on the decentralized channels using game theory.
+This paper considers not only the traditional manufacturer-retailer channel but also the platform supply chain mode, which
+1
+In May 2013, Alibaba announced the establishment of Cainiao Network Technology Co., Ltd by joining forces with several express delivery
+companies and investment groups. In March 2016, it established the "Cainiao Alliance."
+
+2
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+relates to the latest research on platform selling and e-marketplaces, usually referred to as agent selling format (Chen et al., 2019).
+Jiang et al. (2011) examine strategic underselling on platforms under the threat of replacement by the platform owner. Hagiu and
+Wright (2015) focus on demand-enhancing marketing activity and compare situations in which marketing activity is controlled by
+suppliers during agent selling or by the intermediary during reselling. Some scholars have studied the intermediary’s strategic choice
+to engage in agent selling and reselling considering different supply chain structures, including one-supplier-one-intermediary (Ryan
+et al., 2012), one-supplier-two-intermediary (Abhishek et al., 2016), and two-supplier-one-intermediary structures (Tian et al., 2018).
+Zhang et al. (2019) determined whether a platform should adopt revenue sharing or fixed fees as a price contract in the agency selling
+mode. Other studies on platform adoption cover scenarios related to e-book sales (Lu et al., 2018), fashion product consumption (Choi
+and He, 2019), grocery delivery services (Kung and Zhong, 2017), green advertising (Du et al., 2019), and on-demand services (Choi
+et al. 2020). In this paper, we explore decisions on channel cost reduction in a platform supply chain mode with the agent selling
+format, which have not been considered in the previous studies.
+In practice, the high-level application of automated, informatized and intelligent technologies has recently transformed inter-firm
+business into a stage of smart supply chain, whose actualization dictates channel cost reduction and operating efficiency improvements. However, there have been few works on investment in SSC (smart supply chain) technology as a means to reduce channel costs
+in a supply chain environment. This paper attempts to fill this research gap by establishing a modeling framework that incorporates
+the channel cost as a decision variable and examines the tradeoff between the investment required by adopting SSC technology and
+its benefits brought about to supply chain members, in consideration of both manufacturer-retailer and platform supply chain modes.
+We obtain novel results by identifying crucial factors that influence investment decisions and by comparing optimal decisions and
+profits for different supply chain cases. Our results supplement the current research literature and shed light on the practice of SSC
+technology implementation.
+3. Manufacturer-retailer supply chain model
+3.1. Model description
+Consider a manufacturer that sells a product through a retailer to the end-market. A channel cost c0 is incurred, which can be an
+operational or transaction cost and is shared by the manufacturer and retailer with ratios of and 1
+, respectively. That is, the
+) c0 . We apply
+[0, 1] as an exogenous parameter. In addition, this channel cost
+manufacture pays c0 and the retailer pays (1
+can be reduced by adopting a specific form of SSC (smart supply chain) technology. For example, the transportation cost from the
+manufacturer to the retailer can be reduced by implementing a more intelligent logistics dispatching technology, and the supply
+chain trading cost can be reduced by establishing a more advanced information sharing system. The investment required to adopt the
+SSC technology is K (c ) for lowering the cost from c0 to c (0, c0], which satisfies K (·) < 0, K (·) > 0, K (0) = + , K (c0 ) = 0 . More
+specifically, we assume that K (c ) = a b ln c , in which b and a = b ln c0 are given constants. Such a cost formulation has been
+adopted in the literature on production line investment, e.g., Porteus (1985), (1986a,b) and Billington (1987). Here, b is a cost
+parameter indicating the economy of SSC technology investment. That is, the larger b is, the more costly it is to make the supply chain
+“smarter” or, in our context, the more expensive it is to lower the channel cost to a certain value. On the other hand, the endconsumers’ valuation of the product is uniformly distributed in [0,1]. The assumption of uniformly distributed consumers’ valuation
+is widely adopted in the literature on economics, marketing, and operations management, e.g., Shi et al. (2013), Liu et al. (2015), and
+Jerath et al. (2017). Consequently, demand can be expressed as 1 p, in which p is the market price determined by the retailer.
+Without loss of generality, we assume that the costs of production and sales are zero.
+The supply chain members interact in a Stackelberg game based on a wholesale price contract: the manufacturer proposes a
+wholesale price w and the retailer responds by determining a market price p . In addition, the SSC technology investment is initiated
+by the manufacturer, who acts as the Stackelberg game leader. This assumption is consistent with most of our industry observations2
+and is in accordance with the supply chain modeling setting adopted in most of the existing literature, e.g., McGuire and Staelin
+(1983) and Li et al. (2016).
+We thus have the following two cases:
+
+• The C (centralized) case: the manufacturer and retailer act in a coordinated way to maximize the profit of the entire supply chain;
+• The MR (manufacturer-retailer) case: the manufacturer invests in SSC technology and determines the channel cost c (0, c ].
+0
+
+To avoid ambiguity, the manufacturer is referred to as “she” and the retailer is referred to as “he.” Superscripts “C” and “M” are
+used to denote the C and MR cases, respectively.
+3.2. The C case
+In the C case, the problem is to choose the optimal market price p and channel cost c to maximize the total channel profit
+2
+In today’s retail industry, major retailers such as Target, Walmart, and Carrefour usually act as supply chain leaders that can invest in channel
+cost reduction. Nevertheless, our analysis in this case shows that the results are similar to those of the MR case except for the reversed roles of the
+manufacturer and retailer, i.e., their profits are exchanged. Further details are provided in the Appendix.
+
+3
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+C
+C
+
+= (p
+
+c )(1
+
+p)
+
+K (c ) . For a given c , it is straightforward that the optimal market price should be p (c ) =
+
+this value into the channel profit function, we have the objective function with respect to c as
+
+c1C =
+
+1
+
+1
+2
+
+8b
+
+when b
+
+C
+C (c )
+
+=
+
+c )2
+
+(1
+
+1+c
+.
+2
+
+4
+
+1 8.
+
+By substituting
+
++ b ln c
+
+a. Define
+
+Proposition 1.. (1) When b < c0 (1 c0 ) 2 , the optimal channel cost for the C case is c C = c1C < c0 . (2) When b > 1 8, the optimal channel
+cost for the centralized case is c C = c0 . (3) When c0 (1 c0 ) 2 b 1 8, the optimal channel cost for the centralized case is given by
+
+c1C if c0 > 1 2 and b <
+
+cC =
+
+c0
+
+[(1
+
+2
+
+c1C )
+
+(1
+
+c 0 )2 ]
+
+4 ln(c0 c1C )
+
+;
+(1)
+
+otherwise.
+
+Proof:. Taking the first-order derivative of the objective function, we have
+cases: (I) when b
+
+dc
+
+=
+
+1
+2c
+
+c + 2b) , which leads to the following two
+
+(c 2
+
+0 and thus c C = c0 ; (II) when b < 1 8, we have two roots, c1C =
+dc
+leading to the two following subcases. (i) When c0 1 2 , we have c0 c2C and thus M is increasing in c
+
+c
+
+cC
+c
+
+1 8, we have
+
+d CC
+
+d CC
+
+1
+
+[c1C , c2C ]. It then follows that c C = min(c0, c1C ) . By comparing the values of c0
+
+c1C
+
+1
+2
+
+8b
+
+and c2C =
+
+1+ 1
+2
+
+8b
+
+,
+
+[0, c1C ] and decreasing in
+
+and c1C =
+
+1
+
+1
+2
+
+8b
+
+we have
+
+if b < c0 (1 c0) 2
+=
+. (ii) When c0 > 1 2 , with b < c0 (1 c0 ) 2 , we have c1C 1 2 < c0 c2C and thus CC is increasing in
+c0
+otherwise
+[0, c1C ] and decreasing in c [c1C , c0], which yields c M = c1C ; with c0 (1 c0 ) 2 b 1 8, we have c1C 1 2 c2C c0 , which
+
+yields
+
+c1C if b <
+
+[(1
+
+c1C )
+
+2
+
+(1
+
+c0)]
+
+;
+
+after comparing the values of
+c0
+otherwise;
+yields the result given by Proposition 1. □
+
+cC
+
+=
+
+4 ln(c 0 c1C )
+
+C
+C (c 0 )
+
+and
+
+C
+C
+C (c1 ) .
+
+Combining the above cases of (I) and (II)
+
+Proposition 1 provides the optimal SSC technology investment decision for the C case: to lower the channel cost from c0 to a target
+level c1C or to do nothing so the original channel cost c0 is applied. The decision is closely related to two parameters: the cost
+parameter for SSC technology investment b indicating how costly it is to make the supply chain smarter and the original channel cost
+c0 indicating how smart the original supply chain is. In terms of the cost parameter b, three cases are classified: (1) when b is lower
+than a threshold c0 (1 c0) 2 , which depends on c0 , it is always optimal to invest in reducing the channel cost; (2) when b is higher
+than a threshold of 1/8, it is always optimal to not invest; (3) when b is between these two thresholds, the situation is more complex
+and can be classified into two subcases: when c0 is small (c0 < 1 2 ), no investment will be conducted; otherwise, the result depends on
+the relationship between c0 and b formulated in an intricate manner by Eq. (1). Note that the target channel cost c1C is increasing with
+b, which implies that the amount of investment will decrease as applying SSC technology becomes more costly.
+Proposition 1’. (1) When c0
+
+1 2 , the optimal channel cost for the C case is given by c C =
+
+the optimal channel cost for the C case is given by
+
+cC
+
+=
+
+c1C if b < 1 8 and b <
+c0
+
+[(1
+
+c1C )
+
+2
+
+c1C if b < c0 (1 c0) 2
+; (2) When c0 > 1 2 ,
+c0
+otherwise
+(1
+
+4 ln(c0 c1C )
+
+c 0 )2 ]
+
+;
+
+otherwise .
+
+Proposition 1′ provides another interpretation of the optimal decision for the C case from the perspective of c0 . When c0 is larger
+than 1/2, SSC technology is invested in if b is lower than c0 (1 c0) 2 ; otherwise, the investment decision depends on whether it is
+economical to reduce the channel cost to c1C .
+Corollary 1..
+(1) The market price, demand, and channel profit in the centralized case are given by
+
+pC = (1 + c C ) 2,
+dC = (1 c C ) 2,
+C
+C
+
+= (1
+
+c C )2 4
+
+K (c C ),
+
+(2)
+
+in which c C is characterized by Proposition 1;
+(2) pC is nondecreasing with b while dC and
+
+C
+C
+
+are nonincreasing with b .
+
+Proof:. The market price, demand, and channel profit are obtained by substituting c C into the price, demand, and objective
+functions. Their sensitivities with respect to b are straightforward as c C is increasing with b. □
+Corollary 1 shows that consumers and supply chain performance benefit more from channel cost reduction when SSC technology
+investment is less costly.
+
+4
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+3.3. The MR case
+In the MR case, the manufacturer first determines the wholesale price w and the channel cost c . Then, the retailer determines the
+market price p . Following the standard Stackelberg game solving procedure, we use a backward induction method by which the
+) c](1 p).
+retailer’s problem is first managed. The retailer’s objective function is RM = [p w (1
+Lemma 1.. Given the wholesale price w and channel cost c , the optimal market price and corresponding demand and profit for the retailer are
+given by
+
+p (w , c ) =
+d (w , c ) =
+R (w ,
+
+c) =
+
+1 + w + (1
+2
+1 w (1
+2
+[1
+
+w
+
+)c
+)c
+
+,
+,
+) c]2
+
+(1
+4
+
+.
+
+(3)
+
+= [p w (1
+Proof:. It is easy to see that
+1 + w + (1
+have the optimal market price p (w, c ) =
+2
+demand and profit given by (3). □
+
+) c](1 p) is concave in p . Taking the first-order derivative with respect to p , we
+)c
+. By substituting this into the demand and objective functions we also have the
+
+M
+R
+
+With the prospect of the retailer’s response, the manufacturer aims to find the optimal wholesale price w and channel cost c to
+c ) d (w, c ) K (c ) . For a given c , it is straightforward that the optimal wholesale price should be
+maximize her profit MM = (w
+
+w (c ) =
+when b
+
+1 + (2
+
+1) c
+
+2
+
+1 16 .
+
+. Substituting this into the manufacturer’s profit function yields
+
+M
+M (c )
+
+=
+
+c )2
+
+(1
+
+8
+
+a . Define c1M =
+
++ b ln c
+
+1
+
+1 16b
+2
+
+Proposition 2.. (1) When b < c0 (1 c0 ) 4 , the optimal channel cost for the MR case is c M = c1M < c0 ; (2) When b > 1 16 , the optimal
+channel cost determined for the MR case is c M = c0 ; (3) When c0 (1 c0 ) 4 b 1 16, the optimal channel cost for the MR case is given by
+
+c1M if c0 > 1 2 and b <
+
+cM =
+
+[(1
+
+c1M )
+
+2
+
+c 0)2]
+
+(1
+
+8 ln(c 0 c1M )
+
+;
+(4)
+
+c0 otherwise .
+Proof:. The proof is analogous to that of Proposition 1 and thus omitted.
+
+□
+
+Proposition 2 provides the optimal channel cost for the MR case. Similar to the central controller for the C case, the manufacturer
+here faces two options: to invest in lowering the channel cost to a target c1M or do nothing. Specifically, whether investment should be
+executed is closely related to the cost parameter for SSC technology investment b and the original channel cost c0 : (1) when b is lower
+than a threshold dependent on c0 , it is always optimal to invest; (2) when b is higher than a threshold of 1/16, it is always optimal to
+not invest; (3) when b is between these two thresholds, the situation is more complex and can be classified into two subcases: when c0
+is small (c0 < 1/2), no investment will be made; otherwise, the result depends on both c0 and b, which can only be expressed in an
+intricate formulation.
+Proposition 2’. (1) When c0
+
+1 2 , the optimal channel cost for the MR case is given by c M =
+
+c0 > 1 2 , the optimal channel cost for the MR case is given by
+
+cM
+
+=
+
+c1M if b < 1 16 and b <
+
+[(1
+
+c1M if b < c0 (1 c0) 4
+; (2) When
+c0 otherwise
+c1M )
+
+2
+
+(1
+
+8 ln(c0 c1M )
+
+c 0 )2 ]
+
+;
+
+c0 otherwise .
+
+Proposition 2′ provides another interpretation of the optimal channel cost chosen by the manufacturer from the perspective of c0 .
+Similar to the centralized case, 1/2 is a curial threshold for c0 : when c0 is less than 1/2, the SSC technology is invested in if b is lower
+than a threshold of c0 (1 c0) 4 ; when c0 is larger than 1/2, the threshold for b can be only expressed in an implicit way.
+Corollary 2..
+(1) The market price, demand, and channel members’ profits for the MR case are given by
+
+p M = (3 + c M ) 4,
+dM = (1 c M ) 4,
+M
+M
+
+= (1
+M
+R
+
+in which
+
+cM
+
+c M )2 8
+= (1
+
+cM
+
+K (c M ),
+)2
+
+(5)
+
+16,
+
+is characterized by Proposition 1;
+
+(2) p M is nondecreasing with b while dM , MM and
+(3) p M , d M , MM and RM are not related to .
+
+M
+R
+
+are nonincreasing with b;
+
+Proof:. The market price, demand, and channel members’ profits are obtained by substituting c M into their formulations. Their
+sensitivities with respect to b and are straightforward as c M is increasing with b and not related to . □
+5
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+(a)
+
+(b) c0 = 0.7
+
+c0 = 0.3
+
+Fig. 1. Profits of supply chain members for the MR Case.
+
+Corollary 2 shows that the manufacturer’s investment in the SSC technology is beneficial to the downstream retailer and consumers. Moreover, channel cost allocation between the supply chain members has no impact on the technology investment decisions
+or on the performance of the supply chain in relation to market demand, price, and channel members’ profits. This is the case because
+the retailer can always transfer his allocated channel cost to the manufacturer by controlling the market price.
+Corollary 3.. (1) When c M = c0 , we have
+1 2.
+cM
+0 and RM MM
+
+M
+R
+
+M
+M
+
+= 1 2 ; (2) When c M < c0 , we have
+
+M
+R
+
+M
+M
+
+> 1 2 ; (3) When b
+
+0 , we have
+
+Proof:. We have K (c M ) = 0 when c M = c0 and K (c M ) > 0 when c M < c0 , which yield results (1) and (2). For result (3), we have
+
+0 and a = b ln c0
+
+c M = cC
+
+16b ,
+
+which
+
+x=1
+
+1
+
+K (c M )
+
+0 , which yields
+
+0 when b
+
+yields
+M
+R
+
+M
+M
+
+lim+
+
+b
+
+0
+
+0 . We can prove lim b ln c M = lim b ln
++
++
+
+b ln c M
+
+1 2. □
+
+= lim+ b ln
+b
+
+1
+
+0
+
+1
+2
+
+b
+16b
+
+0
+
+=
+
+x (2 x )
+lim 16
+x 0+
+
+b
+
+ln
+
+0
+
+( )=
+x
+2
+
+1
+
+1 16b
+2
+
+= 0 . To observe this, let
+
+1
+lim x ln(x )
+x 0+ 8
+
+= 0.
+
+It
+
+follows
+
+that
+
+In the supply chain model without an SSC technology investment option, the manufacturer can use her power as a Stackelberg
+leader to extract profit from the retailer, which is usually referred to as the “first-mover advantage” in game theory terminology.
+Corollary 3 shows that in our MR model, the option to make technology investments weakens the manufacturer’s first-mover advantage by allotting to the retailer a larger portion of the benefit obtained from channel cost reduction. On the other hand, this firstmover advantage can be regained by the manufacturer when SSC technology investment is highly economical (i.e., b is very small).
+Fig. 1 verifies the result shown by Corollary 1, further indicating that when the extent of channel cost reduction is low, the retailer
+benefits more from this cost reduction than the manufacturer. Especially when the original cost c0 is high, the benefits of SSC
+technology investment for the retailer are so prominent that the retailer’s profit can even exceed the manufacturer’s. This phenomenon can never occur in a supply chain without an SSC technology investment option. Nevertheless, when SSC technology
+investment becomes more economical, the benefits of channel cost reductions for the manufacturer will grow more rapidly than those
+for the retailer, through which the manufacturer can take back some of her first-mover advantage as the supply chain leader.
+3.4. Case comparison
+In this subsection, we compare the decisions and supply chain performances of the MR and C cases. We first consider the decision
+regarding whether to invest in SSC technology.
+Fig. 2 maps the condition under which SSC technology should be invested in with relation to two crucial parameters: b and c0 .
+Three regions are shown: in Region A, the investment should never be made; in Region B, a central controller would invest under the
+C case but a manufacturer would not invest under the MR case; in Region C, the investment should always be made in both cases. It is
+shown that for any original channel cost c0 , the threshold of cost parameter b for the MR case is always lower than that for the C case.
+This implies that investment in SSC technology is adopted with more caution by the manufacturer under the MR case, which can be
+regarded as the occurrence of double marginalization in the decentralized supply chain. Moreover, as c0 decreases, regions of investment shrink dramatically in both the MR and C cases since the need for channel cost reduction is substantially diminished.
+Proposition 3.. We have (1) c1C < c1M when b
+
+1 16 and thus c C
+
+c M* ; (2) pC < p M* and thus dC > dM* .
+6
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+Fig. 2. Decision regarding whether to invest for the C and M cases.
+
+Proof:. We have c1C < c1M due to their definitions and thus c C
+straightforward, and thus dC > dM* . □
+
+c M* . Additionally, pC < p M* is equivalent to 2c C < 1 + c M* , which is
+
+Proposition 3 supplements the effect of double marginalization for a supply chain with the SSC technology investment option.
+First, when investment is carried out, the resulting channel cost for the C case will be less than that for the MR case. In other words,
+not only is the tendency for technology investment lower under the MR case but also the amount of investment, when conducted, is
+also lower. Second, the market price for the MR case is higher than that for the C case, incurring less demand. This reflects the
+combined effect of a possibly higher channel cost and of the existence of another layer of margin in the decentralized channel relative
+to the C case.
+In the following we turn our attention to supply chain efficiency under the MR case, which is measured by a channel profit ratio
+( MM + RM ) CC .
+Proposition 4.. (1) When c C = c0 , we have (
+b
+0 , we have c C
+0 and ( MM + RM ) CC
+Proof:. (1). (
+
+M
+M
+
+follows that (
+
+cM
+
+=
+
+cC
+
+0
+
+b ln c C = b ln
+
+1
+
+M
+R
+
++
+M
+M
+
++
+
+and
+1
+2
+
+8b
+
+C
+C
+
+)
+
+M
+M
+
++
+3 4.
+
+3 16(1
+
+c M )2
+
+K (c M )
+
+1 4(1
+
+c C )2
+
+K (c C )
+
+a = b ln c0
+
+0.
+
+As
+
+)
+
+)
+
+C
+C
+
+= 3 4 ; (2) When c C < c0 , we have (
+
+M
+M
+
++
+
+M
+R
+
+C
+C
+
+)
+
+< 3 4 ; (3) When
+
+= 3 4 . (2) When c C < c0 , we have either c M = c1M > c C or c M = c0 and thus c1M > c C always holds. It
+
+=
+
+M
+R
+
+M
+R
+
+C
+C
+
+<
+
+3 16(1
+
+proved
+
+by
+
+0 , which follows that (
+
+M
+M
+
++
+
+1 4(1
+
+M
+R
+
+)
+
+c M )2 K (c M )
+c M )2 K (c M )
+
+Corollary
+C
+C
+
+=
+
+3 4 when K (c M )
+
+3,
+
+we
+
+3 16(1
+
+c M )2 + b ln c M
+
+1 4(1
+
+cC )2 + b ln cC
+
+have
+a
+a
+
+0 . (2) When b
+
+b ln c M
+
+= b ln
+
+1
+
+1 16b
+2
+
+0 , we have
+0
+
+and
+
+3 4. □
+
+Proposition 4 provides an upper bound for the efficiency of the decentralized supply chain under the MR case, which is equal to
+the level of supply chain efficiency achieved without an SSC technology investment option. That is, the efficiency level achieved
+when SSC technology is invested in is lower than that reached without a technology investment option unless this investment is
+substantially economical, leading to a reduced channel cost close to zero. Consequently, we can conclude that the double marginalization effect is more significant with SSC technology investment and thus merits more attention.
+Fig. 3 verifies the result prescribed by Proposition 4 by showing that the supply chain efficiency has a “V” shape with respect to
+the change in the cost parameter b . Hence, the need for supply chain coordination is more prominent when b is in a medium range. As
+shown in subfigure (b), the efficiency level can drop to approximately 20% when the original channel cost c0 is high (c0 = 0.7 ). In this
+case, the supply chain is tremendously undermined due to the double marginalization effect, and channel coordination becomes a
+much more serious issue.
+
+(0, 1) , a “price-discount sharing + investment-cost sharing” contract with wholesale price
+Proposition 5.. For arbitrary
+w= p+(
+) c and assigned SSC technology investment cost T (c ) = (1
+) K (c ) offered to the retailer achieves supply chain
+coordination and allocates profit shares and 1
+to the manufacturer and retailer, respectively.
+Proof:.
+Under
+the
+proposed
+contract,
+the
+retailer’s
+profit
+function
+becomes
+1+c
+M
+w (1
+) c](1 p) T (c ) = (1
+)[(p c )(1 p) K (c )], which yields the optimal market price p (c ) = 2 .
+R = [p
+w= p+(
+)c
+Substituting
+this
+and
+into
+the
+manufacturer’s
+profit
+function
+yields
+M
+c ) d (w, c )
+K (c ) = [(1 c )2 4 K (c )], and thus the centralized optimal decision c C is obtained. In addition, we
+M = (w
+) CC . □
+have MM = CC and RM = (1
+Proposition 5 develops a coordination contract to motivate supply chain members into the systematically optimal decisions and
+each member can be better off. Specifically, this contract is composed of two elements. The first element is a linear price-discount
+sharing scheme in which the manufacturer shares a fraction, , of the price discount that the retailer offers to the market. That is, any
+7
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+(b) c0 = 0.7
+
+(a) c0 = 0.3
+Fig. 3. Supply chain efficiency for the MR Case.
+
+) c will suffice, in which w0 is a constant base or gross wholesale price and p0
+(p0 p) satisfying w0 = p0 + (
+scheme w = w0
+is a reference market price, e.g., a list price. This type of scheme has been widely adopted in practice; see Bernstein and Federgruen
+(2004), Cai et al. (2010) and the references therein. The second element of the coordination contract is an investment cost sharing
+scheme, which stipulates that the retailer should bear a portion of SSC technology investment. Such a cost sharing scheme has been
+extensively applied to supply chains with product R&D and quality investment (Ge et al. 2014, Zhu et al. 2007). Proposition 5 shows
+that the combination of these two elementary schemes achieves not only channel coordination but also flexible profit allocations
+between channel members.
+4. Platform supply chain model
+4.1. Model description
+In this section, we consider a platform supply chain consisting of a manufacturer and a platform. This mode corresponds with a
+currently popular e-business format commonly referred to as agency selling, whereby a platform enterprise provides a marketplace
+platform for manufacturers to direct access to their customers. Typical platforms include Amazon in the U.S., Tmall in China, and
+Flipkart in India. There are two key distinctions between the agency selling format of the platform supply chain and the traditional
+reselling format of the manufacturer-retailer supply chain. The first concerns who sets the market price—under the agency selling
+format, the market price is set by the manufacturer, whereas under the reselling format, it is set by the retailer. The second distinction
+concerns how the intermediate firm profits—by reselling the retailer earns the margin between the selling price and wholesale price
+while by agency selling the platform earns a certain fraction of the revenue obtained by the manufacturer. We call this fraction a
+percentage fee . In the platform supply chain, the channel cost is incurred by carrying out transactions or delivering products
+between the manufacturer and end-customer and is thus fully borne by the manufacturer. Again, investing in an SSC technology can
+reduce the channel cost from c0 to c with a corresponding cost of K (c ) = a b ln c . Two cases found in real industry settings are
+considered in our modeling setting:
+
+• The MP case: the manufacturer initiates SSC technology investment and determines the channel cost c (0, c ];
+• The P case: the platform initiates SSC technology investment and determines the channel cost c (0, c ].
+0
+
+0
+
+We use subscripts “MP” and “P” to denote variables for the MP and P cases, respectively. To be consistent with the previous
+narration, we refer to the manufacturer as “she” and to the platform as “it.” The market price p is a decision variable for the
+(0, 1 c0 ) is an exogenous parameter dependent on the relative bargaining
+manufacturer in both cases while the percentage fee
+power between the manufacturer and the platform. It can be conceived that a more powerful supply chain member has more control
+over the percentage fee. In the following analysis, we investigate the effects of on platform supply chain performance.
+4.2. The MP case
+In the MP case, the manufacturer determines the market price p and the channel cost c , and the platform plays a dummy role
+without any decision making, as the percentage fee has been given. Consequently, the manufacturer’s objective function is
+8
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+MP
+M
+
+= [(1
+
+MP
+M (c )
+
+=
+
+)p
+(1
+
+c](1
+
+)[1
+
+)]2
+
+c (1
+4
+
+K (c ) . For a given c , substituting the optimal price p (c ) =
+
+p)
+
++ b ln c
+
+Proposition 6.. (1) When c0
+
+c0 > (1
+c MP =
+
+) 2,
+c1MP
+
+(1
+
+the
+
+a . We define c1MP =
+
+)2
+
+(1
+
+) 8 and b <
+
+)b
+
+2
+
+channel
+(1
+
+)[(1
+
+cost
+
+c1MP (1
+
+))
+
+2
+
+(1
+
+when b
+
+for
+c0 (1
+
+4 ln(c0 c1C )
+
+c0 otherwise .
+
+nondecreasing in b and .
+
+8(1
+
+(1
+
+)
+
+reduces the objective function to
+
+) 8.
+
+) 2 , the optimal channel cost for the MP case is given by c MP =
+
+optimal
+
+if b < (1
+
+1
+
+1 + c (1
+2
+
+))2]
+
+the
+
+;
+
+MP
+
+case
+
+c1MP if b <
+
+c0 (1
+2c 0 (1
+
+c0 otherwise
+is
+given
+
+(2) c1MP is increasing in b and
+
+c0)
+) ;
+
+when
+
+, thus c MP
+
+by
+is
+
+The proof is similar to that of Proposition 1 and is thus omitted here. We can see from Proposition 6 that whether to invest in the
+SSC technology depends not only on b and c0 but also on , representing a crucial parameter of the platform supply chain. Specifically,
+the tendency to invest is more prominent when the manufacturer is charged a lower percentage fee by the platform, and if an
+investment is indeed made, the manufacturer will invest more as the percentage fee is further decreased.
+Corollary 4..
+(1) The market price, demand, and channel members’ profits for the MP case are given by
+
+p MP =
+dMP =
+MP
+M
+
+=
+MP
+R
+
+(1
+
+=
+
+1
+
++ c MP
+2(1
+)
+
+1
+
+c MP
+2(1
+
+c MP )2
+4(1
+)
+[(1
+
+)2
+4(1
+
+)
+
+,
+,
+
+K (c MP ),
+(c MP )2]
+,
+)2
+
+(6)
+
+in which c MP is characterized by Proposition 5;
+(2) p M is nondecreasing with b while dM ,
+(3) p M is increasing with while dM and
+
+M
+M
+M
+M
+
+and RM are nonincreasing with b;
+are decreasing with .
+
+The proof is similar to that of Corollary 1 and is thus omitted here. Corollary 4 shows that both consumers and firms in the
+platform supply chain are better off when SSC technology investment is more economical. Moreover, the optimal price increases as
+the percentage fee grows. This implies that consumers benefit from a more powerful manufacturer, in which case the percentage fee
+can be lower. It is also intuitive that the manufacturer’s profit decreases with the percentage fee. A natural question then concerns
+how the platform’s profit relates to the percentage fee. Fig. 4 provides the answer.
+Fig. 4 suggests that the platform’s profit first increases and then decreases with the percentage fee. This phenomenon carries over
+
+(b) c0 = 0.7, b = 0.1
+
+(a) c0 = 0.3, b = 0.1
+Fig. 4. Profits of supply chain members with
+9
+
+for the MR Case.
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+to our extensive numerical experiments, which show that the platform, even if it has full bargaining power, may prefer leaving the
+manufacturer a portion of the channel profit to extracting all of it. The platform’s profit drops especially dramatically as the manufacturer’s willingness to invest diminishes. In this case, channel cost reduction is so beneficial that even the platform is willing to
+sacrifice some percentage fee to motivate the manufacturer to invest in it.
+4.3. The P case
+For the P case, the platform invests in the SSC technology and sets the channel cost c , and then the manufacturer accordingly sets
+the market price p . Through backward induction, we first solve the manufacturer’s problem of maximizing the objective function
+P
+) p c ](1 p) .
+M = [(1
+Lemma 2.. Given the channel cost c , the optimal market price and the corresponding demand and profit for the manufacturer are given by
+
+p (c ) =
+d (c ) =
+M (c )
+
+1 + c (1
+2
+1 c (1
+2
+
+(1
+
+=
+
+)[1
+
+)
+
+,
+
+)
+
+,
+)]2
+
+c (1
+4
+
+.
+
+(7)
+
+= [(1
+Proof:. It is easy to see that
+1 + c (1
+the optimal market price p (c ) =
+2
+P
+M
+
+P
+P
+
+) p c ](1 p) is concave in p . Taking the first-order derivative with respect to p , we have
+, which yields the corresponding demand and profit for the manufacturer given by (7). □
+
+)
+
+With the prospect of the manufacturer’s response, the platform aims to find the optimal channel cost c to maximize its profit
+= p (c ) d (c ) K (c ) where p (c ) and d (c ) are depicted in (7). More specifically, the objective function for the platform is
+P
+P (c )
+
+{1
+
+=
+
+)]2 }
+
+[c (1
+4
+
++ b ln c
+
+a
+
+(8)
+
+Proposition 7.. The optimal channel cost determined by the platform is given by
+
+cP =
+
+c1P if b <
+
+c02
+2(1
+
+)2
+
+;
+(9)
+
+c0 otherwise ,
+in which c1P =
+
+2b (1
+
+)2
+
+is decreasing in .
+
+Proof:. Taking the first-order derivative of
+
+c P = c0 . Otherwise, we have
+
+d PP
+dc
+
+> 0 for c
+
+P
+P (c )
+
+yields
+
+(0, c1P ) and
+
+d PP
+dc
+
+=
+
+d PP
+dc
+
+1
+2c
+
+(b
+
+< 0 for c
+
+c2
+2(1
+
+)2
+
+). When b
+
+c02
+2(1
+
+)2
+
+then
+
+d PP
+dc
+
+0 for c
+
+(0, c0] and thus
+
+(c1P , c0) ; thus, c P = c1P . □
+
+Proposition 7 provides the optimal channel cost chosen by the platform. It is interesting to note that the platform may be willing
+to invest to lower the channel cost even if it does not burden any part of this channel cost. This happens when the cost parameter for
+SSC technology investment b is low and/or the percentage fee is high. In addition, the amount of investment increases with the
+percentage fee and decreases with the cost parameter b .
+Proposition 7. When b
+
+b=
+
+c02
+2(1
+
+)
+
+2
+
+such that c P =
+
+1
+
+c0
+2
+c1P
+
+we have c P = c0 for any
+
+if
+
+c0 if
+
+>
+
+(0, 1
+
+c0 ) ; otherwise, there exist a
+
+(0, 1
+
+c0) characterized by
+
+;
+.
+
+Proposition 7′ provides another interpretation of the investment decision from the perspective of for the P case. When the cost
+parameter b and original channel cost c0 are high, the platform’s optimal decision is always not to invest in the SSC technology
+regardless of the percentage fee. A seemingly counterintuitive phenomenon here is that the investment will not be made when c0 is
+sufficiently high (greater than 1 2b ). The rationale behind this is that in this case, c0 is so high that the platform must charge a very
+small percentage fee, which prevents it from investing in the SSC technology. Only when c0 is less than 1 2b is there a threshold
+percentage fee above which the platform has an incentive to make the investment.
+Corollary 5..
+(1) When b <
+
+c02
+2(1
+
+)2
+
+, the market price, demand, and channel members’ profits are given by
+
+10
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+P
+M
+P
+R
+
+(
+= (1
+
+pP = 1 +
+
+2b
+
+dP
+
+2b
+
+= (1
+
+=(
+
+(
+
+)
+)
+
+2,
+2,
+
+2b
+
+) 1
+
+2b) 4 + b ln
+
+)
+
+2
+
+2b (1
+
+4,
+)2
+
+a;
+
+in which p P increases with b and decreases with
+c02
+
+(2) When b
+
+1
++ c0
+,
+2(1
+)
+
+d P (c ) =
+
+1
+2(1
+
+=
+
+[1
+
+=
+
+while dP decreases with b and increases with .
+
+, the market price, demand, and channel members’ profits are given by
+
+p P (c ) =
+
+P
+M
+P
+R
+
+)2
+
+2(1
+
+(10)
+
+(1
+
+(c0 (1
+4
+
+)[1
+
+c0
+,
+)
+
+c0 (1
+4
+))2]
+
+in which p P increases with
+
+)]2
+
+,
+
++ b ln c0
+
+a;
+
+(11)
+
+while dP decreases with .
+
+Corollary 5 gives the specific formulation of the market price, demand, and channel members’ profits for the P case. It can be
+observed that price and demand sensitivity to the platform’s percentage fee depends on whether the investment is made: if it is made,
+consumers benefit from a higher percentage fee charged by the platform; otherwise, consumers prefer a lower platform fee.
+Fig. 5 shows that for the P case, the platform’s profit first increases and then decreases with the percentage fee, echoing the MP
+case. In contrast to what is observed for the MP case, the manufacturer’s profit can increase with the percentage fee when this fee is
+greater than a threshold and especially when the original channel cost is high (c0 = 0.7 ). In these circumstances, the channel cost
+reduction can be so advantageous to the manufacturer that she is willing to pay a higher percentage fee to motivate the platform to
+invest.
+4.4. Case comparison
+In this subsection, we compare platform supply chain decisions and performance across the MP and P cases. Due to the complexity
+of the problem, it is difficult to obtain analytical results. Hence, we conduct numerical experiments to generate instructive insights.
+We first consider the decision regarding channel cost reduction.
+Fig. 6 illustrates the optimal channel cost decisions for the MP and P cases. It can be observed from subfigures (a) and (c) that
+when the percentage fee is low, the range of cost parameter b below which an investment is made under the MP case is broader than
+
+(a) c0 = 0.3, b = 0.1
+
+(b) c0 = 0.7, b = 0.1
+
+Fig. 5. Profits of supply chain members with
+11
+
+for the P case.
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+(b) c0 = 0.3,θ = 0.5
+
+(a) c0 = 0.3,θ = 0.1
+
+(d) c0 = 0.7,θ = 0.25
+
+(c) c0 = 0.7,θ = 0.1
+
+Fig. 6. Optimal channel cost decisions for the MP and P cases.
+
+that of the P case. This implies that the manufacturer is more likely to invest in the SSC technology than the platform. Moreover, the
+channel cost is reduced to a lower level for the MP case when the investment is indeed made. On the other hand, subfigures (b) and
+(d) show that in the midst of a high percentage fee, the range of cost parameter b for technology investment under the MP case is
+narrower than that of the P case. Nevertheless, the amount of investment made in the MP case is greater than that in the P case unless
+b and are both high. Note that relationships between the market price and channel cost are coincident in the two cases according to
+Eqs. (6) and (11). Therefore, the MP case is superior to the P case in terms of channel performance and consumer welfare when the
+percentage fee is low or when SSC technology investment is economical; the opposite occurs only when the percentage fee is high and
+investment is costly.
+Fig. 7 presents the manufacturer’s profits for the two platform supply chain cases. It can be observed from subfigures (a) and (c)
+that when the percentage fee is low, the manufacturer’s profit for the MP case is higher than that for the P case. This phenomenon is
+especially prominent when the cost parameter b is low, implying that the manufacturer prefers the MP case to the P case when SSC
+technology investment becomes economical. On the other hand, subfigures (b) and (d) show that only when b and are both high can
+the manufacturer’s profit in the P case exceed that of the MP case. Hence, an interesting observation is that the manufacturer prefers
+to invest in the SSC technology on her own rather than through the platform when the percentage fee is low or when investment in
+SSC technology is economical; the opposite occurs only when the percentage fee is high and investment is costly.
+Fig. 8 illustrates the platform’s profits for the two platform supply chain cases. It can be observed from subfigures (a) and (c) that
+when the percentage fee is low, the platform’s profit for the MP case is higher than that for the P case. This phenomenon is more
+prominent when the cost parameter b is high. On the other hand, subfigures (b) and (d) show that the platform’s profit for the P case
+12
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+(a) c0 = 0.3,θ = 0.1
+
+(b) c0 = 0.3,θ = 0.5
+
+(c) c0 = 0.7,θ = 0.1
+
+(d) c0 = 0.7,θ = 0.25
+
+Fig. 7. Manufacturer’s profits for the MP and P cases.
+
+can slightly exceed that of the MP case only when b and are both very high, which is a quite rare occasion. Generally, the platform is
+more willing to let the manufacturer make an SSC technology investment rather than to invest by itself.
+5. Conclusion
+This paper is motivated by the observations that companies have devoted much effort to decreasing channel costs through SSC
+technology implementation and that there has been little in the way of a formal modeling framework available to quantify this
+activity. The objective of this paper is to provide such a framework, in which the channel cost is viewed as a decision variable rather
+than as a parameter and wherein SS technology investment is included in an explicit formulation. We first consider a manufacturerretailer supply chain corresponding with the traditional reselling format of a distribution channel. The conditions under which SSC
+technology should be invested are identified, and issues of supply chain efficiency and coordination are addressed. We also explore a
+platform supply chain based on the recent industry practice of agency selling, whereby a platform company earns a percentage fee for
+providing platform services, enabling the manufacturer to direct access to consumers. Under this supply chain mode, two cases are
+classified based on who makes the SSC technology investment.
+In terms of the traditional manufacturer-retailer supply chain, we make the following major contributions:
+
+• Crucial parameters that influence SSC technology investment decisions are identified. It is found that whether to invest is closely
+13
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+(a) c0 = 0.3,θ = 0.1
+
+(b) c0 = 0.3,θ = 0.5
+
+(c) c0 = 0.7,θ = 0.1
+
+(d) c0 = 0.7,θ = 0.25
+Fig. 8. Platform’s profits for the MP and P cases.
+
+•
+•
+
+related to the cost parameter for SSC technology investment and the original channel cost, while channel cost allocation between
+supply chain members is not relevant. From a practical perspective, this result indicates that managers should pay close attention
+to two questions: How smart is the current supply chain? How costly is technology investment? The issue of channel cost allocation, on the other hand, is the lowest concern in terms of SSC technology investment.
+Investment in SSC technology benefits the retailer and consumers. In particular, investment in SSC technology weakens the
+manufacturer’s first-mover advantage by providing greater channel cost reduction benefits to the retailer than to the manufacturer. This result implies that the retailer should be more demanding and cooperative in terms of SSC technology adoption,
+which lowers the channel cost even when he does not bear any part of this cost.
+The effects of double marginalization manifest as a lesser tendency to invest in SSC technology and in a smaller amount of
+investment when investment is indeed carried out. This causes the supply chain efficiency level to fall below that of the supply
+chain without SSC technology capabilities, which implies that both the manufacturer and retailer should strive harder to achieve
+supply chain coordination. For this reason, a specific coordination mechanism is developed whereby both price discounts and
+investment expenses are shared by channel members.
+Regarding the platform supply chain, we provide the following main insights:
+
+• Crucial parameters that influence SSC technology investment decisions include not only the cost parameter for investment and the
+
+original channel cost but also the percentage fee charged by the platform. The amount of investment is greater for the MP case
+than for the P case unless both the percentage fee and cost parameter are high. This result implies that preferences for the two
+14
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+•
+•
+
+platform supply chain cases are dependent on specific parameters in terms of channel performance.
+Investing in SSC technology benefits the platform. For the MP case, the platform would rather sacrifice some percentage fee to
+motivate the manufacturer to invest; for the P case, the platform would rather make an investment to reduce the channel cost even
+if it does not bear any part of this cost. In comparing these two cases, the platform is generally more willing to let the manufacturer invest rather than to invest by itself.
+For the manufacturer, the profit in the MP case is higher than that in the P case when the percentage fee is low, especially when
+SSC technology investment is economical. On the other hand, the manufacturer’s profit for the P case can exceed that of the MP
+case when the percentage fee is high and investment is costly. This result implies that the manufacturer can be motivated to invest
+in SSC technology when the percentage fee is low or investment is economical.
+
+The framework developed in this paper identifies only one aspect of advantages of adopting SSC technology: reduced channel
+costs. Other advantages, such as precise marketing, mitigated risk, and improved quality control can be accounted for in future
+research using modeling approaches similar to ours. Another challenging yet interesting problem would involve considering more
+complex supply chain structures such as multiple (and competing) manufacturers, retailers, and platform enterprises. In this respect,
+frameworks established by Abhishek et al. (2016) and Tian et al. (2018) can be useful. Finally, it will be interesting to consider the
+case of information asymmetry. In our model, parameters are regarded as common knowledge for the supply chain members. Some
+new findings could be expected if this assumption were relaxed, and issues related to, for instance, contract design in consideration of
+SSC technology investment are worthy of investigation.
+Acknowledgements
+We acknowledge the support of National Natural Science Foundation of China (NSFC) Research Fund No. 71772095, and the
+Fundamental Research Funds for the Central Universities 63192311. This study is also supported by the Asia Research Center in
+Nankai University.
+Appendix A
+In this appendix, we consider a case in which the retailer is the channel leader who initiates channel cost reduction by investing in
+SSC technology. We call this the RM case and denote variables for this case with superscript “R.” The sequence of events proceeds as
+follows: the retailer first determines his margin m and channel cost, and then the manufacturer selects a wholesale price w (and
+consequently market price p = w + m ). Hence, the objective functions of the manufacturer and retailer are
+R
+c )(1 w m) and RR = m (1 m w ) K (c ) , respectively. We have the following result for this case.
+M = (w
+Proposition 8.. The optimal decisions and supply chain performances for the RM case have the following relationships to those of the MR
+case:c R = c M , p R = p M , dR = dM , MR = RM and RR = MM .
+Proof:. Given retail margin m and channel cost m , it is easy to observe that
+the wholesale price, demand and profit under optimality given by
+
+w (m , c ) =
+
+1
+
+d (m , c ) =
+
+1
+
+M (m ,
+
+(1
+
+c) =
+
+R
+M
+
+is concave in w . Taking the first-order derivative yields
+
+m+ c
+,
+2
+m
+c
+,
+2
+m
+4
+
+c )2
+
+.
+
+By substituting these into the retailer’s profit function, we have
+objective function for the retailer is thus reduced to
+
+R
+R (c )
+pR
+
+3.3. Therefore, we have c R = c M , and correspondingly
+
+=
+
+c )2
+
+(1
+8
+
+R
+R
+
+=
+
++ b ln c
+
+= p M , dR = d M
+
+[m
+
+(1
+
+) c ](1
+2
+
+m
+
+c)
+
+K (c ) and m (c ) =
+
+1 + (1
+
+2 )c
+2
+
+. The
+
+a , which coincides with MM (c ) formulated in Section
+, MR = RM and RR = MM . □
+
+Proposition 8 indicates that all results of the RM case in terms of SSC technology investment, price, demand, and supply chain
+efficiency are the same as those of the MR case. As the only difference, the roles of the manufacturer and retailer are swapped. In
+other words, all results for the manufacturer for the MR case are applied to the retailer for the RM case and vice versa.
+
+References
+Abhishek, V., Jerath, K., Zhang, Z.J., 2016. Agency selling or reselling? Channel structures in electronic retailing. Manage. Sci. 62 (8), 2259–2280.
+Affisco, J.F., Paknejad, M.J., Nasri, F., 2002. Quality improvement and setup reduction in the joint economic lot size model. Eur. J. Oper. Res. 142 (3), 497–508.
+Arunachalam, D., Kumar, N., Kawalek, J.P., 2018. Understanding big data analytics capabilities in supply chain management: Unravelling the issues, challenges and
+implications for practice. Transp. Res. Part E: Logist. Transp. Rev. 114, 416–436.
+Babich, V., Hilary, G., 2019. Distributed ledgers and operations: what operations management researchers should know about Blockchain technology. Manuf. Serv.
+Oper. Manage, Article in press. https://doi.org/10.1287/msom.2018.0752.
+Baryannis, G., Validi, S., Dani, S., Antoniou, G., 2019. Supply chain risk management and artificial intelligence: state of the art and future research directions. Int. J.
+Prod. Res. 57 (7), 2179–2202.
+Beltagui, A., Kunz, N., Gold, S., 2019. The role of 3D printing and open design on adoption of socially sustainable supply chain innovation. Int. J. Prod. Econ. Article in
+
+15
+
+Transportation Research Part E 137 (2020) 101927
+
+X. Li
+
+press, https://doi.org/10.1016/j.ijpe.2019.07.035.
+Ben-Daya, M., Hariga, M., 2003. Lead-time reduction in a stochastic inventory system with learning consideration. Int. J. Prod. Res. 41 (3), 571–579.
+Bernstein, F., Federgruen, A., 2004. A general equilibrium model for industries with price and service competition. Oper. Res. 52 (6), 868–886.
+Billington, P.J., 1987. The Classic Economic Production Quantity Model with Setup Cost as a Function of Capital Expenditure. Decis Sci. 18 (1), 25–42.
+Cai, X.Q., Chen, J., Xiao, Y.B., Xu, X.L., 2010. Optimization and coordination of fresh product supply chains with freshness keeping effort. Prod. Oper. Manag. 19 (3),
+261–278.
+Chan, H.K., Griffin, J., Lim, J.J., Zeng, F.L., Anthony, S.F., Chiu, 2018. The impact of 3D Printing Technology on the supply chain: Manufacturing and legal perspectives. Int. J. Prod. Econ. 205(11), 156–162.
+Chang, H.C., Ouyang, L.Y., Wu, K.S., Ho, C.H., 2006. Integrated vendor-buyer cooperative inventory models with controllable lead time and ordering cost reduction.
+Eur. J. Oper. Res. 170 (2), 481–495.
+Chen, Y., Dai, T., Korpeoglu, C. G., Körpeoğlu, E., Sahin, O., Tang, C.S., Xiao, S., 2019. Innovative online platforms: Research opportunities. Manuf. Serv. Oper.
+Manage. Article in press, https://doi.org/10.1287/msom.2018.0757.
+Choi, T.M., 2018. Incorporating social media observations and bounded rationality into fashion quick response supply chains in the big data era. Transp. Res. Part E:
+Logist. Transp. Rev. 114, 386–397.
+Choi, T.M., 2019. Blockchain-technology-supported platforms for diamond authentication and certification in luxury supply chains. Transp. Res. Part E: Logist. Transp.
+Rev. 128, 17–29.
+Choi, T.M., Feng, L.P., Li, R., 2019. Information disclosure structure in supply chains with rental service platforms in the blockchain technology era. Int. J. Prod. Econ.
+Artical in press, https://doi.org/10.1016/j.ijpe.2019.08.008.
+Choi, T.M., He, Y., 2019. Peer-to-peer collaborative consumption for fashion products in the sharing economy: Platform operations. Transp. Res. Part E: Logist. Transp.
+Rev. 126, 49–65.
+Choi, T.M., Luo, S., 2019. Data quality challenges for sustainable fashion supply chain operations in emerging markets: Roles of blockchain, government sponsors and
+environment taxes. Transp. Res. Part E: Logist. Transp. Rev. 131, 139–152.
+Choi, T.M., Wallace, S.W., Wang, Y., 2018. Big data analytics in operations management. Prod. Oper. Manage. 27 (10), 1868–1883.
+Choi, T.M., Guo, S., Liu, N., Shi X., 2020. Optimal pricing in on-demand-service-platform-operations with hired agents and risk-sensitive customers in the blockchain
+era. Eur. J. Oper. Res. Article in press. https://doi.org/10.1016/j.ejor.2020.01.049.
+Chung, S.H., Ma, H.L., Hansen, M., Choi, T.M., 2020. Data science and analytics in aviation. Transp. Res. Part E: Logist. Transp. Rev. 134, No. 101837, doi: 10.1016/j.
+tre.2020.101837.
+Du, S., Wang, L., Hu, L., Zhu, L., 2019. Platform-led green advertising: Promote the best or promote by performance. Transp. Res. Part E: Logist. Transp. Rev. 128,
+115–131.
+Ge, Z., Hu, Q., Xia, Y., 2014. Firms’ R&D cooperation behavior in a supply chain. Prod. Oper. Manage. 23 (4), 599–609.
+Giannakis, M, Louis, M, 2016. A multi-agent based system with big data processing for enhanced supply chain agility. J. Enterp. Inf. Manage. 29 (5), 706–727.
+Glock, C.H., 2012. Lead time reduction strategies in a single-vendor-single-buyer integrated inventory model with lot size-dependent lead times and stochastic
+demand. Int. J. Prod. Econ. 136 (1), 37–44.
+Govindan, K., Cheng, T.C.E., Mishra, N., Shukla, N., 2018. Big data analytics and application for logistics and supply chain management. Transp. Res. Part E: Logist.
+Transp. Rev. 114, 343–349.
+Hagiu, A., Wright, J., 2015. Marketplace or reseller? Manage. Sci. 61 (1), 184–203.
+Jerath, K., Kim, S.-H., Swinney, R., 2017. Product quality in a distribution channel with inventory risk. Market Sci. 36 (5), 747–761.
+Jiang, B., Jerath, K., Srinivasan, K., 2011. Firm strategies in the mid tail of platform-based retailing. Market Sci. 30 (5), 757–775.
+Kim, S.L., Hayya, J.C., Hong, J.D., 1992. Setup Reduction in the Economic Production Quantity Model. Decis Sci. 23 (2), 500–508.
+Kraus, M., Feuerriegel, S., Oztekin, A., 2020. Deep learning in business analytics and operations research: Models, applications and managerial implications. Eur. J.
+Oper. Res. 281 (3), 628–641.
+Kung, L.C., Zhong, G.Y., 2017. The optimal pricing strategy for two-sided platform delivery in the sharing economy. Transp. Res. Part E: Logist. Transp. Rev. 101, 1–12.
+Li, X., Li, Y.J., Cai, X.Q., Shan, J., 2016. Service channel choice for supply chain: Who is better off by undertaking the service? Prod. Oper. Manag. 25 (3), 516–534.
+Liu, Z., Li, M., Kou, J., 2015. Selling information products: Sale channel selection and versioning strategy with network externality. Int. J. Prod. Econ. 166, 1–10.
+Lu, Q., Shi, V., Huang, J., 2018. Who benefit from agency model: A strategic analysis of 34 pricing models in distribution channels of physical books and e-books. Eur.
+J. Oper. Res. 264 (3), 1074–1091.
+McGuire, T.W., Staelin, R., 1983. An industry equilibrium analysis of downstream vertical integration. Mark. Sci. 2 (2), 161–191.
+Ouyang, L.Y., Chen, C.K., Chang, H.C., 2002. Quality improvement, setup cost and lead-time reductions in lot size reorder point models with an imperfect production
+process. Comput. Oper. Res. 29 (12), 1701–1717.
+Porteus, E.L., 1986a. Investing in new parameter values in the discounted EOQ model. Nav. Res. Logist. 33, 39–48.
+Porteus, E.L., 1985. Investing in Reduced Setups in the EOQ Model. Manage. Sci. 31 (8), 998–1010.
+Porteus, E.L., 1986b. Optimal Lot Sizing, Process Quality Improvement and Setup Cost Reduction. Oper. Res. 34 (1), 137–144.
+Ryan, J.K., Sun, D., Zhao, X., 2012. Competition and coordination in online marketplaces. Prod. Oper. Manage. 21 (6), 997–1014.
+Sanders, N.R., Ganeshan, R., 2019. Big Data in Supply Chain Management. Prod. Oper. Manag. 27 (10), 1745–1748.
+Sarac, A., Absi, N., Dauzère-Pérès, S., 2010. A literature review on the impact of RFID technologies on supply chain management. Int. J. Prod. Econ. 128 (1), 77–95.
+Shi, H., Liu, Y., Petruzzi, N.C., 2013. Consumer Heterogeneity, Product Quality, and Distribution Channels. Manage. Sci. 59 (5), 1162–1176.
+Tian, L., Vakharia, A.J., Tan, Y., Xu., Y., 2018. Marketplace, Reseller, or Hybrid: Strategic analysis of an E-merging E-Commerce model. Prod. Oper. Manage. 27(8),
+1595–1610.
+Zelbst, P.J., Green, K.W., Sower, V.E., Reyes, P.M., 2012. Impact of RFID on manufacturing effectiveness and efficiency. Int. J. Oper. Prod. Manage. 32 (3), 329–350.
+Zhan, Y., Tan, K.H., 2020. An analytic infrastructure for harvesting big data to enhance supply chain performance. Eur. J. Oper. Res. 281 (3), 559–574.
+Zhang, J., Cao, Q., He, X., 2019. Contract and product quality in platform selling. Eur. J. Oper. Res. 272 (3), 928–944.
+Zhu, K., Zang, R.Q., Tsung, F., 2007. Pushing quality along the supply chain. Manag. Sci. 53 (3), 421–436.
+
+16
+
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimal trade-in strategy of business-to-consumer platform with dual-format retailing model</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2018-01-09">9 January 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kaiying</forename><surname>Cao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Nanchang University</orgName>
+								<address>
+									<postCode>330031</postCode>
+									<settlement>Nanchang</settlement>
+									<region>Jiangxi</region>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaoyan</forename><surname>Xu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou</settlement>
+									<region>Zhejiang</region>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yiwen</forename><surname>Bian</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">SHU-UTS SILC Business School</orgName>
+								<orgName type="institution">Shanghai University</orgName>
+								<address>
+									<postCode>201899</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yanhong</forename><surname>Sun</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">SHU-UTS SILC Business School</orgName>
+								<orgName type="institution">Shanghai University</orgName>
+								<address>
+									<postCode>201899</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimal trade-in strategy of business-to-consumer platform with dual-format retailing model</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Omega</title>
+						<title level="j" type="abbrev">Omega</title>
+						<idno type="ISSN">0305-0483</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">82</biblScope>
+							<biblScope unit="page" from="181" to="192"/>
+							<date type="published" when="2018-01-09">9 January 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.omega.2018.01.004</idno>
+					<note type="submission">Received 23 February 2017 Accepted 8 January 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Trade-in strategy B2C platform Dual-format retailing model Sales efforts</keywords>
+			</textClass>
+			<abstract>
+				<p>B2C platforms are increasingly implementing trade-in programs to boost sales. Most of these platforms have adopted dual-format retailing model including both self-run stores and third-party stores. Under trade-in program framework, B2C platforms will determine the optimal trade-in rebate, and whether to offer the rebate to consumers with gift card (GC) or cash coupon (CC). GC can only be used in self-run stores, while CC can be used in both stores. To entice more consumers to trade-in products, platforms may launch trade-in efforts in the market. To address such decision-making challenges, we consider a B2C platform who owns a self-run store and hosts a third-party store, and examine the optimal tradein strategy for the platform by developing four theoretical models. We first present two models without considering trade-in effort s, i.e., one model regarding GC payment, and one model regarding CC payment, and then extend them by taking trade-in efforts into consideration. Some interesting findings and insights are achieved. In particular, we find that both GC and CC do not always benefit the platform. Interestingly, offering high quality and low selling price for products in both the self-run store and the third-party store are also not always beneficial to the platform. So is the competition between both stores. Launching trade-in efforts may lead to a lower trade-in rebate but a higher profit for the platform. A counterintuitive finding is obtained that a higher gift card redemption rate is not beneficial to the platform, and vice versa.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

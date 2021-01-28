@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The newsvendor problem with barter exchange</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2019-11-16">16 November 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guowei</forename><surname>Hua</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Economics and Management</orgName>
+								<orgName type="institution">Beijing Jiaotong University</orgName>
+								<address>
+									<addrLine>10 0 044</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yi</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Logistics</orgName>
+								<orgName type="institution">Beijing Wuzi University</orgName>
+								<address>
+									<addrLine>10 0 049</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C E</forename><surname>Cheng</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Logistics and Maritime Studies</orgName>
+								<orgName type="institution">The Hong Kong Polytechnic University</orgName>
+								<address>
+									<addrLine>Hung Hom</addrLine>
+									<settlement>Kowloon, Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shouyang</forename><surname>Wang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Academy of Mathematics and Systems Science</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>100190</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juliang</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Economics and Management</orgName>
+								<orgName type="institution">Beijing Jiaotong University</orgName>
+								<address>
+									<addrLine>10 0 044</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The newsvendor problem with barter exchange</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Omega</title>
+						<title level="j" type="abbrev">Omega</title>
+						<idno type="ISSN">0305-0483</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">92</biblScope>
+							<biblScope unit="page">102149</biblScope>
+							<date type="published" when="2019-11-16">16 November 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.omega.2019.102149</idno>
+					<note type="submission">Received 20 August 2019 Accepted 25 October 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Inventory management Newsvendor problem Barter exchange Order quantity Stochastic demand</keywords>
+			</textClass>
+			<abstract>
+				<p>Barter exchange, as an alternative to move distressed inventory, has become increasingly popular in business. Many companies barter their unsold product for the product they need via barter exchange platforms at full prices. In this paper we consider the newsvendor problem with the barter exchange option. A retailer (the newsvendor) facing stochastic demand not only sells its product, but also buys other product that it needs from the market. It either trades its unsold product for the product it needs on a barter platform or disposes of its unsold product at discounted prices at the end of the selling season like in the classical newsvendor model. We derive the retailer&apos;s optimal order quantity, then analytically and numerically examine the impacts of barter on the retailer&apos;s inventory decisions and profit. We find that barter exchange can help the retailer to manage demand uncertainty and improve profit. The optimal order quantity decreases with barter commission and barter uncertainty, while increases with demand uncertainty and the value of the product that the retailer needs. Barter is more advantageous with lower barter commission, larger demand uncertainty, lower barter uncertainty, and higher value of the product it needs.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

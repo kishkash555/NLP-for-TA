@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimal operating policies in a commodity trading market with the manufacturer&apos;s presence</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability status="unknown"><p>Copyright Wiley</p>
+				</availability>
+				<date type="published" when="2009-12-16">16 December 2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hui</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution" key="instit1">Krannert School of Management</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<address>
+									<postCode>47907</postCode>
+									<settlement>West Lafayette</settlement>
+									<region>Indiana</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arnab</forename><surname>Bisi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution" key="instit1">Krannert School of Management</orgName>
+								<orgName type="institution" key="instit2">Purdue University</orgName>
+								<address>
+									<postCode>47907</postCode>
+									<settlement>West Lafayette</settlement>
+									<region>Indiana</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimal operating policies in a commodity trading market with the manufacturer&apos;s presence</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Naval Research Logistics (NRL)</title>
+						<title level="j" type="abbrev">Naval Research Logistics</title>
+						<idno type="ISSN">0894-069X</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<biblScope unit="volume">57</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page" from="127" to="148"/>
+							<date type="published" when="2009-12-16">16 December 2009</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1002/nav.20391</idno>
+					<note type="submission">Received 26 September 2007; revised 15 August 2008, 23 January 2009, 18 July 2009; accepted 25 October 2009</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>commodity trading market</term>
+					<term>supply chain</term>
+					<term>procurement</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>With the help of the Internet and express delivery at relatively low costs, trading markets have become increasingly popular as a venue to sell excess inventory and a source to obtain products at lower prices. In this article, we study the operational decisions in the presence of a trading market in a periodic-review, finite-horizon setting. Prices in the trading market change periodically and are determined endogenously by the demand and supply in the market. We characterize the retailers&apos; optimal ordering and trading policies when the original manufacturer and the trading market co-exist and retailers face fees to participate in the trading market. Comparing with the case with no trading fees, we obtain insights into the impact of trading fees and the fee structure on the retailers and the manufacturer. Further, we find that by continually staying in the market, the manufacturer may use her pricing strategies to counterbalance the negative impact of the trading market on her profit. Finally, we extend the model to the case when retailers dynamically update their demand distribution based on demand observations in previous periods. A numerical study provides additional insights into the impact of demand updating in a trading market with the manufacturer&apos;s competition.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

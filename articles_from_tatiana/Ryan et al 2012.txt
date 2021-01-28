@@ -1,0 +1,1957 @@
+Vol. 21, No. 6, November–December 2012, pp. 997–1014
+ISSN 1059-1478|EISSN 1937-5956|12|2106|0997
+
+DOI 10.1111/j.1937-5956.2012.01332.x
+© 2012 Production and Operations Management Society
+
+Competition and Coordination in Online Marketplaces*
+Jennifer K. Ryan
+Department of Industrial & Systems Engineering, Rensselaer Polytechnic Institute, 110 8th St., CII, Suite 5015, Troy, NY 12180,
+ryanj6@rpi.edu
+
+Daewon Sun
+Department of Management, Mendoza College of Business, University of Notre Dame, Room 359, Notre Dame, IN 46556, dsun@nd.edu
+
+Xuying Zhao
+Department of Management, Mendoza College of Business, University of Notre Dame, Room 361, Notre Dame, IN 46556, xzhao1@nd.edu
+
+nline marketplaces, such as those operated by Amazon, have seen rapid growth in recent years. These marketplaces
+serve as an intermediary, matching buyers with sellers, whereas control of the good is left to the seller. In some
+cases, e.g., the Amazon marketplace system, the firm that owns and manages the marketplace system will also sell competing products through the marketplace system. This creates a new form of channel conflict, which is a focus of this article. We consider a setting in which a marketplace firm operates an online marketplace through which retailers can sell
+their products directly to consumers. We consider a single retailer, who currently sells its product only through its own
+website, but who may choose to contract with Amazon to sell its product through the marketplace system. Selling the
+product through the marketplace expands the available market for the retailer, but comes at some expense, e.g., a fixed
+participation fee or a revenue sharing requirement. Thus, a key question for the retailer is whether she should choose to
+sell through the marketplace system, and if so, at what price. We analyze the optimal decisions for both the retailer and
+the marketplace firm and characterize the system equilibrium.
+
+O
+
+Key words: e-Business; online marketplace; coordination; competition; game theory
+History: Received: August 2010; Accepted: November 2011 by Amiya Chakravarty, after 2 revisions.
+
+from suppliers and resells them to consumers
+(Hagiu 2007). As a result, as noted in the above
+quote, a retailer selling goods through the marketplace may find itself in direct competition with
+Amazon. This potential conflict, and its impact on
+both Amazon and the retailers who sell through
+the Amazon marketplace, is the focus of this article.
+For additional context, we consider the following
+motivating example:
+
+1. Introduction and Motivation
+Online marketplaces, such as those operated by
+Amazon, eBay, and Google, have seen rapid growth
+in recent years. These marketplaces serve as a “twosided platform,” in which the intermediary, or marketplace firm, provides the service of matching buyers
+with sellers, whereas control of the good is left to the
+seller (Hagiu 2007). For example, while Amazon
+offers several programs through which merchants
+(i.e., sellers or retailers) can sell their products to consumers, their popular marketplace program, works as
+follows:
+
+Some retailers suggest that conflicts ... are inevitable on Amazon’s site. Unlike Amazon, other
+Web shopping malls, such as those of Google
+Inc. and Yahoo Inc., don’t peddle their own
+wares in competition with the tenants.
+“Before anyone gets into bed with them, they
+need to think about whether they’re a successful
+business, because Amazon or one of its partners
+one day will compete with them,” says Pinny
+Gniwisch, executive vice president of online
+jeweler Ice.com.
+
+Amazon Marketplace is for selling new, used,
+refurbished and collectible items—you can list
+your item right alongside the same item carried
+by Amazon.com. Marketplace transactions
+occur between the seller and the customer
+directly.1
+Of course, Amazon is also in the business of selling
+products themselves, i.e., Amazon also plays the
+traditional “merchant” role, in which it buys goods
+
+Ice.com began selling jewelry through Amazon’s
+site in April 2002. In 2004, Mr. Gniwisch says,
+997
+
+998
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+Ice.com executives noticed that Amazon itself
+had begun selling pearl necklaces and diamond
+earrings—some of Ice.com’s best-selling products. Ice.com still generates revenue from its
+presence on Amazon, but Mr. Gniwisch says it’s
+possible that his company will terminate its
+relationship some day. (Mangalindan 2006)
+In this article, we consider a setting in which a
+marketplace firm, such as Amazon, operates an online
+marketplace through which retailers can sell their
+products directly to consumers. We consider a single
+retailer, who currently sells its product only through
+its own website (online store), but who may choose
+to contract with Amazon to sell its product through
+the marketplace system. Selling the product through the
+marketplace expands the market of available consumers for the retailer, but generally comes at some
+expense to the retailer, e.g., a fixed participation fee
+or a revenue sharing requirement. Thus, a key question is whether the retailer should choose to sell
+through the marketplace system, and if so, at what
+price.
+We are also interested in the problem from the
+perspective of the marketplace firm, e.g., Amazon.
+In this case, we are interested in the marketplace
+firm’s decision regarding whether to sell a competing (i.e., identical) product, how to price that competing product, and how to design the contract
+with the participating retailer. A description of the
+contractual agreement between Amazon and the
+retailers participating in the marketplace program
+can be found on the Amazon website.2 Essentially,
+the contract consists of a flat monthly fee along
+with a fixed proportion of the retailer’s sales revenue, which is called the referral fee. Thus, we will
+model this contract as a revenue sharing contract
+with a fixed fee for participation, and we will
+determine the equilibrium contract parameters for
+our model setting.
+Given this motivation and problem framework, our
+research questions include:
+ Under what conditions should the marketplace
+firm sell products that compete with those
+offered by its merchants? That is, should the
+marketplace firm introduce competition into
+the system?
+ Under what conditions does the online retailer
+prefer to sell products through the marketplace? How does competition from the marketplace firm affect the performance of the online
+retailer?
+ Is the marketplace contract efficient? Can the
+existing contract be used to coordinate the
+system?
+
+We make two key assumptions in our model. The
+first is that selling through the marketplace system
+helps the online retailer obtain access to a larger
+segment of customers. This assumption reflects the
+relative prominence and name recognition of a
+marketplace firm such as Amazon (see Bakos [1997]
+and Bhargava and Choudhary [2004]). The second
+assumption is that, all else equal, consumers prefer to
+purchase products through the marketplace system,
+rather than through the retailer’s own website. Specifically, we assume that while the physical product provides the same utility regardless of which channel it is
+purchased through, the utility associated with the
+actual purchasing process (including search, payment, shipment, and order tracking) may differ across
+the channels. This assumption reflects the relative
+prominence and name recognition of a marketplace
+firm such as Amazon, as well as the marketplace
+firm’s “ability to recommend products, create consumer trust and ... perceived neutrality” (Bakos
+2001). In addition, the process of placing the order,
+making payment, and tracking the order is likely to
+be easier for purchases made through the marketplace system.
+1.1. Contributions
+We believe we are the first to analyze the impact of
+competition in an online marketplace system in which
+the marketplace firm may sell a product that directly
+competes with the good sold by its merchant. Thus,
+our model allows us to capture a specific form of
+channel conflict created by an Amazon-type marketplace system. Specifically, the agreement between
+Amazon and its merchants can be considered to be a
+marketing alliance. As Chatterjee (2002) notes, marketing alliances are “contractual relationships undertaken by firms who perform complementary activities
+in facilitating marketing exchanges. Unlike manufacturer-distributor partnerships, marketing alliances are
+horizontal relationships between firms at the same
+level of the value-added chain and represent a form
+of ‘symbiotic marketing’ (Adler 1966, Vardarajan and
+Rajaratnam 1986).”
+However, the relationship between the marketplace firm and its merchant is not simply a horizontal one. As Chatterjee (2002) further notes, marketing
+alliances “may not be equally beneficial to all partners and the dominant role of one branded component can affect the value of the partnering
+component. The potential for serious conflict is
+always present as partners may compete with each
+other in other product lines and, on occasion, in
+those directly covered by the alliance agreement.”
+This latter situation is the one studied in our article,
+with Amazon the dominant partner due to its name
+recognition, as well as its role as owner of the mar-
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+ketplace system. In addition, the relationship is further complicated by the nature of the revenue sharing contract between the marketplace firm and the
+merchant. We believe we are the first to study this
+particular form of channel conflict. In addition,
+given the rapid growth of marketplace systems, we
+believe that understanding the impact of competition and channel conflict in these systems is of critical importance to the success of marketplace firms
+such as Amazon, as well as their merchants.
+The remainder of this article is organized as follows. In section 2, we review the relevant literature. In
+section 3, we provide a model description and formal
+problem statement. In Sections 4 and 5, we analyze a
+number of potential system configurations to help us
+to understand the channel choices made by each firm.
+In section 6 we characterize the overall system equilibrium and present a series of numerical examples to
+provide additional insights into the equilibrium
+results. We conclude, in section 7, with a discussion of
+the managerial insights provided by this research, as
+well as directions for future work.
+
+2. Literature Review
+We next review the relevant literature, which falls
+into four categories: a) single supplier, multi-retailer
+models, b) dual channels of distribution, c) online
+retailing, and d) coordination through revenue sharing contracts.
+As we consider a product that can be distributed
+through multiple, competing channels of distribution, our research has some similarities to the literature considering competition in a general single
+supplier, n-retailer supply chain. For our purposes,
+the most relevant papers are those in which the
+retailers compete only on price, e.g., Bryant (1980),
+Bernstein and Federgruen (2003, 2004, 2005), and Birge et al. (1998). However, one critical difference is
+that, while our model has three potential channels of
+distribution, two of those channels are controlled by
+a single firm (the retailer controls sales of her product on both her own website and through the marketplace system). In addition, much of the research
+on competition in single supplier, n-retailer systems,
+has focused on the case of n = 2. In our case, we
+have three sources of the product, each with their
+own price, a fact that significantly complicates the
+analysis. Finally, Choi (1996) considers a duopoly of
+so-called “common retailers,” i.e., retailers who sell
+multiple, competing brands. He studies a system
+with two competing manufacturers providing goods
+to each of the two competing retailers. This model
+not only has some similarities to our own but also
+has some key differences. Most importantly, Choi
+(1996) assumes that the firms that provide the goods
+
+999
+
+are independent of the firms that sell the goods,
+which is not the case in our model.
+As we consider a retailer who, in addition to selling its product through her own website, is considering selling its product through a secondary channel
+of distribution, i.e., the marketplace, our research has
+some overlap with the literature on dual channels of
+distribution and, in particular, on supply chains with
+manufacturer-direct sales. A variety of authors, e.g.,
+Dumrongsiri et al. (2008), Chiang et al. (2003), Wu
+and Mallik (2010) and Cattani et al. (2006), have considered models in which the retail price is a decision
+variable, and thus the two channels (direct and retail)
+compete on price. Other research on manufacturerretailer competition in dual channel supply chains
+takes price as fixed. Here, the locations may compete
+on inventory (e.g., Geng and Mallik [2007] and Boyaci [2005]) or on other factors such as sales effort (e.
+g., Tsay and Agrawal [2004] and Hendershott and
+Zhang [2006]). Finally, Seifert et al. (2006) consider a
+supply chain with multiple independent retailers and
+a single “virtual” store. The main differences
+between this article and the existing research are
+three-fold:
+ First, in our model, consumers have three purchase options, rather than two.
+ Second, the retailer controls the pricing decision
+on both channels of distribution for her product,
+i.e., on her own website and on the marketplace
+system. Using the terminology introduced in
+Hagiu (2007), while most of the literature on
+dual channels of distribution considers the “merchant” model, in which the intermediaries take
+ownership of the seller’s goods, we consider the
+“two-sided platform” model, in which control of
+the goods is left to the seller, and the intermediary simply matches buyers with sellers.
+ Third, the nature of the contract between the
+retailer and the secondary channel is quite specific to and motivated by the practices of leading marketplace firms, such as Amazon.
+There is also a vast literature that has developed
+on electronic marketplaces, bridging operations
+management, management information systems,
+and marketing. See Greiger (2003) and Wang et al.
+(2008) for reviews of this literature. We will focus
+on those papers that are directly relevant to our
+research. Bernstein et al. (2008) study a traditional
+retailer who is considering selling its product
+online. They consider two options for entering the
+online market: the retailer may develop its own
+website for online sales or may “align with pure etailers to reach the online market.” Wang et al.
+(2004) consider a model of a consignment contract
+with revenue sharing, inspired by Amazon’s
+
+1000
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+marketplace program. Ru and Wang (2010) consider
+a similar model in which a retailer sells its product
+through Amazon on a consignment basis with revenue sharing. Unlike in Wang et al. (2004), they also
+consider a setting in which Amazon makes the procurement decisions and owns the inventory of the
+product until it is sold. In this setting, the manufacturer determines a recommended price, which Amazon may or may not use as the actual selling price.
+While both papers consider settings that are motivated by the same practical example as our
+research, they differ in that they do not consider the
+possibility of competition, either between the retailer’s own website and the marketplace or between
+similar products being sold on the marketplace.
+In this article, we model the contract between
+the marketplace firm and retailer as a revenue
+sharing contract with fixed participation fee. Pasternack (2002) considers a revenue sharing contract in
+a newsvendor setting and shows that it can be
+used to achieve channel coordination. Cachon and
+Lariviere (2005) show that “[r]evenue sharing generally does not coordinate competing retailers when
+each retailer’s revenue depends on its quantity, its
+price, and the actions of the other retailers, e.g.,
+competing price-setting newsvendors with each
+retailer’s demand depending on the vector of retailer prices.” Dana and Spier (2001) consider revenue
+sharing in a supply chain in which a single supplier sells to multiple retailers, each of which is
+modeled as a newsvendor who must choose price
+and order quantity. While our model has competing retailers and demand that depends on price,
+there is no quantity decision.
+The most relevant segment of the coordination literature, for our purposes, considers a manufacturer
+who owns a direct sales channel. Coordination in
+this setting has received little attention. If the selling
+prices for each channel are fixed, the price-only,
+buy-back, rebate, and revenue sharing contracts cannot coordinate the supply chain (Boyaci 2005). However, a new type of contract proposed in Boyaci
+(2005), the compensation-commission contract, has
+been shown to coordinate the system. Chiu et al.
+(2011) also demonstrate that most popular contracts
+cannot coordinate when the underlying demand
+depends on the retail price. They show that a contract combining wholesale price, channel rebate, and
+returns can achieve channel coordination with both
+additive
+and
+multiplicative
+price-dependent
+demands. Su and Mukhopadhyay (2012) study contracts between a dominant retailer and a number of
+fringe retailers. They design a contract that not only
+prevents the dominant retailer from conducting any
+gray market activities but also coordinates the supply chain.
+
+3. Problem Description
+We consider the following problem setting. An online
+retailer (which we will refer to as “the retailer”) sells
+goods through its own website (referred to as channel
+b) and, in some cases, has the option of selling its
+goods through an online marketplace (referred to as
+channel B). In addition, the firm that owns the online
+marketplace system (which we will refer to as “the
+marketplace firm”) may also offer the product for sale
+through the marketplace system (referred to as
+channel A). Each firm decides the price(s) for the
+channel(s) it operates, i.e., the marketplace firm
+chooses pA , whereas the retailer chooses pb and/or pB .
+If the retailer chooses to sell through the marketplace,
+i.e., through channel B, the marketplace firm will
+receive a flat monthly fee, k, from the retailer, as well
+as a portion, /, of the retailer’s revenue from channel
+B. Thus, if it chooses to offer the marketplace service
+to the retailer, the marketplace firm must also choose
+the appropriate contract parameters.
+We assume that, when selling on channel b, the
+retailer incurs a cost, denoted cb , for each unit sold.
+We normalize the unit costs for sales through channels B and A to zero. We do so because we assume
+that the marginal cost for sales through the marketplace system (channels B and A) is lower than for
+sales through the retailer’s own website (channel b).
+Note that the economic benefits of marketplace systems have been studied by many researchers (Bakos
+(1991a, 1991b); Benjamin and Wigand (1995); Bhargava and Choudhary (2004); Choudhury et al. (1998);
+and Strader and Shaw (1997). These benefits include
+reduced transaction costs and inventory costs, and
+improved supply chain management. In section 7, we
+will provide a discussion of how our results are likely
+to change with the introduction of marginal costs for
+channels A and B.
+3.1. Sequence of Events and Decisions
+We next specify the sequence of events and decisions
+in our model. This sequence is depicted in Figure 1.
+The labels in bold at the end of the branches denote
+the resulting system configuration.
+The first decision is always made by the marketplace firm and is the decision regarding whether or
+not to offer the marketplace service to the retailer, i.e.,
+whether to allow the retailer to sell through channel
+B. The sequence of subsequent events depends on this
+decision. Specifically:
+ If the marketplace firm offers the marketplace
+service, the marketplace firm must next
+decide whether to sell competing goods, i.e.,
+whether to offer the product through channel
+A. The firm must then determine the contract
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+
+1001
+
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+Figure 1 Sequence of Events and Decisions
+
+parameters, / and k, and, if the product is
+offered through channel A, the selling price pA .
+We assume these parameters (/, k, and pA ) are
+set simultaneously. Next, the retailer must
+decide whether or not to sell through the
+marketplace system, and then, she must set the
+selling prices on the selected channels (b and,
+possibly, B).
+ If the marketplace firm chooses not to offer the
+marketplace service, it must instead sell the
+product through channel A to earn some revenues. In this case, the marketplace firm and the
+retailer simultaneously set their respective
+prices (pA and pb ).
+Notice that the sequence of decisions and the nature
+of the game between the marketplace firm and the
+retailer depend on the marketplace firm’s initial decision regarding whether or not to offer the marketplace service. Specifically, if marketplace service is
+offered, the remainder of the game is Stackelberg,
+with the marketplace firm serving as leader. However, when the marketplace service is not offered, the
+remainder of the game is simultaneous, i.e., the marketplace firm and the retailer choose their selling
+prices at the same time.
+Given this setting, Figure 1 indicates that there are
+several system configurations to be considered. We
+will use the notation Ab to indicate the configuration
+in which the marketplace system is not offered to the
+retailer, and hence sales can occur only on channels A
+and b. We use ABb to denote the configuration in
+which the marketplace system is offered to the retailer
+and the marketplace firm chooses to sell the product.
+Thus, we have potential sales through all three channels. Finally, we use the notation Bb to denote the configuration in which the marketplace system is offered
+to the retailer and the marketplace firm chooses not to
+sell the product. Thus, we have potential sales
+through just two channels. Notice that in the ABb and
+
+Bb configurations, it is possible that, in equilibrium,
+some of the available channels may see no sales. For
+example, in the Bb configuration, the equilibrium
+prices may result in a zero demand on channel B, or
+perhaps zero demand on channel b. We will use the
+notation 0b and B0 to denote those outcomes, respectively. Similarly, the notation A0b (AB0) will be used
+to denote the three channel configuration with no
+demand on channel B (b).
+3.2. Customer Utility and Demand Model
+We consider a single segment of customers with Poisson arrival rate k per unit time. As the marketplace firm
+has name recognition and high visibility (e.g., Amazon.com), we assume that all customers are aware of
+the marketplace channels (i.e., channels A and B).
+However, not all customers will be aware of channel b.
+Rather, if the retailer sells goods only through her
+online store, i.e., only through channel b, then a proportion, a, of all customers will not know about the existence of channel b. If, however, the retailer decides to
+sell through the marketplace, i.e., if channel B exists,
+then the visibility of the retailer is increased and, as a
+result, all customers become aware of channel b.
+Customers are strategic, i.e., their purchase decisions are based on utility maximization. We assume
+that customers have heterogeneous product valuations, v. Thus, we assume that v is uniformly distributed in the interval [0,1]. We assume that, due to its
+strong reputation and high visibility, customers prefer
+to purchase from the marketplace firm. As a result, all
+customers incur a disutility, 1  hb , when purchasing
+from channel b. Similarly, all customers incur a disutility, 1  hB , when purchasing from channel B.
+Given the customers’ general preference for the marketplace channel, as discussed in Section 1, we assume
+hB [ hb . Therefore, if pA , pB , and pb denote the selling
+prices on channels A, B, and b, respectively, we have
+the following expressions for the utility obtained from
+purchasing through channel i, Ui , for i ∈ {b,B,A}:
+UA ¼ v  pA ;
+
+UB ¼ hB v  pB ;
+
+U b ¼ hb v  pb :
+
+4. Marketplace Firm Does Not Offer
+the Marketplace Service
+We are now ready to analyze the equilibrium behavior for each of the potential system configurations. We
+start by assuming that the marketplace firm chooses
+not to offer the marketplace service. Then, in section
+5, we assume that the marketplace firm chooses to
+offer the marketplace service and we consider two
+cases, depending on whether or not the product is
+sold through channel A. Finally, in section 6, we consider the marketplace firm’s problem of determining
+the overall system equilibrium.
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+
+1002
+
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+We first consider the Ab system, which we refer to
+as the pure competition setting, in which the marketplace firm chooses not to offer the marketplace service
+to the retailer. Thus, the retailer sells the product
+only through her own online channel, channel b,
+whereas the marketplace firm also sells the product
+through the marketplace system, i.e., channel A, to
+earn some revenues. In this case, while all customers
+are aware of channel A, only a fraction, (1  a), of
+customers are aware of channel b. Those customers
+who are not aware of channel b will never choose
+channel b and will only choose channel A if v  pA .
+Those customers who are aware of both channels
+will compare UA vs. Ub , choosing to purchase through
+the channel that provides the highest net utility. Thus,
+if v  pA  hb v  pb and v  pA  0, a customer
+will choose to purchase through channel A. On the
+other hand, if hb v  pb  v  pA and hb v  pb  0, a
+customer will choose to purchase through channel b.
+Finally, if v  pA \ 0 and hB v  pB \ 0, a customer
+will choose not to purchase.
+Using this logic, assuming that pb  hb and pA  1,
+and using the fact that v is uniformly distributed over
+[0,1], we can write the demands for channels b and A,
+Db and DA , as follows:
+8
+p
+0;
+if pA  hbb  pb þ 1  hb
+>
+>
+
+
+<
+pA pb
+pb
+pb
+Db ¼ ð1  aÞk 1hb  hb ; if hb  pA  pb þ 1  hb
+
+
+>
+>
+p
+: ð1  aÞk 1  pb ;
+if b  p þ 1  h  p
+hb
+
+hb
+
+b
+
+b
+
+A
+
+to maximize pA . We can now characterize the equilibrium behavior of the system.
+ð1hb Þhb
+4
+THEOREM 1. When cb \ 2ð1þaÞh
+and hb \ 2þpﬃﬃﬃﬃﬃﬃﬃﬃ
+,
+b
+43aþ3a
+there exists a unique equilibrium for the Ab system. The
+equilibrium prices and profits are as follows (the superscript refers to the system configuration, Ab, whereas the
+subscript refers to the channel, A or b):
+
+ð1  hb Þhb þ 2cb ð1  ahb Þ
+4  ð1 þ 3aÞhb
+ð1  aÞcb þ 2ð1  hb Þ
+¼
+;
+4  ð1 þ 3aÞhb
+
+pAb
+b ¼
+pAb
+A
+
+pAb
+b ¼
+pAb
+A ¼
+
+and
+
+kð1  aÞ½hb  h2b  2cb þ cb ð1 þ aÞhb 2
+hb ð1  hb Þð4  ð1 þ 3aÞhb Þ2
+kð1  ahb Þ½2 þ ð1  aÞcb  2hb 2
+ð1  hb Þð4  ð1 þ 3aÞhb Þ2
+
+and
+
+:
+
+When these conditions are not satisfied, a unique equilibrium may not exist for the Ab system.
+Theorem 1 indicates that two conditions are
+required to ensure the existence of a unique equilibrium in the pure competition setting, in which sales
+occur only through channels A and b. First, the cost
+incurred for selling on channel b, cb , must be sufficiently small. Otherwise, the retailer will not find it
+profitable to sell on channel b. Second, hb , that is, the
+
+8
+p
+>
+akð1  pA Þ þ ð1  aÞkð1  pA Þ;
+if pA  hbb  pb þ 1  hb
+>
+<
+
+
+pA pb
+p
+DA ¼ akð1  pA Þ þ ð1  aÞk 1  1h
+; if hbb  pA  pb þ 1  hb
+b
+>
+>
+p
+:
+akð1  pA Þ;
+if hbb  pb þ 1  hb  pA :
+
+Thus, there are three possible cases to consider. For
+the remainder of this section, case 1 will refer to the
+p
+case in which pA is small relative to pb , i.e., pA \ hbb 
+pb þ 1  hb . Case 2 will refer to the case in which pA
+p
+is in the middle range, i.e., hbb  pA  pb þ 1  hb .
+Finally, case 3 will refer to the case in which pA is
+p
+large relative to pb , i.e., pA  pb þ 1  hb  hbb . As
+would be expected, when pA is small relative to pb ,
+there is demand only on channel A. However,
+because a fraction, a, of customers are aware only of
+channel A, and not of channel b, even when pA is large
+relative to pb , there will still be demand for channel A,
+as well as channel b.
+Given the demand functions, we can write the
+profit function for each channel as pb ¼ ðpb  cb ÞDb
+and pA ¼ pA DA . The retailer will choose pb to maximize pb , whereas the marketplace firm will choose pA
+
+utility gained from purchasing from the retailer
+through channel b, must also be sufficiently small.
+These conditions are discussed in further detail in
+section 6, where we characterize the overall system
+equilibrium.
+We are also interested in the behavior of the equilibrium demands for each firm. Given the equilibrium
+prices, we can write the equilibrium demands for
+channels A and b as follows:
+DAb
+A ¼
+
+kð1  ahb Þ½ð1  aÞcb þ 2ð1  hb Þ
+and
+ð1  hb Þ½4  ð1 þ 3aÞhb 
+
+DAb
+b ¼
+
+kð1  aÞ½2cb  cb ð1 þ aÞhb þ h2b  hb 
+ð1  hb Þ½4  ð1 þ 3aÞhb 
+
+Ab Ab
+Finally, the equilibrium profits are pAb
+A ¼ pA D A
+Ab
+Ab
+Ab
+and pb ¼ ðpb  cb ÞDb .
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+
+1003
+
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+The equilibrium profit earned by the retailer in this
+case, pAb
+b , will serve as a benchmark profit for the
+retailer. If the marketplace firm offers the marketplace
+service, the retailer will join the marketplace, that is,
+add channel B, only if by doing so she can earn profit
+equal to at least pAb
+b .
+
+5. Marketplace Firm Offers the
+Marketplace Service
+We next consider the setting in which the marketplace firm has chosen to offer the marketplace
+service, that is, has offered the marketplace contract
+to the retailer, with contract parameters / and k.
+Note that by adjusting the contract parameters
+appropriately, the marketplace firm can influence
+the retailer’s choice of channels, that is, the retailer’s
+decision regarding whether to offer the product
+through channels B and/or b. In this setting, we are
+interested in several questions: Under what conditions will the retailer choose to offer the product
+through channel B? Should the marketplace firm
+also sell the product, that is, should the firm offer
+channel A? How should the marketplace firm
+design the contract, that is, set / and k, to encourage the retailer to participate in the marketplace
+and maximize his profits?
+We first analyze, in section 5.1, the situation
+in which the marketplace firm does not sell
+through channel A, and thus there are two possible
+channels, b and B. Then, in section 5.2, we consider the situation in which the marketplace firm
+does sell through channel A. To characterize the
+equilibrium for each setting, we must address two
+issues: (i) how the marketplace firm will set / and
+k and (ii) which channels the retailer will choose
+to sell through and how she will set the price(s)
+on those channel(s). As the setting in which the
+marketplace firm offers the marketplace service is
+modeled as a Stackelberg game, in each case, we
+will find the equilibrium by working backwards,
+that is, by first characterizing the retailer’s optimal
+decisions for given / and k, and then determining
+the marketplace firm’s optimal contract parameters,
+i.e., the / and k that maximize the marketplace
+firm’s profits.
+5.1. Marketplace Firm Does Not Sell through
+Channel A
+In this setting, there are two channels to consider: B
+and b. We start, in section 5.1.1, by analyzing the
+retailer’s pricing and channel selection decisions,
+given that she has chosen to accept the marketplace
+contract. Then, in section 5.1.2, we consider the retailer’s decision of whether or not to accept the market-
+
+place contract. Finally, in section 5.1.3, we study how
+the marketplace firm will set / and k.
+5.1.1. Retailer’s Pricing and Channel Selection
+Decision. If the retailer accepts the marketplace contract, all customers become aware of her channel, that
+is, all customers become aware of channel b. Thus,
+when choosing which channel to purchase through,
+all customers will compare Ub vs. UB , choosing the
+channel that provides the highest net utility. Thus, if
+hb v  pb  hB v  pB and hb v  pb  0, a customer
+will choose to purchase through channel b. On the
+other hand, if hB v  pB  hb v  pb and hB v  pB  0,
+a customer will choose to purchase through channel
+B. Finally, if hb v  pb \ 0 and hB v  pB \ 0, a customer will choose not to purchase. Using this logic,
+assuming that pb  hb and pB  hB , and using the fact
+that v is uniformly distributed over [0,1], we can write
+the demands for channels b and B, Db and DB , as:
+8
+if pB \ hhBb pb
+>
+< 0;
+pb
+b
+Db ¼ ðphBB p
+if pb hhBb  pB  pb þ hB  hb
+h  h Þk;
+>
+: ð1  bpb Þk;b
+if pB [ pb þ hB  hb
+hb
+8
+pB
+< ð1  hB Þk;
+DB ¼ ð1  pB pb Þk;
+hB hb
+:
+0;
+
+if pB \ hhBb pb
+if pb hhBb  pB  pb þ hB  hb
+if pB [ pb þ hB  hb :
+
+Given these demand functions, we can write the
+profit function for each channel as pb ¼ ðpb  cb Þ Db ,
+pB ¼ ð1  /ÞpB DB  k, pA ¼ / pB DB þ k. As the
+retailer owns both channel b and channel B, she will
+seek to maximize the total profit from these two channels, i.e., she will choose pb and pB to maximize
+pbþB ¼ pb þ pB ¼ ðpb  cb Þ Db þ ð1  /Þ pB DB  k:
+In addition, the retailer must determine which channels (B and/or b) should have positive sales. The
+following theorem characterizes the optimal solution
+for the retailer:
+THEOREM 2. If the retailer participates in the marketplace system, with contract parameters k and /, her
+channel selection decision can be characterized as follows:
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1. If cb \  ðhB  hb Þ þ hB ðhB  hb Þ, then
+a. If / \ 2chbb , system B0 is optimal
+B  h b þ cb Þ
+b. If 2chbb \ / \ 2ðh
+2hB  hb þ cb , system Bb is optimal
+c. If / [
+
+2ðhB  hb þ cb Þ
+2hB  hb þ cb ,
+
+system 0b is optimal
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2. If cb [  ðhB  hb Þ þ hB ðhB  hb Þ, then
+2
+
+a. If / \ 1  ðhbhb hcBb Þ , system B0 is optimal.
+2
+b. If / [ 1  ðhbhb hcBb Þ , system 0b is optimal.
+The optimal prices and profits under each system are as
+follows.
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+
+1004
+
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+1. System B0: pB ¼ h2B , pbþB ¼ 14 kð1  /ÞhB  k,
+and pA ¼ k þ 14 k/hB .
+2. System Bb:
+pb ¼
+pB ¼
+pbþB
+
+to accept the contract, we assume that the marketplace firm will choose to sell through channel A to
+obtain some revenues. Therefore, when evaluating
+
+ð2  /Þð1  /Þhb ðhB  hb Þ þ cb ½2ð1  /ÞhB  ð2  /Þhb 
+4ð1  /ÞhB  ð2  /Þ2 hb
+2ð1  /ÞðhB  hb ÞhB  /cb hB
+
+4ð1  /ÞhB  ð2  /Þ2 hb
+ 2
+
+c  /cb hb þ ð1  /Þhb ðhB  hb Þ kð1  /ÞhB
+i
+¼ bh
+k
+
+hb
+4ð1  /ÞhB  ð2  /Þ2 hb
+
+pA ¼ k þ
+
+k/hB ½ð2  /Þðhb  cb Þ  2ð1  /ÞhB ½/cb  2ð1  /ÞðhB  hb Þ
+:
+h
+i2
+4ð1  /ÞhB  ð2  /Þ2 hb
+
+3. System 0b: pb ¼ 12 ðcb þ hb Þ, pbþB ¼
+and pA ¼ k.
+
+kðhb  cb Þ2
+4hb
+
+ k,
+
+In the above, recall that B0 (0b) denotes a Bb system with
+no sales on channel b (B).
+The retailer’s channel selection depends on the
+interactions between the problem parameters, /, cb ,
+hB , and hb . For small values of the retailer’s unit cost,
+cb , any of the three outcomes (Bb, B0, and 0b) are possible. As would be expected, when the revenue sharing requirement is minimal (/ is small), the B0 system
+is preferred, as this eliminates the need to pay the unit
+cost, cb . However, when the revenue sharing requirement is significant (/ is large), the 0b system is
+preferred. Finally, when the revenue sharing requirement is moderate, a Bb system is preferred, implying
+sales through both channels. The results for the case
+of large cb are similar, except that the system with
+sales through both channels will never be optimal. In
+general, regardless of the value of cb , as / ? 0, it
+becomes optimal for the retailer to have sales only on
+channel B, whereas, when / ? 1, it becomes optimal
+for the retailer to have sales only on channel b.
+The above analysis considers the retailer’s decisions
+under the assumption that she accepts the marketplace contract. In the next section, we consider the
+question of when it is optimal for the retailer to accept
+the contract terms and participate in the marketplace
+program.
+5.1.2. Retailer’s Marketplace Decision. For a given
+contract (/,k), the retailer decides whether or not to
+participate in the marketplace system by comparing
+the optimal profit. When the marketplace firm offers
+the marketplace service, he acts as the Stackelberg
+leader, i.e., he offers the contract with parameters /
+and k to the retailer, who must then decide whether
+or not to accept the contract. If the retailer decides not
+
+the offered contract, the retailer will compare the
+equilibrium profit obtained from the Ab system,
+denoted pAb
+b , with the equilibrium profit obtained
+under the marketplace contract. The following theorem characterizes the retailer’s optimal decision.
+THEOREM 3. The retailer will choose to participate in the
+marketplace system if and only if the parameters of the
+marketplace contract satisfy one of the following five sets
+of conditions:
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1. If cb \  ðhB  hb Þ þ hB ðhB  hb Þ, and:
+a. If / \
+b. If
+
+2cb
+hb
+
+k\
+
+2cb
+hb
+
+and k \ 14 kð1  /ÞhB  pAb
+b ,
+
+2ðhB  hb þ cb Þ
+2hB  hb þ cb and
+½c2b  /cb hb þ ð1  /Þhb ðhB  hb Þ kð1  /ÞhB
+
+hb
+½4ð1  /ÞhB  ð2  /Þ2 hb 
+
+\/\
+
+2
+
+and k \ kðhb4hbcb Þ  pAb
+b .
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2. If cb [  ðhB  hb Þ þ hB ðhB  hb Þ, and
+c. If / [
+
+2ðhB  hb þ cb Þ
+2hB  hb þ cb
+
+ pAb
+b ,
+
+ðhb  cb Þ2
+and k \ 14 kð1  /ÞhB
+hb hB
+2
+2
+ ðhbhb hcBb Þ and k \ kðhb4hbcb Þ 
+
+a. If / \ 1 
+
+ pAb
+b .
+
+b. If / [ 1
+
+pAb
+b .
+
+These conditions are derived from simple profit
+comparisons, ensuring that the retailer’s profit, if she
+accepts the marketplace contract, is at least equal to
+pAb
+b . One interesting observation from this theorem is
+that, for certain contract parameters, it would be optimal for the retailer to accept the marketplace contract,
+but then price such that there are no actual sales
+through her marketplace channel, i.e., through channel B. In other words, the retailer would offer the
+product through the marketplace system, but set the
+marketplace price, pB , to ensure that DB ¼ 0. The benefit of this approach, for the retailer, is that by participating in the marketplace system, the retailer will
+expand the set of customers who are aware of her
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+online channel, i.e., who are aware of channel b. Thus,
+the retailer’s total potential market increases from
+(1  a)k, when she sells only through her own channel, to k when she also participates in the marketplace. In summary, conditions 1c and 2b in Theorem 3
+characterize the settings in which it would be optimal
+for the retailer to pay the fixed fee, k, to participate in
+the marketplace system, with the goal of expanding
+the market for her own channel, with no intention of
+actually selling the product through the marketplace
+system. As would be expected, this type of behavior
+is optimal when the level of revenue sharing required
+for sales in the marketplace system, /, is sufficiently
+large, whereas the fixed fee, k, is sufficiently small.
+5.1.3. Marketplace Firm’s Choice of (/,k). Finally,
+we consider how the marketplace firm, as the Stackelberg leader, would set the contract parameters, / and
+k. Notice that, as he does not sell through channel A,
+the marketplace firm receives zero profit if the retailer
+chooses not to participate in the marketplace. Thus,
+the marketplace firm would like to design a contract
+that will motivate the retailer to join the marketplace.
+The following theorem presents the marketplace
+firm’s optimal contract parameters:
+THEOREM 4. If the marketplace firm offers the marketplace service to the retailer, but does not sell the goods
+himself, the marketplace firm’s optimal contract parameters are
+khB
+/Bb ¼ 0 and kBb ¼
+ pAb
+b :
+4
+The total profit earned by the marketplace firm is
+Bb
+pBb
+¼
+A ¼k
+
+khB
+ pAb
+b :
+4
+
+Under the (kBb ; /Bb ) contract, the retailer will choose to
+participate in the marketplace and will follow the optimal
+solution for the B0 system, as given in Theorem 2.
+In addition, the (kBb ; /Bb ) contract maximizes the total
+system profit, pA þ pbþB . In other words, the contract
+coordinates the system in which the marketplace firm does
+not sell through channel A.
+Using the results of Theorem 2, it is easy to verify
+hB
+Bb
+Bb
+k
+that if / = 0, then pBb
+B ¼ 2 , Db ¼ 0, and DB ¼ 2.
+Thus, the optimal profit for the retailer is
+Bb
+pBb
+þ kh4B ¼ pAb
+bþB ¼ k
+b . While the conditions presented in Theorems 2 and 3 are complex functions of
+the problem parameters, cb , hB , and hb , the overall
+equilibrium for this system, as specified in Theorem
+4, is quite simple and does not depend on the retailer’s unit cost, cb , other than through the benchmark
+profit, pAb
+b .
+Notice that the marketplace firm’s optimal strategy
+is to set the contract parameters in such a way as to
+
+1005
+
+guarantee retailer’s participation in the marketplace,
+while ensuring that all sales take place through the
+marketplace system. Also, notice that the marketplace
+contract achieves channel coordination and, due to its
+role as Stackelberg leader, the marketplace firm is able
+to extract all of the retailer’s profits in excess of what
+she would earn in the Ab system.
+5.2. Marketplace Firm Sells through Channel A
+In this setting, the marketplace firm sells the product
+through channel A. Thus, there are three channels to
+consider: A, B, and b. We analyze this three channel
+system, under the assumption that the marketplace
+firm offers channel A and wants the retailer to accept
+the marketplace contract. In section 6, we consider the
+overall equilibrium, i.e., we determine conditions
+under which it is optimal for the marketplace firm to
+offer channel A and to offer the marketplace contract
+to the retailer.
+As we saw in section 5.1, by adjusting the contract parameters, the marketplace firm can manipulate the retailer to sell through any combination of
+channels B and b. That is, when there are three
+potential channels, the system can end up in one of
+three possible outcomes: AB0, A0b, or ABb, where
+AB0 (A0b) denotes a three channel system with sales
+only through channels A and B (A and b), whereas
+ABb denotes a three channel system with sales
+through all three channels. As the Stackelberg game
+leader, the marketplace firm is able to select the system that generates the most profit for him. In the
+following sections, we will analyze each of the three
+possible outcomes individually. In Section 6, we will
+use these results, along with those from Sections 4
+and 5.1, to determine the overall equilibrium, i.e., to
+determine which system provides the marketplace
+firm with the highest overall profit.
+5.2.1 AB0 System: Sales through Channels A
+and B Only. We first consider the system in which
+the retailer chooses to sell the product through the
+marketplace system, but not through her own online
+channel. Thus, as the marketplace firm also sells the
+product, there are two channels to consider, channel
+A and channel B. In this system, as the retailer sells
+through the marketplace system, all customers are
+aware of both channels. Therefore, when choosing
+which channel to purchase through, all customers
+will compare UA vs. UB , choosing the channel that
+provides the highest net utility. Thus, if v  pA 
+hB v  pB and v  pA  0, a customer will choose to
+purchase through channel A. On the other hand, if
+hB v  pB  v  pA and hB v  pB  0, a customer
+will choose to purchase through channel B. Finally, if
+v  pA \ 0 and hB v  pB \ 0, a customer will choose
+not to purchase.
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+
+1006
+
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+Using this logic, assuming that pB  hB , and using
+the fact that v is uniformly distributed over [0,1], we
+can write the demand functions for channels A and B,
+p p
+DA , and DB , as DA ¼ kð1  1A hBB Þ and DB ¼
+pA  pB
+pB
+kð 1  hB  hB Þ, where strictly positive demand on each
+p
+channel requires that the prices satisfy hBB  pA 
+pB þ 1  hB . When any one of these conditions is not
+satisfied, the AB0 system will transfer to one of the
+other systems considered in this article. Finally, given
+the demand functions, we can write the profit function for each channel as pB ¼ ð1  /Þ pB DB  k and
+pA ¼ pA DA þ / pB DB þ k.
+We are now ready to characterize the equilibrium
+prices and contract parameters for the AB0 system.
+Recall that the marketplace firm serves as the Stackelberg leader, choosing the contract parameters to optimize his own profits. Also, recall that the retailer will
+agree to participate in the marketplace system only if
+her profit under the marketplace contract is at least
+equal to pAb
+b . We summarize the AB0 system equilibrium in the following theorem.
+THEOREM 5. To ensure that the retailer chooses the AB0
+system, while maximizing his own profits, the marketplace firm should set the contract parameters as follows:
+/AB0 ¼ 0
+
+and
+
+kAB0 ¼
+
+kð1  hB ÞhB
+ð4  3hB Þ2
+
+ pAb
+b ;
+
+where pAb
+b is the retailer’s equilibrium profit in the benchmark Ab system. The resulting equilibrium prices and
+profits are
+pAB0
+¼
+A
+pAB0
+A
+
+2ð 1  hB Þ
+4  3hB
+
+and
+
+kð 1  hB Þ
+¼
+ pAb
+b
+4  3hB
+
+pAB0
+¼
+b
+
+hB ð 1  hB Þ
+;
+4  3hB
+
+and pAB0
+¼ pAb
+B
+b :
+
+The theorem says that to ensure that the retailer
+chooses the AB0 system, the marketplace firm should
+set / = 0, i.e., the marketplace contract should have
+no revenue sharing. This, coupled with the fact that
+the unit cost of selling through channel b is cb [ 0,
+implies that the retailer has no incentive to offer the
+product through channel b. In addition, the theorem
+indicates that the marketplace firm is able to extract
+all profits in excess of the benchmark profit (pAb
+b ) from
+the retailer.
+5.2.2. A0b System: Sales through Channels A
+and b Only. We next consider the system in which
+the retailer chooses to participate in the marketplace
+system, but with sales occurring only through her
+own online channel. Thus, there are two channels
+with positive sales, A and b. Recall that by participat-
+
+ing in the marketplace system the retailer is able to
+increase her potential market from (1  a)k to k.
+Thus, there may be instances in which the retailer
+would find it beneficial to pay the fixed cost, k, to participate in the marketplace system, even if she will not
+have any actual sales through channel B.
+When making their purchasing choice, all customers
+will compare the net utilities offered by channels A
+and b. Using the same logic as applied in the previous
+sections, assuming that pb  hb , and using the fact that
+v is uniformly distributed over [0,1], we can write the
+demand functions for channels A and b, DA and Db , as
+DA ¼ kð1  p1Ahpbb Þ and Db ¼ kðp1Ahpbb  phbb Þ, where
+strictly positive demand on channels A and b requires
+that the prices satisfy the following conditions:
+
+
+pb
+pB  pb
+pA  pb
+\pA  pB þ
+ 1:
+ð1  hB Þ and
+hb
+hB  hb
+1  hb
+ð1Þ
+When any one of the above conditions is not satisfied, the A0b system will transfer to one of the other
+systems considered in this article. Finally, given
+these demand functions, we can write the profit
+function for each channel as pb ¼ ðpb  cb Þ Db  k
+and pA ¼ pA DA þ k.
+We are now ready to characterize the equilibrium
+prices and contract parameters for the A0b system.
+We do so in the following theorem.
+ hb Þ
+THEOREM 6. If cb \ 2h4b ð1
+ 3hb , to ensure that the retailer
+chooses the A0b system, while maximizing his own profits, the marketplace firm should set the contract parameters as follows:
+
+/A0b ¼ 1 "and
+k
+
+A0b
+
+#
+cb
+hb ð1  hb Þ
+
+¼k
+ pAb
+b ;
+4hb ð1  hb Þ ð4  3hb Þ2
+
+where pAb
+b is the retailer’s equilibrium profit in the benchmark Ab system. The resulting equilibrium prices and
+profits are
+2ð1  hb Þ
+cb hb ð1  hb Þ
+and pA0b
+¼ þ
+;
+b
+4  3hb
+4  3hb
+2
+"
+#
+c2b ð4  3hb Þ þ 4ð1  hb Þ2 hb
+¼k
+and
+ pAb
+b
+4hb ð1  hb Þð4  3hb Þ
+
+pA0b
+A ¼
+pA0b
+A
+
+pA0b
+¼ pAb
+B
+b :
+ hb Þ
+is required to ensure
+The condition cb \ 2h4b ð1
+ 3hb
+that the conditions stated in Eq. (1), which imply positive demand on channels A and b, hold. The theorem
+says that, to ensure that the retailer chooses the A0b
+system, the marketplace firm should set / = 1, i.e.,
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+the marketplace contract should require 100% revenue sharing. This, of course, implies that the retailer
+has no incentive to offer the product through channel
+B. This result is in contrast with the results presented
+in Theorems 4 and 5, in which the optimal / is set to
+zero. Note that in the systems considered in those theorems (the Bb and AB0 systems), the marketplace firm
+was trying to encourage sales through channel B.
+Thus, setting / = 0 for these cases makes intuitive
+sense. Finally, the theorem indicates that the marketplace firm is able to extract all profits in excess of the
+benchmark profit (pAb
+b ) from the retailer.
+5.2.3. ABb System: Sales through Channels A, B
+and b. Finally, we consider the system in which the
+retailer chooses to sell the product through the marketplace system, as well as through her own online
+channel. Thus, there are three channels to consider:
+channel A, channel B, and channel b. In this system, as
+the retailer sells through the marketplace system, all
+customers are aware of three channels. Therefore,
+when choosing which channel to purchase through,
+all customers will compare UA vs. UB vs. Ub , choosing
+the channel that provides the highest net utility. Using
+the same logic as applied to the previous cases, assuming that pB  hB , pb  hb , and phBB  phbb , where the last
+condition is required to ensure that there is potential
+for Db [ 0, and using the fact that v is uniformly distributed over [0,1], we can write the demands for
+channels A, B and b, DA , DB , and Db , as follows:
+
+
+
+
+pA  pB
+pA  pB pB  pb
+DA ¼ k 1 
+
+; DB ¼ k
+;
+1
+1  hB
+hB  hb
+ hB
+
+pB  pb pb
+
+and Db ¼ k
+hB  hb hb
+To ensure positive demand on all three channels,
+we require the prices to satisfy the following condip p
+p p
+tions: pA [ pB þ ðhBB  hbb Þð1  hB Þ and 1A hBB  1.
+We can now write the profit functions for each
+channel as pA ¼ pA DA þ /pB DB þ k, pB ¼ ð1  /Þ
+pB DB  k, and pb ¼ ðpb  cÞ Db . As the retailer owns
+both channel b and channel B, she will choose pb and
+pB to maximize pbþB ¼ pb þ pB ¼ ðpb  cÞ Db þ
+ð1  /Þ pB DB  k, whereas the marketplace firm will
+choose pA , /, and k to maximize pA .
+We are now ready to state our main result for this
+three channel case:
+THEOREM 7. No equilibrium with strictly positive
+demand on all three channels exists for the ABb system.
+We prove Theorem 7 by demonstrating that, in the
+ABb system, the marketplace firm will choose to set
+the revenue sharing parameter, /, so that there are no
+sales on channel B. The intuition behind this result is
+
+1007
+
+that, when there are positive demands on channels b
+and B, to maximize his profits, the marketplace firm
+will take a large portion of the revenue earned on
+channel B, i.e., / will be large. In contrast, when / is
+large, the retailer will find it optimal to forgo the
+potential revenue from channel B, and will instead set
+pB very high, so that no sales occur on channel B. In
+this way, the retailer shifts demand from channel B to
+channel b, where the retailer is able to keep all of the
+revenue.
+
+6. Analysis of Overall System
+Equilibrium
+Our goal is to characterize the overall system equilibrium, i.e., to determine whether the marketplace firm
+will offer the marketplace contract to the retailer, to
+determine whether the marketplace firm will choose
+to sell the product through channel A and at what
+price, and to characterize the retailer’s channel selection and pricing decisions. Before doing so, we summarize the analysis completed so far.
+ We considered the case in which the marketplace firm chooses not to offer the marketplace
+service. We analyzed this Ab system to determine the equilibrium prices and profits.
+ We then considered the case in which the marketplace firm chooses to offer the marketplace
+service. There were two subcases to consider:
+○ The case in which the marketplace firm does
+not offer the product through channel A and
+thus only channels B and b exist. For this system, we demonstrated that the marketplace
+firm, as Stackelberg leader, will set the contract parameters such that the overall equilibrium has sales only through channel B. Thus,
+the resulting equilibrium is the B0 system.
+○ The case in which the marketplace firm offers
+the product through channel A, and thus, all
+three channels (A, B, and b) exist. For this
+system, a retailer who participates in the
+marketplace system has three options:
+○ Sales through B only, the AB0 system
+○ Sales through b only, the A0b system
+○ Sales though both B and b, the ABb system
+We analyzed the marketplace firm’s optimal contract
+design for each of these three cases, and demonstrated
+that no equilibrium exists for the ABb system.
+Thus, to determine the overall system equilibrium,
+we must compare four systems: Ab, B0, AB0, and A0b.
+In section 6.1, we present our results regarding this
+comparison and mathematically characterize the conditions under which each of these systems will be the
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+
+1008
+
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+overall equilibrium. Then, in Section 6.2, we provide
+some intuition behind these results and present some
+numerical results.
+6.1. Characterizing the Overall System
+Equilibrium
+As the marketplace firm is the Stackelberg leader, it is
+able to select his preferred system from among these
+four potential equilibrium systems (Ab, B0, AB0, and
+A0b) by adjusting the parameter values of the contract. Thus, by comparing the four systems, we just
+need to consider the marketplace firm’s profits and
+find the system that provides the highest profits. The
+results for the four systems are summarized in Table
+1. Notice that, for ease of comparison, we have rewritten the expression for pAb
+A , as given in Theorem 1, so
+that we can compare the profit functions by considering only the first term of each, ignoring the pAb
+b term.
+Clearly, the relationship between the profits for the
+four systems depends on the specific parameter valTable 1.
+
+THEOREM 8. There exist a series of thresholds whose precise definitions are provided in the proof of this theorem,
+such that the overall equilibrium can be determined as
+followed:
+ If all four system equilibria exist according to the
+conditions specified in Table 1, then use the logic
+shown in Figure 2.
+ If only the AB0, B0, and A0b system equilibria
+exist according to the conditions specified in Table
+1, then use the logic shown in Figure 5 in the
+Online Appendix.
+ If only the AB0, B0, and Ab system equilibria exist
+according to the conditions specified in Table 1,
+then use the logic shown in Figure 6 in the Online
+Appendix.
+
+Potential Equilibrium Systems
+
+System
+
+Conditions Required for
+Existence of an Equilibrium
+
+B0
+
+None
+
+Ab
+
+ues. However, it is possible to draw some conclusions
+regarding which system will be the overall equilibrium under a range of possible parameter values, as
+shown in the following theorem.
+
+ð1  hb Þhb
+2  ð1 þ aÞhb
+4
+hb \
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2 þ 4  3a þ 3a
+None
+
+A0b
+
+cb \
+
+hB
+ pAb
+b
+4
+h
+i
+ ½2 þ ð1  aÞc  2h 2 h ð1  ah Þ þ ð1  aÞ h  h2  c ð2  ð1 þ aÞh Þ 2 
+b
+b
+b
+b
+b
+b
+b
+b
+k
+ pAb
+b
+hb ð1  hb Þ½4  ð1 þ 3aÞhb 2
+k
+
+cb \
+
+AB0
+
+Marketplace Firm’s Profit at Equilibrium
+
+2hb ð1  hb Þ
+4  3hb
+
+
+
+1  hB
+ pAb
+k
+b
+4  3hB
+"
+#
+c 2 ð4  3hb Þ þ 4ð1  hb Þ2 hb
+ pAb
+k b
+b
+4hb ð1  hb Þð4  3hb Þ
+
+Figure 2 Overall System Equilibrium: All Systems (AB0, B0, A0b, and Ab) Exist
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+ If only the AB0 and B0 system equilibria exist
+according to the conditions specified in Table 1,
+then AB0 is the overall equilibrium if hB \ 23.
+Otherwise, B0 is the overall equilibrium.
+The tree shown in Figure 2 can be used to determine which of the systems is the overall equilibrium
+for any given set of parameter values. In the tree, we
+use the > symbol to denote when one system dominates the other, in terms of the total system profit.
+6.2. Discussion and Numerical Results
+We will focus our discussion of these results on the
+tree shown in Figure 2, which applies in settings in
+which an equilibrium exists for all four potential systems (B0, AB0, A0b and Ab). In this tree, we start by
+comparing the three systems in which the retailer
+agrees to the marketplace contract, i.e., B0, AB0, and
+A0b, to determine which is preferred by the marketplace firm. Once we have determined the best of these
+three systems, that best system is then compared with
+the “pure competition” system, i.e., Ab, in which the
+marketplace firm does not offer the marketplace
+contract, and thus enters into a purely competitive
+relationship with the retailer.
+We start by discussing the first node in the tree, in
+which the marketplace firm chooses among B0, AB0,
+and A0b. We first note that AB0 is never selected by
+the marketplace firm in this setting. As shown in the
+proof of the theorem, this is due to the fact that the
+marketplace firm always prefers A0b to AB0. In other
+words, given that the retailer agrees to the marketplace contract and that the marketplace firm chooses
+to sell through channel A, the marketplace firm prefers to compete against channel b, than against channel B. This is because channel b can be considered to
+be a weaker competitor than channel B due to its
+higher unit cost (cb [ 0) and lower overall utility
+(hb \ hB ). Next, we consider the retailer’s preference
+for B0 vs. A0b. Three conditions must hold for the B0
+system to be preferred over the A0b system: hB and hb
+must be sufficiently large (hB [ 23 and hb [ ~hb ),
+whereas cb must be sufficiently small (cb \ ^cb ). Having
+a large hb and a small cb implies that channel b is a
+strong competitor, and thus the A0b system may not
+be highly profitable for the marketplace firm. In addition, when hB is large, selling through channel B is
+attractive for the marketplace firm, as that firm
+extracts all of the retailer’s excess profits (beyond
+those earned in the Ab system). Finally, as would be
+expected, if hB is sufficiently small (hB \ 23), regardless
+of the other parameter values, the A0b system will be
+preferred to the B0 system.
+We next consider the remaining two nodes in the
+tree, in which we compare the best system from the
+first node (B0 or A0b) with the pure competition sys-
+
+1009
+
+tem, Ab. In the top part of the tree, we compare A0b
+and Ab. The marketplace firm’s choice between these
+systems depends on the value of a, the fraction of customers who are not aware of channel b when the
+retailer does not sell through the marketplace system.
+When a is small, i.e., a \ ~a, the A0b system is preferred. On the other hand, when a is large, i.e., a [ ~
+a,
+the Ab system is preferred. The intuition behind this
+result is provided in the discussion of Figures 3 and 4
+below. In the bottom part of the tree, we compare B0
+and Ab. We see that B0 is preferred only when the
+utility obtained by purchasing through channel B, hB ,
+is sufficiently large (hB [ ^hB ), and the unit cost associated with channel b is sufficiently small (cb \ cb ).
+
+Figure 3 Overall System Equilibrium as a Function of a and cb
+
+(a)
+
+(b)
+
+1010
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+Figure 4 Overall System Equilibrium as a Function of hb and cb
+
+(a)
+
+the marketplace firm faces a choice between the A0b
+and Ab systems.
+(1) In the A0b system, all customers are aware of
+channel b, whereas in the Ab system, a fraction (a) of customers are not aware of channel
+b. Thus, the A0b system provides the retailer
+with a larger market share and creates a
+higher level of competition for the marketplace firm.
+(2) In the A0b system, the marketplace firm uses
+the marketplace contract to extract all excess
+profits (beyond those earned in the Ab system) from the retailer.
+
+(b)
+
+Figures 3 and 4 are contour graphs, i.e., they were
+created by comparing the profits for each system.
+Each region’s label represents the system preferred by
+the marketplace firm and the lines represent the
+thresholds shown in Figure 2. In Figures 3a and 4a,
+we have hB [ 2=3, and thus the figure shows how the
+marketplace firm chooses between the A0b, Ab, and
+B0 systems. Figure 3a demonstrates that when the
+unit cost for sales on channel b (cb ) and the fraction of
+customers who are not aware of channel b (a) are sufficiently small, channel b is seen as a strong competitor, and thus, the B0 system is preferred over both the
+A0b and Ab systems. In the remainder of the graph,
+
+Intuitively, (1) makes the A0b system less attractive
+to the marketplace firm, whereas (2) makes the A0b
+system more attractive to the marketplace firm. When
+a is small, the effect of (1) is minimal, and thus (2)
+dominates, making the A0b system attractive to the
+marketplace firm. If a is large, but cb is also sufficiently large, then channel b is a weak competitor
+(observe that a high unit cost on channel b will imply
+a high unit price on channel b). Thus, the effect of (1)
+is again minimal, i.e., even a substantial increase in
+the retailer’s market share will not hurt the marketplace firm very much, allowing (2) to dominate, and
+making the A0b system attractive to the marketplace
+firm.
+Figure 4a can be interpreted in a similar manner.
+When channel b is seen as a strong competitor (sufficiently small unit cost, cb , and large utility, hb ), the B0
+system is preferred over both the A0b and Ab systems.
+On the other hand, when the utility associated with
+channel b (hb ), is sufficiently low, the marketplace firm
+would prefer to compete with channel b, rather than
+channel B. Thus, the choice is between the A0b and
+the Ab systems. Using the same logic as applied to
+Figure 3a, we find that the A0b system is preferred
+only when the unit cost for channel b is sufficiently
+high, allowing the effect of (2) to dominate over the
+effect of (1).
+Figures 3b and 4b can be understood by noting
+that hB \ 2=3, and thus the B0 system is never the
+overall equilibrium. Recall that in the B0 system, the
+marketplace firm extracts all of the retailer’s excess
+profits. When the utility associated with purchasing
+on channel B is sufficiently low (hB \ 2=3), these
+excess profits will not be sufficient for the marketplace firm to justify not selling through channel A.
+Thus, Figures 3b and 4b show the marketplace firm’s
+choice between A0b and Ab. This choice can again be
+explained by considering the trade-off between (1)
+and (2). When a is sufficiently small or cb is sufficiently large, the effect of (2) will dominate the effect
+of (1), and the marketplace firm will choose the A0b
+system.
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+In summary, there are three possible equilibria, representing different degrees of coordination and competition between the marketplace firm and the
+retailer, as outlined below:
+ Pure Coordination (System B0): Sales in this system only take place through channel B, with the
+retailer and the marketplace firm sharing the
+overall profits. This system will be the equilibrium when the retailer is a sufficiently strong
+competitor, i.e., when the utilities associated
+with channels B and b are sufficiently high and
+the unit cost for channel b is sufficiently low.
+ Pure Competition (System Ab): The marketplace
+firm does not offer the marketplace contract,
+and thus, enters into a purely competitive relationship with the retailer’s online channel. This
+case will be the equilibrium when the retailer is
+viewed as a weak competitor to the marketplace
+firm, i.e., if the utility associated with either of
+the retailer’s channels (B and/or b) is sufficiently
+low or if the fraction of customers who do not
+know about the retailer’s online channel is large.
+ Competition and Coordination (System A0b): In
+this system, the marketplace firm and the retailer simultaneously coordinate (the retailer agrees
+to the marketplace contract) and compete (the
+retailer sells through her own channel). This
+case is preferred to pure competition only when
+allowing the retailer to be visible to all customers poses a minimal threat to the marketplace
+firm’s own sales through the marketplace system. This case is preferred to pure coordination
+except in settings in which the retailer’s channels (B and b) are viewed favorably by customers (have a low disutility) and the retailer’s unit
+cost for sales on her own channel is small.
+Finally, while we will not discuss the trees shown in
+Figures 5 and 6 the Online Appendix, which apply in
+settings in which one or more of the systems does not
+have a feasible equilibrium solution, we note that the
+results can be explained using the same logic used to
+explain the tree in Figure 2. However, there is one
+additional result worth noting. As noted in the final
+bullet of Theorem 8, when neither the A0b nor the Ab
+systems have a feasible equilibrium, it is possible that
+the AB0 system will be the overall equilibrium. However, this will only occur when hB is sufficiently small,
+i.e., when hB \ 23, the AB0 system will be preferred
+over the B0 system.
+
+7. Managerial Insights and
+Conclusions
+In this article, we consider a setting in which a marketplace firm, such as Amazon, operates an online
+
+1011
+
+marketplace through which retailers can sell their
+products directly to consumers. We consider the
+question of under what conditions an online retailer
+would choose to contract with the marketplace firm to
+sell its product through the marketplace system. Selling the product through the marketplace expands the
+market of available customers for the retailer, but
+also comes at a cost, i.e., a fixed participation fee plus
+revenue sharing. We also consider the problem
+from the perspective of the marketplace firm, studying how the firm would decide whether or not to
+offer the marketplace contract to the retailer, how the
+firm would set the marketplace contract parameters,
+and whether the marketplace firm would choose to
+sell a competing product through the marketplace
+system.
+This research was inspired by the experience of
+companies such as Ice.com, who are initially motivated to join the marketplace system to access a larger
+segment of customers, but who later find that they
+must compete directly with the marketplace firm, and
+thus must confront the question of whether to continue selling through the marketplace system. The
+results of our research indicate that the situation Ice.
+com found itself in during 2004, with sales of its
+goods occurring through both its own online store
+and through the Amazon marketplace, the latter in
+direct competition with similar products being sold
+by Amazon, may not be a stable one. In other words,
+we find that the three channel system will not exist in
+equilibrium. Instead, the equilibrium will be one of
+four types, all of which have sales through only two
+channels. We summarize each of these possibilities
+below:
+ In the pure coordination equilibrium, the retailer agrees to participate in the marketplace contract, while the marketplace firm chooses not to
+sell the product itself. The retailer sets the
+prices in such a way that there is no demand
+through her own online channel, i.e., sales
+occur only through her marketplace channel.
+The marketplace firm sets the contract parameters, i.e., the fixed payment and degree of revenue sharing to coordinate the system, i.e., to
+maximize total profit for the system, while
+extracting as much profit from the retailer as
+possible, making the retailer indifferent
+between participating in the marketplace system and not participating.
+ In the pure competition equilibrium, on the
+other hand, the retailer does not participate in
+the marketplace system. Instead, the retailer’s
+online store and the marketplace firm coexist
+and compete for a portion of the market, each
+setting their own prices to maximize their own
+
+1012
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+profits. In this system, as there is no contract
+between the retailer and the marketplace firm,
+the total system profit is unlikely to be maximized, i.e., the system is not coordinated.
+ In the competition and coordination equilibria,
+the marketplace firm and the retailer simultaneously coordinate (the retailer agrees to the
+marketplace contract) and compete (the retailer
+sells through either her own channel or
+through the marketplace system, but not both).
+We have also characterized the conditions under
+which each of these systems is likely to be the equilibrium. First recall that, as the Stackelberg leader, it
+is the marketplace firm who, in the end, determines
+which equilibrium will result, i.e., the overall system
+equilibrium will be whichever system provides the
+marketplace firm with the highest profits. We find
+that the pure competition equilibrium becomes more
+likely when the retailer is seen as a weak competitor
+to the marketplace firm (i.e., the retailer has low
+name recognition or low utility). In other words, if
+the marketplace system is viewed as being more
+secure or as providing a greater level of service than
+the retailer, and thus consumers have a clear preference for engaging in transactions with the marketplace firm rather than with the retailer, then the
+competitive equilibrium is more likely. On the other
+hand, we find that the pure coordination equilibrium becomes more likely when consumers do not
+have a strong preference for purchasing from the
+marketplace system relative to purchasing from the
+retailer, i.e., when the utilities gained from purchasing through either of the retailer’s channels are
+large, and when the retailer’s unit cost is low. In
+particular, as the utility associated with purchasing
+through the retailer’s online store increases, getting
+closer to the utility obtained from purchasing
+through the marketplace firm, the two channels
+become more competitive, and the profits earned by
+the marketplace firm in the competitive equilibrium
+decrease, making the coordinated equilibrium more
+attractive.
+Finally, this article contributes to the existing literature by studying a specific form of channel conflict
+created by an Amazon-type marketplace system. Specifically, we study the impact of competition in an
+online marketplace system in which the marketplace
+firm both designs the marketplace contract with the
+retailer and, potentially, sells a product that directly
+competes with the good sold by the retailer. In such a
+system, the relationship between the marketplace firm
+and the retailer is both horizontal and vertical. In
+addition, the marketplace firm is the dominant partner in the system due to its name recognition, as well
+as its role as owner of the marketplace system. We
+
+believe we are the first to study this particular form of
+channel conflict and to understand the potential equilibrium outcomes for such a system. Given the rapid
+growth of such marketplace systems, understanding
+the impact of competition and channel conflict in
+these systems is of critical importance to the success
+of marketplace firms such as Amazon, as well as the
+retailers who take part in these systems.
+7.1. Limitations and Future Research
+We conclude this article with a discussion of several
+limitations of our current model. First, as noted
+above, we assume that both marketplace channels (B
+and A) have the same unit cost, and we normalize
+these costs to zero, leaving only the unit cost, cb , for
+channel b. In reality, it may be the case that the marginal costs on channels A and B will be different, i.e.,
+we might expect that cA \ cB \ cb . Unfortunately,
+incorporating additional unit costs into the model
+makes the analysis extraordinarily complex. However, we can use the results from the current analysis
+to draw some conclusions regarding the impact of
+marginal costs for the marketplace channels on the
+equilibrium results. For example, if we had a positive
+marginal cost on channel B, i.e., cB [ 0, a higher unit
+cost would make channel B less competitive, thus
+making it more likely that the marketplace firm
+would be willing to compete directly with channel B,
+i.e., making it more likely that the marketplace firm
+would select the AB0 system as the overall equilibrium. Having a higher value of cB would also make it
+less likely that the overall equilibrium will have sales
+only through channel B, i.e., the B0 system, as having
+a higher cB makes channel B less profitable, implying
+that the marketplace firm would earn less through
+revenue sharing in the B0 system. Future research will
+seek to formalize this intuition.
+Next, we note several other limitations of our
+model setting. First, while we have assumed a certain
+sequence of decisions in our problem setting, other
+sequences are possible. Specifically, we have assumed
+that the marketplace firm, as the Stackelberg leader,
+acts first and sets the contract parameters, / and k, as
+well as his selling price, pA . The retailer then simply
+reacts to these decisions by the marketplace firm and
+sets her price(s). However, it is very possible that the
+marketplace firm would seek to set its price after the
+retailer sets her price(s). In this case, the sequence of
+decisions would be a bit more complex, with the marketplace firm first setting / and k, the retailer then
+setting her price(s), and finally the marketplace firm
+setting its price. Investigating this alternative decision
+sequence, to understand how it affects the equilibrium results, would be an interesting topic for future
+research. Second, we have not captured the dynamic
+nature of the relationship between the retailer and the
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+marketplace firm. This would be an important extension to consider, particularly in settings in which participation in the marketplace system is likely to affect
+consumers’ views of the retailer, i.e., as time goes by,
+one would expect that more and more consumers will
+become familiar with (and possibly more trusting of)
+the retailer, implying that a may decrease over time,
+whereas the utility associated with purchases
+through the retailer may increase. Such changes may
+lead the marketplace firm to adjust the contractual
+relationship with the retailer over time. Third, we
+could also extend the model to consider several retailers participating in a single marketplace system. In
+this case, a retailer’s decision regarding whether or
+not to sell their product on the marketplace will be
+affected by the level of competition in the marketplace (i.e., the number of retailers), as well as the
+degree of similarity between the products (i.e., the
+relative values of the hi across the retailers). Also, in
+such a setting, the competition between the retailers
+would need to be modeled using a Nash game.
+Finally, a related extension would be to consider the
+role of product complementarity, i.e., the fact that the
+market size for the marketplace firm is dependent on
+the variety of products offered on the marketplace
+system, with more variety associated with a larger
+market. In such a setting, the marketplace firm may
+choose to offer more attractive contractual terms to
+those retailers who offer products that are not currently being sold on the marketplace system.
+
+Acknowledgments
+The authors thank the departmental editor (Professor
+Amiya K. Chakravarty), senior editor, and two referees for
+their contribution in improving the clarity and quality of
+this paper.
+
+Notes
+*Author names are listed alphabetically and all authors
+contributed equally.
+1
+http://advantage.amazon.com/gp/vendor/public/faq#
+marketplaceDiff
+2
+
+1013
+
+Bakos, J. Y. 2001. The emerging landscape for retail e-commerce.
+J. Econ. Perspect. 15(1): 69–80.
+Benjamin, R., R. Wigand. 1995. Electronic markets and virtual
+value chains on the information superhighway. Sloan Manag.
+Rev. 36(2): 62–72.
+Bernstein, F., A. Federgruen. 2003. Pricing and replenishment
+strategies in a distribution system with competing retailers.
+Oper. Res. 51(3): 409–426.
+Bernstein, F., A. Federgruen. 2004. A general equilibrium model
+for industries with price and service competition. Oper. Res.
+52(6): 868–886.
+Bernstein, F., A. Federgruen. 2005. Decentralized supply chains
+with competing retailers under demand uncertainty. Manage.
+Sci. 51(1): 18–29.
+Bernstein, F., J. Song, X. Zheng. 2008. “Bricks-and-mortar” vs.
+“clicks-and-mortar”: An equilibrium analysis. Eur. J. Oper.
+Res., 187(3): 671–690.
+Bhargava, H. K., V. Choudhary. 2004. Economics of an information intermediary with aggregation benefits. Inf. Sys. Res. 15
+(1): 22–36.
+Birge, J. R., J. Drogosz, I. Duenyas. 1998. Setting single-period
+optimal capacity levels and prices for substitutable products.
+Int. J. Flex. Manuf. Sys. 10(4): 407–430.
+Boyaci, T. 2005. Competitive stocking and coordination in a
+multiple-channel distribution system. IIE Trans. 37(5): 407–
+427.
+Bryant, J. 1980. Competitive equilibrium with price setting firms
+and stochastic demand. Int. Econ. Rev. 21(3): 619–626.
+Cachon, G., M. Lariviere. 2005. Supply chain coordination with
+revenue-sharing contracts: Strengths and limitations. Manage.
+Sci. 51(1): 30–44.
+Cattani, K., W. Gilland, S. Heese, J. M. Swaminathan. 2006. Boiling frogs: Pricing strategy for a manufacturer adding a direct
+channel that competes with the traditional channel. Prod.
+Oper. Manag. 15(1): 40–57.
+Chatterjee, P. 2002. Interfirm alliances in online retailing. J. Bus.
+Res. 57: 714–723.
+Chiang, W. K., D. Chhajed, J. D. Hess. 2003. Direct marketing,
+indirect profits: A strategic analysis of dual-channel supplychain design. Manage. Sci. 49(1): 1–20.
+Chiu, C.-H., T.-M. Choi, C. S. Tang. 2011. Price, rebate, and
+returns, supply contracts for coordinating supply chains with
+price dependent demands. Prod. Oper. Manag. 20(1): 81–91.
+Choi, S. C. 1996. Price competition in a duopoly common retailer
+channel. J. Retail. 72(2): 117–134.
+Choudhury, V., K. S. Hartzel, B. R. Konsynski. 1998. Uses and
+consequences of electronic markets: An empirical investigation in the aircraft parts industry. MIS Quar. 22(4): 471–
+507.
+Dana, J., K. Spier. 2001. Revenue sharing and vertical control in
+the video rental industry. J. Ind. Econ. 59(3): 223–245.
+
+http://www.amazonservices.com/promerchant>ld=AZSOA
+MakeM
+
+Dumrongsiri, A., M. Fan, A. Jain, K. Moinzadeh. 2008. A supply
+chain model with direct and retail channels. Eur. J. Oper. Res.
+187(3): 691–718.
+
+References
+Adler, L. 1966. Symbiotic marketing. Harv. Bus. Rev. 44: 59–71.
+
+Geng, Q., S. Mallik. 2007. Inventory competition and allocation in
+a multi-channel distribution system. Eur. J. Oper. Res. 182(2):
+704–729.
+
+Bakos, J. Y. 1991a. Information links and electronic marketplaces:
+The role of interorganizational information systems in vertical
+markets. J. Manag. Inf. Syst. 8(2): 31–52.
+
+Greiger, M. 2003. Electronic marketplaces: A literature review and
+a call for supply chain management research. Eur. J. Oper.
+Res. 144(2): 280–294.
+
+Bakos, J. Y. 1991b. A strategic analysis of electronic marketplaces.
+MIS Quar. 15(3): 295–310.
+Bakos, J. Y. 1997. Reducing buyer search costs: Implications for
+electronic marketplaces. Manage. Sci. 43(12): 1676–1692.
+
+Hagiu, A. 2007. Merchant or two-sided platform? Rev. Netw. Econ.
+6(2): 115–133.
+Hendershott, T., J. Zhang. 2006. A model of direct and intermediated sales. J. Econ. Manag. Strat. 15(2): 279–316.
+
+1014
+
+Ryan, Sun, and Zhao: Competition and Coordination in Online Marketplaces
+Production and Operations Management 21(6), pp. 997–1014, © 2012 Production and Operations Management Society
+
+Mangalindan, M. 2006. Game over: How Amazon’s dream
+alliance with Toys ’R’ Us went so sour. Wall Street Journal,
+January 23.
+
+Wang, S., S. Zheng, L. Xu, D. Li, H. Meng. 2008. A literature review
+of electronic marketplace research: Themes, theories and an
+integrative framework. Inf. Sys. Front. 10(5): 555–571.
+
+Pasternack, B. 2002. Using revenue sharing to achieve channel
+coordination for a newsboy type inventory model. Geunes, J.,
+P. Pardalos, H. E. Romeijn, eds. Supply Chain Management:
+Models, Applications and Research. Kluwer Academic Publishers, Dordrecht, The Netherlands, pp. 117–136.
+
+Wang, Y., L. Jiang, Z.-J. Shen. 2004. Channel performance under
+consignment contract with revenue sharing. Manage. Sci. 50
+(1): 34–47.
+
+Ru, J., Y. Wang. 2010. Consignment contracting: Who should
+control inventory in the supply chain?. Eur. J. Oper. Res. 201
+(3): 760–769.
+Seifert, R. W., U. W. Thonemann, M. A. Sieke. 2006. Relaxing
+channel separation: Integrating a virtual store into the supply
+chain via transshipments. IIE Trans. 38(11): 917–931.
+Strader, T. J., M. J. Shaw. 1997. Characteristics of electronic
+markets. Decis. Support Syst. 21(3): 185–198.
+Su, X., S. K. Mukhopadhyay. 2012. Controlling power retailer’s
+gray activities through contract design. Prod. Oper. Manag. 21
+(1): 145–160.
+Tsay, A., N. Agrawal. 2004. Channel conflict and coordination in
+the e-commerce age. Prod. Oper. Manag. 13(1): 93–110.
+Vardarajan, P. R., D. Rajaratnam. 1986. Symbiotic marketing revisited. J. Market. 50(1): 7–17.
+
+Wu, C., S. Mallik. 2010. Cross sales in supply chains: An equilibrium analysis. Int. J. Prod. Econ. 126(2): 158–167.
+
+Supporting Information
+Additional Supporting Information may be found in the
+online version of this article:
+Appendix S1: Figures 5 and 6.
+Please note: Wiley-Blackwell is not responsible for the content or functionality of any supporting materials supplied by
+the authors. Any queries (other than missing material) should
+be directed to the corresponding author for the article.
+
+

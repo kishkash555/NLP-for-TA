@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Contract design when quality is co-created in a supply chain</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2020-04-11">11 April 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><surname>Avinadav</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar-Ilan University</orgName>
+								<address>
+									<postCode>5290 0 02</postCode>
+									<settlement>Ramat-Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tatyana</forename><surname>Chernonog</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar-Ilan University</orgName>
+								<address>
+									<postCode>5290 0 02</postCode>
+									<settlement>Ramat-Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gila</forename><forename type="middle">E</forename><surname>Fruchter</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate School of Business Administration</orgName>
+								<orgName type="institution">Bar-Ilan University</orgName>
+								<address>
+									<postCode>5290 0 02</postCode>
+									<settlement>Ramat-Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ashutosh</forename><surname>Prasad</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Anderson Graduate School of Management</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>92521</postCode>
+									<settlement>Riverside</settlement>
+									<region>CA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Contract design when quality is co-created in a supply chain</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">European Journal of Operational Research</title>
+						<title level="j" type="abbrev">European Journal of Operational Research</title>
+						<idno type="ISSN">0377-2217</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">286</biblScope>
+							<biblScope unit="issue">3</biblScope>
+							<biblScope unit="page" from="908" to="918"/>
+							<date type="published" when="2020-04-11">11 April 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2020.03.070</idno>
+					<note type="submission">Received 28 March 2019 Accepted 26 March 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Production</term>
+					<term>Manufacturing</term>
+					<term>Transportation and Logistics Supply chain management Quality Optimal control Pricing Contract design</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper investigates contract design by a firm in a supply chain where the quality of the product delivered to consumers is co-created by the quality decisions of the contract designer (platform firm) and the agent (the service provider) whose inputs need to be coordinated. Revenue is a function of the price charged to consumers, the product quality, and a market parameter which may be private information to the service provider. We focus on a contract with payment terms commonly used by large platforms such as Amazon. The platform firm adopts a menu-of-contracts approach to get the service provider to reveal its private information, resulting in optimal quality effort and price decisions that maximize the expected profit of the platform firm. We examine cases where the platform firm should disintermediate the service provider and make and sell the product itself. To study the coordination ability of the proposed contract, we compare the results with those obtained in the case of complete information via various benchmark scenarios.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

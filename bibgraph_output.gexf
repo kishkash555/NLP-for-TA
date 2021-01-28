@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2021-01-14">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="avinadav2020revenuesharing" label="avinadav2020revenuesharing" />
+      <node id="choi2004optimal" label="choi2004optimal" />
+      <node id="guo2020green" label="guo2020green" />
+      <node id="degiovanni2020blockchain" label="degiovanni2020blockchain" />
+      <node id="dematta2017competition" label="dematta2017competition" />
+      <node id="li2020reducing" label="li2020reducing" />
+      <node id="liu2020impacts" label="liu2020impacts" />
+      <node id="shen2020selling" label="shen2020selling" />
+      <node id="xu2018supply" label="xu2018supply" />
+      <node id="yan2018strategic" label="yan2018strategic" />
+      <node id="zennyo2020strategic" label="zennyo2020strategic" />
+      <node id="zhang2020agency" label="zhang2020agency" />
+      <node id="zhen2020manufacturers" label="zhen2020manufacturers" />
+      <node id="grieger2003electronic" label="grieger2003electronic" />
+      <node id="jiang2017p2p" label="jiang2017p2p" />
+      <node id="li2019etailers" label="li2019etailers" />
+      <node id="mantin2014strategic" label="mantin2014strategic" />
+      <node id="ryan2012competition" label="ryan2012competition" />
+      <node id="tian2018marketplace" label="tian2018marketplace" />
+      <node id="xu2020coordination" label="xu2020coordination" />
+      <node id="yan2019strategic" label="yan2019strategic" />
+    </nodes>
+    <edges>
+      <edge id="0" source="avinadav2020revenuesharing" target="guo2020green" weight="1" />
+      <edge id="1" source="avinadav2020revenuesharing" target="dematta2017competition" weight="2" />
+      <edge id="2" source="avinadav2020revenuesharing" target="li2020reducing" weight="1" />
+      <edge id="3" source="avinadav2020revenuesharing" target="liu2020impacts" weight="1" />
+      <edge id="4" source="avinadav2020revenuesharing" target="yan2018strategic" weight="1" />
+      <edge id="5" source="avinadav2020revenuesharing" target="zennyo2020strategic" weight="1" />
+      <edge id="6" source="avinadav2020revenuesharing" target="zhen2020manufacturers" weight="1" />
+      <edge id="7" source="avinadav2020revenuesharing" target="li2019etailers" weight="1" />
+      <edge id="8" source="avinadav2020revenuesharing" target="mantin2014strategic" weight="1" />
+      <edge id="9" source="avinadav2020revenuesharing" target="tian2018marketplace" weight="2" />
+      <edge id="10" source="avinadav2020revenuesharing" target="xu2020coordination" weight="1" />
+      <edge id="11" source="avinadav2020revenuesharing" target="yan2019strategic" weight="1" />
+      <edge id="12" source="choi2004optimal" target="grieger2003electronic" weight="1" />
+      <edge id="13" source="guo2020green" target="li2020reducing" weight="2" />
+      <edge id="14" source="guo2020green" target="liu2020impacts" weight="2" />
+      <edge id="15" source="guo2020green" target="shen2020selling" weight="1" />
+      <edge id="16" source="guo2020green" target="yan2018strategic" weight="1" />
+      <edge id="17" source="guo2020green" target="zennyo2020strategic" weight="4" />
+      <edge id="18" source="guo2020green" target="zhang2020agency" weight="1" />
+      <edge id="19" source="guo2020green" target="zhen2020manufacturers" weight="1" />
+      <edge id="20" source="guo2020green" target="li2019etailers" weight="2" />
+      <edge id="21" source="guo2020green" target="mantin2014strategic" weight="2" />
+      <edge id="22" source="guo2020green" target="tian2018marketplace" weight="4" />
+      <edge id="23" source="guo2020green" target="xu2020coordination" weight="5" />
+      <edge id="24" source="guo2020green" target="yan2019strategic" weight="2" />
+      <edge id="25" source="degiovanni2020blockchain" target="li2020reducing" weight="1" />
+      <edge id="26" source="degiovanni2020blockchain" target="shen2020selling" weight="2" />
+      <edge id="27" source="degiovanni2020blockchain" target="xu2020coordination" weight="1" />
+      <edge id="28" source="dematta2017competition" target="li2020reducing" weight="1" />
+      <edge id="29" source="dematta2017competition" target="liu2020impacts" weight="1" />
+      <edge id="30" source="dematta2017competition" target="zennyo2020strategic" weight="3" />
+      <edge id="31" source="dematta2017competition" target="li2019etailers" weight="2" />
+      <edge id="32" source="dematta2017competition" target="mantin2014strategic" weight="1" />
+      <edge id="33" source="dematta2017competition" target="ryan2012competition" weight="2" />
+      <edge id="34" source="dematta2017competition" target="tian2018marketplace" weight="4" />
+      <edge id="35" source="dematta2017competition" target="xu2020coordination" weight="1" />
+      <edge id="36" source="li2020reducing" target="liu2020impacts" weight="9" />
+      <edge id="37" source="li2020reducing" target="shen2020selling" weight="9" />
+      <edge id="38" source="li2020reducing" target="yan2018strategic" weight="4" />
+      <edge id="39" source="li2020reducing" target="zennyo2020strategic" weight="4" />
+      <edge id="40" source="li2020reducing" target="zhang2020agency" weight="1" />
+      <edge id="41" source="li2020reducing" target="zhen2020manufacturers" weight="3" />
+      <edge id="42" source="li2020reducing" target="li2019etailers" weight="4" />
+      <edge id="43" source="li2020reducing" target="mantin2014strategic" weight="3" />
+      <edge id="44" source="li2020reducing" target="ryan2012competition" weight="1" />
+      <edge id="45" source="li2020reducing" target="tian2018marketplace" weight="5" />
+      <edge id="46" source="li2020reducing" target="xu2020coordination" weight="2" />
+      <edge id="47" source="li2020reducing" target="yan2019strategic" weight="4" />
+      <edge id="48" source="liu2020impacts" target="shen2020selling" weight="3" />
+      <edge id="49" source="liu2020impacts" target="yan2018strategic" weight="5" />
+      <edge id="50" source="liu2020impacts" target="zennyo2020strategic" weight="7" />
+      <edge id="51" source="liu2020impacts" target="zhang2020agency" weight="1" />
+      <edge id="52" source="liu2020impacts" target="zhen2020manufacturers" weight="3" />
+      <edge id="53" source="liu2020impacts" target="jiang2017p2p" weight="1" />
+      <edge id="54" source="liu2020impacts" target="li2019etailers" weight="6" />
+      <edge id="55" source="liu2020impacts" target="mantin2014strategic" weight="2" />
+      <edge id="56" source="liu2020impacts" target="tian2018marketplace" weight="6" />
+      <edge id="57" source="liu2020impacts" target="xu2020coordination" weight="4" />
+      <edge id="58" source="liu2020impacts" target="yan2019strategic" weight="6" />
+      <edge id="59" source="shen2020selling" target="yan2018strategic" weight="1" />
+      <edge id="60" source="shen2020selling" target="zennyo2020strategic" weight="2" />
+      <edge id="61" source="shen2020selling" target="zhen2020manufacturers" weight="2" />
+      <edge id="62" source="shen2020selling" target="jiang2017p2p" weight="1" />
+      <edge id="63" source="shen2020selling" target="li2019etailers" weight="3" />
+      <edge id="64" source="shen2020selling" target="mantin2014strategic" weight="2" />
+      <edge id="65" source="shen2020selling" target="ryan2012competition" weight="1" />
+      <edge id="66" source="shen2020selling" target="tian2018marketplace" weight="1" />
+      <edge id="67" source="shen2020selling" target="xu2020coordination" weight="2" />
+      <edge id="68" source="shen2020selling" target="yan2019strategic" weight="2" />
+      <edge id="69" source="xu2018supply" target="zhen2020manufacturers" weight="5" />
+      <edge id="70" source="yan2018strategic" target="zennyo2020strategic" weight="5" />
+      <edge id="71" source="yan2018strategic" target="zhang2020agency" weight="3" />
+      <edge id="72" source="yan2018strategic" target="zhen2020manufacturers" weight="6" />
+      <edge id="73" source="yan2018strategic" target="jiang2017p2p" weight="1" />
+      <edge id="74" source="yan2018strategic" target="li2019etailers" weight="6" />
+      <edge id="75" source="yan2018strategic" target="mantin2014strategic" weight="4" />
+      <edge id="76" source="yan2018strategic" target="ryan2012competition" weight="3" />
+      <edge id="77" source="yan2018strategic" target="tian2018marketplace" weight="10" />
+      <edge id="78" source="yan2018strategic" target="xu2020coordination" weight="4" />
+      <edge id="79" source="yan2018strategic" target="yan2019strategic" weight="16" />
+      <edge id="80" source="zennyo2020strategic" target="zhang2020agency" weight="3" />
+      <edge id="81" source="zennyo2020strategic" target="zhen2020manufacturers" weight="3" />
+      <edge id="82" source="zennyo2020strategic" target="li2019etailers" weight="12" />
+      <edge id="83" source="zennyo2020strategic" target="mantin2014strategic" weight="1" />
+      <edge id="84" source="zennyo2020strategic" target="ryan2012competition" weight="2" />
+      <edge id="85" source="zennyo2020strategic" target="tian2018marketplace" weight="10" />
+      <edge id="86" source="zennyo2020strategic" target="xu2020coordination" weight="7" />
+      <edge id="87" source="zennyo2020strategic" target="yan2019strategic" weight="7" />
+      <edge id="88" source="zhang2020agency" target="zhen2020manufacturers" weight="5" />
+      <edge id="89" source="zhang2020agency" target="li2019etailers" weight="4" />
+      <edge id="90" source="zhang2020agency" target="ryan2012competition" weight="2" />
+      <edge id="91" source="zhang2020agency" target="tian2018marketplace" weight="5" />
+      <edge id="92" source="zhang2020agency" target="xu2020coordination" weight="2" />
+      <edge id="93" source="zhang2020agency" target="yan2019strategic" weight="9" />
+      <edge id="94" source="zhen2020manufacturers" target="li2019etailers" weight="7" />
+      <edge id="95" source="zhen2020manufacturers" target="mantin2014strategic" weight="1" />
+      <edge id="96" source="zhen2020manufacturers" target="ryan2012competition" weight="2" />
+      <edge id="97" source="zhen2020manufacturers" target="tian2018marketplace" weight="5" />
+      <edge id="98" source="zhen2020manufacturers" target="xu2020coordination" weight="6" />
+      <edge id="99" source="zhen2020manufacturers" target="yan2019strategic" weight="6" />
+      <edge id="100" source="grieger2003electronic" target="ryan2012competition" weight="2" />
+      <edge id="101" source="jiang2017p2p" target="mantin2014strategic" weight="2" />
+      <edge id="102" source="jiang2017p2p" target="yan2019strategic" weight="1" />
+      <edge id="103" source="li2019etailers" target="mantin2014strategic" weight="1" />
+      <edge id="104" source="li2019etailers" target="ryan2012competition" weight="2" />
+      <edge id="105" source="li2019etailers" target="tian2018marketplace" weight="9" />
+      <edge id="106" source="li2019etailers" target="xu2020coordination" weight="5" />
+      <edge id="107" source="li2019etailers" target="yan2019strategic" weight="8" />
+      <edge id="108" source="mantin2014strategic" target="tian2018marketplace" weight="3" />
+      <edge id="109" source="mantin2014strategic" target="yan2019strategic" weight="4" />
+      <edge id="110" source="ryan2012competition" target="tian2018marketplace" weight="5" />
+      <edge id="111" source="ryan2012competition" target="yan2019strategic" weight="1" />
+      <edge id="112" source="tian2018marketplace" target="xu2020coordination" weight="4" />
+      <edge id="113" source="tian2018marketplace" target="yan2019strategic" weight="7" />
+      <edge id="114" source="xu2020coordination" target="yan2019strategic" weight="5" />
+    </edges>
+  </graph>
+</gexf>

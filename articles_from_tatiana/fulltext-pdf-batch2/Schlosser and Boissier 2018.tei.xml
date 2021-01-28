@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dealing with the dimensionality curse in dynamic pricing competition: Using frequent repricing to compensate imperfect market anticipations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2018-07-19">19 July 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rainer</forename><surname>Schlosser</surname></persName>
+							<email>rainer.schlosser@hpi.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Hasso Plattner Institute</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<settlement>Potsdam</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Boissier</surname></persName>
+							<email>martin.boissier@hpi.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Hasso Plattner Institute</orgName>
+								<orgName type="institution">University of Potsdam</orgName>
+								<address>
+									<settlement>Potsdam</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dealing with the dimensionality curse in dynamic pricing competition: Using frequent repricing to compensate imperfect market anticipations</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Computers &amp; Operations Research</title>
+						<title level="j" type="abbrev">Computers &amp; Operations Research</title>
+						<idno type="ISSN">0305-0548</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">100</biblScope>
+							<biblScope unit="page" from="26" to="42"/>
+							<date type="published" when="2018-07-19">19 July 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.cor.2018.07.011</idno>
+					<note type="submission">Received 24 October 2017 Revised 16 July 2018 Accepted 17 July 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Dynamic pricing Oligopoly competition Dynamic programming Data-driven strategies E-commerce</keywords>
+			</textClass>
+			<abstract>
+				<p>Most sales applications are characterized by competition and limited demand information. For successful pricing strategies, frequent price adjustments as well as anticipation of market dynamics are crucial. Both effects are challenging as competitive markets are complex and computations of optimized pricing adjustments can be time-consuming. We analyze stochastic dynamic pricing models under oligopoly competition for the sale of perishable goods. To circumvent the curse of dimensionality, we propose a heuristic approach to efficiently compute price adjustments. To demonstrate our strategy&apos;s applicability even if the number of competitors is large and their strategies are unknown, we consider different competitive settings in which competitors frequently and strategically adjust their prices. For all settings, we verify that our heuristic strategy yields promising results. We compare the performance of our heuristic against upper bounds, which are obtained by optimal strategies that take advantage of perfect price anticipations. We find that price adjustment frequencies can have a larger impact on expected profits than price anticipations. Finally, our approach has been applied on Amazon for the sale of used books. We have used a seller&apos;s historical market data to calibrate our model. Sales results show that our data-driven strategy outperforms the rule-based strategy of an experienced seller by a profit increase of more than 20%.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

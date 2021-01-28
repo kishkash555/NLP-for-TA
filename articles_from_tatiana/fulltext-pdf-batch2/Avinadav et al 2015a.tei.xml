@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The effect of risk sensitivity on a supply chain of mobile applications under a consignment contract with revenue sharing and quality investment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2015-06-15">15 June 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><surname>Avinadav</surname></persName>
+							<email>tal.avinadav@biu.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+								<address>
+									<settlement>Ramat Gan 52900</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tatyana</forename><surname>Chernonog</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+								<address>
+									<settlement>Ramat Gan 52900</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yael</forename><surname>Perlman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+								<address>
+									<settlement>Ramat Gan 52900</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The effect of risk sensitivity on a supply chain of mobile applications under a consignment contract with revenue sharing and quality investment</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">International Journal of Production Economics</title>
+						<title level="j" type="abbrev">International Journal of Production Economics</title>
+						<idno type="ISSN">0925-5273</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">168</biblScope>
+							<biblScope unit="page" from="31" to="40"/>
+							<date type="published" when="2015-06-15">15 June 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ijpe.2015.05.036</idno>
+					<note type="submission">Received 8 April 2014 Accepted 27 May 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Consignment contract Revenue sharing Supply chain Stochastic dominance Risk attitude Game theory</keywords>
+			</textClass>
+			<abstract>
+				<p>The paper provides a thorough investigation of the revenue sharing contract format typically used in the mobile applications (Apps) industry. The platform provider sets the level of revenue sharing, and the App developer determines the investment in quality and the selling price of the App. The demand for an App, which depends on both price and quality investment, is assumed to be uncertain, so the risk attitude of the supply chain members has to be considered. Specifically, we focus on how risk-sensitive behavior of supply chain members affects chain performance. The members&apos; equilibrium strategies are analyzed under different attitudes toward risk: averse, neutral and seeking. We show that the retailer&apos;s utility function has no effect on the equilibrium strategies, and suggest schemes to identify these strategies for any utility function of the developer. We find that (i) the revenue sharing contract circumvents the double marginalization effect associated with vertical competition and therefore yields the best selling price for the customer; (ii) a decentralized supply chain sometimes performs better than a centralized one; and (iii) a risk-seeking developer may obtain a higher expected profit than does a riskneutral developer. &amp; 2015 Elsevier B.V. All rights reserved. the advantages and disadvantages of a consignment contract with revenue sharing, in comparison with a wholesale price contract. Consignment contracts with revenue sharing have been studied in the literature. Wang et al. (2004) modeled decision-making in a two-echelon supply chain as a non-cooperative leader-follower game. They showed that the decentralized chain cannot be perfectly Contents lists available at ScienceDirect</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

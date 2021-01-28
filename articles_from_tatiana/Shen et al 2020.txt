@@ -1,0 +1,3340 @@
+Transportation Research Part E 142 (2020) 102066
+
+Contents lists available at ScienceDirect
+
+Transportation Research Part E
+journal homepage: www.elsevier.com/locate/tre
+
+Selling secondhand products through an online platform with
+blockchain☆
+
+T
+
+Bin Shena, Xiaoyan Xua, , Quan Yuanb
+⁎
+
+a
+b
+
+Glorious Sun School of Business and Management, Donghua University, Shanghai, China
+School of Management, Zhejiang University, Hangzhou 310058, China
+
+ARTICLE INFO
+
+ABSTRACT
+
+Keywords:
+Secondhand products
+Online marketplace
+Platform
+Permissioned blockchain technology
+
+We examine the value of blockchain for disclosing secondhand product quality in a supply chain
+in which contributors consign secondhand products to an online platform that resells them and
+competes with suppliers of new products. We find that the platform is more likely to provide a
+uniform (differential) pricing strategy with new products when the revenue sharing portion of
+the consignment contract is sufficiently low (high). Moreover, surprisingly, without blockchain,
+the platform prefers moderately perceived and true quality secondhand products, instead of
+extremely high or low quality. With blockchain, the platform prefers selling low-uniqueness and
+low-quality (or high-uniqueness and high-quality) secondhand products. Furthermore, we find
+that with blockchain, horizontal integration is more effective in improving the supply chain’s
+total profit. A win-win-win outcome can be achieved for the platform, the supplier, and con­
+sumers in a supply chain that sells low-uniqueness products.
+
+1. Introduction
+1.1. Background and motivation
+Secondhand products are now popularly traded and compete with new products. The global online retailer Amazon provides its
+consumers with an option of new versus used products. Selling secondhand products creates an ecosystem in the circular and sharing
+economy (Wen and Siqin, 2020). A survey from the European marketing firm GMI indicates that about 70% of consumers have
+purchased secondhand products. In particular, women are more likely to buy secondhand books, clothes, accessories, jewelry, and
+shoes, whereas men are more likely to buy secondhand electronic products and cars (Chahal, 2013). The major reasons to purchase
+secondhand products include 1) consumers are not willing to purchase or cannot afford new products, and 2) consumers are not able
+to get new products because of a short supply in the market. However, the quality of secondhand products might be uncertain for
+consumers, who cannot know the true quality of the products before buying. This uncertainty causes a long-existing moral hazard
+problem of buying secondhand products because sellers usually have more product quality information than buyers (Fernando et al.,
+2018). For example, counterfeit products are prevalent in the luxury market, but most consumers cannot distinguish a counterfeit
+product from a genuine one in secondhand product consumption. Consumers are easily deceived by secondhand vehicle dealers
+☆
+The authors sincerely thank the editors and three reviewers for their constructive comments. Bin Shen is partially supported by National Natural
+Science Foundation of China (grant number: 71871051, 71832001). Quan Yuan is partially supported by National Natural Science Foundation of
+China (grant number: 71601149).
+⁎
+Corresponding author.
+E-mail addresses: binshen@dhu.edu.cn (B. Shen), xuxiaoyan012@126.com (X. Xu), quanyuan@zju.edu.cn (Q. Yuan).
+
+https://doi.org/10.1016/j.tre.2020.102066
+Received 29 April 2020; Received in revised form 8 July 2020; Accepted 18 August 2020
+Available online 01 September 2020
+1366-5545/ © 2020 Elsevier Ltd. All rights reserved.
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+Table 1
+Practices of blockchain implementation.
+Company
+
+Practices of implementing blockchain
+
+Popularity of secondhand
+products
+
+Louis Vuitton and Gucci
+
+Louis Vuitton and Gucci have implemented blockchain already to identify product authenticity
+and quality (Newbold, 2019).
+De Beers incorporates blockchain into its high-value diamonds to ensure product authenticity
+(Castillo and Schifrin, 2020).
+BMW and Daimler include blockchain in their cars and provide car manufacturing and usage
+process information (Pollock, 2020).
+
+Yes
+
+De Beers
+BMW and Daimler
+
+Yes
+Yes
+
+because the traffic accidents in which the vehicles have been involved are usually not disclosed.
+Blockchain is an emerging, innovative, and disruptive technology that can serve to lessen the risk of moral hazard problems in
+terms of product quality asymmetry (Babich and Hilary, 2020). Recently, many companies have developed a scalable protocol based
+on blockchain technology, which gives consumers access to trustworthily tracked product quality and supply chain information
+(Choi, 2019; Choi and Luo, 2019). Based on a survey from the consulting firm Gartner, by 2023, at least 30% of manufacturing
+companies with products valued at USD5 billion will have implemented blockchain (Dimitrov, 2019). Blockchain is now a unique
+solution for identifying the quality of secondhand products and effectively preventing the moral hazard problem in resales Of course,
+blockchain is not the sole solution to disclose product quality. The traditional technologies such as RFID can also provide quality
+disclosure. However, consumers may not fully trust it because RFID information can be revised by individuals, but blockchain cannot.
+Blockchain provides a trustworthy and unique “certificate” to show historical product quality information such as for how long the
+product has been used, who used it, and how it was used. Moreover, blockchain data cannot be modified or altered by an individual.
+Recently, blockchain is increasingly popular used in many industries. More and more products are incorporated by blockchain.
+Table 1 shows several practices of blockchain implementation in industries. All of these goods—luxury products, diamonds, and
+vehicles—are always popular in the secondary market.
+Due to the rapid development of e-commerce, an increasing number of goods, particularly high-value secondhand goods such as
+luxury fashion, diamonds, and vehicles are mainly sold online, rather than in physical stores or flea markets. This movement is also
+important during the outbreak of COVID-19 (Choi, 2020). Online platforms provide a “shelf” and commit a revenue-sharing portion
+to induce contributors to consign their products for resales. For instance, the online marketplace therealreal lets contributors consign
+and sell secondhand luxury fashion and handbags through its platform (Orlean, 2019). If the product is sold, the retailer shares the
+revenue with the contributor. Thus, therealreal is competing with the supplier of new products in the supply chain. The fashion
+retailer Patagonia created an online platform Worn Wear in which contributors can trade their secondhand garments and receive
+online or store credit up to 50% of the product’s resale value (Agrawal et al., 2019). Patagonia creates a co-opetitive supply chain
+system in which selling new and secondhand products is competitive and cooperative.
+Selling secondhand products is controversial because it can disrupt new product business (Feng et al., 2019). Conventional
+wisdom implies that the introduction of secondhand products can hurt new product channels. In this paper, we mainly address how
+the platform decides the pricing and consignment strategies in a competitive or co-opetitive supply chain. In examining the real
+practices of selling secondhand products through an online marketplace such as those of Patagonia and therealreal, we note five
+aspects.
+
+• Using blockchain achieves quality disclosure (Babich and Hilary, 2020). Without the use of blockchain, the secondhand product’s real
+•
+•
+•
+•
+
+quality is unknown to consumers and the suppliers of new products. With the use of blockchain, the real quality is known to
+everyone.
+A network effect exists in an online marketplace (Chen et al., 2020). If there are more contributors, more consumers will come to
+know of the existence of the secondhand product marketplace, and consumers will be more likely to purchase secondhand
+products (Anderson et al., 2014).
+The platform uses a consignment contract to induce the contributors to sell through their products (Choi and Guo, 2020). Consistent with
+the real practices in platforms, given the consignment contract and the price, the contributors decide whether to accept to sell
+their products through the platform according to their utility in terms of salvage value and revenue.
+The platform decides the price of the secondhand products (Orlean, 2019). Contributors mail and consign their secondhand products
+to the platform. As a product expert, the platform receives the product, evaluates it, and then decides the price.
+The online platform may be independent or integrated with the supplier (Agrawal et al., 2019; Orlean, 2019). The platform therealreal
+is an independent firm and accepts any brand of product. In contrast, Patagonia collects its own secondhand products and resells
+them on its own website. Thus, a platform can be decentralized or horizontally integrated with the supplier.
+
+Our paper is appliable to the online platforms which sell secondhand products with blockchain. The major reasons are as follows.
+First, using the advanced information technology in e-commerce can address quality information asymmetry for secondhand pro­
+ducts. Quality information asymmetry is significant for selling secondhand products online. Consumers cannot distinguish product
+quality based on the description and photos. Second, consumers will fully trust the information from blockchain because blockchain
+provides a trustworthy and unique “certificate” to show historical product quality information.
+2
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+1.2. Research questions and contributions
+We focus on examining the value of blockchain for selling secondhand products through an online platform. We consider a supply
+chain consisting of contributors, one online platform, and one supplier. The platform sells secondhand products. The supplier sells
+new products. The contributors consign their secondhand items to the platform and collect part of the revenue if the products are
+sold. In terms of the supply chain structure, we consider two scenarios: (1) the platform is independent and competing with the
+supplier, i.e., it is a decentralized supply chain; and (2) the platform is co-opetitive and horizontally integrated with the supplier, i.e.,
+it is a centralized supply chain.
+Our research questions (RQs) are as follows.
+RQ 1: What are the pricing and quality strategies for secondhand and new products?
+RQ 2: How does the use of blockchain influence an ecosystem that sells new and secondhand products online?
+RQ 3: What are the impacts of decentralization and horizontal integration on selling secondhand products?
+Our main contributions are as follows. First, our findings can contribute to the literature of pricing decisions in the sharing
+economy. We find that product uniqueness significantly influences pricing differentiation for both secondhand and new products.
+When selling low-uniqueness products, the platform offers a differential pricing strategy with new products, whereas when selling
+high-uniqueness products, the platform offers a uniform pricing strategy with new products. Moreover, we find that the revenue
+sharing portion between contributors and the platform in the consignment contract critically influences pricing strategies. A low
+revenue sharing portion drives the platform to provide a uniform pricing strategy, and a high revenue sharing portion drives the
+platform to provide a differential pricing strategy. Furthermore, in terms of quality preference, without blockchain, the platform
+prefers selling secondhand products that have moderate perceived and true product quality, instead of extremely high or low quality.
+Second, our findings provide important contributions in terms of the use of disruptive technologies in supply chain management.
+The use of blockchain can influence the product type selling in the supply chain. When selling low-uniqueness products, the use of
+blockchain is recommended for low-quality products but not for high-quality products. When selling high-uniqueness products, the
+use of blockchain is profitable for high-quality secondhand products but can hurt the total welfare of the decentralized supply chain.
+Third, we compare decentralized and centralized supply chain systems. The results shed the lights on the supply chain man­
+agement with blockchain adoption. Specifically, we find that with the use of blockchain, horizontal integration is effective in im­
+proving the supply chain’s total profit. When selling low-uniqueness products, a win-win-win outcome can be achieved for the
+platform, the supplier, and the consumers.
+To the best of our knowledge, this is the first paper to examine the value of blockchain for selling secondhand products through an
+online platform. Our findings enrich the literature of quality information disclosure, the impacts of blockchain and supply chain
+management. Our managerial insights provide important lessons to logistics and supply chain managers in the area of sharing
+economy platforms.
+1.3. Paper organization and structure
+The remainder of this paper is organized as follows. In Section 2, we review the relevant literature. In Section 3, we develop an
+analytical model. In Sections 4 and 5, we discuss the analytical results of a decentralized supply chain and a centralized supply chain,
+respectively. In Section 6, we conduct a welfare analysis related to consumers and contributors. In Section 7, we offer important
+managerial insights and conclude the study with a discussion of potential future research directions. All of our proofs can be found in
+the Appendix.
+2. Literature review
+Our paper is relevant to four topics: secondhand product operation, online platform operation and innovation, the use of
+blockchain in supply chains, and consignment contracts.
+2.1. Secondhand products operations
+Secondhand products are resold and competing with new products. Ghose et al. (2006) examine new and secondhand book selling
+on online platforms. They find that secondhand books are poor substitutes for new books for online consumers, and that the in­
+troduction of secondhand book selling can improve consumer surplus. Our paper also considers product substitution between sec­
+ondhand products and new products in terms of quality difference. Choi et al. (2018) examine how the secondhand products can be
+collected efficiently in terms of collector types and retail competition. Mutha et al. (2019) consider a channel optimization problem in
+which secondhand products of various quality conditions are sold to third-party remanufacturers. They show that there are various
+structural properties of optimal assortment in terms of different quality levels in the supply chain. Feng et al. (2019) develop a twoperiod model to evaluate the optimal production and quality when products sold in the first period become secondhand products
+competing with new products in the second period. They find that the presence of secondhand products in the market decreases the
+total production quantity but improves the product quality. Esenduran et al. (2020) focus on the online resale channel of secondhand
+electronics. They find that contributors are very sensitive to price, timing of payment, and online ratings when selling secondhand
+products to an online platform. The prior literature did not examine quality information asymmetry towards the new and old
+products. In this paper, we evaluate the impacts of quality differences among the real quality of new products, the perceived quality
+3
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+of secondhand products, and the real quality of secondhand products to consumers.
+2.2. Online platform operations
+Ryan et al. (2012) consider an online marketplace as an intermediary that matches buyers with sellers. They identify the optimal
+decisions for participation fees and revenue sharing contracts for both the retailer and the marketplace. Yan et al. (2018) study
+whether e-tailers and traditional retailers are willing to join the common marketplace to sell products. They find that a high platform
+fee is not an effective incentive for e-tailers to join the marketplace. Tian et al. (2018) examine the interaction of the marketplace and
+the reseller in e-commerce. They find that both the cost of order fulfillment and upstream competition intensity influence the optimal
+selection in terms of the marketplace, the reseller, and their hybrid. Xiao and Xu (2018) investigate how the online retailer can install
+the right level of capacity to extract the full surplus from the seller. They find that the lost-sale penalty contract can accomplish the
+above two goals but the commission contract cannot. Li et al. (2019a,b) study offensive pricing strategies for online platforms with
+message dissemination. Choi and He (2019) evaluate the impacts of rental services on fashion product operations on online platforms.
+They find that a revenue sharing contract is more effective than a fixed service charging scheme. Lin et al. (2019) examine product
+bundling strategies with competition on e-commerce platforms. Gong et al. (2019) study an online sharing economy system con­
+sisting of a powerful e-tailer and a budget-constraint seller. Du et al. (2019) examine a platform-led advertising problem in which two
+manufacturers are competing in the platform market. Liu et al. (2020) investigate how the market size and data-driven marketing
+influence the performance of online platforms in the supply chain. Cai et al. (2020) evaluate the effective contract design for platform
+supported supply chain operations. Wen and Siqin (2020) examine how product quality uncertainty affects the sharing economy
+platforms. They find that it is not always wise for the platform to improve product quality. In this paper, we are motivated by real
+practices in the sale of secondhand products and consider that product quality information is asymmetric for different supply chain
+members if blockchain is not adopted.
+Advanced technological innovation is accelerating the development of online marketplace platforms. Steinker et al. (2017) ex­
+plore the value of a real-time weather forecast information on online platform operations. They find that the weather conditions such
+as sunshine, temperature, and rain have a significant impact on daily sales during summer, weekends, and days of extreme weather.
+Chu et al. (2020) examine a dynamic product ranking system displayed on an online e-commerce platform. Choi et al. (2020b)
+investigate the impacts of consumer risk aversion on the on-demand service platform. They argue that blockchain is valuable to
+improve the pricing strategy because information asymmetry is disclosed. As blockchain can help provide disclosure of the quality of
+secondhand products to consumers, in this paper, we study the impacts of its use on the sale of secondhand products in the online
+marketplace.
+2.3. Blockchain technology in supply chains
+Blockchain technology provides supply chain transparency not only in terms of origin, materials, and production but also in terms
+of who uses the products and how the products are used (Babich and Hilary, 2020). Recently, a large number of studies have
+examined the impacts of blockchain technology on supply chains. Chod et al. (2019) document how blockchain can achieve
+transparency and financial benefits in supply chains. Wang et al. (2019) adopt a sensemaking theory to explore the benefits of
+blockchain on supply chains as perceived by industry experts. Choi et al. (2019) investigate the impact of blockchain technology on
+global supply chain risk analysis through the mean variance approach. Cui et al. (2019) compare the value of information trans­
+parency between parallel and serial supply chains. They find that the profit of both the supplier and the buyer can be improved in
+serial supply chains. Saberi et al. (2019) explore how supply chains use blockchain technology to realize sustainability for gov­
+ernance, the community, and consumers. Min (2018) argue that blockchain is also a peer-to-peer network of information technology
+to enhance supply chain resilience in terms of risk and uncertainty. Quality information asymmetry may cause risk and uncertainty
+for consumers’ beliefs. In our paper, we follow the literature of the impacts of blockchain and evaluate the value of blockchain in
+terms of quality disclosure for secondhand products in an online marketplace. Blockchain is a technology wherein information is in a
+scalable protocol that can only be accessed by consumers who have permission (Choi, 2019; Choi and Luo, 2019). Choi (2019)
+examines the use of blockchain to ensure diamond authentication and certification in supply chains. Choi and Luo (2019) study the
+value of blockchain for data quality improvement in sustainable fashion supply chains. Their results imply that blockchain tech­
+nology is beneficial to social welfare but not to supply chain profit. Choi et al. (2020a) study a system consisting of two competing
+rental service platforms with product quality information disclosure on the blockchain. They find that platforms are more likely to
+implement blockchain for quality disclosure if the products have a higher profit margin. Moreover, they explore the value of using a
+consignment contract in the supply chain. This assumption is similar in our paper. However, in contrast, we consider the consignment
+contract between the platform and contributors in the sale of secondhand products.
+2.4. Consignment contracts
+In the actual practice of selling secondhand products, it is common for contributors to consign their products in the marketplace.
+Consignment contracts are similar to revenue sharing contracts in terms of the revenue sharing portion. Wang et al. (2004) examine
+supply chain channel performance under a consignment contract with revenue sharing. They consider the scenario in which the
+supplier decides the retail price and retains ownership of the goods. If the product is sold, a percentage of the selling price goes to the
+retailer. A consignment contract with revenue sharing is a common approach. In the scenario that we consider, although the online
+4
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+platform does not own the product, it does determine the price. Buratto et al. (2019) study the value of consignment contracts for
+cooperative programs. Zhao et al. (2019) study a supply chain system in which two manufacturers sell through a retailer, using a
+consignment contract with revenue sharing. They find that the whole chain’s profit can suffer from vertical integration under a
+consignment contract. in this paper, we consider horizontal integration in which the platform is horizontally integrated with the
+supplier of new products to sell products to consumers. Choi and Guo (2020) evaluate the zero-wholesale price contract with revenue
+sharing. Our proposed consignment contract is very close to Choi and Guo (2020) because, in our paper, the contributor owns the
+product but the seller does not under the consignment contract. Such a contract arrangement is also examined by Gong et al. (2019)
+in which the platform could take a predetermined share of the sales revenue if the product is successfully sold on the platform.
+It is popular to use consignment contracts for vendor-managed inventory (VMI) systems. Chen et al. (2010) examine how the
+consignment contract achieves channel coordination in VMI systems. They identify Pareto improvements among channel participants
+in a consignment contract that includes revenue sharing with side payments. Hu et al. (2014) use a consignment contract with
+consumer return policies to manage inventory control. They find that it is always beneficial for the supply chain to delegate the
+inventory decision to the vendor under a consignment contract. De Giovanni et al. (2019) examine a consignment contract with VMI.
+They find that revenue sharing is more effective than cost sharing in VMI. Bieniek (2019) studies the impact of consignment contract
+in VMI with stochastic customer demand. In our paper, our proposed system for the secondhand platform is similar to VMI because
+the contributor owns the product and the platform decides the price.
+3. The model
+We consider a supply chain (SC) consisting of contributors, one secondhand online platform, and one supplier. Contributors sell
+secondhand items on the platform through consignment. The supplier sells new items of high quality to consumers directly and
+competes with the platform, which sells secondhand items of low quality. After quality inspection, the platform keeps the products
+with quality that is higher than a certain standard, and returns the products with quality that is below the standard. We denote the
+average product quality of the accepted secondhand products as q (0 < q < 1) . This setting is consistent with the common practice in
+real-world business. For example, Amazon Warehouse deals1— the online secondhand platform provided by Amazon — checks the
+quality of secondhand products and keeps the satisfactory ones for resale purposes. The quality level of the new product is normalized
+to 1. The price of the accepted secondhand (old) products po is determined by the platform, and the price of the new products pn is
+determined by the supplier. We consider that the price of secondhand products cannot be higher than that of new products, i.e.,
+po pn . This assumption is realistic for most products except for limited edition products. We consider that secondhand products can
+be high-uniqueness products, but are not as unique as limited edition products. The consignment revenue that the contributor gets is
+) po . (
+(0, 1) ) is the percentage of the sale price that the contributor can gain. To
+po . The platform gets the remaining (1
+simplify the model, we normalize the production cost for the supplier to zero.
+The quality perception of secondhand products differs by SC structure and blockchain use. We consider the four scenarios shown
+in Fig. 1.
+In the decentralized SC without blockchain, the consumers and the supplier perceive the quality level of the secondhand product
+as q (0 < q < 1) on average, but the contributors and the platform know the secondhand product’s true quality level q (0 < q < 1). In
+the centralized SC without blockchain, the consumers perceive the quality level of the secondhand product as q on average, but the
+contributors, the platform, and the supplier share the secondhand product’s true quality level q. If the secondhand product is em­
+bedded with blockchain information, everyone knows its true quality q.
+We assume that the market sizes of the contributors and the consumers are N and M , respectively, where N and M are positive.
+The contributor’s utility is Uc = po s , where po is the revenue he gains from selling his secondhand product through the platform,
+ands is the salvage value, which follows a uniform distribution s U [0, 1] (Anderson et al., 2014). Consistent with the actual
+practices of online platforms, we take the revenue sharing portion in the consignment contract to be exogenous.2 A contributor is
+willing to sell through the platform when Uc > 0 . Hence, we denote the number of contributors on the platform as dc = po N . Table 2
+summarizes the major notations used in this paper.
+The sequences of the game are shown in Fig. 2. First, the contributors mail the secondhand products to the platform for quality
+inspection. The platform keeps the satisfactory secondhand products and returns the unsatisfactory ones. Second, regarding the
+disclosure effect of blockchain, in the decentralized SC, if blockchain is not used, the supplier decides the price of the new products
+based on the perceived quality of the secondhand products. If blockchain is used, the supplier decides the price of the new products
+based on the true quality. After the supplier’s pricing decision, in the decentralized SC, the platform decides the retail price of the
+secondhand products. In the centralized SC with horizontal integration, regardless of whether blockchain is used, the integrated firm
+knows the true quality of the secondhand products and decides the price of the new products based on the true quality, and then
+decides the price of the secondhand products. Third, the contributors confirm the transactions, and the platform sells the secondhand
+products.
+
+1
+2
+
+The official website of Amazon Warehouse deals: https://www.amazon.com/b?ie=UTF8&node=10158976011.
+For example, no matter what the product, therealreal pays 15% of the revenue and Patagonia charges 50% of the revenue to the contributor.
+5
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+Fig. 1. SC structures with and without the use of blockchain [the caret indicates the SC member’s quality perception of the secondhand products].
+Table 2
+Major notations used in this paper.
+Notation
+
+Meaning
+
+pj
+
+Respective price of product j , where j = o, n and po
+
+q
+
+q
+N
+M
+s
+v
+Uc
+Uj
+
+dc
+dj
+j
+
+F
+CTW
+OCW
+NCW
+TW
+
+pn
+
+Percentage that the contributor can gain from the sale price
+True quality level of the secondhand product on average, where 0 < q < 1
+
+Perceived quality level of the secondhand product for consumers on average, where 0 < q < 1
+Market size of the contributors
+Market size of the consumers
+Contributor’s salvage value for his secondhand product, where s ~U [0, 1]
+Consumer’s valuation of the product, where v ~U [0, 1]
+Contributor’s utility to sell the product
+Consumer’s utility to buy product j , where j = o, n
+Impact of the contributor’s quantity on the secondhand product’s consumer utility
+Number of contributed secondhand products
+Actual market demand for product j , where j = o, n
+Profit of product j , where j = o, n
+
+Blockchain operation cost
+Contributors’ welfare
+Secondhand product consumers’ welfare
+New product consumers’ welfare
+SC’s total welfare, where TW = CTW + OCW + NCW
+
+Note: The subscripts c, o, and n denote contributors, old product, and new product, respectively.
+
+Fig. 2. Game sequence.
+
+4. Decentralized SC
+4.1. Without the use of blockchain
+In this subsection, we consider the case in which blockchain is not implemented. The consumer utility to buy a secondhand
+product from the platform is Uo = qv po + dc , and to buy a new product from the supplier is Un = v pn , where q (0 < q < 1) is
+the consumer’s perceived quality level of the secondhand products on average. Here, implies the impact of the contributor’s
+quantity on the secondhand product’s consuming utility, and dc implies that if there are more contributors, then consumers are more
+likely to participate in secondhand product consumption (Anderson et al., 2014). Note that due to the quality information asymmetry
+without blockchain, the supplier does not know the true quality of the secondhand products, and his perceived quality level of the
+6
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+secondhand products is the same as the consumers’. A consumer chooses the new or secondhand product according to his utility. The
+consumer purchases at most one product with higher and nonnegative utility. When the secondhand platform is in short supply (i.e.,
+dc < do ), the consumer who is not able to purchase the secondhand product turns to buy a new product as long as his utility is
+nonnegative.
+Thus, the respective actual market demands for the platform and the supplier are
+
+do =
+
+(
+
+pn
+
+po + dc
+q^
+
+po
+
+dc
+q^
+
+1
+
+dc ,
+
+(1
+(1
+
+dn =
+
+pn
+
+po + dc
+q^
+
+1
+po
+
+dc
+q^
+
+)M
+
+) M,
+
+)M,
+
+if dc
+
+do
+
+and
+
+if dc < do
+
+if dc
+
+do
+
+.
+
+dc , if dc < do
+
+The platform sets its price for the secondhand product based on the true quality level q. Thus, the realized market demand for the
+platform is
+
+(
+
+do' =
+
+pn
+
+po + dc
+q
+
+po
+
+1
+
+dc
+q
+
+)M,
+
+do'
+
+if dc
+
+if dc < do'
+
+dc ,
+
+.
+
+The platform and the supplier make their optimal decisions based on the following profit functions:
+) po do' and
+o (po ) = (1
+n (pn )
+
+= pn dn
+
+The consumer-contributor market size ratio (M N ) is critical in influencing the prices of the new and secondhand products. If the
+products are very unique, the market size of secondhand products is small and the market size of new products is large, whereas if the
+products are less unique, the market size of secondhand products is large and the market size of new products is small. Thus, a high
+(low) ratio implies that a large (small) number of consumers exist in the market compared to contributors. A high-uniqueness product
+(e.g., luxury fashion) might have a small number of contributors but a large number of consumers (i.e., M N is high). A mass product
+(e.g., textbooks) might have a large number of contributors. We define this ratio as the degree of product uniqueness in the market —
+i.e., a high (low) ratio implies a high (low) degree of product uniqueness. We define Case A as selling low-uniqueness products and
+Case B as selling high-uniqueness products.
+Lemma 1. We define the threshold T =
+follows:
+
+q ) q poA
+
+(1
+q pnA
+
+(1
+
+(i) Selling low-uniqueness products (Case A:
+A
+n
+
+=
+
+M (2 + q
+2(2
+
+2q )(1
+
+q)
+
+q )2
+
+N
+
+M
+N
+
+B
+n
+
+=
+
+, we derive the optimal solutions for the platform and the supplier as
+
+q (1 q )
+N )(2
+
+T ), we have poA =
+
+2(1
+
+M
+N
+
+poB = pnB =
+
+q)
+
+, pnA =
+
+1
+2
+
+q
+,
+q
+
+A
+o
+
+=
+
+Mq (1
+4(1
+
+)(2q
+N
+
+)(2
+
+q)(1
+
+q)
+
+, and
+
+)
+,
+) + N ]2
+
+and
+
+q )2 q
+
+> T ), we have
+
+2[M (1
+
+Mq
+,
+N )+N ]
+
+B
+o
+
+=
+
+M2q 2 (1
+4[M (1
+
+N
+
+.
+
+4[M (1 N ) + N ]
+doB if and only
+
+>
+(iii)
+(iv) T is increasing in .
+doA
+
+1
+
+.
+
+(ii) Selling high-uniqueness products (Case B:
+M2q 2
+
+. When N <
+
+) poA
+
+if q <
+
+q [2M (1
+
+N ) + 2N
+q (2
+M + N (q M )
+
+q) ]
+
+;dnA < dnB if and only if q < q .
+
+We find that if selling low-uniqueness products, the platform sets a lower price for the secondhand products as compared to new
+products. If selling high-uniqueness products, the platform sets the same price for the secondhand products as for the new products.
+These results are intuitive because if a product is very unique, i.e., a large number of consumers want it in the market, the supplier
+ignores the true quality of the secondhand products and sells them at the same price as the new products. Thus, if the secondhand
+products are less unique, the platform provides a differential pricing strategy, and if the secondhand products are very unique, the
+platform provides a uniform pricing strategy. Besides, we find that the actual demands for low-uniqueness secondhand products will
+be higher than the high-uniqueness ones when the true quality level of the secondhand product is relatively low. This is because the
+low-quality level contributes to price reduction which increase the demands for low-uniqueness secondhand products more sig­
+nificantly. However, on the contrary, the new products’ demand for low-uniqueness products will be squeezed by the low-quality
+level as more consumers are going to buy the secondhand products.
+Furthermore, under a consignment contract, the revenue sharing portion ( ) influences the platform’s pricing strategy.
+Specifically, if the consignment portion is relatively large, the platform is more likely to provide a differential pricing strategy with
+new products; if the consignment portion is relatively small, the platform is more likely to provide a uniform pricing strategy with
+new products. If the revenue sharing portion is lower, the number of contributions is small and the product uniqueness is high. Thus,
+when collecting and selling secondhand products, platforms should carefully design the revenue sharing portion of consignment and
+the pricing strategies.
+
+7
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+Proposition 1.
+(i) Selling low-uniqueness products,
+(a) nA is decreasing in q but increasing q;
+(b) oA is first increasing and then decreasing in q and q.
+(ii) Selling high-uniqueness products, nB and oB are increasing in q but irrelevant to q.
+When the supplier sells low-uniqueness products (e.g., mass products), the profit is improved if the true quality of the secondhand
+products is high, but the profit is reduced if the perceived quality is low. There are two potential reasons. First, if the true quality of
+the secondhand products is higher, then their price is higher. Thus, more consumers opt to purchase new products and the supplier’s
+profit increases. Second, if the perceived product quality is higher, the competition between the two products is more intense. Thus,
+the consumers opt to purchase high-quality secondhand products and the supplier’s profit decreases.
+The platform prefers moderately perceived and moderate true quality secondhand products, instead of extremely high or low.
+This result is counterintuitive, as common sense might lead us to think that high-quality secondhand products should be welcomed by
+the platform. The reasons for our results are as follows. First, in terms of Lemma 1(i), we see that poA is decreasing in q (dpoA dq < 0 )
+and increasing in q (dpoA dq > 0) . These results imply that the platform tends to set a lower price when the true quality is lower or
+when the perceived quality is higher, because (1) a low-quality difference (i.e., true quality and perceived quality of the secondhand
+products are high) leads to high-quality competition between the new and secondhand products, and thus a lower price for the
+secondhand products, which attracts more consumption; (2) with a perceived high-quality difference (i.e., perceived quality of the
+secondhand products is low), the supplier might also be fooled by the secondhand products and set a lower price so that the profits of
+both the supplier and the platform are lower; and (3) a true high-quality difference (i.e., true quality of the secondhand products is
+low) leads to a low price for the secondhand products that might decrease the platform’s marginal profit. Consequently, the platform
+is more likely to sell moderate-quality secondhand products instead of high-quality.
+Proposition 1(ii) implies that the true quality of the secondhand products has no effect on the SC performance if the platform sells
+high-uniqueness products (e.g., luxury product), but the profits of both the supplier and the platform increase if the perceived quality
+of the secondhand products is higher. This result is intuitive because high-uniqueness products face a short supply on the platform,
+which, regardless of the true quality level, always offers a uniform pricing strategy (i.e., the platform sets the same price for sec­
+ondhand products as for the new ones). However, higher perceived quality can lead to an increase in price (dpoB dq > 0 and
+dpnB dq > 0 ). The profits of both the supplier and the platform can be improved with increased price.
+4.2. With the use of blockchain
+In this subsection, we consider the case in which blockchain is implemented. In this scenario, the true quality of the secondhand
+products is transparent in the SC, which means that the information about the quality of the secondhand products is symmetric for the
+platform, the supplier, and consumers, i.e., q = q . Thus, the moral hazard issue in terms of product quality can be addressed by using
+blockchain. In this case, the actual demands for the secondhand platform and the supplier are
+
+do' =
+
+(
+
+pn
+
+po + dc
+1
+
+po
+
+q
+
+dc
+q
+
+)M,
+
+do'
+
+if dc
+
+if dc < do'
+
+dc ,
+
+,
+
+and
+
+dn'
+
+=
+
+(1
+(1
+
+pn
+
+po + dc
+q
+
+1
+po
+
+dc
+q
+
+)M
+
+)M,
+
+if dc
+
+do'
+
+dc , if dc < do'
+
+.
+
+We use “ ” to denote the case in which blockchain is used. The supplier pays a fixed cost (F ) for operating the blockchain,3 and
+the platform and the supplier maximize their own profits by deciding the optimal prices:
+) po do' and n (pn ) = pn dn'
+F.
+¯ o (po ) = (1
+Lemma 2. We define the threshold T̄ =
+follows:
+
+q) qp¯oA
+
+(1
+qp¯nA
+
+(1
+
+N
+
+(i) Selling low-uniqueness products (Case A:
+
+¯nA =
+
+M (1 q)
+2(2 q)
+
+) p¯oA
+
+M
+N
+
+. When N <
+
+1
+
+, we derive the optimal solutions for the platform and the supplier as
+
+T̄ ), we have p̄oA =
+
+2(1
+
+q (1 q)
+N )(2
+
+q)
+
+, p̄nA =
+
+1
+2
+
+q
+,
+q
+
+¯oA =
+
+Mq (1
+4(2
+
+q)(1
+
+q)2 (1
+
+)
+N
+
+)
+
+, and
+
+F.
+
+3
+We do not take into account the implementation cost of blockchain because we do not consider a two-period model. We will explore a two-period
+model that includes the implementation cost of blockchain in future research. Besides, the platform does not need to pay the corresponding cost and
+only enjoys the quality disclosure effect brought by blockchain, because the second-hand products sold on the platform have already equipped with
+blockchain data.
+
+8
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+(ii) Selling high-uniqueness products (Case B:
+
+¯nB
+
+=
+
+M2q2
+4[M (1
+
+N
+
+)+N ]
+
+(iii) T̄ is increasing in .
+
+M
+N
+
+> T̄ ), we have
+
+p¯oB = p¯nB =
+
+2[M (1
+
+Mq
+,
+N )+N ]
+
+¯oB =
+
+M2q2 (1
+4[M (1
+
+N
+
+)
+,
+) + N ]2
+
+and
+
+F.
+
+These results are the same as those of Lemma 1. With the use of blockchain, the platform offers a uniform pricing strategy (i.e., it
+sets the same price for secondhand products as for new products) when selling high-uniqueness products, but offers a differential
+pricing strategy (i.e., it sets a lower price for secondhand products compared to new products) when selling low-uniqueness products.
+Moreover, as in Lemma 1, the platform is more likely to provide a uniform (differential) pricing strategy when the revenue sharing
+portion in the consignment contract is sufficiently low (high).
+Proposition 2. With the use of blockchain, (i) ¯oA and ¯nA are decreasing in q. (ii) ¯oB and ¯nB are increasing in q.
+Our results provide important insights into the sale of secondhand products with quality disclosure. First, recall that without the
+use of blockchain, for low-uniqueness products, a moderate perceived quality level is the best for the platform, but inconsistently, a
+low perceived quality level is the best for the supplier (please revisit Proposition 1). With the use of blockchain, everyone knows the
+true quality of the secondhand products. Distinct from Proposition 1 (without blockchain), in Proposition 2, we note that by using
+blockchain, both the platform and the supplier benefit from the lower true quality of secondhand products when the product un­
+iqueness is low. When quality information is transparent and symmetric, the high quality of secondhand products increases market
+competition, which harms both SC members’ profits.
+With the use of blockchain, for high-uniqueness products, both the platform and the supplier benefit from selling high-quality
+secondhand products. This result is distinct from that of the case without blockchain (i.e., Proposition 1). The reasons are as follows.
+First, if the consumers recognize the high quality of the secondhand products, both the supplier and the platform raise the price to
+match the high quality. Second, when buying high-uniqueness products, the consumers neglect the high price.
+4.3. Equilibrium analysis
+In this subsection, we explore the value of blockchain in the decentralized SC and compare the results of the previous sections.
+Proposition 3. Note that j = o or n . (i) p¯jA > pjA if and only if q < q , otherwise p¯jA
+
+p¯jB
+
+pjB
+
+.
+
+pjA . (ii) p¯jB > pjB if and only if q > q , otherwise
+
+Quality disclosure influences competition intensity. For low-uniqueness products (Case A), the prices of the new and secondhand
+products with blockchain are higher than those without blockchain when the perceived quality of the secondhand products is higher
+than the true quality. The prices with blockchain are lower than those without blockchain when the perceived quality of the sec­
+ondhand products is lower than the true quality. However, for high-uniqueness products (Case B), the prices of the new and sec­
+ondhand products with blockchain increase when the perceived quality of the secondhand products is lower than the real quality.
+This result is mainly due to the disclosure effect of blockchain, as both the supplier and the platform raise prices when the products
+are high quality.
+Proposition 4.
+(i) Selling low-uniqueness products,
+(a) If F 0 , ¯nA > nA if and only if F < FTA ; if F = 0 , ¯nA >
+(b)
+
+¯oA
+
+<
+
+A
+o
+
+if and only if q < q < min
+
+{
+
+2q 3
+
+2
+
+}
+
+if and only if q < q ;
+
+A
+n
+
+, 1 , otherwise, ¯oA
+3q + 2q 2
+
+(ii) Selling high-uniqueness products,
+(a) If F 0 , ¯nB > nB if and only if F < FTB ; if F = 0 , ¯nB >
+(b) ¯oB > oB if and only if q > q .
+
+B
+n
+
+A
+o
+
+;
+
+if and only if q > q ;
+
+Proposition 4 shows that it is inadvisable for the supplier to implement blockchain if the blockchain operation cost is sufficiently
+large. This result is intuitive, because the high operation cost squeezes the supplier’s profit. If the cost of operating blockchain is
+negligible, we find that for the sale of low-uniqueness products, the use of blockchain increases the supplier’s profit if the perceived
+quality of the secondhand products is sufficiently large, but harms the platform’s profit when the true product quality is moderate in
+terms of the perceived quality. This implies that both the platform and the supplier can benefit from the use of blockchain when the
+perceived (true) quality is high (low). Moreover, we surprisingly find that, for high-uniqueness products, the value of using block­
+chain is contrary to its value for low-uniqueness products. Specifically, blockchain is inefficient for both the supplier and the platform
+when the true quality of the secondhand products is lower than the consumer’s perception. When the platform sells high-quality and
+high-unique products (e.g., luxury products), implementing blockchain is recommended for both the platform and the supplier.
+5. Centralized SC (The platform and the supplier are integrated)
+In the centralized SC, the supplier is horizontally integrated with the platform and they form an integrated firm. This practice is
+consistent with the fashion retailer Patagonia that created an online platform Worn Wear on which consumers can trade in their
+secondhand garments and receive online or store credit up to 50% of the product’s resale value (Agrawal et al., 2019). In this section,
+9
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+we evaluate the impacts of horizontal integration on selling secondhand products in the SC.
+5.1. Without the use of blockchain
+First, we consider the case in which the online platform and the supplier are integrated without the use of blockchain. As the
+platform is horizontally integrate with the supplier, the true quality information is available to the supplier. Hence, the realized
+market demands for the platform and the supplier are do' and dn' , respectively. The integrated firm maximizes the total profits of the
+supplier and the platform by offering the optimal prices:
+IT
+t
+
+(poIT , pnIT ) =
+
+IT
+o
+
++
+
+IT
+n
+
+) poIT do' + pnIT dn'
+
+= (1
+
+Recall that, without the blockchain, consumers do not know the true quality of the secondhand products and decide to purchase
+based on the perceived quality level, i.e., the actual market demands for the platform and supplier are do and dn .
+) . We derive the optimal prices and
+)(1 N ) q (2
+N )2 and G2 = 2M (1 N ) 2q (1 N
+We let G1 = 4(1
+profits as shown in Lemma 3.
+Lemma 3. Define T IT =
+follows:
+
+q ) q poIT A
+
+(1
+q pnIT A
+
+(1
+
+N
+
+.
+) poIT A
+
+With horizontal integration, the optimal solutions for the platform and the supplier are as
+
+(i) Selling low-uniqueness products (Case A:
+IT A
+t
+
+= (1
+
+) poIT A
+
+do +
+
+pnIT A
+
+T IT ), we have poIT
+
+A
+
+if and only if q
+
+M
+N
+
+4
+
+> T IT ), we have poIT
+
+q (2
+2 [2
+
+N )2
++ N (2 N
+
+)]
+
+B
+
+= pnIT
+
+B
+
+q (1
+
+=
+
+dn , where G1 > 0 .
+
+(ii) Selling high-uniqueness products (Case B:
+G2 > 0 .
+
+(iii) T IT is increasing in
+
+M
+N
+
+=
+
+qM
+,
+G2
+
+q)(2
+G1
+
+and
+
+N
+
+IT B
+t
+
+)
+
+, pnIT
+
+= (1
+
+A
+
+=
+
+) poIT
+
+2(1
+
+q)(1
+
+)(1
+
+N
+
+G1
+B
+
+do + pnIT
+
+B
+
+)
+
+, and
+
+dn , where
+
+.
+
+The results of the pricing strategies in terms of product uniqueness for the platform are the same as those of the decentralized SC
+in Lemma 1, which shows the robustness of our study. When selling low-uniqueness products, the platform sets the secondhand
+product’s price, which is different from the new product’s price (i.e., the platform offers a differential pricing strategy). When selling
+high-uniqueness products, the platform sets the same price for the secondhand and new products (i.e., the platform offers a uniform
+pricing strategy). Different from the decentralized SC, in the centralized SC, the increased revenue sharing portion no longer results in
+an adequate supply for the platform. When the perceived quality of the secondhand products is relatively lower, the threshold for the
+platform to offer a differential pricing strategy is low.
+Proposition 5. (i) pjIT
+
+A
+
+> pjA . (ii) pjIT
+
+B
+
+> pjB if and only if q <
+
+M (1
+
+Mq (1 N )
+N ) q (1
+
+)
+
+, where j = o or n .
+
+Proposition 5 reveals that when selling low-uniqueness secondhand products (Case A), both the platform and the supplier raise
+prices when the platform is horizontally integrated with the supplier. Because horizontal integration creates a co-opetitive business
+environment, and market competition is less intense so that both the prices of new and secondhand products can be increased.
+Nevertheless, when selling high-uniqueness products (Case B), both the SC members can lower their prices if the perceived quality
+level of the secondhand products is relatively high, because both the high perceived quality level and the high product uniqueness
+increase market competition and result in price reduction. Thus, horizontal integration sets higher prices for both secondhand and
+new products.
+1
+Secondhand product's true quality level
+
+Secondhand product's true quality level
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+0.6
+
+0.7
+0.8
+0.9
+Reveue sharing portion τ
+(a) When
+
+0.5
+
+0
+
+0.3
+
+0.4 0.5 0.6 0.7 0.8 0.9
+Reveue sharing portion τ
+
+1
+
+(b) When
+
+Fig. 3. Total profit comparison between the centralized and decentralized SCs (We set N = 1, v = 0.8,
+in (b)).
+10
+
+= 0.9 , q = 0.5, and M = 0.1 in (a) and M = 1
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+Next, we explore the overall performance between the centralized and decentralized SCs. We denote ti = ni + oi (i = A or B )
+as the total profit of the decentralized SC and compare it to that of the centralized SC in Fig. 3.
+Fig. 3 shows how the revenue sharing portion and the secondhand product’s true quality level jointly influence the SC’s overall
+performance. We observe that for low-uniqueness products (Fig. 2(a)), the SC’s performance deteriorates with horizontal integration
+if the secondhand product’s true quality level is low and the revenue sharing portion is high. Similarly, when the degree of product
+uniqueness is relatively high (Fig. 2(b)), horizontal integration harms the SC’s total profit if the secondhand product’s true quality
+level is low. This result can be explained by the fact that in the centralized SC, reduced prices are offered when the true quality level
+of the secondhand products is low (i.e., dpjIT i dq > 0 , where j = o or n and i = A or B ), which hurts the profit margin of both the
+supplier and the platform. Hence, for the SC without blockchain, it is not always advisable to integrate the secondhand platform with
+the supplier. The platform and supplier should take both the product quality and the revenue sharing portion into consideration when
+making pricing decisions.
+5.2. With the use of blockchain
+In the centralized SC, the true product quality is known for both the platform and the supplier even without the use of blockchain.
+Thus, the use of blockchain has no effect on the optimal decisions, i.e., p¯oIT i = poIT i and p¯nIT i = pnIT i , where i = A or B .
+However, the optimal profits are different. More consumers decide to purchase based on the true quality in the SC that uses
+blockchain, because they know the true quality when the information about the secondhand products is in the blockchain. We denote
+¯tIT i as the optimal profit of the centralized SC with blockchain.
+To investigate the value of horizontal integration with the use of blockchain, we define ¯ti = ¯oi + ¯ni (i = A or B ) as the total
+profit of the decentralized SC. We explore the relationship between ¯tIT i and ¯ti in Proposition 6.
+Proposition 6. p¯jIT
+
+i
+
+> p¯ji and ¯tIT
+
+i
+
+> ¯ti , where i = A or B and j = o or n.
+
+With the use of blockchain, horizontal integration always benefits the total SC performance through a price hike. This result
+differs from the case without blockchain. Because without blockchain, there still exists quality information asymmetry between the
+sellers and the consumers. This asymmetry reduces the effectiveness of horizontal integration. With blockchain, the secondhand
+product quality is disclosed to the consumers, and thus the advantage of horizontal integration can be fully exploited.
+Next, we investigate the value of blockchain in the centralized SC and obtain Proposition 7.
+Proposition 7.
+(i) Selling low-uniqueness products,
+(a) if F 0 , ¯tIT A > tIT A if and only if F < FTIT A ;
+(b) if F = 0 , we have ¯tIT A < tIT A if and only if q IT
+(ii) Selling high-uniqueness products,
+(a) if F 0 , ¯tIT B > tIT B if and only if F < FTIT
+(b) if F = 0 , ¯tIT B > tIT B if and only if q > q .
+
+_ T
+
+B
+
+A
+
+< q < qTIT
+
+A
+
+.
+
+;
+
+Comparing the results of Propositions 4 and 7, we see that the value of blockchain use in the centralized SC is similar that in the
+decentralized SC. The main difference is, if the blockchain operation cost is negligible, selling moderate quality products in the
+centralized SC with blockchain can hurt the SC’s total profit. This result can be explained as follows. Quality disclosure of true highquality secondhand products can boost the platform’s profit significantly, and as such, eventually enhances the whole SC’s perfor­
+mance. However, a sufficiently low quality helps reduce competition and thus benefits the SC’s performance. Consequently, if the true
+quality of the product is sufficiently high or low, implementing blockchain in a centralized SC is recommended.
+Table 3 summarizes the impacts of blockchain on the SC’s profits. We observe that using blockchain always has a positive impact
+on the SC’s profits for low-uniqueness and low-quality products, or high-uniqueness and high-quality products, but it hurts the SC’s
+profits for low-uniqueness and moderate-quality products, or high-uniqueness and low-quality products. Thus, with the use of
+blockchain, the platform should sell low-uniqueness and low-quality (high-uniqueness and high-quality) secondhand products.
+Next, to show the joint influence of blockchain and horizontal integration in terms of SC member’s performance, we summarize
+the above results in Fig. 4.
+Fig. 4 shows that using blockchain is never the optimal choice for SC members in the decentralized SC. This is because, with
+Table 3
+Impacts of using blockchain on the SC’s performance.
+Low-uniqueness product
+Low q
+Centralized SC
+Decentralized SC
+
+Platform
+Supplier
+
+High-uniqueness product
+
+Moderate q
+
+High q
+
+Low q
+
+High q
+
++
+
++
+
++
+
++
+
++
+
++
+
+Note: “+” indicates positive impact, and “ ” indicates negative impact.
+11
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+(a) Optimal strategies for the secondhand platform
+
+(b) Optimal strategies for the supplier
+
+Fig. 4. Optimal strategies for the secondhand platform and the supplier (DNB = decentralized SC without blockchain, DB = decentralized SC with
+blockchain, CNB = centralized SC without blockchain, and CB = centralized SC with blockchain).
+
+blockchain, horizontal integration can always improve the SC’s benefit. Second, if the true quality of the secondhand products is low
+and the degree of product uniqueness is high, both the secondhand platform and the supplier prefer the decentralized SC. This result
+provides important insights to supply chain managers who work for the platform and supplier when deciding the optimal product
+quality and uniqueness. Third, when selling low-uniqueness products, the platform can enjoy the benefit of the quality disclosure
+effect from using blockchain if the true quality of the secondhand products is sufficiently high or low, whereas the supplier can enjoy
+the benefits if the true quality of the secondhand products is sufficiently low. In other words, if the true quality of the secondhand
+products is sufficiently low, the use of blockchain can achieve a win-win outcome for the supplier and the platform through hor­
+izontal integration. Fourth, when selling high-uniqueness products, both the supplier and the platform achieve a win-win outcome
+without blockchain in the decentralized SC if the true quality of the secondhand products is sufficiently low. Otherwise, using
+blockchain in the centralized SC is preferable. With blockchain, our findings imply that supply chain managers should carefully check
+the product quality of the secondhand product when deciding the channel of selling the products.
+6. Welfare analysis
+In this subsection, we investigate the SC’s welfare, which comprises the contributor’s welfare (CTW ) , the secondhand product
+consumer’s welfare (OCW ) , and the new product consumer’s welfare (NCW ). We define the SC’s total welfare
+TW i = CTW i + OCW i + NCW i , where i = A or B .
+poi
+
+CTW i = M
+
+pnA
+
+OCW i =
+
+M
+
+poA
+
+N
+NCW i =
+
+( poi
+
+0
+
+M
+
+s ) ds =
+
+poA + d c
+1 q^
+dc
+
+^
+(qv
+
+M
+2
+( poi )
+2
+
+poB + dc ) dv , if dc
+
+do
+
+q^
+
+0
+
+poB
+
+^
+(M
+qv
+
+1
+
+poA
+
+dc
+
+(v
+
+1
+
+B
+
+p + d ()vds,
+pnA o poA + d c c
+1 q^
+pnB ) dv
+
+N
+
+pnA ) dv
+if , dc < do
+
+0
+
+poB
+
+(v
+
+, and
+if dc
+
+do
+
+pnB ) ds, if dc < do
+
+.
+
+q^
+
+First, we explore the value of using blockchain in both the decentralized and centralized SCs in terms of contributor’s welfare.
+Proposition 8.
+
+¯ B > CTW B if and only if q > q .
+¯ A > CTW A if and only if q < q ;CTW
+(i) CTW
+IT B
+IT A
+IT
+A
+¯
+¯
+= CTW IT B.
+= CTW
+and CTW
+(ii) CTW
+From Proposition 8, we observe that the use of blockchain is effective in improving the contributor’s welfare in the decentralized
+SC, rather than in the centralized SC. Particularly, if the true quality of the secondhand products is lower than the consumer’s
+perception, blockchain can benefit the contributors who sell low-uniqueness products, but can hurt those who sell high-uniqueness
+products. It seems counterintuitive for contributors to reveal their products’ lower quality, but actually it leads to a rise in price for
+the low-uniqueness products, which helps improve the contributor’s welfare. Furthermore, we find that blockchain does not improve
+the contributor’s welfare if the SC is horizontally integrated, because in this case, the true quality of the secondhand products has no
+effect on the pricing decisions (please see Section 4.2).
+12
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+0.04
+
+0.002
+
+0.5
+
+0.55
+
+0.6
+
+0.65
+
+Value of blockchain
+
+Value of blockchain
+
+0.001
+0
+
+decentralized supply chain
+centralized supply chain
+
+decentralized supply chain
+centralized supply chain
+
+0.7
+
+-0.001
+-0.002
+
+0.02
+
+0
+
+-0.02
+
+Secondhand product’s true quality level
+
+0.5
+
+0.55
+
+0.6
+
+0.65
+
+Secondhand product’s true quality level
+
+(a) When
+
+(b) When
+
+Fig. 5. Value of blockchain on total welfare with the contributor’s market size N (we set v = 0.6 , = 0.8,
+and M = 1 in (b)).
+
+= 1, N = 0.8 , q = 0.6, and M = 0.1 in (a)
+
+¯ i TW i and
+Next, the value of blockchain in terms of the SC’s total welfare is shown in Fig. 4. We define TWB = TW
+¯ IT i TW IT i as the value of using blockchain on the total welfare in the decentralized and centralized SC, respectively.
+TWBIT = TW
+Fig. 5 provides a clear picture of the value of blockchain with respect to total consumer welfare. First, from Fig. 5(a), we see that
+for low-uniqueness products, no matter in a decentralized or centralized SC, blockchain can benefit consumer welfare when the true
+quality of the secondhand products is higher than the perceived quality. As we find in Proposition 3 that, with blockchain, both the
+platform and the supplier reduce prices when the secondhand product’s true quality is high, it is natural that the consumer’s welfare
+improves. Moreover, we see that when the true quality of the secondhand products is high, blockchain is more effective in improving
+consumer welfare in the decentralized SC than in the centralized SC. In the decentralized SC, information about the quality of the
+secondhand products is asymmetric. Thus, quality disclosure through blockchain is especially relevant for low-uniqueness and highquality products. However, for high-uniqueness products, disclosing the high quality of the secondhand products through blockchain
+hurts the total welfare in the decentralized SC. This implies that in short supply, the platform and the supplier raise the prices to
+match the high quality of product, and thus the consumer’s welfare reduces.
+Next, we evaluate the influence of horizontal integration on welfare in the SC.
+Proposition 9.
+(i) CTW IT
+(ii) CTW IT
+
+A
+
+B
+
+¯ IT i > CTW
+¯ i , where i = A or B .
+> CTW A and CTW
+Mq (1 N )
+B
+> CTW if and only if q < M (1 N ) q (1 ) .
+
+Proposition 9 indicates that horizontal integration can improve the contributor’s welfare on the platform when low-uniqueness
+products are being sold or when blockchain is implemented. In the SC that sells high-uniqueness products without blockchain,
+contributors can only benefit from horizontal integration if the perceived quality of the secondhand products is relatively low,
+because the sales of secondhand products will increase with horizontal integration under these scenarios (refer to Propositions 5 and
+
+Value of integration
+
+0.09
+
+Value of integration
+
+0.05
+
+without blockchain
+with blockchain
+
+0.06
+
+0.03
+
+0.5
+
+0.55
+
+0.6
+
+0.65
+
+0
+
+without blockchain
+with blockchain
+0.5
+
+0.55
+
+0.6
+
+0.65
+
+-0.05
+
+-0.1
+
+0.7
+
+Secondhand product’s true quality level
+
+Secondhand product’s true quality level
+(a) When
+
+(b) When
+
+Fig. 6. Value of horizontal integration on total welfare with the contributor’s market size N (we set v = 0.6 ,
+M = 0.1 in (a) and M = 1 in (b)).
+13
+
+= 0.8,
+
+= 1, N = 0.8, q = 0.6, and
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+Table 4
+Insights and managerial recommendations.
+Key insights
+
+Managerial recommendations
+
+Pricing strategies for the platform
+
+(i) If selling low-uniqueness secondhand products, the platform should offer a differential pricing strategy
+with new products. If selling high-uniqueness products, the platform should offer a uniform pricing
+strategy with new products.
+(ii) A low revenue sharing portion drives the platform to provide a uniform pricing strategy, and a high revenue
+sharing portion drives the platform to provide a differential pricing strategy.
+(i) Without blockchain, the platform prefers secondhand products that have moderately perceived and
+moderately true product quality, instead of extremely high or low if the product has low uniqueness.
+(ii) With blockchain, the platform prefers low-uniqueness low-quality secondhand products.
+(i) If the platform sells low-uniqueness products, blockchain is recommended for low-quality products, but
+not recommended for high-quality products.
+(ii) If the platform sells high-uniqueness products, blockchain is recommended for high-quality products, but
+not recommended for low-quality products.
+(i) Horizontal integration is more effective in improving the SC’s total profit with the use of blockchain.
+(ii) A win-win-win outcome can be achieved for the platform, the supplier, and consumers in a horizontally
+integrated SC that sells low-uniqueness products.
+
+Quality strategies for the platform
+Using blockchain for selling secondhand
+products
+Horizontal integration in the supply chain
+
+6). Hence, contributors can earn more from the platform. However, how horizontal integration affects the SC’s total welfare is
+¯ IT = TW
+¯ IT i TW
+¯ i as the
+unclear. We conduct further numerical analyses for Fig. 6. We define TWIT = TW IT i TW i and TW
+value of horizontal integration on the total welfare in the cases without and with blockchain, respectively.
+Fig. 6 shows that horizontal integration improves the SC’s total welfare for low-uniqueness products, but hurts the total welfare
+for high-uniqueness products. This is because for low-uniqueness products, prices are important to consumers. However, for highuniqueness products, the degree of “scarcity” is crucial to consumers who will evaluate whether to purchase a new or old product.
+Hence, the price advantages brought by the horizontal integration can benefit the contributors of low-uniqueness products more
+significantly. In other words, in terms of the total welfare, horizontal integration is more valuable for the SC that sells low-uniqueness
+products. Combining these results from those of Proposition 7, we see that in the SC that sells low-uniqueness products by horizontal
+integration, the performance of the platform, the supplier, and consumers can be better off (comparing the cases when selling highuniqueness products or through the decentralized supply chain), i.e., a win-win-win outcome can be achieved for the platform, the
+supplier, and consumers. This result shows the superiority of horizontal integration strategy under the use of blockchain.
+7. Conclusion, managerial insights, and future research directions
+In this paper, we examine the sale of secondhand products through an online platform on a SC consisting of contributors, one
+secondhand online platform, and one supplier. The contributor sells the secondhand items through the platform by consignment, and
+the supplier sells new items to consumers directly. We consider four scenarios in terms of SC structure and blockchain use. The
+secondhand product quality information for the supplier and consumers differs according to SC structure and blockchain use. Our
+paper provides insights into the optimal pricing and quality strategies, the value of blockchain use, and the impacts of horizontal
+integration for secondhand and new products. We summarize our insights and managerial recommendations in Table 4.
+We note several research limitations and future research directions. First, we consider the scenario in which the price of the
+secondhand products is not higher than that of new products. However, for very unique products such as limited edition products, the
+price of the secondhand product can be higher than that of the new product. It might be worthwhile for future research to evaluate
+how a platform could sell limited edition products to consumers while competing with the supplier. Second, we consider the revenue
+sharing portion in the consignment contract to be exogenous (Choi and Guo, 2020). Future research can explore the impacts of an
+endogenous revenue sharing portion on the platform’s pricing decisions. Third, we do not consider the previous price of the sec­
+ondhand products. Previous prices are important references (Wei et al., 2019; Li et al., 2019a,b). Future research could investigate
+price references for secondhand products. Fourth, we do not take into account the implementation cost of blockchain because we do
+not consider a two-period model. In future research, we will explore a two-period model that includes the implementation cost of
+blockchain. Fifth, the sales data of secondhand products can be used for demand information updating (Shen et al., 2019a,b, 2020). In
+future research, we can examine the value of information updating on supply chains with secondhand products.
+Appendix. Proofs
+Proof of Lemma 1: First, we substitute do =
+N (1
+
+(
+
+N (1
+
+q ) q po
+
+pn
+
+po + d c
+
+po
+
+1 q
+q ) q po
+
+dc
+q
+
+) M and d
+
+c
+
+= po N into the condition dc
+
+d o and derive
+
+M
+N
+
+. We have the threshold T = q p (1 N ) p . Note that, when dc < do (i.e., > T ), the secondhand platform is in
+q pn (1 N ) po
+n
+o
+short supply, hence consumers who fail to buy secondhand products will purchase the new one as long as his utility is non-negative.
+M
+N
+
+(
+
+Consequently, when dc < do we have dn = 1
+(i) For Case A where
+
+M
+N
+
+pn
+
+po + dc
+
+1
+
+q
+
+)M + (
+
+pn
+
+po + dc
+
+1
+
+q
+
+po
+
+dc
+
+q
+
+)M
+
+dc = (1
+
+po
+
+dc
+
+q
+
+)M
+
+dc .
+
+T : by using backward induction, we take the first and second order derivatives of
+14
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+o
+
+= (1
+
+) po
+
+(
+
+pn
+
+po +
+1
+
+po N
+
+po
+
+) M with respect to p and find that
+
+po N
+
+q
+
+is concave in po . Thus, the optimal price for sec­
+
+o
+
+o
+
+q
+
+d o
+dpo
+
+M (1
+
+)(qp
+
+2(1
+
+N
+
+)p )
+
+n with
+
+respect to pn , we find that
+
+n
+o
+=
+= 0 . Then, we proceed to
+ondhand product pp can be obtained from solving the first order condition
+(1 q) q
+solve the optimal solutions. Note that, due to the quality information asymmetry, the supplier makes the decision based on its
+perceived quality for the secondhand product q . Substituting po ( pn , q ) into the supplier’s profit function
+
+n
+
+(
+
+pn
+
+= pn 1
+
+po +
+1
+
+) M and taking the first and second order derivatives of
+
+po N
+
+q
+
+M (2
+
+d n
+dpn
+
+n
+
+is concave in
+
+q ) ps
+
+=M
+= 0 . Substituting ps into profit
+pn . The optimal price for the new products pn can be obtained by solving
+1 q
+functions, we can yield the optimal solutions in Lemma 1(i). In order to ensure the optimal prices and profits are positive,
+1
+N > 0 and 2q q > 0 must be hold.
+M
+(ii) For Case B where N > T : using the same approach as in Case A, we take the first and second order derivatives of
+o
+
+d o
+dpo
+
+) po2 N with respect to pp and find that
+
+= (1
+
+we assume po
+
+) po N > 0 , which means that
+
+= 2(1
+
+n
+
+= pn M
+
+(M
+
+into the actual demand functions, we derive doA =
+
+M (2q q)
+,
+2(2 q ) q
+
+dnA =
+
+pn , we have po = pn . Then, we substitute po = pn into the supplier’s profit function
+
+and derive the optimal price for the new product pn by solving
+(iii) By substituting
+
+,
+
+poA
+
+,
+
+pnA
+
+, and
+
+poB
+
+pnB
+
+M q
+M
+and dnB = 2 . Hence, by comparing
+MN + N q )
+substituting poA and pnA into the threshold, we have T
+
+doB =
+
+is always increasing in po . Since
+
+o
+
+2(M
+
+(iv) By
+(Q.E.D.)
+
+d n
+dpn
+
+2(M
+
+=M
+
+MN
+
++ N q ) pn
+q
+
+MN
+
++ N q ) po
+q
+
+= 0.
+M (2 + q 2q )
+,
+2(2 q )
+
+these results, we can easily get the findings in Lemma 1(iii).
+
+=
+
+Nq (1 q ) q
+(2q q)(1 N
+
+)
+
+and
+
+dT
+d
+
+=
+
+Nq (1
+(2q
+
+q)(1
+
+q )q
+N
+
+)2
+
+> 0 . Thus, T is increasing in .
+
+Proof of Proposition 1:
+M
+N
+
+(i) Under Case A where
+d o
+dq
+
+=
+
+M (q
+
+q)(1
+
+q )(1
+
+q )2q (1
+
+2(2
+
+)
+
+N
+
+)
+
+(ii) Under Case B where
+
+T,
+
+. Thus,
+
+M
+N
+
+d n
+dq
+
+d o
+dq
+
+M (4
+
+=
+
+(4
+
+q) q )
+
+< 0,
+
+q )3
+
+2(2
+
+d n
+dq
+
+=
+
+M (1
+
+q)
+
+2(2
+
+q )2
+
+> 0,
+
+d o
+dq 2
+
+> 0 if and only if q < q , which means that
+
+> T , we have
+
+B
+o
+
+M2q 2 (1
+
+=
+
+4[M (1
+
+and increasing in q . (Q.E.D.)
+
+)
+) + N ]2
+
+N
+
+and
+
+B
+n
+
+Mq (2q 3 (1 + q ) + q (4
+
+=
+
+o
+
+2(2
+
+3(2
+N
+
+q ) q )))(1
+)
+
+)
+
+< 0 , and
+
+is first increasing and then decreasing in q.
+
+M2q 2
+.
+4[M (1 N ) + N ]
+
+=
+
+q (8
+
+q )4q 3 (1
+
+It is obvious that they are irrelevant to q
+
+Proof of Lemma 2: Similar to Lemma 1, we derive the results of Lemma 2. Please note that under the case with blockchain, there
+is no quality information asymmetry, hence we can have q = q . (Q.E.D.)
+Proof of Proposition 2:
+M
+
+(i) Under Case A ( N
+(ii) Under Case B
+
+T̄ ), we have
+
+M
+(N
+
+> T̄ ), we have
+
+d ¯n
+dq
+
+M
+
+=
+
+¯nB
+dq
+
+< 0 , and
+
+q)2
+
+2(2
+
+2M2q
+
+=
+
+4[M (1
+
+N
+
+)+N ]
+
+d ¯o
+dq
+
+M (2
+
+=
+
+> 0 and
+
+4(2
+¯oB
+dq
+
+=
+
+3q)(1
+
+)
+
+q)3 (1 N )
+2M2q (1
+4[M (1
+
+N
+
+< 0.
+)
+) + N ]2
+
+> 0 . (Q.E.D.)
+
+Proof of Proposition 3:
+(i) Since
+
+dpoA
+
+=
+
+dq
+
+otherwise,
+
+p¯oA
+
+q
+2(1
+
+(ii) Similarly, Since
+
+p¯oB
+
+poB
+
+and
+
+N
+poA
+dpoB
+
+p¯nB
+
+dq
+
+q )2
+and p¯nA
+dpnB
+)(2
+
+=
+
+pnB
+
+dq
+
+dpnA
+
+< 0 and
+
+pnA
+
+=
+
+2[M (1
+
+. (Q.E.D.)
+
+.
+
+1
+
+=
+
+dq
+
+Mq
+N )+N ]
+
+q )2
+
+(2
+
+< 0 , we can infer that p¯oA > poA and p¯nA > pnA if and only if q < q ,
+
+> 0 , we can infer that p¯oB > poB and p¯nB > pnB if and only if q > q , otherwise,
+
+Proof of Proposition 4:
+(i) Under Case A, if
+
+F<
+
+M (1 q)
+2(2 q)
+
+M (2 + q
+
+0 , we have
+
+F
+2q )(1
+q )2
+
+2(2
+
+platform’s profit, we have
+infer that ¯oA <
+
+A
+o
+
+F<
+j = o or n . (Q.E.D.)
+
+dq
+
+A
+n
+
+=
+
+; while if F = 0 , we have
+
+d oA
+
+=
+
+Mq (q (2
+4(2
+
+q (3
+
+0 , we have
+
+M2q 2
+;
+4[M (1 N ) + N ]
+
+2q 3)(1
+
+2q ))
+
+q )3q 2 (1
+
+if and only if q < q < min
+
+(ii) Under Case B, if F
+M2q2
+4[M (1 N ) + N ]
+
+q)
+
+¯nA
+
+¯nB
+
+N
+
+{
+
+M (1 q)
+2(2 q)
+
+d nA
+dq
+)
+
+)
+2q 3
+
+2
+
+B
+n
+
+while if F =
+
+3q + 2q 2
+
+M (2 + q
+
+F
+
+< 0 , thus,
+
+¯nA
+
+2q )(1
+
+2(2
+
+q )2
+
+>
+
+A
+n
+
+q)
+
+, hence
+
+¯nA >
+
+if and only if q < q . Then, in terms of the
+
+, which is negative if and only if q < min
+
+}
+
+, 1 , otherwise, ¯oA
+
+M2q2
+= 4[M (1 N ) + N ]
+d B
+0 , we have dqn >
+
+15
+
+F
+
+0 and
+
+if and only if
+
+A
+n
+
+A
+o
+
+2q 3
+2
+
+3q + 2q 2
+
+, 1 . Thus, we can
+
+.
+
+M2q 2
+, hence ¯nB
+4[M (1 N ) + N ]
+d oB
+> 0 , thus, ¯ jB > jB if
+dq
+
+>
+
+B
+n
+
+if and only if
+
+and only if q > q , where
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+Proof of Lemma 3:
+(i) For
+IT
+t
+
+Case
+
+= (1
+
+) po
+
+A
+
+(
+
+where
+
+pn
+
+po +
+1
+
+po N
+
+T IT :
+
+M
+N
+
+po
+
+q
+
+po N
+
+q
+
+in po and pn only when Hessian Matrix
+2M (1
+
+)(1 N
+q) q
+
+(1
+
+H=
+
+M (2
+
+N
+1
+
+)
+
+M (2
+
+M 1
+
+q + (2
+
+prices
+
+1
+
+and
+
+poIT A
+
+) pp
+
+q
+pnIT A
+
+(ii) For Case B where
+t
+
+2ps
+
+.
+
+M
+N
+
+pn , we have
+
+po
+d t
+dpn
+
+2(q (1
+
+=M+
+
+pn = po =
+d t
+dpn2
+
+2M (1
+
+= 2q (1
+
+q >
+
+N
+
+1
+
+po N
+
+q
+
+q + (2
+
+N
+
+) po
+
+q
+
+=
+
+M (q (2
+
+N
+
+d tIT
+dpo
+
+) by solving
+
+)
+
+first
+
+A
+
+(pnIT
+
+and
+
+second
+
+order
+
+derivatives
+
+M with respect to po and pn . We find that
+
+1
+
+= 0 . Finally, we substitute poIT
+
+po
+
+po N
+q
+
+M + MN
+
+2M (1
+
+A
+
+and pnIT
+))
+
+) pn
+
+N
+
+)
+
+N )2
++ N (2 N
+
+q (2
+2 (2
+
+4
+
+)
+
+q
+Mq
+) 2q (1
+
+(iii) By substituting poIT
+
+A
+
+the
+
+po +
+
+)M
+
+A
+
+2pn )
+
+) pn
+
+2(1
+
+(1
+
+q) q
+
+) and pnIT
+
+t
+
+of
+
+is jointly concave
+
+>0
+)(1
+
+A
+
+N
+
+(poIT
+
+) po )
+
+A
+
+= 0 and pnIT
+
+A
+
+(poIT
+
+A
+
+) by solving
+
+) with each other and derive the optimal
+
+with respect to po and pn , respectively, and find that
+
+dc
+
+po = pn . Then, by substituting
+
+N
+
+N
+
+(pnIT
+
+pn
+
+> T IT : using the same approach with the one in Case A, we take the first and second order derivatives of
+
+) po2 N + pn (1
+
+= (1
+
+A
+
+take
+
+(
+
+M (1
+
+=
+
+2M
+1 q
+
+q
+
+N
+
+=
+
+)
+
+q
+
+)
+
+Then, we can obtain poIT
+d tIT
+dpn
+
+N
+1
+
+)
+
+We
+
+M + pnIT 1
+
+= 0,
+
+.
+
+)
+
+we
+
+Note
+
+that,
+
+the
+
+to
+
+optimal
+
+ensure
+
+prices
+
+that
+
+for
+
+new
+
+is
+
+t
+
+and
+
+t
+
+and solving
+
+secondhand
+
+concave
+
+in
+
+pn ,
+
+products
+we
+
+have
+
+) < 0.
+
+N
+
+into the threshold, we can have T IT =
+
+A
+
+is increasing in po . As
+
+into the SC’s total profit function
+
+po = pn
+
+derive
+
+t
+
+(1
+
+N
+
+q (1 q ) q (2
+)(2q (1
+)
+
+N
+
+)
+
+q (2
+
+N
+
+and
+
+))
+
+dT IT
+d
+
+> 0 if and only if
+
+. (Q.E.D.)
+
+Proof of Proposition 5:
+(i) We have
+
+poIT A
+
+poIT B
+
+pnIT B
+
+(ii)
+
+poB
+
+q <
+
+p¯nA
+
+q)(2
+
+q )(1 N )(2
+(1 q ) G1
+
+N
+
+q (M + N (q M ) )
+= q (M (1 N ) q (1 N
+pnB
+Mq (1 N )
+. (Q.E.D.)
+M (1 N ) q (1
+)
+
+=
+
+Proof
+p¯nIT A
+
+2(1
+
+=
+
+poA
+
+=
+
+of
+
+2(2
+
+Proposition
+
+q)(1
+
+)(1
+
+N
+
+)
+
+G1
+
+6:
+
+))
+
+First,
+
+> 1, and
+
+)
+
+and
+
+in
+
+p¯oIT B
+
+=
+
+p¯oB
+
+> 1 and
+
+pnIT A
+pnA
+
+q (M + N (q
+
+terms
+p¯nIT B
+p¯nB
+
+of
+
+2(1
+
+=
+
+q)(2
+
+M ) > q (M (1
+
+prices
+
+)
+
+N
+
+N
+
+comparison,
+
+M + N (q M )
+M (1 N ) q (1 N
+
+=
+
+q )(1
+)(1
+(1 q ) G1
+
+we
+
+)
+
+> 1. Thus, poIT
+
+)
+
+q (1
+
+have
+
+> 1. We yield
+
+p¯jIT i
+
+N
+
+))
+
+p¯oIT A
+
+=
+
+p¯oA
+
+>
+
+p¯ji
+
+> poA and pnIT
+
+A
+
+2(2
+
+if
+
+and
+
+q)(1
+
+N )(2
+G1
+
+> pnA .
+
+A
+
+only
+
+N
+
+)
+
+if
+
+> 1,
+
+. Then, regarding the total
+
+profits, for Case A, we yield the optimal total profits for the centralized and decentralized SCs with blockchain are
+
+¯tIT
+
+A
+
+=
+
+M (1
+
+q)(1
+
+)(1
+
+N
+
+G1
+
+)
+
+and ¯tA =
+
+Similarly, for Case B, we yield ¯tIT
+
+B
+
+M (1
+
+q)(4
+
+3q + (q
+
+4(2
+
+=
+
+M2q2
+,
+G1
+
+2N (2
+
+q)2 (1
+
+¯tB =
+
+N
+
+q) ) )
+
+)
+
+M2q2 (M
+
+MN
+
++ (1 + N
+
+4(M + N
+
+) )
+
+and
+
+)2
+
+MN
+
+¯tIT B
+¯tB
+
+=
+
+¯tIT A
+
+4(2 q)2 (1
+)(1 N )2
+= (4 3q + (q 2N (2 q) ) ) G > 1.
+¯tA
+1
+4(M + N
+MN )2
+>
+1
+.
+Hence,
+we
+get
+G1 (M MN + (1 + N
+) )
+
+, respectively. Then, we have
+
+>
+> ¯ t and
+. (Q.E.D.)
+Proof of Proposition 7: Similar to Proposition 4, we can derive the similar results. Differently, under Case A, if F = 0 , we have
+
+¯tIT A
+
+d tIT A
+dq
+
+A
+
+¯tIT B
+
+¯ tB
+
+< 0 if and only if q < qTIT
+
+Therefore,
+
+¯tIT A
+
+>
+
+IT A
+t
+
+A
+
+, where qTIT
+
+if and only if q
+
+Proof of Proposition 8: First, we have
+
+IT A
+
+_ T
+dCTW
+dpo
+
+A
+
+<q<
+
+=
+
+q 2 (1
+
+qTIT A ,
+
+N
+
+)(4(1
+
+where q
+
+N )(1
+(1
+IT A
+
+_ T
+
+=
+
+N )(1
+) + q 2 (1 N
+N )2 2 (2
+N )
+min{q , qTIT A} and qTIT A
+)
+
+8q (1
+
+)(2
+
+N
+
+2q )2 (1
+
+= max{q ,
+
+))
+(1
+qTIT A}
+
+q 2 (1 N )
+2q )(1 N )
+
+.
+
+. (Q.E.D.)
+
+= M po > 0 , which implies that CTW is increasing in pp . Since p¯oA > poA if and only if
+
+>
+q < q , and
+if and only if q > q (please revisit Proposition 3) and p¯oIT i = poIT i (please revisit Section 5.2), we can easily
+¯ B > CTW B if and only if q > q , and CTW
+¯ A > CTW A if and only if q < q , CTW
+¯ IT i = CTW IT i . (Q.E.D.)
+infer that CTW
+CTW
+poIT A > poA , p¯oIT i > p¯oi ,
+po
+is
+increasing
+in
+and
+and
+Proof
+of
+Proposition
+9:
+Since
+Mq (1 N )
+IT B
+B
+^
+pj
+> pj if and only if q < M (1 N ) q (1 ) , we can derive the results. (Q.E.D.)
+p¯oB
+
+poB
+
+16
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+References
+Agrawal, V.V., Atasu, A., Van Wassenhove, L.N., 2019. OM Forum—new opportunities for operations management research in sustainability. Manuf. Service Operat.
+Manage. 21 (1), 1–12.
+Anderson, E.G., Parker, G.G., Tan, B., 2014. Platform performance investment in the presence of network externalities. Inform. Syst. Res. 25 (1), 152–172.
+Babich, V., Hilary, G., 2020. Distributed ledgers and operations: what operations management researchers should know about blockchain technology. Manuf. Service
+Operat. Manage. 22 (2), 223–240.
+Bieniek, M., 2019. The ubiquitous nature of inventory: Vendor Managed Consignment Inventory in adverse market conditions. Eur. J. Operat. Res. (in press).
+Buratto, A., Cesaretto, R., De Giovanni, P., 2019. Consignment contracts with cooperative programs and price discount mechanisms in a dynamic supply chain. Int. J.
+Prod. Econ. 218, 72–82.
+Cai, Y., Choi, T.M., Zhang, J., 2020. Platform supported supply chain operations: supply contracting and moral hazards. Decis. Sci. (in press).
+Castillo, M., Schifrin, M., 2020. Forbes Blockchain 50. Forbes. Feb 19. Accessed at: https://www.forbes.com/sites/michaeldelcastillo/2020/02/19/blockchain-50.
+Chahal, M., 2013. The second-hand market: what consumers really want to buy. Marketing Week. Oct 21. Available at: https://www.marketingweek.com/the-secondhand-market-what-consumers-really-want-to-buy/.
+Chen, J.M., Lin, I.C., Cheng, H.L., 2010. Channel coordination under consignment and vendor-managed inventory in a distribution system. Transport. Res. Part E:
+Logist. Transport. Rev. 46 (6), 831–843.
+Chen, Y.J., Dai, T., Korpeoglu, C.G., Körpeoğlu, E., Sahin, O., Tang, C.S., Xiao, S., 2020. Innovative online platforms: research opportunities. Manuf. Service Operat.
+Manage. 22 (3), 430–445.
+Chod, J., Trichakis, N., Tsoukalas, G., Aspegren, H., Weber, M. 2019. On the financing benefits of supply chain transparency and blockchain adoption. Manage. Sci. (in
+press).
+Choi, T.M., 2020. Innovative “Bring-Service-Near-Your-Home” operations under corona-virus (COVID-19/SARS-CoV-2) outbreak: can logistics become the messiah?
+Transport. Res. Part E: Logist. Transport. Rev. https://doi.org/10.1016/j.tre.2020.101961.
+Choi, T.M., Chow, P.S., Lee, C.H., Shen, B., 2018. Used intimate apparel collection programs: a game-theoretic analytical study. Transport. Res. Part E: Logist.
+Transport. Rev. 109, 44–62.
+Choi, T.M., Luo, S., 2019. Data quality challenges for sustainable fashion supply chain operations in emerging markets: roles of blockchain, government sponsors and
+environment taxes. Transport. Res. Part E: Logist. Transport. Rev. 131, 139–152.
+Choi, T.M., 2019. Blockchain-technology-supported platforms for diamond authentication and certification in luxury supply chains. Transport. Res. Part E: Logist.
+Transport. Rev. 128, 17–29.
+Choi, T.M., He, Y., 2019. Peer-to-peer collaborative consumption for fashion products in the sharing economy: platform operations. Transport. Res. Part E: Logist.
+Transport. Rev. 126, 49–65.
+Choi, T.M., Feng, L., Li, R., 2020a. Information disclosure structure in supply chains with rental service platforms in the blockchain technology era. Int. J. Prod. Econ.
+221, 107473.
+Choi, T.M., Guo, S., Liu, N., Shi, X., 2020b. Optimal pricing in on-demand-service-platform-operations with hired agents and risk-sensitive customers in the Blockchain
+Era. Eur. J. Oper. Res. 284 (3), 1031–1042.
+Choi, T.M., Guo, S., 2020. Is a “Free Lunch” a good lunch? The performance of zero wholesale price-based supply-chain contracts. Eur. J. Oper. Res. 285 (1), 237–246.
+Choi, T.M., Wen, X., Sun, X., Chung, S.H., 2019. The mean-variance approach for global supply chain risk analysis with air logistics in the blockchain technology era.
+Transport. Res. Part E: Logist. Transport. Rev. 127, 178–191.
+Cui, Y., Hu, M., Liu, J. 2019. Values of traceability in supply chains. Working paper. Available at https://doi.org/10.2139/ssrn.3291661.
+Chu, L.Y., Nazerzadeh, H., Zhang, H., 2020. Position ranking and auctions for online marketplaces. Manage. Sci. 66 (8), 3617–3634.
+De Giovanni, P., Karray, S., Martín-Herrán, G., 2019. Vendor management inventory with consignment contracts and the benefits of cooperative advertising. Eur. J.
+Oper. Res. 272 (2), 465–480.
+Dimitrov, B. 2019. How Walmart and others are riding a blockchain wave to supply chain Paradise. Forbes, December 5. Accessed at: https://www.forbes.com/sites/
+biserdimitrov/2019/12/05/how-walmart-and-others-are-riding-a-blockchain-wave-to-supply-chain-paradise/.
+Du, S., Wang, L., Hu, L., Zhu, Y., 2019. Platform-led green advertising: Promote the best or promote by performance. Transport. Res. Part E: Logist. Transport. Rev.
+128, 115–131.
+Esenduran, G., Hill, J.A., Noh, I.J., 2020. Understanding the choice of online resale channel for used electronics. Prod. Operat. Manage. 29 (5), 1188–1211.
+Feng, L., Zheng, X., Govindan, K., Xue, K., 2019. Does the presence of secondary market platform really hurt the firm? Int. J. Prod. Econ. 213, 55–68.
+Fernando, A., Sivakumaran, B., Suganthi, L., 2018. Comparison of perceived acquisition value sought by online second-hand and new goods shoppers. Eur. J. Mark. 52
+(7/8), 1412–1438.
+Ghose, A., Smith, M.D., Telang, R., 2006. Internet exchanges for used books: an empirical analysis of product cannibalization and welfare impact. Inform. Syst. Res. 17
+(1), 3–19.
+Gong, D., Liu, S., Liu, J., Ren, L., 2019. Who benefits from online financing? A sharing economy E-tailing platform perspective. Int. J. Prod. Econ. 222, 107490.
+Hu, W., Li, Y., Govindan, K., 2014. The impact of consumer returns policies on consignment contracts with inventory control. Eur. J. Oper. Res. 233 (2), 398–407.
+Li, F., Du, T.C., Wei, Y., 2019a. Offensive pricing strategies for online platforms. Int. J. Prod. Econ. 216, 287–304.
+Li, G., Zhang, X., Liu, M., 2019b. E-tailer’s procurement strategies for drop-shipping: simultaneous vs. sequential approach to two manufacturers. Transport. Res. Part
+E: Logist. Transport. Res. 130, 108–127.
+Lin, X., Zhou, Y.W., Xie, W., Zhong, Y., Cao, B., 2019. Pricing and product-bundling strategies for E-commerce platforms with competition. Eur. J. Oper. Res. 283 (3),
+1026–1039.
+Liu, W., Yan, X., Li, X., Wei, W., 2020. The impacts of market size and data-driven marketing on the sales mode selection in an Internet platform based supply chain.
+Transport. Res. Part E: Logist. Transport. Rev. 136, 101914.
+Min, H., 2018. Blockchain technology for enhancing supply chain resilience. Bus. Horiz. 62 (1), 35–45.
+Mutha, A., Bansal, S., Guide, V.D.R., 2019. Selling assortments of used products to third-party remanufacturers. Prod. Operat. Manage. 28 (7), 1792–1817.
+Newbold, A., 2019. Louis Vuitton to launch first blockchain to help authenticate luxury goods. Vogue. May 17. Accessed at: https://www.vogue.co.uk/article/lvmhblockchain.
+Orlean, S., 2019. Therealreals online luxury consignment shop. The New Yorker. October 14. Accessed at: https://www.newyorker.com/magazine/2019/10/21/
+therealreals-online-luxury-consignment-shop.
+Pollock, D., 2020. BMW opens its doors for mobility open blockchain initiative's first European colloquium. Forbes. Accessed at: https://www.forbes.com/sites/
+darrynpollock/2019/02/15/bmw-opens-its-doors-for-mobility-open-blockchain-initiatives-first-european-colloquium/#fb64dca7f1d4.
+Ryan, J.K., Sun, D., Zhao, X., 2012. Competition and coordination in online marketplaces. Prod. Operat. Manage. 21 (6), 997–1014.
+Saberi, S., Kouhizadeh, M., Sarkis, J., Shen, L., 2019. Blockchain technology and its relationships to sustainable supply chain management. Int. J. Prod. Res. 57,
+2117–2135.
+Steinker, S., Hoberg, K., Thonemann, U.W., 2017. The value of weather information for e-commerce operations. Prod. Operat. Manage. 26 (10), 1854–1874.
+Shen, B., Xu, X., Yuan, Q., 2020. Demand learning through social media exposure in the fashion industry: see now buy now vs. see now buy later. IEEE Trans. Eng.
+Manage. https://doi.org/10.1109/TEM.2020.3009742.
+Shen, B., Choi, T.M., Minner, S., 2019a. A review on supply chain contracting with information considerations: information updating and information asymmetry. Int.
+J. Prod. Res. 57 (15–16), 4898–4936.
+Shen, B., Choi, T.M., Chan, H.L., 2019b. Selling green first or not? A bayesian analysis with service levels and environmental impact considerations in the big data era.
+Technol. Forecast. Soc. Chang. 144, 412–420.
+Tian, L., Vakharia, A.J., Tan, Y.R., Xu, Y., 2018. Marketplace, reseller, or hybrid: strategic analysis of an emerging e-commerce model. Prod. Operat. Manage. 27 (8),
+1595–1610.
+Wang, Y., Jiang, L., Shen, Z.J., 2004. Channel performance under consignment contract with revenue sharing. Manage. Sci. 50 (1), 34–47.
+Wang, Y., Singgih, M., Wang, J., Rit, M., 2019. Making sense of blockchain technology: (How) will it transform supply chains? Int. J. Prod. Econ. 211, 221–236.
+Wei, Y., Xiong, S., Li, F., 2019. Ordering bias with two reference profits: Exogenous benchmark and minimum requirement. Transport. Res. Part E: Logist. Transport.
+
+17
+
+Transportation Research Part E 142 (2020) 102066
+
+B. Shen, et al.
+
+Rev. 128, 229–250.
+Wen, X., Siqin, T., 2020. How do product quality uncertainties affect the sharing economy platforms with risk considerations? A mean-variance analysis. Int. J. Prod.
+Econ. 224, 107544.
+Xiao, W., Xu, Y., 2018. Should an online retailer penalize its independent sellers for stockout? Prod. Operat. Manage. 27 (6), 1124–1132.
+Yan, Y., Zhao, R., Liu, Z., 2018. Strategic introduction of the marketplace channel under spillovers from online to offline sales. Eur. J. Oper. Res. 267 (1), 65–77.
+Zhao, J., Zhou, Y., Cao, Z., Min, J., 2019. The shelf space and pricing strategies for a retailer-dominated supply chain with consignment based revenue sharing
+contracts. Eur. J. Oper. Res. 280, 926–939.
+
+18
+
+

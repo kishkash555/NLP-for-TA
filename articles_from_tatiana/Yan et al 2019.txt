@@ -1,0 +1,1701 @@
+European Journal of Operational Research 273 (2019) 968–982
+
+Contents lists available at ScienceDirect
+
+European Journal of Operational Research
+journal homepage: www.elsevier.com/locate/ejor
+
+Production, Manufacturing, Transportation and Logistics
+
+Strategic introduction of the marketplace channel under dual
+upstream disadvantages in sales eﬃciency and demand information
+Yingchen Yan a, Ruiqing Zhao a,∗, Tiantian Xing b
+a
+b
+
+College of Management and Economics, Tianjin University, Tianjin 300072, China
+Institute of Finance and Banking, Chinese Academy of Social Sciences, Beijing 100028, China
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 18 September 2017
+Accepted 19 September 2018
+Available online 25 September 2018
+Keywords:
+Retailing
+Online retailing
+Dual-channel distribution
+Supply channel structure
+Game theory
+
+a b s t r a c t
+The increasing prevalence of online retailing has recently given rise to a novel marketplace channel, in
+which upstream manufacturers can sell their products directly to consumers by paying a fee to e-tailers.
+While it endows upstream manufacturers with direct access to consumers, it also requires them to personally perform sales work, which is not their strength, especially in the form of sales eﬃciency and demand information. In this paper, we apply a stylized theoretical model to examine whether the manufacturer and e-tailer should agree to introduce the marketplace channel by considering these dual upstream
+disadvantages. We present an interesting insight that the marketplace channel should be introduced under not only a low degree but also a high degree of upstream sales ineﬃciency, which also means that a
+weak direct channel would not necessarily become a burden for the two. Actually, here, its introduction
+leads to higher output, a lower wholesale price and a lower retail price, thus beneﬁting both the supply
+chain members and the overall economy. In contrast, we ﬁnd that only when the upstream informational
+disadvantage is moderate can the two reach consensus and introduce the marketplace channel. These
+ﬁndings, counterintuitively, demonstrate the entirely different effects of two types of upstream disadvantage in the equilibrium channel structure. Further, we also illustrate how the manufacturer’s two disadvantages interact with one another; a manufacturer with higher sales eﬃciency can screen information
+early, while a manufacturer with low sales eﬃciency has to suffer longer from poor demand information.
+© 2018 Elsevier B.V. All rights reserved.
+
+1. Introduction
+Online platform sales have witnessed strong growth in the past
+decade. For instance, in China, which experienced the largest scale
+and highest rate of growth in online retailing, sales were reported
+to be 3.2 trillion RMB in 2015, accounting for 11% of total retail
+sales (Sun, 2016; Yan, Zhao, & Liu, 2018). In addition to the increasingly widespread use of online sales, a novel online channel—the
+marketplace—has emerged, which provides upstream manufacturers with direct access to online consumers in exchange for a fee.
+Thus far, the marketplace has been widely adopted by Amazon and
+Sears, JD.COM and Taobao in China (Bonﬁls, 2012), and Flipkart in
+India (Tiwari, 2014). Speciﬁcally, for Amazon, the largest e-tailer
+worldwide, sales in the marketplace had accounted for approximately 40% of total transactions (Barr, 2012), up from 30% in 2009
+(Stone, 2009). Further, Huang, the CFO of JD.COM, also claims that
+the marketplace has become substantially proﬁtable for JD.COM,
+∗
+
+Corresponding author.
+E-mail addresses: ychyan@tju.edu.cn (Y. Yan), zhao@tju.edu.cn (R. Zhao),
+cjdt@miit-icdc.org (T. Xing).
+https://doi.org/10.1016/j.ejor.2018.09.022
+0377-2217/© 2018 Elsevier B.V. All rights reserved.
+
+improving its gross proﬁt margin by 4.3%. As JD.COM’s sales volume in the marketplace had increased rapidly to 46% by the fourth
+quarter of 2015, the marketplace channel has become nearly as important as the traditional reseller channel (Panshizhixin, 2016).
+In general, relative to the traditional reseller channel, in which
+the manufacturer sells products to the e-tailer that then sells to
+end consumers, a considerable beneﬁt of the novel marketplace
+channel is that it provides upstream manufacturers with direct access to end consumers (Abhishek, Jerath, & Zhang, 2015), which is
+helpful for these manufacturers to adjust downstream competition
+and product output. However, it also gives rise to other problems.
+The most important of these is that, in contrast to the conventional reseller channel, in which manufacturers can relegate sales
+work to the e-tailer, in the marketplace channel, manufacturers
+are responsible for such work, which is not their strength. Moreover, in practice, upstream manufacturers’ disadvantages relative to
+e-tailers often manifest in many ways, especially in sales eﬃciency
+and demand information (Li, Gilbert, & Lai, 2013).
+First, in the real world, upstream manufacturers are often week
+in sales eﬃciency, akin to the e-tailer’s disadvantage in production. This ineﬃciency may stem from manufacturers’ lower level of
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+experience and inferior knowledge of customer preferences or
+from the lack of economies of scope with other retailing activities (Arya, Mittendorf, & Sappington, 2007; Li et al., 2013; 2015).
+Huang, the CFO of JD.COM, also conﬁrms the e-tailers’ increased
+scale economy, such as in the logistic transportation network,
+which constantly improves the sales eﬃciency of JD.COM relative
+to the upstream manufacturers (Tencent, 2017). Second, as shown
+in the United States, Japan and some European countries, upstream
+manufacturers often have less knowledge of market potential than
+do e-tailers, which are closer to online customers, as a result of
+the latter’s better expertise and superior forecasting ability in the
+selling process, as well as rich ﬁrst-hand sales data (Gao, Woetzel, & Wu, 2003; Niu, Wang, & Guo, 2015). For instance, Amazon
+has data from the sales of millions of products and can use these
+data to identify product potential (Jiang, Jerath, & Srinivasan, 2011).
+These upstream disadvantages would appear to reduce the manufacturer’s willingness of introducing a marketplace channel, and
+then become another major factors that must be considered in determining the downstream channel structure.
+In this paper, from the perspective of the aforementioned
+dual upstream disadvantages of sales eﬃciency and demand
+information, we attempt to examine strategies related to the introduction of the marketplace channel for manufacturers, retailers
+and consumers. The speciﬁc research questions are as follows.
+First, how does the upstream manufacturer’s disadvantage in sales
+eﬃciency affect the introduction of the marketplace channel?
+Will it actually diminish manufacturers’ incentive to introduce
+this channel and increase that of the retailer? Second, how does
+the upstream manufacturer’s disadvantage in demand information
+affect the equilibrium channel structure? Will the two types of
+upstream disadvantage exert effects in the same direction? Third,
+do the manufacturer’s two disadvantages in demand information
+and sales eﬃciency interact with one another and, if so, how?
+Fourth, under the combined effects, what are the outcomes for the
+manufacturer, the e-tailer and the consumer?
+To capture the aforementioned issues, we develop a model in
+which a manufacturer (she) cooperates with an e-tailer (he) to sell
+her products to online consumers through the marketplace channel in addition to the conventional reseller channel. Based on this
+framework, to incorporate the inﬂuence of asymmetric information, we assume that the manufacturer knows only the prior distribution of the demand state, while the e-tailer knows the exact
+realization. Furthermore, we explore the impact of this asymmetric
+sales eﬃciency by assuming that the manufacturer pays a selling
+cost when she directly sells one product through the marketplace
+channel. Then, two primary cases will be analyzed: one in which
+the marketplace channel is not introduced and another in which
+the marketplace channel is introduced. Additionally, for the case in
+which the marketplace channel is introduced, considering a multistage asymmetric information game between the manufacturer
+and e-tailer, we also present and study two methods of information transmission. After deriving the equilibrium solutions of these
+cases, we obtain some novel management insights.
+First, we ﬁnd the introduction of the marketplace channel will
+be an equilibrium strategy under both a high level and a low
+level of upstream sales eﬃciency. Given high sales eﬃciency in
+the marketplace channel, the manufacturer is endowed with an
+eﬃcient approach to control downstream output, which avoids the
+e-tailer obtaining a monopoly; the e-tailer is derives proﬁts from
+charging a platform fee. Moreover, given low sales eﬃciency, we
+counterintuitively ﬁnd that such a weak channel would not necessarily become a burden for the two. The manufacturer will reduce
+the wholesale price to encourage the e-tailer to sell more through
+the eﬃcient reseller channel; the e-tailer will order more due
+to his fear that the manufacturer will sell too much through the
+weak marketplace channel. They jointly emphasize improving the
+
+969
+
+performance of the strong reseller channel, thus causing a Pareto
+improvement.
+Second, we ﬁnd that, in the face of informational disadvantage, the manufacturer will attempt to infer the true demand from
+the e-tailer’s order; this information transmission will reduce the
+e-tailer’s proﬁt gained from private information and instead increase the manufacturer’s proﬁt. Consequently, only when the information value is not too high or too low, i.e., the e-tailer’s loss
+and the manufacturer’s beneﬁt are both acceptable, can they reach
+consensus and introduce the marketplace. Interestingly, the ﬁrst
+and second insights demonstrate entirely different effects of the
+two types of upstream disadvantage; the marketplace will be introduced when the eﬃciency disadvantage is pronounced or slight
+but when the informational disadvantage is moderate.
+Third, we illustrate how the manufacturer’s two disadvantages
+interact with one another; a manufacturer with higher sales eﬃciency can improve her ability to identify information early, while
+a manufacturer with poor sales eﬃciency has to suffer longer from
+poor demand information. Given a low selling cost, the manufacturer will screen initially. Here, she infers demand early and then
+makes decisions that are better suited to the market, while she
+has to undertake more retailing work because the low-type e-tailer
+is priced out through the wholesale price. As the selling cost increases, the manufacturer would prefer not to engage in substantial direct retailing. Thus, she initially has to pool to ensure participation by either type of e-tailer and postpone identifying the
+demand information.
+Fourth, we ﬁnd that the introduction of the marketplace channel has a surprising positive impact, not only on the proﬁts of the
+manufacturer and e-tailer but also on consumer welfare when the
+selling cost is suﬃciently high or low and the information value
+is moderate. Here, through the addition of another channel, total
+output will increase to a more appropriate level, which can lead to
+higher total proﬁts; the wholesale price also decreases, thereby improving the proﬁt distribution between the manufacturer and the
+e-tailer. These symbiotic effects lead to a “win–win–win” outcome
+for the manufacturer, e-tailer and consumers.
+The remainder of this paper is organized as follows. In
+Section 2, we brieﬂy review the related literature. In Section 3,
+we set up the model. In Section 4, we study the manufacturer’s
+and e-tailer’s optimal decisions in the absence and presence of the
+marketplace. In Section 5, we present the equilibrium strategies. In
+Section 6, we explore the impact of introducing the marketplace
+on the consumer surplus. In Section 7, we study the impact of
+the fee rate and derive the optimal platform fee. In Section 8, we
+extend our results by altering some assumptions in the model. In
+Section 9, we conclude the paper with a brief discussion.
+2. Literature review
+Our research lies at the intersection of the bodies of literature
+on (i) the dual-channel supply chain, (ii) the online sales format,
+and (iii) asymmetric information strategies. Next, we describe how
+our work relates to the literature in these areas.
+The dual-channel supply chain has been extensively researched
+in the literature. Research on this problem proceeds from various perspectives, such as production and inventory strategies
+(Chiang, 2010; Chiang & Monahan, 2005; Hsieh, Chang, & Wu,
+2014; Takahashi, Aoi, Hirotani, & Morikawa, 2011), retail service
+(Chen, Kaya, & Özer, 2008; Dan, Xu, & Liu, 2012), information sharing (Mukhopadhyay, Zhu, & Yue, 2008; Yao, Yue, Wang, & Liu,
+2005), coordinating a dual-channel supply chain (Chen, Zhang, &
+Sun, 2012; Xu, Dan, Zhang, & Liu, 2014), and the addition of a
+channel (Arya et al., 2007; Cao, So, & Yin, 2016; Chen, Liang, Yao, &
+Sun, 2017; Chen et al., 2012; Chiang, Chhajed, & Hess, 2003). Our
+work is situated in the speciﬁc stream of adding another channel.
+
+970
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+Table 1
+The most related papers on online sales formats.
+Literature
+
+Problem
+
+Key factors
+
+Game players
+
+Channel
+
+Results regarding
+marketplace
+
+Jiang et al. (2011)
+
+Whether to introduce
+the reseller to
+replace the
+marketplace
+Whether to introduce
+the marketplace in
+addition to a direct
+channel and a
+reseller channel
+Whether to introduce
+the marketplace in
+addition to the
+reseller
+Reseller or marketplace
+
+Asymmetric information
+(the upstream has private
+demand information)
+
+A ﬁrm – a platform
+
+One channel
+
+Coordination; competition
+
+A retailer – a ﬁrm
+
+Three channels
+
+Market information may be
+leaked through the
+marketplace, causing the
+seller to underinvest
+The introduction of the
+marketplace can expand
+the available market
+
+Bargaining
+
+A retailer – a 3P
+seller – a
+manufacturer
+
+Two channels
+
+Marketing activities;
+network effect
+
+N suppliers – an
+intermediary
+
+N channels
+
+Ryan et al. (2012)
+
+Mantin et al. (2014)
+
+Hagiu and Wright
+(2014)
+
+Jin et al. (2015)
+
+Reseller or marketplace
+
+Sales promotion; limited
+capital
+
+A retailer – a
+manufacturer
+
+One channel
+
+Yan et al. (2018)
+
+Whether to introduce
+the marketplace in
+addition to the
+reseller and an
+oﬄine channel
+Whether to introduce
+the marketplace in
+addition to the
+reseller
+
+Spillovers from online to
+oﬄine; competition
+
+A retailer – a
+manufacturer
+
+Three channels
+
+Asymmetric information
+(the downstream has
+private demand
+information; the
+upstream has private cost
+information in
+extensions); asymmetric
+eﬃciency; competition
+
+A retailer – a
+manufacturer
+
+Two channels
+
+Our work
+
+In this ﬁeld, Chiang et al. (2003) study the impact of customer acceptance of a direct channel and ﬁnd that adding a direct channel
+is not always detrimental to the retailer. Arya et al. (2007) ﬁnd that
+the addition of a direct channel can reduce the wholesale price
+and increase downstream competition, thereby mitigating double
+marginalization problems. Chen et al. (2012) examine coordination
+schemes in a dual-channel setting. Cao et al. (2016) study the impact of an “online-to-store” channel on the demand allocations and
+proﬁtability. Chen et al. (2017) investigate price and quality decisions in dual-channel supply chains and demonstrate that the introduction of a second channel can improve quality. In contrast to
+the above research, we not only focus on the introduction of a marketplace channel instead of a direct channel but also do so from a
+different perspective: the dual upstream disadvantages in sales efﬁciency and demand information. First, compared to a direct channel, when operating through the marketplace channel, a manufacturer can acquire direct access to consumers but still needs to pay
+a platform fee; the platform fee charged by the e-tailer can also affect the decisions and performance of this channel, which is a distinct difference from the direct channel, which can be controlled
+completely by the manufacturer. Moreover, the e-tailer can also
+decide, in conjunction with the manufacturer, whether to provide
+the marketplace channel; therefore, the equilibrium strategies will
+be affected by both the manufacturer and the e-tailer, rather than
+the manufacturer alone. Second, regarding the dual upstream sales
+disadvantage, we demonstrate the entirely different effects of two
+types of upstream disadvantage in the equilibrium channel structure and illustrate how the manufacturer’s two disadvantages interact with one another.
+Our work is especially related to the literature on online sales
+formats, mainly consisting of the reseller and the marketplace
+
+The retailer can improve its
+bargaining position in
+negotiations by having a
+marketplace
+The marketplace is better
+for long-tail (short-tail)
+products if the reseller
+has a variable cost
+advantage (disadvantage)
+The marketplace is better
+off when the retailer has
+more power in the chain
+and has suﬃcient capital
+It is preferable to introduce
+the marketplace only
+when the spillover effect
+is moderate
+
+Core differences
+Problem and
+channel structure
+
+Key factors and
+channel structure
+
+Key factors and
+game player
+
+Problem, key
+factors and
+channel structure
+
+Problem, key
+factors and
+channel structure
+Key factors and
+channel structure
+
+It is preferable to introduce
+the marketplace when
+the upstream information
+disadvantage is moderate
+but the eﬃciency
+disadvantage is extreme
+
+formats. Jiang et al. (2011), Hagiu and Wright (2014) and Kwark,
+Chen, and Raghunathan (2017) compare the traditional reseller and
+the novel marketplace channels from various perspectives. Moreover, Ryan, Sun, and Zhao (2012), Mantin, Krishnan, and Dhar
+(2014) and Yan et al. (2018) address another question, namely,
+whether the e-tailer should choose to sell through the marketplace
+channel in addition to the conventional reseller channel. As these
+works are especially related to our own, we summarize them in
+Table 1 to better illustrate the contribution of our work. Speciﬁcally, our work considers the equilibrium strategy of whether to
+introduce a marketplace channel from the novel perspective of a
+dual upstream disadvantage in demand information and sales efﬁciency. We present the interesting insight that the two types of
+upstream disadvantage exert entirely different effects on the introduction of the marketplace channel. Further, we also explore how
+the manufacturer’s two disadvantages interact with one another.
+Our study is also related to the literature that explores asymmetric information strategies in multistage games. In this ﬁeld,
+our work is situated in the speciﬁc stream of research that studies asymmetric demand information between an upstream manufacturer and downstream retailers. Generally, there are two types
+of mechanisms to identify information: screening and signaling. In
+the ﬁrst category, Porteus and Whang (1999) are the ﬁrst to discuss the design of a supply chain contract through which the manufacturer can screen a retailer’s private demand information. In
+subsequent contributions, other researchers (Ha & Tong, 2008; Ha,
+Tong, & Zhang, 2011; Li, Gilbert, & Lai, 2015) establish screening
+models to study the screening contract design problem from different perspectives. In the second category, some papers (Anand &
+Goyal, 2009; Cachon & Lariviere, 2001; Kong, Rajagopalan, & Zhang,
+2013; Li et al., 2013; Özer & Wei, 2006) address, from various
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+perspectives, a signaling problem in which a retailer reveals demand information to a supplier. In contrast to the above papers,
+we simultaneously consider screening and signaling, an approach
+that has attracted limited attention thus far. This paper establishes
+a three-stage game, in which a manufacturer who faces an informational disadvantage can choose to screen initially or acquire a
+signal. We also compare initial screening and acquiring a signal
+and ﬁnd that a manufacturer will screen early only with a suﬃciently high sales eﬃciency. Moreover, we also ﬁnd that an e-tailer
+who possesses an informational advantage may prefer to tell the
+truth or deceive due the complicated co-opetition relationship between him and manufacturer, which also contrasts with the insight
+that the high-type e-tailer always mimics (Anand & Goyal, 2009;
+Kong et al., 2013; Li et al., 2013).
+3. Model setup
+We consider a manufacturer (she) who cooperates with an
+e-tailer (he) to sell her products to online consumers. For simplicity, we index the manufacturer and the e-tailer by m and e, respectively. Both of the parties are risk neutral and seek to maximize
+their own proﬁts.
+3.1. Channel structures
+The manufacturer and the e-tailer initially cooperate through a
+conventional reseller channel, in which the e-tailer buys products
+from the manufacturer at wholesale price w and then sells them
+to online consumers. This channel format, which is already fairly
+common in online retailing, is also similar to the selling format
+commonly applied in brick-and-mortar retailing. In addition, the
+market is witnessing the emergence of a novel channel—the marketplace, in which the e-tailer offers the manufacturer an option
+to engage in direct selling by charging a fraction r of the proﬁt as
+the platform fee to access online customers. We also consider an
+extension in which the platform fee, initially modeled as a fraction
+of proﬁts, is modeled as a fraction of revenue, in Section 8.3, and
+we ﬁnd that the main conclusions remain qualitatively unchanged.
+Moreover, note that we assume that the platform fee is not ﬁxed
+but is instead a fraction of proﬁts or revenue. This type of platform fee structure is used by many online marketplaces, e.g., Amazon Marketplace, Travelocity, Alice, JD.COM. (Abhishek et al., 2015).
+Furthermore, this structure is applied by most of works on platform operations, including, for example, Tan and Carrillo (2017),
+Abhishek et al. (2015), Jin, Wang, and Hu (2015), and Yan et al.
+(2018).
+Further, we assume that the platform fee rate charged by the
+e-tailer to the manufacturer is as an exogenous factor because the
+platform fee rate is generally a longer-term and larger-scale decision relative to the wholesale price and the selling quantities.
+Speciﬁcally, if e-tailers, such as JD.COM, impose a platform fee,
+they will do so for all the products that they offer in a given category and will not adjust their strategies for one manufacturer or
+one type of product. For instance, JD.COM charges 7% for clothes
+and shoes, 6% for luxury items, 5% for sporting goods, and so
+forth.1 Further, once these retailers impose a platform fee for using the marketplace channel, they will not change it at random.
+Thus, it is more diﬃcult for the retailers to change a platform fee
+than it is for the manufacturer to change the wholesale price and
+selling quantity, and thus, we consider the platform fee rate to be
+an exogenous factor, at least relative to the others. Moreover, we
+consider an extension in which the e-tailer can endogenously determine the platform fee rate in Section 7 and provide suggestions
+for setting the platform fee rate.
+1
+
+https://www.rule.jd.com/rule/ruleDetail.action?ruleId=2607.
+
+971
+
+3.2. Demand speciﬁcation
+The market clearing price P for the e-tailer’s online customers
+is assumed to follow a linear, downward-sloping function, P =
+A − qe − qm , where A is the demand state, qe is the order quantity of the e-tailer in the reseller, and qm is the selling quantity
+of the manufacturer in the marketplace. We set a ﬁxed sensitivity coeﬃcient here to simplify the calculation and improve readability, similar to Anand and Goyal (2009), Kong et al. (2013), and
+Li et al. (2013). Further, to explore the impacts of a ﬂexible sensitivity coeﬃcient on the results, we extend the demand function to P = A − b (qe + qm ) in Subsection 8.1 and Px = A − qx − bqy ,
+(x, y ) = (m, e ) or (e, m) in Subsection 8.2 and present how the sensitivity coeﬃcient b affects the equilibrium strategies.
+Moreover, because the demand state is often uncertain and an
+e-tailer, who is closer to online customers, often has better expertise in forecasting the market than the manufacturer, we further
+assume that the demand state A is ex ante random; the e-tailer
+can privately observe the exact demand state, while the manufacturer only knows the prior distribution that A can randomly take
+one of two values: a high value AH with probability p and a low
+value AL with probability 1 − p, where AH > AL > 0. The expected
+demand state is μ = pAH + (1 − p)AL . The range between two market states is δ = AH − AL . Further, for simpliﬁcation, we denote the
+e-tailer who observes a high market state as the high-type e-tailer
+and the e-tailer who observes a low market state as the low-type
+e-tailer. Such settings are widely utilized in the area of information management in a supply chain, such as in Anand and Goyal
+(2009), Kong et al. (2013), and Li et al. (2013).
+3.3. Sales eﬃciency
+Our model also characterizes the asymmetry in sales eﬃciency
+between the e-tailer and the manufacturer by normalizing the
+e-tailer’s unit selling cost to zero but letting c denote the manufacturer’s unit cost of direct selling to online consumers. A
+setting that incorporates asymmetric sales eﬃciency between the
+retailer and the manufacturer is common in prior research, such
+as Arya et al. (2007) and Li et al. (2013, 2015). This setting is also
+reasonable in practice because the (incumbent) e-tailer often has
+an advantage in the sales process, akin to a manufacturer’s production skills. The retailer’s advantage might stem from superior
+knowledge of customer preferences and more direct contact with
+customers or from economies of scope with other retailing activities and logistics (Arya et al., 2007). Especially in the e-commerce
+environment, economies of scale in logistics are increasingly signiﬁcant. Huang, the CFO of JD.COM, conﬁrms the increased economy of scale in self-logistics, which constantly decreases JD.COM’s
+sales costs and has become the leading reason for the consistent improvements in its gross margin (Tencent, 2017). As reported
+in Yang (2017), JD.COM’s self-logistic network has operated for 9
+years and covers 98% of consumers in China; this powerful logistics
+network and the continuous technological innovation will provide
+substantial economies of scale for JD.COM.
+In addition, an extension in which the manufacturer can retain
+the selling cost as her private information is made in Section 8.4.
+The main conclusions regarding the impact of the unit selling cost
+remain qualitatively unchanged; however, the results regarding the
+impact of the information value change when private information
+is held by the manufacturer instead of by the e-tailer.
+After introducing the model setup, we summarize the cases
+considered in this paper in Fig. 1. First, we explore the benchmark case (in Subsection 4.1), in which the marketplace is not
+introduced. Next, we study the complex case (in Subsection 4.2),
+in which the marketplace is introduced. In this section, for
+the multistage asymmetric information game between the man-
+
+972
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+acquire demand information in such a case and thus has to determine her wholesale price depending on the expected demand
+state, whereas an e-tailer with accurate information can place his
+order based on the real demand state.
+Moreover, we can obtain the corresponding expected payoffs of
+(1−p) δ
+the manufacturer and the e-tailer, which are μ8 and μ +4 p16
+,
+respectively. To better illustrate the impact of information, we derive another no information case, in which neither the e-tailer
+nor the manufacturer possesses the exact demand information but
+only knows the distribution. Then, compared with the no information case, we ﬁnd that the manufacturer’s proﬁt remains unchanged, while the e-tailer can acquire an additional proﬁt of
+2
+
+Fig. 1. Tree of decisions.
+
+4. Analysis regarding the introduction of the marketplace
+channel
+In this section, we ﬁrst study the benchmark case in the absence of the marketplace, and then focus on the complex case with
+the introduction of the marketplace.
+4.1. No introduction of the marketplace channel
+Before beginning the analysis of how the introduction of the
+marketplace channel affects the interactions between the upstream
+manufacturer and the e-tailer, we characterize the benchmark case
+in which the marketplace is not introduced. Hence, only the reseller channel exists in this case, i.e., the e-tailer acts simply as a
+traditional “merchant” that procures products from the manufacturer and then sells them to online customers. The timing of this
+subgame is as follows. First, the manufacturer decides the wholesale price w. Then, the e-tailer determines his order quantity qe
+and sells products to the market. Backward induction is employed
+to identify the equilibrium of the game.
+Thus, given the wholesale price w and the demand states AH
+and AL , the e-tailer chooses his order quantities qeH and qeL by
+maximizing his proﬁts respectively:
+
+max (AH − qeH − w )qe and max (AL − qeL − w )qe .
+qeL
+
+We can easily get the e-tailer’s optimal order quantities qeH =
+AH −w
+A −w
+for a high demand state and qeL = L 2 for a low demand
+2
+state.
+Accounting for the e-tailer’s reaction, the manufacturer determines the wholesale price as the solution to:
+
+max pwqeH + (1 − p)wqeL .
+w
+
+By solving the ﬁrst-order conditions, we can obtain the equilibrium outcomes as follows.
+Proposition 1. If the marketplace channel is not introduced, the following equilibrium exists:
+(i) The optimal wholesale price of the manufacturer is wN = μ
+2.
+(ii) The optimal order quantities of the e-tailer are qN
+eH =
+the demand state is high and
+
+qN
+eL
+
+=
+
+2 AL −μ
+4
+
+2
+
+p (1−p) δ 2
+4
+
+ufacturer and the e-tailer, two possible equilibrium paths exist: one (in Subsubsection 4.2.1) is that the manufacturer pools
+at ﬁrst and acquires the signal from the e-tailer; the second
+(in Subsubsection 4.2.2) is that the manufacturer engages in
+forward screening to determine the e-tailer’s type. Speciﬁcally,
+Subsubsection 4.2.1 can be further divided into two parts according
+to the e-tailer’s preference between telling the truth and mimicking another type.
+
+qeH
+
+2
+
+2 AH −μ
+4
+
+if
+
+if the demand state is low.
+
+Proposition 1 presents the optimal strategies of both parties. From their decisions, we learn that the manufacturer cannot
+
+from his information advantage. This additional proﬁt obtained by the e-tailer increases with the difference between market
+states δ . This is because, as the two market states diverge further
+in a two-point distribution, market uncertainty increases, thereby
+increasing the value of information. In this way, the e-tailer can
+beneﬁt more from his private information.
+4.2. The introduction of the marketplace channel
+In this conﬁguration, the marketplace channel is introduced in
+addition to the reseller channel. In other word, the manufacturer
+and the e-tailer sell products with two approaches of cooperation
+at the same time. The multistage game between two parties with
+asymmetric information proceeds as follows. (i) At ﬁrst the manufacturer establishes the wholesale price w. (ii) Then the e-tailer
+chooses his retail output qe on the reseller. (iii) After observing the
+e-tailer’s order quantity, the manufacturer determines the number
+of units qm of the homogeneous product she plans to sell through
+the marketplace. (iv) Finally, the market clearing price is realized,
+as are the proﬁts of the manufacturer and the e-tailer.
+From the sequence of events, we learn that a manufacturer
+lacking deﬁnite information about the demand state has two
+means of acquiring information: ﬁrst, the manufacturer can initially pool and acquire to observe the e-tailer’s order quantity,
+which will reveal the demand information; second, the manufacturer can also initially screen the type of the e-tailer by adjusting
+the wholesale price at the beginning of the game. The choice that
+will be made depends on which case allows the manufacturer to
+acquire a higher proﬁt. Next, we explore the equilibrium outcome
+when only one method to infer the demand state is viable.
+4.2.1. When the manufacturer pools at ﬁrst and acquires for the
+signal from the e-tailer
+In such a case, the manufacturer can observe the order quantity
+of the e-tailer to further infer the demand state and tailor her selling quantity for the marketplace channel. In the meantime, when
+placing an order, the e-tailer will anticipate the manufacturer’s
+incentive and then may purposely alter his order quantity, thus
+generating a signaling game. As we all know, based on the speciﬁcation of player beliefs, two mutually exclusive types of pure strategy Perfect Bayesian Nash Equilibrium will rise in such a signaling
+game: (i) the separating equilibrium, in which the e-tailer decides
+different order quantities for different demand state, thus revealing
+the demand information to the manufacturer; (ii) the pooling equilibrium, in which the e-tailer determines the same order quantity
+irrespective of the different demand state and thus the manufacturer still cannot obtain any demand information. Nevertheless,
+it can be veriﬁed that the pooling equilibrium generally does not
+exist (Anand & Goyal, 2009; Li et al., 2013; Tian & Jiang, 2016), and
+even if exists, it is dominated by other equilibrium in most scenarios; hence we ignore the pooling equilibrium in the rest of the
+paper, similar to Kong et al. (2013) and Yan, Zhao, and Lan (2017).
+In this way, under the separating equilibrium, the e-tailer possessing demand information orders a distinct quantity qe under
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+973
+
+different demand state, from which the manufacturer can deduce
+the demand state and then update her belief. Hence her belief
+about the demand state Aj is a function of the e-tailer’s order
+quantity qe . Intuitively, the e-tailer would order more if the true
+demand state is higher. Therefore, we can apply the following belief structure that depends on a threshold order quantity qˆe :
+
+
+
+Pr(A j = AH ) =
+
+0,
+1,
+
+if qe  qˆe
+otherwise,
+
+indicating that the manufacturer will regard the demand state as
+a low-type one if the e-tailer’s order quantity qe  qˆe and a hightype one otherwise. Such a belief structure is also widely applied
+in Anand and Goyal (2009), Kong et al. (2013), Yan et al. (2017) and
+so on.
+Then we can present the proﬁt functions of the two parties.
+Note that in this case, the proﬁt of the e-tailer is derived from two
+segments: the ﬁrst comes from the reseller, in which he procures
+products and then sells them to the end consumers; the second
+comes from the marketplace, in which he provides the manufacturer with direct access to end consumers by charging a platform
+usage fee. Correspondingly, the manufacturer’s proﬁt can be also
+decomposed into two components: the ﬁrst comes from the reseller, in which she sells products at the wholesale price; the second comes from the marketplace, in which she directly sells to
+consumer. Thus, after deducing the demand state as Aj by observing the order quantity of e-tailer qe , the manufacturer decides his
+selling quantity qm by
+
+max wqe + (1 − r )(A j − qe − qm − c )qm ,
+qm
+
+A −qe −c
+
+yielding the optimal quantity of the manufacturer qm (qe ) = j 2
+on the marketplace.
+And the e-tailer, considering the manufacturer’s belief and reaction, determines his order quantity qe as the solution to
+
+max (Ai − qe − qm (qe ) − w )qe + r (Ai − qe − qm (qe ) − c )qm (qe ),
+qe
+
+which can be rewritten by substituting qm (qe ) as:
+
+2 − r 2 ( 2 − r )Ai − A j − 2w + ( 1 + r )c
+qe +
+qe
+4
+2
+r (2Ai − A j − c )(A j − c )
++
+,
+4
+max i j (qe ) = −
+qe
+
+where ∀ i, j ∈ {H, L}. Here ij (qe ) is introduced to represent the
+proﬁt of the e-tailer under such a situation, in which the manufacturer confronting the e-tailer’s order quantity qe will regard the
+demand state as Aj while the true market type is Ai .
+After comparing HH (qe ), HL (qe ), LL (qe ) and LH (qe ) for
+given different selling quantities qe , we can investigate the
+e-tailer’s incentive, namely, whether and under what conditions
+the e-tailer prefers to mimic another type to conceal the exact
+demand information. The e-tailer’s four possible proﬁt functions
+are illustrated in Fig. 2 for clarity. The results are summarized in
+Proposition 2.
+Proposition 2. The incentives of the different types of e-tailer are as
+follows:
+(i) The low-type e-tailer always prefers to tell the truth (i.e.,
+LL (qe ) > LH (qe )).
+(ii) The high-type e-tailer prefers to tell the truth (i.e.,
+HH (qe ) > HL (qe )) when qe < r2δ ; otherwise, he prefers to mimics
+(i.e., HH (qe ) < HL (qe )).
+Result (i) in Proposition 2 indicates that the low-type e-tailer
+always tells the truth and, namely, never mimics a high-type etailer. It can be also shown in Fig. 2 that LL (qe ) is always larger
+than LH (qe ). This is because the low-type e-tailer does not want
+
+Fig. 2. The e-tailer’s possible proﬁts.
+
+the manufacturer to infer that the demand state is high and sell
+more through the marketplace, which will reduce the market clearing price and then harm him.
+In contrast, result (ii) in Proposition 2 indicates that the hightype e-tailer would not always tell the truth; this is also shown
+in Fig. 2, where HH (qe ) is not always larger than HL (qe ). Generally, this is because the e-tailer may have an incentive to mimic
+a low-type e-tailer to induce the manufacturer to sell less through
+the marketplace, thereby allowing him to enjoy a higher market
+clearing price and improve his income. However, we also ﬁnd that
+the high-type e-tailer would also not always mimic. She prefers
+to tell the truth when qe is less than r2δ ; HH (qe ) is shown to be
+larger than HL (qe ) at this time in Fig. 2. This is quite different
+from the common ﬁndings in the literature on demand signaling
+(Anand & Goyal, 2009; Kong et al., 2013; Li et al., 2013; Yan et al.,
+2018), where the high-type sender always wants to mimic. This is
+because, when the e-tailer’s selling quantity qe is fairly small, the
+e-tailer can acquire such a small proﬁt from the reseller. Then, he
+will focus more on increasing his proﬁt earned from the marketplace, which diminishes his incentive to lie.
+Moreover, interestingly, we ﬁnd that the e-tailer’s motivation is
+also directly affected by the platform fee rate r and the difference
+δ between the demand states, which determines the values of the
+threshold r2δ . The platform fee rate r determines the relationship
+between the e-tailer and the manufacturer. If the platform fee rate
+is relatively low, the e-tailer tends to regard the manufacturer as
+a competitor. As the platform fee rate becomes suﬃciently high,
+the e-tailer can occupy a substantial share of the proﬁt earned
+in the marketplace, and then, he would prefer to improve this
+proﬁt. Therefore, as the platform fee rate increases, the e-tailer’s
+incentive to mimic decreases, thus expanding the range in which
+the e-tailer prefers to tell the truth. Furthermore, the difference δ
+between the demand states determines the diﬃculty of mimicking.
+As the difference between the demand states increases, a high-type
+e-tailer has to order a lower quantity to mimic a low-type e-tailer,
+which increases his mimicking cost and thus decreases his incentive to mimic. In this way, the range in which the e-tailer prefers
+to tell the truth expands.
+
+974
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+Next, according to the e-tailer’s incentives, we explore the interactions between the e-tailer and the manufacturer in both the
+No-mimicking region and Mimicking region.
+Case 1: No-mimicking region
+In this situation, the e-tailer can obtain a higher proﬁt if he tells
+the truth, and the manufacturer thereby can maximize her proﬁt
+without any need to consider how to prevent mimicking. The equilibrium outcome is presented in Lemma 1.
+Lemma 1. In no-mimicking region, the following equilibrium exists:
+(i) The optimal wholesale price of the manufacturer is wNM =
+(1−r )μ
+
+2
+r+1 )c
+− (r 2−4
+(3−r ) .
+(ii) The optimal selling quantities of the e-tailer are qNM
+=
+eH
+
+2
+
+(1−r )(AH −μ )
+
+(1−r )(A −μ )
+
+c
+c
+L
++ 32−r
+if the market is high and qNM
+=
++ 32−r
+2−r
+eL
+if the market is low.
+(iii) The optimal selling quantities of the manufacturer are qNM
+mH =
+2−r
+
+AH +(1−r )μ
+− 2(5(3−r−r)c) if
+2(2−r )
+(5−r )c
+if the market is
+2(3−r )
+
+the market is high and qNM
+mL =
+
+AL +(1−r )μ
+2(2−r )
+
+−
+
+low.
+
+Lemma 1 presents the strategies of both the manufacturer and
+the e-tailer when the manufacturer acquires for the signal and the
+e-tailer tells the truth. Because the wholesale price is complicated
+and not intuitive, we take derivatives with respect to the price to
+explore how it is affected. Some interesting trends regarding the
+decision variable are shown in the following.
+Proposition 3. (i) The wholesale price wNM decreases with the platform fee rate r.
+(ii) The √
+wholesale price wNM decreases with
+√ the selling cost c when
+r ∈ (0, 2 − 3 ) and increases when r ∈ (2 − 3, 1 ).
+Result (i) in Proposition 3 presents the relationship between
+the wholesale price and the platform fee rate. This is because
+that a greater fraction of the proﬁt being taken by the e-tailer
+
+qˆe =
+
+( 2 − r )AH − AL − 2w + ( 1 + r )c −
+
+
+
+marketplace decreases further with an increased selling cost, the
+manufacturer would like to increase her wholesale price to obtain
+a higher proﬁt in the reseller.
+Case 2: Mimicking region
+In this situation, the e-tailer would not like to continue telling
+the truth, as he can obtain a higher proﬁt if chooses mimicking, as
+described in Lemma 2. Thus, the manufacturer, recognizing the etailer’s motivation, has to prevent the high-type e-tailer from mimicking as a low-type e-tailer.
+In this way, the manufacturer will identify the low demand
+state only when the e-tailer’s order quantity satisﬁes the following incentive compatibility constraint:
+
+HL (qe )  max HH (qe ),
+qe
+
+in which the right side of the inequality represents the maximum
+proﬁt of the high-type e-tailer telling the truth (i.e., i = j = H);
+and, the left side is the proﬁt of the low-type e-tailer when he
+purposely conveys a signal to induce the manufacturer to regard
+the market as a high-type one (i.e., i = H, j = L). Therefore, this
+incentive compatibility constraint can make sure that the low-type
+e-tailer reach his maximal proﬁt when not mimicking to be a hightype one.
+Through the incentive compatibility constraint, we can complete the manufacturer’s belief structure, as described in Lemma 2,
+which can help to identify the real demand state and function
+when the manufacturer determines her selling quantity through
+the marketplace.
+Lemma 2. In mimicking region, the manufacturer’s belief about the
+market in separating equilibrium is
+
+
+
+Pr(A j = AH ) =
+
+0,
+1,
+
+if qe  qˆe
+otherwise,
+
+in which the threshold order quantity
+
+(1 − r )2 (AH − AL )2 + 2(AH − AL )((1 − r )AH − 2w + (1 + r )c )
+2−r
+
+will directly increase the manufacturer’s burden from direct selling through the marketplace, thereby making her more willing to
+sell her products through the reseller. Thus the manufacturer in
+front of a higher platform fee tends to reduce her wholesale price
+for the purpose of encouraging the e-tailer to sell a larger volume
+through the reseller.
+Result (ii) shows a counterintuitive relationship between the
+wholesale price and the selling cost, which is not monotonous but
+depends on the platform fee charged for obtaining direct access
+to the online customers.
+Speciﬁcally, when the platform fee rate is
+√
+low, i.e., r ∈ (0, 2 − 3 ), a manufacturer with lower sales eﬃciency
+will decrease her wholesale price. This is because a manufacturer
+that is poor at retailing would like to transfer her output from the
+marketplace to the reseller to avoid the pronounced direct selling
+cost. Hence, the manufacturer will set a lower wholesale price to
+induce a larger order quantity from the e-tailer, causing a negative correlation between the wholesale price and the selling
+√ cost.
+However, when the platform fee rate is high, i.e., r ∈ (2 − 3, 1 ),
+we ﬁnd that a manufacturer with lower sales eﬃciency will increase her wholesale price. In such a case, the high platform
+fee substantially reduces the manufacturer’s proﬁt in the marketplace and then his incentive of transferring output to this channel. Moreover, relative to the considerably small proﬁt earned from
+the direct selling through the marketplace, the manufacturer will
+also focus more on acquiring proﬁt through the wholesale trade
+with the e-tailer in the reseller. Consequently, as her proﬁt in the
+
+.
+
+Lemma 2 presents that only when the e-tailer’s order quantity goes less than a certain degree, the manufacturer considers
+the demand state as a low type. This is because that considering the high-type e-tailer’s mimicking incentive, the manufacturer
+will not regard the signal as a low type easily. Thus, the high-type
+e-tailer has to keep his order quantity less than qˆe where he cannot acquire a larger proﬁt any more when mimicking. Otherwise,
+the manufacturer would prone to regard the demand state as a
+high-type one.
+With maximizing the proﬁt functions with such a belief structure, we can obtain the optimal strategies of the e-tailer and the
+manufacturer respectively, as presented in Proposition 4.
+Proposition 4. In mimicking region, the following separating equilibrium exists:
+2−r ) c
+When δ  (3−r )4((1+2
+, the wholesale price, the e-tailer’s orp−2 pr )
+der quantity and the manufacturer’s selling quantity are the same as
+those in no-mimicking region.
+Otherwise, the optimal strategies are as follows:
+˜ satisﬁes
+(i) The wholesale price wMD = w
+
+MD
+dπm
+dw
+
+
+
+ 
+w+(1+r )c
+w−3c 2
+πmMD = p w (1−r )AH −2
++ (1 −
++ (1 − r ) AH2+2
+2−r
+(2−r )
+
+ AL +2w−3c+D 2
+(1−r )AL −2w+(1+r )c−D
+p) w
+.
++ (1 − r )
+2−r
+2(2−r )
+2
+
+
+
+|w=w˜ = 0.2
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+(ii) The e-tailer’s selling quantities are qMD
+=
+eH
+
+(1−r )AH −2w˜ +(1+r )c
+2−r
+
+(1−r )AL −2w˜ +(1+r )c−D
+
+the demand state is high, and qMD
+2−r
+eL =
+mand state is low.
+(iii) The manufacturer’s selling quantities are qMD
+=
+mH
+qMD
+mL
+
+˜ −3c+D
+AL +2w
+2(2−r )
+
+if
+
+if the de-
+
+˜ −3c
+AH +2w
+2(2−r )
+
+if
+
+the demand state is high, and
+=
+if the demand state
+is low.
+√
+˜ +(1+r )c )−(2−r )(AH −AL )
+Here
+D = (1−r )2 (AH −AL )2 +2(AH −AL )((1−r )AH −2w
+represents the distorting coeﬃcient resulted from signaling.
+Proposition 4 demonstrates the strategies of both the manufacturer and the e-tailer when the e-tailer would like to mimic.
+In such a case, a signaling game occurs between the two parties. The optimal strategies of both parties, relative to those in
+no-mimicking range, are the same or distorted, depending on the
+value of the difference between two states δ .
+Speciﬁcally, we ﬁnd that when the difference between states
+is relatively large, the two parties’ optimal strategies regarding
+the wholesale price and quantities are the same as those in nomimicking range. Here, two market states are far apart, and thus,
+the high-type e-tailer, if he wishes to mimic a low-type e-tailer,
+must substantially reduce his order quantity. Such a mimicking
+cost, i.e., the loss derived from the large-scale decline in order
+quantity, is so large that the e-tailer would never choose to mimic.
+Hence, the incentive compatibility constraint is not binding here,
+and the different types of e-tailer can separate out without distorting the order quantity.
+However, when the difference between states becomes small
+enough, the two parties’ optimal strategies are no longer identical to those in the no-mimicking range. In such a case, the
+two states are close, and thus, mimicking gradually becomes increasingly easy. Thus, the incentive compatibility constraint begins
+to bind and their decisions are all distorted. Here, the low-type
+e-tailer must distort his order quantity downward to avoid being
+mistaken as a high-type e-tailer. Following this, the manufacturer
+can correspondingly adjust her order quantity upward to maximize
+her own proﬁt. In this way, relative to the ﬁrst-best outcome in the
+no-mimicking region, signaling may have a negative impact on the
+sender but a positive impact on the receiver.
+Furthermore, note that the distorting coeﬃcient cannot exist in
+the quantities of both parties when the demand state is high. This
+is because, as Lemma 2 demonstrates, the low-type e-tailer is always unwilling to mimic a high-type e-tailer, and then the true
+high-type e-tailer can separate out easily and without any cost.
+4.2.2. When the manufacturer screens at ﬁrst
+In this case, we analyze the equilibrium outcomes when the
+manufacturer chooses to initially screen the type of demand state.
+Here, she will set a high enough wholesale price to price the lowtype e-tailer out of the market. In other words, only the high-type
+e-tailer participates in and can acquire proﬁt from the reseller, and
+the low-type e-tailer will cease reselling the products.
+Thus, when the manufacturer screens at the ﬁrst stage, the
+manufacturer encountering a high-type e-tailer still acquire the
+same proﬁt as that when she acquires the signal. However, if encounters a low-type e-tailer, the manufacturer decides her selling
+quantity as a solution to
+
+max (1 − r )(AL − qm − c )qm ,
+qm
+
+yielding her optimal selling quantity
+proﬁt (1 − r )
+
+
+
+AL −c
+2
+
+2
+
+AL −c
+2
+
+and the corresponding
+
+.
+
+Thus we can obtain the equilibrium outcomes, as shown in the
+following proposition.
+Proposition 5. When the manufacturer screens at ﬁrst, the following
+equilibrium exists:
+
+975
+
+(i) The optimal wholesale price of the manufacturer is w =
+
+(1−r )AH
+
+2
+r+1 )c
+− (r 2−4
+(3−r ) .
+c
+(ii) The optimal order quantities of the e-tailer are qeH = 32−r
+if the
+demand state is high and qeL = 0 if the demand state is low.
+(iii) The optimal selling quantities of the manufacturer are qmH =
+
+2
+
+− 2(5(3−r−r)c) if the demand state is high and qmL =
+state is low.
+AH
+2
+
+AL −c
+2
+
+if the demand
+
+Proposition 5 presents the strategies of both the manufacturer
+and the e-tailer when the manufacturer chooses to engage in
+screening. We can ﬁnd that in such a case, the manufacturer sets
+an obviously higher wholesale price than that in the no-mimicking
+region. This is because in an effort to price out the low-type
+e-tailer, the manufacturer offers a contract that is suited only to
+the high-type e-tailer.
+4.2.3. Screening vs. signaling
+In this part, we explore the manufacturer’s strategies with
+respect to identifying information by comparing the profits in the above-mentioned cases. The result is described in
+Proposition 6 and further illustrated in Fig. 3.
+Proposition 6. If the marketplace channel is introduced, the optimal
+strategies of the manufacturer are as follows:
+2−r ) c
+(i) When δ < √ p 2(1(−r
+) (3−r ) , the manufacturer prefers to screen at
+ﬁrst.
+(ii) When
+
+√ 2 (2−r ) c
+p (1−r ) (3−r )
+
+2−r ) c
+< δ < (3−r )4((1+2
+, the manufacturer
+p−2 pr )
+prefers to acquire signal from the e-tailer, and the optimal decisions
+are not distorted under asymmetric information.
+2−r ) c
+(iii) When δ > (3−r )4((1+2
+, the manufacturer prefers to acp−2 pr )
+quire signal from the e-tailer, and the optimal decisions are distorted
+under asymmetric information.
+
+Proposition 6 shows the different strategies adopted by the
+manufacturer. Generally, relative to acquiring for a signal, screening initially has the advantage of allowing the manufacturer to infer the demand state early. Then, the manufacturer can make decisions that are suited to the speciﬁc demand state rather than
+the expected demand state, thereby improving her proﬁt. However,
+screening initially prices out the low-type e-tailer completely. This
+shuts down the wholesale trade on the reseller, and then only the
+marketplace remains when the demand state is low. Here, considering the retailing disadvantage and the platform fee, the manufacturer may be harmed to some extent. The manufacturer needs
+to trade off between the beneﬁt and the loss.
+When the difference between the demand states is large, information is of high value. Therefore, the manufacturer wants to identify information in advance to acquire a larger proﬁt. As the difference between the demand states decreases, given the decreased
+value of information, the manufacturer becomes less willing to
+price out the low-type e-tailer and then undertakes more retailing work. Therefore, in this case, the manufacturer chooses to sell
+products to the different types of e-tailer at a uniform wholesale
+price to ensure that the e-tailer continues to participate in retailing whether the demand state is high or low. In summary, with an
+decreased difference between the demand states, the manufacturer
+prefers to postpone inferring the demand state.
+Moreover, results (ii) and (iii) also illustrate that, with a sufﬁciently small difference between the demand states, the manufacturer’s identiﬁcation of the demand state will distort both
+her and the e-tailer’s the optimal selling quantities. As shown in
+Proposition 4, when the signaling method is chosen, the diﬃculty
+of mimicking decreases as the difference between the demand
+states decreases. Thus, the manufacturer’s belief about the demand
+state will substantially restrict the e-tailer’s scope of action and
+
+976
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+Fig. 3. Manufacturer’s strategies with respect to identifying information. Note. In the left plot, c = 0.5 and p = 0.7; in the right plot, δ = 1 and p = 0.7.
+
+cause a distortion from his original order quantity. Then, the manufacturer’s selling quantity is also correspondingly distorted.
+In addition to the above-mentioned manufacturer’s strategy
+of identifying information with the information value, we also
+explore the manufacturer’s attitudes toward inferring the demand state from the perspective of her selling cost, as shown in
+Corollary 1.
+Corollary 1. As the selling cost c increases, the manufacturer prefers
+to postpone inferring demand information.
+Corollary 1 reveals the strategies of the manufacturer with respect to her selling cost. With a low selling cost, the manufacturer
+will be more willing to directly access end customers to reduce
+the involvement of sales intermediaries and then obtain a higher
+proﬁt. Therefore, here, the manufacturer is willing to price out the
+low-type e-tailer and then screens information in advance. As the
+selling cost increases, the manufacturer would prefer not to engage
+in substantial direct selling. Thus, she has to forgo screening at the
+beginning and infer the demand by observing the e-tailer’s order
+quantity in the next stage of the game. Moreover, in Fig. 3, we can
+further observe that when the manufacturer’s selling cost becomes
+suﬃciently large, the optimal decisions will be distorted due to the
+impact of asymmetric demand information. In this case, relative to
+direct selling in the marketplace, the manufacturer with substantial sales ineﬃciency prefers to make the e-tailer resell more products by setting a lower wholesale price. Such a low wholesale price
+reduces the e-tailer’s mimicking cost and then enhances his incentive to mimic. Thus, the e-tailer’s order quantity must be further
+constrained, causing a distortion.
+In summary, we ﬁnd that as the burden of the retailing disadvantage increases, the manufacturer chooses to postpone inferring the demand state. Note that the manufacturer, relative to
+the e-tailer, suffers the dual disadvantage of the demand information and the sales eﬃciency, and the interaction of these two
+weaknesses will affect the manufacturer’s optimal strategy. When
+the sales ineﬃciency is not pronounced, the manufacturer can
+eliminate her information disadvantage in advance; otherwise, she
+has to postpone doing so. In other words, a manufacturer with
+greater sales eﬃciency is better able to identify information, and a
+
+manufacturer with low sales eﬃciency has to suffer longer from
+poor demand information.
+5. Equilibrium analysis with respect to introducing the
+marketplace channel
+Applying the solutions of the different subgames analyzed in
+the previous section, we now solve the ﬁrst stage of the game in
+which the manufacturer and the e-tailer determine whether to introduce the marketplace in addition to the reseller. In the following, we explore their choices and the equilibrium channel structure
+ﬁrst from the perspective of asymmetric selling cost and then from
+the perspective of asymmetric information.
+5.1. Equilibrium strategies analyzed from perspective of asymmetric
+cost
+In this part, we ﬁrst deprive the manufacturer’s attitudes toward the introduction of the marketplace channel, as described in
+Proposition 7 and further illustrated in Fig. 4.
+Furthermore, note that we assume that the manufacturer determines whether to introduce the marketplace before deciding the
+wholesale price, as it is easier for her to change the price than
+the channel structure. In other words, the decision on the channel
+structure is a longer-term decision than that on wholesale price.
+This timing is also in accordance with modeling choices in previous papers on channel selection, e.g., Jerath and Zhang (2010) and
+Abhishek et al. (2015).
+Proposition 7. The optimal strategies of the manufacturer are as follows:
+(i) When the platform fee rate r < rm , the manufacturer is always
+better off in expectation by introducing the marketplace channel for
+any selling cost c.
+(ii) When the platform fee rate r ≥ rm , the manufacturer is better
+off in expectation by introducing the marketplace channel for c < cm
+or c > c̄m .
+Proposition 7 presents the manufacturer’s choice with respect
+to introducing the marketplace at different platform fees and selling costs. Result (i) in Proposition 7 indicates that the manufacturer always chooses to introduce the marketplace given a low
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+977
+
+Fig. 4. Strategies of the manufacturer and e-tailer regarding introducing the marketplace channel. Note. In the left plot, μ = 2, δ = 1, and p = 0.7; in the right plot, μ = 1,
+c = 0.1 and p = 0.7.
+
+enough platform fee. This is relatively intuitive. The low platform
+fee means that the manufacturer can obtain a considerable fraction of the total proﬁt. Thus, here, regardless of the existing sales
+ineﬃciency, the manufacturer still prefers to introduce the marketplace, which endows her with an additional approach to acquire a
+handsome proﬁt.
+As the platform fee rate increases, result (ii) indicates that the
+manufacturer would like to introduce the marketplace only when
+the selling cost is low or high. With respect to the low selling
+cost, it is easy to understand the manufacturer’s choice. The increased platform fee will reduce the manufacturer’s incentive to
+join the marketplace. Thus, only when the retailing disadvantage
+is small can the manufacturer’s loss derived from the decreased
+proﬁt share be offset to some extent, thereby maintaining her incentive to join the marketplace.
+Next, we explain the counterintuitive insight presented in result
+(ii); given a high enough selling cost, the manufacturer also prefers
+to join the marketplace. Actually, such a decision results from the
+proﬁt distribution in the marketplace. As the manufacturer and
+e-tailer share the proﬁt from this channel, the manufacturer’s high
+selling cost is detrimental to the interests not only of the manufacturer but also the e-tailer. In this time, to avoid this loss derived
+from the sales ineﬃciency of the marketplace, the e-tailer has to
+order a larger quantity for the reseller to reduce the quantity sold
+through the marketplace. Therefore, the manufacturer can beneﬁt
+substantially from wholesale trade with the e-tailer, despite suffering a loss on direct selling through the marketplace.
+Next, we derive the e-tailer’s preferences over introducing the
+marketplace, as described in Proposition 8 and illustrated in Fig. 4.
+Proposition 8. The optimal strategies of the e-tailer are as follows:
+(i) If the platform fee rate r > re , the e-tailer is always better off
+in expectation by introducing the marketplace channel for any selling
+cost c.
+(ii) If the platform fee rate r ≤ re , the e-tailer is better off in expectation by introducing the marketplace channel for c < ce or c > c̄e .
+Proposition 8 illustrates the e-tailer’s choice with respect to introducing the marketplace given the platform fee rate and the selling cost. Result (i) in Proposition 7 shows that once the platform
+
+fee rate increases to a suﬃciently high level, the e-tailer is always
+willing to introduce the marketplace. In this case, although suffering a loss derived from retail competition, the e-tailer can acquire
+a large fraction of the proﬁt earned from the marketplace. Thus,
+he can beneﬁt from the introduction regardless of the value of the
+manufacturer’s selling cost.
+When the platform fee rate is not suﬃciently high, result (ii) indicates that the e-tailer prefers to introduce the marketplace only
+when the selling cost is low or high. When the selling cost is
+pronounced, the competitiveness of the marketplace is greatly reduced, which endows the e-tailer with an obvious retailing advantage in the reseller to acquire proﬁt. On the other hand, to alleviate the loss derived from a high selling cost, the manufacturer
+also wants to transfer her output from the marketplace to the reseller; thus, she will reduce the wholesale price, which also beneﬁts the e-tailer. Therefore, in such a case, considering the retailing
+advantage and the reduced acquisition cost, the e-tailer is willing
+to introduce the marketplace.
+However, a further interesting insight is that an e-tailer encountering a low-selling-cost manufacturer will still agree to introduce
+the marketplace. Here, the e-tailer loses the advantage in sales efﬁciency, which reduces the proﬁt he earns from the reseller. Thus,
+one may expect the e-tailer to forgo introducing the channel when
+encountering a powerful rival. However, we ﬁnd that this is not
+necessarily the case. The high sales eﬃciency of the marketplace
+can also provide the e-tailer with a larger proﬁt from charging a
+platform fee, which also incentives his to introduce this channel.
+After deriving the choices of the manufacturer and the e-tailer,
+we present the equilibrium outcomes by merging the two because the marketplace, as a cooperative outcome, is introduced
+only when both parties agree to do so. The results are shown in
+the Remark 1 and Fig. 4.
+Remark 1. Both the manufacturer and the e-tailer can acquire
+Pareto improvement by introducing the marketplace (i) when the
+selling cost c < min {cm , ce }, or (ii) when the selling cost c >
+max{c̄m , c̄e }.
+Remark 1 presents two equilibrium ranges in which the marketplace is introduced. Here, we analyze them separately. First, in
+
+978
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+equilibrium area (i), the manufacturer’s selling cost is low; following the introduction of such a low-selling-cost marketplace, the
+manufacturer is endowed an eﬃcient approach to directly control
+downstream output, which avoids the e-tailer having a monopoly
+in retail sales, and the e-tailer is provided with a proﬁt source in
+the form of charging a considerable platform fee. Thus both ones
+can obtain a Pareto improvement here.
+Moreover, counterintuitively, a win–win outcome is also generated in the other equilibrium area (ii), in which the eﬃciency of
+the marketplace is very low and greatly surpassed by that of the
+reseller. Here, one may intuitively expect that such a weak channel
+will become a burden for both parties in terms of acquiring proﬁt.
+However, we ﬁnd just the opposite. In this case, given such a weak
+marketplace, both the manufacturer and the e-tailer will focus
+more on acquiring proﬁt from the reseller. Speciﬁcally, the e-tailer
+will set a higher quantity on the reseller compared with the situation in which the marketplace is not introduced because he is concerned that, in an effort to increase output, the manufacturer will
+sell too much through the weak marketplace, which will not only
+impose a heavy selling cost but also decrease the market clearing price. Thus, to avoid these adverse outcomes, the e-tailer has
+to order a higher volume. In this way, total output increases relative to the situation without the marketplace, which improves the
+upstream manufacturer’s proﬁt derived from the wholesale trade.
+Moreover, considering the high selling cost, the manufacturer also
+does not want to sell too much through the weak marketplace, and
+thus, she has to compromise and decrease the wholesale price to
+induce a larger order quantity from the e-tailer. Then, owing to the
+lower wholesale price, the e-tailer can also beneﬁt from the existence of the weak marketplace. In summary, by introducing the
+weak marketplace, the manufacturer and the e-tailer can threaten
+one another, and then, they will jointly emphasize improving the
+performance of the strong reseller. The total output will increase to
+a more appropriate level, which can lead to higher total proﬁts; the
+wholesale price also decreases, thereby improving the proﬁt distribution between the manufacturer and the e-tailer. These multiple
+effects gives rise to a win–win outcome for both the manufacturer
+and the e-tailer.
+For a more intuitive presentation, Propositions 7 and 8 and
+Remark 1 are further illustrated in Fig. 4. Note that “II”, “IN”, “NI”
+and “NN” denote the areas of the respective preferred purchasing
+strategies of the manufacturer and the e-tailer, where “IN” means
+that the manufacturer is better off by introducing the marketplace while the e-tailer is better off by not introducing the marketplace, and so forth. Only in the “II” range will the marketplace be
+introduced.
+5.2. Equilibrium strategies analyzed from perspective of asymmetric
+information
+In this part, we explore how the manufacturer and the e-tailer’s
+preferences are affected by the value of information, as shown in
+the Proposition 9 and illustrated in Fig. 4.
+Proposition 9. Analysis from perspective of information values
+demonstrates:
+(i) The manufacturer prefers to join the marketplace channel for
+a relatively high level of information value, i.e., δ > δ m ; the e-tailer
+prefers to introduce the marketplace channel for a relatively low level
+information value, i.e., δ < δ e .
+(ii) Both the manufacturer and the e-tailer can acquire Pareto improvement by introducing the marketplace channel for a medium level
+of information value, i.e., δ m < δ < δ e .
+Proposition 9 presents the manufacturer’s and the e-tailer’s attitudes toward introducing the marketplace with respect to the
+value of information. Note that once the marketplace is introduced,
+
+information transmission occurs between the manufacturer and
+the e-tailer. The manufacturer can acquire more accurate demand
+information through initial screening or acquiring for a signal, and
+the e-tailer loses his information advantage. Therefore, as the value
+of information increases, the manufacturer is more willing to acquire information and thus prefers to introduce the marketplace.
+However, in this case, the e-tailer would like to maintain his information advantage, and thus, he prefers to reject the marketplace.
+Finally, only when the information value is not too high or too low
+can they reach consensus and introduce the marketplace.
+6. Consumer surplus with respect to introducing the
+marketplace channel
+In addition to the players’ performances, we also explore the
+impact of the marketplace on the consumer surplus. We ﬁnd that
+in certain situations, the introduction of the marketplace has a surprising positive impact not only on the above-mentioned proﬁts of
+the upstream manufacturer and the e-tailer but also on consumer
+welfare. Such a “win–win–win” situation is not only good for the
+supply chain but is also beneﬁcial for the overall economy.
+Note that the consumer surplus indicates what the consumers
+would be willing to pay in excess of what they already spend for
+the right to consume the good (Tirole, 1988). In this linear demand
+function, the consumer surplus can be deﬁned as the area between
+the demand curve and the horizontal line at the price level, i.e.,
+q
+A − p)dq. Next, we derive the consumer surplus in each case
+0 (
+by using this method and then present the comparative result in
+the following proposition.
+Proposition 10. (i) In signaling region, the consumer surplus is always better off by introducing the marketplace channel. (ii) In screening region, the consumer surplus is better off in expectation by introducing the marketplace channel for c < cˆ.
+Proposition 10 illustrates the impact of the introduction of the
+marketplace on the consumer surplus, which differs between the
+signaling region and screening region. Result (i) indicates that in
+the signaling region, the introduction of the marketplace always
+enhances consumer surplus. In such a situation, adding a channel
+improves output and decreases the market clearing price, thus increasing consumer welfare. However, in the screening region, result (ii) reveals a different situation in which the introduction of
+the marketplace may increase or decrease the consumer surplus.
+Note that when the manufacturer screens initially, she has to price
+out the low-type e-tailer. That is, when the demand state is low,
+the marketplace, once introduced, edges out the conventional reseller given a low demand state. Thus, in this case, only when the
+selling cost is low enough is it possible to maintain a high sales
+volume on the only marketplace and then improve the consumer
+welfare.
+Next, we present the “win–win–win” situation, as shown in the
+following remark.
+Remark 2. All of the manufacturer, e-tailer and consumers are better off by introducing the marketplace channel when the selling
+cost c < min{cm , ce , cˆ} or when the selling cost c > max{c̄m , c̄e }.
+Remark 2 veriﬁes the existence of the “win–win–win” situation
+for the manufacturer, e-tailer and consumers. Compared with that
+in Remark 1, maintaining a high consumer surplus in the screening range requires an additional condition c < cˆ. Only when the
+sales eﬃciency in the marketplace is suﬃciently high can the introduction of the eﬃcient marketplace improve total output, which
+beneﬁts the supply chain members and, ultimately, the whole
+economy. Furthermore, we ﬁnd that in the high-selling-cost area
+shown in Remark 4, no additional conditions are needed to make
+the consumer beneﬁt from the introduction of the marketplace.
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+979
+
+Fig. 5. Analysis with respect to the platform fee rate. Note. In the left plot, c = 0.5 and p = 0.7; in the right plot, δ = 1 and p = 0.7.
+
+The weak marketplace threatens both the manufacturer and the
+e-tailer, making them focus more on the performance of the reseller, and these common concerns substantially increase the output of the reseller, thereby further improving consumer welfare
+and leading to a “win–win–win” outcome.
+7. Analysis with respect to the platform fee rate
+In this part, we ﬁrst explore how the platform fee rate affects
+the supply chain members’ proﬁts and, in turn, their preferences;
+next, we derive the optimal platform fee rate, if it can be determined endogenously by the e-tailer, and investigate how the supply chain members’ performance changes in this case.
+First, we present the impact of the platform fee rate on the
+supply chain members’ proﬁts and preferences, as shown in the
+N and π N represent the manufacleft plot of Fig. 5. Note that πm
+e
+turer’s and the e-tailer’s proﬁts in the absence of the marketplace,
+I and π I represent their proﬁts with the introduction of the
+and πm
+e
+marketplace. It is obvious that the platform fee rate has no effect
+N or π N . Moreover, once the marketplace is introduced, the
+on πm
+e
+increased platform fee will increase the e-tailer’s proﬁt πeI but deI , which conforms to our expeccrease the manufacturer’s proﬁt πm
+tations. Therefore, the e-tailer prefers to introduce the marketplace
+in the presence of a low platform fee and the manufacturer does
+so in the presence of a high platform fee, which is also illustrated
+in two plots in Fig. 4.
+Next, we analyze the optimal platform fee for the e-tailer.
+From the above, we ﬁnd that the e-tailer always beneﬁts from
+a higher platform fee. However, when he increases the platform
+fee rate, he must consider the manufacturer’s participation constraint, as the manufacturer will refuse to sell through the marketplace if the platform fee rate is too high, as shown in the left
+plot of Fig. 5. Thus the optimal platform fee will take the highest value in the range in which the manufacturer agrees to participate in selling through the marketplace. Further, note that area
+II does not exist when the selling cost is relatively moderate, as
+shown in Remark 1 and Fig. 4; in this case, once the platform
+fee rate decreases to the level at which the manufacturer agrees
+to sell through the marketplace, the e-tailer has already refused
+to provide the marketplace. Consequently, through the endogenous
+
+selection of the platform fee rate, the manufacturer’s additional
+proﬁt derived from the introduction of the marketplace will be
+completely extracted by the e-tailer; conversely, the e-tailer can
+always beneﬁt more by setting a more appropriate platform fee
+rate when the marketplace is introduced. The endogenously determined platform fee rate endows the e-tailer with a means to better
+extract proﬁts from the manufacturer.
+Further, we explore the trend of the optimal platform fee for
+the e-tailer, as illustrated in the right plot of Fig. 5. First, we ﬁnd
+that the optimal platform fee ﬁrst decreases and then increases in
+the selling cost c. As the manufacturer’s selling cost increases, the
+manufacturer will become less willing to sell through the marketplace due to the sales burden; thus, the e-tailer has to set a lower
+platform fee to encourage the manufacturer to participate. However, once the selling cost increases to a suﬃciently high level,
+the e-tailer will instead increase the platform fee rate. Here, the
+manufacturer’s sales burden is so substantial that the e-tailer will
+also be harmed by it. Then, he will charge a higher platform fee to
+compensate for this loss. Furthermore, we ﬁnd that the e-tailer will
+set a higher platform fee when demand uncertainty δ is higher.
+Here, the increased information value will encourage the manufacturer to participate in sales through the marketplace, in which she
+can also acquire demand information and beneﬁt more from doing
+so. Moreover, note that the light line represents the part in which
+the manufacturer will refuse to sell through the marketplace, as
+indicated in Proposition 7. Here, the manufacturer cannot accept
+any platform fee that the e-tailer would be willing to provide.
+8. Extensions
+In this section, we extend our results by altering some assumptions in the model. The main ﬁndings are summarized here, and
+the details of the analysis and proofs are provided in Appendix B.
+8.1. The demand function with a ﬂexible price elasticity
+In this subsection, we extend the demand function to a more
+common form, P = A − b · Q, with a ﬂexible coeﬃcient for the sensitivity of total product quantity, and investigate how the results
+are affected.
+
+980
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+Fig. 6. Strategies of the manufacturer and the e-tailer with extended demand function.
+
+By solving for and comparing the proﬁts (see Appendix B), we
+ﬁnd that all of conclusions remain qualitatively unchanged. Further, we derive the speciﬁc impact of the slope coeﬃcient on
+the two supply chain members’ preferences regarding the channel
+structure, as described below.
+Proposition 11. As the slope coeﬃcient b decreases, both the manufacturer and the e-tailer earn lower proﬁts, while their preferences
+regarding the introduction of the marketplace channel remain unchanged.
+Proposition 11 presents the impact of the slope coeﬃcient in
+the inverse demand function. As the slope coeﬃcient increases, the
+price elasticity of demand increases. In such a situation, given the
+increase in total output, the equilibrium market price will decrease
+by a relatively larger extent, which thus reduces their proﬁts. However, when their proﬁts in both cases decrease by the same extent,
+their preferences will not change.
+8.2. The demand function that incorporates product substitutability
+In this subsection, we extend the demand function to another
+form that incorporates ﬂexible substitutability of the products sold
+by different parties and investigate how the results are affected.
+Here, a new demand function, Px = A − qx − bqy , is introduced,
+in which (x, y ) = (m, e ) or (e, m). The parameter b ∈ (0, 1) represents the substitution rate, which be also interpreted as the cross
+effect of a change in product demand for the ﬁrm caused by a
+change in that of his rival. The products become differentiated
+as b approaches 0, while they become similar as r approaches 1.
+Such a demand function is widely used in literature on operations
+(Ha et al., 2011; Niu et al., 2015). This demand function also
+has the following desirable characteristics: It can incorporate the
+difference between channels, which is more aligned with the
+reality that different prices may be set in different channels. For
+instance, on July 28, 2018, on JD.COM, the T-shirt with product
+number 18820VP22282 has different prices in the two channels.
+Speciﬁcally, the price in the marketplace is RMB 79,3 while that
+in the reseller is RMB 99.4 Moreover, this demand function also
+captures the reverse relationship between the quantity and price
+in practice. Here, the ﬁrm determining a larger output will receive
+a lower price relative to its rival; speciﬁcally, Pe > Pm occurs when
+qe < qm , and Pe < Pm occurs when qe > qm .
+Generally, we ﬁnd that the main conclusions remain qualitatively unchanged, as illustrated in the left and center plots of Fig. 6.
+3
+4
+
+https://www.item.jd.com/25472519819.html.
+https://www.item.jd.com/6821031.html.
+
+Moreover, in right plot, we also explore the effects of the substitution rate b on the manufacturer’s and the e-tailer’s preferred
+strategies. Speciﬁcally, we ﬁnd that, with a decreased value of b,
+both parties become more willing to choose to introduce the marketplace. This is because, as b decreases, the products sold on the
+novel marketplace exert a smaller effect on the sales of the original reseller through competition. Even when b is fairly small, the
+introduction of the marketplace substantially expands the size of
+the market given a small increase in competitive intensity. Therefore, the decreased b directly improves the willingness of both the
+manufacturer and the e-tailer to sell through the marketplace.
+8.3. The platform fee being a fraction of revenue
+In this subsection, we describe an extension in which the platform fee is a fraction of the manufacturer’s revenue, instead of her
+proﬁts, and investigate how the results are affected.
+Now, the manufacturer’s and the e-tailer’s proﬁt functions in
+the presence of the marketplace become
+
+max wqe + (1 − r )(A j − qe − qm )qm − cqm ,
+qm
+
+max (Ai − qe − qm (qe ) − w )qe + r (Ai − qe − qm (qe ) )qm (qe ).
+qe
+
+After solving for and comparing the proﬁts (see Appendix B),
+we ﬁnd that all of conclusions remain qualitatively unchanged.
+Speciﬁcally, with respect to the equilibrium under the introduction of the marketplace, here, we provide two typical examples
+under such a platform fee in Fig. 7. The results show that there
+is no difference in the tendency for both the manufacturer and
+the e-tailer to choose to introduce the marketplace, as reﬂected in
+Figs. 4 and 7.
+8.4. Asymmetric information regarding the manufacturer’s selling cost
+In this subsection, we consider an extension in which the manufacturer keeps her unit selling cost as her private information and
+examine how the results are inﬂuenced.
+Here, we assume that the manufacturer’s unit selling cost c is
+ex ante random; the manufacturer can privately observe the exact value, while the e-tailer only knows the prior distribution that
+c can randomly take one of two values: a high value cH with
+probability λ and a low value cL with probability 1 − λ, where
+cH > cL > 0. The expected demand state is μc = λcH + (1 − λ )cL . The
+difference between the two market states is δc = cH − cL .
+We report the detailed results in Appendix B and provide two
+typical examples here in Fig. 8. We ﬁnd that all of our conclusions
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+981
+
+Fig. 7. Strategies of the manufacturer and e-tailer with the platform fee as the fraction of revenue. Note. In the left plot, μ = 2, δ = 1, and p = 0.7; in the right plot, μ = 1,
+c = 0.1 and p = 0.7.
+
+Fig. 8. Strategies of the manufacturer and e-tailer under the manufacturer’s private information. Note. In the left plot, A = 2, δc = 1.5, and λ = 0.7; in the right plot, A = 2,
+μc = 1 and p = 0.7.
+
+with respect to the impact of the unit selling cost μc (instead of
+c in the main body) remain qualitatively unchanged, as illustrated
+in the left plot of Fig. 8. Nevertheless, here, the manufacturer, not
+the e-tailer, has private information; thus the impact of the value
+of information changes, as shown in the right plot. Speciﬁcally, we
+ﬁnd that both the manufacturer and the e-tailer prefer to introduce
+the marketplace under a high value of uncertainty over the unit
+cost, represented by δ c .
+9. Conclusion
+With the rise of the novel marketplace e-channel, upstream
+manufacturers and e-tailers often need to consider whether to
+introduce this channel in addition to the existing reseller channel. Furthermore, presence of dual upstream disadvantage of sales
+
+eﬃciency and demand information will qualitatively affect the
+manufacturer’s and the e-tailer’s strategies.
+To explore how the channel structure is inﬂuenced, we establish a model in which a manufacturer cooperates with a e-tailer
+to sell products through two channels—the reseller and the marketplace. Based on our analysis, some managerial implications are
+obtained. We present an interesting insight that the marketplace
+should be introduced under a high or low degree of the upstream
+disadvantage in sales eﬃciency, which also means a weak direct
+channel would not necessarily become a burden for both. In these
+cases, the introduction leads to higher output, a lower wholesale price and a lower retail price, thus beneﬁting both the supply chain members and the overall economy. In contrast, we ﬁnd
+only when the upstream information disadvantage is moderate,
+can both reach consensus and introduce the marketplace. These
+
+982
+
+Y. Yan et al. / European Journal of Operational Research 273 (2019) 968–982
+
+show the absolutely different effects of two types of upstream disadvantage in equilibrium channel structure, counterintuitively. Further, we also illustrate how the manufacturer’s two disadvantages
+interact with one another; a manufacturer with higher sales efﬁciency can screening information initially, while a manufacturer
+with low sales eﬃciency has to suffer longer from poor demand
+information.
+Despite the encouraging results obtained in this paper, there
+are numerous other factors to be considered regarding the manufacturer’s and the e-tailer’s strategies. First, in this paper, we analyze whether the marketplace should be introduced in addition
+to an existing reseller. However, some other channel forms also
+exist in practice. Amazon offers its some upstream partners various alternative cooperation modes, such as Associate, Advantage,
+and Web-Store. Extensions to other different channel forms represent a direction deserving of future study. Furthermore, we assume
+one type of product. Hence, studies on multiple types of products
+should be pursued. How the manufacturer and the e-tailer make
+decisions regarding which products to sell thought these different
+channels should be investigated. Moreover, we have not modeled
+how multiple manufacturers or e-tailer compete in online sales;
+this would be an interesting direction for future research.
+Acknowledgments
+The authors thank the editor and three anonymous reviewers
+for their constructive comments on the manuscript, which helped
+improve the paper signiﬁcantly. This work was supported by the
+National Natural Science Foundation of China under Grant No.
+71771165.
+Supplementary material
+Supplementary material associated with this article can be
+found, in the online version, at doi:10.1016/j.ejor.2018.09.022.
+References
+Abhishek, V., Jerath, K., & Zhang, Z. J. (2015). Agency selling or reselling? Channel
+structures in electronic retailing. Management Science, 62(8), 2259–2280.
+Anand, K. S., & Goyal, M. (2009). Strategic information management under leakage
+in a supply chain. Management Science, 55(3), 438–452.
+Arya, A., Mittendorf, B., & Sappington, D. E. (2007). The bright side of supplier encroachment. Marketing Science, 26(5), 651–659.
+Barr, A. (2012). Brands cry foul over unauthorized sellers on amazon. Reuters.
+Available at http://www.reuters.com/article/2012/10/23/us- amazon- sellersidUSBRE89M1CT20121023.
+Bonﬁls, M. (2012). Taobao SEO: A guide to one of the world’s largest consumer
+marketplaces. Search Engine Watch. August 24. Available at http://www.
+searchenginewatch.com/article/2200749/Taobao- SEO- A- Guide- to- One- of- theWorlds- Largest- Consumer- Marketplaces.
+Cachon, G. P., & Lariviere, M. A. (2001). Contracting to assure supply: How to share
+demand forecasts in a supply chain. Management Science, 47(5), 629–646.
+Cao, J., So, K. C., & Yin, S. (2016). Impact of an online-to-store channel on demand allocation, pricing and proﬁtability. European Journal of Operational Research, 248(1), 234–245.
+Chen, J., Liang, L., Yao, D. Q., & Sun, S. (2017). Price and quality decisions in
+dual-channel supply chains. European Journal of Operational Research, 259(3),
+935–948.
+Chen, J., Zhang, H., & Sun, Y. (2012). Implementing coordination contracts in a manufacturer Stackelberg dual-channel supply chain. Omega, 40(5), 571–583.
+Chen, K. Y., Kaya, M., & Özer, O. (2008). Dual sales channel management with
+service competition. Manufacturing & Service Operations Management, 10(4),
+654–675.
+Chiang, W. Y. K. (2010). Product availability in competitive and cooperative dual-channel distribution with stock-out based substitution. European Journal of
+Operational Research, 200(1), 111–126.
+Chiang, W. Y. K., Chhajed, D., & Hess, J. D. (2003). Direct marketing, indirect proﬁts:
+A strategic analysis of dual-channel supply-chain design. Management Science,
+49(1), 1–20.
+Chiang, W. Y. K., & Monahan, G. E. (2005). Managing inventories in a two-echelon dual-channel supply chain. European Journal of Operational Research, 162(2),
+325–341.
+
+Dan, B., Xu, G., & Liu, C. (2012). Pricing policies in a dual-channel supply chain with
+retail services. International Journal of Production Economics, 139(1), 312–320.
+Gao, P., Woetzel, J. R., & Wu, Y. (2003). Can Chinese brands make it abroad? McKinsey Quarterly, 1, 54–65.
+Ha, A. Y., & Tong, S. (2008). Contracting and information sharing under supply chain
+competition. Management Science, 54(4), 701–715.
+Ha, A. Y., Tong, S., & Zhang, H. (2011). Sharing demand information in competing supply chains with production diseconomies. Management Science, 57(3),
+566–581.
+Hagiu, A., & Wright, J. (2014). Marketplace or reseller? Management Science, 61(1),
+184–203.
+Hsieh, C. C., Chang, Y. L., & Wu, C. H. (2014). Competitive pricing and ordering decisions in a multiple-channel supply chain. International Journal of Production
+Economics, 154, 156–165.
+Jerath, K., & Zhang, Z. J. (2010). Store within a store. Journal of Marketing Research,
+47(4), 748–763.
+Jiang, B., Jerath, K., & Srinivasan, K. (2011). Firm strategies in the “mid-tail” of platform-based retailing. Marketing Science, 30(5), 757–775.
+Jin, Y., Wang, S., & Hu, Q. (2015). Contract type and decision right of sales promotion in supply chain management with a capital constrained retailer. European
+Journal of Operational Research, 240(2), 415–424.
+Kong, G., Rajagopalan, S., & Zhang, H. (2013). Revenue sharing and information leakage in a supply chain. Management Science, 59(3), 556–572.
+Kwark, Y., Chen, J., & Raghunathan, S. (2017). Platform or wholesale? A strategic tool
+for online retailers to beneﬁt from third-party information. MIS Quarterly, 41(3),
+763–785.
+Li, Z., Gilbert, S. M., & Lai, G. (2013). Supplier encroachment under asymmetric information. Management Science, 60(2), 449–462.
+Li, Z., Gilbert, S. M., & Lai, G. (2015). Supplier encroachment as an enhancement or
+a hindrance to nonlinear pricing. Production and Operations Management, 24(1),
+89–109.
+Mantin, B., Krishnan, H., & Dhar, T. (2014). The strategic role of third-party marketplaces in retailing. Production and Operations Management, 23(11), 1937–1949.
+Mukhopadhyay, S. K., Zhu, X., & Yue, X. (2008). Optimal contract design for mixed
+channels under information asymmetry. Production and Operations Management,
+17(6), 641–650.
+Niu, B., Wang, Y., & Guo, P. (2015). Equilibrium pricing sequence in a co-opetitive supply chain with the ODM as a downstream rival of its OEM. Omega, 57,
+249–270.
+Özer, O., & Wei, W. (2006). Strategic commitments for an optimal capacity decision
+under asymmetric forecast information. Management Science, 52(8), 1238–1257.
+Panshizhixin (2016). Why does JD.COM gradually say goodbye to self-products? (in
+Chinese). Sohu Technologies. March 15. Available at http://it.sohu.com/20160315/
+n440436719.shtml.
+Porteus, E. L., & Whang, S. (1999). Supply chain contracting: Non-recurring engineering charge, minimum order quantity, and boilerplate contracts. Stanford University,
+Graduate School of Business.
+Ryan, J. K., Sun, D., & Zhao, X. (2012). Competition and coordination in online marketplaces. Production and Operations Management, 21(6), 997–1014.
+Stone, B. (2009). Can Amazon be the Wal-mart of the web?. New York Times. September 20.
+Sun, B. (2016). Online retail sales of China continue to win the ﬁrst place all over the
+world in 2015 (in Chinese). People’s Network. February 26. Available at http://
+ﬁnance.people.com.cn/n1/2016/0223/c1004-28143131.
+Takahashi, K., Aoi, T., Hirotani, D., & Morikawa, K. (2011). Inventory control in a
+two-echelon dual-channel supply chain with setup of production and delivery.
+International Journal of Production Economics, 133(1), 403–415.
+Tan, Y., & Carrillo, J. E. (2017). Strategic analysis of the agency model for digital
+goods. Production and Operations Management, 26(4), 724–741.
+Tencent (2017). Executes explain JD.COM’s ﬁnancial statement: Scale economy increase
+its gross margin constantly. Tencent Technology. Available at http://tech.qq.com/
+a/20171113/034505.htm (in Chinese).
+Tian, L., & Jiang, B. (2016). Comment on “strategic information management under
+leakage in a supply chain”. Management Science, 63(12), 4258–4260.
+Tirole, J. (1988). The theory of industrial organization. MIT Press.
+Tiwari, A. (2014). Flipkart to grow marketplace to compete with amazon. DNA India. April 17. Available at http://www.dnaindia.com/money/report-ﬂipkart-togrow-marketplace-to-compete-with-amazon-1979084.
+Xu, G., Dan, B., Zhang, X., & Liu, C. (2014). Coordinating a dual-channel supply chain
+with risk-averse under a two-way revenue sharing contract. International Journal
+of Production Economics, 147, 171–179.
+Yan, Y., Zhao, R., & Lan, Y. (2017). Asymmetric retailers with different moving sequences: Group buying vs. individual purchasing. European Journal of Operational Research, 261(3), 903–917.
+Yan, Y., Zhao, R., & Liu, Z. (2018). Strategic introduction of the marketplace channel under spillovers from online to oﬄine sales. European Journal of Operational
+Research, 267(1), 65–77.
+Yang, G. (2017). What is the secret for JD.COM to earn 260.3 billion?
+hexun.com. Available at http://www.bschool.hexun.com/2017- 03- 06/188382691.
+html (In Chinese).
+Yao, D. Q., Yue, X., Wang, X., & Liu, J. J. (2005). The impact of information sharing
+on a returns policy with the addition of a direct channel. International Journal
+of Production Economics, 97(2), 196–209.
+
+

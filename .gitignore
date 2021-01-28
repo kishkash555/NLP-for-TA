@@ -1,0 +1,10 @@
+**/*.zip
+**/__pycache__
+code/.ipynb_checkpoints
+**/*.mp4
+*.pdf
+grobid-server/
+code/.ipynb_checkpoints/
+.ipynb_checkpoints/
+.~lock*/
+.~lock*

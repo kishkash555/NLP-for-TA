@@ -1,0 +1,3852 @@
+Transportation Research Part E 141 (2020) 101990
+
+Contents lists available at ScienceDirect
+
+Transportation Research Part E
+journal homepage: www.elsevier.com/locate/tre
+
+Coordination of a supply chain with online platform considering
+delivery time decision
+
+T
+
+Xiaoping Xua, Mian Zhangb, , Ping Hec
+⁎
+
+a
+b
+c
+
+School of Business, Anhui University, Hefei, Anhui Province, 230601, PR China
+School of Mathematics and Statistics, Fuyang Normal University, 100 Qinghe West Road, Fuyang, Anhui 236037, PR China
+School of Business Administration, South China University of Technology, 381 Wushan Road, Guangzhou, Guangdong 510641, PR China
+
+ARTICLE INFO
+
+ABSTRACT
+
+Keywords:
+Delivery time
+Marketplace mode
+Platform power
+Coordination
+
+This paper investigates the coordination problem of a supply chain consisting of a manufacturer
+and a retailer who sells products through an offline channel and an online platform. Platform
+power is considered to reflect the ability of the platform to enlarge the market share. We find that
+the supply chain can be coordinated via wholesale price and cost-sharing contracts when platform power is large, and even if platform power is small, the supply chain can still be coordinated
+via cost-sharing contract when delivery time sensitivity is relatively high. Most of the results are
+robust when the manufacturer joins the platform.
+
+1. Introduction
+In recent years, many offline retailers open online selling channels at online platforms via marketplace mode to enlarge the
+market size (Zhang et al, 2016; Choi et al., 2019; Yi et al., 2019; Liu et al., 2019). An online platform operating with marketplace
+mode (such as Tmall.com in China, Flipkart in India and Amazon.com in US) allows retailers to sell their products to consumers on
+the platform, and charges the retailers a commission for each product sold through the platform (Abhishek et al., 2016; Yan et al.,
+2018; Shen, 2018; Lin and Zhou, 2019). The commission is usually in the form of a percentage of the retailer’s online sales through
+the platform. Suning Group, the second largest retailer in China, opens its new online channel at Tmall.com (i.e., the Suning flagship
+store on Tmall.com) in 2015, besides its own online and offline channels (He et al., 2019). Only three years later, it is reported that on
+the “double eleven” shopping day of 2018, the sales of Suning flagship store on Tmall.com is the largest one among all the retailers on
+Tmall.com.1 Other retailers, such as RT-mart and Costco, have also achieved great success through similar cooperation with
+Tmall.com. This indicates that the online platform can bring a new potential market for the retailers (Shen et al., 2019; Yi et al., 2019;
+Liu et al., 2019). For ease of exposition, we use the new potential market size to measure the power of the online platform on
+enlarging a retailer’s market, and simply call it “platform power”. In order to facilitate the integration of offline channel and online
+channel, these retailers usually set the same retail price on the two channels (Li et al., 2016; Ji et al., 2017; Gao and Su, 2017a, 2017b;
+Zhang et al., 2019).
+With the prevalence of online shopping, consumers are more and more sensitive to the delivery time (Xiao et al., 2016; Pekgün
+et al., 2017; Ding et al., 2018). According to a survey conducted by Dotcom Distribution, 87% of consumers consider delivery time to
+be a key factor when purchasing products from online channel. Furthermore, 67% of them are willing to pay more for the products
+⁎
+Corresponding author at: School of Mathematics and Statistics, Fuyang Normal University, 100 Qinghe West Road, Fuyang, Anhui 236037, PR
+China.
+E-mail address: mianzh@fynu.edu.cn (M. Zhang).
+1
+http://www.chnci.com.
+
+https://doi.org/10.1016/j.tre.2020.101990
+Received 27 November 2019; Received in revised form 16 March 2020; Accepted 23 May 2020
+Available online 29 June 2020
+1366-5545/ © 2020 Elsevier Ltd. All rights reserved.
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+with shorter delivery time (Modak and Kelle, 2019; Niu et al., 2019). As the second largest retailer in China, Suning Group has built
+its own logistics system. To enhance the new online market, Suning Group invests more on the logistics service. Suning Group merges
+Tiantian Express and establishes several distribution centers to support daily shipping volume of 70,000 votes on average. When
+consumers buy products from Suning flagship store on Tmall.com, they can get their products within two hours, even less than five
+minutes. This logistics service with very short delivery time is called “Jisuda”.
+Due to double marginalization, decentralized supply chain is inefficient compared to centralized supply chain. That’s the motivation of investigating various supply chain coordination problems by numerous scholars (Cachon, 2003; He et al., 2009; Xu et al.,
+2017a; Ji et al., 2020). Many types of contracts are designed by scholars and practitioners, aiming to achieve supply chain coordination. Among the various contracts, wholesale price contract and cost-sharing contract are two most popular ones (Cachon,
+2003; Xu et al., 2017a; Ji et al., 2020). With wholesale price contract, the manufacturer charges the retailer with a fixed wholesale
+price for each product (Xu et al., 2017b). Although this contract usually cannot coordinate simple supply chains (Cachon, 2003), it is
+widely used in reality due to its simplicity to implement. With cost-sharing contract, the firm who benefits from the other firm’s
+investment should undertake a certain part of that firm’s investment cost (Zhou et al., 2018).
+Cost-sharing contract has been widely used in reality (Xu et al., 2017a). In the aforementioned supply chain structure, the retailer
+(such as Suning Group) makes huge investment on logistics service to compress the delivery time. The online platform (such as
+Tmall.com) who retains the commission from the retailer’s sales, however, has negligible marginal cost with increasing sales. This
+leads to the motivation of the platform to share a part of the retailer’s cost on logistics investment, in order to further increase the
+retailer’s sales and thus its own revenue. For example, besides its own sales, Suning Group also provides logistics service for products
+sold from “Tmall Supermarket” and other retailers on Tmall.com. Alibaba Group, who is the owner of Tmall.com, supports the
+logistics development of Suning Group by offering Big Data and Cloud Computing services. Alibaba Group invests 28.3 billion RMB,
+holding for 19.99% stake in Suning Group.2 Similar cases can be found in the cooperation of Alibaba Group and Watsons which is the
+sixth largest retailer in China.
+We can formulate the aforementioned context as the following supply chain structure: a manufacturer wholesales products to a
+retailer, who then sells products through its own offline channel and an online channel via a platform. The supply chain coordination
+problem in this structure has some special features. First, the involvement of platform makes the commission rate and platform power
+two factors to be considered in the coordination problem. Second, the delivery time is a critical decision in this supply chain, thus the
+consumers’ sensitivity to delivery time may play an important role in the supply chain coordination problem. To the best of our
+knowledge, there are no studies investigating supply chain coordination in the presence of the platform power and an online platform
+operating with marketplace mode. Our research aims to fill this gap by addressing the following questions.
+(1) How do the platform’s commission rate and platform power affect the operational decisions of the members and supply chain
+coordination?
+(2) How does the consumers’ sensitivity to delivery time affect the operational decisions of the members and supply chain coordination?
+(3) Can wholesale price and delivery cost-sharing contracts coordinate the supply chain?
+Motivated by the operational practice of platform economics, we in this paper study a new type of supply chain coordination
+problem considering an online platform. Specifically, we investigate the optimal wholesale price of the manufacturer, the optimal
+retail price and delivery time of the retailer, and examine whether the wholesale price and delivery cost-sharing contracts can
+coordinate this supply chain. To examine the robustness of our results, we also extend the model to the case that the manufacturer
+rather than the retailer opens a direct online sales channel on the platform, and investigate the supply chain coordination problem of
+this new supply chain with the two contracts. Furthermore, we conduct a set of numerical studies based on real data to verify the
+analytical results.
+The remainder of this work is organized as follows. Section 2 reviews the relevant literature and positions this research. Section 3
+presents the problem formulation and some basic assumptions. In Section 4, by building and solving Stackelberg game models, we
+investigate the operational decisions of the supply chain members, based on which we examine the effects of wholesale price and
+delivery cost-sharing contracts on coordinating the supply chain. In Section 5, we conduct a set of numerical studies based on real
+data. Section 6 concludes this paper and puts forward some future research directions. All the proofs for the theorems and propositions are shown in Appendix.
+2. Literature review
+Our work builds on contribution in three streams. The first one is the research on the operational decisions with a marketplace
+platform. The second one is the research on contract-based coordination with delivery time decision. The last one is the research on
+dual-channel supply chain coordination with wholesale price and cost-sharing contracts.
+
+2
+
+https://business.sohu.com/20150810/n418520292.shtml.
+2
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+2.1. The operational decisions with a marketplace platform
+In recent years, more and more attentions have been paid to the operational decisions with a marketplace platform. Hagiu and
+Wright (2014), Tian et al. (2018) and Geng et al. (2018) are a few representatives. Here we mainly review the studies related to the
+interaction of offline channel and online channel, which can be further divided into two aspects. One considers the competition
+between the two channels and the other considers the influence of online demand on the offline demand.
+Some studies investigate the competition between an offline channel and an online channel, where the online channel operates
+with marketplace mode. Tan and Carrillo (2017) explore the optimal retail price of offline channel and online channel where a
+publisher sells its products to retailers through the two channels. They find that, to let the publisher set the retail price can benefit all
+the supply chain members. Wang et al. (2018) analyze a manufacturer’s choice between establishing a direct channel and joining an
+online platform. They suggest that the manufacturer will join the platform when the commission rate is low. Considering green
+technology investment of a platform, Wang et al. (2020) investigate the joint production and pricing decisions of a supplier who sells
+products through an offline channel and an online platform. They show that the platform’s green technology investment may damage
+the supplier’s profit. Shen et al. (2019) analyze the production and pricing decisions of a manufacturer by considering the competition of an offline channel and an online channel provided by a platform. They find that the online platform and the manufacturer
+can achieve a win-win result under certain situations.
+Our work differs from the aforementioned papers in that none of them but ours considers the delivery time decision and supply
+chain coordination issue. Our work is closely related to Shen et al. (2019). Shen et al. (2019) mainly explore the channel selection and
+pricing decisions of a manufacturer who sells its products through an online platform and a traditional retailer. In their work, the
+impact of platform power (called potential market size there) on pricing decisions is also considered. Our work differs from Shen et al.
+(2019) in three aspects. First, we consider the delivery time decision in our model, and find that consumers’ sensitivity can significantly affect the firms’ optimal decisions and the supply chain coordination. Second, besides wholesale price contract, we also
+consider delivery cost-sharing contract in the supply chain coordination issue. Lastly, we assume the retail price on the offline
+channel is the same as that on the online channel, which is a current trend in such a supply chain structure.
+The second aspect considers the influence of online demand on the offline demand. Abhishek et al. (2016) explore the pricing
+decisions of a manufacturer who may join a marketplace platform or a reselling platform. They consider the influence of online sales
+on the offline sales and find that the manufacturer prefers the marketplace mode when this influence is negative. Yan et al. (2018)
+explore the pricing decisions of a manufacturer who sells products through an online platform with marketplace mode. They find that
+the manufacturer and the platform can achieve Pareto improvement when the influence of online channel on the offline channel is
+moderate. Chen et al. (2018) analyze the impacts of an additional online channel on the operational decisions of a supply chain in the
+presence of spillover effect from the online channel to the offline channel. They discover that, the manufacturer and the retailer can
+achieve a win-win result when the spillover effect is moderate. The above studies all assume that the retail price of offline channel is
+fixed. But we regard the retail price of offline channel to be a decision variable in this work. Moreover, we consider the platform
+power to be a factor in this work and analyze its impact on supply chain coordination with wholesale price and delivery cost-sharing
+contracts. We find that the platform power can significantly affect the supply chain coordination results.
+2.2. Contract-based coordination with delivery time decisions
+Many papers study the contract-based coordination issue with delivery time decision, such as Hua et al. (2010), Afèche et al.
+(2013) and Pekgün et al. (2017). Here, we mainly review the studies closely related to our work.
+Xiao and Qi (2016) study the pricing, delivery time and delivery reliability decisions with a quantity discount contract in a twostage supply chain. They find that the quantity discount contract can coordinate the supply chain. Hafızoğlu et al. (2016) analyze the
+pricing and delivery time decisions where consumers are contracted in two classes: (1) purchasing the product before a selling time;
+(2) purchasing the product during a selling time with a dynamic pricing. They show that the contract design is significantly affected
+by the price or consumers’ sensitivity to delivery time. Dai et al. (2016) discuss the design of supply chain contract with uncertain
+demand. They consider two contracts: (1) the delivery-time-dependent quantity flexibility contract and (2) late rebate contract. They
+find that the two contracts cannot coordinate the supply chain. Liu et al. (2016) investigate whether an option contract can coordinate the supply chain with demand uncertainty. The uncertainty lies in the demand of the retailer, who relies on an express
+delivery provider to provide delivery service. They find that this option contract can coordinate the supply chain. Ding et al. (2018)
+study the pricing and service time decisions of two substitutable products under a carbon tax regulation. They find that, the intense
+competition of prices can induce the less service time. Modak and Kelle (2019) consider a dual-channel supply chain where a
+manufacturer sells products through an online platform and a traditional retailer. Consumers are sensitive to the retail price and
+delivery time. They find that, a quantity discount with a franchise fee contract can coordinate the supply chain.
+The above studies explore the contract-based coordination issue with delivery time decisions, and some of them are in a dualchannel structure. The dual-channel structure is usually established by the manufacturer, which has essential difference compared to
+an online platform. In our work, when the retailer opens an online channel on a platform, two factors directly affect the retailer’s
+operational decisions and the supply chain coordination. One is the platform power, and the other is the platform’s commission rate.
+2.3. The dual-channel supply chain coordination with wholesale price and cost-sharing contracts
+There are many studies investigating supply chain coordination in traditional channel situation with different contracts, such as
+3
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+Ma et al. (2013), Xu et al. (2017a) and Yang and Chen (2018). Here we mainly review the articles on supply chain coordination in
+dual-channel situation with wholesale price and cost-sharing contracts.
+Chen et al. (2012) consider a supply chain consisting of a manufacturer and a retailer. The manufacturer sells products through
+the retailer and a direct channel. They explore the supply chain coordination problem with wholesale price contract, and find that
+wholesale price contract can coordinate the supply chain in some cases. Zhang et al. (2015) consider the demand and production cost
+disruptions, and discover that a wholesale price contract with a lump sum fee can coordinate the supply chain. Li et al. (2016)
+consider a risk-averse retailer and a risk-neutral supplier with uncertain demand. They show that wholesale price contract cannot
+coordinate the supply chain. None of the aforementioned papers consider the delivery time decision in their models. Moreover, our
+work considers an online platform who charges a commission from and brings new potential market to the retailer. Furthermore, the
+above studies focus on wholesale price contract while we also explore the delivery cost-sharing contract, where the platform and the
+retailer can share the cost of compressing the delivery time.
+There are also some studies exploring the dual-channel supply chain coordination with cost-sharing contract. Zha et al. (2015)
+investigate a dual-channel supply chain where a hotel faces two sources of consumers: One is from the hotel’s front desk and the other
+is from an online platform. They investigate the quantity decisions of rooms and supply chain coordination with cost-sharing contract, where the hotel shares the platform’s sales effort cost. They discover that the cost-sharing contract can coordinate the supply
+chain. Considering the sales effort cost of a retailer, Pu et al. (2017) explore the pricing decisions of a dual-channel supply chain
+where a manufacturer sells products through an offline retailer and an online channel. They further analyze the supply chain coordination with sales effort cost-sharing contract. They discover that this contract can coordinate the supply chain. Xie et al. (2018)
+analyze the pricing and service effort level decisions of a dual-channel supply chain where a manufacturer shares a retailer’s collection cost on remanufactured products. They find that this contract can increase the profits of the offline channel and the online
+channel. Zhou et al. (2018) investigate the pricing decisions of a dual-channel supply chain where a manufacturer sells products
+through a traditional retailer and its own online channel. The retailer can promote the products and the manufacturer shares the
+retailer’s sales effort cost. They discover that this contract can improve the level of sales effort. The above studies mainly investigate
+the dual-channel supply chain where a manufacturer (hotel) sells products through a traditional retailer and its own online channel.
+They consider the sale effort cost-sharing contract where the manufacturer shares the retailer’s sale effort cost. Different with these
+studies, our work considers delivery cost-sharing contract where the platform shares the retailer’s delivery cost. Moreover, the online
+platform collects a commission rate from and bring potential market to the retailer, which is different from the manufacturer’s own
+online channel.
+Table 1 shows the differences between our work and the most relevant literature.
+3. Problem formulation
+In this paper, we consider a supply chain consisting of an upstream manufacturer, a downstream retailer and an online platform.
+The manufacturer supplies products to the retailer with a wholesale price and the retailer satisfies consumers’ demand by selling the
+products through a traditional offline channel and an online platform (e.g. Amazon.com, Tmall.com) with the same retail price p . The
+retailer invests on logistics technology to set the delivery time l , i.e., if a consumer makes an online order through the platform, he/
+she can receive the product within time l . We model the operational decisions of the manufacturer (i.e. the wholesale price ) and the
+retailer (i.e. the same retail price p and the delivery time l ) as a Stackelberg game where the manufacturer acts as the leader and the
+retailer is the follower. The platform charges the retailer a commission for each product sold through the platform, with a commission
+rate of the online revenue. For tractability reason, we assume that the commission rate is exogenous throughout this paper.
+Similar treatment can be found in many articles studying similar problems (Abhishek et al., 2016; Tian et al., 2018, Yan et al., 2019)
+The event sequence of this game is as follows. First, the manufacturer decides the wholesale price . Then, for a given commission
+rate , the retailer determines the delivery time l and the retail price p . Backward induction is employed to solve for the equilibrium
+results of the game.
+Following Huang and Swaminathan (2009), Hua et al. (2010), Li et al. (2014), Saha et al. (2018) and Modak and Kelle (2019), we
+assume that the retailer’s demand functions through the online platform and the offline channel are d1 d1and d2 d2 , respectively:
+Table 1
+The differences of this paper and the most relevant literature.
+Paper
+
+Platform
+
+Platform power
+
+Delivery time
+
+Contract design
+
+Tan and Carrillo (2017)
+Shen et al. (2019)
+Abhishek et al. (2016)
+Hua et al. (2010)
+Dai et al. (2016)
+Modak and Kelle (2019)
+Zhang et al. (2015)
+Zhou et al. (2018)
+Chen et al. (2012)
+This paper
+
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+No
+Yes
+
+No
+Yes
+Yes
+No
+No
+No
+No
+No
+No
+Yes
+
+No
+No
+No
+Yes
+Yes
+Yes
+No
+No
+No
+Yes
+
+No
+No
+No
+No
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+4
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+d1 = a
+
+p
+
+d2 = 1
+
+p.
+
+(1)
+
+l
+
+(2)
+
+In the above demand functions, a and 1 are the potential market sizes of the online channel and offline channel, respectively. With
+the rapid growth of online shopping, for many industries or giant retailers (such as Suning Group), the market size of online channel
+becomes larger than that of offline channel. For example, in 2007, the market size of the electrical appliance market of online channel
+in China has exceeded that of offline channel by 60% in the top 30 metropolises (Sun, 2007, Shen et al., 2019). Also, the market size
+of online channel of Suning Group has exceeded that of its offline channel by 58% in 2018. Therefore, similar to Shen et al. (2019)
+and Yi et al. (2019), we assume a 1, which means that joining the platform can bring a larger potential market compared to the
+offline channel. As defined in the Introduction section, this new potential market size a is named “platform power” in this paper.
+In the demand functions, denotes the consumers’ sensitivity to delivery time in the online channel. The cost of delivering
+c
+products to consumers is assumed to be a quadratic form (c0 c1 l) 2 with 0 l c0 (Savaskan and Van Wassenhove, 2006; Modak and
+1
+Kelle, 2019). The quadratic cost function is common used in the literature (Desiraju and Moorthy, 1997; Ma et al., 2013; Xu et al.,
+2017a; Xie et al., 2018).
+In reality, for the same product of the same retailer, the retail prices on the online channel and the offline channel are usually set
+to be the same to avoid channel conflict. For example, Suning Group implements the same price policy for offline channel and online
+channel. In theoretical research, more and more studies consider the same price for offline channel and online channel, such as Li
+et al. (2016), Ji et al. (2017), Gao and Su (2017a, 2017b), Xie et al. (2018) and Zhou et al. (2018). Actually, setting the same price for
+) p > w to make sure that the
+multiple channels is a trend for omni-channel retail in recent years. In addition, we assume (1
+retailer can get positive profits from the two channels. This assumption is widely used in the literature, e.g., Chen et al. (2012), Zhang
+et al. (2015), Li et al. (2016), He and Zhao (2016) and Shen et al. (2019) Table 2 summarizes the related parameters.
+4. Model analysis
+In this section, we first investigate the operational decisions of the manufacturer and the retailer with wholesale price contract
+and delivery cost-sharing contract, respectively; later we discuss whether the two contracts can coordinate the supply chain. To verify
+the robustness of our results, we then extend the model to a new supply chain structure, i.e., the manufacturer rather than the retailer
+opens a direct sales online channel on the platform.
+4.1. The optimal operational decisions with wholesale price contract
+Given commission rate and wholesale price , the retailer chooses its delivery time in the online channel and retail price in both
+channels by maximizing its total profit as follows:
+w
+r
+
+= [(1
+
+= [(1
+
+)p
+
+)p
+
+] d1 + (p
+
+](a
+
+p
+
+) d2
+
+(c0
+
+l ) + (p
+
+)(1
+
+c1 l ) 2
+
+p)
+
+(c 0
+
+c1 l ) 2
+
+(3)
+
+The manufacturer’s profit is
+w
+m
+
+=
+
+(d1 + d2) =
+
+(1 + a
+
+2p
+
+(4)
+
+l).
+
+The platform’s profit is
+w
+p
+
+= pd1 = p (a
+
+p
+
+(5)
+
+l)
+
+Note that although the platform is part of the supply chain, but we do not consider its decision in the Stackelberg game. The
+Table 2
+The related parameters and corresponding explanations.
+d1
+d2
+q
+c0 , c1
+
+a
+Decision Variable
+p
+l
+Superscript w,
+Superscript c
+Superscript cw, c
+Subscript r , m , p
+
+The demand in the online platform
+The demand in offline channel
+The total demand in two channels (i.e. q = d1 + d2 )
+The sensitivity of delivery time
+Delivery time dependent cost parameters of the online platform
+The platform’s commission rate
+The platform power
+Retail price in both channels
+The delivery time in the online platform
+The wholesale price
+Represent wholesale price and delivery cost-sharing contracts
+Represent the optimal decisions under centralized supply chain
+Represent the optimal decisions when exploring supply chain coordination
+Represent the retailer, manufacturer and platform
+
+5
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+optimal operational decisions of the manufacturer and the retailer are given in the following theorem.
+Theorem 1. With wholesale price contract, the optimal operational decisions of the manufacturer and the retailer are as follows:
+(1) if 0 <
+
+0,
+
+then
+
+w = 1
+
++a
+4
+(1
+
+(2) if
+
+0
+
+< 1, then
+
+<
+
+w =
+
+, l w = 0 , pw =
+
+)[1 + (1
+) a]
+2(2
+2
+c 2 (a
+c0 c1 )
++ 1 2 2
+,
+4c1 +
+
+1
+4
+(1
+
+)[1 + (1
+
+)(a
+
+) c 0 c1
+
+c 0 c1 )]
+
+2
+
+4(2
+
+lw =
+where
+
+gw ( ) =
+
+) c 0 c1 + 2
+4c12 (2
+
+)2
+
+(1
+4
+
+(1
+
+2
+
++
+
+c12 (a
+
+and
+
+c0
+
+c1 )
+
+4c12 + 2
+
++
+
+,
+
+)[1 + (1
+)2
+
+2 (1
+
+)
+
+2c1 (c1 + c12 + 2 )
+2
+
+0 = max 0, 1
+
+1
+
+w
+
+3
+
+,
+
++ (3 2 ) a
+.
+4(2
+)
+
+,
+
+0 <
+
+,
+
+<
+
+,
+
+<
+
+< 1.
+
+) a]
+
+,
+
+pw =
+
+[4c12
+
+2 (1
+
+4c12 (2
+
+are the roots of functions f w ( ) =
+
+2c0 c1 (2
+
+)
+
+1
+4
+
+(
+
++ 2c12 1 + (1
+
+w
+
+)]
+
+)
++
+
+2 (1
+c12
+4c12 + 2
+
+) a
+
+c0
+c1
+
+)2
+)2
+
+(1
+2
+
+(a
+
+c0
+c1
+
+)
+
+,
+
+)=0
+
+and
+
+= 0 in the interval of ( 0 , 1) , respectively.
+
+Theorem 1 shows that the optimal operational decisions of the manufacturer and the retailer depend on the commission rate. If
+the commission rate is lower than 0 , the retailer is willing to compress the delivery time to zero. The reason is that the retailer, who
+retains a large share of the revenue from the online platform, prefers to set a minimum delivery time in order to increase its sales. This
+result can explain why many retailers provide some logistics service with very short delivery time. For example, as mentioned in the
+Introduction section, Suning Group provides the service called “Jisuda” to deliver its online products within two hours, even less than
+five minutes, which is nearly zero. If the commission rate is higher than that threshold, the delivery time is increasing in the
+wholesale price. It occurs because with high commission rate, as the wholesale price increases, the retailer’s marginal profit decreases
+fast, which force the retailer to prolong the delivery time.
+2c1, the optimal retail price increases when the
+Theorem 1 also shows that, if the sensitivity of delivery time is low, i.e.
+wholesale price increases. It is obvious that, for a higher wholesale price, the retailer sets a higher retail price to obtain more profits.
+However, if consumers’ sensitivity to delivery time is high, i.e., > 2c1, the relationship between the optimal retail price and the
+wholesale price depends on the commission rate. If the commission rate is low (0 < < 0 ) or high ( > 1 4c12 2 ), the retail price
+1 4c12 2 , the optimal retail price
+increases when the wholesale price increases. If the commission rate is moderate, i.e., 0 <
+decreases while the optimal wholesale price increases. Under this situation, the retailer hopes to transfer some sales from the platform
+channel to the offline channel. With the increase of the wholesale price, the retailer reduces the retail price to increase the demand in
+order to increase the retailer’s profits.
+Intuitively, when the manufacturer increases the wholesale price, the retailer should also increase its retail price. This conclusion
+can be widely found in the literature, such as Cao (2014) and Shen et al. (2019). However, we interestingly find that the retail price
+and the wholesale price changes in opposite directions under moderate commission rate. Hence, when the platform increases its
+commission rate to a moderate level, the manufacturer should decrease the wholesale price, as can be seen in following Proposition 1,
+but the retailer should increase its retail price. Specially, if the retailer establishes its own website rather than joins the platform,
+which is a special case of our work (i.e., = 0), the retailer should also increase its retail price when the wholesale price increases.
+We still take Suning Group as an example. Before 2015, Suning Group only has its own website “Suning.com”. In that case, if the
+wholesale price increases, Suning Group should increase its retail price. After 2015, Suning Group opens a new online channel on
+Tmall.com. Then, if Tmall.com increases its commission rate from a low value to a relatively high value, then the manufacturer
+should decrease its wholesale price while Suning Group should increase its retail price.
+Proposition 1. (1)
+interval of ( 0 , 1) .
+
+d w
+d
+
+< 0 . (2)
+
+d w
+d
+
+0 if 0 <
+
+and
+
+d w
+d
+
+< 0 if
+
+<
+
+< 1, where
+
+is the root of function g w ( ) = 0 in the
+
+Proposition 1(1) shows that, the wholesale price decreases when the commission rate increases. With the increase of the commission rate, the retailer has less profit earned from the online channel, which declines the demand of online channel. In order to
+induce the retailer to order more products, the manufacturer reduces its wholesale price. This finding is easy to understand, which is
+also found in Tian et al. (2018), Yan et al. (2018) and Shen et al. (2019).
+Proposition 1(2) shows that, if the commission rate is low, the wholesale price increases when consumers’ sensitivity to delivery
+time increases. Under this situation, the retailer retains a large share of the revenue from online channel. Hence, with the increase of
+consumers’ sensitivity to delivery time, the retailer is willing to compress delivery time, which can increase the online demand. At
+this moment, the manufacturer can increase the wholesale price to obtain more profits. This result has also been found in the existing
+studies, such as Modak and Kelle (2019). However, we interestingly find that if the commission rate is relatively high, the wholesale
+price will decrease when consumers’ sensitivity to delivery time increases. The reason for this is similar to the situation when the
+commission rate is relatively low. It is acknowledged that consumers are more and more sensitive to the delivery time (Pekgün et al.,
+2017; Ding et al., 2018). Hence, if the commission rate is low, the manufacturer should increase its wholesale price; otherwise, the
+manufacturer should decrease its wholesale price. It is worth noting that, when the retailer establishes its own website to sell the
+products, the manufacturer can increase the wholesale price when consumers are more sensitive to delivery time.
+6
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+Since the analytical expressions of the optimal retail price and the delivery time are difficult to be calculated, we conduct
+numerical studies in Section 5 to show these two decision variables. Similar treatment can be found in existing studies, such as Hua
+et al. (2010). Theorem 1 indicates that, the optimal retail price, wholesale price and delivery time are affected by the platform power.
+Proposition 2 gives a detailed result.
+Proposition 2. (1)
+dl w
+
+(2)
+
+d w
+da
+
+>
+
+= 0 if 0 <
+
+da
+
+h( ) =
+
+dpw
+da
+
+2c12
+
+or
+
+) 2 (4c12
+
+(1
+
+> 0,
+
+> 0,
+
+dd1w
+da
+
+dl w
+
+< 1;
+
+<
+
+da
+
+dd2w
+
+> 0,
+
+< 0.
+
+da
+
+0 if
+
+max{ , ¨} ;
+
+<
+
+) = 0 in the interval of (0,
+
+2
+
++
+
+dq w
+da
+
+).
+
+dl w
+da
+
+0 if max{ , ¨} <
+
+, where ¨ is a root of function
+
+Proposition 2(1) indicates that the platform power has a positive effect on the wholesale price, the retail price, the demand of the
+platform channel and the total demand. However, the platform power has a negative effect on the demand of the offline channel.
+Obviously, the increase of platform power can increase the online demand, which induces the increase of the wholesale price and the
+retail price. The increase of the wholesale price can reduce the offline demand. Proposition 2(1) has some implications. (a) The
+increase of platform power can intensify double marginalization. (b) Although the retailer implements the same retail price for offline
+channel and online channel, the increase of platform power encroaches on the demand of offline channel. (c) Combined with
+equations 3–5, we can easily verify that the profits of the manufacturer, the retailer and the platform increase with the platform
+power, which can explain why Tmall.com invests a lot of money every year to improve the platform power.
+Proposition 2(2) shows that, the optimal delivery time may increase with the platform power when the commission rate is
+moderate. When the commission rate is low, the increase of the platform power can increase the retailer’s marginal profit, who is
+willing to compress the delivery time. When the commission rate is high, the platform grasps relatively high marginal profit. As a
+result, the retailer gets less marginal profit and has less motivation to compress the delivery time. Proposition 2 (2) indicates that the
+increase of platform power can weaken the double marginalization when the commission rate is high.
+4.2. The optimal operational decisions with delivery cost-sharing contract
+In this subsection, we consider the optimal decisions of the supply chain members with delivery cost-sharing contract. With
+delivery cost-sharing contract, the manufacturer supplies the products to the retailer with a wholesale price . And then the retailer
+sells the products through the offline channel and the platform channel. The platform not only takes a commission rate but also
+shares a proportion of the retailer’s delivery cost (c0 c1 l) 2 . With delivery cost-sharing contract, the profits of the retailer, the
+manufacturer and the platform are given as follows:
+r
+
+= [(1
+
+)p
+
+m
+
+=
+
+p
+
+= p (a
+
+](1
+
+(a + 1
+
+p
+
+2p
+
+p
+
+l ) + (p
+
+)(1
+
+p)
+
+(1
+
+(6)
+
+c1 l ) 2
+
+)(c0
+
+(7)
+
+l).
+
+l)
+
+c1 l ) 2
+
+(c0
+
+(8)
+
+Then we can obtain the optimal operational decisions with delivery-cost sharing contract, as shown in the following theorem.
+Theorem 2. With delivery cost-sharing contract, the optimal operational decisions of the manufacturer and the retailer are as follows:
+3
++ (3 2 ) a
+1
++a
+=
+(1) if 0 <
+, l = 0, p =
+.
+1, then
+4
+2(2
+)
+)[1 + (1
+2
+
+(1
+
+(2) if
+
+1
+
+< 1, then
+
+<
+
+2c0 c1 (2
+
+)(1
+
+4
+(1
+
+)[1 + (1
+
+)(a
+
+c 0 c1 )]
+
+2
+
+l
+
+p
+
+=
+
+=
+
+4c0 c1 (2
+
+[4c12 (1
+
+and
+
+g ( )=
+
+)(1
+
+2 (1
+
+)
+
+)+2
+
+4c12 (2
+
+,
+
+)(1
+
+1
+
+)2
+
+(1
+4
+
+2
+
++
+
+2 (1
+
+4c12 (1
+
+) a
+
+roots
+
+)(a
+
+c0
+
+c1 )
+
+)+ 2
+
+,
+
+<
+
+,
+
+<
+
+< 1,
+
+) a]
+
+c0
+c1
+
+)2
+
+the
+c12 (1
+
+,
+
+, 1<
+
+)2
+
+) 1 + (1
+
+)
+
+are
+
+)[1 + (1
+
+2 (1
+
+)
+
++ 2c12 (1
+
+)]
+
+4c12 (2
+
+(1
+
+)(1
+
+)
+
+c 2 (1
+)(a
+c0 c1 )
++ 1 2
+,
+4c1 (1
+)+ 2
+
+1
+
+=
+
+) a]
+
++
+
+,
+
+of
+
+where
+
+1
+
+equations
+
+2c0 c1 (2
+
+)(1
+
+)
+
+= max{0,
+
+f ( )=
+
+1
+4
+
+'
+1} ,
+
++
+
+'
+1
+
+c12 (1
+
+4c12 (1
+
+=1
+)
+
+)+ 2
+
+2c1 {(1
+
+) c1 + (1
+
+)[(1
+
+) c12 + 2] }
+
+2
+
+)2
+
+(1
+2
+
+(a
+
+c0
+c1
+
+)=0
+
+,
+
+and
+
+=0
+
+in the interval of ( 1, 1) , respectively.
+
+The results of Theorem 2 are similar to Theorem 1. However, the cost-sharing proportion directly affects the wholesale price, as
+shown in the following proposition.
+Proposition 3.
+
+d
+d
+
+0 if 0 <
+
+;
+
+d
+d
+
+0 if
+
+<
+
+< 1, where
+
+is the root of function g ( ) = 0 in the interval of ( 1, 1) .
+
+Proposition 3 shows that, when the commission rate is low, the wholesale price increases when the cost-sharing proportion
+increases. The low value of commission rate and the increase of the cost-sharing proportion induce the retailer to sell more products
+7
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+through online channel. Then the manufacturer can increase its wholesale price for more profit. However, we interestingly find that
+the wholesale price decreases when the cost-sharing proportion increases, if the commission rate is high. Since the platform implements high commission rate, the retailer has the motivation to reduce the online sales despite the fact that the platform shares
+more delivery cost. Therefore, the manufacturer decreases its wholesale price in order to induce more demand.
+4.3. Supply chain coordination with the two contracts
+In this subsection, we analyze the conditions to coordinate the supply chain in two steps. In the first step, we solve for the optimal
+delivery time and pricing decision in the centralized supply chain. In the second step, we study the supply chain coordination results
+with wholesale price contract and delivery cost-sharing contract, respectively.
+The total profit of the centralized supply chain is given by
+c
+
+= p (d1 + d2)
+
+c1 l)2 = p (1 + a
+
+(c 0
+
+2p
+
+l)
+
+(9)
+
+c1 l ) 2 .
+
+(c 0
+
+Theorem 3. The optimal operational decisions and profit of the centralized supply chain are as follows:
+(1) if
+
+8c0 c1
+,
+a+1
+
+(2) if
+
+8c0 c1
+,
+a+1
+
+>
+
+8c0 c1
+
+then
+
+lc
+
+=
+
+then
+
+lc
+
+= 0,
+
+(a + 1)
+
+8c12
+
+pc
+
+2
+
+=
+
+,
+
+pc
+
+a+1
+,
+4
+
+=
+c
+
+2c12 a + 1
+
+=
+
+2
+
+8c12
+
+(a + 1)2
+8
+
+c0
+c1
+
+,
+
+c
+
+=
+
+c12 a + 1
+8c12
+
+c0
+c1
+2
+
+2
+
+.
+
+c02 .
+
+With simple calculation based on Theorem 3, we can find that, if consumers’ sensitivity to delivery time is relatively low, the
+optimal delivery time and the supply chain’s total profit decreases when this sensitivity increases. With increased sensitivity to
+delivery time, it is necessary for the supply chain members to compress the delivery time. However, compressing the delivery time
+will increase the total delivery cost which further reduces the profit of the supply chain. On the contrary, if consumers’ sensitivity to
+delivery time is very high, the retailer has incentive to reduce the delivery time to zero. This result is intuitive.
+Theorem 3 also indicates that, the retail price and the profit of the centralized supply chain increase when the platform power
+increases. This result shows that the increase of the platform power is beneficial to the total supply chain.
+In the following two subsections, we discuss the supply chain coordination problem with wholesale price contract and delivery
+cost-sharing contract. In reality, the commission rate is very low. For example, Tmall.com sets the commission rate to be no more
+than 5%. Therefore, for simplification, we give the following assumption in the following two subsections.
+Assumption. The commission rate satisfies
+
+< min{ 2 ,
+
+3,
+
+4} ,
+
+where
+
+2
+
+=
+
+4c12 a + 1
+8c12 a
+
+c0
+c1
+
+c0
+c1
+
++ 2
+
+,
+
+3
+
+=
+
+a+1
+2a
+
+and
+
+4
+
+=
+
+|4c12
+
+(8c12
+
+2| (a + 1
+2) a
+
+c0
+c0
+
+c1 )
+c1
+
+.
+
+4.3.1. Coordination via wholesale price contract
+In this subsection, we discuss whether wholesale price contract can coordinate the supply chain. We design a wholesale price
+contract ( cw , l cw ) , where cw and lcw are the wholesale price and the delivery time. If this contract can coordinate the supply chain, it
+should be true that the delivery time and retail price under this contract are the same as those in the centralized supply chain, i.e.,
+lcw = l c , pcw = pc .
+Let lcw = l c . We have the retailer’s profit with wholesale price contract as follows:
+cw
+r
+
+= [(1
+
+)p
+
+](a
+
+p
+
+l c ) + (p
+
+)(1
+
+p)
+
+(10)
+
+c1 lc )2 .
+
+(c 0
+
+The response function of the retailer with respect to the wholesale price is
+
+pcw =
+
+1 + (1
+
+)(a
+2(2
+
+lc ) + 2
+)
+
+Then, in order to let pcw = pc , we must have
+
+cw
+
+wholesale price contract is feasible if and only if (1
+
+=
+
+c0
+c1
+2(8c12
+
+4c12 a + 1
+
+) pcw
+
+>
+
+cw
+
+(8c12
+2)
+
+2)
+
+if
+
+8c0 c1
+a+1
+
+and
+
+cw
+
+=
+
+(a 1)
+4
+
+if
+
+>
+
+> 0 . Thus, we have the following proposition.
+
+Proposition 4. (1) When 1 a a1, the wholesale price contract cannot coordinate the supply chain;
+(4c 0 c1
+(2) When a > a1, the wholesale price contract can coordinate the supply chain, where a1 = 1 +
+4c 2
+1
+
+)
+
+8c0 c1
+.
+a+1
+
+In addition,
+
+.
+
+In traditional supply chains, it is usually found that the wholesale price contract cannot coordinate the supply chain due to the
+double marginalization (Cachon and Kök, 2010; Xu et al., 2017a). Proposition 4 shows that whether the wholesale price contract can
+coordinate the supply chain depends on the platform power. When the platform power is small, the wholesale price contract cannot
+coordinate the supply chain. But when the platform power is large, the wholesale price contract can coordinate the supply chain.
+Recall that Proposition 2 implies that the increase of platform power intensifies the double marginalization. However, Theorem 3
+tells us that the increase of platform power can increase the profit of the supply chain. Combining Proposition 2 with Proposition 4,
+we discover that: (1) when the platform power is small, its impact on intensifying double marginalization is larger than that on
+increasing the profit of the supply chain; (2) when the platform power is great, the opposite is true. It is worth noting that, when
+a = 1, the wholesale price contract cannot coordinate the supply chain. That means, for the traditional dual-channel supply chain, the
+wholesale price contract cannot coordinate the supply chain. Proposition 4 implies that the manufacturer, the retailer and the
+8
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+platform should cooperate to increase the platform power.
+4.3.2. Coordination via delivery cost-sharing contract
+In this subsection, we discuss whether a delivery cost-sharing contract can coordinate the supply chain. We design a delivery costsharing contract ( c , , l c ) , where
+is the proportion that the platform shares the retailer’s delivery cost, c and lc are the
+wholesale price and the delivery time under this contract. The retailer’s profit with this contract is as follows:
+c
+r
+
+= [(1
+8c0 c1
+,
+a+1
+
+If
+
+lc =
+
+pc =
+
+)p
+
+let
+
+](a
+
+l ) + (p
+
+l = 0 and
+
+c
+r
+
+4c0 c1 (2
+
+p
+
+)(1
+4c12 (2
+
+[4c12 (1
+
+)
+
+2 (1
+
+(1
+)
+
+)]
+
+4c12 (2
+
+If
+
+lc
+
+=
+
+lc
+
+and
+
+(1
+
+(11)
+
+c1 l ) 2
+
+)(c0
+
+)[1 + (1
+)2
+
+)(1
+
+)
+
+=1
+
+) a]
+
+) 1 + (1
+2 (1
+2 (1
+4c12 (2
+
+(
+
+) a
+
+c0
+c1
+
+)
+
+)2
+)2
+)
+
+(0, 1) ,
+
+c
+
+=
+
+1
+2
+
+1 + (1
+
+(
+
+) a
+
+)
+
+c0
+c1
+
+> 0.
+(a
+
+1)
+
+. We find that can be any value in the range of (0, 1) and
+=
+0 . Therefore, the
+4
+) pc > c > 0 . From the above discussion, we have the
+delivery cost-sharing contract can coordinate the supply chain only if (1
+following proposition.
+
+>
+
+let
+
+2 (1
+
++ 2c12 (1
+
+Let lc = lc and pc = pc . We then have
+8c0 c1
+,
+a+1
+
+p)
+
+p = 0 , we have
+
+c
+r
+
+)+2
+)(1
+
+)(1
+
+pc
+
+=
+
+pc
+
+c
+
+2c1, delivery cost-sharing contract cannot coordinate the supply chain; (b) when
+Proposition 5. (1) If 1 a a2 , (a) when
+delivery cost-sharing contract can coordinate the supply chain.
+8c c
+(2) If a > a2 , delivery cost-sharing contract can coordinate the supply chain, where a2 = 0 1 1.
+
+> 2c1,
+
+Proposition 5 shows that, whether delivery cost-sharing contract can coordinate the supply chain depends on the platform power
+and consumers’ sensitivity to delivery time. Proposition 5(1) indicates that, when the platform power and the sensitivity are relatively
+low, delivery cost-sharing contract cannot coordinate the supply chain. The reason is that the retailer cannot get positive profit from
+c < 0 . Proposition 5 indicates that the increase of platform power and consumers’ sen) pc
+the online platform, that is, (1
+sitivity to delivery time can promote the supply chain coordination. Hence, it is necessary for the supply chain members to cooperate
+with each other to increase the platform power. In reality, Tmall.com established “Cainiao” logistics network in 2013 to shorten the
+delivery time so that it can meet consumers’ increasing online demand. Also, Tmall.com invests a lot of money every year to attract
+more consumers to purchase products through the platform. Proposition 5 implies that these arrangements of Tmall.com are beneficial to the whole supply chain.
+From Propositions 4 and 5, we find that, when wholesale price contract cannot coordinate the supply chain (i.e., 1 a a1), the
+supply chain members can try to use the delivery cost-sharing contract to coordinate the supply chain under a high value of consumers’ sensitivity to delivery time. When delivery cost-sharing contract cannot coordinate the supply chain (i.e., 1 a a2 and
+2c1) , the supply chain members can try to use wholesale price contract to coordinate the supply chain whena1 a a2 . It
+indicates that neither contract always has more advantages compared to the other one in supply chain coordination.
+4.4. Supply chain coordination when the manufacturer joins the platform
+To examine the robustness of our results, in this section, we extend the previous model to the case that the manufacturer rather
+than the retailer opens a direct sales channel on the platform. In this case, the manufacturer invests on the logistics technology and
+determines the delivery time on the online channel. The platform charges the manufacturer the commission for the online channel it
+brings to the manufacturer.
+In centralized case, the total profit of the new supply chain is the same as that of the former supply chain, i.e., equation (9).
+However, in decentralized case, the profits of the manufacturer and the retailer are new. We study the two contracts in this new
+supply chain structure, respectively.
+If a wholesale price contract is applied to this new supply chain, the profits of the manufacturer and the retailer are as follows:
+w1
+m
+
+= (1
+
+) pd1 + d2
+
+w1
+r
+
+= (p
+
+) d2.
+
+(c0
+
+(12)
+
+c1 l ) 2
+
+(13)
+
+Following the same process in proving Proposition 4, we analyze the coordination of the supply chain in two cases: One is that the
+manufacturer determines the retail price, and the other is that the retailer determines the retailer price. We find that the conditions
+for a wholesale contract to coordinate the supply chain are exactly the same as those in Proposition 4. This implies that: (1) no matter
+the manufacturer or the retailer joins the online platform, the conditions for coordinating the supply chain are the same; (2) when the
+manufacturer joins the online platform, no matter the manufacturer or the retailer determines the retail price, the conditions for
+coordinating the supply chain are also the same. Therefore, in terms of supply chain coordination, there is no difference for the
+manufacturer or the retailer to join the online platform. Besides, there is also no difference for the manufacturer or the retailer to
+9
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+Table 3
+Regression analysis of the data in platform channel.
+The model
+
+Coefficient
+
+Standard error
+
+t-value
+
+Significance
+
+Intercept
+Price
+Delivery Time
+
+311.908
+−11.052
+−16.447
+
+46.883
+2.338
+5.088
+
+6.653
+−4.728
+−3.233
+
+0.000
+0.001
+0.009
+
+determine the retail price when the manufacturer joins the online platform.
+If a delivery-cost sharing contract is applied to this new supply chain, the profits of the manufacturer and the retailer are as
+follows:
+1
+m
+
+= (1
+
+) pd1 + d2
+
+1
+
+= (p
+
+) d2.
+
+r
+
+(1
+
+)(c0
+
+(12)
+
+c1 l ) 2
+
+(13)
+
+Following the same process in proving Proposition 5, we discover that, no matter the manufacturer or the retailer determines the
+retail price, the conditions for a delivery-cost sharing contract to coordinate the supply chain are the same as those in Proposition 4.
+2c1, to let
+Therefore, when the retailer joins the online platform and the supply chain cannot be coordinated (i.e., 1 a a2 , and
+the manufacturer join the online platform can coordinate the supply chain if a1 a a2 . In reality, consumers are more and more
+sensitive to the delivery time, which means a relatively high value of the sensitivity to delivery time (i.e., > 2c1). That is, when the
+retailer joins the online platform, delivery cost-sharing contract can always coordinate the supply chain. However, if the manufacturer joins the online platform, the supply chain can be coordinated when 1 a a1. Therefore, to let the retailer join the online
+platform is beneficial to the supply chain coordination.
+5. Numerical study
+In order to better illustrate and verify our theoretic results, we in this section conduct a set of numerical studies with the data from
+Anhui Truelove Food Group and Anhui Xinerlian Company. Anhui Truelove Food Group produces its products and sells its products
+to Anhui Xinerlian Company, which has two channels, one offline and one online (through Tmall.com). We collect the data of the
+retail price, the sales in both channels and the delivery time on the online channel (Tmall.com). The data collected cover the time
+period from May 2018 to November 2018. With the method of regression analysis, we derive the relationship of the online sales with
+respect to the retail price and delivery time, and the relationship of the offline sales with respect to the retail price, which are
+presented in Table 3 and Table 4, respectively. Based on the regression, we formulate the online demand function as
+d1 = 312 11p 16l . By standardizing the coefficient of the retail price, we have d1 = 28 p 1.5l . Similarly, we formulate the
+offline demand function as d2 = 10 p . We further standardize the market size, and obtain the demands of the online channel and
+offline channel as follows: d1 = 2.8 p 1.5l and d2 = 1 p , that meansa = 2.8 and = 1.5. According to our survey, Tmall.com
+charges Anhui Xinerlian Company a commission rate of 2% on the revenue sold through its platform. Therefore, we set = 0.02 .
+5.1. The impact of consumers’ sensitivity to delivery time on the optimal decisions
+We examine the impact of consumers’ sensitivity to delivery time on the optimal retail price and the optimal delivery time in
+decentralized supply chain with wholesale price contract. We suppose a = 2.8, c0 = 1, c1 = 0.8 and focus on the impact of consumers’
+sensitivity to delivery time on the optimal delivery time and retail price, which is presented in Fig. 1 and Fig. 2, respectively.
+Fig. 1 shows that, the optimal delivery time decreases when consumers’ sensitivity to delivery time increases. Since consumers are
+more and more sensitive to the delivery time, it is necessary for Anhui Xinerlian Company to compress its delivery time, which can
+further increase its profits. Fig. 2 shows that, the optimal retail price firstly decreases and then increases when consumers’ sensitivity
+dpw
+dpw
+to delivery time increases. Based on Fig. 2, we find that when = 0.02, d < 0 if 0 < < 1.7 , and d > 0 if > 1.7. When = 0.05,
+dpw
+d
+
+dpw
+
+dpw
+
+dpw
+
+< 0 if 0 < < 1.81, and d > 0 if > 1.81. When = 0.1, d < 0 if 0 < < 1.87 , and d > 0 if > 1.87 . Based on the data of
+Anhui Xinerlian Company, we have = 1.5. Therefore, with consumers’ increasing sensitivity to delivery time, the company should
+firstly decrease and then increase the retail price.
+Table 4
+Regression analysis of the data in offline channel.
+The model
+
+Coefficient
+
+Standard error
+
+t-value
+
+Significance F
+
+Intercept
+Price
+
+3140.11
+−331.959
+
+438.868
+52.662
+
+7.155
+−6.303
+
+9.66E−05
+0.0002
+
+10
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+Fig. 1. The relationship of delivery time with the sensitivity of delivery.
+
+Fig. 2. The relationship of retail price with the sensitivity of delivery.
+
+Fig. 3. The impact of platform power on supply chain coordination with wholesale price contract.
+
+5.2. The impact of the platform power on coordination with wholesales price contract
+In this subsection, we set c0 = 1 and c1 = 0.8. From Proposition 4, we know that if the platform power is relatively small, wholesale
+price contract cannot coordinate the supply chain. If the platform power is relatively great, wholesale price contract can coordinate
+11
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+Fig. 4. The impact of platform power on supply chain coordination with delivery cost-sharing contract.
+
+the supply chain, which are presented in Fig. 3.
+Fig. 3 shows that, for = 0.02 and = 0.10 , wholesale price contract can coordinate the supply chain when a > 1.99 . Based on the
+data of Anhui Xinerlian Company, we have a = 2.8 and = 0.02. Thus we find that wholesale price contract can coordinate the supply
+chain of Anhui Truelove Food Group. The total profit of the supply chain before and after coordination is 0.8039 and 0.8308,
+respectively. Therefore, the total profit of the coordinated supply chain is about 2% higher than that of the pre-coordinated supply
+chain. After the coordination, the profits of the platform and the retailer increase by 19.77% and 636.89%, respectively. However, the
+manufacturer’s profit decreases by 98%. It means that to coordinate the supply chain has to sacrifice the manufacturer’s profit. Since
+the total profit of the supply chain increases by 2%, the manufacturer, the retailer and the platform can achieve a win-win result by
+pre-arranged agreement, such as a two-part tariff agreement, which can be found in Chen et al. (2012), Zhang et al. (2015) and Xu
+et al. (2017a). Here we let F1, F2 be the lump sum fees that the manufacturer charges the platform and the retailer, respectively. The
+three members can achieve a win-win result if F1 (0, 0.0052) and F2 (0.6585 F1, 0.6802) .
+5.3. The impact of the platform power on coordination with delivery cost-sharing contract
+Based on the data of Anhui Xinerlian Company, we have the threshold of the condition in Proposition 5 as a2 = 3.26. According to
+Proposition 5, the delivery cost-sharing contract can always coordinate the supply chain when a > 3.26, we only conduct the analysis
+when 1 < a < 3.26. Also, we have = 1.5 2c1 = 1.6. According to Proposition 5, the delivery cost-sharing contract cannot coordinate the supply chain. Fig. 4(a) verifies this result. However, since consumers are increasingly sensitive to the delivery time, the
+result can be changed in the future, as shown in Fig. 4(b), where = 1.65. In that case, the delivery cost-sharing contract can
+coordinate the supply chain. Therefore, based on the data of Anhui Xinerlian Company, the delivery cost-sharing contract cannot
+coordinate the supply chain. But this company can cooperate with Tmall.com to compress the delivery time in order to attain
+customers due to their increasing sensitivity to delivery time.
+6. Conclusion
+In this paper, we investigate the optimal operational decisions and coordination problem of a supply chain consisting of a
+manufacturer, a retailer and an online platform. Specifically, we examine two contracts: wholesale price contract and delivery costsharing contract. By exploring the optimal operational decisions with Stackelberg game models, we have the following findings. (1) If
+consumers’ sensitivity to delivery time is high and the platform’s commission rate is moderate, the optimal wholesale price and
+optimal retail price changes in opposite directions. (2) If the commission rate is low (high), the optimal wholesale prices with the two
+contracts increase (decrease) when consumers’ sensitivity to delivery time and the cost-sharing proportion increase. (3) When the
+12
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+platform power increases, the wholesale price, the retail price, the online demand and the total demand increase. However, the
+offline demand decreases. Moreover, the increase of the platform power intensifies the double marginalization but increases the
+profits of the manufacturer, the retailer and the platform. (4) The optimal delivery time may increase with the platform power when
+the commission rate is moderate.
+By exploring the supply chain coordination with wholesale price and delivery cost-sharing contracts, we find the following results.
+With wholesale price contract, (1) the supply chain can be coordinated only when the platform power is greater than a threshold; (2)
+no matter the manufacturer or the retailer joins the online platform, the conditions to coordinate the supply chain are the same; (3)
+when the manufacturer joins the online platform, no matter the manufacturer or the retailer determines the retail price, the conditions to coordinate the supply chain are also the same. With delivery cost-sharing contract, (1) when the platform power is small,
+the supply chain can be coordinated if the sensitivity of delivery time is high, and when the platform power is large, the supply chain
+can always be coordinated; (2) when the manufacturer joins the platform, no matter the manufacturer or the retailer determines the
+retail price, the conditions to coordinate the supply chain are the same with those for wholesale price contract.
+Based on the analysis in this paper, we discover some managerial insights. (1) When the platform increases its commission rate to
+be moderate, the manufacturer should decrease the wholesale price, but the retailer should increase its retail price. (2) When the
+retailer relies on its own website to sell the products, the manufacturer can increase the wholesale price when consumers’ sensitivity
+to delivery time increases. However, when the retailer joins an online platform, the manufacturer should decrease the wholesale price
+when consumers’ sensitivity to delivery time increases if the platform charges a relatively high commission rate. (3) The manufacturer, the retailer and the platform should cooperate to increase the platform power because that can further increase their profits.
+(4) In terms of the conditions for wholesale price contract to coordinate the supply chain, there is no difference for the manufacturer
+or the retailer to join the online platform. (5) In terms of the conditions for the two contracts to coordinate the supply chain, if the
+manufacturer joins the online platform, there is no difference for the manufacturer or the retailer to determine the retail price.
+There are several limitations of our work, and some of them may be possible directions for further research. First, the online
+platform in this supply chain may operate with reselling mode. That is, the retailer sells its products to the platform, who further sells
+to consumers. Considering an online platform operating with reselling mode may lead to many new findings. Second, in this work, the
+manufacturer acts as the leader of the Stackelberg games. If the retailer acts as the leader, the results may be much different. This is
+also an interesting research direction. Finally, in this work we implicitly assume information symmetry between the manufacturer
+and the retailer. Considering the information asymmetry between the two firms may also be an interesting direction.
+CRediT authorship contribution statement
+Xiaoping Xu: Methodology, Validation, Formal analysis, Writing - original draft. Mian Zhang: Conceptualization, Investigation.
+Ping He: Supervision, Writing - review & editing.
+Acknowledgments
+This work was supported by the National Natural Science Foundation of China under Grant [numbers 71801211, 71971087 and
+71571159]; the China’s Post-doctoral Science Foundation under Grant [numbers 2018M632556 and 2019T120548]; the Key Project
+of Natural Science Foundation of Anhui Province under Grant [number KJ2019A0535].
+Appendix A
+Proof of Theorem 1.
+According to Model (3), we obtain the Hessian matrix of
+
+H=
+
+2(2
+
+)
+
+(1
+
+)
+
+(1
+
+w
+r
+
+as follows:
+
+)
+
+2c12
+
+The diagonal elements of the Hessian matrix H are both negative. The Hessian matrix H is negative definite if
+'
+2c1 (c1 + c12 + 2 ) 2 is a root of equation
+4c12 (2
+) > 2 (1
+)2 , i.e.,
+> 0 = max{0, 0'} , where
+0 = 1
+2
+w
+2
+2
+4c1 (2
+) = (1
+) . Under this condition, r is jointly concave in p and l. Thus, there is an optimal solution of Model (3). Let the
+) p (1
+) l + (1
+) a + 1 + 2 = 0 and
+first partial derivatives of rw with respect to p and l be zero. That is, rw p = 2(2
+w
+l = (1
+) p 2c12 l + 2c0 c1 +
+= 0 . Solving the two equations, we obtain the response function of the retailer to the
+r
+manufacturer’s wholesale price as follows: l w =
+
+) c 0 c1 + 2
+4c12 (2
+
+(1
+)
+
+2 (1
+
+)[1 + (1
+
+) a]
+
+)2
+
+, pw =
+
+[4c12
+
+2 (1
+
+)] + 2c12 [1 + (1
+
+4c12 (2
+
+)
+
+2 (1
+
+)(a c0
+
+w
+m
+
+) pw
+
+=
+
+Note that
+
+2 )(4c12 +
+4c12 (2
+)
+
+[(1
+w
+d2 m
+
+d 2
+
+=
+
+4(4c12 + 2 )
+
+4c12 (2
+
+)
+
+2 (1
+
+2
+
+) + 4c12 (a
+2 (1
+)2
+)2
+
+c0
+
+c1 )]
+
+< 0 . Therefore,
+
+s. t .
+
+w
+m is
+
+0
+
+concave in
+13
+
+c1)]
+
+)2
+
+0
+c0 c1 and (1
+0 . After some transformations, the two inequalities can be rewritten as
+(1
+) [1 + (1
+) a] 4(2
+) c0 c1
+(1
+)[1 + (1
+)(a
+c0 c1 )]
+=
+, 1=
+.
+2
+2
+The manufacturer’s profit can be further expressed as follows:
+lw
+
+0
+
+4(2
+
+. We know
+1,
+
+0
+
+where
+
+1
+d w
+
+. To let d m =
+
+(1
+
+4 )(4c12 + 2 ) + 4c12 (a
+4c12 (2
+
+)
+
+2 (1
+
+)2
+
+c0
+
+c1 )
+
+= 0 , we can
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+obtain
+
+1
+
+=
+
+fw( ) =
+
+respect to
+'
+0)
+
+f(
+
+1
+
+We
+
+c12
+
++
+
+4
+
+f( )
+4c12 + 2
+
+then
+
+4c12 + 2
+
+compare
+
+(a
+
+)2
+
+(1
+2
+
+, where f ( ) =
+
+(4c12 +
+
+2
+
+'
+2 ')
+2
+0)(4c1 +
+0
+
+'
+0)
+
+1 + (1
+
+4
+
+(a
+
+)
+
+c0
+c1
+
+0)
+
+0,
+
+and g w ( ) =
+)2
+
+(1
+
++
+
+4
+
+and
+
+1
+
+2
+
+(a
+
+=
+
+0
+
+)
+
+c0
+c1
+
+< 0 , thus, we have f (
+
+lim f ( ) = + , this means that the equation f
+
+gw (
+
+1
+
+)
+
+with
+
+)
+
+c0
+c1
+
+c12 (1 + c0
+
+< 0 , g w (1) =
+
+c1 )
+
+4
+
+0
+
+c12 (a
+
++
+
+2
+
+simplification,
+
+we
+
+c0
+
+)
+
+c1 )
+
++
+
+4c12 + 2
+
+2c0 c1 (2
+
+'
+0} ,
+
+= max{0,
+
+c12
+
+c12 (a + 1
+
+f (0) =
+
+(1
+
+c0
+c1
+
+) > 0,
+
+and
+
+lim f ( ) =
++
+
+in the interval of ( 0 , 1) . Similarly, we can verify
+in the
+
++
+
+interval of ( 0 , 1) . Since f w ( ) < 0 , thus,
+
+. From the above analysis, if
+
+<
+
+. Note
+
+c1) < 0 and
+
+c0
+
+> 0 , lim g w ( ) < 0 and lim g w ( ) > 0 . Hence, the equation g w ( ) = 0 has a unique root
+
+4c12 + 2
+
+let
+
+). Because f ( ) is a cubic function with
+
+c0
+c1
+
+< 0 . For f (1) =
+
+0)
+
+For
+
+) 2a
+
+(1
+
+(
+
+) = 0 has a unique root
+
+w(
+
+respectively.
+1
+
++ c12 1
+
+, there are at most three real roots of equation f ( ) = 0 . Since
+(1
+
+=
+
+c0 c1)
+.
+4c12 + 2
+
+=
+
+1
+
+that f w ( ) =
+
+c12 (a
+
++
+
+4
+
+0
+
+, then
+
+<
+
+0,
+
+the manufacture’s optimal
+
+w =
+wholesale price is w = 0 .If <
+, then 0 <
+. If < < 1,
+1 , the manufacturer’s optimal wholesale price is
+then 1 < , the manufacturer’s optimal wholesale price is w = 1. Substituting it into l w and pw , respectively, we have the results
+shown in Theorem 1(2).
+
+If 4c12 (2
+
+1
+
+) 2 , i.e.,
+
+2 (1
+
+)
+
+= {(l, p) l = 0, p > 0} and
+
+d2 rw
+dp2
+
+is,
+
+=
+
+d rw
+dp
+
+) < 0,
+
+2(2
+=
+
+2(2
+
+Therefore, if
+
+0,
+
+(1
+2(2
+
+) c0
+.
+) c1
+
+1
+
++a
+2
+
+1,
+
+then
+
+w
+r
+
+= [(1
+
+)p
+
+1 + (1
+)a + 2
+2(2
+)
+
+](a
+
+2 (1
+
+)]
+
+[(1
+
++
+
+) p1
+
+p ) + (p
+
+] c0
+
+w
+r
+
+2,
+
+have
+
+d w
+d
+
+=
+
+< 0 for
+
+If
+
+<
+
+< 1,
+
+1
+
+(1
+0
+
+4c 0 c1
+2
+
+)a +
+
+. If
+
+<
+
+2,
+
+where
+
+2
+
+=
+
+(1
+
+)[1 + (1
+2
+
+) a]
+
+. Then, the manufacturer’s profit can
+
+=
+
+Thus, we have
+(2)
+
+h( ) =
+
+dpw
+da
+
+)(2
+2
+
+>
+
+Obviously,
+
+2c12
+
+(1
+
+d w
+d
+
+< 0 . If
+
+1
+4
+
+=
+
+1
+
++a
+
+is the optimal
+
+> 0 , and
+
+< , we can
+
+=
+
+4
+
+, then
+
+<
+
+0
+
+w
+
+d w
+da
+
+)
+
+if
+
+) 2 (4c12
+
+1
+> 0,
+4
+dq w
+=
+da
+
+=
+
+> 0,
+
+d w
+da
+
+> 0,
+
+0<
++
+
+,
+
+<
+
+d w
+d
+
+=
+
+0
+
+1. Since g w ( ) =
+
+c12 2 (a
+
+1
+4
+
+=
+
+= 0 ; If
+
+4c0 c1
+2 a
+c0
+
+c1 )
+
+< 0 . If
+
+4c12 + 2
+
+,
+
+<
+
+d w
+d
+
+=
+
+2(2
+
+(3
+
+) c 0 c1
+
+1,
+
+<
+
+) c0 c1
+
+> 0. If
+
+1
+
+> 0 ; If
+
+2
+
+c12 (1
+
+c 0 c1)
+4c12 + 2
+
++
+
+d w
+d
+
+1 + 2(1
+
+=
+,
+
+<
+
+d w
+d
+
+=
+
+)(a
+2
+
+c0
+
+c1 )
+
+< 0.
+
+c12 [4c0 c1 + (2a
+
+c 0 c1 )
+(4c12 + 2 )2
+
+]
+
+< 0.
+
+(1
+)2
+d w
+= 2
+da
+dq w
+0 , da = 2c12
+
+> 0,
+
+< 0. □
+
+2c1
+
+0,
+
+(1
+
+gets the
+
+at p0 and p1 is given by
+
++a
+
+= 0 , we have
+
+d w
+0, d
+
+)2c 0
+
+(1
+
+=
+
+(1) If 0 <
+d w
+da
+
+w
+r
+
+4c c
+)a + 0 1
+2
+
+Proof of Proposition 2.
+dpw
+da
+
+c02 . Since
+
+2.
+
+(2) It is obvious that, if 0 <
+d w
+d
+
+p)
+
+>0
+
+c1
+
+0 , which can be rewritten as
+
+4
+
+(1
+
+d w
+d
+
+}
+
+p > 0 , i.e.,
+
+we can have l w = 0, pw = p0 . To guarantee the retailer sale the product through the online channel, we
+
+Proof of Proposition 1.
+(1) If 0 <
+0 , it is easy to verify that
+
+To let
+
+)(1
+
+c0
+,
+c1
+
+the point at which
+
+=
+=
+= 0 , we derive
+, and it is easy to verity that
+2 . Hence,
+4
+wholesale price of the manufacturer. Then, we get pw which is shown in Theorem 1(1). □
+
+d w
+=
+d
+
+l
+
+with respect to p to be zero. That
+
+w
+r
+
+. Similarly, if (l, p)
+
+The difference between the value of function
+
++ (1
+) a)
+4c12 (2
+)
+
+) p0
+constraint that (1
+be expressed as follows:
+(1
++a 2 )
+w
+s.t.
+m =
+2
+d w
+Let d m
+
+}
+
+p > 0 .If (l, p)
+
+) a + 1 + 2 = 0 , we get p0 =
+
+c02 [4c12 (1
+
+=
+
+c
+l= c0 ,
+1
+
+{
+
+has a maximal value on the boundary of the region (l, p) 0
+
+w
+r
+
+has a unique optimal solution for given l = 0 . Let the first derivative of
+
+w
+r
+
+maximal value is p1 = p0
+w
+r1
+
+{
+
+= (l , p )
+
+2
+
+) p + (1
+
+w
+r0
+
+0,
+
+2
+
+dq w
+da
+
+dpw
+da
+
+d w
+da
+
+> 0 ; If
+
+> 0,
+
+dd2w
+
+or
+
+da
+
+=
+
+1
+4(2
+
+,
+
+<
+dpw
+da
+
+=
+
+)
+
+<
+
+). We have h (0) =
+
+< 0,
+
+< 1,
+2c12
+
+> 0,
+d w
+da
+dd1w
+
+da
+dl w
+da
+
+dq w
+da
+
+=
+
+=
+
+2(2
+
+c12
+
+4c12 + 2
+dqw
+= da
+
+= 0.
+
+< 0, h ( ) =
+
+Then, there is a unique root ¨ of equation h ( ) = 0 in the interval of [0,
+have the results shown in Proposition 2(2). □
+
+If
+
+)
+
+dpw
+da
+
+> 0,
+dd2w
+da
+
+d w
+da
+
+> 0.
+,
+
+<
+
+(1
+
+) c1 (4c12 + 2 )
+2(ac1
+
+]. If 0 <
+
+c0 )
+
+0
+
+or
+
+<
+=
+
+dl w
+da
+
+=
+
+)
+
+2 (1
+
+)2
+
+h( )
+[4c12 (2
+
+)
+
+2 (1
+
+> 0 , lim h ( ) =
+
+¨, h ( )
+
+0 and ¨ <
+
+>
+
+,
+)2](4c12 + 2 )
+
+> 0.
+
+where
+
+and lim h ( ) = + .
+
++
+
+Proof of Theorem 2.
+Following the same process in proving Theorem 1, we can get the results shown in Theorem 2. □
+Proof of Proposition 3.
+
+14
+
+< 1,
+
+) c12
+
+(1
+4c12 (2
+
+<
+
+<
+
+, h ( ) > 0. Thus, we
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+It is easy to verify that, if 0 <
+d
+d
+
+=
+
+c12 2 (a c0 c1 )
+[4c12 (1
+) + 2 ]2
+
+or
+
+1
+
+< 1,
+
+= 0 . If
+
+d
+d
+
+where 1,
+follows.
+
+1,
+
+2)
+
+= p (a + 1
+
+L
+=a+1
+p
+
+L
+=
+l
+L
+
+4p
+
+2p
+
+=
+
+2(2
+
+) c 0 c1
+
+> 0 . If
+
+l)
+
+c1 l ) 2 +
+
+(c 0
+
+1l
+
++
+
+c0
+c1
+
+2
+
+l
+1,
+
+2)
+
+with respect to p , l,
+
+1
+
+and
+
+2
+
+are given as
+
+(A1)
+1
+
+(A2)
+
+2
+
+= l.
+
+(A3)
+
+1
+
+L
+
+c0
+c1
+
+=
+
+2
+
+,
+
+<
+
+l
+
+2c12 l + 2c0 c1 +
+
+p
+
+d
+
+in the centralized supply chain.
+
+c
+
+are the Lagrange multipliers. The first partial derivatives of L (p , l,
+
+2
+
+d
+
+< 0. □
+
+Proof of Theorem 3.
+From Model (9), we construct Lagrange function for the total profit
+
+L (p , l ,
+
+,
+
+<
+
+1
+
+l
+
+(A4)
+
+We now discuss the following three cases. □
+Case 1. When
+When
+
+1
+
+to zero, i.e.
+
+pc =
+
+=
+
+d c
+
+2c12 a + 1
+2
+
+Case 2. When
+When
+
+1
+
+=
+
+2
+
+= 0 , we have 0
+
+2
+
+=0
+
+=a+1
+
+dp
+
+8c12
+
+1
+
+c0
+c1
+
+. Since 0
+
+= 0 and
+
+2
+
+If
+
+l = 0 and
+
+4p
+
+> 0 and
+
+1
+
+c0
+.
+c1
+
+l
+
+c0
+,
+c1
+
+lc
+
+2
+
+d c
+
+When
+
+1
+
+= 0 and
+
+1
+
+= 0 and
+
+2
+
+2
+
+2c12 l
+
+p
+
+we have
+
+c
+
+is jointly concave in p and l. We then let (A1) and (A2) be equal
+
++ 2c0 c1 = 0 . By solving these equations, we obtain that lc =
+
+4c0 c1 and
+
+8c0 c1
+
+8c12
+
+(a + 1)
+2
+
+,
+
+2.
+
+c0
+c1
+
+=0
+
+then setting them to be zero, we obtain pc
+Case 3. When
+
+=
+
+dl
+
+> 0 , we have l = 0 <
+
+2
+
+< 8c12 , we have that
+
+c0
+. L (p , l, 1, 2) is concave in p for
+c1
+a+1
+= 2 and 2 = 2c0 c1 2 . Since 2
+
+a given l . Substituting lc = 0 into (A1) and (A2) and
+
+> 0 , we have
+
+> 4c0 c1.
+
+>0
+
+> 0 , we have l =
+
+> 0 . L (p , l ,
+
+c0
+c1
+
+a+1
+
+1,
+
+2)
+
+is concave in p for a given l . Substituting lc =
+
+c0
+c1
+
+c0
+c1
+
+into (A1) and (A2),
+
+pc
+0 . Therefore, there is no feasible solution to Case 3.
+and 2 =
+and then setting them to zero, we obtain pc =
+4
+From Case 1 and Case 2, we have the maximal total profit in the centralized supply chain, which are shown in Theorem 3.
+Proof of Proposition 4.
+Wholesale price contract (
+(1
+) pcw > cw > 0. Note that
+4c12 a + 1
+cw
+
+=
+
+c0
+c1
+
+2(8c12
+
+(8c12
+
+>
+
+4c12 a + 1
+
+and (1
+
+) pcw
+
+cw
+
+=
+
+2)
+
+8c0 c1
+,
+a+1
+
+,
+
+2)
+
+(a 1)
+,
+4
+
+coordinates the supply chain if the contract parameters meet the condition
+
+cw , l cw )
+
+8c0 c1
+.
+a+1
+c0
+c1
+
+2a
+4
+
+cw
+
+> 0 , we have a > a1 = 1 +
+
+above analysis, when 1 a
+When a1 < a a2 , we have
+
+(1
+2
+
+) pcw
+
+(
+
++ 8c12 a
+
+cw
+
+c0
+c1
+
+,
+
+2)
+
+2(8c12
+1+a
+
+To let
+
+c0
+c1
+
+2 + 8c 2 a
+1
+
+c0
+c1
+
+,
+
+>
+2
+
+4c12
+
+8c0 c1
+,
+a+1
+
+8c0 c1
+.
+a+1
+
+. We now compare a1with a2 . a2
+
+a1 =
+
+(8c12
+
+2 )(4c c
+0 1
+
+4 c1
+
+)
+
+> 0 . Thus, a2 > a1. From the
+
+a1, we have cw 0 , which means that wholesale price contract cannot coordinate the supply chain.
+cw > 0 . To coordinate the supply chain, the commission rate of the platform
+should be set to enable
+
+(
+
+> 0 , which is equivalent to 4c12 a + 1
+
+c0
+c1
+
+) > 0. So, the constraint can be solved to be
+
+) (
+
+<
+15
+
+2
+
+=
+
+2
+
+(
+
+c0
+c1
+
++ 8c12 a
+4c12 a + 1
+
+8c12 a
+
+c0
+c1
+
+c0
+c1
+
++ 2
+
+))
+
+> 0. When a1 < a
+
+< 1. When a > a2 , i.e.,
+
+a2 , we have
+>
+
+8c0 c1
+,
+a+1
+
+we have
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+(a
+
+1)
+
+cw > 0 , the commission rate
+=
+> 0. In order to achieve (1
+) pcw
+should satisfy that
+4
+sumption, we can have wholesale price contract can coordinate the supply chain when a > a2. □
+
+cw
+
+Proof of Proposition 5.
+Delivery cost-sharing contract (
+(1
+) pc > c > 0. We know
+1
+c
+
+(
+
+[1+(1
+
+2
+
+=
+
+c0
+c1
+
+) a
+(a 1)
+4
+
+> 0,
+(1
+
+) pc
+
+and (1
+
+c
+
+) > 0,
+
+2)
+
+Case 1. When 1
+
+a
+8c12
+
+a
+
+(a
+
+c0
+c1
+
+a+1
+
+2)
+
+2a
+
+), N = (
+
+a2 =
+
+a2 indicates that
+> 0 , we have Ma
+
+8c 0 c 1
+,
+a+1
+
+,
+>
+
+8c0 c1
+.
+a+1
+
+(
+
+c0
+c1
+
+4c12 ) a + 1
+
+a1 = 1 +
+(1
+
+2
+
+) pc
+
+c
+
+4c12
+
+).
+
+Under this condition, we first consider whether the factor Ma is positive or negative. Since
+c
+a3 = c0 and Ma > 0 if a > a3 . Then, to coordinate the supply chain, the commission rate of the
+
+0 if a
+
+1
+
+c > 0.
+) pc
+platform should be set to enable (1
+c0
+Na
+2c1, since a + 1
+>
+0
+When
+,
+we
+have
+c
+
+c0
+c1
+
+0 . In this situation, it is easy to verify that a3
+
+1
+
+. Next, we give analysis in the following three cases. (a) If 1 < a
+
+< 0 for any
+
+respect to , we have Na + Ma
+
+From our as-
+
+1
+
+8c0 c1
+.
+a+1
+
+2
+
+,
+
+2
+
+a
+
+8c0 c1
+
+a+1
+.
+2a
+
+8c0 c1
+,
+a+1
+
+)(Na + Ma )
+
+4
+
+where Ma = (8c12
+
+=
+
+8c 0 c1
+.
+a+1
+
+2(8c12
+
+=
+
+3
+
+, , l c ) coordinates the supply chain if the contract parameters meet the condition
+
+c
+
+>
+
+<
+
+(0, 1) ; (b) If a3 < a
+
+(
+
+Na + Ma = 4c12 a
+
+a1 < a2 , where
+
+a3, since Ma < 0 and Na < 0 , we get
+
+a1, we have Ma > 0 . After considering the monotonicity of Na + Ma
+1
+
+c0
+c1
+c
+
+)
+
++
+
+2
+
+0 . Thus, we get (1
+
+) pc
+
+c
+
+< 0 for any
+
+with
+
+(0, 1) ; (c) If
+
+N
+
+) pc
+> 0 is equivalent to Na + Ma > 0 , i.e., > M a .
+a1 < a a2 , since Ma > 0 and Na < 0 , thus, (1
+a
+When > 2c1, we have Na > 0 . In this situation, it is easy to verify that a1 < a3 < a2 . Similar to the above analysis, we also give
+c > 0 is equivalent to N + M
+) pc
+analysis in the following three cases. (a) If 1 < a a1, we have Ma < 0 . (1
+a
+a > 0 , i.e.
+N
+< Ma .( b) If a1 < a a3 , we have Ma 0 . After considering the monotonicity of Na + Ma with respect to , we have
+a
+
+Na + Ma
+
+(
+
+Na + Ma = 4c12 a
+
+c0
+c1
+
+1
+
+Ma > 0. Since Na > 0 , thus, we have (1
+
+)+
+
+2
+
+) pc
+
+0 . Thus, we have (1
+c
+
+> 0 for any
+
+) pc
+
+c
+
+> 0 for any
+
+(0, 1); (c) If a3 < a
+
+a2 , we get
+
+(0, 1) .
+
+Case 2. When a > a2
+Under this situation, we have
+
+c
+
+=
+
+(a 1)
+4
+
+> 0. To let (1
+
+) pc
+
+c
+
+> 0 needs
+
+<
+
+a+1
+2a
+
+< 1, which is given in our assumption.
+
+Appendix B. Supplementary material
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.tre.2020.101990.
+
+References
+Abhishek, V., Jerath, K., Zhang, Z.J., 2016. Agency selling or reselling? Channel structures in electronic retailing. Manage. Sci. 62 (8), 2259–2280.
+Afèche, P., Baron, O., Kerner, Y., 2013. Pricing time-sensitive services based on realized performance. Manuf. Service Oper. Manage. 15 (3), 492–506.
+Cachon, G.P., 2003. Supply chain coordination with contracts. Handbooks Oper. Res. Manage. Sci.. 11, 227–339.
+Cachon, G.P., Kök, A.G., 2010. Competing manufacturers in a retail supply chain: On contractual form and coordination. Manage. Sci. 56 (3), 571–589.
+Cao, E., 2014. Coordination of dual-channel supply chains under demand disruptions management decisions. Int. J. Prod. Res. 52 (23), 7114–7131.
+Chen, J., Zhang, H., Sun, Y., 2012. Implementing coordination contracts in a manufacturer Stackelberg dual-channel supply chain. Omega 40 (5), 571–583.
+Chen, L., Nan, G., Li, M., Tan, Y., 2018. Adding the online-to-store channel to supply chain: Impact of spillover effect.
+Choi, T.M., Feng, L., Li, R., 2019. Information disclosure structure in supply chains with rental service platforms in the blockchain technology era. Int. J. Prod. Econ.
+Advance online publication. https://doi.org/10.1016/j.ijpe2019.08.008.
+Dai, T., Cho, S.H., Zhang, F., 2016. Contracting for on-time delivery in the US influenza vaccine supply chain. Manuf. Service. Oper. Manage. 18 (3), 332–346.
+Desiraju, R., Moorthy, S., 1997. Managing a distribution channel under asymmetric information with performance requirements. Manage. Sci. 43 (12), 691–718.
+Ding, Y., Gao, X., Huang, C., Shu, J., Yang, D., 2018. Service competition in an online duopoly market. Omega. 77, 58–72.
+Gao, F., Su, X., 2017a. Online and offline information for omnichannel retailing. Manuf. Service Oper. Manage. 19 (1), 84–98.
+Gao, F., Su, X., 2017b. Omnichannel retail operations with buy-online and pick-up-in-store. Manage. Sci. 63 (8), 2478–2492.
+Geng, X., Tan, Y., Wei, L., 2018. How add-on pricing interacts with distribution contracts. Prod. Oper. Manag. 27 (4), 605–623.
+Hafızoğlu, A.B., Gel, E.S., Keskinocak, P., 2016. Price and lead time quotation for contract and spot customers. Oper. Res. 64 (2), 406–415.
+Hagiu, A., Wright, J., 2014. Marketplace or reseller? Manage. Sci. 61 (1), 184–203.
+He, P., Zhang, S.S., He, C., 2019. Impacts of logistics resource sharing on B2C E-commerce companies and customers. Electron. Commer. R A 34, 100820.
+He, Y., Zhao, X., 2016. Contracts and coordination: Supply chains with uncertain demand and supply. Nav. Res. Log. 63 (4), 305–319.
+He, Y., Zhao, X., Zhao, L., He, J., 2009. Coordinating a supply chain with effort and price dependent stochastic demand. Appl. Math. Model. 33 (6), 2777–2790.
+
+16
+
+Transportation Research Part E 141 (2020) 101990
+
+X. Xu, et al.
+
+Hua, G., Wang, S., Cheng, T.C.E., 2010. Price and lead time decisions in dual-channel supply chains. Eur. J. Oper. Res. 205 (1), 113–126.
+Huang, W., Swaminathan, J.M., 2009. Introduction of a second channel: Implications for pricing and profits. Eur. J. Oper. Res. 194 (1), 258–279.
+Ji, J., Zhang, Z., Yang, L., 2017. Comparisons of initial carbon allowance allocation rules in an O2O retail supply chain with the cap-and trade regulation. Int. J. Prod.
+Econ. 187, 68–84.
+Ji, T., Xu, X., Yan, X., Yu, Y., 2020. The production decisions and cap setting with wholesale price and revenue sharing contracts under cap-and-trade regulation. Int. J.
+Prod. Res. 58 (1), 128–147.
+Li, B., Hou, P.W., Chen, P., Li, Q.H., 2016. Pricing strategy and coordination in a dual channel supply chain with a risk-averse retailer. Int. J. Prod. Econ. 78, 154–168.
+Li, Y., Lin, Q., Ye, F., 2014. Pricing and promised delivery lead time decisions with a risk-averse agent. Int. J. Prod. Res. 52 (12), 3518–3537.
+Lin, X., Zhou, Y.W., 2019. Pricing policy selection for a platform providing vertically differentiated services with self-scheduling capacity. J. Oper. Res. Soc. 70 (7),
+1203–1218.
+Liu, X., Gou, Q., Alwan, L., Liang, L., 2016. Option contracts: a solution for overloading problems in the delivery service supply chain. J. Oper. Res. Soc. 67 (2),
+187–197.
+Liu, W., Yan, X., Wang, W., Xie, D., 2019. Pricing decisions for service platform with provider’s threshold participating quantity, value-added service and matching
+ability. Transp. Res. Part E. 122, 410–432.
+Ma, P., Wang, H., Shang, J., 2013. Contract design for two-stage supply chain coordination: Integrating manufacturer-quality and retailer-marketing efforts. Int. J.
+Prod. Econ. 146 (2), 745–755.
+Modak, N.M., Kelle, P., 2019. Managing a dual-channel supply chain under price and delivery-time dependent stochastic demand. Eur. J. Oper. Res. 272 (1), 147–161.
+Niu, B., Dai, Z., Zhuo, X., 2019. Co-opetition effect of promised-delivery-time sensitive demand on air cargo carriers’ big data investment and demand signal sharing
+decisions. Transp. Res. Part E. 123, 29–44.
+Pekgün, P., Griffin, P.M., Keskinocak, P., 2017. Centralized versus decentralized competition for price and lead-time sensitive demand. Decision. Sci. 48 (6),
+1198–1227.
+Pu, X., Gong, L., Han, X., 2017. Consumer free riding: Coordinating sales effort in a dual-channel supply chain. Electron. Commer. Res. Appl. 22, 1–12.
+Saha, S., Modak, M.N., Panda, S., Sana, S.S., 2018. Managing a retailers dual-channel supply chain under price and delivery time sensitive demand. J. Model. Manage.
+13 (2), 351–374.
+Savaskan, R.C., Van Wassenhove, L.N., 2006. Reverse channel design: The case of competing retailers. Manage. Sci. 52 (1), 1–14.
+Shen, Y., 2018. Platform retailing with slotting allowance and revenue sharing. J. Oper. Res. Soc. 69 (7), 1033–1045.
+Shen, Y., Willems, S.P., Dai, Y., 2019. Channel selection and contracting in the presence of a retail platform. Prod. Oper. Manag. 28 (5), 1173–1185.
+Sun, J.X., 2007. Research on the sales channels of the household appliances market. Chin. Bus. Rev. 6 (3), 28–33.
+Tan, Y., Carrillo, J.E., 2017. Strategic analysis of the agency model for digital goods. Prod. Oper. Manag. 26 (4), 724–741.
+Tian, L., Vakharia, A.J., Tan, Y., Xu, Y.F., 2018. Marketplace, reseller, or hybrid: strategic analysis of an emerging E-commerce model. Prod. Oper. Manag. 27 (8),
+1595–1610.
+Wang, C., Leng, M., Liang, L., 2018. Choosing an online retail channel for a manufacturer: Direct sales or consignment? Int. J. Prod. Econ. 195, 338–358.
+Wang, J., Yan, Y., Du, H., Zhao, R., 2020. The optimal sales format for green products considering downstream investment. Int. J. Prod. Res. 58 (4), 1107–1126.
+Xiao, T., Qi, X., 2016. A two-stage supply chain with demand sensitive to price, delivery time, and reliability of delivery. Ann. Oper. Res. 241 (1–2), 475–496.
+Xiao, T., Choi, T.M., Cheng, T.C.E., 2016. Delivery leadtime and channel structure decisions for make-to-order duopoly under different game scenarios. Transp. Res.
+Part E. 87, 113–129.
+Xie, J., Zhang, W., Liang, L., Xia, Y., Yin, J., Yang, G., 2018. The revenue and cost sharing contract of pricing and servicing policies in a dual-channel closed-loop supply
+chain. J. Clean. Prod. 191, 361–383.
+Xu, X., He, P., Xu, H., Zhang, Q.P., 2017a. Supply chain coordination with green technology under cap-and-trade regulation. Int. J. Prod. Econ. 183, 433–442.
+Xu, X., Zhang, W., He, P., Xu, X., 2017b. Production and pricing problems in make-to-order supply chain with cap-and-trade regulation. Omega 66, 248–257.
+Yan, Y., Zhao, R., Liu, Z., 2018. Strategic introduction of the marketplace channel under spillovers from online to offline sales. Eur. J. Oper. Res. 267 (1), 65–77.
+Yan, Y., Zhao, R., Xing, T., 2019. Strategic introduction of the marketplace channel under dual upstream disadvantages in sales efficiency and demand information.
+Eur. J. Oper. Res. 273, 968–982.
+Yang, H., Chen, W., 2018. Retailer-driven carbon emission abatement with consumer environmental awareness and carbon tax: Revenue-sharing versus cost-sharing.
+Omega 78, 179–191.
+Yi, Z., Li, F., Ma, L., 2019. The impact of distribution channels on trial-version provision with a positive platform power. Omega 85, 115–133.
+Zha, Y., Zhang, J., Yue, X., et al., 2015. Service supply chain coordination with platform effort-induced demand. Ann. Oper. Res. 235 (1), 785–806.
+Zhang, J., Zha, Y., Yue, X., Hua, Z., 2016. Dominance, bargaining power and service platform performance. J. Oper. Res. Soc. 67 (2), 312–324.
+Zhang, P., He, Y., Zhao, X., 2019. “Preorder-online, Pickup-in-store” strategy for dual-channel retailer. Transp. Res. Part E. 122, 27–47.
+Zhang, P., Xiong, Y., Xiong, Z., 2015. Coordination of a dual-channel supply chain after demand or production cost disruptions. Int. J. Prod. Res. 53 (10), 3141–3160.
+Zhou, Y.W., Guo, J., Zhou, W., 2018. Pricing/service strategies for a dual-channel supply chain with free riding and service-cost sharing. Int. J. Prod. Econ. 196,
+198–210.
+
+17
+
+

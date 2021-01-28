@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Consignment contract for mobile apps between a single retailer and competitive developers with different risk attitudes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2015-05-09">9 May 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><surname>Avinadav</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+								<address>
+									<settlement>Ramat Gan 52900</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tatyana</forename><surname>Chernonog</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+								<address>
+									<settlement>Ramat Gan 52900</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yael</forename><surname>Perlman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+								<address>
+									<settlement>Ramat Gan 52900</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Consignment contract for mobile apps between a single retailer and competitive developers with different risk attitudes</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">European Journal of Operational Research</title>
+						<title level="j" type="abbrev">European Journal of Operational Research</title>
+						<idno type="ISSN">0377-2217</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">246</biblScope>
+							<biblScope unit="issue">3</biblScope>
+							<biblScope unit="page" from="949" to="957"/>
+							<date type="published" when="2015-05-09">9 May 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2015.05.016</idno>
+					<note type="submission">Received 2 September 2014 Accepted 4 May 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Supply chain Risk attitude Consignment Supplier competition</keywords>
+			</textClass>
+			<abstract>
+				<p>Consider n mobile application (app) developers selling their software through a common platform provider (retailer), who offers a consignment contract with revenue sharing. Each app developer simultaneously determines the selling price of his app and the extent to which he invests in its quality. The demand for the app, which depends on both price and quality investment, is uncertain, so the risk attitudes of the supply chain members have to be considered. The members&apos; equilibrium strategies are analyzed under different attitudes toward risk: risk-aversion, risk-neutrality and risk-seeking. We show that the retailer&apos;s utility function has no effect on the equilibrium strategies, and suggest schemes to identify these strategies for any utility function of the developers. Closed-form solutions are obtained under the exponential utility function.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

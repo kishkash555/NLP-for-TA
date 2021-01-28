@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Impacts of logistics information on sales: Evidence from Alibaba</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability status="unknown"><p>Copyright Wiley</p>
+				</availability>
+				<date type="published" when="2020-01-10">10 January 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jifeng</forename><surname>Luo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management Information Systems</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ying</forename><surname>Rong</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Operations Management</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huan</forename><surname>Zheng</surname></persName>
+							<email>zhenghuan@sjtu.edu.cn</email>
+							<idno type="ORCID">0000-0003-4803-3787</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Management Science</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Management Science</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Impacts of logistics information on sales: Evidence from Alibaba</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Naval Research Logistics (NRL)</title>
+						<title level="j" type="abbrev">Naval Research Logistics</title>
+						<idno type="ISSN">0894-069X</idno>
+						<idno type="eISSN">1520-6750</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<biblScope unit="volume">67</biblScope>
+							<biblScope unit="issue">8</biblScope>
+							<biblScope unit="page" from="646" to="669"/>
+							<date type="published" when="2020-01-10">10 January 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1002/nav.21884</idno>
+					<note type="submission">Received: 17 February 2019 Revised: 16 October 2019 Accepted: 26 November 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>delivery time</term>
+					<term>instrumental variable</term>
+					<term>logistics services</term>
+					<term>online marketplaces</term>
+					<term>online WOM</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Facing fierce competition from rivals, sellers in online marketplaces are eager to improve their sales by delivering items faster and more reliably. Because logistics quality can be known only after a transaction, sellers must identify effective ways to communicate logistics information to consumers. Drawing on the accessibility-diagnosticity framework, we theorize that the sales impacts of logistics information depend on its relative diagnostic value. Using data on 1493 items with 505,785 consumer reviews from an online marketplace, we examine how sales are affected by three information sources for logistics services: online word of mouth (WOM) about logistics, self-reported logistics services, and expected delivery time. We use an instrumental variable method to address the endogeneity issue between sales and WOM. We find that, ceteris paribus, consumers give more weight to WOM about logistics and delivery time when they make purchase decisions but less weight to self-reported logistics service. The effects of logistics information on sales are asymmetric for large and small sellers.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

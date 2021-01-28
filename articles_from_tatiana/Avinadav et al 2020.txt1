@@ -1,0 +1,3250 @@
+ARTICLE IN PRESS
+
+JID: EOR
+
+[m5G;September 15, 2020;2:3]
+
+European Journal of Operational Research xxx (xxxx) xxx
+
+Contents lists available at ScienceDirect
+
+European Journal of Operational Research
+journal homepage: www.elsevier.com/locate/ejor
+
+Production, Manufacturing, Transportation and Logistics
+
+Revenue-sharing between developers of virtual products and platform
+distributors
+Tal Avinadav a,∗, Tatyana Chernonog a, Eugene Khmelnitsky b
+a
+b
+
+Department of Management, Bar-Ilan University, Ramat-Gan 5290002, Israel
+Department of Industrial Engineering, Tel Aviv University, Tel Aviv 6997801, Israel
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 15 July 2019
+Accepted 21 August 2020
+Available online xxx
+Keywords:
+Supply chain management
+Revenue sharing
+Information asymmetry
+Optimal control
+Virtual products
+
+a b s t r a c t
+We investigate consignment contracts with revenue-sharing for selling virtual products subject to information asymmetry. In practice, distribution platforms commonly use uniﬁed contracts with identical
+revenue-sharing terms across the developers whose products they offer. We analyze the case of a developer who is better informed than his distribution platform regarding the demand. First, we prove that
+the developer has no incentive to voluntarily disclose his private information and that cheap-talk is not
+informative, so the distribution platform can either extract this information by designing a revelation
+mechanism via a menu of contracts or propose a less complicated, suboptimal but commonly used uniﬁed contract. Based on optimal control theory, we develop a menu of contracts over a continuous demand
+domain, which includes a mechanism that leaves out some developers who reduce the expected proﬁt of
+the distribution platform. We ﬁnd that (i) the distribution platform is willing to share the developer’s cost
+to make the developer act in accordance with the actual base demand; (ii) the menu of contracts is more
+supportive of small businesses than the uniﬁed contract; and (iii) the menu of contracts can signiﬁcantly
+improve the distribution platform’s expected proﬁt compared with that of the uniﬁed contract when the
+app quality exceeds the minimum required level. In addition, we develop a mathematical model for the
+case of an app developer who has the option of bypassing the distribution platform and selling his app
+directly to end consumers, although he would then face a smaller market.
+© 2020 Elsevier B.V. All rights reserved.
+
+1. Introduction
+1.1. Background
+The last decade has seen a rapid increase in the market share
+and variety of intangible (virtual) products, such as mobile apps,
+software, gift cards and coupons, memberships, services and extended warranties (Chernonog & Avinadav, 2014). This increase is
+largely a result of the proliferation of digital platforms for content consumption, as well as the development of the internet as
+a direct channel for delivering goods and transferring payments
+(Waelbroeck, 2013). Sales of virtual products have been generating
+substantial and growing revenues. For example, in January 2018,
+R
+Apple
+announced that customers had spent over $26 billion in
+the App StoreSM in 2017—more than a 30% increase relative to
+the previous year (Apple, 2018). Yet, the development of operations management models has apparently not kept pace with the
+market. Traditional models, formulated primarily for tangible prod-
+
+∗
+
+Corresponding author.
+E-mail address: Tal.Avinadav@biu.ac.il (T. Avinadav).
+
+ucts, fail to capture key properties of intangible products and are
+therefore of limited use to the digital retailer. In particular, many
+of the parameters incorporated into traditional models are superﬂuous for products that are not held in inventory and that can be
+produced (or delivered) in inﬁnite quantities and in a negligible
+amount of time, after demand has been realized.
+In this paper, we establish a consignment contract with
+revenue-sharing that is commonly applied between developers of
+virtual products and a distribution platform of such products (e.g.,
+the iTunes App Store or Google Play). In such contracts, the developer continues to own the product and bears sole responsibility for
+determining its selling price, whereas for every unit sold, the distribution platform charges an agreed-upon percentage of the selling price. In many cases, the distribution platform is much larger
+than the developers whose products it offers, and is therefore in a
+position to dictate the terms of the contract.
+In practice, many prominent distribution platforms adopt a
+uniﬁed contract across all their developers, as is the case for the
+iTunes App Store and Google Play Store, which both keep 30% of
+the revenues from the apps that they offer, with the developers
+receiving 70% (see Hillegas (2012) and Google (n.d.)). However,
+when the developer has enough power, he may refuse to accept
+
+https://doi.org/10.1016/j.ejor.2020.08.036
+0377-2217/© 2020 Elsevier B.V. All rights reserved.
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+JID: EOR
+2
+
+ARTICLE IN PRESS
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+this uniﬁed contract and try to bypass the distribution platform to
+save commission. For example, recently, Epic Games, the developer
+of the popular online game Fortnite Battle Royale (more than 125
+million downloads, according to Gilbert, 2018), decided not to use
+Google Play as a distributor. Instead, it offers the game directly on
+its own website. It was estimated that this decision would cost
+Google about $50 million or more in platform fees in 2018 (Perez,
+2018). Notably, Perez (2018) argues that Epic Games is also likely
+to have suffered losses, as some Android users are likely to be
+hesitant to download the game directly from Epic Games’ website
+without Google’s security protections, and might instead gravitate
+towards competing games that Google promotes in its store.
+Another example is Netﬂix, which bypassed Apple’s iTunes-based
+billing system to save the 30% commission, and requires new subscribers on iOS to sign up via its website rather than within the
+Netﬂix App. This move of Netﬂix (https://www.forbes.com/sites/
+greatspeculations/2019/01/02/how- much- does- apple- stand- to- loseas- netﬂix- stops- in- app- subscriptions/#2fbbd3b37589) may cause
+a loss of at least $160 million per year for Apple.
+Herein, we explore whether using a more sophisticated contract
+design could enable developers and distribution platforms such as
+Epic Games and Google to cooperate and increase the total supplychain proﬁts, which may lead to Pareto improvement. To do so, we
+develop a virtual-product-relevant model and examine whether,
+and to what extent, improving the uniﬁed revenue-sharing rule
+(70−30%) by tailoring revenue shares according to speciﬁc features
+of the parties is possible. Speciﬁcally, we suggest that the contract
+should consider the market size of the virtual product and the information asymmetry between the two parties.
+1.2. Information asymmetry
+The topic of information asymmetry in supply chains has
+received considerable research attention over the years. This
+research stream is based on the premise that, when signing a
+contract, the parties base their decision-making and planning
+processes on the information available to them (e.g., about the anticipated demand), and that in many cases, different supply-chain
+members are exposed to different sources of information (see, e.g.,
+Shamir & Shin, 2016; Avinadav, Chernonog, Perlman, & Meilijson,
+2020; Chernonog & Avinadav, 2018; Chu, Shamir, & Shin, 2016).
+Speciﬁcally, whereas distribution platforms have point-of-sale data
+and knowledge of their own investments in marketing, developers
+study their consumers’ demographics and motivations, and thus
+are likely to possess a broader understanding of the market and
+the coming trends (Basker, 2016; Gal-Or, Geylani, & Dukes, 2008).
+A widespread assumption in the operations management literature
+is that the downstream member of a supply chain (in our case, the
+distribution platform) is closer to customers than the upstream
+member (the developer), and is therefore more familiar with the
+demand. The reverse situation, in which the upstream member has
+more precise information about the consumers, their preferences,
+and thus the (anticipated) demand, is under-researched in the
+operations management literature, despite the fact that it is highly
+common in practice (as observed, for example, by Jiang, Tian, Xu,
+& Zhang, 2016).
+In three main scenarios of information asymmetry, the upstream member is better informed than the downstream member
+regarding the demand for a speciﬁc product: (i) The downstream
+member carries highly diverse product lines, whereas the upstream member concentrates on a more limited set of related
+products (e.g., Apple iTunes as a distribution platform of diverse
+mobile apps, and iGo Navigation as a developer of mobile apps
+focused speciﬁcally on navigation); (ii) the upstream member
+introduces a new product into the market (Berman, Fazel-Zarandi,
+& Krass, 2019); and (iii) the upstream member produces a product
+
+with a short life cycle or introduces a modiﬁed product (e.g., in
+fashion markets). In these situations, the downstream member
+may not be interested in investing in forecasting or may not have
+historical data of sales. Upstream members, by contrast, are likely
+to be motivated in these scenarios to obtain information regarding consumer preferences and demand through such means as
+market research (hiring professional consultants such as Nielsen),
+focus groups, product testing, or accessing syndicated research
+(Guan & Chen, 2017). Moreover, Jiang, Jerath, and Srinivasan
+(2011) provide evidence regarding niche products, according to
+which an entrepreneurial and enterprising independent seller
+may have more information than Amazon. For example, they
+report that in April 2010, the “Digital SLR camera” category had
+928 products listed in Amazon marketplace, where Amazon offered 16 of the top 20 best sellers but only 5 with sales ranks
+from 150 to 250. In addition, retail industry experts suggest that
+forecasts of greater accuracy can be achieved by combining the
+Amazon Forecast service (announced in November 2018) with
+additional factors (https://www.snowﬂake.com/blog/integratingsnowﬂake- data- with- amazon- forecast- part- 2/).
+According
+to
+Ohsman (2019), a seller (the upstream member) can achieve a
+better forecast than that obtained by using Amazon Forecast alone
+by considering (i) any variables that inﬂuence the sales for the
+selling period, such as a lost buy box or price pressures that originate on/off of Amazon; and (ii) promotional events, advertising
+metrics, and so on. Notably, the few papers that have analyzed
+scenarios in which the upstream member is better informed than
+the downstream member (Chen, 2003; Guo & Iyer, 2010; Jiang
+et al., 2016; Lariviere & Padmanabhan, 1997; Zhang & Chen, 2013)
+assumed that the parties interact via a wholesale price contract.
+Herein, we address this scenario in the context of revenue-sharing
+contracts, thereby ﬁlling an important gap in the operations
+management literature, while addressing questions with clear
+practical relevance that have the potential to inﬂuence the proﬁts
+of purveyors of virtual products.
+1.3. Revenue-sharing contracts and information asymmetry
+A literature review by Bart et al. (2020) reveals a paucity of research that combines revenue-sharing contracts with information
+asymmetry. Gerchak and Khmelnitsky (2003) studied a consignment contract in which the supplier is less informed than the retailer about the demand, and he updates his beliefs about the demand distribution dynamically on the basis of the retailer’s sales
+reports (which may or may not be truthful). Zhao, Wang, and Gan
+(2016) and Hou, Zeng, and Zhao (2009) considered a consignment
+contract in which the downstream party is not informed regarding the upstream party’s production cost and inventory holding
+cost, respectively. Wang, Lau, and Hua (2012) studied a contract
+in which a manufacturer-leader has probabilistic knowledge about
+the demand function and the retail cost, whereas the retailer has
+exact information about these two variables. Kong et al. (2013)
+studied a contract in a two-echelon supply chain with a supplierleader and two retailers—incumbent and entrant—where the latter
+is less informed about the demand. Xiao and Xu (2018) considered
+an online retailer selling a seasonal product provided by an independent third-party seller who has superior information about the
+demand potential of the product. Avinadav, Chernonog, and BenZvi (2019) studied the strategic information-sharing behavior of a
+manufacturer who has private information regarding the demand,
+where the retailer may or may not know that the manufacturer
+has this information. Finally, three papers assumed that sales are
+unobservable to the supplier: Heese and Kemahlioglu-Ziya (2014,
+2016) and Gerchak, Khmelnitsky, and Robinson (2007), where
+the latter paper assumed information asymmetry with regard to
+the demand distribution and production cost as well. Note that
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+3
+
+Table 1
+Overview of the literature considering a menu of contracts under continuous space.
+Author(s) (year)
+
+Contract type
+
+Source of uncertainty
+
+Better informed party (agent)
+
+Mishra and Prasad (2004)
+Babich, Li, Ritchken, and Wang
+(2012)
+Kim and Netessine (2013)
+
+Proﬁt sharing
+Two-part tariff with buyback
+
+Demand parameter
+Demand distribution
+
+Downstream party
+Downstream party
+
+–
+Order quantity
+
+Wholesale price-quantity
+procurement contract
+Retail price-quantity
+procurement contract
+Two-part tariff with buyback
+Consignment contract with
+revenue sharing (absolute
+unit fee)
+Proﬁt sharing
+
+Unit production cost
+
+Upstream party
+
+–
+
+Unit production cost
+
+Upstream party
+
+–
+
+Unit production cost
+Base demand
+
+Downstream party
+Upstream party
+
+Order quantity
+Production capacity
+
+Demand parameter
+
+Either party
+
+Selling price
+
+Base demand
+
+Upstream party
+
+Retail price and quality level
+
+Wang, Tao, and Wang (2017)
+Wang et al. (2018)
+Xiao and Xu (2018)
+
+Avinadav, Chernonog, Fruchter
+& Prasad (2020)
+The present paper
+
+Consignment contract with
+revenue sharing (percentage
+unit fee)
+
+none of the above papers has used a menu of contracts to tackle
+the problem. To the best of our knowledge, the present study is
+the ﬁrst to develop a menu of contracts using revenue sharing.
+1.4. Voluntary disclosure and cheap talk
+We explore mechanisms by which the better-informed party
+might be driven to reveal his or her information truthfully to the
+less-informed party. As one might expect, the less-informed party
+always beneﬁts from information disclosure (Chernonog, 2019);
+however, in some cases, the more-informed party also beneﬁts
+from disclosing its private information to the less-informed party,
+and therefore does so voluntarily (Alkoby, Sarne, & Milchtaich,
+2017). The issue of voluntary disclosure (i.e., strategic revealing of
+truthful information by free will) is relatively understudied in the
+supply-chain management literature; yet it is common in practice,
+and is typically manifested through informal communication between the upstream and downstream partners. Indeed, according
+to Guo and Iyer (2010), many manufacturers share insights with
+their retailers from time to time, though they do not contractually commit to sharing information on a long-term basis. The few
+papers dealing with voluntary disclosure discuss the issue under
+two main frameworks: information disclosure between ﬁrms and
+customers, and information disclosure among supply-chain members. The ﬁrst framework usually deals with quality (Zhao, Dong, &
+Cheng, 2018) and inventory (Aydinliyim, Pangburn, & Rabinovich,
+2017; Cui & Shin, 2017) disclosure, whereas the second framework usually deals with disclosures of demand (Bertomeu & Liang,
+2014), inventory (Chu & Lee, 2006), and various cost types (Chen
+& Deng, 2014; Delaney & Thijssen, 2015). Within each framework,
+consideration of both single-period (Gao, Li, & Shou, 2014; Guo, Li,
+& Zhang, 2014) and multi-period (Chu & Lee, 2006; Delaney & Thijssen, 2015) models is possible.
+In addition to voluntary disclosure, we investigate whether
+“cheap-talk” can be used to exchange information between the app
+developer and the distribution platform. The concept of meaningful cheap-talk refers to a situation in which private information
+can be exchanged in a believable way through costless messages
+(Crawford & Sobel, 1982, and recently in Shamir, 2012). Ren et al.
+(2010) showed that cheap-talk can be meaningful when the parties
+interact over an inﬁnite horizon. The main ﬁndings on the subject of cheap-talk can be summarized as follows: Shamir and Shin
+(2016) reported that when two supply chains compete in the market, making private forecast information public can constitute in
+meaningful cheap-talk; Chu et al. (2016) demonstrate that when
+the value of sharing forecast information is high, cheap-talk can be
+used to exchange information credibly Berman et al. (2019) con-
+
+Agent’s decisions after contract
+is proposed
+
+sidered a manufacturer who has a private forecast about the likelihood of a new product release and/or about the uncertain demand
+for the product, which he shares (either truthfully or not) with the
+retailer; Avinadav and Shamir (2021) showed that in the presence
+of partial vertical ownership, a retailer who is more informed than
+the supplier can exchange information credibly about the market
+condition with the supplier via cheap-talk. On the other hand, it is
+well known that when ﬁrms in a supply chain interact using a simple wholesale price contract, meaningful cheap-talk does not lead
+to an equilibrium (see, for example, Ozer et al., 2011; Avinadav &
+Shamir, 2020). In this paper, we show that neither voluntary disclosure nor cheap-talk can be used to exchange information credibly.
+1.5. Menu of contracts
+When voluntary disclosure is unlikely to occur (i.e., when the
+better-informed party does not expect to beneﬁt from revealing his
+or her information) or when cheap-talk is not informative (i.e., it
+is beneﬁcial for the better-informed party to distort its information), a menu of contracts can serve as an information-revelation
+mechanism. This idea has been studied under the concept of “adverse selection” (starting with Myerson, 1979), a term that is used
+to categorize principal-agent models in which an agent has private
+information before the contract is signed. The eﬃcacy of a menu
+of contracts as an information-revelation mechanism has recently
+been tested in laboratory experiments and in the ﬁeld (Hoppe &
+Schmitz, 2015). The vast majority of studies on menus of contracts
+consider a ﬁnite number of possible agent types (in most cases,
+two), whereas only a few studies (as presented in Table 1) designed menus that handle a continuous space, that is, an inﬁnite
+number of agent types. Table 1 provides an overview of the literature to date that considers a menu of contracts under continuous space, where the models are classiﬁed according to a variety of characteristics. As one can see, none of these papers has
+applied a menu of contracts with revenue sharing. In addition, in
+our study the agent makes decisions (namely, the selling price and
+quality level) beyond selecting the contract from the menu, which
+is not very common in the literature – although it is common in
+the practice of selling mobile apps.
+1.6. Bypassing option
+As an extension to the menu of contracts framework investigated herein, we develop a mathematical model for the case of
+an app developer who has the option of bypassing the distribution platform and selling his app to end consumers directly, even
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+JID: EOR
+4
+
+ARTICLE IN PRESS
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+though he would then face a smaller market. The bypassing option is modeled via the reservation proﬁt of the app developer,
+which is affected by the base demand. Our model is innovative
+by virtue of the fact that it designs a menu of contracts that prevents the agent from bypassing the principal and “going it alone”.
+Moreover, whereas in the operations management literature, the
+reservation proﬁt of the agent is constant and unaffected by the
+parameter that is unknown to the principal, in the current model,
+the reservation proﬁt of the agent is type dependent. Clearly, in the
+case where the app developer bypasses the distribution platform,
+the proﬁt of the developer depends on the base demand (i.e., the
+agent’s type), and thus, a type-dependent reservation proﬁt more
+accurately reﬂects the real situation. To the best of our knowledge, only four papers have considered type-dependent reservation proﬁt (Cakanyıldırım, Feng, Gan, & Sethi, 2012; Chakravarty
+& Zhang, 2007; Feng, Lai, & Lu, 2015; Gan, Feng, & Sethi, 2019),
+where only the ﬁrst and last of these developed a menu of contracts in continuous space, as is the case in the present study.
+However, whereas we consider information asymmetry with regard to the base demand, Chakravarty and Zhang (2007) considered it with regard to the cost of investing in service capacity and
+Gan et al. (2019) considered it with regard to the unit production cost. Moreover, none of the above four papers investigated a
+revenue-sharing contract, which is the focus of our study.
+
+1.7. Contributions and ﬁndings
+In what follows, we develop and analyze a model capturing the
+formulation of a consignment contract with revenue-sharing between an app developer and a distribution platform, where the
+latter is the leader of the supply chain and also possesses less information with regard to the demand. This paper makes four major
+contributions to the literature:
+◦ Investigating a menu of contracts that involves a consignment
+contract with revenue-sharing, which, to the best of our knowledge, has not yet been studied in the literature.
+◦ Designing a menu of contracts in a continuous space, which
+better reﬂects real situations, but is considerably more complex
+than designing contracts in a discrete space (because it requires
+more rigorous mathematical methods, such as optimal control).
+◦ Proposing a mechanism that leaves out (ﬁlters) some developers who reduce the expected proﬁt of the distribution platform
+– a mechanism that, in spite of its superiority, has rarely been
+investigated in the literature.
+◦ Extending the menu of contracts to consider an option in which
+the app developer may bypass the distribution platform and
+sell directly to end consumers.
+In addition, we present the following results:
+◦ Proving that voluntary disclosure of demand information is unbeneﬁcial for the app developer and that cheap-talk is not informative for the distribution platform.
+◦ Finding a closed-form solution for equilibrium contract-terms
+and proving that a shutdown policy (i.e., ﬁltering) is beneﬁcial
+for the distribution platform.
+◦ Showing that the use of a menu of contracts leads to a policy
+in which the two parties effectively share the costs of the product’s development.
+◦ Showing that a menu of contracts is more supportive of small
+businesses than a uniﬁed contract.
+◦ Finding that a menu of contracts can signiﬁcantly improve the
+distribution platform’s expected proﬁt compared with the case
+of a uniﬁed contract when the app quality exceeds a basic level.
+
+2. Model formulation
+Consider a two-echelon supply chain consisting of a single app
+developer and a single distribution platform, who are about to engage in a contract with regard to the development and sale of the
+app. The parties interact by using a revenue-sharing contract in
+which the distribution platform is the leader and the app developer is the follower. Under this contract, the distribution platform
+sets the app developer’s revenue share η and a transfer payment
+(closing fee) T. In other words, T is a ﬁxed cost incurred by one
+of the parties for the act of signing the contract, and its value can
+be either positive, in which case the app developer pays the fee
+to the distribution platform, or negative, in which case the distribution platform pays the fee to the app developer. The distribution platform offers the contract to the app developer, who sets
+the unit selling price p and the quality level of the product q. The
+quality level is assumed to reﬂect the app developer’s extent of
+engagement in research and development, brand promotion, and
+so on, beyond the basic level required to ensure the app meets
+some minimal quality threshold (such as that required by the App
+Store, which reviews all submitted apps in an effort to determine
+whether they are reliable, perform as expected, and are free of offensive material; see https://developer.apple.com/app-store/review/
+rejections/). Given that the product is virtual, we assume the app
+developer has ample production capacity and that neither party incurs transportation or holding costs. Demand is negatively affected
+by the selling price and positively affected by the level of quality.
+We adopt the additive demand form, which is commonly used in
+the literature (e.g., Aust & Buscher, 2012; Avinadav, Chernonog, &
+Perlman, 2015a,b; Chernonog, Avinadav, & Ben-Zvi, 2015; Huang,
+Leng, & Parlar, 2013; Ma, Wang, & Shang, 2013):
+
+D(q, p, a ) = a + α q − β p,
+
+(1)
+
+where a is the base demand, and α and β are the customer’s levels of sensitivity to price and to quality, respectively. The base demand a is unknown. It is estimated by the distribution platform
+and the app developer (common knowledge) as a non-negative
+random variable, deﬁned over the support , with a probability
+density function f (· ), a cumulative distribution function F (· ), and
+mean E[a].
+We further consider the costs, C(q), that the app developer incurs as a result of his investment in quality. In particular, we use
+
+C (q ) = c +
+
+γ q2
+2
+
+,
+
+(2)
+
+where c is a ﬁxed cost required to achieve a basic quality level, as
+noted above. The parameter γ is a scale coeﬃcient that reﬂects the
+eﬃcacy of the app developer’s investment in quality. A low value
+of γ implies that the app developer’s investment is more effective. The assumption of a quadratic cost function reﬂects the law
+of diminishing returns and is commonly used in the operations
+management literature (see, e.g., Lau, Lau, & Wang, 2010; Ma et al.,
+2013; Wang, Wang, & Shou, 2013).
+In what follows, we assume
+
+γ ≥ α 2 / ( 2β ).
+
+(3)
+
+As is shown in the proof of Lemma 2, this assumption circumvents cases in which using inﬁnitely large price and quality
+levels is beneﬁcial due to high eﬃcacy of investment in quality. Similar arguments are given in Savaskan, Bhattacharya, and
+Van Wassenhove (2004) and in Avinadav, Chernonog, and Perlman
+(2017, 2020).
+For a given level of base demand, a, the app developer’s and the
+distribution platform’s actual proﬁts are, respectively,
+
+πAD (q, p|η, T , a ) ≡ η pD(q, p, a ) − C (q ) − T ,
+
+(4)
+
+πDP (η, T |q, p, a ) ≡ (1 − η ) pD(q, p, a ) + T .
+
+(5)
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+We investigate the case of an app developer who is able to observe a prior to the selling period. The distribution platform lacks
+this information (the value of a), but is aware that the app developer has it – a situation referred to by Lau and Lau (2001) as
+“known superiority”. This scenario of information allocation corresponds to the principal-agent framework with adverse selection (Fudenberg & Tirole, 1991), where the distribution platform
+is the principal and the app developer is the agent who holds private information. As noted above, and further elaborated upon in
+Chernonog (2019), for some values of a, the app developer (the
+more informed party) beneﬁts from disclosing his private information, whereas the distribution platform (the less informed party)
+always stands to beneﬁt from information disclosure.
+3. Should the app developer deliver a message about his
+private information?
+We start by investigating whether it is beneﬁcial for the app
+developer to distort the base-demand information that it shares
+with the distribution platform. Suppose the actual base demand is
+a, whereas the app developer reports that the base demand is κ . If
+the distribution platform believes the app developer, her strategy
+(ηd , T d ) is obtained by solving
+max {πDP (η, T |qκ (η, T ), pκ (η, T ), κ )}
+η,T
+
+S.t. (qκ (η, T ), pκ (η, T )) = arg max {πAD (q, p|η, T , κ )}
+p,q
+
+πAD (qκ (η, T ), pκ (η, T )|η, T , κ ) ≥ 0
+0≤η≤1
+
+(ADBR )
+(IR )
+
+The strategy of the app developer is obtained by solving
+max{πAD (q, p|ηd , T d , a )}. The following lemma provides the correp,q
+
+sponding contract terms and the parties’ proﬁts. The proof of this
+lemma, along with the proofs of all other lemmas, propositions and
+theorems, are given in the Appendix.
+Lemma 1.
+
+4. Menu of contracts
+To maximize its expected proﬁt, the distribution platform designs a menu of contracts {η (a ), T (a )}, where each contract is intended for a speciﬁc realization of the base demand a. From the
+revelation principle (Myerson, 1979), the distribution platform can
+design a direct-revelation mechanism that induces the app developer to truthfully disclose the base demand through his choice of
+contract from the menu; that is, he is forced to choose contract a
+when the base demand is a. Fig. 1 depicts the sequence of events
+in the model.
+Clearly, the distribution platform will propose a menu of contracts {η (a ), T (a )} to the app developer that screens out cases
+in which he loses from interacting with the app developer. The
+screening is achieved by proposing a menu of contracts only for
+the set of participating types
+η (a ),T (a ) ,a speciﬁc domain of the
+base demand deﬁned by {η (a ), T (a )}. Equilibrium {η (a ), T (a )} is
+obtained by solving the following optimization problem:
+
+
+
+
+
+πDP (η (a ), T (a )|qa (η (a ), T (a )),
+
+pa (η (a ), T (a )), a ) f (a )da
+S.t. (qa (η, T ), pa (η, T )) ≡ arg max {πAD (q, p|η, T , a )} (ADBR )
+{η (a ),T (a )}
+
+E [πDP ] ≡
+
+(a, a ) ≥
+AD (a, κ ) ≤ 0
+AD (a, a ) ≥ 0
+0 ≤ η (a ) ≤ 1
+AD
+
+a∈ η (a ),T (a )
+
+p,q
+
+AD
+
+(a, κ ), a ∈ η(a),T (a) , κ ∈ 
+a ∈ / η (a ),T (a ) , κ ∈ η (a ),T (a )
+a∈
+
+η (a ),T (a )
+
+(IC1 )
+(IC2 )
+(IR )
+(7)
+
+κ2γ
+(i)
+= 1 and
+= 2(2βγ −α 2 ) − c;
+(a2 −κ 2 )γ
+(ii) πAD (qd , pd |ηd , T d , a ) = 2(2βγ −α 2 ) and
+κ2γ
+− c.
+2(2βγ −α 2 )
+
+ηd
+
+By Theorem 1, credible information sharing is not feasible; thus,
+the distribution platform should decide whether to use a revelation mechanism via a menu of contracts or to propose a uniﬁed
+contract based on the estimated distribution of the base demand.
+In what follows, we analyze the supply-chain members’ strategies
+in each scenario and compare the performance of the different approaches.
+
+max
+
+(6)
+
+5
+
+Td
+
+where
+
+πDP (ηd , T d |qd , pd , a ) =
+
+According to Lemma 1, the distribution platform makes the app
+developer act as though they are operating in a centralized supply
+chain by setting ηd = 1, thus maximizing the proﬁt of the entire
+channel. However, the distribution platform sets the value of T d
+such that it obtains all of the channel proﬁt, leaving zero proﬁt for
+the app developer. Indeed, when the app developer shares his private information truthfully (i.e., κ = a), this is exactly the result,1
+and thus it is not beneﬁcial for the app developer to provide a
+truthful report. Consequently, since the proﬁt of the app developer
+decreases in κ , it is in the developer’s interests to report the lowest
+possible value of the base demand, in order to reduce his closing
+fee. As a result, a rational distribution platform would not consider
+the shared information as credible. Therefore:
+Theorem 1. Cheap-talk is not informative for the distribution platform and voluntary disclosure is not beneﬁcial for the app developer.
+1
+A similar result is known for a standard two-part tariff contract that is based on
+a wholesale price agreement (see e.g., Li and Liu, 2015) initiated by a downstream
+member under the assumption of complete information. According to this contract,
+the dominant upstream player can set the wholesale price to be equal to his costs
+(to create the conditions of a centralized supply chain), and can select T so as to
+grab all of the channel proﬁt.
+
+AD
+
+(a, κ ) ≡ πAD (qa (η (κ ), T (κ )), pa (η (κ ), T (κ ))|η (κ ), T (κ ), a)
+(8)
+
+is the app developer’s proﬁt when he chooses a contract corresponding to base demand κ when the actual base demand is a. The
+ADBR constraint in (7) provides the app developer’s best response
+for a given (η, T ) when the base demand is a. The IC constraints
+are referred to, in contract theory, as incentive-compatibility constraints; these constraints give the app developer incentives to act
+truthfully, that is, to choose the contract intended for the demand
+he faces. Actually, we split the IC constraint into constraints IC1
+and IC2 in order to distinguish between two types of app developer. The ﬁrst type is an app developer with whom the distribution platform wishes to play (i.e., an app developer with a base
+demand that belongs to η (a ),T (a ) ), whereas the second type is an
+app developer with whom the distribution platform does not wish
+to play (i.e., an app developer with a base demand that belongs to
+/ η (a),T (a) ). Such an approach has been suggested by Laffont and
+Martimort (2002) and Ha (2001) in the context of supplier-buyer
+contracting with asymmetric cost information. In this paper, the
+IR constraints constitute a necessary condition to ensure that the
+app developer with whom the distribution platform wishes to play
+does not lose money when he truthfully reveals his demand information. In order to formulate (7) explicitly, we use the following
+two lemmas:
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+6
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+Fig. 1. Sequence of events.
+
+Lemma 2.
+
+With the new variables, we formulate the following problem,
+which is a relaxation of (9) where the IC2 constraint is not accounted for. In what follows, we prove that the solution of the relaxed problem satisﬁes the IC2 constraint. The relaxed problem is
+
+aγ
+
+(i) (qa (η, T ), pa (η, T )) = ( 2βγaαη
+,
+);
+−α 2 η 2βγ −α 2 η
+a2 γ η
+
+(ii) πAD (qa (η, T ), pa (η, T )|η, T , a ) = 2(2βγ −α 2 η ) − (T + c );
+(iii) πDP (η, T |qa (η, T ), pa (η, T ), a ) = (
+Let η˙ ≡
+
+d
+η (a ), η̈
+da
+
+≡
+
+d2
+η ( a ),
+d a2
+
+T˙ ≡
+
+a2 βγ 2 (1−η )
+2 + T ).
+(2βγ −α 2 η )
+
+d
+T ( a ),
+da
+
+and T̈ ≡
+
+
+maxu(·)
+
+d2
+T ( a ).
+d a2
+
+a∈
+
+
+
+
+
+S (a ) + a2 ξ (a ) − a2 2βγ − α 2
+
+
+ξ 2 (a ) f (a )da
+(11a)
+
+Lemma 3. (i) The necessary conditions for satisfying the set of IC1
+constraints in (7) are η˙ =
+
+2
+
+(2βγ −α 2 η (a )) ˙
+T and η˙ ≥ 0, a ∈
+a2 βγ 2
+
+η (a ),T (a ) .
+
+(ii) The necessary condition for satisfying the set of IC2 constraints
+
+S.t. S˙ (a ) = u(a ) ≥ 0, S (a ) ≥ −
+
+2(2βγ −α 2 η (κ ))(T (κ )+c )
+
+in (7) is a2 ≤
+, a ∈ / η (a ),T (a ) , κ ∈ η (a ),T (a ) .
+γ η (κ )
+(iii) The IR constraint in (7) can be equivalently replaced with
+2
+η (a ),T (a ) = {a ∈ |a ≥
+
+2(2βγ −α 2 η (a ))(T (a )+c )
+}.
+γ η (a )
+
+By Lemma 3(i), the revelation principle (see Myerson, 1979;
+Weber, 2011) is implementable in our problem, because η (a )
+and T (a ) are monotone functions. Moreover, we obtain the result that when the base demand increases, the distribution platform charges the app developer a higher ﬁxed transfer payment
+but compensates him with a higher share of the revenue. Since
+Lemma 3(i) provides only necessary conditions for the IC constraints to hold, we will additionally verify that κ = a globally maximizes AD (a, κ ), after determining the exact expressions of η(a)
+and T(a) in the next section.
+By Lemmas 2 and 3 and the assumption in (3), in order to solve
+(7), we ﬁrst solve
+
+ 2 2
+
+
+
+a βγ (1 − η (a ))
+max
+E[πDP ] =
++
+T
+(
+a
+)
+f
+(
+a
+)
+da
+{η (a ),T (a )}
+a∈ η (a ),T (a )
+(2βγ − α 2 η (a ))2
+
+
+
+S.t. η˙ =
+
+AD
+
+2βγ − α 2 η (a )
+a2 βγ 2
+
+(a, κ ) ≤ 0
+
+a2 ≥
+
+2
+
+T˙ ≥ 0,
+
+a ∈ / η (a ),T (a ) ,
+
+a∈
+
+κ∈
+
+η (a ),T (a )
+
+η (a ),T (a )
+
+2(2βγ − α 2 η (a ))(T (a ) + c )
+, a∈
+γ η (a )
+
+η (a ),T (a )
+
+(ICI )
+
+(9)
+
+(IC2 )
+(IR )
+
+0 ≤ η ( a ) ≤ 1.
+4.1. Solution method
+This section develops optimality conditions for problem (9) and
+a solution method, which determines the menu of contracts
+{η (a ), T (a )} that solves the problem. To this end, we introduce two
+new state variables, ξ (a ) and S(a ), which replace η (a ) and T (a ), as
+follows:
+
+ξ (a ) =
+
+2βγ
+
+1
+, S (a ) =
+− α 2 η (a )
+
+α2
+T ( a ).
+βγ 2
+
+(10)
+
+ξ˙ (a ) =
+
+cα 2
+
+βγ 2
+
+, a∈
+
+(11b)
+
+u (a )
+, a∈
+a2
+
+(11c)
+
+a2
+cα 2
+, a∈
+(2βγ ξ (a ) − 1 ) ≥ S(a ) +
+2βγ
+βγ 2
+
+(11d)
+
+1
+1
+≤ ξ (a ) ≤
+, a∈
+2βγ
+2βγ − α 2
+
+(11e)
+
+,
+
+where u(a ) is the controllable rate of S(a ). Constraints (11b) and
+(11c) represent the IC1 constraint in (9). Note that the condition
+cα 2
+S(a ) ≥ − βγ
+2 is equivalent to T (a ) ≥ −c. If the latter condition is
+
+violated, the solution can be improved by increasing T(a), because,
+by Lemma 2(i), the transfer payment T(a) does not affect the marketing and operational decisions of the app developer (price and
+quality level). Constraint (11d) represents the IR constraint in problem (9). Constraint (11e) represents the constraint 0 ≤ η (a ) ≤ 1 in
+problem (9).
+Problem (11) is not of a regular setting, because the dynamics of
+the state variables in (11b) and (11c) and the interval, , on which
+the variables are deﬁned are not independent. To resolve this issue
+and convert the problem into a canonical optimization form, we
+carry out the following procedure:
+Step 1. Prove the set
+consists of a single, inﬁnite interval,
+=
+[a0 , ∞ ), where a0 will be determined in Step 6.
+Step 2. Solve problem (11) for ﬁxed arbitrary a0 and S(a0 ) = S0 .
+Step 3. Analyze the solution and show that its structure is the
+same for all a0 and S0 .
+Step 4. Find S0 from (11d).
+Step 5. After plugging the optimal solution from Step 2 and S0
+from Step 4 into the objective function (11a), the latter
+becomes dependent on a single unknown, a0 .
+Step 6. Maximize (11a), analytically or numerically, as a function
+of a0 , and obtain the optimal solution.
+Step 1 of the solution method follows from the fact that the
+derivative of the left-hand side of the inequality in (11d) is not
+smaller than that of the right-hand side; that is,
+
+d
+da
+
+
+
+
+
+a2
+(2βγ ξ (a ) − 1 )
+2βγ
+
+
+
+≥
+
+d
+cα 2
+S (a ) +
+da
+βγ 2
+
+
+
+= u(a ).
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+The non-positivity of
+AD (a, κ )
+
+cause
+
+=
+
+a2 γ
+2α 2
+
+= 0 (by deﬁnition of
+βγ 2
+
+AD (a, κ )
+
+AD (a, κ )
+
+for a ∈ / , κ ∈
+
+follows be-
+
+2
+(2βγ ξ (κ ) − 1) − βγ
+S(κ ) − c,
+AD (a0 , a0 )
+α2
+aγ
+d
+), da
+AD (a, κ ) = α 2 (2βγ ξ (κ ) − 1 ) > 0 and
+2
+
+= α 2 u(κ )( κa 2 − 1 ) < 0 for all a < a0 and κ ≥ a0 . This
+proves that the IC2 constraint holds, so the optimal solution of
+problem (11) is equivalent to that of problem (9).
+By ﬁxing the parameters a0 and S(a0 ) = S0 in Step 2, the solution of (11) is determined by analyzing the optimality conditions
+formulated in the form of the maximum principle (Hartl, Sethi, &
+Vickson, 1995). According to this formulation, if ξ (a ), S(a ), and
+u(a ) solve the problem, then costate variables, ψξ (a ) and ψS (a ),
+exist such that the following conditions are satisﬁed:
+d
+dκ
+
+(i) The optimal control maximizes the Hamiltonian function
+
+
+
+ξ (a ) − a (2βγ − α )ξ (a ) + S(a ) f (a )
+u (a )
++ ψξ ( a ) 2 + ψS ( a )u ( a )
+
+H= a
+
+2
+
+2
+
+2
+
+2
+
+(12)
+
+for each a;
+(ii) The costate differential equations are
+
+ 
+
+dψξ (a ) = 2 2βγ − α 2
+
+ξ (a ) − 1 a2 f (a )da − dμ1 (a )
++ dμ2 (a ), ψξ (a0 ) = ψξ (∞ ) = 0,
+(13)
+(14)
+
+a0
+
+1
+2βγ
+
+
+
+− ξ ( a ) d μ1 ( a ) = 0 ,
+
+∞
+a0
+
+
+ξ (a ) −
+
+1
+2βγ − α 2
+
+d μ2 ( a ) = 0 ,
+
+d μ1 ( a ) ≥ 0 , d μ2 ( a ) ≥ 0 ,
+
+(16)
+
+where dμ1 (· ) and dμ2 (· ) are measure functions. We note that the
+Hamiltonian function is linear in u(a ), and that its maximization
+subject to constraint u(a ) ≥ 0 results in
+
+
+
+0, i f ψξ ( a ) + a2 ψS ( a ) < 0
+∈ [0 , ∞ ) , i f ψ ξ ( a ) + a 2 ψ S ( a ) = 0
+
+ξ (a ) =
+
+(17)
+
+Type-1 arc: contracts that are indifferent to the value of the
+base demand; that is, u(a ) = 0, over an interval of demand
+values;
+Type-2 arc: contracts that are sensitive to the value of the base
+demand; that is, u(a ) ≥ 0.
+The latter category is also termed “singular” because the control
+function cannot be explicitly determined from maximization of the
+Hamiltonian, and additional analysis is required. Let a singular arc
+occur at an interval of a, that is,
+
+ψξ ( a ) + a2 ψS ( a ) = 0.
+
+(18)
+
+Then, over the arc,
+
+ψS (a ) = 1 − F (a ) and ψξ (a ) = a2 (F (a ) − 1 ).
+ 
+
+(19)
+
+The control function u(a) and S(a) are explicitly obtained from
+state Eqs. (11b) and (11c). To simplify further the analysis, we assume the demand distribution function is such that
+
+d m (a )
+da
+a
+
+≤ 0 (i.e., m (a ) ≤
+
+m (a )
+a
+
+(20)
+
+which is valid for many demand distributions.
+
+The next lemma determines the structure of the optimal solution and proves that it consists of a type-1 arc followed by a type2 arc. We denote the switching point between the two arcs by ā.
+Note that, for some parameter values, one of the two arcs can disappear.
+Lemma 5.
+(i) If a0 < ā, the optimal solution consists of two arcs:
+1
+cα
+For a ∈ [a0 , ā ), type-1 arc: u(a ) = 0, ξ (a ) = 2βγ
+, S(a ) = − βγ
+2.
+cα
+S(a ) = − βγ
+2 +
+
+ξ (a ) − 1 a2 f (a ),
+
+
+(F (a ) − 1 ) + a f (a ) = 2βγ − α 2 ξ (a )a f (a ),
+
+a
+ā
+
+m (a )−am (a )
+,
+2βγ −α 2
+
+1−m (a )/a
+,
+2βγ −α 2
+
+ξ (a ) =
+
+u(x )dx.
+
+(ii) If a0 ≥ ā, the optimal solution consists of a single type-2 arc:
+u (a ) =
+
+m(a ) − am (a )
+1 − m(a )/a
+, ξ (a ) =
+, S ( a ) = S ( a0 ) +
+2βγ − α 2
+2βγ − α 2
+
+
+
+a
+
+a0
+
+u(x )dx.
+
+We deﬁne the domains [0, ā ) and [ā, ∞ ) as a low market domain and a high market domain, respectively.
+From Lemma 5 and its proof, it follows that the switching point
+1
+ā is determined from the continuity of ξ (a ), and it satisﬁes 2βγ
+=
+1
+2βγ −α 2
+
+(1 −
+
+m (ā )
+),
+ā
+
+which can be simpliﬁed to
+
+m(ā )
+α
+=
+.
+2βγ
+ā
+
+(21)
+
+By combining (20), (21), and (3), for every a ≥ max(ā, a0 ), we
+obtain
+
+m (a )
+m(ā )
+α2
+<
+=
+< 1.
+a
+2βγ
+ā
+
+(22)
+
+In Step 3 of the solution method, we note that the structure of
+the optimal solution proven in Lemma 5 does not explicitly depend
+on the values of the parameters a0 and S0 . Therefore, it is true for
+any such values. In Step 4, we determine S0 from (11d),
+
+S0 =
+
+⎧
+⎪
+⎪
+⎨
+
+−
+
+cα 2
+,
+βγ 2
+
+i f a0 ≤ ā
+
+⎪
+cα 2
+a 2
+⎪
+⎩ 0 (2βγ ξ (a0 ) − 1 ) −
+,
+2βγ
+βγ 2
+
+.
+
+
+
+∞
+
+a0
+
+
+
+
+
+(23)
+
+i f a0 > ā
+
+In Step 5, we write (11a) as
+
+maxa0
+
+2a(F (a ) − 1 ) + a2 f (a ) = 2 2βγ − α 2
+
+m (a )
+1
+1−
+.
+a
+2βγ − α 2
+
+2
+
+Eq. (17) indicates that the optimal solution, u(a ), consists of a
+sequence of arcs, each from one of the following two categories:
+
+From (11), we have
+
+1 − F (a )
+.
+a f (a )
+
+(a )
+Let m(a ) ≡ 1−F
+be the Mills ratio (Grimmett & Stirzaker,
+f (a )
+2001) of the base demand, such that
+
+2
+
+
+(15)
+
+u (a ) =
+
+
+
+1−
+
+For a ∈ [ā, ∞ ), type-2 arc: u(a ) =
+
+(iii) The complementary slackness is
+
+
+
+
+
+2
+
+ψ˙ S (a ) = − f (a ), ψS (∞ ) = 0;
+∞
+
+1
+2βγ − α 2
+
+Lemma 4. For the exponential, normal, and uniform distributions of
+a, the assumption in (20) holds.
+
+a
+
+
+
+ξ (a ) =
+
+7
+
+S (a ) + a2 ξ (a ) − a2 2βγ − α 2
+
+
+ξ 2 (a ) f (a )da , (24)
+
+where ξ (a ), S(a ), and u(a ) have been obtained in Step 2 of the
+solution method.
+
+
+
+Lemma 6. If a0 < ā, then a0 = 2 β c .
+Step 6 solves (24) by means of standard methods for onedimensional unconstrained optimization problems.
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+8
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+
+
+4.2. Equilibrium
+After solving the optimization problem in (11), we are ready to
+ﬁnd the optimal solution (in the original decision variables and the
+corresponding proﬁts) of the optimization problem in (7).
+Theorem 2.
+(i) In equilibrium, the distribution platform will propose the following menu of contracts {η (a ), T (a )}:
+
+
+
+If ā0 = 2 β c, then
+
+
+
+η (a ) =
+
+T (a ) =
+
+0
+
+2
+
+
+
+2βγ
+−1
+α2
+a
+−1
+m (a )
+
+1−
+
+⎧
+⎪
+⎨
+
+a ≥ ā
+−c
+
+
+
+
+βγ
+⎪
+⎩
+
+2
+
+β c ≤ a < ā
+
+a
+
+ām(ā )−am(a )+2
+ā
+
+If ā ≤ 2 β c, then
+
+−
+
+2
+
+
+
+2βγ
+
+α 2 − 1 , T (a ) =
+a
+−1
+m (a )
+
+
+
+β c ≤ a < ā
+.
+
+m(x )dx
+−c
+
+α 2 (2βγ −α 2 )
+
+
+
+η (a ) = 1 −
+
+,
+
+a ≥ ā
+
+
+
+ a
+βγ 2 a20 − am(a ) + 2 m(x )dx
+a0
+
+α 2 (2βγ − α 2 )
+
+γ a20
+− c, a ≥ a0 .
+2α 2
+
+(ii) In equilibrium, the app developer will set the following selling
+price and quality level:
+
+
+
+If ā > 2 β c, then
+
+
+
+p( a ) =
+
+a
+2β
+aγ 1− m(aa )
+2βγ −α 2
+
+(
+
+
+q (a ) =
+
+2
+
+)
+
+a ≥ ā
+
+0
+α a 1− 2αβγ
+2
+
+2
+
+a ≥ ā
+
+2βγ −α 2
+
+
+
+
+aγ 1 − m(aa )
+2βγ − α 2
+
+,
+
+
+β c ≤ a < ā
+
+m (a )
+a
+
+If ā ≤ 2 β c, then
+
+p( a ) =
+
+
+β c ≤ a < ā
+
+.
+
+
+α a 1 − 2αβγ2 m(aa)
+, q (a ) =
+, a ≥ a0 .
+2βγ − α 2
+
+(iii) In equilibrium, the proﬁts of the app developer, of the distribution platform, and of the total supply chain are, respectively:
+
+
+
+If ā > 2 β c, then
+AD (a, a ) =
+
+πDP (a ) =
+
+⎧
+⎪
+⎨
+⎪
+⎩
+
+πTotal (a ) =
+
+⎧
+⎪
+⎨
+⎪
+⎩
+
+γ a −ā
+2
+
+2
+
+a
+
+− 4βγ
+α2
+
+
+
+m(x )dx
+
+ā
+2(2βγ −α 2 )
+
+−c
+
+
+
+ a
+γ ā2 − 2αβγ
+m2 (a )−2
+m(x )dx
+2
+ā
+2(2βγ −α 2 )
+
+⎩
+
+a2
+4β
+
+−c
+
+2
+γ a2 − 2αβγ
+2 m (a )
+
+2(2βγ −α 2 )
+
+2
+−c
+
+β c ≤ a < ā
+
+β c ≤ a < ā
+a ≥ ā
+
+.
+
+γ a2 − a20 −
+
+4βγ
+
+α2
+
+
+
+a
+
+a0
+
+
+m(x )dx
+
+2(2βγ − α 2 )
+
+, a ≥ a0 ;
+
+− α2
+
+
+m (a ) − 2
+
+
+
+a
+
+2
+
+a0
+
+
+m(x )dx
+− c, a ≥ a0 ;
+
+2(2βγ − α 2 )
+
+
+γ a2 − 2αβγ2 m2 (a )
+πTotal (a ) =
+− c, a ≥ a0 .
+2(2βγ − α 2 )
+
+
+By Theorem 2, if ā > 2 β c, then for a low market (i.e.,a ∈
+
+[2 β c, ā]), the app developer has no share in the revenues, and
+thus he does not invest in increasing quality beyond its basic level.
+The distribution platform compensates the app developer by a
+transfer payment that is equal to the ﬁxed cost required to achieve
+the basic quality level. In return, the app developer sets the selling price proportionally to the base demand. Whereas the app developer has no proﬁt and no losses in this domain, the distribution platform’s proﬁt is an increasing convex non-negative function
+
+of the base demand. In other words, the case in which ā > 2 β c
+represents a scenario in which the ﬁxed cost required to achieve
+the basic quality level is low enough to generate proﬁts to the
+supply chain. Under this scenario, for a high market (i.e., a ≥ ā),
+the app developer develops a high-quality product and
+ gains a
+share of the revenue. On the other hand, the case ā ≤ 2 β c represents a scenario in which the ﬁxed cost required to achieve the
+basic quality level is suﬃciently high such that it is only possible to generate proﬁts by developing high-quality products. By
+Theorem 2(i), under a high market (i.e.,a ≥ ā), for both scenarios,
+the app developer’s share of the revenue increases as the base demand increases. In addition, by simple calculus combined with the
+assumption in (20), when the base demand increases, the transfer payment from the app developer to the distribution platform
+(T > 0) increases, whereas the transfer payment from the distribution platform to the app developer (T < 0) decreases. These results are necessary for the existence of a revelation mechanism
+(see Lemma 3(i)). By Theorem 2(ii) and the condition in (21), both
+the selling price and the quality level are increasing functions of
+the base demand. Note that in both cases, the developer’s proﬁt is
+independent of the ﬁxed cost required to achieve the basic quality
+level, because this cost is totally borne by the distribution platform
+as a part of the revelation mechanism.
+Corollary 1. (i) AD (a, a ) and T (a ) are convex increasing functions
+of a. (ii) πDP (a ) is an increasing continuous function of a.
+The expected proﬁt of the distribution platform and the
+∞
+app developer are, respectively, E[πDP ] = a πDP (a ) f (a )da and
+0
+
+∞
+
+E[ AD (a, a )] = a
+AD (a, a ) f (a )da. Similarly, we calculate the ex0
+pected values of η (a ), T (a ), p(a ), and q(a ).
+
+In what follows, we ﬁnd the optimal menu of contracts for two
+common distributions of the base demand that satisfy the condition in (20): exponential and normal.
+Example 1. Let a be distributed exponentially, a ∼ Exp(λ ), so that
+m(a ) = 1/λ. Following (21), the switching point between the two
+2βγ
+arcs is ā = α 2 λ , and following Step 6,
+
+a0 =
+
+
+
+(a, a ) =
+
+
+
+−c
+
+a ≥ ā
+
+If ā ≤ 2 β c, then
+
+AD
+
+
+
+2
+
+2βγ
+
+4.3. Results for common distributions of the base demand
+
+a ≥ ā
+
+a2
+4β
+
+⎧
+⎨
+
+
+
+0
+
+
+
+
+
+2 β c ≤ a < ā
+
+γ
+πDP (a ) =
+
+a20
+
+⎧
+⎪
+⎨
+
+2
+
+
+
+βc
+
+
+
+
+⎪
+⎩ 1 1 + (2βγ /α 2 − 1 )(2cα 2 λ2 /γ − 1 )
+λ
+
+βγ 2
+α 4 λ2 .
+βγ 2
+c≥ 4 2
+α λ
+
+c<
+
+By this result, a0 > 0, implying that leaving out low-type developers is always beneﬁcial for the distribution platform.
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+9
+
+Fig. 2. Menu of contracts η (a ) and T (a ) for Example 2.
+Table 2
+Expected values of the solution parameters for Example 2.
+
+c = 1000
+c = 4000
+
+E[η (a )]
+
+E[T (a )]
+
+E[q(a )]
+
+E[ p(a )]
+
+E[
+
+0.57
+0.35
+
+1219.2
+286.0
+
+68.9
+48.6
+
+75.6
+43.2
+
+994.9
+523.7
+
+AD
+
+(a, a )]
+
+E[πDP (a )]
+
+E[πTotal (a )]
+
+2662.0
+803.2
+
+3656.9
+1326.9
+
+Example 2. Let a be distributed normally, a ∼ N (μ, σ 2 ). Following (21), the switching point between the two arcs, ā, is calā )
+α2
+culated numerically from 1ā−φ(
+(ā ) = 2βγ . For parameter values
+
+α = 1, β = 1.1, γ = 0.8, μ = 100 and σ = 20, the switching point
+
+is ā = 86. We implemented the solution method for two values of
+parameter c: c = 10 0 0 and c = 40 0 0. The optimal a0 in the ﬁrst
+case (a0 = 66.3) is smaller than ā, whereas in the second case
+(a0 = 105.6), it is greater than ā. Accordingly, the optimal menu
+of contracts {η (a ), T (a )} consists of the two arcs, before and after
+ā, in the ﬁrst case, and of a single, type-2 arc in the second case.
+Fig. 2 depicts η (a ) and T (a ). The plots of η (a ) coincide because
+η (a ) does not depend on c (although its domain does). In contrast,
+the plots show that for a higher cost of achieving the basic quality
+level, c, the app developer pays a lower transfer fee to the distribution platform. When the base demand is very low, the distribution
+platform pays the transfer fee to the app developer (i.e., T < 0) in
+order to encourage him to participate in the game. Fig. 3 illustrates
+the tradeoff in the contract terms proposed to the app developer. It
+shows that for a higher value of the ﬁxed cost required to achieve
+a basic quality level, c, the domain of the contracts proposed to
+the app developer is narrower in terms of η and T. Fig. 4 presents
+the proﬁts of the app developer and the distribution platform as
+a function of the base demand. As expected, a lower value of the
+ﬁxed cost required to achieve a basic quality level, c, is better for
+both parties. Note that for low values of the base demand, the distribution platform gains higher proﬁts than the app developer, and
+vice versa for high values of the base demand. Fig. 5 shows that
+the quality level and the selling price are non-decreasing functions
+of the base demand. Similar to the plots of η(a), the plots of p(a )
+and q(a ) for c = 10 0 0 and c = 40 0 0 coincide because neither p(a )
+nor q(a ) depends on c (although their domains do). The expected
+values of the solution parameters are shown in Table 2.
+In addition, we show the sensitivity of the expected proﬁts of
+the two parties with respect to the demand uncertainty (Fig. 6).
+
+Fig. 3. Parametric plot of T (a ) as a function of η (a ).
+
+To do that, we use two base examples: the case of c = 10 0 0 and
+the case of c = 40 0 0, where the values of parameter σ vary from
+5 to 30 (to satisfy μ ≥ 3 13 σ ). Fig. 6 shows that when the standard deviation of the demand increases, the platform’s expected
+proﬁt ﬁrst decreases and then increases, resulting in a quasiconvex behavior. This result is in line with the observation of
+Wang, Yang, Wang and Wang (2018), according to which the principal prefers two extreme cases - symmetric information or totally
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+10
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+(see e.g. Rao (2003), Avinadav and Henig (2015), Chernonog and
+Kogan (2014), and Avinadav (2015)).
+5. Uniﬁed contract
+As discussed in the introduction, in the domain of virtual products for distribution platforms, it is common for platforms to offer
+uniﬁed contracts across all the developers with whom they interact. In our model, this is equivalent to a scenario in which the distribution platform proposes a single set of contract terms (η, T ) to
+the app developer, regardless of the realization of a. This type of
+contract cannot force the app developer to reveal his private information; yet, at the same time, it enables the distribution platform
+to avoid bearing the cost of the revelation mechanism. Therefore,
+in this case, instead of imposing IC and IR constraints, we can deﬁne a subdomain of  (denoted η,T ) that reﬂects the values of
+the base demand for which the app developer will agree to play.
+Accordingly, the distribution platform’s problem can be formulated
+as
+
+
+
+E [πDP ] =
+
+max
+
+0≤η≤1,T
+
+
+a∈ η,T
+
+
+πDP (η, T |qa (η, T ), pa (η, T ), a ) f (a )da
+
+.
+
+S.t. (qa (η, T ), pa (η, T )) = arg max {πAD (q, p|η, T , a )}
+p,q
+
+Fig. 4.
+
+AD
+
+η,T =
+
+(a, a ) and πDP (a ).
+
+{a ∈ |πAD (qa (η, T ), pa (η, T )|η, T , a ) ≥ 0}
+(26)
+
+Using (3) and the results of Lemma 2, problem (26) can be written as
+asymmetric information. The authors explained this phenomenon
+by the combined effect of the shutdown policy and information
+rents. Fig. 6 also shows that the app developer’s expected proﬁt
+increases monotonically. The intuitive explanation of this result is
+that as the demand uncertainty increases the value of the exact
+information about demand becomes higher, implying an increase
+in the information rent paid by the distribution platform to the
+app developer. The results above are observed both for the case of
+c = 10 0 0 and the case of c = 40 0 0. In the numerical implementation we used the regular (untruncated) normal distribution to
+model the demand, as was justiﬁed when the mean of the normal
+distribution is suﬃciently larger than the standard deviation, and,
+as a result, the probability of negative values is negligibly small
+
+
+
+E [πDP ] =
+
+max
+
+0≤η≤1,T
+
+S.t.
+
+
+
+
+
+
+
+= a ∈ 
+
+η,T
+
+a2 βγ 2 (1 − η )
+
+
+
++T
+
+( βγ − α 2 η )2 
+
+a∈ η,T
+2
+a2 γ η
+2(2βγ −α 2 η )
+
+
+
+f (a )da
+
+(26)
+
+−T −c ≥0
+
+and simpliﬁed to
+
+
+
+max
+
+0≤η≤1,T
+
+E [πDP ] =
+
+
+
+
+
++T 1 − F
+
+βγ 2 (1 − η )
+(2βγ − α 2 η )2
+
+
+
+∞
+
+
+
+2(2βγ −α 2 η )(T +c )
+
+2(2βγ − α 2 η )(T + c )
+
+γη
+
+a2 f (a )da
+
+γη
+
+
+.
+
+(27)
+
+Fig. 5. Quality level q(a) and selling price p(a).
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+Fig. 6. (a) E[πDP (a )] for c = 10 0 0; (b) E[
+
+AD
+
+(a, a)] for c = 10 0 0; (c) E[πDP (a )] for c = 40 0 0; (d) E[
+
+When a is exponentially distributed, the distribution platform’s
+optimization problem given in (27) becomes
+
+
+
+
+
+1
+βγ 2 (1 − η ) 
+max E[πDP ] =
+1+
+2
+2
+0≤η≤1,T
+λ
+(2βγ − α η )
+⎫
+⎫
+2 ⎤
+
+⎬  2(2βγ −α2 η)(T +c) ⎬
+2
+2(2βγ − α η )(T + c )
+γη
+⎦ + T e −λ
++
+.
+γη
+⎭
+⎭
+When a is normally distributed, problem (27) becomes
+
+⎧
+⎪
+⎪
+⎨E[πDP ] =
+
+max
+
+0≤η≤1,T
+
+⎪
+⎪
+⎩
+
+βγ 2 (1−η )
+(2βγ −α 2 η )2 
+
++T 1 −  σ
+
+1
+
+∞
+
+a2 φ
+
+2(2βγ −α 2 η )(T +c )
+
+
+
+ a −μ
+σ
+
+.
+
+γη
+
+2(2βγ −α 2 η )(T +c )
+
+γη
+
+⎫
+
+da ⎪
+⎪
+⎬
+
+−μ
+
+⎪
+⎪
+⎭
+
+AD
+
+11
+
+(a, a)] for c = 40 0 0, as a function of σ .
+
+6. Menu of contracts vs. uniﬁed contract
+6.1. Numerical example
+Herein, we use a numerical example to compare the performance of the supply chain under three scenarios: a menu of
+contracts and a uniﬁed contract for the asymmetric information
+case, and a contract for the complete information case. The third
+scenario serves as a benchmark to investigate how information
+asymmetry distorts the contract compared with the symmetrical
+case. In Section 3, we showed that the total proﬁt, the selling price
+and the app quality under the third scenario are identical to those
+obtained by a centralized supply chain. We assume a base demand that follows an exponential distribution with λ = 0.01 (i.e.,
+the expected demand is 100 units) and the following parameter
+values: α = 1, β = 1.1, c = 15, where the scale coeﬃcient of the
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+JID: EOR
+12
+
+ARTICLE IN PRESS
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+Fig. 7. Decision variables and supply-chain measures for α = 1, β = 1.1, c = 20, γ = 0.6 and a base demand that follows an exponential distribution with λ = 0.01 over a.
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+JID: EOR
+
+ARTICLE IN PRESS
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+[m5G;September 15, 2020;2:3]
+13
+
+Fig. 7. Continued
+
+investment eﬃciency of the app developer is γ = 0.6. Under these
+parameter values, the distribution platform screens out app developers whose base demand is lower than 8.124 when using a menu
+of contracts, or lower than 132 when using a uniﬁed contract.
+Under the complete information scenario, however, the parties
+interact for any value of the base demand. This example shows a
+substantial difference in the shutdown policy under the different
+scenarios. In particular, compared with the uniﬁed contract, the
+menu of contracts is more supportive of small businesses, which
+presents a signiﬁcant social advantage. The numerical example
+further shows that under the uniﬁed contract, 67.6% of app developers will be excluded from playing, whereas under a menu of
+contracts, only 7.8% will be screened out. The rationale behind this
+result is the additional ﬂexibility of a menu of contracts, which
+enables the distribution platform to stay proﬁtable even when the
+base demand is low.
+Fig. 7 depicts the contract terms and various supply-chain measures as a function of the actual base demand under each scenario.
+Speciﬁcally, Fig. 7(a) plots the app developer’s revenue share under the three scenarios. We see that under the menu of contracts,
+the distribution platform gives a higher share of the revenue to
+the app developer when the base demand is higher. Above a certain value of the base demand, the revenue share of the app developer is greater under a menu of contracts than under the uniﬁed
+contract. Under the complete information scenario, the distribution
+platform, on the one hand, gives all of the revenue to the app developer, but on the other hand, selects the transfer payment so as
+to take all of the proﬁt, as was discussed in Section 3. Fig. 7(b)
+shows that under a menu of contracts, the distribution platform
+compensates herself for giving a higher share of the revenue to
+the app developer when the base demand is higher by charging
+a higher transfer payment. Similarly, under the complete information scenario, the transfer payment increases in the base demand,
+whereas under the uniﬁed contract, by deﬁnition, it remains ﬁxed.
+Fig. 7(c)–(e) show that the selling price, the app quality, and the
+sales are non-decreasing functions of the actual base demand. We
+further observe that, in comparison with a menu of contracts, the
+uniﬁed contract results in a higher (lower) quality, a higher (lower)
+selling price, and higher (lower) sales when the actual base demand is low (high). In addition, the values of these three variables
+under complete information are always higher than those under
+
+information asymmetry. Fig. 7(f)–(h) show that, as expected, the
+proﬁts of each chain member, and thus also the total channel’s
+proﬁt, increase in the base demand. The following results are particularly noteworthy: (i) for very low domains of the base demand,
+only the menu of contracts leads to an interaction, but the app
+developer is not proﬁtable; (ii) in cases where the base demand
+is low, but both parties are proﬁtable, the uniﬁed contract is the
+preferred option for both of them; (iii) for medium values of the
+base demand, the distribution platform prefers the menu of contracts, whereas the app developer prefers the uniﬁed contract; (iv)
+for high values of the base demand, both parties prefer the menu
+of contracts; (v) for very high values of the base demand, the distribution platform prefers the uniﬁed contract (note that this occurs beyond the domain presented in Fig. 7(h)), whereas the app
+developer prefers the menu of contracts. Fig. 7(f)–(h) illustrate the
+results of Lemma 1, according to which, under complete information, the distribution platform grabs all of the channel proﬁt and
+leaves zero proﬁt for the app developer.
+In what follows, we conduct a sensitivity analysis regarding the
+app developer’s eﬃcacy in quality investment to investigate the
+values of the objective functions at equilibrium under three scenarios: a menu of contracts and a uniﬁed contract for the asymmetric information case, and a contract for the complete information case. Fig. 8(a)–(c) show that, as expected, when the app
+developer’s investment in quality becomes less effective, the expected proﬁt of each chain member, and thus also the expected
+total proﬁt, decreases. By the contracts’ deﬁnitions, a menu of contracts is clearly more proﬁtable to the distribution platform than
+a uniﬁed contract (which can be captured by a menu of contracts
+with an additional constraint), as shown in Fig. 8(a). On the other
+hand, one contract type does not dominate the other for the app
+developer. In particular, the greater the eﬃcacy of the app developer’s investment in quality (lower values of γ ), the better off the
+developer is with the uniﬁed contract (see Fig. 8(b)), because a
+uniﬁed contract is designed for an “average” market. The expected
+total proﬁt of the supply chain is higher under a menu of contracts than under the uniﬁed contract for all values of γ used in
+the analysis (see Fig. 8(c)). Fig. 8 also illustrates that the complete information scenario yields the ﬁrst-best solution from the
+perspective of both the distribution platform and the total supply
+chain.
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+14
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+Fig. 8. The expected proﬁts for α = 1, β = 1.1, c = 20 and a base demand that follows an exponential distribution with λ = 0.01 as a function of γ .
+
+6.2. Experimental design
+In this section, we investigate the extent to which the uniﬁed
+contract approximates the eﬃciency of the menu of contracts.
+We do so by using a factorial experimental design according to
+which γ = 0.3 and for each of the other parameters, we use
+three levels and calculate the performance of each contract for
+all combinations of the parameter levels. In particular, we use the
+following baseline values: α = 0.6, β = 1.5, c = 15, λ = 0.0025,
+and the low and high levels are then obtained by deviating from
+these values by ±30%. This design results in 34 = 81 settings. We
+measure the improvement in the distribution platform’s expected
+proﬁt due to using a menu of contracts. Fig. 9 presents the degree of improvement (in a descending order) plotted against the
+
+percentage of cases for which it was observed. It can be seen that
+for about 44.5% of cases, the improvement was low (up to 5.5%),
+whereas for about 55.5% of cases, the improvement was moderate
+or high (between 7.5% and 19%). Interestingly, low-improvement
+cases were characterized by parameter values that do not encourage investment in quality beyond its basic level, and vice
+versa.
+We further analyzed the effect on the app developer’s expected
+proﬁts, and on the expected proﬁts of the entire channel, of replacing the uniﬁed contract with a menu of contracts. We found
+that for ≈66.7% of the settings, the menu of contracts increased
+the expected proﬁt of the app developer, whereas for the remainder of the settings, the opposite result was achieved. We further
+found that in all settings, there was an improvement in the total
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+JID: EOR
+
+ARTICLE IN PRESS
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+Fig. 9. The improvement in the distribution platform’s expected proﬁt due to using
+a menu of contracts instead of a uniﬁed contract.
+
+channel’s expected proﬁt (i.e., Kaldor–Hicks improvement), with an
+average incremental improvement of ≈8.4%.
+In order to evaluate the improvement in the channel proﬁt due
+to shifting from a uniﬁed contract to a menu of contracts, we used
+the ﬁrst-best solution (centralized supply chain) as a benchmark.
+Speciﬁcally, we calculated the channel eﬃciency measure, i.e., the
+ratio between the total proﬁt of both players and that of the centralized supply chain (Avinadav, Chernonog, & Perlman, 2014; Lau
+& Lau, 2005; Lau, Su, Wang, & Hua, 2012), for each contract and
+for all combinations of the parameter levels. We found that the
+channel eﬃciency under the uniﬁed contract ranges from 53.5% to
+84.9%, with an average value of 69.6%, whereas under the menu of
+contracts, the channel eﬃciency ranges from 70.2% to 85.1% with
+an average value of 74.6%. Fig. 10 illustrates the percentage improvement in the channel eﬃciency due to using a menu of contracts instead of a uniﬁed contract, where the improvement values are displayed in descending order. The degree of improvement
+can be classiﬁed into three levels, which follow the Pareto rule:
+high (19−31%), which captures 22% of the observations; medium
+(5−9%), which captures 33% of the observations; and low (below
+3%), which captures 45% of the observations.
+
+7. Extension: menu of contracts under bypassing option
+This section develops an optimal menu of contracts for the case
+where an app developer has the option of bypassing the distribution platform and selling its app directly to the end customers. To
+be able to do so, the app developer has to create a downloading
+portal and a billing system at a cost of cBP . In addition, the base
+demand is reduced by a factor θ (< 1 ), since potential customers
+might be concerned about downloading an app that does not originate from the oﬃcial site of the distribution platform, and since
+the latter might promote competing apps. Following Lemma 2(ii),
+the reservation proﬁt of the app developer from bypassing the
+BP (a ) ≡ π (q (1, 0 ), p (1, 0 )|1, 0, θ a ) −
+distribution platform is πAD
+a
+AD a
+cBP =
+
+(θ a )2 γ
+2(2βγ −α 2 )
+
+− c − cBP . Thus, under this scenario, the menu of
+
+15
+
+Fig. 10. The improvement in the channel eﬃciency due to using a menu of contracts instead of a uniﬁed contract.
+
+contracts will be designed by modifying problem (7) as follows:
+
+
+{η (a ),T (a )}
+
+E [πDP ] ≡
+
+
+
+πDP (η (a ), T (a )|qa (η (a ), T (a )),
+
+pa (η (a ), T (a )), a ) f (a )da
+S.t. (qa (η, T ), pa (η, T )) ≡ arg max {πAD (q, p|η, T , a )} (ADBR )
+max
+
+a∈ η (a ),T (a )
+
+p,q
+
+(a, a ) ≥ AD (a, κ ), a ∈
+BP
+AD (a, κ ) ≤ max{0, πAD (a )}
+κ ∈ η(a),T (a)
+BP
+AD (a, a ) ≥ max{0, πAD (a )}
+0 ≤ η (a ) ≤ 1
+AD
+
+κ ∈
+a ∈ / η (a ),T (a ) ,
+
+η (a ),T (a ) ,
+
+a∈
+
+η (a ),T (a )
+
+(IC1 )
+(IC2 )
+(IR )
+(28)
+
+The solution method for problem (28) is similar to that described in Section 4.1. The only difference is that the analysis is
+now split into two cases, resulting in different shapes of the optimal menu of contracts. This follows from the presence of the
+BP (a ), which impacts the solution through the connew function πAD
+straints IC2 and IR. In order to introduce the two cases, we denote
+the demand level at which the reservation proﬁt is zero by aˆ, i.e.,
+
+
+BP
+πAD
+aˆ = 0,
+
+and we set up case 1, where aˆ ≤ ā, and accordingly case 2, where
+aˆ > ā.
+In case 1, the reservation proﬁt function is relatively high, so in
+the low market domain, the developer’s proﬁt corresponds to its
+lower bound, and the developer’s share is constant (type-1 arc):
+AD
+
+BP
+(a, a ) = πAD
+(a ), η (a ) =
+
+2βγ θ 2
+
+
+
+2βγ − α 2 1 − θ 2
+
+for a0 ≤ a ≤ ā,
+
+where aˆ ≤ a0 ≤ ā. In the high market domain, the developer’s
+proﬁt remains at its lower bound until the point a that satisﬁes
+
+m (a )
+α2 
+=
+1 − θ2 ,
+a
+2βγ
+
+(29)
+
+and thereafter (for a higher a), it follows the type-2 arc.
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+16
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+Fig. 11. E[
+
+AD
+
+(a, a)] and E[πDP (a )] as a function of θ .
+
+In Case 2, the reservation proﬁt function is low. Similar to the
+case where there is no reservation proﬁt from bypassing, considered in Section 4, the solution consists of a type-1 arc followed by
+a type-2 arc with the switching point at ā. The constant share of
+each party at the type-1 arc now depends on the location of the
+point a satisfying (29).
+Example 3. Let a be distributed normally, a ∼ N (μ, σ 2 ). For
+the parameter values α = 1, β = 1.1, γ = 0.8, μ = 100, σ = 20,
+c = 10 0 0, and cBP = 20 0, Fig. 11 plots the expected proﬁt of the
+two parties as a function of θ . The results show that as the reduction in the base demand due to bypassing the distribution platform
+becomes less signiﬁcant (i.e., higher values of θ ), the app developer’s expected proﬁt increases whereas the distribution platform’s
+expected proﬁt decreases. This result is intuitive because higher
+values of θ make the bypassing option more attractive for the app
+developer, so in order to prevent this scenario from occurring, the
+distribution platform has to propose better contract terms to the
+app developer.
+8. Conclusion
+This work investigated revenue-sharing contract designs for a
+supply chain comprising a distribution platform of virtual products
+that is the leader of the supply chain, and a developer of a single
+virtual product who is more informed about the demand than the
+distribution platform. First, we investigated whether conditions exist under which the app developer beneﬁts from disclosing his private information voluntarily. We proved that voluntary disclosure
+leads to a situation in which the distribution platform achieves
+the proﬁt of a centralized supply chain, whereas the app developer sees no proﬁt from the interaction, due to the transfer payment. Moreover, we showed that the app developer has an interest
+in distorting his private information, so cheap-talk cannot be used
+to exchange information credibly. Thus, regardless of the realization of the base demand, the app developer will never voluntarily
+disclose his private information, leaving the distribution platform
+to decide whether to extract the information by designing a revelation mechanism via a menu of contracts, or to propose a less
+
+complicated but commonly used uniﬁed contract, which is suboptimal.
+Using optimal control theory, we developed a menu of contracts
+in which the contract terms offered by the distribution platform—
+namely, the revenue share and ﬁxed transfer payment—serve as an
+information-revelation mechanism, as well as a ﬁlter for excluding developers with whom it is undesirable to interact. We provided formulas to calculate not only the contract terms, but also
+the quality and the selling price, as well as the proﬁts of the developer, the distribution platform, and the total supply chain. We
+found that, in equilibrium, the distribution platform is willing to
+share the developer’s cost of making the developer act in accordance with the actual base demand. Speciﬁcally, the distribution
+platform bears the ﬁxed cost required to achieve a basic quality
+level (via the transfer payment), whereas the developer bears the
+investment required to enhance quality beyond the basic level. This
+cost-sharing strategy results in ﬁltering out developers who reduce
+the distribution platform’s expected proﬁt. Another interesting result is that the transfer payment may change its ‘direction’: When
+the value of the base demand is low, the distribution platform pays
+the app developer to avoid loss, whereas when the value of the
+base demand is high, the app developer pays the distribution platform and gains a share of the revenue. To illustrate the usefulness
+of our formulas, we applied them to two common distributions
+of the base demand: exponential and normal. For the exponential
+case, we proved that leaving out low-type developers always beneﬁts the distribution platform.
+We subsequently investigated a uniﬁed contract that distribution platforms commonly use to determine the contract terms so
+as to maximize their expected proﬁt based solely on their own
+knowledge about the demand. Comparing the two types of contract, we found that (i) the menu of contracts is more supportive of small businesses than the uniﬁed contract; (ii) a menu of
+contracts can signiﬁcantly improve the distribution platform’s expected proﬁt compared with that of the uniﬁed contract when the
+app quality exceeds its basic level; and (iii) by using a menu of
+contracts, the distribution platform can improve its expected proﬁt
+by up to approximately 19%, while the channel eﬃciency can be
+improved by up to 31%. In addition, we developed a mathematical model for the case of an app developer who has the option
+of bypassing the distribution platform and selling his app to end
+consumers directly, although he would then face a smaller market.
+One direction for future research is to develop a similar model
+for tangible products that considers overage and underage inventory costs (newsvendor model). Another direction is to investigate
+the generality of our results by using a Cobb-Douglas demand
+form for price and quality. In addition, we propose an important
+direction for future research regarding how the outcomes of the
+contracts would change if the parameters of the app developer’s
+quality cost were not observable by the distribution platform.
+Finally, we suggest investigating a supply chain with horizontal
+competition between two distribution platforms: an incumbent
+distribution platform that knows the demand, and a new entrant
+who lacks this information.
+Acknowledgments
+This research was supported by the ISRAEL SCIENCE FOUNDATION (grant No. 1571/20). The authors thank the two anonymous
+referees for their useful comments, which improved this paper.
+Appendix
+Proof of Lemma 1. Following (6), the distribution platform
+obtains the best response of the app developer by solv-
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+ing max{πAD (q, p|η, T , κ ) = η p(κ + α q − β p) − c − γ q2 /2 − T }. The
+
+
+
+p,q
+
+Hessian of πAD is H (πAD (q, p|η, T , κ )) = η
+
+
+
+−2β
+
+α
+. Thus,
+−γ /η
+
+α
+
+if γ ≥ α 2 /(2β ), then H (πAD (q, p|η, T , κ )) is negatively deﬁnite for
+every η ∈ (0, 1 ), implying that πAD (q, p|η, T , κ ) is jointly concave
+in p and q; otherwise, πAD (q, p|η, T , κ 
+) has a saddle point.
+The gra
+α p − γ q/η
+dient of πAD is ∇ πAD (q, p|η, T , κ ) = η
+, so the necκ + α q − 2β p
+essary condition ∇ πAD (q, p|η, T , κ ) = 0 has a unique solution,
+
+
+
+( qκ ( η , T ), pκ ( η , T ) ) =
+
+κγ
+
+καη
+
+
+
+,
+,
+2βγ − α 2 η 2βγ − α 2 η
+
+(A.1)
+
+
+
+
+κ 2 γ 2 β (1 − η )
++
+T
+0≤η≤1,T
+(2βγ − α 2 η )2
+.
+κ 2γ η
+S.t. T ≤
+−c
+2(2βγ − α 2 η )
+max
+
+The above formulation can be reduced to a single-variable optimization problem as follows:
+
+
+
+0≤η≤1
+
+
+κ 2 γ (2βγ − α 2 η2 )
+−
+c
+,
+2
+2(2βγ − α 2 η )
+
+which
+
+is
+
+maximized
+
+to
+
+results
+
+(qd , pd ) =
+
+in
+
+2 −κ 2 )γ
+πAD (qd , pd |ηd , T d , a ) = 2((a2βγ
+−α 2 )
+κ2γ
+− c.
+2(2βγ −α 2 )
+
+2
+
+κ2γ
+
+πDP (ηd , T d |qd , pd , a ) =
+
+and
+
+
+
+
+Proof of Lemma 2.
+(i) The proof is similar to that used to obtain (A.1).
+(ii) The claim is proved by substituting the expressions of
+Lemma 2(i) into (4).
+(iii) The claim is proved by substituting the expressions of
+Lemma 2(i) into (5).
+
+Proof of Lemma 3.
+(i) By substituting the expressions of Lemma 2(i) into (8), we
+a2 γ η ( κ )
+
+AD (a, κ )
+
+= 2(2βγ −α 2 η (κ )) − T (κ ) − c. The set of
+IC constraints implies that κ = a maximizes AD (a, κ ) for
+a ∈ η (a ),T (a ) , κ ∈ . Hence, κ = a satisﬁes the ﬁrst-order
+condition:
+
+
+
+
+AD (a, κ )
+
+d
+dκ
+
+= 0, a ∈
+
+
+
+η (a ),T (a ) ,
+
+
+
+
+
+
+a2 βγ 2
+
+=
+κ =a
+
+d
+d
+T (κ )
+η (κ ) −
+2 dκ
+2
+d
+κ
+− α η (κ ))
+
+(2βγ
+κ ∈ ,
+
+κ =a
+
+(A.2)
+
+which can be written as
+
+
+
+η˙ =
+
+2βγ − α 2 η (a )
+
+T˙ , a ∈
+
+η (a ),T (a ) .
+
+(A.3)
+
+The second-order condition is
+
+
+
+
+M (a, κ )
+
+d2
+dκ 2
++
+
+=
+
+κ =a
+
+
+
+2a
+
+2
+
+α βγ
+2
+
+
+
+a2 βγ 2
+2βγ − α 2 η (a )
+
+2
+
+2βγ − α 2 η (a )
+
+η (a ) , a ∈
+
+η (a ),T (a ) .
+
+(A.5)
+
+By substituting (A.3) and (A.5) into (A.4), the second-order condition can be written compactly as
+equivalent to η˙ ≥ 0.
+
+−2aβγ 2
+2 η˙ ≤ 0, which is
+(2βγ −α 2 η (a ))
+
+(ii) By substituting (A.1) into (8), we obtain that the IC2 set
+of constraints can be written as
+
+a2 γ η ( κ )
+2(2βγ −α 2 η (κ ))
+
+− T (κ ) − c ≤
+
+Proof of Lemma 4. By the deﬁnition of m(a): For a ∼ Exp(λ ),
+m(a ) = 1/λ, and so m (a ) = 0. For a ∼ N (μ, σ 2 ), m(a ) =
+σ [1 − ( a−σμ )]/φ ( a−σμ ), where φ (· ) and (· ) are the standard
+normal probability density function and cumulative distribution
+function, respectively. By Laplace’s upper bound on the Mills ratio,
+a−μ
+a−μ
+a−μ
+1−(z )
+1
+φ (z ) ≤ z , and so m (a ) = −1 + σ [1 − ( σ )]/φ ( σ ) ≤ 0.
+
+Case 1.
+
+1
+2βγ − α 2
+
+
+1−
+
+m (a )
+a
+
+
+<
+
+1
+2βγ
+
+∀a ≥ a0
+
+In such a case, a type-2 arc does not exist, because (19) contradicts constraint (11e). As a result, the solution consists of a
+type-1 arc covering the entire a-domain. This solution is trivial,
+u ( a ) = 0 ∀a.
+Case 2.
+
+1
+2βγ − α 2
+
+
+
+m (a )
+1−
+a
+
+
+>
+
+1
+2βγ
+
+∀a ≥ a0
+
+In such a case, a type-2 arc covers the entire a-domain, because
+(19) satisﬁes the optimality conditions ∀a. As a result, a type-1 arc
+does not exist.
+Case 3. The case complementary to Cases 1 and 2 implies that a
+switching point ā exists between the two arcs, as stated in the
+proposition.
+
+Proof of Lemma 6. If a0 < ā, then, by Lemma 5(i), ﬁnding a0 from problem (24) is reduced to ﬁnding it from
+ā
+
+2
+
+a2 βγ 2
+
+× 2βγ − α
+
+2
+
+Proof of Lemma 5. From (20), we conclude that the right-hand
+side of (19) increases (non-strictly) over the entire a-axis. Therefore, one of the following three cases holds:
+
+γ q2
+
+leads
+
+Proof of Theorem 1. Straightforward from Lemma 1(ii).
+
+obtain that
+
+a3 βγ 2
+
+
+
+− 2(2βγ −α 2 ) },
+aαη
+( 2βγ −α 2 η , 2βγa−γα 2 η ). Thus,
+
+and
+
+developer
+
+max{πAD (q, p|ηd , T d , a ) = p(a + α q − β p) −
+which
+
+η̈ =
+
+
+
+For a ∼ U[a1 , a2 ], m(a ) = a2 − a, and so m (a ) = −1. Thus, for the
+above three distributions, m(a)/a is a decreasing function of a. 
+
+The
+
+p,q
+
+
+
+aT̈ 2βγ − α 2 η (a ) − 2T˙ 2βγ − α 2 η (a ) + aα 2 η˙
+
+solves
+
+ηd = 1
+
+for
+
+κ2γ
+T d = 2(2βγ −α 2 ) − c.
+
+By differentiating (12) with respect to a, we obtain
+
+0, a ∈ / η (a ),T (a ) , κ ∈ η (a ),T (a ) , from which the claim is
+proved by extracting a2 .
+(iii) By substituting the expressions of Lemma 2(i) into (8), and
+given that κ = a, we obtain (using algebraic manipulations)
+the result that the IR constraint can be written as given in
+the lemma.
+
+
+which is the app developer’s best response.
+After substituting (A.1), (6) can be formulated as
+
+max
+
+17
+
+3
+
+2
+
+η˙ 2 − T̈ ≤ 0, a ∈
+
+η̈
+η (a ),T (a ) .
+
+(A.4)
+
+maxa0 { ∫ (a2 − 4β c ) f (a )da}. The claim is proved because, using the
+a0
+
+
+
+Leibniz rule, a0 = 2 β c satisﬁes the necessary and suﬃcient conditions of (24).
+
+
+Proof of Theorem 2. (i) Straightforward from combining
+Lemma 5 and (10). (ii) Straightforward from combining
+Theorem 2(i) and Lemma 2(i). (iii) Straightforward from combining (ii) and (iii) of Lemma 2 with Theorem 2(i).
+
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+ARTICLE IN PRESS
+
+JID: EOR
+18
+
+[m5G;September 15, 2020;2:3]
+
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+
+
+Proof of Corollary 1. (i) If ā > 2 β c, then, by combining
+(20) with (22), m (a ) ≤
+AD (a, a )
+
+d
+
+da
+d2
+
+
+
+=
+
+AD (a, a )
+
+d a2
+
+γ a 1− 2αβγ
+2
+
+d 2 T (a )
+d a2
+
+=
+
+2
+
+m (a )
+a
+
+2βγ −α 2
+
+
+=
+
+2
+< 2αβγ < 1, so
+
+0
+
+γ 1− 2αβγ
+2 m (a )
+2(2βγ −α 2 )
+
+β c ≤ a < ā
+a ≥ ā
+
+2
+
+
+
+0
+
+,
+
+β c ≤ a < ā
+
+>0
+
+βγ 2 (m(a )−am (a ))
+>0
+2(2βγ −α 2 )
+
+
+
+
+
+>0
+
+0
+
+
+and
+
+m (a )
+a
+
+a ≥ ā
+a < ā
+a ≥ ā
+
+, which prove the claim.
+
+
+
+Proving the claim for ā ≤ 2 β c is similar to the case of ā > 2 β c.
+
+
+
+(ii) If ā > 2 β c, then, by (21) and Theorem 2(iii), lim πDP (a ) =
+a→ā−
+
+lim πDP (a ), so πR (a ) is a continuous function. By differenti-
+
+
+
+a→ā+
+
+ation,
+
+dπDP (a )
+da
+
+=
+
+a
+2β
+2βγ 2 m (a )(1−m (a ))
+α 2 (2βγ −α 2 )
+
+
+
+2 β c ≤ a < ā
+a ≥ ā
+
+, which,
+
+following
+the claim for
+ (20), is positive for all a. Proving
+
+ā ≤ 2 β c is similar to the case of ā > 2 β c.
+
+References
+Alkoby, S., Sarne, D., & Milchtaich, I. (2017). Strategic signaling and free information disclosure in auctions. In Proceedings of the thirty-ﬁrst AAAI conference on
+artiﬁcial intelligence (pp. 319–327). AAAI.
+Apple (2018). App Store kicks off 2018 with record-breaking holiday season. Apple
+Press Info. January 4Available at: Https://www.apple.com/newsroom/2018/01/
+app-store-kicks-off-2018-with-record-breaking-holiday-season/] .
+Aust, G., & Buscher, U. (2012). Vertical cooperative advertising and pricing decisions
+in a manufacturer-retailer supply chain: A game-theoretic approach. European
+Journal of Operational Research, 223(2), 473–482.
+Avinadav, T. (2015). Continuous accounting of inventory costs with Brownian–
+motion and Poisson demand processes. Annals of Operations Research, 229(1),
+85–102.
+Avinadav, T., Chernonog, T., & Ben-Zvi, T. (2019). The effect of information superiority on a supply chain of virtual products. International Journal of Production
+Economics, 216, 384–397.
+Avinadav, T., Chernonog, T., Fruchter, G. E., & Prasad, A. (2020). Contract design
+when quality is co-created in a supply chain. European Journal of Operational
+Research.
+Avinadav, T., Chernonog, T., & Perlman, Y. (2014). Analysis of protection and pricing
+strategies for digital products under uncertain demand. International Journal of
+Production Economics, 158, 54–64.
+Avinadav, T., Chernonog, T., & Perlman, Y. (2015a). The effect of risk sensitivity on a
+supply chain of mobile applications under a consignment contract with revenue
+sharing and quality investment. International Journal of Production Economics,
+168, 31–40.
+Avinadav, T., Chernonog, T., & Perlman, Y. (2015b). Consignment contract for mobile
+apps between a single retailer and competitive developers with different risk
+attitudes. European Journal of Operational Research, 246(3), 949–957.
+Avinadav, T., Chernonog, T., & Perlman, Y. (2017). Mergers and acquisitions between
+risk-averse parties. European Journal of Operational Research, 259(3), 926–934.
+Avinadav, T., Chernonog, T., Perlman, Y., & Meilijson, I. (2020). A consignment contract with revenue-sharing between an app developer and a distribution platform.
+Bar-Ilan University Working paper.
+Avinadav, T., & Henig, M. I. (2015). Exact accounting of inventory costs in stochastic periodic-review models. International Journal of Production Economics, 169,
+89–98.
+Avinadav T., Shamir N. (2020). The effect of information asymmetry on ordering and
+capacity decisions in supply chains. Working paper.
+Avinadav T., Shamir N. (2021). Partial vertical ownership and information exchange
+in a supply chain. Working paper.
+Aydinliyim, T., Pangburn, M. S., & Rabinovich, E. (2017). Inventory disclosure in online retailing. European Journal of Operational Research, 261(1), 195–204.
+Babich, V., Li, H., Ritchken, P., & Wang, Y. (2012). Contracting with asymmetric demand information in supply chains. European Journal of Operational Research,
+217(2), 333–341.
+Bart, N., Chernonog, T., & Avinadav, T. (2020). Revenue-sharing contracts in supply
+chains: a comprehensive literature review. International Journal of Production Research. Forthcoming.
+Basker, E. (Ed.). (2016). Handbook on the economics of retailing and distribution. Cheltenham, UK: Edward Elgar Publishing.
+Berman, O., Fazel-Zarandi, M. M., & Krass, D. (2019). Truthful cheap talk: Why operational ﬂexibility may lead to truthful communication. Management Science,
+65(4), 1624–1641.
+
+Bertomeu, J., & Liang, P. J. (2014). Disclosure policy and industry ﬂuctuations. Management Science, 61(6), 1292–1305.
+Cakanyıldırım, M., Feng, Q., Gan, X., & Sethi, S. P. (2012). Contracting and coordination under asymmetric production cost information. Production and Operations
+Management, 21(2), 345–360.
+Chakravarty, A. K., & Zhang, J. (2007). Collaboration in contingent capacities with
+information asymmetry. Naval Research Logistics, 54(4), 421–432.
+Chen, F. (2003). Information sharing and supply chain coordination. In S. Graves, &
+T. de Kok (Eds.), Handbooks in operation and managements science: Supply chain
+management. Amsterdam: Elsevier, North-Holland.
+Chen, Y. J., & Deng, M. (2014). Information sharing in a manufacturer–supplier relationship: Suppliers’ incentive and production eﬃciency. Production and Operations Management, 24(4), 619–633.
+Chernonog, T. (2019). Consignment contract with revenue sharing in online retailing
+under strategic information sharing. Bar Ilan University Working paper.
+Chernonog, T., & Avinadav, T. (2014). Proﬁt criteria involving risk in price setting of
+virtual products. European Journal of Operational Research, 236(1), 351–360.
+Chernonog, T., & Avinadav, T. (2018). Pricing and advertising in a supply chain of
+perishable products under asymmetric information. International Journal of Production Economics, 209, 249–264.
+Chernonog, T., Avinadav, T., & Ben-Zvi, T. (2015). Pricing and sales-effort investment
+under bi-criteria in a supply chain of virtual products involving risk. European
+Journal of Operational Research, 246(2), 471–475.
+Chernonog, T., & Kogan, K. (2014). The effect of risk aversion on a supply chain
+with postponed pricing. Journal of the operational research society, 65(9),
+1396–1411.
+Chu, L. Y., Shamir, N., & Shin, H. (2016). Strategic communication for capacity alignment with pricing in a supply chain. Management Science, 63, 3999–4446.
+Chu, W. H. J., & Lee, C. C. (2006). Strategic information sharing in a supply chain.
+European Journal of Operational Research, 174(3), 1567–1579.
+Crawford, V. P., & Sobel, J. (1982). Strategic information transmission. Econometrica:
+Journal of the Econometric Society, 1431–1451.
+Cui, R., & Shin, H. (2017). Sharing aggregate inventory information with customers: Strategic cross-selling and shortage reduction. Management Science, 64,
+491–493.
+Delaney, L., & Thijssen, J. J. (2015). The impact of voluntary disclosure on a ﬁrm’s
+investment policy. European Journal of Operational Research, 242(1), 232–242.
+Feng, Q., Lai, G., & Lu, L. X. (2015). Dynamic bargaining in a supply chain with asymmetric demand information. Management Science, 61(2), 301–315.
+Fudenberg, D., & Tirole, J. (1991). Game theory: 1. Cambridge: The MIT Press.
+Gal-Or, E., Geylani, T., & Dukes, A. J. (2008). Information sharing in a channel with
+partially informed retailers. Marketing Science, 27(4), 642–658.
+Gan, X., Feng, Q., & Sethi, S. P. (2019). Sourcing contract under countervailing incentives. Production and Operations Management, 28(10), 2486–2499.
+Gao, L., Li, Z., & Shou, B. (2014). Information acquisition and voluntary disclosure
+in an export-processing system. Production and Operations Management, 23(5),
+802–816.
+Gerchak, Y., & Khmelnitsky, E. (2003). A consignment system where suppliers cannot verify retailer’s sales reports. International Journal of Production Economics,
+83(1), 37–43.
+Gerchak, Y., Khmelnitsky, E., & Robinson, L. W. (2007). Untruthful probabilistic demand forecasts in vendor-managed revenue-sharing contracts: Coordinating the
+chain. Naval Research Logistics, 54(7), 742–749.
+Gilbert, B. (2018). One crazy statistic shows how incredibly big ’Fortnite’ has become in less than a year. Business Insider. June 13Available at https://www.
+businessinsider.com/fortnite- size- statistics- players- worldwide- 2018- 6] .
+Google. (2020). Transaction fees. Play Console Help. Available at https://support.
+google.com/googleplay/android-developer/answer/112622?hl=iw] .
+Grimmett, G., & Stirzaker, S. (2001). Probability theory and random processes (3rd
+ed.). Oxford: Oxford University Press.
+Guan, X., & Chen, Y. J. (2017). The interplay between information acquisition and
+quality disclosure. Production and Operations Management, 26(3), 389–408.
+Guo, L., & Iyer, G. (2010). Information acquisition and sharing in a vertical relationship. Marketing Science, 29(3), 483–506.
+Guo, L., Li, T., & Zhang, H. (2014). Strategic information sharing in competing channels. Production and Operations Management, 23(10), 1719–1731.
+Ha, A. Y. (2001). Supplier-buyer contracting: Asymmetric cost information and cutoff level policy for buyer participation. Naval Research Logistics (NRL), 48(1),
+41–64.
+Hartl, R. F., Sethi, S. P., & Vickson, R. G. (1995). A survey of the maximum principles
+for optimal control problems with state constraints. SIAM Review, 37, 181–218.
+Heese, H. S., & Kemahlioglu-Ziya, E. (2014). Enabling opportunism: Revenue sharing
+when sales revenues are unobservable. Production and Operations Management,
+23(9), 1634–1645.
+Heese, H. S., & Kemahlıoğlu-Ziya, E. (2016). Don’t ask, don’t tell: Sharing revenues with a dishonest retailer. European Journal of Operational Research, 248(2),
+580–592.
+Hillegas, H. (2012). iOS app distribution options. Foraker Labs Available at https://
+www.foraker.com/blog/ios- app- distribution- options] .
+Hoppe, E. I., & Schmitz, P. W. (2015). Do sellers offer menus of contracts to separate buyer types? An experimental test of adverse selection theory. Games and
+Economic Behavior, 89, 17–33.
+Hou, J., Zeng, A. Z., & Zhao, L. (2009). Achieving better coordination through revenue
+sharing and bargaining in a two-stage supply chain. Computers and Industrial
+Engineering, 57(1), 383–394.
+Huang, J., Leng, M., & Parlar, M. (2013). Demand functions in decision model-
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+JID: EOR
+
+ARTICLE IN PRESS
+T. Avinadav, T. Chernonog and E. Khmelnitsky / European Journal of Operational Research xxx (xxxx) xxx
+
+ing: A comprehensive survey and research directions. Decision Sciences, 44(3),
+557–609.
+Jiang, B., Jerath, K., & Srinivasan, K. (2011). Firm strategies in the “mid tail” of platform-based retailing. Marketing Science, 30(5), 757–775.
+Jiang, B., Tian, L., Xu, Y., & Zhang, F. (2016). To share or not to share: Demand forecast sharing in a distribution channel. Marketing Science, 35(5), 800–809.
+Kim, S. H., & Netessine, S. (2013). Collaborative cost reduction and component procurement under information asymmetry. Management Science, 59(1), 189–206.
+Lariviere, M. A., & Padmanabhan, V. (1997). Slotting allowances and new product
+introductions. Marketing Science, 16(2), 112–128.
+Laffont, J. J., & Martimort, D. (2002). The Theory Incentives: The Principal-Agent Modeling. Princeton University Press.
+Lau, A. H. L., & Lau, H. S. (2001). Some two-echelon style-goods inventory models
+with asymmetric market information. European Journal of Operational Research,
+134(1), 29–42.
+Lau, A. H. L., & Lau, H. S. (2005). Some two-echelon supply-chain games: Improving from deterministic-symmetric-information to stochastic-asymmetric-information models. European Journal of Operational Research, 161(1), 203–223.
+Lau, A. H. L., Lau, H. S., & Wang, J. C. (2010). Usefulness of resale price maintenance
+under different levels of sales-effort cost and system-parameter uncertainties.
+European Journal of Operational Research, 203(2), 513–525.
+Lau, H. S., Su, C., Wang, Y. Y., & Hua, Z. S. (2012). Volume discounting coordinates a
+supply chain effectively when demand is sensitive to both price and sales effort.
+Computers & Operations Research, 39(12), 3267–3280.
+Li, Q., & Liu, Z. (2015). Supply chain coordination via a two-part tariff contract with
+price and sales effort dependent demand. Decision Science Letters, 4, 27–34.
+Ma, P., Wang, H., & Shang, J. (2013). Contract design for two-stage supply chain coordination: Integrating manufacturer-quality and retailer-marketing efforts. International Journal of Production Economics, 146(2), 745–755.
+Mishra, B. K., & Prasad, A. (2004). Centralized pricing versus delegating pricing to
+the salesforce under information asymmetry. Marketing Science, 23(1), 21–27.
+Myerson, R. (1979). Incentive compatibility and the bargaining problem. Econometrica, 47, 61–73.
+Ohsman, S. (2019). How (Not) to Do Forecasting on Amazon. Available at https://
+www.buyboxexperts.com/amazon-forecasting/.
+Ozer, O., Zheng, Y., & Chen, K.-Y. (2011). Trust in forecast information sharing. Management Science, 57(6), 1111–1137.
+Perez, S. (2018). Google will lose $50 million or more in 2018 from Fortnite bypassing the Play Store. TechCrunch AugustAvailable at https://techcrunch.com/
+2018/08/10/google- will- lose- 50- million- or- more- from- fortnite- bypassing- theplay-store/] .
+
+[m5G;September 15, 2020;2:3]
+19
+
+Rao, U. (2003). Properties of the periodic review (R,T) inventory policy for stationary, stochastic demand. Manufacturing Service Operations Management, 5, 37–53.
+Ren, J. Z., Cohen, M. A., Ho, T. H., & Terwiesch, C. (2010). Information sharing in
+a long-term supply chain relationship: The role of customer review strategy.
+Operations Research, 58(1), 81–93.
+Savaskan, R. C., Bhattacharya, S., & Van Wassenhove, L. N. (2004). Closed-loop supply chain models with product remanufacturing. Management Science, 50(2),
+239–252.
+Shamir, N. (2012). Strategic information sharing between competing retailers in a
+supply chain with endogenous wholesale price. International Journal of Production Economics, 136(2), 352–365.
+Shamir, N., & Shin, H. (2016). Public forecast information sharing in a market with
+competing supply chains. Management Science, 62(10), 2994–3022.
+Waelbroeck, P. (2013). Digital music: Economic perspectives. In R. Towse, &
+C. Handke (Eds.), Handbook on the digital creative economy (pp. 389–398). Cheltenham: Edward Elgar Publishing.
+Wang, J. C., Yang, L., Wang, Y. Y., & Wang, Z. (2018). Optimal pricing contracts and
+level of information asymmetry in a supply chain. International Transactions in
+Operational Research, 25(5), 1583–1610.
+Wang, Y. Y., Lau, H. S., & Hua, Z. S. (2012). Three revenue-sharing variants: Their signiﬁcant performance differences under system-parameter uncertainties. Journal
+of the Operational Research Society, 63(12), 1752–1764.
+Wang, Y. Y., Tao, F., & Wang, J. C. (2017). Designing optimal and practical volume
+discounting contracts for the dominant retailer with information asymmetry.
+International Transactions in Operational Research, 24(6), 1405–1433.
+Wang, Y. Y., Wang, J. C., & Shou, B. (2013). Pricing and effort investment for
+a newsvendor-type product. European Journal of Operational Research, 229(2),
+422–432.
+Weber, T. A. (2011). Optimal control theory with applications in economics. Cambridge:
+MIT Press Books.
+Xiao, W., & Xu, Y. (2018). Should an online retailer penalize its independent sellers
+for stockout. Production and Operations Management, 27(6), 1124–1132.
+Zhang, J., & Chen, J. (2013). Coordination of information sharing in a supply chain.
+International Journal of Production Economics, 143(1), 178–187.
+Zhao, M., Dong, C., & Cheng, T. C. E. (2018). Quality disclosure strategies for small
+business enterprises in a competitive marketplace. European Journal of Operational Research, 270(1), 218–229.
+Zhao, M., Wang, Y., & Gan, X. (2016). Signalling effect of daily deal promotion for
+a start-up service provider. Journal of the Operational Research Society, 67(2),
+280–293.
+
+Please cite this article as: T. Avinadav, T. Chernonog and E. Khmelnitsky, Revenue-sharing between developers of virtual products and
+platform distributors, European Journal of Operational Research, https://doi.org/10.1016/j.ejor.2020.08.036
+
+

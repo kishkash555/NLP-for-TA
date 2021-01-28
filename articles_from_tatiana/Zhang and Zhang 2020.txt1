@@ -1,0 +1,2072 @@
+European Journal of Operational Research 280 (2020) 134–151
+
+Contents lists available at ScienceDirect
+
+European Journal of Operational Research
+journal homepage: www.elsevier.com/locate/ejor
+
+Production, Manufacturing, Transportation and Logistics
+
+Agency selling or reselling: E-tailer information sharing with supplier
+oﬄine entry
+Shichen Zhang, Jianxiong Zhang∗
+College of Management and Economics, Tianjin University, Tianjin 300072, China
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 21 October 2018
+Accepted 4 July 2019
+Available online 5 July 2019
+Keywords:
+Supply chain management
+Information sharing
+Supplier oﬄine entry
+Agency selling
+Game theory
+
+a b s t r a c t
+Nowadays, some suppliers are looking for oﬄine expansion in addition to their preexisting online channels relying on e-tailers. This study focuses on the e-tailer’s demand information sharing strategy with
+the supplier who may build upon brick-and-mortar stores. Both prevailing agreements between the supplier and the e-tailer are investigated: agency selling and reselling. The equilibrium results are quite different under these two agreements. Speciﬁcally, when the supplier’s oﬄine entry cost is very small or
+large, the e-tailer shares information under agency selling while keeps information private under reselling. When the entry cost is intermediate, channel substitution rate is large and information uncertainty is small, the e-tailer withholds the demand information under agency selling while shares information under reselling to deter the supplier from entering an oﬄine channel. Furthermore, two extensions about consumer behavior in multichannel selection are discussed: showrooming and webrooming.
+With showrooming or webrooming, the e-tailer’s information sharing decisions qualitatively hold, while
+with showrooming the drive factor behind may change; that is, withholding information under agency
+selling and sharing information under reselling may also serve as measures to encourage supplier oﬄine
+entry when the effect of showrooming is strong.
+© 2019 Elsevier B.V. All rights reserved.
+
+1. Introduction
+The last decade has witnessed a strong growth in online retailing, and the online retailing sales worldwide were reported to
+reach $2.304 trillion in 2017, a 24.8% increase over the previous
+year (eMarketer, 2018). E-commerce has been occupying market
+share previously dominated by physical stores, which made up
+10.2% of total retail sales worldwide in 2017, up from 8.6% a year
+prior (eMarketer, 2018). So will brick-and-mortar stores give way to
+e-commerce? “Online-only will not survive, all businesses need to
+intergrate online and oﬄine resources”, Jianlin Wang, the chairman
+of Dalian Wanda Group (ranking 18th in Forbes’ 2017 World’s Billionaires list) said (CKGSB, 2017). In fact, a couple of suppliers who
+have traditionally sold products through e-tailers in online channels, have switched back to go into brick-and-mortar retail shops,
+with the goal of providing customers with a seamless shopping experience through all available shopping channels. A typical example is Xiaomi, a Chinese smartphone vendor, who previously sold
+products through a large online retail platform, JD.com, has opened
+oﬄine retail stores and sold products directly to consumers oﬄine,
+∗
+
+Corresponding author.
+E-mail addresses: sczhang@tju.edu.cn (S. Zhang), jxzhang@tju.edu.cn (J. Zhang).
+
+https://doi.org/10.1016/j.ejor.2019.07.003
+0377-2217/© 2019 Elsevier B.V. All rights reserved.
+
+in a bid to make all products more accessible (Daily, 2017). Such
+an oﬄine expansion strategy appears to be paying off since Xiaomi
+bounces back with a 70% increase in shipments compared with the
+previous quarter (CNET, 2017). Another successful Tao Brand (the
+term Tao Brand refers to brand that built their presence on Tmall
+or Taobao, without physical stores) who expands to oﬄine outlets
+beyond Taobao is Inman, a women’s apparel brand. On May 2016,
+the sales from all of Inman’s physical stores reached RMB 20 million (CKGSB, 2017).
+Opening direct-sales stores allows the suppliers to better decide
+on promotions, product categories and link online orders and ofﬂine stores for faster delivery. For example, BESTORE, a snack company who sells products through both the online platform Tmall
+and its direct oﬄine stores, spent only 11 minutes to deliver the
+Double-11 product to a consumer by sending out the order to the
+consumer from the nearest store (CKGSB, 2017). Oﬄine expansion
+endows the suppliers with more brand inﬂuence, better consumer
+shopping experience and huger potential market, which has become an increasingly important strategic concern for these suppliers who begin with online businesses.
+Meanwhile, the rapid development of Internet information
+technologies has radically altered the landscape for collecting
+and processing consumer information. Numerous e-tailers have
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+installed data acquisition infrastructures that allow them to routinely collect large data sets of customer-level information dubbed
+“big data” (Choe, King, & Matsushima, 2017). For example, Amazon’s Web logs gather over 30 gigabytes of data every day (Guo,
+2009). With Internet information technologies, the e-tailers can
+construct a richer picture of customers’ proﬁles, and thus analyze
+the potential consumers more accurately, locate consumer segments more appropriately, and forecast market demand more precisely. For example, Amazon is able to keep abreast of any shifts in
+consumers’ needs and to better understand market demands via
+various tools, such as “Amazon Daily” (where topics on diverse
+interests are hosted to strengthen interaction among customers
+and Amazon), “Web Forums” (which allows users to answer each
+others’ questions), “Amapedia” (which invites consumers to share
+purchase experiences and product details) and “Similarity Web”
+(which offers recommendations to customers who search for products), “Product Tagging” (which can track product popularity and
+consumers’ interests), and so on (Chua, 2011). Therefore, compared
+to the supplier, the e-tailer possessing more market data and constructing a richer picture of customers’ proﬁles, in general, is more
+skilled in predicting market demand.
+It is vital for suppliers to strike a trade-off between the potential beneﬁts from oﬄine expansion and the oﬄine entry cost.
+Different from Xiao and Inman who seeks oﬄine business, another successful women’s apparel Tao Brand, Hstyle, has no plans
+to launch physical stores (CKGSB, 2017). In particular, when the
+supplier lacks demand information, she may hesitate to expand
+to oﬄine, since she may not know whether the potential beneﬁts
+from oﬄine expansion outweighs the oﬄine entry cost. Then the
+e-tailer’s information sharing strategy may dramatically affect the
+supplier’s oﬄine expansion strategy.
+In reality, with the rapid development of information technology, it is more feasible for the retailers to share the demand information credibly with their suppliers. A survey has suggested that
+more than 62% of the retailers in the United States reported demand information at least every week with suppliers (Guo, 2009).
+In addition, Amazon, the largest e-commerce marketplace in the
+world, uses information technology to share information with its
+key suppliers (Fawcett, Wallin, & Allred, 2011). While information sharing becomes feasible, one alarm is the e-tailer’s willingness to share the demand information with the supplier, especially in anticipation to the supplier’s oﬄine expansion decision.
+From the standpoint of the supplier, the e-tailer’s information sharing strategy can allow her to make oﬄine expansion decisions
+more effectively based on the actual market demand. However, for
+the e-tailer, information sharing strategy may stimulate the supplier to enter an oﬄine channel after evaluating the beneﬁts and
+costs of oﬄine expansion, which can arise channel competition
+and may take a toll to the e-tailer. So how will the e-tailer’s information sharing strategy affect the supplier’s oﬄine expansion
+strategy? Can the e-tailer deter the supplier from oﬄine entry
+through strategically sharing or not sharing information? The main
+purpose of this paper is to investigate the e-tailer’s information
+sharing strategy in anticipation to the supplier’s oﬄine expansion
+decision.
+Note that besides the prevailing reselling agreement, recently
+e-tailers have started allowing suppliers direct access to their
+consumers while charging a fee for providing this access, a format commonly referred to as agency selling (Abhishek, Jerath, &
+Zhang, 2016). It should be mentioned that a key difference between agency selling and reselling agreements is who sets the online selling price. Speciﬁcally, under agency selling, the supplier
+sets the online selling price whereas it is decided by the e-tailer
+under reselling. What are the effects of agency selling or reselling
+on the e-tailer’s information sharing strategy when the supplier
+has the option to open an oﬄine channel? With the interaction of
+
+135
+
+the e-tailer’s information sharing strategy and the supplier’s oﬄine
+expansion decision, what is the e-tailer’s choice, agency selling or
+reselling?
+Moreover, the interaction of e-tailer’s information sharing strategy and the supplier’s oﬄine entry decision may lead to dualchannel selling (i.e., selling products in both online and oﬄine
+channels), which can facilitate two common phenomena about
+consumer behavior in multichannel selection: showrooming and
+webrooming. Showrooming implies that consumers ﬁrst visit a
+physical store to inspect a product but buy it from an online seller,
+and webrooming means that consumers ﬁrst assess certain product information online while buy it from a traditional retailer (Jing,
+2018). How will showrooming and webrooming affect the e-tailer’s
+information sharing strategy and the supplier’s oﬄine expansion
+strategy?
+Based on the above considerations, this paper contributes to
+investigate the e-tailer’s incentives to share demand information
+by incorporating supplier’s endogenous oﬄine entry decision under both an agency selling case and a reselling case. To answer
+the above questions, we develop a multi-stage game model consisting of one e-tailer (he) and one supplier (she). First, the e-tailer
+chooses an agency selling agreement or a reselling agreement. Second, each channel member has two options for their strategic market actions: the e-tailer decides whether to share the demand information, and the supplier decides whether to enter an oﬄine
+channel. After the strategic actions, the channel members decide
+the selling prices. Employing a game-theoretic approach, we ﬁnd
+the following results.
+(1) When the supplier’s oﬄine entry cost is very small or large,
+the e-tailer shares information under agency selling while keeps
+information private under reselling. When the entry cost is intermediate, channel substitution rate is large and information uncertainty is small, the e-tailer may deter the supplier from entering
+an oﬄine channel to avoid channel competition through withholding information under agency selling while through sharing information under reselling. The reason lies on the key distinction
+between reselling and agency selling: who sets the online selling
+price. Under agency selling, the e-tailer should trade off the beneﬁts from more eﬃcient selling prices set by the supplier and the
+loss from channel competition due to information sharing. Under
+reselling, the e-tailer should balance the beneﬁts from a less aggressive wholesale price and the loss from channel competition
+caused by keeping information private.
+(2) If the agency fee is quite small or if the agency fee is quite
+large and the oﬄine entry cost is small, the e-tailer may choose
+reselling, while if the agency fee is intermediate or if the agency
+fee is quite large and the oﬄine entry cost is large, the e-tailer
+may choose agency selling. As a result, agency selling may lead
+to a Pareto improvement under a relatively small agency fee, and
+reselling may generate a Pareto improvement under a very large
+agency fee and a small supplier’s oﬄine entry cost.
+(3) With showrooming or webrooming, the e-tailer’s information sharing decisions are similar to those in the basic case. However, the driver factor of the e-tailer’s preference on information
+sharing or not with showrooming is different from that without
+showrooming. With consumer showrooming, keeping information
+advantages under agency selling and sharing information under reselling may serve as measures to deter supplier oﬄine entry when
+the effect of showrooming is weak, while both of them may serve
+as tools to encourage supplier oﬄine entry when the effect of
+showrooming is strong.
+The remainder of this paper is organized as follows.
+Section 2 reviews the literature. In Section 3, a ﬁve-stage game
+between an e-tailer and a supplier is formulated where the e-tailer
+can choose agency selling or reselling and whether to share the
+demand information or not, and the supplier has the option of
+
+136
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+opening an oﬄine channel. In Sections 4–7, we derive and analyze
+the equilibrium strategies. In Section 8, some model extensions
+are discussed. Finally, conclusions and future research directions
+are made in Section 9.
+2. Literature
+Literature related to our work can be categorized into the following three streams: supplier’s channel selection strategy, incentives of information sharing and agency selling or reselling.
+Researchers have paid great attention to the supplier’s channel
+selection strategy in supply chain management, especially to the
+supplier’s decision of opening an online direct channel, which
+gives rise to channel conﬂict between the supplier and the traditional retailer. This phenomenon is commonly called by “supplier
+encroachment”. A great deal of studies have found that supplier
+encroachment can alleviate double marginalization, which generates beneﬁts to both the supplier and the retailer. For instance,
+Chiang, Chhajed, and Hess (2003) indicate that encroachment can
+beneﬁt both players when the customer acceptance of a direct
+channel is not too strong. Tsay and Agrawal (2004) ﬁnd that the
+additional direct channel of supplier can be beneﬁcial to both
+channel members, with the consideration of sales effort. Arya,
+Mittendorf, and Sappington (2007) reveal that the retailer can also
+beneﬁt from encroachment when the supplier’s cost disadvantage
+is large. Li, Gilbert, and Lai (2013, 2015) extend the work of Arya
+et al. (2007) to an asymmetric information case where the retailer
+knows better about the market demand and show that encroachment may also lead to “lose-lose” and “lose-win” outcomes in
+addition to “win-win” and “win-lose” outcomes in the full information setting. In addition, some studies show an opposite result
+that encroachment is a hindrance for the retailer. Liu and Zhang
+(2006) ﬁnd that the supplier is better off while the retailer is
+worse off with supplier encroachment when personalized pricing
+is considered. Ha, Long, and Nasiry (2015) demonstrate that encroachment hurts the retailer in a large variety of scenarios with
+the consideration of the supplier’s endogenous quality decision.
+Matsui (2016) ﬁnds that when facing a dual-channel rival, the
+manufacturer may be worse off to adopt dual-channel strategy.
+Chen, Liang, Yao, and Sun (2017) show that adding a new channel
+can lead to a higher quality and better supply chain performance
+by investigating both price and quality decisions. Moreover, several
+studies pay attention to the supplier’s endogenous encroachment
+decisions. Chun, Rhee, and Park (2011) discuss three types of
+channel strategies: online channel only, brick-and-mortar channel
+only, and dual channels. Yan, Xiong, and Chu (2018) develop a
+two-period model to investigate whether the supplier should
+encroach, and ﬁnd that the supplier should encroach when the
+durability of the product is very high or very low. Different from
+above researches which focus on the supplier’s online channel
+selection in addition to the preexisting traditional retail channel, our work study the supplier’s oﬄine entry decision when
+she traditionally sell products through an e-tailer in the online
+channel. Furthermore, the e-tailer’s information sharing incentives in anticipation to the supplier’s threat to enter an oﬄine
+channel are investigated in our paper. We ﬁnd that the e-tailer
+is always worse off with supplier oﬄine entry and information
+sharing strategy can help him to deter supplier oﬄine entry
+successfully.
+Related to our paper, several studies focus on the incentives
+of information sharing in supply chains. Wang, Lau, and Lau
+(2009) take four contract formats into account, i.e., price-only,
+franchise fee, two-part tariffs, and menu of contracts, and reveal
+that neither of them can stimulate the manufacturer to share its
+own production cost information honestly with the dominant retailer. Huang and Yang (2016) also consider the retailer’s contract
+
+design and the supplier’s cost information disclosure decision. The
+results show that the supplier is willing to share the production
+cost information only when the production cost variance is quite
+large. Besides the above studies about the cost information sharing
+in supply chains, there are also some researches focusing on the
+demand information sharing, like our paper. Li (2002) and Zhang
+(2002) indicate that multiple competitive retailers may prefer to
+share their demand information with the supplier under a conﬁdential agreement. Ha and Tong (2008) and Ha, Tong, and Zhang
+(2011) examine each retailer’s incentives to share demand information with its own supplier in two competing supply chains. Li
+and Zhang (2015) ﬁnd that a retailer may be willing to share the
+imperfect demand information with the make-to-stock manufacturer. Ha, Tian, and Tong (2017) consider the problem of sharing
+demand information in two competing supply chains and investigate production cost reduction as a driver of the incentive for information sharing in a supply chain. Mostly related to our work,
+Huang, Guan, and Chen (2018) examine the retailer’s incentives of
+sharing the demand information with a supplier with the ability
+of encroachment. They point out that the retailer may voluntarily
+share the demand information, since it can prevent the supplier
+from establishing the direct selling channel. In contrast, we discuss
+an e-tailer’s incentives of information sharing with a supplier who
+has capacity to enter an oﬄine channel under both agency selling and reselling. Our results show that keeping information private under agency selling and sharing information under reselling
+can help the e-tailer to deter the supplier from entering an oﬄine
+channel.
+Since agency selling is becoming an increasingly popular agreement between the supplier and the e-tailer, the comparison of
+agency selling and reselling has spurred active research in platform
+retailing. A comprehensive study on the comparison of agency selling and reselling is Abhishek et al. (2016). They develop a theoretical model to answer a key question that when the e-tailers should
+use an agency selling format instead of using the more conventional reselling format. Their results show that when sales in the
+electronic channel lead to a negative effect on demand in the traditional channel, e-tailers prefer agency selling. Foros, Kind, and
+Shaffer (2017) analyze the competitive effects of the agency model
+in a market structure with both upstream and downstream competition and multilateral relationships. They ﬁnd that the agency
+model is always anticompetitive (leads to higher retail prices)
+when it is adopted by the platforms on a market-by-market basis. Tan and Carrillo (2017) analyze a model of digital goods to
+compare the agency model with the wholesale model. Their results show that both the revenue-sharing structure and the upstream publisher’s control over the price contribute to the beneﬁts
+of the agency model. Zhu and Yao (2018) provide a comparison
+between the agency and wholesale models under the electronic
+book market duopoly. Motivated by the entry of Apple into the
+e-book market with a choice of an agency model, while it faces
+the incumbent, Amazon uses a wholesale model, Wirl (2018) explore the existence of such an asymmetric equilibrium that one
+retailer chooses the agency model and the other keeps wholesale
+pricing. The existence of such an asymmetric equilibrium is conﬁrmed with strong competition upstream. Different from the above
+studies, we are devoted to investigate the comparison of agency
+selling model and reselling model with both e-tailer’s demand information sharing strategy and supplier’s oﬄine entry decision. We
+ﬁnd that agency selling or reselling will signiﬁcantly affect the etailer’s information sharing strategy. Speciﬁcally, the e-tailer may
+not share information under agency selling while share information under reselling when the oﬄine entry cost is intermediate,
+in order to prevent the supplier from launching an oﬄine channel. In addition, if the agency fee is quite small or if the agency
+fee is quite large and the oﬄine entry cost is small, the e-tailer
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+137
+
+Fig. 1. The timeline of the game.
+
+may choose reselling, while the e-tailer may choose agency selling
+otherwise.
+
+respectively, where δ ∈ (0, 1) represents the channel substitution
+rate1 . Similar demand functions can be seen in Abhishek et al.
+(2016); Arya et al. (2007) and Huang et al. (2018).
+
+3. Basic model
+
+3.3. Timeline of the game
+
+3.1. The supplier and the e-tailer
+
+The timeline is shown in Fig. 1. In stage (S1), the e-tailer
+chooses an agency selling agreement or a reselling agreement. In
+stage (S2), before observing accurate demand information, the etailer ex ante decides whether to share the demand information
+(denoted by S) or not (denoted by N). This ex ante setting of information sharing strategy has been widely adopted in the related
+literature, such as Arya et al. (2007), Li (2002) and Huang et al.
+(2018). In stage (S3), after the demand information is disclosed,
+the supplier decides whether to enter an oﬄine channel (E) or not
+(Ē ). In stage (S4), if an agency selling agreement is adopted, the
+e-tailer offers the supplier an option to engage in online selling
+by charging an agency fee α , which is the fraction of the revenue
+that he will keep for each unit sold through the marketplace. Here,
+we assume an exogenous agency fee applied by the e-tailer because it is generally applied in practice (e.g., by Amazon, Taobao,
+JD.com) and is also widely employed in studies on platform pricing, such as Tan and Carrillo (2017) and Zhu and Yao (2018). For
+example, Amazon has a 15/85 split for the product categories such
+as apparel, fashion and skin care, whereby 85% of the revenue goes
+to the upstream supplier and 15% goes to Amazon, e.g., α = 0.15.
+If a reselling agreement is adopted, the supplier sets a wholesale
+price w to the e-tailer. In stage (S5), under agency selling, the supplier decides the online selling price po , while under reselling, the
+e-tailer sets the online selling prices po . In addition, if an oﬄine
+channel is opened, the supplier sets the oﬄine selling price pf .
+In our basic model, following Huang et al. (2018), we consider
+a case that the e-tailer decides an information sharing policy before the supplier determines whether to enter an oﬄine channel.
+Further, we also make an extension about the case where the supplier enters an oﬄine channel before the e-tailer determines an
+information sharing strategy in Section 8.1.
+
+We consider a supplier and an e-tailer where the supplier sells
+products on the online channel through the e-tailer to the end
+consumers. The e-tailer can choose a reselling agreement or an
+agency selling agreement with the supplier. The supplier can decide whether to establish a brick-and-mortar store, i.e., enter an
+oﬄine channel. If she enters an oﬄine channel, in addition to the
+preexisting online channel, she can also sell products directly to
+consumers through the oﬄine channel; otherwise, she only relies
+on the e-tailer to sell products. The supplier incurs a ﬁxed entry
+cost F with oﬄine expansion. The prices in the online and oﬄine
+channels are denoted as po and pf , respectively.
+3.2. Market demand
+The total market size is given by a + θ , where a is the base market known to both ﬁrms and θ captures the uncertainty level of
+market potential. The e-tailer has more demand information advantages over the supplier due to the rich ﬁrst-hand data and the
+more skilled selling experience. Thus, we assume that the e-tailer
+can observe the true value of θ , and decide whether to share it
+with the supplier, while the supplier only knows the prior distribution of θ , which is assumed to be uniformly distributed in
+[− ,  ]. If the supplier does not enter the oﬄine channel, consumer
+demand online (qo ) follows a linear, downward-sloping demand
+function:
+
+qo = a + θ − po .
+
+(1)
+
+If the supplier enters the oﬄine channel, the two channels engage
+in price competition, and we can get the consumer demands in the
+oﬄine channel (qf ) and in the online channel (qo ) as
+
+1
+qf =
+((1 − δ )(a + θ ) − p f + δ po ),
+1 − δ2
+
+(2)
+
+1
+((1 − δ )(a + θ ) − po + δ p f ),
+1 − δ2
+
+(3)
+
+qo =
+
+1
+This demand speciﬁcation follows from a quadratic consumption utility of a
+representative consumer, which is given by U (qo , q f ) = (qo + q f )(a + θ ) − 12 (q2o +
+2
+q f + 2δ qo q f ). This is a speciﬁc case of the quadratic utility function in Shubik and
+Levitan (1980) and Ingene and Parry (2004). This utility function gives rise to a linear demand structure. Following Singh and Vives (1984), we consider that there is
+a continuum of consumers of the same type with a utility function separable and
+linear in the good, and the representative consumer maximizes U (qo , q f ) − ( po qo +
+p f q f ). As a result, we can get the demand functions as shown in Eqs. (2) and (3).
+
+138
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+The basic model is a multistage game, and we aim to ﬁnd the
+subgame-perfect Nash equilibrium. Solving the game backwards,
+we ﬁrst ﬁnd the subgame equilibria of stages (S4) and (S5) for
+all possible outcomes of stages (S1) to (S3) (e-tailer’s information sharing strategy and supplier’s oﬄine entry decision under
+agency selling and reselling). Then we solve for the equilibrium
+of stages (S2) and (S3) based on the subgame equilibria of stages
+(S4) and (S5); that is, we derive the equilibrium strategies of the
+e-tailer and the supplier about whether to share the information
+and whether to enter an oﬄine channel, respectively. Finally, we
+obtain the equilibrium selling agreement, i.e., agency selling or reselling in stage (S1).
+4. Stages (S4) and (S5)
+
+4.1. Agency selling agreement
+4.1.1. Case SĒ
+When the agency selling e-tailer shares demand information
+and the supplier does not enter an oﬄine channel, the proﬁts for
+the e-tailer and the supplier are
+
+˜ SeĒ = α po (a + θ − po ),
+
+
+(4)
+
+˜ Ss Ē = (1 − α ) po (a + θ − po ),
+
+
+(5)
+
+respectively. The optimal online selling price to maximize (5) can
+be given by
+
+a+θ
+=
+.
+2
+
+(6)
+
+As a result, the equilibrium proﬁts for the chain members respectively are
+
+˜ SeĒ =
+
+
+˜ Ss Ē =
+
+
+α (a + θ )2
+4
+
+,
+
+(1 − α )(a + θ )2
+4
+
+(7)
+
+.
+
+(8)
+
+4.1.2. Case SE
+When the agency selling e-tailer shares demand information
+and the supplier enters an oﬄine channel, the proﬁts for the etailer and the supplier are
+
+˜ SE
+
+e =
+
+α po ((1 − δ )(a + θ ) − po + δ p f )
+,
+1 − δ2
+
+(11)
+
+p˜SE
+f =
+
+(1 − δ )(1 − α )(2 + 2δ − αδ )(a + θ )
+,
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+
+(12)
+
+respectively. At equilibrium, the proﬁts for the e-tailer and the supplier respectively are
+˜ SE
+
+e =
+
+α (1 − δ )(2(1 − α ) + δ (2 − α ) )(2(1 − α ) − δ (2 − α ) )(a + θ )2
+,
+
+2
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+(13)
+
+(1 − α )(2 − α )(1 − δ )(a + θ )2
+− F.
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+
+(14)
+
+To ensure positive e-tailer’s proﬁt and prices, we assume δ <
+2(1−α )
+2−α holds under an agency selling case.
+4.1.3. Case N Ē
+If the agency selling e-tailer does not share demand information, the supplier who does not enter an oﬄine channel should
+decide the optimal online selling price to maximize her expected
+proﬁt. The proﬁt for the e-tailer and the expected proﬁt for the
+supplier are
+
+˜ Ne Ē = α po (a + θ − po ),
+
+
+(15)
+
+˜ Ns Ē ) = (1 − α ) po (a + E (θ ) − po ),
+E (
+
+(16)
+
+respectively. The optimal online selling price to maximize (16) can
+be obtained as
+
+a
+.
+2
+
+p˜No Ē =
+
+(17)
+
+At equilibrium, the expected proﬁts for the e-tailer and the supplier, respectively, are
+
+˜ Ne Ē ) =
+E (
+
+α a2
+4
+
+,
+
+2
+˜ Ns Ē ) = (1 − α )a .
+E (
+4
+
+(18)
+
+(19)
+
+4.1.4. Case NE
+We can get the proﬁt for the e-tailer who does not share information and the expected proﬁt for the supplier who enters an
+oﬄine channel as
+
+˜ NE
+
+e =
+
+α po ((1 − δ )(a + θ ) − po + δ p f )
+,
+1−δ2
+
+(20)
+
+˜ NE
+E (
+s )
+
+
+
+=E
+
+
+(1−α ) po ((1 − δ )(a + θ ) − po + δ p f )+p f ((1 − δ )(a + θ ) − p f + δ po )
+−F
+,
+1−δ2
+(21)
+
+(9)
+
+respectively. To maximize (21), the optimal online and oﬄine selling prices are
+
+˜ SE
+
+s
+=
+
+( 1 − δ ) ( 2 ( 1 − α ) + δ ( 2 − α ) )( a + θ )
+,
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+
+˜ SE
+
+s =
+
+Note that for either an agency selling agreement or a reselling
+agreement, the e-tailer can decide whether to share the demand
+information with the supplier in stage (S2), and the supplier can
+decide whether to enter an oﬄine channel in stage (S3), which
+leads to four possible cases in stages (S4) to (S5): Case SĒ , Case
+SE, Case N Ē , and Case NE. For example, Case SĒ implies that the
+e-tailer shares demand information and the supplier does not enter an oﬄine channel. In the following, we use superscripts “ ∼ ”
+and “∧” to represent an agency selling case and a reselling case,
+respectively.
+
+p˜SoĒ
+
+p˜SE
+o =
+
+(1 − α ) po ((1 − δ )(a + θ ) − po + δ p f ) + p f ((1 − δ )(a + θ ) − p f + δ po )
+−F ,
+1 − δ2
+
+p˜NE
+o =
+
+(1 − δ )(2(1 − α ) + δ (2 − α ) )a
+,
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+
+(22)
+
+p˜NE
+f =
+
+(1 − δ )(1 − α )(2 + 2δ − αδ )a
+,
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+
+(23)
+
+(10)
+respectively. The optimal online and oﬄine selling prices to maximize (10) are
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+respectively. At equilibrium, the expected proﬁts for the e-tailer
+and the supplier respectively are
+˜ NE
+E (
+e ) =
+
+α (1 − δ )(2(1 − α ) + δ (2 − α ) )(2(1 − α ) − δ (2 − α ) )a2
+,
+
+2
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+(24)
+
+(1 − α )(2 − α )(1 − δ )a
+˜ NE
+E (
+−F .
+s ) =
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+
+(25)
+
+4.2. Reselling agreement
+4.2.1. Case SĒ
+Under a reselling case, the supplier ﬁrst sets the wholesale
+price and then the e-tailer sets the online selling price when the
+e-tailer shares demand information and the supplier does not enter an oﬄine channel. The proﬁts for the supplier and the e-tailer
+are
+
+ˆ Ss Ē = w(a + θ − po ),
+
+
+(26)
+
+ˆ SeĒ = ( po − w )(a + θ − po ),
+
+
+(27)
+
+respectively. According to the backward induction, we can obtain
+the equilibrium wholesale price and online selling price as
+
+ˆ SĒ =
+w
+
+a+θ
+,
+2
+
+(28)
+
+pˆSoĒ =
+
+3 (a + θ )
+,
+4
+
+(29)
+
+respectively. The equilibrium proﬁts for the supplier and the etailer, respectively, are
+
+ˆ Ss Ē =
+
+
+ˆ SeĒ =
+
+
+(a + θ )2
+8
+
+(a + θ )2
+16
+
+4.2.3. Case N Ē
+Case N Ē is similar to Case SĒ except that the supplier does not
+know the demand information and makes the wholesale price decision based on her prejudgement on the e-tailer’s online selling
+price choice. The expected proﬁt for the supplier and the proﬁt for
+the e-tailer are
+
+ˆ Ns Ē ) = w(a + E (θ ) − po ),
+E (
+
+(39)
+
+ˆ Ne Ē = ( po − w )(a + θ − po ),
+
+
+(40)
+
+respectively. Similar to Case SĒ , we can obtain the equilibrium
+wholesale price and online selling price as
+
+ˆ NĒ =
+w
+
+a
+,
+2
+
+(41)
+
+pˆNo Ē =
+
+3a + 2θ
+,
+4
+
+(42)
+
+respectively. The equilibrium expected proﬁts for the chain members, respectively, are
+2
+ˆ Ns Ē ) = a ,
+E (
+8
+
+(43)
+
+a2
+2
++
+.
+16
+12
+
+(31)
+
+4.2.4. Case NE
+Similar to Case SE, we can get the expected proﬁt for the supplier and the proﬁt for the e-tailer as
+
+(33)
+
+respectively. Solving the game backwards, we can obtain the equilibrium wholesale price, online and oﬄine selling prices as
+
+
+
+( 2 + δ ) δ 2 − 2δ + 4 ( a + θ )
+
+
+ˆ =
+w
+,
+2 δ2 + 8
+SE
+
+pˆSE
+f =
+
+(38)
+
+.
+
+( po − w )((1 − δ )(a + θ ) − po + δ p f )
+ˆ SE
+
+,
+e =
+1−δ2
+
+=
+
+
+
+ˆ Ne Ē ) =
+E (
+
+w((1 − δ )(a + θ ) − po + δ p f ) + p f ((1 − δ )(a + θ ) − p f + δ po )
+− F,
+1−δ2
+
+
+
+2
+δ 2 + 2 (1 − δ )(a + θ )2
+ˆ =
+
+.
+
+2
+δ 2 + 8 (1 + δ )
+
+(37)
+
+(30)
+
+(32)
+
+pˆSE
+o
+
+
+
+(2 + δ ) δ 2 − δ + 6 (a + θ )2
+ˆ =
+
+
+
+−F ,
+4 (1 + δ ) δ 2 + 8
+SE
+s
+
+,
+
+4.2.2. Case SE
+When the reselling e-tailer shares demand information and the
+supplier enters an oﬄine channel, the supplier ﬁrst decides the
+wholesale price and then the supplier and the e-tailer simultaneously decide the oﬄine and online selling prices, respectively. The
+proﬁts for the supplier and the e-tailer are
+ˆ SE
+
+s =
+
+respectively. The equilibrium proﬁts for the chain members, respectively, are
+
+SE
+e
+
+2
+
+139
+
+(34)
+
+
+
+12 + 2δ 2 − 4δ − δ 3 (a + θ )
+
+
+
+2 δ2 + 8
+
+(2 + δ ) (4 − δ ) (a + θ )
+
+
+,
+2 δ2 + 8
+
+,
+
+(35)
+
+(36)
+
+(44)
+
+ˆ NE
+E (
+s )
+
+
+
+=E
+
+
+
+w((1 − δ )(a + θ ) − po + δ p f ) + p f ((1 − δ )(a + θ ) − p f + δ po )
+−F ,
+1−δ2
+
+(45)
+
+ˆ NE
+
+e =
+
+( po − w )((1 − δ )(a + θ ) − po + δ p f )
+,
+1−δ2
+
+(46)
+
+respectively. Given a wholesale price w, the supplier and the etailer engage in price competition in the market. For the e-tailer,
+the ﬁrst-order optimality condition yields his optimal responsive
+(a+θ )(1−δ )+w+δ p̄
+
+f
+function po ( p̄ f ; w ) =
+. Here, we use “ − ” to indi2
+cate the conjectured variable. For the supplier, her optimal responsive functions are p f ( p̄o; w ) = a(1−δ )+δ2w+E (δ p̄o ) . A Nash equilibrium
+holds when the conjectures are consistent with the actual optimal
+decisions, that is, p̄i = pi (i = o, f ). Jointly solving these equations
+results in optimal prices for a given w, which can be given by
+
+pˆNE
+o (w ) =
+
+2(δ + 2 )(1 − δ )a + 2(δ 2 + 2 )w + (4 − δ 2 )(1 − δ )θ
+,
+2 (2 − δ ) (2 + δ )
+(47)
+
+pˆNE
+f (w ) =
+
+( 2 − δ − δ 2 )a + 3δ w
+.
+4 − δ2
+
+(48)
+
+140
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+Substituting (47) and (48) into (45), we can obtain the equilibrium
+wholesale price as
+
+
+
+( 2 + δ ) δ 2 − 2δ + 4 a
+
+
+ˆ =
+w
+.
+2 δ2 + 8
+NE
+
+(49)
+
+The equilibrium expected proﬁts for the chain members, respectively, are
+
+
+
+( 2 + δ ) δ 2 − δ + 6 a2
+ˆ )=
+
+ −F ,
+E (
+4 (1 + δ ) δ 2 + 8
+
+
+1 − δ ( δ 2 + 2 )2 a2
+2
+NE
+ˆ
+E (e ) =
+
+2 + 12 .
+1+δ
+δ2 + 8
+NE
+s
+
+(50)
+
+(51)
+
+5.1. Agency selling agreement
+
+
+
+(θ ) = (a + θ ) (1 − α )
+2
+
+1
+(2 − α ) (1 − δ )
+−
+,
+4
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+
+(52)
+
+we can get the supplier’s optimal oﬄine entry decision as shown
+in Proposition 1.
+Proposition 1. Under an agency selling case, the supplier’s optimal
+oﬄine entry decision is
+(1) given that the e-tailer does not share the demand information,
+the supplier enters an oﬄine channel if and only if F ≤ (0);
+(2) given that the e-tailer shares the demand information, the supplier always enters an oﬄine channel if F ≤ (− ), never enters if
+F > ( ), and enters only when θ > θ˜ if F ∈ ((− ), ( )], where
+2
+2
+θ˜ = (4(1−α )−δ (2−α ) )F − a.
+(1−α )(2−2δ +αδ )2
+
+Proposition 1 indicates that information sharing allows the supplier to make oﬄine expansion decisions more ﬂexibly; that is,
+when the e-tailer shares demand information, the supplier’s ofﬂine expansion decision depends on the entry cost F as well as the
+disclosed market potential θ . Speciﬁcally, when F ∈ ((− ), ( )],
+the supplier will choose to enter an oﬄine channel only if the disclosed market potential is above a threshold, i.e., θ > θ˜ , which we
+refer to as a case that the supplier partially enters an oﬄine channel. In fact, the informed supplier can evaluate the beneﬁt of entering an oﬄine channel more effectively. Thus, she may establish
+an oﬄine channel when the market potential is large, while only
+rely on the online channel when the market potential is small.
+
+(θ ) =(a + θ )2
+
+
+
+
+
+
+(2 + δ ) δ 2 − δ + 6
+1
+
+ −
+,
+8
+4 (1 + δ ) δ 2 + 8
+
+8 (1+δ )(δ 2 +8 )F
+
+δ 2 (1+δ )+16
+
+− a.
+
+Given the e-tailer’s information sharing strategy, the supplier’s
+oﬄine entry decision under a reselling case is similar to that under
+an agency selling case as shown in Proposition 1. Speciﬁcally, given
+that the e-tailer does not share the demand information, the supplier enters an oﬄine channel if and only if the entry cost is small,
+i.e., F ≤  (0). Given that the e-tailer shares the demand information, the supplier always enters an oﬄine channel if F ≤ (− ),
+never enters if F >  ( ), and partially enters if F ∈ ((− ), ( )].
+5.3. The impacts of supplier oﬄine entry on the e-tailer
+Proposition 3. With and without information sharing, either the
+agency selling e-tailer or the reselling e-tailer is worse off with supplier oﬄine entry.
+Proposition 3 indicates that with and without information sharing under a reselling or agency selling case, the e-tailer is always
+worse off with supplier oﬄine entry. Oﬄine entry gives rise to
+channel competition and thus generates a loss to the e-tailer. In
+addition, Fig. 2 shows e-tailer’s expected proﬁts with and without
+oﬄine entry under both an agency selling case and a reselling case.
+It also indicates that the e-tailer is worse off with supplier oﬄine
+entry. Moreover, an interesting result as shown in Fig. 2(a) is that
+under both the cases with and without information sharing, the
+agency selling e-tailer’s expected proﬁt with supplier oﬄine entry
+is non-monotonic in α . Intuitively, a higher agency fee α can help
+the e-tailer to gain more proﬁts. However, when the supplier enters an oﬄine channel, a higher agency fee α impels the supplier
+to rely more on the proﬁts of the oﬄine channel, which means
+that the supplier will signiﬁcantly increase the online selling price
+to shift the demand from the online channel to the oﬄine channel.
+As a result, the e-tailer suffers from the less online demand under
+a higher agency fee α .
+6. Stages (S2): E-tailer information sharing vs. no sharing
+
+5.2. Reselling agreement
+Deﬁning
+
+Proposition 2. Under a reselling case, the supplier’s optimal oﬄine
+entry decision is
+(1) given that the e-tailer does not share the demand information,
+the supplier enters an oﬄine channel if and only if F ≤  (0);
+(2) given that the e-tailer shares the demand information, the supplier always enters an oﬄine channel if F ≤ (− ), never enters if
+F >  ( ), and enters only when θ > θˆ if F ∈ ((− ), ( )], where
+
+θˆ =
+
+5. Stages (S3): supplier oﬄine entry vs. no entry
+
+Deﬁning
+
+we can get the supplier’s optimal oﬄine entry decision as shown
+in Proposition 2.
+
+6.1. Agency selling agreement
+
+(53)
+
+Anticipating the supplier’s oﬄine entry decisions as shown in
+Proposition 1, the e-tailer’s expected proﬁts when he shares or
+does not share demand information, respectively, are
+
+⎧
+
+α ( 1 − δ ) ( 2 (1 − α ) + δ (2 − α ) )(2 (1 − α ) − δ (2 − α ) ) 2  2
+⎪
+⎪
+a +
+,
+if F ≤ (− ),
+⎪
+
+2
+⎪
+3
+⎪
+4 ( 1 − α ) − δ 2 ( 2 − α )2
+⎪
+⎪
+⎪
+⎪
+⎨α (1 − δ )(2(1 − α ) + δ (2 − α ) )(2(1 − α ) − δ (2 − α ) )(a +  )3 − (a + θ˜ )3  α (a + θ˜ )3 − (a −  )3 
+S
+˜ e (F ) =
+
++
+, if (− ) < F ≤ ( ),
+
+2
+24
+⎪
+⎪
+6 4 ( 1 − α ) − δ 2 ( 2 − α )2
+⎪
+⎪
+⎪
+⎪α 
+⎪
+2
+⎪
+⎪
+if F > ( ),
+⎩ 4 a2 + 3 ,
+(54)
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+(a) under agency selling
+
+141
+
+(b) under reselling
+
+Fig. 2. E-tailer’s expected proﬁts with and without oﬄine entry.
+
+(a) δ = 0.02
+
+(b) δ = 0.5
+
+Fig. 3. E-tailer’s expected proﬁts with and without information sharing under agency selling.
+
+Lemma 1. Under an agency selling case, when the oﬄine entry cost
+F ≤ (− ) or F > ( ), the e-tailer prefers to share demand information.
+
+entry decision. As a result, the e-tailer prefers to share demand information. Speciﬁcally, sharing demand information can enable the
+supplier to tailor the online selling price at a more eﬃcient level
+with the disclosed market potential, which beneﬁts the e-tailer. In
+other words, under an agency selling case, the e-tailer prefers to
+share demand information when the supplier’s oﬄine entry decision is independent of his demand information sharing strategy,
+since based on the disclosed market potential, the informed supplier can charge more eﬃcient selling prices.
+
+No matter whether the e-tailer shares demand information or
+not, the supplier always enters an oﬄine channel if F ≤ (− ),
+and never enters if F > ( ). In other words, the e-tailer’s demand
+information sharing strategy does not affect the supplier’s oﬄine
+
+Proposition 4. Under an agency selling case, the e-tailer does not
+share information if and only if δ > δ˜ and F ∈ ((0 ), F˜ ∗ ), where δ˜ ∈
+(0, 2(21−−αα ) ) and F˜ ∗ ∈ ((0 ), ( )) are shown in Appendix A.
+
+
+˜ Ne (F ) =
+
+
+α (1−δ )(2(1−α )+δ (2−α ) )(2(1−α )−δ (2−α ) )a2
+,
+2
+( 4 ( 1 −α ) −δ 2 ( 2 −α ) 2 )
+α a2 ,
+4
+
+if F ≤ (0 ),
+if F > (0 ).
+(55)
+
+142
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+Proposition 4 indicates that the e-tailer prefers to keep the demand information private if the channel substitution rate is large,
+i.e., δ > δ˜ and the supplier’s oﬄine entry cost is intermediate, i.e.,
+F ∈ ((0 ), F˜ ∗ ). As stated above, sharing demand information under an agency selling case can allow the supplier to charge more
+eﬃcient selling prices, which beneﬁts the e-tailer. When the supplier’s oﬄine entry decision is not affected by the e-tailer’s sharing
+strategy, such beneﬁts of information sharing dominate. However,
+anticipating a possible threat that the supplier may enter an ofﬂine channel and compete with the online channel under information sharing, the e-tailer will rethink his information sharing
+strategy. Disclosing demand information endows the supplier with
+more ﬂexibility for making oﬄine entry decision. Given an intermediate entry cost F ∈ ((0 ), F˜ ∗ ), the supplier does not enter an
+oﬄine channel without information sharing while she partially enters with information sharing as indicated in Proposition 1; that is,
+sharing demand information encourages the supplier to establish
+an oﬄine channel. Thus, the e-tailer should trade off between the
+beneﬁts from more eﬃcient selling prices and the loss from channel competition due to information sharing. Speciﬁcally, when the
+channel substitution rate δ is small (channel competition is weak),
+the e-tailer is better off with information sharing since he enjoys
+more eﬃcient selling prices, even though the supplier enters an
+oﬄine channel. However, when the channel substitution rate δ is
+large, i.e., δ > δ˜ , the e-tailer prefers to withhold demand information to deter the supplier from entering an oﬄine channel.
+To further illustrate the above result that withholding demand
+information can help the agency selling e-tailer to deter the supplier from entering an oﬄine channel, we employ a numerical study with basic parameters: a = 1, δ = 0.2, α = 0.5,  = 0.2
+(these basic parameters are used throughout our paper if no otherwise speciﬁed). Fig. 3 shows the e-tailer’s expected payoffs with
+and without information sharing under agency selling. As shown in
+Fig. 3(a), the e-tailer is better off with demand information sharing
+when δ is relatively small, i.e., δ = 0.02. However, when δ is quite
+larger, i.e., δ = 0.5 as shown in Fig. 3(b), the e-tailer prefers not to
+share demand information if F ∈ (0.136, 0.194), where the supplier
+partially enters an oﬄine channel under information sharing while
+never enters under no information sharing. For the agency selling
+e-tailer, withholding demand information can serve as an effective
+deterrence on the supplier from entering oﬄine channel and thus
+to avoid channel competition.
+6.2. Reselling agreement
+Based on the supplier’s oﬄine expansion decision as shown in
+Proposition 2, the e-tailer’s expected proﬁts when he shares or
+does not share demand information, respectively, are
+
+⎧
+
+(1 − δ )(δ 2 + 2 )2 2  2
+⎪
+⎪
+⎪
+
+2 a + 3 ,
+⎪
+⎪
+(1 + δ ) δ 2 + 8
+⎪
+⎪
+⎪
+⎪
+⎨(1 − δ )(δ 2 + 2 )2 (a +  )3 − (a + θ˜ )3 
+(a + θ˜ )3 − (a −  )3
+S
+ˆ e (F ) =
+
++
+,
+
+
+2
+96
+⎪
+⎪
+6 δ 2 + 8 ( 1 + δ )
+⎪
+⎪
+⎪
+
+⎪
+⎪ 1 2 2
+⎪
+⎪
+⎩16 a + 3 ,
+
+⎧ 
+⎨ 1−δ (δ2 +2)2 a2
+ˆ Ne (F ) = 1+δ (δ 2 +8 )2 +
+
+⎩ a2  2
+16
+
++
+
+,
+12
+
+2
+
+12
+
+,
+
+if F ≤ (0 ),
+
+(57)
+
+if F > (0 ).
+
+Lemma 2. Under a reselling case, when the oﬄine entry cost F ≤
+(− ) or F >  ( ), the e-tailer prefers not to share demand information.
+
+According to Lemma 2, when the oﬄine entry cost is suﬃciently small or very large (F ≤ (− ) or F >  ( )), where the
+supplier’s oﬄine expansion is independent of the e-tailer’s information sharing strategy, the e-tailer prefers not to share demand
+information. This is different from the result under an agency selling case (as shown in Lemma 1) that when the oﬄine entry cost
+is suﬃciently small or very large, the e-tailer prefers to share demand information. The basic reason is that the online selling pricesetting power belongs to different players under a reselling case
+and an agency selling case. Speciﬁcally, under an agency selling
+case where the supplier has the pricing power, sharing demand information with the supplier is beneﬁcial to the e-tailer because it
+can allow the supplier to tailor the online selling price at a more
+eﬃcient level. However, under a reselling case where the e-tailer
+has pricing power, sharing demand information will hurt the etailer. The reason is that as the e-tailer himself sets the online
+selling price, the main factor to inﬂuence the e-tailer’s information
+sharing decision-making will be how the supplier’s wholesale price
+decision is affected by the information sharing strategy. Withholding the demand information can mislead the supplier to make ineﬃcient wholesale pricing decision. As a result, a reselling e-tailer
+beneﬁts from a less aggressive wholesale price set by the supplier
+when he keeps demand information advantages.
+Proposition 5. Under a reselling case, the e-tailer shares information if and only if δ > δˆ and F ∈ (Fˆ ∗ , (0 )). Here, δˆ ∈ (0, 1 ) and
+Fˆ ∗ ∈ ((− ), (0 )) are shown in Appendix A.
+Given entry cost F ∈ (Fˆ ∗ , (0 )), the supplier always enters an
+oﬄine channel without information sharing while she partially enters with information sharing; that is, information sharing can deter the supplier from entering an oﬄine channel and thus help the
+e-tailer to avoid channel competition. The e-tailer should strike a
+balance between the beneﬁts from avoiding channel competition
+and the loss from a more aggressive wholesale price due to information sharing. Speciﬁcally, when the channel substitution rate
+is large, i.e., δ > δˆ , the e-tailer is willing to share information to
+avoid intense competition; otherwise, the e-tailer prefers to keep
+information advantages. It should be mentioned that a signiﬁcant
+difference between the result under a reselling case and that under an agency selling case is that the e-tailer can effectively deter
+the supplier from entering an oﬄine channel through sharing information under a reselling case, but through withholding demand
+information under an agency selling case.
+In sum, when F is very small or large, the e-tailer prefers
+to share information under an agency selling case while prefers
+not to share information under a reselling case. When F is intermediate and δ is large, the e-tailer deters the supplier from
+
+if F ≤ (− ),
+if (− ) < F ≤ ( ),
+
+(56)
+
+if F > ( ),
+
+entering an oﬄine channel with sharing information under a reselling case, but with keeping information private under an agency
+selling case.
+Fig. 4 shows a reselling e-tailer’s expected payoffs with and
+without information sharing. Fig. 4(a) indicates that the e-tailer
+is worse off with demand information sharing when δ is very
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+143
+
+Fig. 4. E-tailer’s expected proﬁts with and without information sharing under reselling.
+
+0.35
+
+0.35
+
+0.3
+
+0.3
+
+Information sharing
+0.25
+
+0.25
+
+No information sharing
+0.2
+
+0.2
+
+No information sharing
+0.15
+
+0.1
+
+0.15
+
+Information sharing
+
+0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.66
+
+0.1
+0.01
+
+Information sharing
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+Fig. 5. E-tailer’s equilibrium information sharing decision with agency selling.
+
+small, i.e., δ = 0.02. However, when δ is large, i.e., δ = 0.5 as shown
+in Fig. 4(b), the e-tailer is willing to share demand information
+if F ∈ (0.109, 0.165), where the supplier partially enters an oﬄine
+channel under information sharing while always enters under no
+information sharing. For the reselling e-tailer, sharing demand information can help him to deter the supplier from entering oﬄine
+channel and thus to avoid channel competition.
+6.3. Information sharing vs. no sharing
+As shown in Propositions 4 and 5, the e-tailer’s equilibrium
+information sharing decisions are different under agency selling
+and reselling. To further illustrate the e-tailer’s information sharing strategy, we employ a numerical study with respect to related
+parameters in Figs. 5 and 6.
+Speciﬁcally, we can get the following comments. (1) When the
+channel substitution rate δ is quite small, i.e., channel competition
+
+is very weak, the e-tailer does not has incentives to deter supplier
+oﬄine entry. Thus, the e-tailer prefers to share information under agency selling and to keep information private under reselling.
+When the channel substitution rate δ is relatively large, i.e., channel competition is relatively strong, the e-tailer should deter the
+supplier from entering an oﬄine channel. If F is suﬃciently small
+or large, the supplier’s oﬄine entry decision is independent of the
+e-tailer’s information sharing strategy, thus the agency selling etailer is willing to share demand information, whereas the reselling
+e-tailer prefers to keep demand information private. If F is intermediate, the agency selling e-tailer prefers not to share demand
+information while the reselling e-tailer prefers to share information to deter the supplier from entering an oﬄine channel and
+thus to avoid competition. The above results are in line with those
+shown in Propositions 4 and 5. (2) When the information uncertainty  is relatively large, under an agency selling case, the expected revenue from more eﬃcient selling prices with information
+
+144
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+0.25
+
+0.25
+
+No information sharing
+0.2
+
+0.2
+
+Information sharing
+0.15
+
+Information sharing
+0.15
+0.1
+
+No information sharing
+
+No information sharing
+
+0.05
+
+0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1
+
+0.1
+0.01 0.05
+
+0.1
+
+0.15
+
+0.2
+
+0.25
+
+0.3
+
+0.35
+
+0.4
+
+0.45
+
+0.5
+
+Fig. 6. E-tailer’s equilibrium information sharing decision with reselling.
+
+0.25
+
+0.3
+0.28
+0.26
+0.24
+
+0.2
+
+The e−tailer deters the supplier
+from entering an offline channel.
+
+0.22
+0.2
+0.18
+
+The e−tailer deters the supplier from
+entering an offline channel.
+
+0.15
+
+0.16
+0.14
+0.12
+
+0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.1
+0.01
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+0.25
+
+0.3
+
+0.35
+
+0.4
+
+Fig. 7. The zones the e-tailer achieving deterrence under both agency selling and reselling.
+
+sharing becomes remarkable, thus the e-tailer prefers to share information. However, under reselling, a relatively large  means that
+the e-tailer has more information advantages, thus he has more incentives to keep information private and misleads the supplier to
+set a less aggressive wholesale price. Only if  is small and F is
+intermediate where the loss from channel competition outweighs
+the beneﬁt from more eﬃcient selling prices due to information
+sharing, the agency selling e-tailer prefers to withhold demand information. For the reselling e-tailer, he is willing to share demand
+information if  is small and F is intermediate since the loss from
+channel competition outweighs the beneﬁt from a less aggressive
+wholesale price due to keep information private.
+Furthermore, Fig. 7 indicates the zones where the e-tailer deters
+the supplier from entering an oﬄine channel under both agency
+selling and reselling. In these dotted zones shown in Fig. 7, where
+δ is large,  is small and F is intermediate, the e-tailer prevents
+the supplier from entering an oﬄine channel through withholding
+information under agency selling and through sharing information
+under reselling.
+
+6.4. Equilibrium proﬁts
+Combining the above analysis, we further investigate the proﬁts
+for the e-tailer, the supplier, and the total supply chain with equilibrium information sharing and oﬄine entry strategies as shown
+in Fig. 8, in which {A, B} represents that the equilibrium strategies of the e-tailer and the supplier respectively are A and B where
+A ∈ {S, N} and B ∈ {E , P E , Ē }. For example, {S, PE} indicates that at
+equilibrium the e-tailer shares the demand information and the
+supplier partially enters an oﬄine channel.
+Fig. 8 shows that the equilibrium information sharing and ofﬂine entry strategies are quite different between the agency selling
+and reselling contracts. Speciﬁcally, under agency selling, with F increasing, the equilibrium strategy combination changes from {S, E}
+to {S, PE}, and to {N, Ē }, and again to {S, PE}, and ﬁnally to {S, Ē }.
+However, under reselling, as F increases, the equilibrium strategy
+combination changes from {N, E} to {S, PE}, and to {N, Ē }. Note
+that as stated above, when the equilibrium strategy combination
+is {N, Ē } under agency selling or it is {S, PE} under reselling, the
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+(a) under agency selling
+
+145
+
+(b) under reselling
+
+Fig. 8. Equilibrium proﬁts for e-tailer, supplier, and supply chain.
+
+(a) For the supplier
+
+(b) For the e-tailer
+
+Fig. 9. Equilibrium proﬁts under agency selling and reselling.
+
+e-tailer can deter the supplier from opening an oﬄine channel via
+the information sharing strategy.
+7. Stage (S1): agency selling vs. reselling
+Due to the complexity of the analytical solution, we employ a
+numerical study to examine the impacts of of agency selling or reselling on the equilibrium proﬁts of chain members. We show the
+e-tailer’s and the supplier’s equilibrium proﬁts under agency selling and reselling in Fig. 9.
+According to Fig. 9(b), the supplier’s equilibrium proﬁt under an agency selling case decreases with α . In addition, under
+a relatively small agency fee α (α = 0.1 and α = 0.3), the supplier prefers an agency selling case, while under a relatively large
+
+agency fee α (α = 0.6 and α = 0.88), the supplier prefers a reselling case. The above result is intuitive that the supplier tends to
+a reselling case with a larger agency fee α . Correspondingly, one
+may conclude that the e-tailer prefers a reselling case when α is
+small and prefers an agency selling case when α is large. However,
+Fig. 9(a) demonstrates that when α is quite small (α = 0.1), the etailer prefers reselling, and when α is intermediate (α = 0.3 and
+α = 0.6), the e-tailer gets more proﬁts under agency selling, and
+when α is relatively large (α = 0.88), the e-tailer prefers agency
+selling when F is large and prefers reselling when F is small. Under
+a quite small agency fee α , the e-tailer chooses reselling due to the
+low proﬁt margin under agency selling. When α is intermediate,
+the e-tailer adopts agency selling, since the double marginalization
+effect under reselling gives rise to a loss on the e-tailer. In addition,
+
+146
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+Fig. 10. The timeline of the alternative scenario.
+
+when α is relatively large, under a small F where the supplier has
+more incentives to enter an oﬄine channel, the e-tailer chooses reselling, since most demand is shifted from online to oﬄine by the
+supplier under agency selling. When F is large and the supplier
+tends to sell products only through the online channel, the e-tailer
+enjoys the beneﬁts from high agency fee α under agency selling
+where double marginalization does not occur.
+In sum, we can get the e-tailer’s choice of selling agreement in
+Stage (S1) depends on both the agency fee α and the oﬄine entry
+cost F. If the agency fee α is quite small or if α is quite large and
+the oﬄine entry cost F is small, the e-tailer may choose reselling,
+while if α is intermediate or if α is quite large and F is large, the
+e-tailer may choose agency selling.
+Moreover, under a relatively small agency fee (e.g., α = 0.3),
+both the supplier and the e-tailer prefer agency selling, whereas
+under a very large agency fee (e.g., α = 0.88), both of them prefer
+reselling when F is small. In other words, for the channel members,
+agency selling may lead to a Pareto improvement under a relatively
+small agency fee, and reselling may generate a Pareto improvement
+under a relatively large agency fee when the supplier’s oﬄine entry cost is small.
+
+8. Extensions
+
+(2) for the e-tailer, the alternative timing of supplier oﬄine expansion is superior to the timing in the basic model only if F ∈
+
+
+( a2 +
+
+
+
+ 2 − a ), ( ) .
+3
+
+Proposition 6 indicates that under agency selling, for the supplier, the alternative timing of supplier oﬄine expansion (i.e., supplier’s oﬄine expansion decision before the e-tailer’s information
+sharing strategy) is superior to the timing in the basic model (i.e.,
+supplier’s oﬄine expansion decision after the e-tailer’s information sharing strategy) only if the entry cost F is intermediate (i.e.,
+F ∈ ((0), ( )]) and the channel competition is relatively strong
+(δ > δ˜ ). For the e-tailer, the alternative timing of supplier oﬄine
+expansion is superior to the timing in the basic model only if the
+
+
+
+entry cost F is intermediate (i.e., F ∈ (
+
+
+
+2
+a2 + 3 − a ), ( ) ).
+
+Proposition 7. Under a reselling case, the timing of supplier oﬄine
+expansion in the basic model is always weakly superior to the alternative timing for both the chain members.
+Proposition 7 highlights the value of delaying supplier oﬄine
+expansion under a reselling case, which can lead to a “win–win”
+outcome for both the chain members.
+In sum, we can ﬁnd that the timing of supplier oﬄine expansion in our basic model can lead to higher payoffs for both ﬁrms
+under a reselling case and when the entry cost is very low or high
+under an agency selling case.
+
+8.1. Alternative timing of supplier oﬄine expansion
+8.2. Asymmetric oﬄine expansion cost information
+In the basic model, we assume that the supplier opens a direct
+channel after the e-tailer shares the demand information, in which
+the timing of establishing a direct channel is similar to Huang et al.
+(2018). However, there may also exist other possible timings for
+supplier oﬄine expansion; that is, the supplier enters an oﬄine
+channel before the e-tailer shares the demand information. In this
+subsection, we examine an alternative scenario where the supplier
+decides whether to enter an oﬄine channel before the e-tailer determines whether to share the demand information. The timeline
+of the alternative scenario is shown in Fig. 10. In the following, we
+consider the equilibrium results under agency selling and reselling,
+respectively.
+Proposition 6. Under an agency selling case,
+(1) for the supplier, the alternative timing of supplier oﬄine expansion is superior to the timing in the basic model only if F ∈ ((0),
+( )] and δ > δ˜ ;
+
+In this subsection, we consider a case where the e-tailer does
+not exactly know the supplier’s oﬄine entry cost F, and only holds
+a prior information distribution of F with mean μ and variance σ 2 .
+It is obvious that given the e-tailer’s information sharing strategy,
+the supplier’s oﬄine entry strategies under asymmetric cost information are the same as those under full information, which can be
+seen in Propositions 1 and 2. Correspondingly, the equilibrium information sharing strategies of the e-tailer under both agency selling and reselling are shown in Proposition 8.
+Proposition 8. Under agency selling, the e-tailer does not share information if and only if δ > δ˜ and μ ∈ ((0 ), F˜ ∗ ), while under reselling, the e-tailer shares information if and only if δ > δˆ and μ ∈
+(Fˆ ∗ , (0 )).
+Proposition 8 indicates that our main results qualitatively hold
+in the asymmetric entry cost information case. Speciﬁcally, when
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+(a) τ = 0.01
+
+147
+
+(b) τ = 0.75
+
+Fig. 11. An agency selling e-tailer’s expected proﬁts with and without information sharing.
+
+the e-tailer’s estimation on the supplier’s oﬄine entry cost, i.e.,
+μ, is very small or large, the e-tailer shares information under
+agency selling while keeps information private under reselling.
+When μ is intermediate, and channel substitution rate is large,
+the e-tailer withholds the demand information under agency selling while shares information under reselling to deter the supplier
+from entering an oﬄine channel.
+8.3. Consumer showrooming
+In the basic model, we only consider that the channel members make pricing decisions. In practice, the supplier who opens
+a brick-and-mortar store may put efforts to showcase the product
+to the consumer. Then a quite prevalent phenomenon may happen
+that consumers gather information about a product from the ofﬂine store and then purchase the product online, which is referred
+to as “showrooming” (Mehra, Kumar, & Raju, 2017; Rapp, Baker, &
+Bachrach, 2015). If the supplier does not enter the oﬄine channel,
+consumer demand online is the same as the basic model shown
+in Eq. (1). If the supplier enters the oﬄine channel, she can invest
+in sales effort to promote the consumers’ understanding about the
+product and thus to improve sales when selling products through a
+brick-and-mortar store. For a given level of sales effort s, the supplier incurs a cost
+
+C (s ) =
+
+s2
+.
+2
+
+(58)
+
+With consumer showrooming, the consumer demands in the ofﬂine channel and in the online channel are given by:
+
+qCS
+f =
+
+(1 − δ )(a + θ ) − p f + δ po
++ (1 − τ )s,
+1 − δ2
+
+(59)
+
+qCS
+o =
+
+(1 − δ )(a + θ ) − po + δ p f
++ τ s,
+1 − δ2
+
+(60)
+
+respectively, where superscript “CS” represents the case with consumer showrooming. In addition, τ ∈ [0, 1) is the proportion of the
+increase in demand due to supplier’s sales effort that shifts to the
+online channel and this is the effect of consumer showrooming.
+Therefore, as τ increases, the effect of showrooming increases. In
+
+other words, τ is the measure of the intensity of showrooming in a
+market. An extreme case is that when τ = 0, consumer showrooming does not occur. Similar description of consumer showrooming
+can also be seen in Basak, Basu, and Avittathur (2017). The timeline in this case is as follows: Stages (S1) to (S4) are the same as
+those in the basic model; in stage (S5), the supplier (the e-tailer)
+sets the online selling price po under agency selling (reselling), and
+if she decides to enter an oﬄine channel, she also sets the oﬄine
+selling price pf and sales effort s. The detailed solving process is
+shown in Appendix B.
+Taking consumer showrooming into consideration, Figs. 11 and
+12 indicate the e-tailer’s expected proﬁts with and without information sharing under an agency selling case and a reselling case,
+respectively. An obvious difference between the results with and
+without consumer showrooming is that the e-tailer may be better
+off with supplier oﬄine entry when considering consumer showrooming, while he is always worse off without showrooming as
+shown in Proposition 3. Speciﬁcally, the e-tailer’s expected proﬁt
+increases with F (he is worse off with supplier oﬄine entry) when
+τ is small, while it decreases with F (he is better off with supplier oﬄine entry) when τ is large under both agency selling and
+reselling. When the supplier enters an oﬄine channel, consumer
+showrooming allows consumers to get information oﬄine but buy
+online, which brings additional online revenues and beneﬁts the
+e-tailer. Thus, when τ is small, the beneﬁt from showrooming is
+dominated by the loss from channel competition due to supplier
+oﬄine entry, and oﬄine entry hurts the e-tailer; oppositely, when
+τ is large, the beneﬁt from showrooming outweighs the loss from
+channel competition, and oﬄine entry beneﬁts the e-tailer.
+In addition, the e-tailer’s information sharing decision with respect to F with showrooming is similar to that without showrooming. Speciﬁcally, under an agency selling case, the e-tailer prefers
+to share information when F is very small or large, while prefers
+not to share information when F is intermediate. Under a reselling
+case, the e-tailer withholds information when F is very small or
+large, while is willing to share information when F is intermediate. However, the driver factor of the e-tailer’s preference on information sharing or not with showrooming is different from that
+without showrooming. In the basic case without showrooming, the
+e-tailer keeps information private under agency selling, and shares
+
+148
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+(a) τ = 0.01
+
+(b) τ = 0.75
+
+Fig. 12. A reselling e-tailer’s expected proﬁts with and without information sharing.
+
+(a) agency selling
+
+(b) reselling
+
+Fig. 13. E-tailer’s preference on information sharing with respect to τ .
+
+information under reselling to deter the supplier from oﬄine entry.
+In the case with showrooming, the e-tailer withholds information
+under agency selling, and discloses information under reselling to
+deter the supplier from oﬄine entry when τ is small, while he
+wants to stimulates the supplier to enter an oﬄine channel when
+τ is large. The reason has stated above that the e-tailer is worse
+off with oﬄine entry when τ is small while he is better off when
+τ is large. Speciﬁcally, the supplier enters an oﬄine channel without information sharing while she partially enters with information sharing, and the agency selling e-tailer prefers not to share
+information to encourage oﬄine entry when F ∈ (0.174, 0.255) and
+τ = 0.75. For the reselling case, given that F ∈ (0.265, 0.377) and
+τ = 0.75, the supplier does not enter an oﬄine channel without
+information sharing while she partially enters with information
+sharing, and the e-tailer prefers to share information to encourage
+oﬄine entry.
+
+Fig. 13 shows e-tailer’s preference on information sharing with
+respect to τ . The e-tailer prefers not to share information under
+agency selling, while prefers to share information under reselling,
+only if τ is suﬃciently small or large and F is intermediate. The
+e-tailer keeps information advantages under agency selling and
+shares information under reselling to deter supplier from oﬄine
+entry when τ is very small, and to encourage the supplier to enter
+an oﬄine channel when τ is quite large. When τ is intermediate,
+an agency selling e-tailer always prefers to share information and
+a reselling e-tailer always prefers to withhold information.
+8.4. Consumer webrooming
+In this subsection, we consider another extension of the basic
+model that the e-tailer puts sales efforts on online selling to attract
+consumers, which leads to a phenomenon called by “webroom-
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+(a) agency selling
+
+149
+
+(b) reselling
+
+Fig. 14. E-tailer’s expected proﬁts with and without information sharing with η = 0.5.
+
+(a) agency selling
+
+(b) reselling
+
+Fig. 15. E-tailer’s preference on information sharing with respect to η.
+
+ing” that consumers gather information about a product online and
+then purchase the product oﬄine (Jing, 2018). The e-tailer’s sales
+2
+effort is denoted by v, and he incurs a cost v2 . If the supplier does
+not enter the oﬄine channel, consumer demand online is
+
+qCW
+= a + θ − po + v,
+o
+
+(61)
+
+where superscript “CW” represents the case with consumer webrooming. If the supplier enters the oﬄine channel, the consumer
+demands in the oﬄine channel and in the online channel are given
+by
+
+qCW
+=
+f
+
+(a + θ )(1 − δ ) − p f + δ po
++ ηv,
+1 − δ2
+
+(62)
+
+(a + θ )(1 − δ ) − po + δ p f
++ ( 1 − η )v,
+(63)
+1 − δ2
+respectively, where η ∈ (0, 1) is a measure of the intensity of webrooming in a market. Therefore, as η increases, the effect of weqCW
+=
+o
+
+brooming increases. The timeline in this case is as follows: stages
+(S1)–(S4) are the same as those in the basic model; in stage (S5),
+the supplier (the e-tailer) sets the online selling price po under
+agency selling (reselling), and the e-tailer sets the sales effort v,
+and if the supplier decides to enter an oﬄine channel, she also sets
+the oﬄine selling price pf . The detailed solving process is shown in
+Appendix C.
+According to Figs. 14 and 15, we can get the e-tailer’s information sharing decisions with consumer webrooming, which are sim-
+
+150
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+
+ilar to those in the basic case without webrooming. Speciﬁcally,
+under an agency selling case, the e-tailer does not share information only when F is intermediate. Under a reselling case, the etailer is willing to share information only when F is intermediate.
+Both withholding information under agency selling and sharing information under reselling can serve as effective measures for the
+e-tailer to deter supplier from oﬄine entry.
+9. Conclusion
+In this paper, we consider a supply chain where the e-tailer can
+choose whether to share the demand information, and the supplier
+can decide whether to open a direct oﬄine channel by incorporating both agency selling and reselling formats. The equilibrium information sharing strategy of the e-tailer and oﬄine entry decision
+of the supplier are derived under both agency selling and reselling
+to investigate the e-tailer’s information sharing incentives in anticipation of supplier oﬄine entry. The supplier’s and e-tailer’s equilibrium proﬁts are compared under the two formats to discuss the
+chain members’ preferences on agency selling or reselling. In addition, we make several extensions to further explore the interaction
+of e-tailer information sharing and supplier oﬄine entry with consumer showrooming and webrooming.
+Our results are concluded as follows. (1) When the supplier’s
+oﬄine entry cost is very small or large, the e-tailer shares the demand information under agency selling while does not share information under reselling. When the entry cost is intermediate, channel substitution rate is large and information uncertainty is small,
+the e-tailer keeps information private under agency selling while
+shares information under reselling to deter the supplier from entering an oﬄine channel and further to avoid channel competition.
+In fact, under agency selling, the e-tailer should strike a balance
+between the beneﬁts from more eﬃcient selling prices set by the
+supplier and the loss from channel competition due to information
+sharing. Under reselling, the e-tailer should trade off the beneﬁts
+from a less aggressive wholesale price and the loss from channel competition caused by keeping information private. (2) If the
+agency fee is quite small or if the agency fee is quite large and
+the oﬄine entry cost is small, the e-tailer prefers reselling, while
+if the agency fee is intermediate or if the agency fee is quite large
+and the oﬄine entry cost is large, the e-tailer prefers agency selling. (3) With showrooming or webrooming, the e-tailer’s information sharing decisions are similar to those in the basic case. However, the driver factor of the e-tailer’s preference on information
+sharing or not with showrooming is different from that without
+showrooming. With consumer showrooming, keeping information
+advantages under agency selling and sharing information under reselling may help the e-tailer to deter supplier oﬄine entry when
+the effect of showrooming is weak, while both of them may allow
+the e-tailer to encourage supplier oﬄine entry when the effect of
+showrooming is strong.
+Despite the importance of the managerial insights for e-tailer
+information sharing and supplier oﬄine entry under both agency
+selling and reselling, our study also has a few limitations. In our
+paper, we consider that the supplier opens physical stores directly
+if she chooses to enter an oﬄine channel, rather than selling products via retail stores. Future direction can be pointed at an indirect
+oﬄine expansion case where the supplier enters an oﬄine channel via a traditional retailer. Note that the traditional retailer may
+share demand information with the supplier to encourage the supplier to enter an oﬄine channel, whereas the e-tailer wants to use
+the information sharing strategy to deter the supplier from oﬄine
+expansion. It means the incentives of the e-tailer and the traditional retailer to share the information are completely opposite.
+In addition, information sharing may give rise to not only changes
+in strategy for the players involved in the information interchange
+
+(direct effect) but also changes in strategy for the other competing
+retailer (indirect effect).
+Acknowledgments
+This work was supported by National Natural Foundation of
+China No. 61473204. The authors would like to thank the editor
+and anonymous referees, who provided helpful suggestions to improve this paper.
+Supplementary material
+Supplementary material associated with this article can be
+found, in the online version, at doi:10.1016/j.ejor.2019.07.003.
+References
+Abhishek, V., Jerath, K., & Zhang, Z. J. (2016). Agency selling or reselling? Channel
+structures in electronic retailing. Management Science, 62(8), 2259–2280.
+Arya, A., Mittendorf, B., & Sappington, D. E. M. (2007). The bright side of supplier
+encroachment. Marketing Science, 26(5), 651–659.
+Basak, S., Basu, P., Avittathur, B., et al. (2017). A game theoretic analysis of multichannel retail in the context of “showrooming”. Decision Support Systems, 103,
+34–45.
+Chen, J., Liang, L., Yao, D. Q., & Sun, S. (2017). Price and quality decisions in
+dual-channel supply chains. European Journal of Operational Research, 259(3),
+935–948.
+Chiang, W. K., Chhajed, D., & Hess, J. D. (2003). Direct marketing, indirect proﬁts:
+A strategic analysis of dual-channel supply-chain design. Management Science,
+49(1), 1–20.
+Choe, C., King, S., & Matsushima, N. (2017). Pricing with cookies: behavior-based
+price discrimination and spatial competition. Management Science, 64(12),
+5669–5687.
+Chua, A. Y. K. (2011). How web 2.0 supports customer relationship management
+in amazon. International Journal of Electronic Customer Relationship Management,
+5(3–4), 288–304.
+Chun, S. H., Rhee, B. D., Park, S. Y., et al. (2011). Emerging dual channel system and
+manufacturer’s direct retail channel strategy. International Review of Economics
+and Finance, 20(4), 812–825.
+CKGSB
+(2017).
+Will
+ecommerce
+replace
+brick-mortar-chinese-retailers?
+http://knowledge.ckgsb.edu.cn/2017/02/27/retail/will-ecommercereplace- brick- mortar- chinese- retailers/.
+CNET (2017). Xiaomi’s move into brick-and-mortar stores has paid off. Avaliable
+at:
+https://www.cnet.com/news/xiaomi- hits- its- highest- ever- phoneshipments-for-q2/.
+Daily, C. (2017). Xiaomi releases mi 6, speeds up oﬄine expansion. Avaliable at:
+http://m.chinadaily.com.cn/en/2017-04/19/content_28999144.htm.
+eMarketer (2018). Worldwide retail and ecommerce sales: emarketer’s updated
+forecast and new mcommerce estimates for 2016–2021. https://www.
+emarketer.com/Report/Worldwide- Retail- Ecommerce- SaleseMarketers-Updated-Forecast-New-Mcommerce-Estimates-20162021/2002182.
+Fawcett, S. E., Wallin, C., Allred, C., et al. (2011). Information technology as an enabler of supply chain collaboration: A dynamic-capabilities perspective. Journal
+of Supply Chain Management, 47(1), 38–59.
+Foros, Ø., Kind, H. J., & Shaffer, G. (2017). Apple’s agency model and the role of
+most-favored-nation clauses. Rand Journal of Economics, 48(3), 673–703.
+Guo, L. (2009). The beneﬁts of downstream information acquisition. Marketing Science, 28(3), 457–471.
+Ha, A., Long, X., & Nasiry, J. (2015). Quality in supply chain encroachment. Manufacturing and Service Operations Management, 18(2), 280–298.
+Ha, A. Y., Tian, Q., & Tong, S. (2017). Information sharing in competing supply chains
+with production cost reduction. Manufacturing and Service Operations Management, 19(2), 246–262.
+Ha, A. Y., & Tong, S. (2008). Contracting and information sharing under supply chain
+competition. Management Science, 54(4), 701–715.
+Ha, A. Y., Tong, S., & Zhang, H. (2011). Sharing demand information in competing supply chains with production diseconomies. Management Science, 57(3),
+566–581.
+Huang, S., Guan, X. G., & Chen, Y. J. (2018). Retailer information sharing with supplier encroachment. Production and Operations Management,, 27(6), 1133–1147.
+Huang, S., & Yang, J. (2016). Information acquisition and transparency in a supply
+chain with asymmetric production cost information. International Journal of Production Economics, 182(1), 449–464.
+Ingene, C. A., & Parry, M. E. (2004). Mathematical models of distribution channels.
+Springer Science & Business Media.
+Jing, B. (2018). Showrooming and webrooming: Information externalities between
+online and oﬄine sellers. Marketing Science. doi:10.1287/mksc.2018.1084.
+Li, L. (2002). Information sharing in a supply chain with horizontal competition.
+Management Science, 48(9), 1196–1212.
+Li, T., & Zhang, H. (2015). Information sharing in a supply chain with a make-to-stock manufacturer. Omega, 50, 115–125.
+
+S. Zhang and J. Zhang / European Journal of Operational Research 280 (2020) 134–151
+Li, Z., Gilbert, S. M., & Lai, G. (2013). Supplier encroachment under asymmetric information. Management Science, 60(2), 449–462.
+Li, Z., Gilbert, S. M., & Lai, G. (2015). Supplier encroachment as an enhancement or
+a hindrance to nonlinear pricing. Production and Operations Management, 24(1),
+89–109.
+Liu, Y., & Zhang, Z. J. (2006). Research note-the beneﬁts of personalized pricing in a
+channel. Marketing Science, 25(1), 97–105.
+Matsui, K. (2016). Asymmetric product distribution between symmetric manufacturers using dual-channel supply chains. European Journal of Operational Research,
+248(2), 646–657.
+Mehra, A., Kumar, S., & Raju, J. S. (2017). Competitive strategies for brick-and-mortar
+stores to counter “showrooming”. Management Science. doi:10.1287/mnsc.2017.
+2764.
+Rapp, A., Baker, T. L., Bachrach, D. G., et al. (2015). Perceived customer showrooming behavior and the effect on retail salesperson self-eﬃcacy and performance.
+Journal of Retailing, 91(2), 358–369.
+Shubik, M., & Levitan, R. (1980). Market Structure and Behavior. Harvard University
+Press.
+
+151
+
+Singh, N., & Vives, X. (1984). Price and quantity competition in a differentiated
+duopoly. Rand Journal of Economics, 15(4), 546–554.
+Tan, Y., & Carrillo, J. E. (2017). Strategic analysis of the agency model for digital
+goods. Production and Operations Management, 26(4), 724–741.
+Tsay, A. A., & Agrawal, N. (2004). Channel conﬂict and coordination in
+the e-commerce age. Production and Operations Management, 13(1), 93–
+110.
+Wang, J. C., Lau, H. S., & Lau, A. H. L. (2009). When should a manufacturer share
+truthful manufacturing cost information with a dominant retailer? European
+Journal of Operational Research, 197(1), 266–286.
+Wirl, F. (2018). Agency model and wholesale pricing: Apple versus amazon in the
+e-book market. International Journal of the Economics of Business, 15(2), 243–264.
+Yan, W., Xiong, Y., & Chu, J. (2018). Clicks versus bricks: The role of durability in
+marketing channel strategy of durable goods manufacturers. European Journal of
+Operational Research, 265(3), 909–918.
+Zhang, H. (2002). Vertical information exchange in a supply chain with duopoly
+retailers. Production and Operations Management, 11(4), 531–546.
+Zhu, C., & Yao, Z. (2018). Comparison between the agency and wholesale model
+under the e-book duopoly market. Electronic Commerce Research, 18(2), 313–337.
+
+

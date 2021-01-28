@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Platform Pricing with Strategic Buyers: The Impact of Future Production Cost</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability status="unknown"><p>Copyright Wiley</p>
+				</availability>
+				<date type="published" when="2020-02-07">2020-02-07</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mei</forename><surname>Lin</surname></persName>
+							<email>mlin@smu.edu.sg</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiajun</forename><forename type="middle">Amy</forename><surname>Pan</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Quan</forename><surname>Zheng</surname></persName>
+							<email>benzheng@ustc.edu.cn</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">School of Information Systems</orgName>
+								<orgName type="institution">Singapore Management University</orgName>
+								<address>
+									<settlement>Singapore</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Warrington College of Business Administration</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<postCode>32611</postCode>
+									<settlement>Gainesville</settlement>
+									<region>Florida</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">International Institute of Finance</orgName>
+								<orgName type="department" key="dep2">School of Management, University of Science and Technology of China</orgName>
+								<address>
+									<postCode>230026</postCode>
+									<settlement>Hefei</settlement>
+									<region>Anhui</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Platform Pricing with Strategic Buyers: The Impact of Future Production Cost</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Production and Operations Management</title>
+						<title level="j" type="abbrev">Prod Oper Manag</title>
+						<idno type="ISSN">1059-1478</idno>
+						<idno type="eISSN">1937-5956</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<biblScope unit="volume">29</biblScope>
+							<biblScope unit="issue">5</biblScope>
+							<biblScope unit="page" from="1122" to="1144"/>
+							<date type="published" when="2020-02-07" />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/poms.13157</idno>
+					<note type="submission">Received: November 2018; Accepted: December 2019 by Subodha Kumar, after 2 revisions.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>dynamic pricing</term>
+					<term>two-sided platforms</term>
+					<term>sequential innovation</term>
+					<term>network effects</term>
+					<term>strategic consumers</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>T wo-sided platforms are often coupled with exclusive hardware products that connect two sides of users, the consumers of the hardware product (i.e., buyers) and the application developers (i.e., sellers). The hardware product in the platform business model introduces three important issues that are not yet well understood in the literature of platform pricing: potentially downward-trending production cost, product quality improvements, and consumers&apos; strategic behaviors. Using analytical modeling, our study explicitly factors in these issues in analyzing a monopoly platform owner&apos;s two-sided pricing problem. The platform sequentially introduces and prices quality-improving hardware products, for which the costliness of quality may decrease. Strategic buyers make purchasing and upgrading decisions, which dynamically determine the buyer-side network size. Meanwhile, the seller-side network size is determined endogenously. We find that, an increase in the likelihood or magnitude of the future costliness reduction raises the initial buyer-side price of the low-quality product and lowers the seller-side fee. This strategy, in turn, creates an indirect intertemporal effect that allows the platform to also raise the buyer-side price(s) of the product(s) sold later. These findings contrast with conventional wisdom and provide an economic explanation for premium introductory pricing of many platform products. Moreover, we find that strengthening the network effect can result in more pronounced increases in the buyer-side prices.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

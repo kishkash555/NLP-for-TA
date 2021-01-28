@@ -1,0 +1,1939 @@
+Vol. 27, No. 8, August 2018, pp. 1595–1610
+ISSN 1059-1478|EISSN 1937-5956|18|2708|1595
+
+DOI 10.1111/poms.12885
+© 2018 Production and Operations Management Society
+
+Marketplace, Reseller, or Hybrid: Strategic Analysis of
+an Emerging E-Commerce Model
+Lin Tian*
+School of Management, Fudan University, Shanghai 200433, China, ltian11@fudan.edu.cn
+
+Asoo J. Vakharia
+Department of Information Systems & Operations Management, Warrington College of Business Administration, University of Florida,
+Gainesville, Florida 32611-7169, USA, asoov@ufl.edu
+
+Yinliang (Ricky) Tan
+A. B. Freeman School of Business, Tulane University, New Orleans, Louisiana 70118, USA, ytan2@tulane.edu
+
+Yifan Xu
+School of Management, Fudan University, Shanghai 200433, China, yfxu@fudan.edu.cn
+
+raditionally, online retailers have acted as product resellers. Recently, these retailers have also started to serve as
+online marketplaces by providing a platform to directly connect sellers with buyers. Over and above re-shaping the
+traditional e-commerce market, conventional wisdom suggests that this new format will mitigate the double-marginalization effect and benefit both the intermediary and suppliers through a revenue sharing scheme. However, we find that
+upstream competition between suppliers critically moderates this possibility. We also find that the interaction of order-fulfillment costs and upstream competition intensity moderates the selection of an optimal mode for the intermediary. More
+specifically, when order-fulfillment costs are large and when the supplier product offerings are similar (i.e., competition
+intensity is high), the pure reseller mode is the preferred choice; when order-fulfillment costs are small and the supplier
+product offerings are highly differentiated (i.e., low competition intensity), the pure marketplace mode is the preferred
+choice. Finally, the hybrid mode is preferred when order-fulfillment costs are moderate and suppliers’ products are somewhat similar (i.e., competition intensity is moderate). The intuition behind these results hinges on the trade-off between
+transfer of pricing rights and the responsibility for order fulfillment. Our findings not only complement the emerging
+online marketplace literature but also provide testable empirical questions concerning the relationship and magnitude of
+different factors steering the mode choice.
+
+T
+
+Key words: online marketplace; channel structure; upstream competition; order-fulfillment cost
+History: Received: December 2017; Accepted: April 2018 by Subodha Kumar, after 3 revisions.
+
+1. Introduction
+Online retailers who have traditionally acted as resellers are starting to offer online markeplace services
+providing a direct connection between buyers and
+sellers. The success of online marketplaces is well
+documented. For example, direct sales from suppliers
+accounted for 45% of units sold on Amazon.com in
+the second quarter of 2015, and leading Chinese
+online retailer JD.com reports that sales through its
+online marketplace grew at a rate higher than its projection at 40%. Perhaps this is what has driven online
+retailers who were originally resellers to add an
+online marketplace (e.g., Amazon, JD.com, Gome) to
+expand their product offering options for the consumer. However, note that neither Amazon nor JD.
+com is moving forward to the pure marketplace
+
+mode. For example, Amazon and its marketplace sellers offered a total of 353,710,754 different products,
+and Amazon itself carried 12,231,203 in May 2016.1
+Further, some online retailers (e.g., BestBuy.com) are
+still working as pure resellers. More interestingly,
+there are also examples of retailers (such as Zappos.
+com) that started as online markeplaces, but have
+now switched completely to the reseller mode. The
+underlying motivation for these alternative modes is
+not always clear.
+In the reselling mode, online retailers purchase
+products from suppliers for a wholesale price, then
+determine retail prices for consumers. In contrast, in
+the online marketplace mode, suppliers determine
+retail prices and share revenue with the online retailer. The online retailer does not incur any direct
+inventory or delivery costs, but it loses the flexibility
+
+1595
+
+1596
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+of setting market prices. Of course, it is also possible
+for the online retailer to adopt a hybrid configuration
+mode; that is, for some products they act as resellers
+and for others they serve as an online marketplace.
+Regardless of the chosen channel mode, online retailers often offer products from competing suppliers,
+which necessitates an integration of upstream competition in the chain. From an efficiency perspective,
+there is also a need to consider costs related to inventory, storage, and transportation; we refer to these as
+“order-fulfillment costs.” According to a recent report
+in the Wall Street Journal (Kapner 2014), the cost of fulfillment operations can run as high as 25% of the sales
+revenue. The adopted channel mode also affects
+whether the online retailer bears these costs (reseller
+mode) or whether they are borne by the suppliers (online marketplace mode).
+These observations motivate the research of this
+study which is to address the following general question: Should online retailers operate as resellers,
+online marketplaces, or adopt both modes of operation? Which mode would be preferred for suppliers?
+The focus of this study is to examine the desirability
+of these platform choices for the online intermediary.
+More specifically, we investigate the impact of
+upstream (supplier) competition and fulfillment (inventory and delivery) costs on intermediary and supplier profitability across three mutually exclusive
+platform modes: (a) Reseller Mode for both suppliers,
+(b) Hybrid Mode, where one supplier operates under
+the reseller format while the other operates as a direct
+seller through an online marketplace, and (c) Online
+Marketplace Mode for both suppliers. Our study
+helps to shed light on why different online platforms
+adopt different selling modes and determine the key
+drivers of different proportional fees based on product category.
+There is an emerging stream of literature that discusses the importance of the strategic contract choices
+between resellers and online marketplaces with a
+focus on trade-offs between these two distinct pure
+modes. Prior research addressing this general question has focused on information asymmetry (Jiang
+et al. 2011), positive or negative cross-channel effects
+(Abhishek et al. 2016), complementary relationships
+between products and devices (Hao and Fan 2014),
+online product reviews (Young et al. 2014), control
+rights of marketing activity (Hagiu and Wright 2015),
+and downstream competition (Tan et al. 2016). Our
+focus is completely different, as we provide insights
+into how both upstream competition and order-fulfillment costs moderate the choice of channel mode for
+the online intermediary.
+The key findings of our study can be summarized
+as follows. As opposed to the monopoly setting,
+where the marketplace mode will dominate the
+
+reseller mode, our analysis reveals that upstream
+competition intensity and order-fulfillment costs are
+two interacting forces steering the mode choice of the
+online retailer. Essentially, in the reseller mode, the
+intermediary can function as a moderator to alleviate
+the fierce price competition in the online marketplace.
+Specifically, when the order-fulfillment cost is relatively small and the competition intensity is low, the
+pure marketplace mode will become the preferred
+choice; when the order-fulfillment cost is relatively
+high or the competition is sufficiently intense, then
+the pure reseller mode is the preferred choice. The
+hybrid mode is the preferred choice when order-fulfillment costs and competition intensity are both at
+moderate levels. The intuition hinges on the trade-off
+between the intensity of the price competition due to
+the transfer of the pricing right and the responsibility
+of bearing the order-fulfillment cost accompanied by
+the mode change.
+Our findings also suggest that the revenue-sharing
+scheme adopted by many online platforms (i.e., online
+marketplace mode) does not always outperform the
+traditional reseller model. This result holds when the
+upstream competition is very intense or the order-fulfillment cost is high. This implies that depending upon
+upstream competition intensity and magnitude of
+order fulfillment costs, online intermediaries should
+design different contract terms for distinct product categories. For example, instead of allowing the suppliers
+to sell on its website, Amazon can become the reseller
+in certain highly competitive product categories, such
+as electronics. On the other hand, it is more profitable
+for Amazon to serve as a marketplace for other less
+competitive product categories, such as fine art (i.e.,
+long-tail product category). For print books (with high
+order-fulfillment costs), Amazon should serve as a
+reseller, while for e-books (with low order-fulfillment
+costs), Amazon should choose to operate as an online
+marketplace. Thus, the revenue sharing proportion
+(and associated bounds) are useful to encourage or
+discourage the adoption of the online marketplace
+mode by suppliers.
+The remainder of this study is organized as follows.
+In the next section, we review and examine how our
+study relates to relevant literature. This is followed by
+a description of our model and analysis in sections 3
+and 4, respectively. Section 5 presents the main
+insights of our results. Section 6 concludes the paper
+with a summary and possible avenues for future
+research. All proofs can be found in the Online
+Appendix.
+
+2. Relevant Literature
+This study contributes to the emerging research literature that focuses on the strategic mode choice
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+between suppliers and online retailers, and aims to
+reveal the trade-offs between the two distinct pure
+modes (i.e., reseller and online marketplace). One of
+the key aspects in this context is the cross-channel
+effect. This effect is a result of suppliers offering
+goods through multiple channels, potentially leading
+sales in one channel to impact sales in another channel. In the presence of spillovers between channels,
+different selling modes will elicit different reactions
+from suppliers, because the sales through new channels would impact suppliers’ sales in the traditional
+channel (Brynjolfsson et al. 2009). Abhishek et al.
+(2016) study a setting with one supplier and two
+online intermediaries, and find that the online intermediary prefers to use the marketplace mode if the
+sales through the intermediary lead to a negative
+effect on demand of the supplier’s traditional channel,
+and vice versa. They also show that such preferences
+are moderated by competition among intermediaries.
+In contrast, in our study, we examine competition
+between suppliers.
+Hagiu and Wright (2015) focus on a single decision
+variable, the level of demand-enhancing marketing
+activity, which is controlled by suppliers in the pure
+marketplace mode but by the intermediary in the
+pure reseller mode. They assume information asymmetry such that each supplier has information on the
+impact of market activities on demand while the
+intermediary and other suppliers do not. Their results
+indicate that the pure marketplace mode is preferred
+if and only if the variance of the private information
+exceeds the squared value of spillovers from marketing activities across products. In their model, suppliers are only charged a fixed membership fee in the
+pure marketplace mode. However, in reality, there is
+usually a small fixed participation fee plus a large
+proportional revenue sharing fee. By contrast, we
+endogenize the revenue sharing fee, and examine
+how the online intermediary can manipulate this fee
+to encourage or discourage the adoption of the online
+marketplace mode for the suppliers.
+Jiang et al. (2011) also consider the impacts of
+demand-enhancing marketing activities and information asymmetry. They focus on the strategic underselling behavior of sellers on platforms rather than
+the strategic mode choice we consider in this study.
+Other issues of interest have been explored in prior
+research on online marketplaces. Hao and Fan (2014)
+focus on the publishing industry and show that ebook prices are lower in the pure reseller mode due to
+the existence of a complementary market (i.e., e-book
+readers). Young et al. (2014) show that channel mode
+choice can be used as a strategic tool to benefit from
+third-party product reviews. More recently, Tan et al.
+(2016) and Tan and Carrillo (2017) illustrate that the
+mechanism of the online marketplace can benefit both
+
+1597
+
+the upstream supplier and the retailer in the digital
+publishing industry.
+Our study differs from the aforementioned studies
+in four key aspects. First, we explicitly consider
+upstream supplier competition in identifying an equilibrium configuration mode for the online retailer. We
+believe this is a critical aspect since most online retailers simultaneously offer substitute products from
+competing suppliers. Second, since the configuration
+mode impacts the order-fulfillment costs borne by different supply chain members, we also integrate this
+critical aspect in our setting. As indicated earlier,
+these costs are a significant portion of the total channel costs. Third, practice indicates that some online
+retailers operate as both resellers and online marketplaces for the same product category. This drives us
+to explicitly include such a hybrid configuration
+mode in our comparisons. Fourth, we endogenize the
+equilibrium mode choice within the interactions
+between the suppliers and the online intermediary,
+and also the proportional fee for the suppliers under
+the online marketplace mode.
+Our study also contributes to the research literature
+on channel structure. Early work on market channels
+concerned whether suppliers are better off using independent intermediaries instead of vertical integration
+(e.g., Choi 1991, Coughlan 1985, McGuire and Staelin
+1983, Trivedi 1998). A common result is that the existence of independent intermediaries is able to mitigate the competition among suppliers. For example,
+McGuire and Staelin (1983) consider the partial substitutability between two products from two suppliers
+selling through exclusive retailers. They conclude that
+suppliers prefer to use independent intermediaries
+when the degree of substitutability is high, and prefer
+company-owned stores otherwise. Coughlan (1985)
+discusses the problem of choosing a vertical marketing channel in a product-differentiated duopoly market, and shows that integration of the marketing
+function results in greater price competition and
+lower prices than the use of independent marketing
+middlemen.
+Another stream of research on channel structure
+examines the impact of introducing an online direct
+channel in addition to an existing retail channel. Chiang et al. (2003) have argued that the introduction of
+the direct channel may benefit the retailer through a
+reduction of the wholesale price. Tsay and Agrawal
+(2004a) have confirmed that result in a different setting by considering various sources of inefficiency.
+Cai (2010) and Cai et al. (2012) explore the impact of
+multiple channel structures and revenue sharing
+schemes to the supplier, the retailer, and the supply
+chain. Recent research has considered the rationale of
+selling through online platforms. For example, Ryan
+et al. (2012) consider a setting with a supplier who
+
+1598
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+sells goods through its own direct sale website and
+has the option of selling its goods through an online
+platform. They assume that selling through the platform system can attract more customers to the supplier’s own website, but at some expense, e.g., a fixed
+participation fee or proportional fee charged by the
+online platform. Interested readers are referred to
+Cattani et al. (2004) and Tsay and Agrawal (2004b) for
+more comprehensive reviews.
+Our study on strategic mode choice between suppliers and online retailers differs from the stream of
+market channel literature in three ways. First, in prior
+research, the online retailer/intermediary is assumed
+to function as a reseller. In our study, under the online
+marketplace mode, the intermediary acts as an agent,
+charging a proportional fee for each sale. Shy and
+Wang (2011) suggest that such a fee could be regarded
+as a revenue sharing mechanism that may mitigate
+double marginalization. Second, the focus of our
+study is identifying which selling mode is more beneficial for online intermediaries, rather than a comparison of direct/indirect selling activities. Third, we
+explicitly examine how the order-fulfillment cost and
+upstream competition, two significant but unexplored
+factors, determine the mode configuration choice.
+Our research also complements the stream of literature on store-within-store in an offline setting (e.g.,
+Jerath and Zhang 2010, Netemeyer et al. 2012), where
+retailers essentially rent out their retail space to suppliers and give them complete autonomy over retail
+decisions like pricing and in-store services. Our study
+of online marketplaces differs from this literature
+stream in two ways. First, in store-within-store contracts, suppliers typically manage all retail decisions,
+and the retailers charge them a fixed periodic rent
+(Jerath and Zhang 2010). Our work suggests that a
+proportional/revenue sharing fee could be a viable
+alternative in this setting. Through guidelines on proportional fees (a) (i.e., the revenue sharing proportion
+that the online retailers can keep), we show that
+online retailers can set the value of a to encourage or
+discourage the adoption of the online marketplace
+mode for the suppliers. As noted by Cachon and Lariviere (2005), revenue sharing contract is very difficult
+to implement in the offline setting. However, this is
+not the case for the online marketplace setting, which
+is analogous to the store-within-store model. Second,
+we show that order-fulfillment costs and upstream
+competition jointly determine the optimal mode configuration choice for online retailers. To the best of
+our knowledge, the literature on the store-withinstore setting has largely neglected the impacts of these
+two significant but unexplored factors.
+In summary, the key aspects of our paper (e.g., the
+proportional-fee/revenue-sharing fee, the order-fulfillment cost, and the upstream competition between
+
+suppliers) have not been thoroughly explored in the
+extant store-within-store literature. Thus, our findings
+regarding the online marketplace can also provide
+useful insights into store-within-store settings. In the
+next section, we turn to a description of our modeling
+framework.
+
+3. Modeling Framework
+We consider a stylized supply chain consisting of two
+competing suppliers (A and B) selling two substitutable products (A sells product a, B sells product b)
+through a common online intermediary (I). Given that
+the products are substitutable, we follow established
+norms in the marketing and operations literature
+(e.g., Birge et al. 1998, Choi 1991, Gal-Or et al. 2008,
+Garcia-Gallego and Georgantzis 2001, Li and Zhang
+2008, McGuire and Staelin 1983) and our demand
+function is:2
+da ¼ h  pa þ cðpb  pa Þ
+
+ð1Þ
+
+db ¼ h  pb þ cðpa  pb Þ
+
+ð2Þ
+
+where di and pi refer to the realized demand and
+retail prices for product i(=a, b), respectively, and h
+denotes the market potential. c > 0 is the measure of
+the intensity of price competition with higher values
+indicating a greater degree of product substitution
+and greater intensity of price competition.3 Our
+entire analysis, without loss of generality, assumes
+that production costs for suppliers are normalized
+to be equal to zero. For ease of exposition, we use
+the pronoun “he” to represent the intermediary, and
+“she” to denote the suppliers in the remainder of
+the study.
+Three alternative mode choices evaluated are as
+follows:
+
+•
+
+•
+•
+
+Reseller Mode RR: Under mode RR, the intermediary acts as a reseller for both suppliers.
+Since many online intermediaries (e.g., Amazon and JD.com) were historically pure resellers, we set RR mode to be the benchmark
+(current) mode.
+Hybrid Mode PR: This mode represents a setting where the intermediary acts as a marketplace for one supplier (suppose Supplier A) by
+specifying a proportional fee a and acts as a
+reseller for the other supplier (Supplier B).
+Online Marketplace Mode PP: In direct contrast to mode RR, under this mode, the intermediary specifies a proportional fee a to both
+suppliers and acts as a marketplace for both
+suppliers.
+
+Following industry practice, the intermediary acts
+as a Stackelberg leader in terms of whether she will
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+act as a reseller or marketplace for one or both suppliers. The suppliers, as followers, accept or reject the
+intermediary’s offer. In determining the equilibrium
+outcomes, for each alternative mode, the conditions
+under which suppliers will accept the intermediary’s
+mode choice are explicitly incorporated.
+Based on this discussion, it is apparent that the possible existence of each mode of operation is driven by
+the intermediary’s operational offering (e.g., the proportional fee a) and the suppliers’ willingness to
+accept this offer. Assuming the existence of each
+mode, the interaction between the intermediary and
+suppliers is illustrated in Figure 1. The sequence of
+events for each mode of operation is as follows.
+Mode RR: In this benchmark (current) mode, the
+intermediary has decided not to offer the online
+marketplace service and acts as a reseller for both
+suppliers. Suppliers start by simultaneously
+offering wholesale prices wa and wb to the intermediary who in turn simultaneously sets retail
+prices pa and pb for the consumers.
+Mode PR: In this mode, the intermediary has
+offered to act as a marketplace for Supplier A by
+specifying a proportional fee a, and still acts as a
+reseller for Supplier B. Assuming Supplier A
+accepts the online marketplace offer and Supplier B chooses to continue participating under
+
+•
+
+•
+
+Figure 1
+
+•
+
+1599
+
+the reseller format, then based on the quoted
+wholesale price wb from Supplier B, both Supplier A and the intermediary simultaneously set
+the retail prices pa and pb, respectively.
+Mode PP: In this mode, the intermediary has
+offered the online marketplace service to both
+suppliers by specifying the proportional fee a.
+Assuming both suppliers accept the offer, then
+both of them determine the retail prices pa and
+pb simultaneously.
+
+Note that, under the marketplace service, the intermediary yields the pricing power to the supplier. The
+intermediary receives a commission in proportion to
+the supplier’s revenue at a rate of a, which is determined by the intermediary. All three modes are analyzed under a complete information setting.
+The proportion a is specified as a referral fee by
+some online intermediaries (Geng et al. 2018). This
+proportional fee, although different across product
+categories, is the same for all products within a certain category. Empirical data indicates that common a
+values range from 6% to 25% of the sale price depending on the product category on Amazon, while for
+JD.com, the fee for most product categories ranges
+from 5% to 12%. In addition to this proportional fee,
+some intermediaries also charge a fixed subscription
+
+Channel Modes: RR, PR and PP [Color figure can be viewed at wileyonlinelibrary.com]
+
+1600
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+fee. For example, Amazon Marketplace charges a
+$39.99 monthly subscription fee for sellers who plan
+to sell more than 40 items a month. Sears.com also
+charges a $39.99 fee to suppliers whose sales are over
+$400 during one month. Because this fee is relatively
+small compared with the suppliers’ sales volume,
+without loss of generality, we normalize this fixed fee
+part to zero. Previous literature has also adopted this
+assumption (Abhishek et al. 2016).
+Order fulfillment, that is, delivering physical goods
+to the customer, is commonly cited as one of the most
+expensive and critical operations of online sellers
+(Agatz et al. 2008). The cost of order fulfillment can
+run as high as 25% of sales (Kapner 2014). To fulfill an
+order, firms take on costs such as warehouse building/renting costs, hiring staff to handle packages, and
+delivering the products to customers. The costs of storage and hiring staff are quite significant and can be
+viewed as fixed cost. Meanwhile, the delivery cost for
+online shopping is usually undertaken by the customers. For ease of exposition, we assume that orderfulfillment costs are fixed, since we find that the key
+insights stemming from our analysis are similar even
+if these costs are a function of the number of orders
+received.4 Essentially, if the intermediary functions as
+a reseller, he will incur a fixed cost FI > 0 to fulfill the
+order for per product category (product a or b); if the
+intermediary functions as an online marketplace, each
+supplier must be responsible for a fixed cost FS > 0 to
+fulfill orders. Through analysis, we find that if the
+intermediary’s order-fulfillment cost is lower than the
+supplier’s order-fulfillment cost (i.e., FI < FS), the equilibrium mode is more likely to be the pure reseller
+mode, and vice versa. To eliminate the possibility that
+the equilibrium mode is driven by the asymmetric cost
+structure, we assume FI = FS = F in our base model.
+More specifically, in mode RR, the intermediary bears
+order-fulfillment costs for both product categories (i.e.,
+2F); in mode PR, Supplier A bears the order-fulfillment
+cost (F) for its product and the intermediary bears the
+order-fulfillment cost (F) for reselling Supplier B’s product; in mode PP, both Supplier A and Supplier B bear
+the order-fulfillment cost (F) of their own product category.5 Recently, some online intermediaries (e.g.,
+Amazon, Sears, JD, etc.) and 3rd party online order fulfillment service providers have offered an option to
+suppliers that allows them to outsource their order fulfillment. In this case, the supplier will pay some fees
+for order fulfillment; that is, even if the supplier outsources the order fulfillment, he still needs to bear the
+related costs. For ease of exposition and without loss
+of generality, we focus on the case that suppliers will
+fulfill the order in-house in our base model.6
+In the next section, the equilibrium outcomes of
+each channel mode are structurally characterized.
+
+4. Equilibrium Analysis
+The first set of results described below is our benchmark (current) setting where the intermediary acts as
+a reseller for both suppliers (mode RR). Next, we consider the setting where one supplier switches to the
+online marketplace mode while the other supplier still
+adopts the reseller mode (model PR). Finally, we
+focus on the case in which both suppliers choose to
+accept the intermediary terms and switch to the
+online marketplace mode (mode PP). In deriving
+these results, the necessary conditions for the existence of each operating mode (i.e., RR, PR, and PP)
+are that the equilibrium profits for each supplier are
+at least as large as the profits each supplier could realize through exercising an outside option (denoted by
+pO).
+4.1. Mode RR
+Under this setting, the suppliers simultaneously
+quote wholesale prices (wa and wb) and then the intermediary (who bears the order-fulfillment costs for
+both products) determines the retail prices pa and pb.
+The profits for the suppliers and the intermediary are
+as follows:
+pA ðRRÞ ¼ wa ½h  pa þ cðpb  pa Þ;
+pB ðRRÞ ¼ wb ½h  pb þ cðpa  pb Þ;
+pI ðRRÞ ¼ ðpa  wa Þ½h  pa þ cðpb  pa Þ
+þ ðpb  wb Þ½h  pb þ cðpa  pb Þ  2F:
+We solve this game by backward induction. For
+any given wholesale prices wa and wb, we first characterize the equilibrium retail prices that would maximize pI(RR). We then determine the wholesale prices
+for the suppliers by simultaneously maximizing their
+individual profit functions.
+LEMMA 1. There exists a unique equilibrium for mode
+RR. The equilibrium prices and demands are as follows:
+1
+h;
+2þc
+3þc
+h;
+¼
+2ð2 þ cÞ
+1þc
+h;
+¼
+2ð2 þ cÞ
+
+RR
+wRR
+a ¼ wb ¼
+RR
+pRR
+a ¼ pb
+RR
+dRR
+a ¼ db
+
+and the corresponding optimal profits are given by:
+RR
+pRR
+A ¼ pB ¼
+
+pRR
+I ¼
+
+1þc
+2ð2 þ cÞ2
+ð1 þ cÞ2
+2ð2 þ cÞ2
+
+h2 ;
+
+h2  2F:
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+
+1601
+
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+It is straightforward to note that an increase in
+competition intensity (c) would lead to an increase
+in the intermediary’s profit and a simultaneous
+decrease in supplier profits, since an increase in c
+reduces the suppliers’ pricing power relative to
+that of the intermediary. The profit for each supplier under this RR benchmark mode serves as a
+base for evaluating whether a supplier would
+choose the online marketplace if it was offered by
+the intermediary.
+The technical condition for the existence of the
+RR mode and its corresponding equilibrium is that
+the supplier’s profit under this mode is at least as
+large as the profit that each supplier could realize
+by exercising the outside option, that is,
+1þc
+2
+RR
+pO  pRR
+A ¼ pB ¼ 2ð2 þ cÞ2 h . Given that the reseller
+mode is adopted by a large number of suppliers
+selling through online intermediaries, this existence condition is assumed to hold for the remainder of this study.
+4.2. Mode PR
+In this setting, only one supplier will be offered
+the option of the online marketplace mode from
+the intermediary. Hence, one supplier adopts the
+online marketplace mode if accepted, while the
+other retains the reseller mode. Without loss of
+generality, we assume that the online marketplace
+option is accepted by Supplier A, and the intermediary operates as a reseller for Supplier B. For a
+given proportion a, the suppliers’ and intermediary’s profits are:
+
+pPR
+a ¼
+pPR
+b ¼
+dPR
+a ¼
+
+þ ðpb  wb Þ½h  pb þ cðpa  pb Þ  F:
+We solve this game by backward induction as follows. For any given wb, we first characterize the
+simultaneous pricing decision where Supplier A decides the retail price of product a (i.e., pa) to maximize
+pA(PR), and the intermediary decides the retail price
+of product b (i.e., pb) to maximize pI(PR). Next we
+determine Supplier B’s wholesale price wb to maximize pB(PR). Finally, using this wholesale price wb,
+the optimal retail prices pa and pb can be set. The
+results of this analysis are presented in the lemma
+below.
+LEMMA 2. Given a proportion a and Supplier A accepting the offer of an online marketplace while the intermediary serves as a reseller for Supplier B, there exists a
+unique equilibrium with prices and demands are as
+follows:
+
+h;
+½4ð1 þ cÞ2  ð1 þ aÞc2 ð4 þ 8c þ 2c2 Þ
+ð3 þ 6c þ 2c2 Þð2 þ 3cÞ þ að1 þ c  c2 Þc
+
+h;
+½4ð1 þ cÞ2  ð1 þ aÞc2 ð2 þ 4c þ c2 Þ
+ð4 þ 9c þ 3c2 Þð1 þ cÞð2 þ 3cÞ  að1 þ cÞð1 þ 2cÞc2
+
+½4ð1 þ cÞ2  ð1 þ aÞc2 ð4 þ 8c þ 2c2 Þ
+ð1 þ cÞð2 þ 3cÞ  að1 þ 2cÞc
+dPR
+h;
+b ¼
+2½4ð1 þ cÞ2  ð1 þ aÞc2 
+
+h;
+
+and the corresponding equilibrium profits are:
+pPR
+A ¼
+ð1  aÞ
+pPR
+B ¼
+
+ð1 þ cÞ½ð4 þ 9c þ 3c2 Þð2 þ 3cÞ  að1 þ 2cÞc2 2
+½4ð1 þ cÞ2  ð1 þ aÞc2 2 ð4 þ 8c þ 2c2 Þ2
+½ð1 þ cÞð2 þ 3cÞ  að1 þ 2cÞc2
+
+2ð1 þ cÞ½4ð1 þ cÞ2  ð1 þ aÞc2 ð4 þ 8c þ 2c2 Þ
+
+pPR
+I ¼a
+
+h2  F;
+
+h2 ;
+
+ð1 þ cÞ½ð4 þ 9c þ 3c2 Þð2 þ 3cÞ  að1 þ 2cÞc2 2
+"
+
+þ
+
+½4ð1 þ cÞ2  ð1 þ aÞc2 2 ð4 þ 8c þ 2c2 Þ2
+
+h2
+#
+
+½ð1 þ cÞð2 þ 3cÞ  að1 þ 2cÞc
+2ð1 þ cÞ½4ð1 þ cÞ2  ð1 þ aÞc2 2 ð4 þ 8c þ 2c2 Þ
+
+Mh2  F;
+where:
+M ¼ ½ð1 þ cÞð2 þ 3cÞð2 þ 4c þ c2 Þ þ að1 þ cÞð2 þ 3cÞc2
+þ að3 þ 4cÞð2 þ 4c þ c2 Þc  a2 ð1 þ 2cÞc3 :
+
+pA ðPRÞ ¼ ð1  aÞpa ½h  pa þ cðpb  pa Þ  F;
+pB ðPRÞ ¼ wb ½h  pb þ cðpa  pb Þ;
+pI ðPRÞ ¼ apa ½h  pa þ cðpb  pa Þ
+
+ð1 þ cÞð2 þ 3cÞ  að1 þ 2cÞc
+h;
+2ð1 þ cÞð2 þ 4c þ c2 Þ
+ð4 þ 9c þ 3c2 Þð2 þ 3cÞ  að1 þ 2cÞc2
+
+wPR
+b ¼
+
+For the equilibrium in Lemma 2 to exist, the following proposition characterizes the sufficient conditions
+under which Supplier A will accept the intermediary’s marketplace offer and Supplier B will continue
+to participate under the reseller mode.
+PROPOSITION 1. Supplier A will accept the intermediary’s
+RR
+offer of an online marketplace provided pPR
+A  pA , and
+Supplier B will continue to participate under the reseller
+O
+mode provided pPR
+B  p . This leads to the following sufficient conditions for the existence of the PR mode:
+
+•
+•
+
+F ≤ FPR;
+where
+1þc
+2
+h ; and
+2ð2 þ cÞ2
+
+FPR ¼
+
+PR
+a  aPR ¼ min½aPR
+A ; aB ,
+unique
+solution
+
+ð4 þ 9c þ 3c2 Þ2 ð1 þ cÞ
+ð2 þ cÞ2 ð4 þ 8c þ 2c2 Þ2
+
+where
+of
+
+h2 
+
+aPR
+is the
+A
+ð1  aPR
+A Þ
+
+ð1 þ cÞ½ð4 þ 9c þ 3c2 Þð2 þ 3cÞ  aPR
+ð1 þ 2cÞc2 2 2
+A
+h 
+2 2 ð4 þ 8c þ 2c2 Þ2
+½4ð1 þ cÞ2  ð1 þ aPR
+Þc
+A
+h2 and aPR
+is the unique
+B
+2
+½ð1 þ cÞð2 þ 3cÞ  aPR
+B ð1 þ 2cÞc
+h2 ¼
+2 ð4 þ 8c þ 2c2 Þ
+2ð1 þ cÞ½4ð1 þ cÞ2  ð1 þ aPR
+Þc
+B
+
+F ¼
+
+1þc
+2ð2 þ cÞ2
+
+solution
+p .
+O
+
+of
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+
+1602
+
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+Proposition 1 characterizes the conditions under
+which Supplier A will accept the intermediary’s marketplace offer, and Supplier B will not pursue the outside option but continue to participate under the
+reseller mode. The first condition relates to the orderfulfillment cost, which should not exceed a certain
+threshold. Recall that by choosing the online marketplace service, the supplier gains pricing power but
+bears the order-fulfillment cost at the same time.
+Thus, this threshold value of the fulfillment cost
+reflects the trade-off between gains from the pricing
+power and the costs (in terms of order fulfillment) of
+realizing such gains.
+Assuming the first condition is satisfied, the proposition then specifies a second condition related to the
+maximum proportion a, which can be charged to the
+supplier by the intermediary. Interesting insights
+regarding this proportion a are shown in Lemma 3.
+pPR
+I
+
+LEMMA 3. (i)
+increases in a whereas both
+pPR
+decrease
+in
+a;
+(ii)
+aPR decreases in F.
+B
+
+pPR
+A
+
+and
+
+Lemma 3(i) indicates that an increase in a will
+increase the intermediary’s profit pPR
+I and simultaneously decrease Supplier A’s profit pPR
+A . Hence a
+RR
+should be small (i.e., a  aPR
+)
+to
+ensure
+pPR
+A
+A  pA so
+that Supplier A will accept the intermediary’s marketplace offer. Meanwhile, a counterintuitive result is
+that an increase in a would also lead to a reduction in
+the profit of the other supplier (B), who has not been
+offered the online marketplace service. The reason for
+this negative spillover effect is that when a is
+increased, the supplier (A) tends to increase the price,
+as the intermediary will keep a higher proportion of
+the revenue. More specifically, when the intermediary
+raises the proportion a she can keep, Supplier A
+responds by charging higher retail prices. In response,
+the intermediary sets a higher retail price for Supplier
+B’s product, leading to lower demand for the same
+product. The net result is lower profit for Supplier B.
+Thus a needs to be small enough (a  aPR
+B ) so that
+Supplier B will not pursue the outside option but continue to participate under the reseller mode or
+O 7
+pPR
+B  p . In equilibrium, assuming the condition
+related to the order-fulfillment cost is met (i.e.,
+F ≤ FPR), then the intermediary will set a ¼ aPR ¼
+PR
+min½aPR
+A ; aB  since this will allow the intermediary to
+extract the maximum profits from the supplier. Further, Lemma 3(ii) shows that this threshold value of
+the proportional fee (i.e., aPR) is decreasing in the
+order-fulfillment cost (F).
+In summary, from a managerial perspective, our
+results indicate that the intermediary requires a
+strategic focus in choosing the parameters for offering
+the online marketplace service. This service will only
+be attractive to suppliers provided the order-
+
+fulfillment cost is not significantly high. If this is the
+case, then the intermediary should set the proportion
+a equal to its upper bound in order to realize the maximum profits. From a supplier perspective, the online
+marketplace offering is preferred over the reseller setting when the flexibility gains due to price setting outweigh the explicit costs of order fulfillment.
+4.3. Mode PP
+In this setting, both suppliers will be offered the
+option of online marketplace from the intermediary.
+If both suppliers choose the online marketplace service, they will take into consideration the proportion
+a which they need to share with the intermediary. For
+a given proportion a, the profits for each supplier and
+the intermediary under this mode (i.e., both suppliers
+choose the online marketplace service) are as follows:
+pA ðPPÞ ¼ ð1  aÞpa ½h  pa þ cðpb  pa Þ  F;
+pB ðPPÞ ¼ ð1  aÞpb ½h  pb þ cðpa  pb Þ  F;
+pI ðPPÞ ¼ apa ½h  pa þ cðpb  pa Þ
+þ apb ½h  pb þ cðpa  pb Þ:
+We solve this game by simultaneously determining
+the retail prices pa and pb which maximize pA(PP)
+and pB(PP). The results are shown in the lemma
+below.
+LEMMA 4. Assuming both suppliers accept the proportion a, there exists a unique equilibrium with retail prices
+and demands are as follows:
+1
+h;
+2þc
+1þc
+h:
+¼
+2þc
+
+PP
+pPP
+a ¼ pb ¼
+PP
+dPP
+a ¼ db
+
+The corresponding equilibrium profits are given by
+PP
+pPP
+A ¼ pB ¼ ð1  aÞ
+
+pPP
+I
+
+1þc
+
+ð2 þ cÞ2
+1þc 2
+¼ 2a
+h:
+ð2 þ cÞ2
+
+h2  F;
+
+When is this mode a possible outcome? This can be
+framed using the decision matrix in Table 1 where we
+are interested in the equilibrium when both suppliers
+will accept the online marketplace offer. This equilibrium will arise when both of the following conditions
+hold: Given that Supplier B (A) adopts the reseller
+model, Supplier A’s (B’s) profit should be higher
+under the condition of acceptance than refusal of the
+RR
+intermediary’s marketplace offer, which is pPR
+A  pA
+RP
+RR
+(pB  pB ); given that Supplier B (A) adopts the
+online marketplace, Supplier A’s (B’s) profit should
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+Table 1 Decision Matrix with Resulting Profits
+Supplier B option
+Supplier A option
+
+Online marketplace
+
+Reseller
+
+Online marketplace
+
+pPP
+A ;
+
+pPP
+B
+
+PR
+pPR
+A ; pB
+
+Reseller
+
+pRP
+A ;
+
+pRP
+B
+
+RR
+pRR
+A ; pB
+
+RP
+PR
+RP
+Note: Due to symmetry, we know that pPR
+A ¼ pB , and pB ¼ pA
+
+also be higher when it accepts rather than refuses the
+RP
+intermediary’s marketplace offer, which is pPP
+A  pA
+PP
+PR
+(pB  pB ). In addition, to ensure this equilibrium is
+stable, both suppliers’ profits under the PP mode
+should not be lower than the profit under the outside
+O
+PP
+O
+option, which is pPP
+A  p (pB  p ). Based on the
+results in Lemma 4, the following proposition identifies the conditions under which both suppliers will
+not pursue the outside option but choose the online
+marketplace service offering.
+PROPOSITION 2. Both suppliers will choose the online
+RR
+PP
+RP
+marketplace service provided pPR
+A  pA , pA  pA , and
+PP
+O
+pA  p . This leads to the following sufficient conditions for the existence of the PP mode:
+
+•
+•
+
+þ cÞð2 þ 3cÞ
+F ≤ FPP; where FPP ¼ ð21þþcÞc 2 h2  2ð2 ð1
+þ cÞð4 þ 8c þ 2c2 Þ
+2
+h ; and
+PP
+PP
+PP
+a  aPP ¼ minfaPR
+A ; aA ; aB g; where aA is the
+PP 1 þ c
+unique solution of ð1  aA Þ ð2 þ cÞ2 h2  F ¼
+½ð1 þ cÞð2 þ 3cÞ  aPP
+ð1 þ 2cÞc2
+A
+h2 and
+2ð1 þ cÞ½4ð1 þ cÞ2  ð1 þ aPP
+Þc2 ð4 þ 8c þ 2c2 Þ
+A
+1þc
+2
+unique solution of ð1  aPP
+B Þ ð2 þ cÞ2 h 
+
+aPP
+B is the
+F ¼ pO .
+
+Similar to the hybrid mode, both suppliers will
+accept the intermediary’s online marketplace offer
+when the order-fulfillment cost and the proportional
+fee that the intermediary charges are all below a certain threshold. It is worth noting that the threshold in
+order-fulfillment cost is more stringent than that stated
+in Proposition 1, since FPP < FPR. As before, the interPP
+mediary’s profit pPP
+I increases in a, while both pA and
+PP
+pB decrease in a. In equilibrium, the intermediary is
+once again incentivized to set a = aPP, which decreases
+in the order-fulfillment cost (F). We also note that suppliers’ profits will decrease as the upstream competition intensifies (i.e., a higher value of c).
+In the next section, we compare the equilibrium
+solutions for the three modes with a view to providing managerial insights.
+
+5. Insights
+5.1. Pricing and Demand
+From a pricing and demand perspective, the proposition below provides a comparison across the three
+channel modes.
+
+1603
+
+PROPOSITION 3. Comparing the equilibrium results of
+retail prices and demand, we have (i) pRR
+¼
+a
+PR
+PR
+PP
+PP
+PR
+PP
+pRR
+[
+p
+[
+p
+[
+p
+¼
+p
+;
+(ii)
+d
+[
+d
+a
+a
+a
+a ¼
+b
+b
+b
+RR
+RR
+PR
+dPP
+[
+d
+¼
+d
+[
+d
+.
+a
+b
+b
+b
+Interestingly, the results of Proposition 3 are independent of the proportional fee rate a and hold regardless of the parameter settings for competition
+intensity (c) and maximum market size (h). Essentially, market prices are highest in the pure reseller
+mode since they are set by the intermediary who
+attempts to moderate the competition between the
+suppliers. On the other hand, when the suppliers set
+the retail prices by operating in the online marketplace mode, they compete with each other directly,
+leading to lower retail prices. Because of double
+marginalization, in mode PR, the retail price of the
+product that does not join the online marketplace is
+higher than the price for which the supplier who
+chooses to do so. Corresponding to these pricing
+structures, demand coverage is higher in the online
+marketplace mode (PP) as compared to the reseller
+mode (RR).
+5.2. Intermediary Profits
+We now proceed to examine how intermediary profitability across the three modes is affected by two key
+parameters: competition intensity (c) and order-fulfillment cost (F).8 To assess how these parameters affect
+profitability of all supply chain members across the
+three modes, we start by making the following
+assumptions. First, we assume that the order-fulfillment cost is small enough to ensure that both mode
+PR and PP are feasible. Analytically, the potential values of F under this assumption are that F < FPP(<FPR).
+Note that the value of F which satisfies the first
+assumption also leads both aPR and aPP to be positive.
+Our second and final assumption is that the intermediary chooses to set a = aPR for mode PR and a = aPP
+for mode PP, which represent equilibrium outcomes.
+Proposition 4 structurally characterizes which
+mode choice would be preferred by the intermediary, as moderated by the competition intensity
+parameter c.
+PROPOSITION 4. There exist competition intensity thresholds c > 0 and c (>c ) such that:
+
+•
+•
+•
+
+If c < c , the optimal mode is PP;
+If c > c , the optimal mode is RR; and
+If c ≤ c ≤ c mode PR can be the optimal mode.
+
+Proposition 4 indicates that when competition
+intensity is low, the optimal mode is PP; when competition intensity is high, the optimal mode is RR. In
+addition, we observe that when competition intensity
+is medium, the optimal mode is PR. The rationale
+
+1604
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+behind these results hinges on the moderating role of
+the intermediary. Previous literature has shown that
+the intermediary prefers high levels of upstream competition, as it strengthens its channel power (Wang
+and Shin 2015). From a mode perspective, suppliers
+compete more fiercely in the online marketplace
+mode compared with the reseller mode as they set the
+prices directly and alternative modes allow the intermediary to moderate this competitive effect. To elaborate, when both suppliers are very competitive, the
+intermediary would prefer to operate as a reseller,
+since any other mode will lead to increased price competition which in turn negatively impacts the intermediary. This result validates the conjecture of Hagiu
+(2007) that strong substitutability between suppliers’
+products would lead to a greater preference for the
+pure reseller mode. When the competition intensity
+between suppliers is low, the intermediary’s moderating role is not as important. Note that in mode PP the
+proportional fee could be considered a form of revenue sharing, which would mitigate the impact of
+double-marginalization (Geng et al. 2018, Shy and
+Wang 2011, Tan and Carrillo 2017). Hence, the intermediary prefers mode PP when competition intensity
+is low. When the competition intensity between suppliers is in the intermediate range, the intermediary’s
+moderating role is important but not significant
+enough to alleviate double-marginalization effects,
+leading to a preference for the hybrid mode PR.
+Anecdotal observations provide face validity for
+our results. For the household appliance market in
+China, the similarity between branded products leads
+to strong substitutability (or high competition intensity). Hence, most online retailers (e.g., JD.com) prefer
+to act as resellers for products in this category. On the
+other hand, the media content industry (publishing,
+video games) is characterized by low levels of product substitutability (or low competition intensity).
+This has motivated online retailers to set the terms for
+the online marketplace mode in such a way that suppliers have chosen that mode of operation. Etsy.com,
+the largest e-commerce website in handmade or vintage items, serves as a pure online marketplace
+because of low product substitutability. Further,
+Amazon serves as the reseller in certain high competitive product categories, such as electronics, but serves
+as a marketplace for other less competitive product
+categories, such as fine art (i.e., long-tail product
+category).
+Next, we consider the impact of the order-fulfillment cost on the choice of equilibrium mode for the
+intermediary. Note that Proposition 4 shows that
+when the market competition intensity is above a certain threshold, the intermediary will always prefer to
+act as a reseller. To investigate the impact of the
+order-fulfillment cost, next we focus on the case that
+
+the market competition intensity is not too high. The
+proposition below characterizes the mode preferred
+by the intermediary depending on the magnitude of
+the order-fulfillment cost.
+PROPOSITION 5. When the market competition intensity
+is relatively small (i.e., c \ c jF¼0 ), there exists two
+thresholds F > 0 and F (≥F ) such that:
+
+•
+•
+•
+
+when F ≤ F , the preferred mode is PP; and
+when F < F ≤ F , the preferred mode is PR; and
+when F > F , the preferred mode is RR.
+
+Proposition 5 shows that the magnitude of the
+order-fulfillment cost will alter the mode choices.
+When the market competition intensity is relatively
+low (c \ c jF¼0 ), as the order-fulfillment cost
+increases, the equilibrium mode will evolve from a
+pure marketplace mode to a hybrid mode then to a
+pure reseller mode. The intuition of this result lies in
+the fact that the higher the order-fulfillment cost
+becomes, the more difficult it becomes for the intermediary to convince the suppliers to adopt the marketplace mode and endure the order-fulfillment cost.
+Recall that both aPR and aPP decrease in F. That is, as
+the order-fulfillment cost increases, the intermediary
+has to set a much lower proportional fee to ensure
+that the suppliers will accept the marketplace offer.
+This becomes increasingly expensive as the order-fulfillment cost increases. As a result, the intermediary
+prefers the marketplace mode for both suppliers
+when the order-fulfillment cost is low and favors the
+reseller mode when the order-fulfillment cost is
+significant.
+From a practical perspective, we observe that most
+hotel and airline companies use the PP mode on travel sites such as Expedia, Travelocity, Ctrip, and
+Qunar (Ctrip and Qunar are leading travel sites in
+China). This is partially driven by the low (almost
+negligible) order-fulfillment cost for electronic tickets/bookings. In the publishing industry, a transition
+to the PP mode from the RR mode is evident for ebooks while the RR mode is still preferred for print
+books. This could be due in part to the fact that orderfulfillment costs are greater for printed books as compared to e-books.
+Having analytically examined the impacts of the
+competition intensity and order-fulfillment cost individually, we next numerically illustrate how the interactions between these two parameters affect the mode
+choice for the intermediary. Figure 2 was generated
+by setting h = 10 (i.e., the market potential equals to
+10) and pO = 0 (i.e., the outside option facing the
+supplier is 0). Then we simultaneously vary
+F (F 2 ð0; FPP jc¼0 Þ, where FPP jc¼0 ¼ 12:5) and c
+(c 2 (0, 2)). Note that our results are robust to the
+parameter changes.
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+Figure 2 Preferred Mode: Interaction of F and c (h = 10, pO = 0)
+[Color figure can be viewed at wileyonlinelibrary.com]
+2
+1.8
+
+RR
+
+1.6
+1.4
+
+PR
+
+γ
+
+1.2
+1
+0.8
+0.6
+
+PP
+
+0.4
+0.2
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+F
+From Figure 2, we first observe that for any given
+order-fulfillment cost, increasing levels of competition intensity (i.e., c) results in a transition from
+mode PP to mode PR and then to mode RR as intermediary’s preferred mode choice. Second, when the
+market competition intensity is relatively low (i.e.,
+c  c jF¼0 ), as the order-fulfillment cost increases, the
+equilibrium mode will evolve from mode PP to
+mode PR and then mode RR. Third, when the market competition intensity is in a medium range (i.e.,
+c jF¼0 \ c \ c jF¼0 ), the preferred transition is
+between modes PR and RR as the order-fulfillment
+cost increases. In addition, when the market competition intensity is relatively high (i.e., c  c jF¼0 ), then
+the reseller mode RR will dominate as the preferred
+mode choice. The intuition behind these results
+hinges on the trade-off between the transfer of control rights for product pricing and the responsibility
+for order fulfillment. The results here provide executable managerial insights to the online platforms.
+Specifically, if competition intensity is low and the
+order-fulfillment cost is not too high, then the intermediary should specify a relatively low proportional
+fee a to induce suppliers to switch to mode PP. As
+both competition intensity and order-fulfillment
+costs increase, the intermediary should increase the
+proportional fee a to motivate some supplier switching. Finally, when both competition intensity and
+order-fulfillment cost are high, then the proportional
+fee a should be set to a large value to discourage the
+suppliers from switching to the online marketplace
+mode.
+5.3. Supplier Profitability
+It is straightforward to show that if the intermediary
+sets the referral proportion a such that a  12, then for
+both suppliers, mode RR always optimizes their own
+profitability. It is only when a \ 12 that supplier
+choices are moderated by the order-fulfillment cost F,
+
+1605
+
+the referral proportion a, and the level of competition
+intensity c.
+More specifically, assume that the supplier terms
+are such that F ≤ FPP and a = aPP so that mode PP is
+now a feasible alternative. In this case, the choice of
+both suppliers to move to the online marketplace
+mode PP from the reseller mode RR is dependent
+upon the level of competition intensity such that: (a)
+under low levels of competition intensity, both suppliers’ profits are larger under mode RR, and (b)
+under high levels of competition intensity, the reverse
+is true. These results indicate that regardless of the
+terms offered by the intermediary through the referral
+proportion a, the exogenous market parameter c will
+affect whether suppliers are better or worse off under
+mode PP or mode RR. Hence, from a managerial perspective, it is relevant to not only evaluate the intermediary’s terms for the online marketplace mode but
+also to examine the intensity of competition within a
+product category.
+Assume that F ≤ FPR and a = aPR so that mode PR
+is a feasible alternative. The supplier choosing the
+online marketplace service would realize higher profits under mode PR as compared to mode RR, while
+we observe that the supplier operating under the reseller mode (i.e., the supplier who is not offered the
+option of online marketplace by the intermediary)
+would realize lower profits in mode PR as compared
+to mode RR. Without the alleviation of the doublemarginalization effect, Supplier A (who chooses the
+online marketplace mode) will decrease the retail
+price of its product to attract consumers, which leads
+to a reduction in the total demand for the other supplier (i.e., B). Although Supplier B attempts to alleviate this demand reduction with a relative price
+decrease to enhance profitability, the net impact does
+not result in a larger profit for this supplier as compared to when both suppliers operate as resellers (i.e.,
+mode RR). Managerially, this reflects a “first mover”
+advantage for suppliers. As soon as the intermediary
+offers a reduction in the referral proportion a and sets
+a = aPR, the first supplier to choose to switch to the
+online marketplace service would be the one who
+reaps the gains from this mode of operation. Note that
+the competition intensity parameter c does not moderate this finding.
+5.4. Supply Chain Profits
+Our next focus is on total supply chain profits (i.e., the
+sum of both the suppliers’ profits and the intermediary’s profit) across the three modes. The fulfillment
+cost parameter is irrelevant in terms of this comparison and hence we set F = 0. Figure 3 illustrates the
+total supply chain profits as a function of the competition intensity parameter c (the maximum market size
+h = 10 and the outside option profit pO = 0). When
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+
+1606
+
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+Figure 3 The Supply Chain Profit under Different Modes (h = 10,
+pO = 0, F = 0) [Color figure can be viewed at wileyonline
+library.com]
+50
+
+The supply chain profit
+
+48
+46
+44
+42
+RR
+PR
+PP
+
+40
+38
+36
+
+0
+
+0.5
+
+1
+1.5
+The competition intensity: γ
+
+2
+
+competition intensity is low, total supply chain profits
+are at a maximum under mode PP; at the other
+extreme, when competition intensity is high, total
+supply chain profits are at a maximum under mode
+RR. It is only when competition intensity is the middle range that mode PR leads to maximum supply
+chain profits. The driver of these results is the tradeoff between the alleviation of the double-marginalization effect and price competition.
+
+Table 2 The Percentage of the Reseller Mode Used on JD.COM
+Household appliance
+Electric kettle
+1.1 L and below
+–
+17.7%
+Multi-role pot
+2–4 L
+–
+13.5%
+Water heater
+60 L and below
+–
+Egg boilers
+–
+Yogurt maker
+
+10.4%
+5 below
+19.0%
+500 ml
+
+25.0%
+5–10
+28.4%
+800–1000
+
+–
+Cleaning products
+Cloth cleaning
+–
+Home cleaning
+–
+Skin care
+
+11.8%
+
+14.5%
+
+1.5 above
+48.1%
+6 above
+47.1%
+80 and
+above
+31.3%
+10 above
+35.3%
+1200 and
+above
+56.3%
+
+0–1 kg
+29.2%
+500 ml below
+3.5%
+100 ml below
+
+1–3
+32.4%
+500–1000
+4.3%
+100–199
+
+3 above
+41.2%
+1000 above
+6.9%
+200–399
+
+4.4%
+
+4.3%
+
+6.7%
+
+1 kg and below
+5.8%
+
+1–5
+9.9%
+
+5 above
+12.7%
+
+8 inch below
+13.6%
+13 inch below
+
+8–10
+41.8%
+13–15
+
+10 above
+44.8%
+15 above
+
+2.7%
+
+10.5%
+
+12.8%
+
+–
+Food
+Rice grains
+–
+Digital products
+Student tablet
+–
+Laptop
+computer
+–
+
+1.2–1.5
+42.6%
+4–6
+22.6%
+60–79
+
+400 and
+above
+7.8%
+
+Source: Data collected from JD.com during March 2015.
+
+5.5. Anecdotal Evidence
+Since fulfillment costs (F) are related to inventory,
+storage, and transportation, it is reasonable to assume
+that “larger” products (in terms of weight and/or
+size) would lead to higher fulfillment costs. Given our
+results that higher fulfillment costs would lead to a
+stronger preference for the reseller mode (RR), we
+provide limited anecdotal evidence that these results
+hold in practice.
+JD.com is one of the largest B2C online retailers in
+the world with annual sales around $23 billion. We
+focus our attention on a few product categories (e.g.,
+cleaning products, household appliances, food, and
+digital products) sold on JD.com during March 2015.
+For each product category, the percentage of suppliers operating in a reseller mode (RR) is shown in
+Table 2. This Table shows that for each individual
+product, as product size/weight increases, the percentage of the reseller mode being adopted increases.
+Given that fulfillment costs would be higher for products with higher weight and/or larger size, this data
+provides validity to our results on the impact of
+order-fulfillment cost.
+It is also interesting to note that there are significant
+differences in the percentage of suppliers who choose
+the reseller mode (RR) within and across product categories. For example, comparing the food/oil category to the household appliance category, we see that
+
+a significantly larger percentage of suppliers choose
+the reseller mode in the latter category as compared
+to the former. One explanation for this is that consumers might consider products within the household
+appliances category as being more homogeneous compared to products within the food/oil category. Since
+this would imply higher competition intensity for
+products in the household appliances category as compared to products in the food/oil category, it is preferable for suppliers to choose the reseller mode in the
+latter category and the online marketplace mode in the
+former category.
+Finally, there are also differences for individual
+products within a product category. As product size
+and/or weight increases for both student tablets and
+laptop computers, a greater percentage of suppliers
+choose to operate under the reseller mode. These percentages are significantly different across the individual products. As we explored earlier, these differences
+could stem from differences in product differentiation
+(or competition intensity) for individual products
+within a product category; that is, lower fulfillment
+costs coupled with lower product differentiation
+(or higher competition intensity) leads to a higher percentage of suppliers choosing the reseller mode for student tablets as compared to lower fulfillment costs
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+coupled with higher product differentiation (or lower
+competition intensity) for laptop computers.
+5.6. Variable vs. Fixed Order-Fulfillment Cost
+Since customers are often responsible for delivery
+costs in online shopping, we normalize the variable
+cost of the order fulfillment to zero and focus on the
+fixed cost in our base model. It could be argued that
+variable order-fulfillment costs are proportional to
+market demand and hence, instead of fixed fulfillment costs, we should incorporate them into our analysis. When we do so, the results do not lead to any
+changes in our key insights. The primary reason for
+this is that variable order-fulfillment costs not only
+influence pricing decisions but also affect proportional fees in the equilibrium. Thus, they affect the
+results in a similar qualitative manner as fixed orderfulfillment costs. In particular, a higher (lower) variable order-fulfillment cost results in higher (lower)
+market prices. With a higher market price the supplier is less likely to accept the intermediary’s marketplace offer with the same proportional fee rate,
+making the pure reseller mode more likely to emerge
+as an equilibrium choice. Since the focus of our study
+is on the strategic interactions between the online
+intermediary and the suppliers in mode choice, rather
+than on pricing strategy, a positive variable order-fulfillment cost only leads to more analytical complexity
+without yielding additional insights into our research
+questions. This is the rationale for choosing to incorporate fixed rather than variable fulfillment costs in
+our model.
+5.7. Asymmetric Order-Fulfillment Costs or
+Market Potentials
+Our analysis so far has assumed symmetric suppliers
+in terms of order fulfillments costs and market potentials. For the case of asymmetries in these parameters,
+we find that our key results and qualitative insights
+still hold. There are some interesting new insights that
+emerge from this investigation which are both related
+to the hybrid mode PR (details are provided in the
+Online Appendix).
+First, the intermediary should offer the online marketplace option to the supplier with the lower relative
+order-fulfillment cost. This result is driven by the fact
+that the sufficient condition stated in Proposition 1 for
+the order-fulfillment cost is easier to achieve when the
+online marketplace offer is made to the supplier with
+the lower cost. Second, if the two suppliers have different market potentials, it is always optimal for the
+intermediary to provide and convince the supplier
+with higher market potential to accept the online marketplace offer. The proportional fee is a form of
+revenue sharing and hence, can mitigate doublemarginalization effects (Geng et al. 2018, Tan and
+
+1607
+
+Carrillo 2017). A higher market potential induces a
+larger loss due to double-marginalization, and thus,
+by offering the online marketplace option to the supplier with a higher market potential, this loss can be
+reduced. This finding is consistent with industry
+practice. For example, Walmart Marketplace is invitation-only. They claim that “We are looking for relationships with reputable retailers and brands that
+provide first-class customer service, a compelling product assortment, competitive pricing and fast, reliable
+fulfillment.”9
+
+6. Conclusions and Discussions
+A relatively new mode of operation for online intermediaries is the “online marketplace.” Under this mode,
+the online intermediary offers an option to suppliers:
+The intermediary can act as a reseller of the suppliers’
+products, or let the suppliers to operate as independent suppliers on the intermediary platform; that is,
+the intermediary simply acts as an “online marketplace.” In this study, we have provided insights into
+the key aspects that moderate the decision of an intermediary to operate as a reseller, operate as an online
+marketplace, or adopt a hybrid mode of operation.
+Previous research has indicated that the online marketplace is always the preferred option for supply
+chain members, since it reduces the double marginalization impact and thus increases profits for all members. We show that this is not necessarily the case.
+Instead, we note that the degree of competition intensity and magnitude of order-fulfillment cost moderate
+the preference regions within which distinct modes
+are preferred by the online intermediary. For given
+fulfillment costs: (a) high levels of competition intensity lead to the intermediary preferring the reseller
+mode, (b) moderate levels of competition intensity
+lead to a preference for the hybrid mode, and (c) at
+low levels of competition intensity, the preferred
+mode is the online marketplace. The key intuition
+behind this finding is the moderating role of the intermediary. Similarly, for a given level of competition
+intensity, we show that: (a) when order-fulfillment
+costs are low, the marketplace mode is the preferred
+choice, (b) moderate levels of order-fulfillment costs
+lead to the choice of the hybrid mode, and (c) the
+reseller mode is preferred when order-fulfillment
+costs are high.
+We also find that a non-trivial interaction effect
+between the degree of competition intensity and the
+magnitude of fulfillment costs affects optimal mode
+choice for the intermediary. For example, the threshold order-fulfillment costs for the intermediary to
+switch from a marketplace to a hybrid mode or from
+a hybrid to a reseller mode decreases as competition
+intensity increases. Similarly, the threshold level of
+
+1608
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+competition intensity for the intermediary to switch
+from a marketplace to a hybrid mode or from a hybrid
+to a reseller mode decreases as fulfillment costs
+increase. Through data collected from one online
+intermediary, we also provide some face validity for
+our findings. Finally, these key insights hold regardless of whether the order fulfillments costs are fixed
+(as our analysis assumes) or are variable and demand
+dependent.
+From a practical perspective, online retailers should
+consider providing the online marketplace option for
+product categories in which the competition among
+different suppliers is not intense, while adopting the
+traditional reseller mode for highly competitive products. An alternative is to discriminate between sellers
+across different product categories by using distinct
+revenue sharing proportions. For highly competitive
+product categories, the online intermediary can
+demand a higher proportional fee while charging a
+lower fee for the sellers in the long-tail product categories. Also, if the related order-fulfillment cost is
+very high, even when the competition is not intense,
+the online intermediary can still leverage the reseller
+mode to improve profitability.
+We conclude the paper by pointing out a few
+caveats about our model and some directions for
+future research. First, we have assumed that the supplier’s profit stemming from the outside option is not
+very high. If a supplier’s profit under the outside
+option is very high, the supplier will choose to leave
+the intermediary and pursue the outside option. Consequently, the original operating modes will no
+longer exist and we will have a monopoly case. Existing literature (Hao and Fan 2014, Tan and Carrillo
+2017) have studied the monopoly case and showed
+that the marketplace mode always dominates the
+reseller mode due to the revenue sharing structure in
+the marketplace mode. The focus of our paper is to
+illustrate how upstream competition and order-fulfillment cost can alter the existing results and provide
+unique managerial insights into the online intermediary managers. For this reason, the monopoly case is
+not as pertinent as the competitive case. In summary,
+to focus on the more relevant and realistic competitive
+case, we assume that the outside option is not the preferred choice for the suppliers.
+Second, in practice, many major suppliers and
+brand owners introduce their own direct-sale websites in addition to selling through popular online
+retailing platforms. In such situations, the supplier’s
+decision within its separate online store will interact
+with the selling mode (i.e., reseller or marketplace)
+and also the price in the online retailing platform.
+That is, there will be cross-channel effects. How will
+the two channels interact with each other? How will
+their interactions influence the suppliers’ and the
+
+intermediary’s preferences on selling modes and the
+corresponding pricing decisions? Ryan et al. (2012)
+and Abhishek et al. (2016) have provided some
+insights, but further studies are required. We leave it
+for future research to explicitly examine the effect of
+cross-channel effects on the mode choice for online
+intermediaries. Additionally, note that there are also a
+few large-scale suppliers/brand owners who do not
+sell through online retailing platforms. For example,
+Apple sells computers and accessories on Amazon,
+but it does not sell iPhones on Amazon. We find some
+anecdotal evidence regarding why certain companies
+(e.g., Apple) choose not to sell on the third-party
+online marketplaces.10 Essentially it is due to competition, as Amazon itself also provides many competing products at the same time. Although our model
+cannot directly explain this rationale, we think this
+is also a promising research question for future
+scholars.
+Third, our analysis and expositions have focused
+on the emerging online marketplace. In reality, there
+exists offline store-within-store models. The most typical and representative example is the consignment
+store, where the seller displays products in the store
+and shares the revenue with the product owners.
+Though our research resonates with such settings,
+there are some subtle but important differences with
+online marketplaces. To begin with, typically it is the
+consignment shop, not the product owner, who sets
+prices. Second, unlike the online marketplace, consignment shops typically sell second-hand and vintage products. Third, the revenue sharing contract is
+difficult to implement in the offline setting as pointed
+out by Cachon and Lariviere (2005). The marketplace
+idea is applicable to an offline setting, but it is not as
+popular as the online marketplace. Finally, a consignment store’s reach is limited by consumer proximity.
+All these reasons might explain why consignment
+stores do not proliferate in practice.
+Extensions of our work that may be of interest
+would be to capture other factors, such as complementary markets, asymmetric information and economies
+of scale of order-fulfillment cost, in addition to competition intensity and order-fulfillment cost. Another
+possible avenue would be to investigate the optimal
+mode choice not only in the case of supplier competition, but also integrating downstream competition
+where buyers might be in direct competition with
+one another. Finally, although we have confirmed
+that our findings are consistent with practical observations, our research poses some testable empirical
+questions. Our hope is that, as this body of literature expands in scope, many other related research
+issues will be investigated with a view to furthering
+our understanding of the efficacy of online
+marketplaces.
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+1609
+
+6
+
+Acknowledgments
+The authors contributed equally to this work. The authors
+thank the department editor, the senior editor, and two
+anonymous reviewers for their valuable suggestions that
+have significantly improved this study. They also thank
+Fuqiang Zhang, Baojun Jiang, and Qingning Cao for comments on earlier versions of the study. This research is supported in part by the National Natural Science Foundation
+of China (grants 71702093, 71531005, and 71431004).
+
+Notes
+1
+http://www.businesswire. com/news/home/20160614006063/
+en/Products-Amazon-Carry-Categories (accessed date May
+10, 2016).
+2
+Note that our linear demand functions can be derived
+from the maximization problem of a representative consumer with a quadratic and strictly concave utility function which is defined in Singh and Vives (1984):
+
+ð/d2 þ 2wd d þ /d2 Þ2
+
+a b
+b
+Uðda ; db Þ ¼ hda þ hdb  a
+, where / ¼ 11þþ2cc ,
+2
+c
+w ¼ 1 þ 2c, and di is the amount of product i. In specific,
+the
+representative
+consumer
+maximizes
+U
+(da, db)  pada  pbdb, where pi is the price of product i.
+Please refer to Singh and Vives (1984) for detailed clarifications and analysis.
+3
+It is trivial to show that these demand functions satisfy
+the regularity properties for product substitutes. The ratio
+of price elasticity of demand for a supplier’s own product
+offering is greater than the price elasticity of demand for
+the substitute product offering since 1 + c > c. Note c has
+an alternative interpretation, which is product differentiation. If consumers perceive that products are highly differentiated (i.e., low competition intensity), then the value of
+c is low and vice versa.
+4
+In our extension, we have illustrated that the impact of a
+variable cost for order fulfillment is very similar to the
+impact of a fixed order-fulfillment cost. When the marginal order-fulfillment cost is relatively small or moderate,
+our main results remain the same; when the marginal
+order-fulfillment cost becomes much higher, the results
+become similar to the case in which there is a very large
+fixed order-fulfillment cost.
+5
+For mode RR (i.e., the intermediary choosing to act as a
+reseller for both suppliers), our entire analysis is based on
+assuming that there are no economies of scale in order fulfillment costs realized by the intermediary. If such economies do exist then these can be integrated by assuming
+total fulfillment costs under mode RR equal bF with
+(1 ≤ b < 2). Since order fulfillment costs have no impact
+on the equilibrium wholesale and market prices (and
+hence, realized demands) for both suppliers, then the only
+impact would be on the corresponding optimal profits of
+the intermediary under mode RR which would increase
+by (2  b)F. Hence, integrating economies of scale in
+order fulfillment costs would not change our insights substantively except that there would be changes in the preference regions for the three strategy choices with the
+preference regions for mode RR increasing and the preference regions for PR and PP would decline.
+
+Note that we have implicitly assumed that the two
+suppliers are symmetric for both order-fulfillment cost
+(e.g., FS) and the market potential(e.g., h). The analysis
+and results of asymmetric cases are discussed in section
+5.7.
+7
+O
+Although one may argue that the condition pPR
+B  p
+seems restrictive, it not only reflects real-world practice
+(i.e., for certain products, some suppliers choose to operate under the reseller mode while others choose the online
+marketplace option) but also market conditions. By selling
+through an intermediary, suppliers can ensure access to a
+larger customer base, and at the same time, offer their customers the benefit of an integrated shopping experience,
+using the intermediary platform. Thus, in a competitive
+setting, a supplier could choose to operate under the reseller mode even though its competitor chooses an alternative mode.
+8
+The reason to focus on the intermediary’s profit rather
+than suppliers’ profits is that the intermediary can directly
+control the channel mode by structuring the terms of the
+online marketplace service. Suppliers, on the other hand,
+are assumed to make rational choices based on these
+terms and hence, play a passive role in the process.
+9
+https://marketplace.walmart.com/FAQ (accessed date
+May 10, 2017).
+10
+https://www.cnet.com/news/why-doesnt-amazon-selliphones (accessed date October 10, 2017).
+
+References
+Abhishek, V., K. Jerath, Z. J. Zhang. 2016. To platform-sell or
+resell? Channel structures in electronic retailing. Management
+Sci. 62(8): 2259–2280.
+Agatz, N. A. H., M. Fleischmann, J. van Nunen. 2008. E-fulfillment and multi-channel distribution: A review. Eur. J. Oper.
+Res. 187(2): 339–356.
+Birge, J. R., J. Drogosz, I. Duenyas. 1998. Setting single-period
+optimal capacity levels and prices for substitutable products.
+Int. J. Flex. Manuf. Syst. 10(4): 407–430.
+Brynjolfsson E., J. Hu, M. S. Rahman. 2009. Battle of the retail
+channels: How product selection and geography drive crosschannel competition. Management Sci. 55(11): 1755–1765.
+Cachon, G., M. Lariviere. 2005. Supply chain coordination with
+revenue-sharing contracts: Strengths and limitations. Management Sci. 51(1): 30–44.
+Cai, G. 2010. Channel selection and coordination in dual-channel
+supply chains. J. Retail. 86(1): 22–36.
+Cai, G., Y. Dai, S. X. Zhou. 2012. Exclusive channels and revenue
+sharing in a complementary goods market. Market. Sci. 31(1):
+172–187.
+Cattani, K. D., W. G. Gilland, J. Swaminathan. 2004. Coordinating
+traditional and internet supply chains. International Series in
+Operations Research and Management Science. D SimchiLevi, D. Wu, M. Shen, eds. Modeling in the EBusiness Era.
+Kluwer Academic Publishers, Boston, MA, 643–677.
+Chiang, W. K., D. Chhajed, J. D. Hess. 2003. Direct marketing,
+indirect profits: A strategic analysis of dual-channel supplychain design. Management Sci. 49(1): 1–20.
+Choi, S. C. 1991. Price competition in a channel structure with a
+common retailer. Market. Sci. 10(4): 271–296.
+Coughlan, A. T. 1985. Competition and cooperation in marketing
+channel choice: Theory and application. Market. Sci. 4(22):
+110–129.
+
+1610
+
+Tian, Vakharia, Tan, and Xu: Strategic Analysis of an E-Commerce Model
+Production and Operations Management 27(8), pp. 1595–1610, © 2018 Production and Operations Management Society
+
+Gal-Or, E., T. Geylani, A. Dukes. 2008. Information sharing in a
+channel with partially informed retailers. Market. Sci. 27(4):
+642–658.
+Garcia-Gallego, A., N. Georgantzis. 2001. Multiproduct activity in
+an experimental differentiated oligopoly. Int. J. Ind. Organ.
+19(3–4): 493–518.
+
+Shy, O., Z. Wang. 2011. Why do payment card networks charge
+proportional fees? Am. Econ. Rev. 101(4): 1575–1590.
+Singh, N., X. Vives. 1984. Price and quantity competition in a differentiated duopoly. RAND J. Econ. 15(4): 546–554.
+Tan, Y., J. Carrillo. 2017. Strategic analysis of the agency model
+for digital goods. Prod. Oper. Manag. 26(4): 724–741.
+
+Geng, X., Y. Tan, L. Wei. 2018. How add-on pricing interacts with
+distribution contracts. Prod. Oper. Manag. 27(4): 605–623.
+
+Tan, Y., J. Carrillo, H. Cheng. 2016. The agency model for digital
+goods. Decis. Sci. 47(4): 628–660.
+
+Hagiu, A. 2007. Merchant or two-sided platform? Rev. Netw. Econ.
+6(2): 115–133.
+
+Trivedi, M. 1998. Distribution channels: An extension of exclusive
+retailership. Management Sci. 44(7): 896–909.
+
+Hagiu, A., J. Wright. 2015. Marketplace or reseller? Management
+Sci. 61(1): 184–203.
+
+Tsay, A. A., N. Agrawal. 2004a. Channel conflict and coordination
+in the e-commerce age. Prod. Oper. Manag. 13(1): 93–110.
+
+Hao, L., M. Fan. 2014. An analysis of pricing models in the electronic book market. MIS Q. 38(4): 1017–1032.
+Jerath, K., Z. J. Zhang. 2010. Store within a store. J. Mark. Res.
+47(4): 748–763.
+
+Tsay, A. A., N. Agrawal. 2004b. Modeling conflict and coordination in multi-channel distribution systems: A review. International Series in Operations Research and Management
+Science. D. Simchi-Levi, D. Wu, M. Shen, eds. Modeling in
+the EBusiness Era, Kluwer Academic Publishers, Boston, MA,
+557–606.
+
+Jiang, B., K. Jerath, K. Srinivasan. 2011. Firm strategies in the “Mid
+Tail” of platform-based retailing. Market. Sci. 30(5): 757–775.
+Kapner, S. 2014. How the web drags on some retailers. The Wall
+Street Journal. Available at http://www.wsj.com/articles/
+how-the-web-drags-on-some-retailers-1417477790 (accessed date
+November 30, 2015).
+Li, L., H. Zhang. 2008. Confidentiality and information sharing
+in supply chain coordination. Management Sci. 54(8):
+1467–1481.
+McGuire, T. W., R. Staelin. 1983. An industry equilibrium analysis
+of downstream vertical integration. Market. Sci. 2(2): 161–191.
+Netemeyer, R. G., C. M. Heilman, J. G. Maxham III. 2012. The
+impact of a new retail brand in-store boutique and its perceived fit with the parent retail brand on store performance
+and customer spending. J. Retail. 88(4): 462–475.
+Ryan, J. K., D. Sun, X. Zhao. 2012. Competition and coordination
+in online marketplaces. Prod. Oper. Manag. 21(6):997–1014.
+
+Wang, J., H. Shin. 2015. The impact of contracts and competition
+on upstream innovation in a supply chain. Prod. Oper. Manag.
+24(1): 134–146.
+Young, K., J. Chen, S. Raghunathan. 2014. Online product
+reviews: Implications for retailers and competing manufacturers. Inf. Syst. Res. 25(1): 93–110.
+
+Supporting Information
+Additional supporting information may be found online
+in the Supporting Information section at the end of the
+article.
+Appendix S1: Proofs of Lemmas and Propositions.
+Appendix S2: Analysis for Asymmetric Cases.
+
+

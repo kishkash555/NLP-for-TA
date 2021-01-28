@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Contract selection for a multi-service sharing platform with self-scheduling capacity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2018-07-29">29 July 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yong-Wu</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">South China University of Technology</orgName>
+								<address>
+									<postCode>510641</postCode>
+									<settlement>Guangzhou</settlement>
+									<region>Guangdong</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaogang</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">South China University of Technology</orgName>
+								<address>
+									<postCode>510641</postCode>
+									<settlement>Guangzhou</settlement>
+									<region>Guangdong</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuanguang</forename><surname>Zhong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">South China University of Technology</orgName>
+								<address>
+									<postCode>510641</postCode>
+									<settlement>Guangzhou</settlement>
+									<region>Guangdong</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Xie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">South China University of Technology</orgName>
+								<address>
+									<postCode>510641</postCode>
+									<settlement>Guangzhou</settlement>
+									<region>Guangdong</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Contract selection for a multi-service sharing platform with self-scheduling capacity</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Omega</title>
+						<title level="j" type="abbrev">Omega</title>
+						<idno type="ISSN">0305-0483</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">86</biblScope>
+							<biblScope unit="page" from="198" to="217"/>
+							<date type="published" when="2018-07-29">29 July 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.omega.2018.07.011</idno>
+					<note type="submission">Received 12 December 2017 Accepted 26 July 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Sharing economy Self-scheduling capacity Customer surplus Contract design</keywords>
+			</textClass>
+			<abstract>
+				<p>In this paper, we investigate three commission contracts for a monopoly firm, who acts as a transaction platform between customers and service providers. The platform provides multiple services with self-scheduling service providers and allows the customers to purchase different services based on their preferences. Ideally, for the transactions of different services, the platform can charge different rates of commissions accordingly, which is called the &quot;optimal contract&quot;, to maximize its profit. However, in practice, the other two contracts are commonly adopted, i.e., the free-customers-commission (FCC) contract and the dynamic-customers-commission (DCC) contract, and both of them do not apply the optimal commission policy. In particular, the three contracts all regulate the numbers of providers who join the platform. By observing these phenomena, we propose to study the commission and recruitment strategies for different contracts. We analyze the reason why the platforms adopt the FCC or DCC contract, but not the optimal contract, over different development stages. Compared to the optimal contract, our results show that the DCC contract hurts the customer surplus but improves the provider surplus, while the FCC contract can improve the benefits of both parties. We also extend our base model to incorporate the price endogeneity and competition concerns. The results of our study can be used to explain the underlying mechanisms of the proposed three contracts and provide guidance to the practitioners to select the best-fit one.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,1142 @@
+European Journal of Operational Research 144 (2003) 280–294
+www.elsevier.com/locate/dsw
+
+Electronic marketplaces: A literature review and a call
+for supply chain management research
+Martin Grieger
+Department of Operations Management, Copenhagen Business School, DK-2000 Frederiksberg, Denmark
+
+Abstract
+These days, Internet-based electronic marketplaces (EMs) are getting more and more popular. They emerge in
+diﬀerent industries, supporting the exchange of goods and services of diﬀerent kinds, with and for diﬀerent types of
+actors, and are following diﬀerent architectural principles. Most observers have assumed that EM would come to
+dominate the e-business landscape. Once you look beyond the publicity, however, you quickly see that most EMs are
+struggling. The supply chain dimension of an EM is largely neglected and poorly managed, while basic logistics operation is currently hampering turnover and revenues. The Paper at hand examines, based on a critical literature review,
+the actual EM discussion and calls for more supply chain management research within this ﬁeld.
+ 2002 Elsevier Science B.V. All rights reserved.
+Keywords: Supply chain management; Electronic marketplaces; Electronic business; Relationships; Electronic commerce; Information
+technology
+
+1. Introduction
+The world of business is being changed to an
+e-economy by new forces global competition, increased information availability, educated consumers, changing relationships, rapid innovations,
+and increasingly complex products. No industry is
+left untouched. In todayÕs customer-focused marketplace, supply chain management has become a
+key to competitive advantage. But having accepted
+the challenge to create a synchronised supply chain
+that can compete in the future e-economy, what
+concrete capabilities must then be mastered? We
+see an increase in the number and functionality of
+business models that use information systems that
+cross organisational boundaries, such as systems
+E-mail address: mg.om@cbs.dk (M. Grieger).
+
+linking one or more ﬁrms with customers and/or
+suppliers. New business models emerge or old
+business models improve and experience a renaissance. But they all have a very short history and
+still have to prove their proﬁtability and function.
+So why not instead ask the question: Which competencies must a business model, using the Internet
+medium, manage amidst a competition regarding
+‘‘supply chain versus supply chain’’? One of these
+business models is an ‘‘Internet-based B2B electronic marketplace’’ (EM), which this paper is dealing with.
+
+2. Methodology
+This paper provides a survey of the EM discussion and presents an EM deﬁnition (Section 3).
+
+0377-2217/03/$ - see front matter  2002 Elsevier Science B.V. All rights reserved.
+PII: S 0 3 7 7 - 2 2 1 7 ( 0 2 ) 0 0 3 9 4 - 6
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+Next, the paper exposes the importance of supply
+chain management within EMs (Section 4). In
+Section 5 the relevancy of supply chain management for an EM is analysed by examining the type
+of relationship within diﬀerent EM categories.
+A standard literature review was conducted
+along with a key word search of the World Wide
+Web. The investigation included international
+journals as well as reports from smaller journals,
+conference papers and the ‘‘grey’’ literature (i.e.,
+popular articles, unpublished reports and other
+documents, and some Internet (non-journal)
+materials). First, relevant keywords, such as
+‘‘electronic marketplace’’, ‘‘electronic SCM’’,
+‘‘electronic exchange’’, and ‘‘electronic auction’’
+were deﬁned. Then, a search in electronic scientiﬁc
+databases, internet portals and websites of relevant
+consultant and research ﬁrms was conducted;
+various search engines were used (see Appendix A
+for a description of the methodological approach
+to the search process).
+
+3. Introducing electronic marketplaces
+3.1. The jargon jungle and the problem of understanding electronic marketplaces
+E-commerce can be take place among businesses (B2B) or between businesses and consumers
+(B2C) but the Internet also encompasses a wider
+spectrum of potential commercial activities and
+information exchanges and chances for an EM
+intermediary (see Fig. 1). Many of these EMs have
+been established on the Internet since the middle
+of 1999. The Economist estimates that there were
+already over 750 EMs in existence in the ﬁrst
+quarter of 2000 (The Economist, 2000).
+The EM concept, however, dates back to mid
+1940s when the ﬁrst documented EM system,
+known as Selevision, was used to remote-market
+Florida citrus fruit (Henderson, 1984). Real developments in EMs, however, only started in the
+late 1970s when the ﬁrst computer-based EM pilot
+project was initiated (McCoy and Sarhan, 1988).
+During its history, the core function of the EM
+facilitating trading transactions for buyers and/or
+sellers––has remained. It seems that only innova-
+
+281
+
+Fig. 1. Internet applications (Coppel, 2000).
+
+tion has been the medium underlying the market
+mechanism, which has been developed from analogue telephone systems to digital computer networks.
+As new entrants with new business models pour
+into the B2B space, it is increasingly diﬃcult to
+make sense of the new EM landscape. Due to the
+new technology of Internet technology, EMs became more and more interesting for both researchers and practitioners because the limiting
+factors of time and space seem to have been overcome by the new medium. Via the Internet, EMs
+are ubiquitous and available 24 hours a day (Schmid, 1993; Weber, 1993). They seem to be more
+‘‘just’’ and ‘‘self-ruled’’ as well as more competitive
+and decentralised (Himberger et al., 1991; Malone
+et al., 1987). Following these arguments, EMs
+could be considered manifestations of the neoclassical market ideal, reducing transaction costs to
+a negligible minimum (Schmid, 1993; Bakos, 1991).
+New EM viewpoints have grown and its research is
+popular in a range of disciplines, though deﬁnitions
+are varying, attributes and characteristics seem to
+be innumerable and used arbitrarily (see Table 1).
+Is an EM an interorganisational information
+system (Bakos, 1991), an electronic procurement
+solution (Segev et al., 1999), a medium (Schmid
+et al., 1998), a meeting point (Kaplan and Sawhney, 2000), an intermediary (Dai and Kauﬀman,
+2000) or just a listing (Bradley and Peters, 1997)?
+Beyond that, some authors argue for special attributes such as virtual (Segev et al., 1999), digital
+(Dai and Kauﬀman, 2000), public (Ariba, 2000;
+
+282
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+Table 1
+Selected EM deﬁnitions
+Author (s)
+
+Selected EM deﬁnitions
+
+McCoy and
+Sarhan (1988)
+
+‘‘An EM separates the negotiating function from the physical transfer of the product or commodity in which the
+market trades. It can manage buyersÕ and sellersÕ oﬀers and bids, as well as moving products directly from sellers
+to buyers. The system is open to all buyers and sellers, regardless of their location and can provide instant market
+information to all traders’’
+‘‘. . .is an interorganisational information system that allows the participating buyer and sellers to exchange
+information about prices and product oﬀerings’’
+‘‘. . . can be viewed as a public listing of products and their attributes from all suppliers in an industry segment,
+and available to all potential buyers’’
+‘‘. . . facilitating the exchange of information, goods, services, and payments. In the process, they create economic
+value for buyers, sellers, market intermediaries, and for society at large’’
+‘‘. . . is a media which foster market based exchanges between agents in all transaction phases’’
+
+Bakos (1991)
+Bradley and
+Peters (1997)
+Bakos (1998)
+Schmid et al.
+(1998)
+Segev et al.
+(1999)
+Dai and Kauﬀman (2000)
+Mueller (2000)
+Ariba (2000)
+
+Kaplan and
+Sawhney (2000)
+Lipis et al.
+(2000)
+
+‘‘Compared to many other electronic procurement solutions, EMs represent a relatively neutral position between
+buyer and seller, providing services to both sides of a transaction. An EM represents a virtual place where buyers
+and sellers meet to exchange goods and services’’
+‘‘. . . function as digital intermediaries that focus on industry verticals or speciﬁc business functions. They set up
+marketplaces where ﬁrms participate in buying and selling activities after they obtain membership’’
+‘‘Electronic markets allow buyers and sellers to exchange information about product oﬀerings and prices bid and
+asked’’
+‘‘. . . are commerce sites on the public Internet that allow large communities of buyers and suppliers to ‘‘meet’’ and
+trade with each other. They present ideal structures for commercial exchange, achieving new levels of market
+eﬃciency by tightening and automating the relationship between supplier and buyer’’
+‘‘. . . is a meeting-point where suppliers and buyers can interact online’’
+‘‘. . . is an Internet-based solution that links businesses interested in buying and selling related goods or services
+from one another. It can be distinguished from a procurement or distribution system insofar as it must be neutral,
+taking into account the interests of both buyers and sellers in its governance’’
+
+Bradley and Peters, 1997), neutral (Segev et al.,
+1999), or open (McCoy and Sarhan, 1988). These
+examples show that the vocabulary, which is
+used to describe this new area of business, is under
+establishment. Within the ‘‘e-hub name game’’
+(Obrecht, 2000) the name EM barely prevails
+against other terms and concepts like B2B marketplaces, e-hubs, e-markets, exchanges, auctions,
+portals seem to overlap and mean diﬀerent things
+to diﬀerent people. In the following section an
+attempt is made to set out a clear deﬁnition of
+an EM.
+3.2. An electronic marketplace deﬁnition
+A marketplace as a historically evolved institution allows customers and suppliers to meet at a
+certain place and at a certain time in order to
+communicate and to announce buying or selling
+intentions, which eventually match and may be
+
+settled. Today the institution market still does the
+same, but has occasionally been remodelled due to
+the evolution of media. However, owing to the
+evolution of modern information and (tele-) communication technology, time and space restrictions
+have been weakened and the cyberspace has become the new meeting point.
+The unique feature of an EM is that it brings
+multiple buyers and sellers together (in a ‘‘virtual’’
+sense) in one central market space. If it also enables them to buy and sell from each other at a
+dynamic price which is determined in accordance
+with the rules of the exchange, called an electronic
+exchange; otherwise it is called a portal. The important point, which diﬀerentiates an exchange
+from other B2B e-commerce companies, is that an
+exchange involves multiple buyers and sellers and
+it centralises and matches buy and sell orders and
+provides post-trade information. One should
+compare this with the e-procurement process of
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+one company, say General Motors, which sets up a
+web site with an auction process for suppliers to
+bid on contracts with General Motors. This is not
+an EM––because there is only one buyer. Similarly, a business that oﬀers goods or services for
+sale to other businesses, over the Internet, is not an
+EM even if it provides a price-setting mechanism
+that is normally associated with an EM, such as
+an auction––because there is only one seller.
+To summarise these thoughts and show diﬀerent views (Schmid, 1999), an EM could be deﬁned
+as
+(a) institutional––as a medium
+• that assigns diﬀerent roles within a community, primarily buyers and suppliers, but also
+other roles like logistics service providers,
+banks, and other intermediaries;
+• that facilitate the exchange of information,
+goods, services, and payments;
+• that provide an infrastructure––deﬁne protocols and processes that rule the inter action within the community, and also
+provide a common language.
+(b) social––as a community consisting of buyers,
+sellers, etc.
+• which could be described by a certain
+condition, which includes the participantsÕ
+knowledge, intention, contracts (assets and
+liabilities) and goods, at a certain time;
+• with roles involving rights and duties;
+• which intends to use market transactions exchange––or communication procedures––in
+order to change their condition according
+to their intention.
+Other examinations are also thinkable as well,
+for example an economic view or a legal view.
+
+4. Supply chain management and electronic markets
+4.1. Why electronic marketplaces need to (re)act
+Most observers have assumed that EMs would
+come to dominate the B2B landscape. Once you
+look beyond the publicity, however, you soon
+realise that most EM are ﬂoundering and are
+
+283
+
+adorned with their enormous number of users or
+members, their huge product list, the number of
+oﬀers to sell or requests to buy that are placed on
+their website each day; or the quantities that have
+been traded. The number of completed transactions, on the other hand, is much smaller than the
+number of members.
+Wise and Morrison (2000) name three fatal
+ﬂaws of EMs: ‘‘First, the value proposition offered––competitive bidding among suppliers allows buyers to get the lowest possible prices––runs
+counter to the best recent thinking on buyer–supplier relations.’’ In their ‘‘purest’’ sense, markets
+are characterised by an inﬁnite number of anonymous participants, perfect information transparency and instant competition based on (dynamic)
+price alone (Tapscott et al., 2000). Although such a
+scenario promises maximum economic welfare via
+optimal allocation of resources, it is at as the same
+time highly unrealistic as it results in a situation
+where corporate proﬁt margins are approaching
+zero. Other factors, such as quality, timing of deliveries, and customisation, are often more important than price in determining the overall value
+provided by a supplier. Many companies have
+spent the last years in managing their supply chain
+links and/or have spent the last decades methodically forging tighter, more strategic relationships
+with suppliers; many such aﬃliations have involved joint product-design eﬀorts, integration of
+complex processes, and long-term service contracts
+(Wise and Morrison, 2000). Second, Wise and
+Morrison state that EMs deliver little beneﬁt to
+sellers: ‘‘Yes, suppliers have access to more buyers
+with only a modest increase in marketing cost, but
+that beneﬁt is overwhelmed by pricing pressure.
+Few suppliers want to be anonymous contestants
+in ruthless bidding wars, and for the highestquality, most innovative suppliers, price battles are
+anathema.’’ Finally, the business models of most
+EMs are, at best, ‘‘half-baked’’. In their rush to get
+on-line, the companies that run the EM have not
+taken the time to study their customersÕ priorities
+in depth, to create distinctive oﬀerings, or even
+map out paths to proﬁtability.
+Perhaps the most critical question is whether
+the technology or the EM itself exacerbates antitrust problems. Susan DeSanti, director of policy
+
+284
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+planning at the Federal Trade Commission (FTC)
+in Washington states that ‘‘anytime there is some
+kind of a purchasing joint venture among competitors, it has the potential to raise antitrust issues’’ (Nash, 2000). The competitor watches what
+everybody else does, taking advantage of this new
+electronic window into a process that used to be
+carried out more discreetly with papers, phones
+and personal meetings (Nash, 2000).
+The question has been raised whether the age of
+the new economy will reserve a place for these
+intermediaries, given that new technologies facilitate direct links between supply chain members, such as manufacturers and end consumers of
+products, or businesses and their suppliers. But,
+nevertheless, many researchers state that supply
+chain management is a necessity for EMs. The
+next section reviews their argumentation.
+4.2. Supply chain management and electronic marketplaces––compatible or incompatible?
+4.2.1. From a theoretical standpoint
+Theoretically, the relationship between EMs
+and supply chain management appears problematic. Co-operative supply chains aim to reduce the
+number of suppliers and form long-term strategic
+alliances that Ôlock inÕ suppliers and Ôlock outÕ
+competition, while EMs promote competition and
+allow buyers to search for suitable suppliers and
+support ‘‘transaction-based’’ partnering.
+Economies have two basic mechanisms for
+co-ordinating the ﬂow of materials or services
+through adjacent steps in the value chain––markets and hierarchies (Malone et al., 1987, 1989;
+Picot and Kirchner, 1987). Williamson categorises
+transactions into those that support co-ordination
+between multiple buyers and sellers, i.e., market
+transactions, and those that support co-ordination
+within the ﬁrm, as well as the industry value chain,
+i.e., hierarchy transactions (Williamson, 1975,
+1981). Williamson points out that the choice of
+transaction will depend on a number of factors,
+including asset speciﬁcity, the partiesÕ interest in
+the transaction, and ambiguity and uncertainty in
+precisely describing the transaction.
+The electronic markets hypothesis developed by
+Malone et al. (1987) predicts that, all other things
+
+being equal, the introduction of information
+technology will lead to greater use of markets rather than hierarchies for economic transactions.
+Lower levels of two factors, asset speciﬁcity and
+complexity of description, will favour markets
+rather than hierarchies in a given industry.
+A highly speciﬁc asset is more likely to be
+acquired through hierarchical co-ordination than
+through market co-ordination. Transactions involving asset-speciﬁc products often involve a long
+process of developments and adjustments for the
+supplier to meet the needs of the procurer, a process that favours the continuity found in a hierarchy (Malone et al., 1987).
+A product with high description complexity is
+more likely to be acquired through hierarchical
+co-ordination because of higher transaction costs
+associated with the exchange of complex descriptions. In a market these complex descriptions must
+be obtained from many possible suppliers to allow
+comparisons. Thus, buyers of products with complex descriptions are more likely to work with a
+single supplier in a close, hierarchical relationship.
+However, some empirical studies focusing on interorganisational systems within the supply chain
+have shown that they have actually led to hierarchical co-ordination (Holland, 1995).
+Another premise is the move-to-the-middle hypothesis developed by Clemons et al., 1993. Both
+theories are extensively discussed within the ﬁeld
+of EMs (see e.g. Bakos and Brynjolfsson, 1993;
+Hess and Kemerer, 1994; Van Heck and Ribbers,
+1997; Bailey and Bakos, 1997; Gregor et al., 1997).
+The question if supply chain management and
+EMs are compatible, is in fact the question whether EMs are moving to hybrid forms within the
+market-hierarchy continuum (Williamson, 1975,
+1981) as it was predicted by the move-to-the-middle
+hypothesis (Clemons et al., 1993).
+4.2.2. From a logistical standpoint
+From a logistical standpoint, supply chain management and EMs are not just compatible––EMs
+are to a high degree depending on supply chain
+management.
+Crowley (1998) says that today every business
+competes in two markets: the marketplace, in
+which resources and products exist physically and
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+the marketspace, which is a virtual world of electronic commerce in which the main object of
+transaction is information. Managing these two
+interacting value-adding processes, in the two
+mutually dependent realms, is seen as posing new
+conceptual and tactical challenges for every ﬁrm.
+Graham and Hardaker (2000) argue that the
+marketplace is part of the web-based relationships
+in the supply chain, which could be divided into
+three company perspectives, namely business-tobusiness, business-to-consumer and marketspace.
+In this case, the marketspace involves the company, its partners, and its customers and provides
+the opportunities for developing communication
+interactions, including customer surveys and information exchange on such things as product
+warranty and service capabilities. Beyond that, it is
+proposed that, with marketspace reconﬁguring the
+traditional value proposition, supply chain management needs to manage the organisational
+complexity of adopting a dynamic mix and emphasis between content, context and infrastructure.
+Integration along the supply chain in the virtual
+market can be viewed as being a mix of both formal and loose integration mechanisms, similar to
+the Internet infrastructure.
+But the question is if Internet transactions and
+physical logistics are conﬂicting or complementary. Gur~
+al et al. (2001) argue that Internet commerce does not eliminate the need of physical
+logistics systems; in fact, it even increases their
+importance. The ﬂow of information between the
+supply chain partners can be eﬃciently managed
+over the Internet, reducing the costs and increasing
+the speed and the quality of data transfer. On the
+other hand, the EM should organise a complementary physical logistics system in order to distribute material products to its clients. But so far
+this is done inadequately. Van Hoek (2001) claims
+that the supply chain dimension of e-business is
+largely neglected and poorly managed, while the
+mal-performance of logistics is currently hampering turnover and revenues of e-commerce applications in a severe way. If basic operational
+performance is not even assured, more advanced
+approaches of e-business will not take oﬀ, since the
+support for concepts in the physical domain is
+inadequate.
+
+285
+
+Furthermore, Gur~al et al. (2001) emphasise that
+EMs can subcontract the functions of the physical
+logistics system from other specialised ﬁrms. It can
+be said that the implementation of the Internet is
+changing the structure of the classical distribution
+channel, encouraging an increased specialisation
+of the physical delivery functions. The authors
+argue for value networking, in which the EM is
+organising and managing a complex portfolio of
+partnerships with physical logistics service providers. On the other hand, in many cases, the EM
+will decide to create its own physical assets in
+order to provide a consistent quality of product
+delivery. Benjamin and Wigand (1995), on the
+other hand, form a model that contains stakeholders in the value chain, which are connected to
+the national information superhighway. This ‘‘highway’’ encloses transportation of both physical
+goods and information and connects producers of
+information, producers of physical goods, electronic retailers (e-retailers), EMs, physical distribution networks, electronic channels and the
+market choice box. Beyond that, they argue that
+all stakeholders in the industry value chain must
+consider whether their place in the chain is
+threatened and, if so, what long-term strategies to
+experiment with. Those in the consumer value
+chain need to understand under what conditions
+the consumer will prefer to purchase from singlesource suppliers and EMs.
+More practically oriented research are studies by Emiliani (2000) or by Gudmundsson and
+Walczuck (1999) because they bring insights of the
+supply chain management within, to speciﬁc kinds
+of EMs. While Emiliani (2000) describes the process for conducting B2B auctions over the Internet
+and presents common issues, process improvement
+opportunities, and the interpretation of auction
+results, Gudmundsson and Walczuck (1999) conceptualise the EM for logistics. Emiliani (2000)
+argues that an on-line auction is an attractive
+technological solution for reducing costs, but it
+does not help uncover the root causes of poor cost
+management within the buying ﬁrm. Further, the
+intermediaries understand commodity management, markets, and information technology very
+well, but do not understand supply chain management and lean production, as evidenced by
+
+286
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+contract terms and conditions. As a result, the
+author proposes that online auctions will delay the
+adoption of modern supply chain management
+methods and the implementation of lean production that are needed by both buyers and suppliers
+in order to truly eliminate waste and reduce total
+costs.
+
+5. Relevancy of supply chain management in diﬀerent electronic market categories
+5.1. Internet-enabled business relationships within
+electronic markets
+In the following section we analyse the relevancy of supply chain management for EM. The
+idea is to examine diﬀerent types of relationship
+within diﬀerent EM categories. While there are
+myriad aspects within a relationship among trading partners in an EM, three broad categories have
+been identiﬁed: transactional, information-sharing,
+and collaborative relationships (AMR, 1998). The
+suggestion is that barely transactional-oriented
+EMs are to a lower degree depending on supply
+chain management than collaborative-oriented
+EMs.
+Transactions within a buyer–seller relationship
+involve the activities carried out to execute the
+buyerÕs purchase of a commodity. These activities
+involve information notifying the buyer and seller
+that a purchase is taking place and that funds need
+to be exchanged. Historically, EMs have mostly
+dealt with the transactional aspects of a relationship. Thus automation has focused on sending
+purchase orders and invoices and on transferring
+funds. The only information that must be transmitted in this type of relationship that is that
+needed to execute a purchase.
+The next trading relationship involves information sharing or data exchange. This involves at
+least one of the following arrangements (Noekkenved, 2000): (a) The partners are given access to
+a system that has the shared information in it, or
+(b) one partner transmits shared information to
+the other partner. For example, Web-based catalogues allow buyers to electronically view product
+information. Various types of information can be
+
+shared by buyer or seller, either before or after a
+purchase is made. This information may involve
+the sellerÕs oﬀerings or the buyerÕs future needs.
+Historically, little information has been electronically shared among trading partners. The recipient
+is using the data as-is and is not providing feedback (one-directional information ﬂow); on the
+other hand information-sharing does little to reduce the uncertainty faced by trading partners in
+determining future demand, and does not grant
+the opportunity for the other partner to provide
+his or her own insight and knowledge of customer
+needs or other market opportunities. In addition,
+there is little opportunity to work together on
+matching supply with anticipated customer demand.
+To further enhance a buyer–seller relationship
+some progressive companies are moving towards
+collaborative relationships, in which they are
+‘‘working jointly with others, especially in an intellectual endeavour’’ (Noekkenved, 2000). Collaborative eﬀorts enable trading partners to work
+together to better understand future demand and
+to put plans in place to satisfy it proﬁtably. In a
+collaborative relationship, information is not just
+exchanged and transmitted, but it is also jointly
+developed by the buyer together with the seller.
+For example, in the case of working collaboratively on customer requirements, trading partners
+might collaborate on new product designs and
+customer demand forecasts. Generally this information deals with future product plans and needs.
+5.2. Diﬀerent electronic marketplaces require supply
+chain management
+In the section above we elaborated on three
+types of information-related relationships within
+an EM. That is, some information may be exchanged on a transactional basis, some on an information-sharing basis, and some on a collaborative
+basis. Beyond this, collaborative relationships require that the other two types have already been
+implemented. It seems to be evident that within the
+spread of these relationships, supply chain management seems to be more appropriate, since the
+type of relationship within the EM is more of a
+collaborative kind.
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+In the following sections we categorise EMs in
+several ways and discuss the buyer–supplier relationship. EMs can be distinguished by the following classiﬁcations:
+ii(i) the more stakeholder-focused way divides
+EMs into buyer-oriented, seller-oriented and
+neutral;
+i(ii) the most straightforward categorisation is in
+vertical and horizontal EMs;
+(iii) the more economic and price-focused classiﬁcation divides EMs into markets with ﬁx or
+variable pricing mechanism (auction, exchange,
+catalogues);
+(iv) EMs can be classiﬁes regarding to the purchasing process ‘‘What’’ and ‘‘How’’ businesses purchase (manufacturing vs. operating
+inputs; spot vs. system sourcing);
+i(v) another possibility is to distinguish into open
+and closed EMs;
+(vi) the more process focused categorisation is to
+distinguish into supported transactions phases
+(information exchange, negotiate, settlement,
+after-sales);
+(vii) and ﬁnally by the market mechanism (aggregation and matching).
+5.2.1. Buyer-oriented, seller-oriented and neutral
+EMs
+The operator that runs the EM and can be,
+depending on the business model (Timmers, 1998),
+an autonomous operator (i.e. ChemConnect), a
+group of market participants ( ¼ Consortia EMs
+like Covisint by General Motors, Ford, DaimlerChrysler), a single supplier or buyer (i.e. Deutsche
+TelekomÕs MarketPlace, Auto-Xchange by Ford)
+or a service provider, such as WorldWideTesting
+(Schmid and Lindemann, 1998). The EM operator
+or consortia runs either a buyer-oriented, selleroriented or neutral EM.
+The role of a buyer-oriented marketplace is
+to aggregate buyers. Buyer-oriented marketplaces
+such as CommerceOneÕs MarketSite concentrate
+primarily on creating eﬃciencies for the corporate
+buyer. Buyer-oriented networks generally have
+several objectives, that is to drive procurement
+costs down for the participating buyers, to allow
+buyers to ‘‘aggregate their expenditure’’, to reduce
+
+287
+
+administration costs, to increase visibility and to
+facilitate global sourcing. Buyers have the ability
+to join forces with other large buyers to create
+procurement syndicates, which can demand more
+favourable pricing and trading terms. All three
+types of relationships are aligned to increase beneﬁts to buyers.
+The seller-oriented aggregated marketplace
+concentrates on bringing multiple sellers together
+into a central catalogue and product information
+repository (i.e. Build-Online, e-Steel). Where buy
+side marketplaces target the procurement needs of
+corporations, seller-oriented marketplaces focus
+on sales. The key to a seller-oriented marketplace
+is to provide multiple sellers a forum to present
+their catalogues and conduct in trade with as many
+buyers as possible––in other words to aggregate
+the ‘‘content’’ that will meet the buyers needs.
+Seller-oriented marketplaces also have the ability
+to aggregate their sellers, acting as a service provider, wrapping products and services together
+and oﬀering them to buyers, to EMs, and to buyeroriented aggregated networks directly. All types of
+relationships are aligned to increase beneﬁts to
+sellers.
+Neutral e-markets, driven by a third part (i.e.
+CPGmarket, Tribon Marketplace, ChemConnect)
+are the true market makers because they are
+equally attractive to sellers and buyers. However,
+these marketplaces often face the ‘‘chicken-andegg’’ problem: buyers do not want to participate
+unless there are a suﬃcient number of sellers, and
+sellers do not want to participate unless there are a
+suﬃcient number of buyers. In addition, these
+neutral markets also have to overcome channel
+conﬂicts to persuade more powerful players to
+participate. Making deals with more powerful
+players to gain liquidity is a threat to their independence and neutrality.
+5.2.2. Vertical or horizontal EMs
+Fundamentally, there are two kinds of EMs
+vertical and horizontal EMs. Vertical EMs are
+industry-speciﬁc, i.e. ChemConnect, Chemdex,
+OneChem, and e-Chemicals in the chemical industry. Vertical marketplaces aggregate supply or
+demand in vertical industries. Vertical marketplaces require a good deal of industry knowledge.
+
+288
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+They optimise buyer–seller relationships in a speciﬁc industry, such as chemicals, metals, energy,
+and telecommunications.
+Horizontal EM makers facilitate the purchase and sale of goods and services used by a
+range of industries (i.e. Asista, Deutsche Telekom
+MarketPlace, BizBuyer, Grainger). Horizontal
+marketplaces are also known as ‘‘functional marketplaces’’ because they cut across industries to
+optimise speciﬁc functions in an enterprise, including human resources, procurement, logistics
+and marketing. A consideration of whether vertical or horizontal markets are more transactional
+or collaborative does not appear to be suitable.
+In addition, there are companies that provide
+vertical and horizontal EMs with the technical
+platform. They have become known as Application Service Providers (ASP). Examples are
+TRADEX Technologies, The Sun/Netscape Alliance or Trading Dynamics. These companies are
+known as ‘‘enablers’’ and oﬀer tools such as information-publishing tools, catalogue software,
+transactional capabilities, payment services, or customer relationship management functionality (Fig.
+2 gives an overview).
+5.2.3. Pricing mechanism
+The pricing mechanism used can also categorise
+the EM (Kaplan and Sawhney, 1999; Schmid,
+1999). In some e-markets like electronic catalogues
+
+Fig. 2. Horizontal (functional) and vertical (industry-speciﬁc)
+EMs.
+
+prices are ﬁxed, portals do not have a pricing
+mechanism, while in auction or exchange models a
+dynamic price-building mechanism is approached.
+Online catalogues (i.e. Papersite, Requisite
+Technology or Harbinger) take the paper-based
+catalogues of multiple vendors, digitise the product information and provide buyers with one-stop
+shopping over the Internet. Online catalogues are
+optimally suited for markets where the supply and
+demand sides of a market are highly fragmented.
+Online catalogues are less transactional. They
+open a wider range of information sharing and
+collaboration.
+An EM with auctions price mechanism (i.e.
+USBid, Manheim Online, GoCargo) provides a
+venue for the purchase and sale of unique items
+such as surplus inventory, used capital equipment,
+discontinued goods, perishable items, or refurbished products. In a traditional auction, the competitive bidding process results in upward price
+movement (Klein, 1997; Vigoroso, 1999; Emiliani,
+2000; Baatz, 1999). The reverse auction (i.e. econia.com, ChemConnect, CPGmarket), a format
+in which sellers compete for a buyerÕs oﬀer to
+purchase, results in downward price movement.
+Marketplaces with an exchange model work as
+stock exchanges. A real-time bid–ask matching
+process is necessary as well as marketwide price
+determination. Any kind of dynamic price-building is focused on price reduction and transactional-oriented.
+Portals bring together buyers and sellers in
+commerce-oriented settings, but do not enable
+negotiation transactions (i.e. PharmSource Information Services). Buyers and sellers close deals
+oﬄine.
+5.2.4. ‘‘What & how’’ businesses purchase
+Using the buying behaviour as classiﬁcation
+criteria, Kaplan and Sawhney (2000) classify EMs
+into four categories, namely MRO hubs, yield
+managers, exchanges and catalogues (Fig. 2).
+‘‘What businesses buy’’ can roughly be divided
+into manufacturing inputs and operating inputs;
+manufacturing inputs are raw materials and components that go directly into a product or a process, and operating inputs, which are not part of
+the ﬁnished products, operating inputs, often
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+called maintenance, repair and operating goods
+(MRO), include oﬃce supplies, spare parts, airline
+tickets and services. Manufacturing inputs tend to
+be industry-speciﬁc, whereas operating inputs are
+not. In most cases manufacturing inputs require a
+higher degree of information sharing and collaboration (Kaplan and Sawhney, 2000).
+The second distinction in business purchasing is
+‘‘how products and services are bought’’. Companies can either engage in systematic sourcing or
+in spot sourcing. Systematic sourcing involves negotiated contracts with qualiﬁed suppliers. Because they tend to be long term, the buyers and
+sellers often develop close relationships. In spot
+sourcing, the buyerÕs goal is to buy a product at
+the lowest possible cost and to speculate. Commodity trading for things like oil, steel, and energy
+exempliﬁes this approach. Spot transactions rarely
+involve a long-term relationship with the buyer, in
+fact, buyers on the spot market often do not know
+who they are buying from. In most cases systematic sourcing involves more need for information
+sharing and collaboration (Kaplan and Sawhney,
+2000).
+5.2.5. Open or closed EMs
+In addition, it is suitable to distinguish between
+open and closed e-markets (Steyer, 1998; Schmid,
+1999). An open e-market characterises the public
+accessibility for those who follow the e-marketÕs
+rules. By contrast a closed e-market is only open
+for certain suppliers and customers. Table 2 contains some other diﬀerences.
+Van Heck and Ribbers (1997) use a so-called
+reach/scope framework for IT infrastructures in
+
+289
+
+the EM context. They propose that an eﬀective
+EM with long reach (e.g., a relatively open structure allowing many participants) will have a low
+scope (simple functionality). Agreeing on a highly
+complex functionality with many participants is
+simply too diﬃcult to accomplish. EMs with short
+reach (relatively closed structure, resulting in few
+participants) may have high scope (complex functionality).
+5.2.6. EM transaction phases
+EMs facilitate exchange of goods, information,
+services, and payments associated with market
+transaction (Bakos, 1998; Schmid, 1999). Four
+phases of such transactions can be distinguished:
+information, negotiation, settlement and after-sales
+(see Figs. 3 and 4).
+In the information phase, buyers identify and
+evaluate their needs and possible sources to fulﬁl
+them. At the same time, sellers arrange for providing their goods and identifying potential customers. To a large extent, these steps evolve
+around exchange of information. The information
+phase ends for a market participant with the submission of an oﬀer. With the receipt of an oﬀer, the
+second phase starts, that is the negotiation phase.
+Potential buyers and sellers negotiate the terms of
+the intended transaction by jointly identifying
+possible solutions with the goal of reaching a
+consensus. The result is a legal-binding contract,
+representing the agreement between the market
+partners. In the settlement phase, the agreed-upon
+terms of the contract are fulﬁlled. Depending on
+the type of the exchanged goods or service as well
+as the participating partners, the settlement phase
+
+Table 2
+Closed and open EMs
+Closed e-market
+
+Open e-market
+
+ Between companies (B2B)
+
+ Between companies (B2B), companies and consumers (B2C, C2B) or
+between companies and authorities
+ Open (global) market
+ Unlimited number of participants
+ Open, unprotected network
+ Known and unknown partners
+ Security and authenticity necessary
+ The net is the market
+ Low degree of information sharing and collaboration
+
+
+
+
+
+
+
+
+
+Closed, often industry-speciﬁc ‘‘clubs’’
+Limited number of involved companies
+Closed company-owned network (ﬁrewalls)
+Known and connected partners
+Security through networking
+The market is a club
+High degree of information sharing and collaboration
+
+290
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+Fig. 3. EM classiﬁcation by Kaplan and Sawhney (2000).
+
+Fig. 4. Phases of market transactions (compare with Gebauer
+(1996), Schmid and Lindemann (1998) and Scharl (2000)).
+
+can be an initiator of secondary market transactions (e.g. logistics and ﬁnancial services). Result
+of this phase is the fulﬁlment of the contract. Scharl
+(2000) adds a fourth phase, namely after-sales,
+including after-sales product support, customer
+service, and the evaluation of the transactionÕs
+outcome.
+Scharl argues that the ﬁrst and last are explicit
+market transaction phases, whereas Schmid and
+Lindemann say that an EM supports all phases or
+at least the information phase of a market transaction. The Internet surrounds EMs with all kinds
+of transaction facilities. Portals, for example,
+support only the information phase. They bring
+together buyers and sellers in commerce-oriented
+settings, but do not enable negotiation transac-
+
+tions. Some EMs facilitate all transactions, including after-sales service. A number of EMs oﬀer
+secondary transactions and others, again, have
+outsourced them. The more the transaction phases
+that are supported and the more non-buying/nonselling transactions that are in addition possible,
+the more opportunities for information sharing
+and collaboration there will be. Some innovative
+EMs have broadened their service by providing
+additional services such as facilitating collaboration in product development or order management
+(i.e. Transora, Envera, Covisint).
+5.2.7. Market mechanisms
+As we think about the diﬀerences between systematic and spot purchasing, it becomes obvious
+that the market-making mechanism that is appropriate for MRO and catalogues are quite different from the mechanism used, for example, by
+exchanges. EMs can create value by two fundamentally diﬀerent mechanisms: aggregation and
+matching (Segev and Beam, 1999; Bakos, 1991,
+1998; Schmid, 1999).
+EMs that use the aggregation mechanism bring
+together a large number of buyers and sellers
+under one virtual roof. They reduce transaction
+costs by providing one-stop shopping. The aggregation mechanism is static in nature because prices
+are pre-negotiated. An important characteristic of
+this mechanism is that adding another buyer to
+the market beneﬁts only the sellers, and adding
+another seller beneﬁts only the buyers. Unlike
+the static aggregation mechanism, the matching
+mechanism brings buyers and sellers together to
+negotiate prices on a dynamic and real-time basis.
+Therefore the matching mechanism leads to more
+transactional relationships. The matching mechanism can work in the form of auctions. In the
+matching mechanism, the roles of the players are
+ﬂuid: buyers can be sellers, and vice versa. Therefore, adding any new member to the EM increases the marketÕs liquidity and thus beneﬁts
+both buyers and sellers, while user of catalogues
+beneﬁt only from the aggregation mechanism, user
+of exchanges beneﬁt from both aggregation and
+matching. Therefore, successful exchanges will
+reap greater beneﬁts from being ﬁrst movers. That
+makes matching a more powerful business model
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+than aggregation. At the same time, however, the
+matching mechanism is far more complex.
+6. Further research issues
+There is a rapidly growing interest in EMs,
+which is currently covered in more than 100 papers
+and articles. Unfortunately, most of the published
+work, in research and practice, is biased towards
+e-commerce, sales and marketing or is simply
+counting all sorts of possible values and cost savings. The supply chain dimension of EMs is for the
+most part mistreated and handled insuﬃciently.
+The paper has covered relatively new ground in
+logistics that has been preliminarily studied in
+various other disciplines and that is being created
+by developments in information technology and
+revolutionary changes in business models, brought
+about by the Internet.
+The paper describes how supply chain management for EMs can be examined that is by
+analysing diﬀerent types of EM relationships
+(transactional, information-sharing, collaborative)
+within diﬀerent EM categories. Beyond the per-
+
+291
+
+spective of supply chain management, a deeper
+examination of the relationships within certain
+marketplace category is necessary. Based on the
+results of this literature review, the author suggests
+the following research questions, which should be
+empirically tested in future research:
+1. Beyond the perspective of supply chain management, the choice of an EM is depending on
+the diﬀerent EM categories:
+iii(i)
+ii(ii)
+i(iii)
+i(iv)
+
+buyer-oriented, seller-oriented or neutral;
+vertical or horizontal;
+ﬁx or variable pricing mechanism;
+manufacturing or operating inputs; spot or
+system sourcing;
+ii(v) open or closed;
+i(vi) supported transactions phases;
+(vii) aggregation or matching mechanism.
+2. The type of the EM relationship transactionaloriented, information-sharing, or collaborativeoriented has an inﬂuence on the successful use
+of EMs within a supply chain agreement.
+
+Appendix A. Methodological approach
+Research strategy
+
+Description
+
+Used key words
+
+• ‘‘Electronic market’’; ‘‘Electronic marketplace’’; ‘‘Electronic
+exchange’’; ‘‘Electronic auction’’; ‘‘Electronic SCM’’; ‘‘Internet
+exchange’’; ‘‘Electronic hub’’
+
+Time period
+
+• November 2000 until April 2001
+
+Search engines
+
+• www.google.com, www.yahoo.com, www.business.com
+
+Scientiﬁc on-line literature
+data bases
+
+• ABI Inform (ProQuest)
+• Emerald Library
+• ACM Digital Library
+
+Speciﬁc hard copy journal
+research Proceedings
+
+• All volumes of the Journal of Electronic Markets
+• ACM-Proceedings
+
+Additional research servers
+
+• Goldman Sachs (http://www.gs.com/hightech/research/)
+• Deloitte Research (http://www.dc.com/obx/pages.php?Name ¼ eviews),
+• PricewaterhouseCoopers (http://www.pwc.de/30000_publikationen/
+30000_publikationen.htm)
+
+292
+
+Research strategy
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+Description
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Internetportals
+
+Nerve Wire (http://www.nervewire.com)
+Deutsche Bank (http://www.dbresearch.de/)
+Gartner Group (http://gartner12.gartnerweb.com/public/)
+Bloor Research (http://www.bloor-research.com/)
+Aberdeen Group (http://www.aberdeen.com/)
+AMR Research (http://www.amrresearch.com/practices/scs.asp)
+Forrester (http://www.forrester.com/)
+Xephon (http://www.xephon.com/)
+Metagroup-Commerce Chain Management (http://www.metagroup.com/
+communities/ccm/ccm.shtml)
+McKinsey & Company, (http://www.montgomeryresearch.com/)
+Accenture Consulting (http://www.accenture.com/)
+IDC (http://www.idc.com/)
+Montgomery Research (http://www.montgomeryresearch.com/)
+
+• FTC on Consumer Protection: E-Commerce & the Internet: (http://www.ftc.
+gov/bcp/menu-internet.htm)
+• E-Commerce Times: http://www.ecommercetimes.com/
+• ‘‘Dissertationen Online’’: (http://www.educat.hu-berlin.de/diss_online/
+biblio.html)
+• The Hub for B2B e-Commerce White Papers: (http://www.nmm.com/
+reports/index.asp)
+• B2b exchange Database: (http://www.b2bexchanges.com/list.cfm)
+• abour.com: (http://onlineretailing.about.com/onlineretailing/cs/
+b2bexchanges/index.htm?once ¼ true&amp);
+• European Electronic Commerce Website: (http://europa.eu.int/ISPO/
+ecommerce/Welcome.html)
+• Encyclopedia of the New Economy: (http://hotwired.lycos.com/special/ene/)
+• e-Marketer: (http://www.emarketer.com/)
+• e-Business Central: (http://www.montgomeryresearch.com/ebcentral/)
+• Print-The Premier New Economy Business Technology Portal: (http://
+www.brint.com/interest.html)
+• Electronic Markets: (http://www.electronicmarkets.org/)
+• Skillbot-Community Finder: (http://www.skillbot.com/community/
+community.htm)
+• DMOZ e-Commerce: (http://dmoz.org/Business/E-Commerce/)
+• DMOZ e-markets: (http://dmoz.org/Business/E-Commerce/Marketplaces/)
+• WSJ.com-Special Report: E-Commerce: (http://interactive.wsj.com/
+public/current/summaries/ecom00-2.htm)
+
+References
+AMR, 1998. Are We Moving From Buyer and Seller to Collaborators? SCM Report, American Manufacturing Research Inc.
+
+Ariba, 2000. B2B Marketplaces in the New Economy. Research
+Report (Downloadable from website http://www.ariba.
+com/com_plat/white_paper_form.cfm).
+Baatz, E., 1999. Online auctions start to pick up stream.
+Purchasing Magazine 21, 546–556.
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+Bailey, J.P., Bakos, J.Y., 1997. An exploratory study of the
+emerging role of electronic intermediaries. International
+Journal of Electronic Commerce 1 (3), 7–20.
+Bakos, J.Y., 1991. A strategic analysis of EM. MIS Quarterly
+15 (4), 295–310.
+Bakos, J.Y., 1998. The emerging role of EM on the Internet.
+Communications of the ACM 41 (8), 35–42.
+Bakos, J.Y., Brynjolfsson, E., 1993. From vendors to partners:
+Information technology and incomplete contracts in buyer–
+supplier relationships. Journal of Organisational Computing 3 (3), 301–328.
+Benjamin, R., Wigand, R., 1995. Electronic markets and virtual
+value chains on the information superhighway. Sloan
+Management Review, Winter, 62–72.
+Bradley III, D.B., Peters, D., 1997. Electronic Marketplaces:
+Collaborate If You Want To Compete. 42nd World
+Conference International Council for Small Business, San
+Francisco, June.
+Clemons, E.K., Reddi, S.P., Row, M.C., 1993. The impact of
+information technology on the organisation of economic
+activity: The ‘‘move to the middle’’ hypothesis. Journal of
+Management Information Systems, Armonk, Fall.
+Coppel, J., 2000. E-Commerce: Impacts and Policy Challenges.
+OECD Economics Department, Working Paper No. 252,
+Organisation for Economic Co-operation and Development
+OECD, June, (Downloadable from website http://www.oecd.org/eco/eco).
+Crowley, J.A., 1998. Virtual logistics: Transport in the marketspace. International Journal of Physical Distribution and
+Logistics Management 28 (7), 547–574.
+Dai, Q., Kauﬀman, R.J., 2000. Business Models For Internet
+Based E-Procurement Systems and B2B EM: An Exploratory Assessment. 34th Hawaii International Conference on
+Systems Science, Maui, Hawaii, January.
+(The) Economist, 2000. Shopping Around the Web: A Survey
+of e-Commerce, 26 February. (Downloadable from website
+http://www.economist.com/editorial/freeforall/20000226/
+index_survey.html).
+Emiliani, M.L., 2000. Business-to-business online auctions: Key
+issues for purchasing process improvement. Supply Chain
+Management: An International Journal 5 (4), 176–186.
+Gebauer, J., 1996. Informationstechnische Unterst€
+utzung von
+Transaktionen. Gabler, Wiesbaden.
+Graham, G., Hardaker, G., 2000. Supply Chain Management
+across the Internet. International Journal of Physical
+Distribution and Logistics Management 30 (3/4), 286–
+295.
+Gregor, S., Newman, S., Larner, T., 1997. The Australian Meat
+Industry, the EM Hypothesis and Internet Marketing. 10th
+International Bled Electronic Commerce Conference, Bled,
+Slovenia, 9–11 June.
+Gur~
+al, C., Ranchhod, A., Hackney, R., 2001. Internet transactions and physical logistics: Conﬂict or complementarity.
+Logistics Information Management 14 (1/2), 33–43.
+Gudmundsson, S.V., Walczuck, R., 1999. The development of
+electronic markets in logistics. International Journal of
+Logistics Management 10 (2), 99–113.
+
+293
+
+Henderson, D.R., 1984. Electronic marketing in principle and
+practice. American Journal of Agriculture Economics 66
+(5), 848–853.
+Hess, C.M., Kemerer, C.F., 1994. Computerised loan origination systems: An industry case study of the electronic
+market hypothesis. MIS Quarterly 18 (3), 251–275.
+Himberger, A., Kr€ahenmann, N., Langenohl, T., Ritz, D.,
+Schmid, M., Zbornik, S., 1991. Elektronische M€arkte––
+Grundlagen und Forschung. Arbeitsbericht/Bericht IM
+HSG/CCEM 14, September, St. Gallen: Institut f€
+ur Wirtschaftsinformatik.
+Holland, C.P., 1995. Co-operative supply chain management:
+The impact of interorganizational information systems.
+Journal of Strategic Information Systems 4 (2), 117–133.
+Kaplan, S., Sawhney, M., 2000. E-hubs: The New B2B Marketplaces. Harvard Business Review (May/June), 97–104.
+Klein, S., 1997. Introduction to electronic auctions. International Journal of Electronic Markets 7 (4), 3–6.
+Lipis, L.J., Villars, R., Byron, D., Turner, V., 2000. Putting
+Markets into Place: An e-Marketplace Deﬁnition and Forecast. (Downloadable from website http://www.idc.com).
+Malone, T.W., Yates, J., Benjamin, R.I., 1987. Electronic
+markets and electronic hierarchies. Communications of the
+ACM 30, 484–497.
+Malone, T., Yates, J., Benjamin, R., 1989. The Logic of Electronic Markets. Harvard Business Review, 166–172.
+McCoy, J.H., Sarhan, M.E., 1988. Livestock and Meat Marketing. AVI Book.
+Mueller, R.A.E., 2000. Emergent E-Commerce in Agriculture. Agriculture Issues Center, AIC Issues Brief (14),
+December.
+Nash, K.S., 2000. Reality Check. Computerworld 5, 58–59.
+Noekkenved, C., 2000. Collaborative Processes in e-Supply
+Networks––Towards Collaborative Community B2b Marketplaces. Research Report. PricewaterhouseCoopers.
+Obrecht, J., 2000. Playing e-hub Name Game. Netb2b.com, 3
+July, BtoB, p. 9.
+Picot, A., Kirchner, C., 1987. Transaction cost analysis of structural changes in the distribution system: Reﬂections on
+institutional developments in the federal Republic of Germany. Journal of Institutional and Theoretical Economics
+143, 62–81.
+Scharl, A., 2000. Evolutionary Web Development. Applied
+Computing. Springer, Berlin.
+Schmid, B., 1993. Elektronische M€arkte. Wirtschaftsinformatik
+35 (5), 465–480.
+Schmid, B., Gr€
+utter, R., Schmid-Isler, S., Stanoevska, K.,
+St€ahler, P., 1998. Ein Glossar f€
+ur die NetAcademy (1)
+Institute for Media and Communications Management,
+University of St. Gallen, March (Downloadable from
+website http://www.netacademy.org).
+Schmid, B.F., Lindemann, M.A., 1998. In: Elements of a Reference Model for EM. 31st Hawaii International Conference on System Sciences (HICCSS-31). IEEE Computer
+Society Press, Hawaii, USA, pp. 193–201.
+Schmid, B.F., 1999. Elektronische M€arkte––Merkmale, Organisation und Potentiale. The mcm institute. University of
+
+294
+
+M. Grieger / European Journal of Operational Research 144 (2003) 280–294
+
+St. Gallen, Switzerland. (Downloadable from website http://
+www.netacademy.org).
+Segev, A., Gebauer, J., Faeber, F., 1999. Internet-based
+Electronic Markets. EM––International Journal of Electronic Markets 9 (3).
+Segev, A., Beam, C., 1999. Brokering strategies in electronic
+commerce markets. Proceedings of the ﬁrst ACM Conference on Electronic Commerce, 167–176.
+€ konomische Analyse elektronischer M€arkte.
+Steyer, R., 1998. O
+Working paper WI 1, Chair for Business Administration,
+Johannes Gutenberg-University, Mainz. (Downloadable
+from website http://wi.bwl.uni-mainz.de/arbeitspapiere/arbarbeitspapiere.html).
+Tapscott, D., Ticoll, D., Lowy, A., 2000. Digital Capital––Harnessing The Power of Business Webs. Harvard Business
+School Press, Boston, MA.
+Timmers, P., 1998. Business Models for Electronic Markets.
+EM––International Journal of Electronic Markets 8 (2), 3–8.
+Van Heck, E., Ribbers, P.M.A., 1997. Economic eﬀects of EM:
+An analysis of four cases in the dutch ﬂower and transport
+
+industries. In: Nunamaker, J.F., Sprague, R.H. (Eds.),
+Information Systems––Organisational Systems and Technology. Proceedings of the 29th Annual Hawaii International Conference on System Sciences. IEEE Computer
+Society Press, Los Alamitos, pp. 407–415.
+Van Hoek, R., 2001. E-supply chains––virtually non-existing.
+Supply chain management: An International Journal 6 (1),
+21–28.
+Vigoroso, M., 1999. Are Internet Auctions ready to gear up?
+Purchasing Magazine 11, 85–86.
+Weber, B.W., 1993. How ﬁnancial markets are going on-line.
+EM––International Journal of Electronic Markets 3 (3),
+6–8.
+Williamson, O.E., 1975. Markets and Hierarchies: Analysis and
+Antitrust Implications. Free Press, New York.
+Williamson, O.E., 1981. The economics of organisation: The
+transaction cost approach. American Journal of Sociology
+87, 548–577.
+Wise, R., Morrison, D., 2000. Beyond the exchange––the future
+of B2B. Harvard Business Review, 86–96.
+
+

@@ -1,0 +1,3792 @@
+Transportation Research Part E 130 (2019) 108–127
+
+Contents lists available at ScienceDirect
+
+Transportation Research Part E
+journal homepage: www.elsevier.com/locate/tre
+
+E-tailer’s procurement strategies for drop-shipping: Simultaneous
+vs. sequential approach to two manufacturers
+Guo Lia,b,c, Xuefeng Zhanga,b,c, Mengqi Liud,
+
+T
+
+⁎
+
+a
+
+School of Management and Economics, Beijing Institute of Technology, Beijing 100081, China
+Center for Energy and Environmental Policy Research, Beijing Institute of Technology, Beijing 100081, China
+Sustainable Development Research Institute for Economy and Society of Beijing, Beijing 100081, China
+d
+Business School, Hunan University, Changsha 410082, China
+b
+c
+
+ARTICLE INFO
+
+ABSTRACT
+
+Keywords:
+E-Commerce
+Decision structure
+Procurement strategy
+Drop-shipping
+Competition
+
+This paper examines the effect of drop-shipping on the procurement strategy of an e-tailer who
+sells products for two upstream competing manufacturers. The e-tailer is powerful and determines her approach sequence, thereby resulting in simultaneous and sequential structures.
+Given an approach structure, we investigate the e-tailer’s choice between the pure batch ordering
+(BO) and hybrid shipping (HS) modes. Interestingly, the e-tailer prefers simultaneous structure
+over sequential structure in the BO mode, while in the HS mode she chooses sequential structure.
+In the HS mode, the e-tailer prefers the batch ordering manufacturer to move first.
+
+1. Introduction
+Drop-shipping is an effective instrument used to process online orders for retailers (Ayanso et al., 2006; Netessine and Rudi, 2004;
+Tarn et al., 2003; Yao et al., 2009). The instrument can save holding, processing, and obsolescence costs for the retailer (Khouja and
+Stylianou, 2009). Many online retailers, although they may have their own warehouses and distribution centers, can also benefit from
+drop-shipping because the instrument allows them to expand their product lines considerably without increasing inventory or
+warehouse costs (Gan et al., 2010; Li and Jia, 2019). Even many brick-and-mortar or multi-channel retailers have tended to use dropshipping to ship out-of-stock items directly to customers (Randall et al., 2002). Adopting drop-shipping allows e-tailers to concentrate
+more on marketing and consumer strategies instead of order fulfillment (Yu et al., 2017). In recent years, major e-tailers that started
+out with batch ordering are now adopting drop-shipping, especially when the e-tailer sells substitutable products for the manufacturers.
+Consider the following two stylized examples. The dominant e-tailer, Amazon.com, has relied increasingly on a mixed-model
+approach, employing multiple delivery service providers and a range of sourcing options. Although most Amazon’s goods are shipped
+directly from their fulfillment centers, more items are being drop-shipped from upstream suppliers or manufacturers (Rabinovich
+et al., 2008). Amazon uses drop-shipping for cell phones, computers, and non-bestselling books (Ayanso et al., 2006). Another etailer, Gome.com.cn, also benefits from drop-shipping by focusing more on sales forecasting and promotion, especially for products
+with high demand fluctuations or seasonal products sold in a short selling period.
+The aforementioned examples illustrate that, in practice, major e-tailers who have traditionally used a batch ordering procurement strategy are starting to adopt drop-shipping policies. Major e-tailers are emancipating themselves from the former pure batch
+ordering procurement strategy and moving toward a hybrid (combination of drop-shipping and batch ordering) strategy for satisfying
+⁎
+
+Corresponding author.
+E-mail addresses: liguo@bit.edu.cn (G. Li), zxfncut@163.com (X. Zhang), liumengqi76@163.com (M. Liu).
+
+https://doi.org/10.1016/j.tre.2019.08.014
+Received 5 May 2019; Received in revised form 16 August 2019; Accepted 20 August 2019
+Available online 10 September 2019
+1366-5545/ © 2019 Elsevier Ltd. All rights reserved.
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+customer demand. The motivation for this trend is not clear, and the integration of the two fulfillment policies does not necessarily
+yield significant performance improvement because order fulfillment for drop-shipping relies greatly on collaboration with manufacturers, and e-tailers may lose full control of order processing (Yu et al., 2017). In addition, product characteristics, such as
+substitutability or market size, may play an important role in the e-tailer’s strategy choice (Tian et al., 2018). Major e-tailers usually
+have significant market influence and thus, they have the chance of using their market power to intervene in the approach sequence
+of the supply chain. However, the motivation for this alternative sequence is unclear. In this paper, we attempt to answer the
+following questions: (1) How can the e-tailer exert influence on the approach sequence and maximize the payoff? (2) Given the
+approach structure, what is the effect of the drop-shipping strategy on the implemented manufacturer? Among the e-tailer’s equilibrium procurement strategies, what is the drop-shipping manufacturer’s preference? (3) What are the effects of product substitutability, production costs, and market size on the e-tailer’s procurement strategy?
+To answer the above questions, we investigate a supply chain consisting of an e-tailer (she) and two manufacturers (both he) who
+sell goods through the e-tailer. We construct several multi-stage Stackelberg models under different sequence structures and derive
+the e-tailer’s best procurement strategy. Many analytical studies in the supply chain management literature have focused on manufacturers’ strategic decisions and the benefits of drop-shipping, while the e-tailer is usually powerless and does not have the determination of approach sequence and procurement strategy (Chiang et al., 2003; Chen and Chen, 2017; Yu et al., 2017). Little
+attention has been given to the procurement strategy and approach sequence from the powerful e-tailer’s perspective. Although major
+e-tailers face customer demand directly and have strong market influence, their influences on procurement strategy for drop-shipping
+have been inadequately investigated. Inspired by Matsui (2018), we assume that the e-tailer is powerful and can exert her influence
+on the approach sequence, thereby resulting in two sequence structures. (1) In a simultaneous structure, both manufacturers make
+their decisions simultaneously and (2) in a sequential structure, one manufacturer makes the decision first, which is followed by the
+other manufacturer. Given a sequence structure, the e-tailer decides whether to adopt a drop-shipping policy in one channel, while
+the other channel is based on a batch ordering policy. They decide between two modes, namely, (1) a pure batch ordering (BO ) mode,
+where both channels use the batch ordering policy, and (2) a hybrid shipping (HS ) mode, where one channel uses a batch ordering
+policy and the other channel uses a drop-shipping policy. We first analyze the e-tailer’s strategy choice under a simultaneous
+structure. Then, four Stackleberg models are constructed and investigated under the sequential structure. Next, we compare the etailer’s payoffs in these six models to identify her optimal solution.
+We derive several interesting results and uncover valuable managerial implications from constructing and analyzing the models
+under different sequence structures. First, under the simultaneous structure, when the profit sharing ratio is relatively high and the
+products’ substitutability is sufficiently low, the e-tailer prefers the HS mode; otherwise, she prefers the BO mode. Second, by
+comparing the equilibrium payoffs between the simultaneous and sequential structures, we find that approaching two manufacturers
+sequentially hurt the e-tailer in the BO mode but improve her performance in the HS mode. Third, in the BO mode, the e-tailer prefers
+the simultaneous structure while in the HS mode, the e-tailer prefers the sequential structure and tends to allow the batch ordering
+manufacturer to move first. Fourth, as competition intensifies, the e-tailer becomes increasingly reluctant to adopt HS strategies.
+Fifth, counterintuitively, the e-tailer’s optimal procurement strategy is not always detrimental to the drop-shipping manufacturer’s
+payoff. Specifically, the drop-shipping manufacturer is in line with the e-tailer’s procurement strategy when the profit-sharing ratio
+falls into a moderate range. These theoretical results provide guidance for e-tailers in choosing their procurement strategy when the
+drop-shipping policy is offered as an option for manufacturers. Our result somehow explains why Gome always sets an appropriate
+and moderate sharing ratio for the drop-shipping manufacturer.
+The remainder of the paper is organized as follows. Section 2 provides a literature review and highlights our contribution to
+existing literature. Section 3 presents the model formulation and then analyzes the simultaneous structure. Section 4 examines the
+sequential structure and compares six scenarios under both simultaneous and sequential structures. Section 5 extends our model by
+considering manufactures’ costs and market size. Section 6 concludes the paper. Proofs are provided in the Appendix A.
+2. Literature review
+This paper is related to two streams of literature, including applications of drop-shipping in supply chain management and
+duopoly procurement structure with two competing manufacturers selling through a monopoly common retailer.
+A growing stream of literature has focused on the effects of drop-shipping on supply chain management. Drop-shipping was
+introduced by catalog firms in the early 20th century (Scheel, 1990) and is now used extensively by e-tailers (Gan et al., 2010; Serel,
+2015). Netessine and Rudi (2004) analyze a drop-shipping supply chain consisting of a manufacturer and a retailer. In their supply
+chain model, the manufacturer controls the inventory and the retailer influences consumer demand through its marketing efforts.
+They find that both channel members are willing to choose the drop-shipping model more often than the traditional arrangement for
+a wide range of parameters. Ayanso et al. (2006) develop a Monte Carlo simulation model to investigate the implications of e-tailers
+leveraging the drop-shipping arrangement and prove that drop-shipping can be a successful order fulfillment option for e-tailers.
+Randall et al. (2002) propose that the e-tailer should choose a traditional fulfillment method when she has high sales volume or a
+prerequisite for order consolidations. However, drop-shipping would be more appropriate if the product range is wide or the demands
+are uncertain. For capturing the advantages of drop-shipping and avoiding many of its drawbacks, Khouja (2001) design an optimal
+mix strategy and formulated a single period problem model. The study shows that a mix of drop-shipping and holding inventory is
+usually optimal for e-tailers. Similarly, Netessine and Rudi (2006) combine the traditional and drop-shipping channel alternatives
+into a dual strategy, whereby the retailer uses local inventory as a primary source and relies on drop-shipping as a backup. They show
+that the dual strategy often yields advantages to retailers and the wholesaler. Mukhopadhyay et al. (2008) examine a mixed-channel
+109
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+model, consisting of a traditional and a direct channel, which can be considered a hybrid strategy where one channel adopts a batch
+ordering policy and the other implements a special drop-shipping policy. Many subsequent studies have focused their attention on the
+effect of drop-shipping from different perspectives. Khouja (2009) develop two (Q,R) inventory models that allow a retailer to use the
+drop-shipping option in case of a shortage during lead-time. Gan et al. (2010) consider a drop-shipping supply chain and focus their
+study on the asymmetric demand information case. Their study shows that the supplier can infer the retailer’s demand information by
+offering a series of commitment-penalty contracts. Chiang and Feng (2010) analyze the characteristics of traditional and dropshipping distribution channels. From the perspective of each firm, they identify the conditions under which the drop-shipping
+channel outperforms the traditional channel in terms of profitability. Chen et al. (2011) consider a retailing system with three
+independent profit centers, namely, one e-tailer and two physical retailers, selling seasonal products. The e-tailer uses the physical
+retailers as drop-shippers and collaborates with them for online order fulfillment. By constructing a discrete-time dynamic programming model, they study the sequential order and the optimal initial inventory quantities from the perspective of physical
+retailers. Ma et al. (2017) consider a newsvendor managing a physical store and a direct channel fulfilled by a drop-shipping option.
+Peinkofer et al. (2019) adopt a qualitative research methodology to investigate suppliers in the service triad. Yu et al. (2017) consider
+a dual-channel supply chain consisting of three parties, namely, a manufacturer, retailer, and an e-tailer. The manufacturer sells a
+product through the retailer by adopting a fixed batch ordering policy, while the e-tailer uses either batch ordering or drop-shipping
+for order fulfillment. Taking market power and retail channel dominance into consideration, they investigate the supply power
+structure and drop-shipping on a manufacturer’s optimal distribution channel strategy. Other studies have discussed online selling
+formats by focusing on improving the order fulfillment performance (e.g., Zhang et al., 2019a) and the firm’s allocation decisions
+(e.g., Mahar and Wright, 2009).
+Our work is also related to the literature stream on dual procurement channels with a monopoly common retailer. A considerable
+number of studies have focused on the conflict issues in dual channels with a single manufacturer (see, e.g., Choi et al., 2016; Liu
+et al., 2016; Huang et al., 2018; Matsui, 2018; Choi et al., 2019; Li et al., 2019a; Sun et al., 2019b; Zhang et al., 2019a,b) and the
+game-theoretic interaction between firms/channels (see, e.g., Chen and Bell, 2012; Mahar and Wright, 2017; Xiao et al., 2017;
+Alawneh and Zhang, 2018; Chen et al., 2018; Choi, 2018; Li et al., 2019b). To the best of our knowledge, the earliest study of a
+monopoly common retailer channel is Choi (1991). He develops a channel structure where a common retailer sells substitutable
+products made by two competing manufacturers. The focus of his study is on the effects of the retailer’s ability to influence equilibrium retail prices for her own profit. Under this duopoly model, the retailer is powerful and can influence the market substantially
+(Choi, 1996). Pan et al. (2010) present a supply chain model with one retailer and two manufacturers, where each can choose either a
+revenue-sharing contract or a wholesale price contract. Comparing the profits of different contract strategies, they investigate the
+effect of channel competition on the e-tailer’s procurement and the manufacturer’s pricing strategy. Chakraborty et al. (2015) develop
+a similar supply chain structure with two competing manufacturers selling products through a common retailer, and analyze the
+coordination in the established system. Other related literature on a monopoly common retailer channel concerns the coordination of
+horizontal or vertical channel structures with a marketplace (see, e.g., Chen and Chen, 2007; Jiang et al., 2011; Hao and Fan, 2014;
+Kwark et al., 2014; Hagiu and Wright, 2014; Abhishek et al., 2016; Tan et al., 2016; Yan et al., 2018; Sun et al., 2019a; Choi and He,
+2019). Considering a store-within-store arrangement in which a manufacturer establishes a store in an online marketplace, Jerath and
+Zhang (2010) investigate the economic incentives for retailers who decide to set up this arrangement. From a signaling perspective,
+Wang et al. (2018) examine the effect of the interaction between two categories of assurance mechanisms on sales performance of
+sellers in online marketplaces. Comparing three mutually exclusive platform modes (i.e., reseller mode, hybrid mode and online
+marketplace mode), Tian et al. (2018) discuss the effect of upstream competition and fulfillment costs on intermediary (e-tailer) and
+supplier profitability. The arrangement of drop-shipping policy differs from that of the marketplace. Drop-shipping is order fulfillment in which the manufacturer delivers the goods to the customer based on the order of the e-tailer (Randall et al., 2006).
+Meanwhile, the manufacturer charges the e-tailer a fixed fee or a proportion of the value of drop-shipping goods. By contrast, the
+marketplace refers to the intermediary where the e-tailer allows the manufacturer to sell products by charging subscription and
+commission fees and grants the manufacturer with absolute control over pricing, operations, and procurement (Tian et al., 2018; Li
+et al., 2018). We contribute to the literature in the following ways. (1) Unlike the sequence structure of Tian et al. (2018), where the
+upstream suppliers make decisions simultaneously, in this paper, the upstream manufacturers can move sequentially as the e-tailer
+approaches them. (2) We are the first to investigate the e-tailer’s strategy regarding the interplay of drop-shipping implementation
+and approach sequence in duopoly procurement structure with two competing manufacturers selling through a monopoly common
+retailer. (3) We compare the optimal solutions of the simultaneous and sequential structures and derive equilibrium procurement
+strategies for the e-tailer by considering the drop-shipping policy. We find that the e-tailer prefers the simultaneous structure to the
+sequential structure in the BO mode, while in the HS mode she chooses the sequential structure. Interestingly, in the HS mode, the etailer prefers the batch ordering manufacturer to move first, and as competition intensifies, she becomes increasingly reluctant to
+adopt a hybrid strategy.
+3. Simultaneous model
+We consider a supply chain consisting of an e-tailer and two competing manufacturers. The e-tailer sells two competing products,
+products 1 and 2, which are provided by manufacturers 1 and 2, respectively. The costs of products are denoted by
+ci,
+i = 1, 2 . Without loss of generality, we first normalize the manufacturers’ production costs to zero for ruling out trivial
+cases, which was also done by Chung and Lee (2017). In the final section, we will discuss the e-tailer’s procurement strategies with
+different costs. The inverse demand functions for the products are given by
+110
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+M1
+
+M1
+
+E-tailer
+
+E-tailer
+M2
+
+M2
+decision sequence
+
+(a)
+
+decision sequence
+
+BO/S
+
+(b)
+
+HS/S
+
+Fig. 1. Supply chain configurations for a simultaneous structure.
+
+pi = ai
+
+qi
+
+r
+
+qj
+
+for
+
+j=3
+
+i,
+
+i = 1,
+
+2,
+
+(1)
+
+where ai is the market potential of product i ; parameter r is a constant with r ( 0, 1 ], representing substitutability across the
+products; pi and qi are the market clearance price (or sales price) and selling quantity for manufacturer i ’s product, respectively. This
+kind of inverse demand function has been adopted widely in previous research (Zhang, 2002; Ha et al., 2011; Wu and Zhou, 2017).
+Next, we consider two structures in which the e-tailer requires the manufacturers to make decisions either simultaneously or sequentially. To maintain analytical tractability, we follow Mukhopadhyay et al. (2008) to posit ai = aj = a . For ease of exposition and
+also inspired by Mukhopadhyay et al. (2008), we further normalize a = 1, which does not affect the comparison of the e-tailer’s
+profits in our cases.
+In our model, the e-tailer is powerful and adopts two procurement modes. (1) In a pure batch ordering (BO ) mode, the e-tailer
+adopts batch ordering strategies for both manufacturers. (2) In a hybrid shipping (HS ) mode, the e-tailer adopts a drop-shipping
+policy for one of the manufacturers (e.g., manufacturer 1) and a batch ordering procurement strategy for the other (e.g., manufacturer 2). Following Yu et al. (2017), if the drop-shipping policy is adopted by the e-tailer, the sales quantity is determined by the
+corresponding manufacturer in the drop-shipping channel. The manufacturer charges the e-tailer a negotiated proportion of the value
+of drop-shipping goods. For simplicity and consistency, such negotiated proportion is denoted as the profit-sharing ratio ( ). We
+consider and compare BO and HS modes to find the strategy that best benefits the e-tailer. The set of {S, PM1, PM2} is used to represent
+the e-tailer’s approach sequence, where “S ” means the e-tailer approaches both manufacturers and requires them to make decisions
+simultaneously, “PM1” means the e-tailer approaches manufacturer 1 first, giving him the first mover advantage, and “PM2 ” means
+{BO, HS },
+{S, PM1, PM2} ) to
+the e-tailer approaches manufacturer 2 first, giving him the first decision. We also use / (
+denote the e-tailer’s practical strategies. First, we consider the two / S scenarios (see Fig. 1) and detail the sequence of events for each
+in the following subsections.
+3.1. BO/S
+Under the BO / S strategy, the e-tailer adopts a batch ordering policy for both manufacturers. The decision sequence of events for
+BO / S is as follows (see Fig. 1(a)):
+Stage 1: Prior to the selling season, the e-tailer decides to adopt a BO / S strategy.
+Stage 2: The e-tailer approaches the two manufacturers simultaneously. The manufacturers quote their wholesale prices as w1 and
+w2 , respectively.
+Stage 3: The e-tailer decides on the order quantities q1 and q2 after receiving w1 and w2 .
+Based on aforementioned discussion, the inverse demand functions (1) can be reduced to p1 = 1
+p2 = 1 q2 rq1 . Thus, the profit function of the e-tailer is
+BO / S
+(q1,
+R
+
+q2 ) = (p1
+
+w1 ) q1 + (p2
+
+q1
+
+rq2
+
+and
+(2)
+
+w2 ) q2.
+
+The profit functions of the two manufacturers are
+BO / S
+(wi)
+Mi
+
+= wi
+
+qi ,
+
+i = 1,
+
+(3)
+
+2.
+
+Through backward induction, we start from the last stage and summarize the results of this simultaneous game below.
+Lemma 1. For a given set of wholesale prices
+1 r w1 + rw 2
+1 r + rw1 w 2
+q1BO / S * =
+and q2BO / S * =
+.
+2(1 r 2)
+2(1 r 2)
+
+(w1
+
+,
+
+w2) , the e-tailer’s best responses (q1BO / S ,
+
+q2BO / S ) are specified as
+
+Lemma 1 gives an optimal quantity decision for the e-tailer when she receives the manufacturers’ wholesale prices. The following
+proposition specifies the manufacturers’ optimal wholesale prices and the e-tailer’s optimal profit.
+Proposition 1. Under the BO / S strategy, the equilibrium solutions for the manufacturers’ wholesale prices can be specified as w1BO / S =
+
+and
+
+w2BO / S
+
+=
+
+1
+2
+
+r
+.
+r
+
+The e-tailer’s optimal order quantities are given by
+
+q1BO / S
+
+111
+
+=
+
+1
+4 + 2r 2r 2
+
+and
+
+q2BO / S
+
+=
+
+1
+,
+4 + 2r 2r 2
+
+1
+2
+
+r
+r
+
+respectively. The e-tailer’s
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+payoff is
+
+BO / S
+R
+
+=
+
+8
+
+1
+.
+6r 2 + 2r 3
+
+The products’ substitutability r plays an important role in this game. Note that the manufacturers’ wholesale prices decrease with
+r , and the e-tailer’s payoff RBO / S increases with r . This result shows that the fierce market competition may lead manufacturers to
+lower their wholesale prices and eventually benefit the e-tailer.
+3.2. HS/S
+We consider the HS /S strategy, where the e-tailer adopts a drop-shipping policy for manufacturer 1 and a batch ordering policy
+for manufacturer 2 under a simultaneous structure. In this scenario, the e-tailer only displays product 1 on her platform and transfers
+the consumer orders to manufacturer 1 who is then in charge of shipping the goods directly to consumers. For each unit sold, the etailer extracts a certain percentage of sales. Following Yu et al. (2017), we assume the profit-sharing ratio
+is an exogenous
+parameter and sales quantity q1 is determined by manufacturer 1. The sequence of events in this case are as follows (see Fig. 1(b)):
+Stage 1: Prior to the selling season, the e-tailer decides to adopt HS /S strategy.
+Stage 2: The e-tailer approaches the two manufacturers simultaneously. Manufacturer 1 determines product 1′s sales quantity q1
+and manufacturer 2 announces product 2′s wholesale price w2 .
+Stage 3: The e-tailer decides product 2′s order quantity q2 . The market demand is realized and products are sold to consumers.
+In this case, the e-tailer’s payoff is RHS / S (p1 , q2) = p1 q1 + (p2 w2 ) q2 and the manufacturers’ payoff MHSi / S ( i = 1, 2) can be
+) p1 q1 and MHS2 / S (w2) = w2 q2 , respectively. We derive the optimal decisions through backward
+expressed as MHS1 / S (q1 ) = (1
+induction and obtained lemma 2.
+Lemma 2. Under the HS /S strategy, given the manufacturers decision set
+1
+q2HS / S = 2 [1 r (1 + ) q1 w2].
+
+(q1
+
+,
+
+w2) , the e-tailer’s best response can be specified as
+
+Lemma 2 gives an optimal quantity decision for the e-tailer when she receives the manufacturers’ decisions. The following
+proposition specifies the manufacturers’ optimal decisions and the e-tailer’s optimal profit.
+Proposition 2. Under the HS /S strategy, equilibrium solutions for manufacturer 2′s wholesale price and manufacturer 1′s sales quantity can
+be specified as
+
+q2HS / S
+
+=
+
+4
+
+2r (1 + )
+16
+
+HS / S *
+R
+
+=
+
+w2HS / S =
+
+4
+
+r 2 (1 + )
+
+and
+
+6r 2 (1 + )
+
+8
+
+(1 + )2r 4 + 4(1 + 5 + 4 2 ) r 3
+4
+
+The condition of 0
+
+r 2 (1 + )
+
+2r (1 + )
+
+3r 2 (1 + )
+
+4(1 + 13 + 11 2) r 2
+
+8
+
+4
+
+1,
+
+4 r
+3r 2 (1 + )
+
+16(1 + ) r + 64 + 16
+
+3r 2 (1 + )]2
+
+[8
+
+min
+
+and q1HS / S =
+
+2r r 2
+2r + r 2
+
+. The e-tailer’s optimal order quantity and payoff are
+
+, respectively.
+
+should be guaranteed to ensure that the manufacturer 2′s wholesale price w2HS / S
+
+and the e-tailer’s order quantity q2HS / S are positive. Proposition 2 indicates that the e-tailer’s payoff decreases with r , which implies
+that a higher substitutability r between the products will hurt the e-tailer’s payoff under the HS /S strategy.
+3.3. E-tailer’s procurement strategy
+The two previous sections describe the optimal decisions of the e-tailer in two simultaneous games and conclude that RHS / S
+decreases with r but increases with r . In this section, we will explore the optimal choice for the e-tailer under given (r , ) by
+comparing the equilibrium results of BO / S and HS /S . For ease of exposition, corollary 1 is given as follows.
+Corollary 1. We define a set for the profit-sharing ratio :
+S
+R:
+
+=
+
+|
+
+BO / S
+R
+
+=
+
+HS / S
+R
+
+,
+
+0
+
+min
+
+1,
+
+4
+
+2r r 2
+2r + r 2
+
+where, the e-tailer’s profit remains the same for either the BO / S or the HS /S strategy. For any given r ,
+can benefit from the HS /S strategy whenever
+
+S
+R
+
+<
+
+min
+
+4
+
+1,
+
+2r r 2
+2r + r 2
+
+S
+R
+
+S
+R
+
+exists, such that the e-tailer
+
+.
+
+We use r and to characterize the e-tailer’s preference in Fig. 2, which indicates specific areas where the e-tailer prefers the BO / S
+(HS /S ) strategy. Fig. 2 shows that when (r , ) is in region I, the e-tailer will prefer the HS /S strategy, otherwise, she will prefer the
+BO / S strategy (e.g., regions II and III). Note that III is the infeasible region for the HS /S strategy, which implies that the e-tailer can
+only choose the BO / S strategy in III. Fig. 2 can be considered as an e-tailer’s strategy map because it allows an e-tailer to choose the
+appropriate strategy based on the corresponding parameters.
+We obtain other interesting results. As M1 is assumed to be a drop-shipping manufacturer under the HS /S strategy, we attempt to
+analyze manufacturer 1′s preference regions, just as we did for the e-tailer. If a set of profit-sharing ratios is defined from the
+perspective of manufacturer 1, like in Corollary 1:
+112
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+3 1
+
+1.0
+0.8
+0.6
+
+S
+R
+
+0.4
+
+=
+
+0.2
+0.0
+
+0.0
+
+0.2
+
+r
+
+0.4
+
+4 2 r r2
+2 r r2
+
+0.6
+
+0.8
+
+1.0
+
+Fig. 2. E-tailer’s preference in a simultaneous structure.
+
+S
+M1 :
+
+=
+
+|
+
+BO / S
+M1
+
+=
+
+HS / S
+M1
+
+,
+
+0
+
+min
+
+4
+
+1,
+
+2r r 2
+2r + r 2
+
+where manufacturer 1′s profit remains the same for both cases, exists, such that manufacturer 1 can benefit from HS /S strategy
+< MS1 . Manufacturer 1′s preference in a simultaneous structure is shown in Fig. 3.
+whenever 0
+Different from the e-tailer’s preference, as illustrated in Fig. 3, manufacturer 1 will benefit from HS /S strategy in region II,
+otherwise he will prefer BO / S strategy. Although the e-tailer and manufacturer 1 have different preferences, the areas overlap.
+Superimposing Figs. 2 and 3, we obtain Fig. 4.
+The five regions in Fig. 4 are based on the e-tailer and manufacturer 1′s preferences. The dominant e-tailer will choose the
+appropriate strategy to maximize her own profit. Meanwhile, manufacturer 1′s preference on drop-shipping is characterized. To be
+specific, in region I, the e-tailer prefers HS /S , but manufacturer 1 prefers BO / S . In region II, manufacturer 1 prefers HS /S , but the etailer will only choose BO / S strategy. Region III is the infeasible region for the HS /S strategy, and both players can only choose the
+BO / S strategy. Interestingly, their preferences become consistent in regions IV and V. This consistency occurs because a moderate
+profit-sharing ratio will increase both players’ profits by adopting HS /S , as shown in IV. As the products’ substitutability increases,
+the consistent region for HS /S narrows given that a higher profit-sharing ratio should be agreed upon by players for compensating the
+e-tailer’s loss in adopting HS /S . When the products’ substitutability is sufficiently large, the compensation that the e-tailer receives by
+increasing the profit-sharing ratio cannot offset the loss caused by the rise of the products’ substitutability in the HS /S strategy.
+Meanwhile, manufacturer 1 suffers a loss with the increase of the profit-sharing ratio. As a result, BO / S is preferred by both the etailer and manufacturer 1 in region V.
+3.4. Summary of main results
+We present below the key takeaways of the e-tailer’s procurement strategy under a simultaneous structure and offer related
+managerial insights.
+(1) A higher substitutability r between the products will benefit the e-tailer’s payoff under the BO / S strategy, but hurt her payoff
+under the HS /S strategy (see Propositions 1 and 2).
+(2) Under the HS /S strategy, when the substitutability r becomes large enough, the e-tailer will obtain more profit from
+3 1
+
+1.0
+0.8
+
+S
+M1
+
+0.6
+0.4
+
+=
+
+0.2
+0.0
+
+0.0
+
+0.2
+
+0.4
+
+r
+
+0.6
+
+4 2 r r2
+2 r r2
+0.8
+
+1.0
+
+Fig. 3. Manufacturer 1′s preference in a simultaneous structure.
+113
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+3 1
+
+1.0
+
+E-tailer
+
+0.8
+
+Manufacturer 1
+
+S
+M1
+
+0.6
+0.4
+0.2
+0.0
+
+=
+
+S
+R
+
+0.0
+
+0.2
+
+0.4
+
+r
+
+0.6
+
+4 2 r r2
+2 r r2
+0.8
+
+1.0
+
+Fig. 4. E-tailer and manufacturer 1 preferences in a simultaneous structure.
+
+manufacturer 1 and manufacturer 2′s wholesale price w2HS / S will drop to zero.
+(3) The e-tailer and manufacturer 1 have different preferences towards drop-shipping in certain cases (regions I, II and III), but their
+preferences become the same in other cases (regions IV and V). Specifically, the preferences of the two firms become consistent in
+two regions where the profit-sharing ratio is moderate, thereby ensuring that both firms can benefit from the deal (see Fig. 4).
+4. Sequential model
+In business practice, when an e-tailer needs to procure products from two manufacturers, she can strategically approach one
+manufacturer first and then the other. If the e-tailer uses this sequential access on two competing manufacturers, the results could be
+very different. In this section, we discuss the e-tailer’s procurement strategies under a sequential structure, which will result in the
+four scenarios illustrated in Fig. 5. The sequence of events in each scenario will be discussed in the following subsections.
+4.1. BO/PM1 (BO/PM2)
+When the e-tailer adopts a BO / PM1 strategy, the sequence of events is listed as follows (also see Fig. 5(a)):
+Stage
+Stage
+Stage
+Stage
+
+1:
+2:
+3:
+4:
+
+The
+The
+The
+The
+
+e-tailer
+e-tailer
+e-tailer
+e-tailer
+
+approaches manufacturer 1 first, and then manufacturer 1 determines the wholesale price w1.
+responds to manufacturer 1 by determining product 1′s order quantity q1.
+then contacts manufacturer 2, and he determines the product 2′s wholesale price w2 .
+decides product 2′s order quantity q2 after receiving w2 .
+
+M1
+
+M1
+
+E-tailer
+
+E-tailer
+M2
+
+M2
+
+decision sequence
+
+decision sequence
+
+(a)
+
+BO/PM1
+
+(b)
+
+HS/PM 1
+
+M1
+
+M1
+
+E-tailer
+
+E-tailer
+M2
+
+M2
+
+decision sequence
+
+decision sequence
+
+(c)
+
+(d)
+
+BO/PM2
+
+HS/PM 2
+
+Fig. 5. Supply chain configurations for a sequential structure.
+114
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+By backward induction, we first derived the e-tailer’s best response action to manufacturer 2. For any given w2 , the e-tailer’s
+payoff is given by RBO / PM1 (q2 ) = q1 (1 q1 rq2 w1) + q2 (1 rq1 q2 w2) . We can see that RBO / PM1 is strictly concave by q2 , and
+1
+the e-tailer’s optimal order quantity for product 2 meets the condition of q2BO / PM1 = 2 (1 2rq1 w2) . The e-tailer’s order quantity for
+
+product 2 depends on q1 and w2 . Therefore, manufacturer 2′s payoff can be expressed as
+strictly concave in w2 , and manufacturer 2′s optimal
+
+tailer’s payoff can be expressed as
+
+BO / PM1
+(q1)
+R
+
+=
+
+1
+16
+
+[1
+
+about q1, and the optimal order quantity for product
+position 3.
+
+1
+BO / PM1
+= 2 (1 2rq1 w2 ) w2 , which is
+M2
+1
+BO / PM1
+= 2 (1 2rq1) . Now, the ewholesale price meets the condition of w2
+BO
+/
+PM
+2
+1 is a concave function
+4(4 r 2) q1 + 4q1 (4 r 4w1)]. Intuitively, R
+4 r 4w
+1 meets the condition of q1BO / PM1 = 2(4 r 2) 1 . We present our results in pro-
+
+Proposition 3. Under the BO / PM1 strategy, the equilibrium solution for manufacturers’ wholesale prices (w1BO / PM1
+
+(
+
+4
+
+r
+
+8
+
+,
+
+BO / PM1
+R
+
+=
+
+8 4r r 2
+). The e-tailer’s
+4(4 r 2)
+32 8r 3r 2
+, respectively.
+64(4 r 2)
+
+optimal order quantities and payoff are
+
+q1BO / PM1
+
+=
+
+4
+4(4
+
+r
+,
+r 2)
+
+w2BO / PM1
+
+,
+
+q2BO / PM1 =
+
+8 4r r 2
+8(4 r 2)
+
+) is
+
+and
+
+According to Proposition 3, the manufactures’ wholesale prices and the e-tailer’s payoff RBO / PM1 all decrease with r . Different
+from the BO / S strategy, this result shows that fierce market competition will lead manufacturers to lower their wholesale prices and
+
+hurt the e-tailer’s benefit. Note that w1BO / PM1
+
+w2BO /PM1
+
+=
+
+r (4 2r + r 2)
+8(4 r 2)
+
+> 0 and q1BO / PM1
+
+q2BO / PM1
+
+=
+
+r
+
+16
+
+8r
+
+> 0 , which
+
+implies that, under the BO / PM1 strategy, manufacturer 1 sets a higher wholesale price but obtains a larger order quantity from the e(w BO / PM1
+
+w BO / PM1 )
+
+(q BO / PM1
+
+q BO / PM1 )
+
+2
+2
+> 0 and 1
+> 0 , intuitively, manufacturer 1 can reap a larger
+tailer. Furthermore, as 1
+r
+r
+share from the system with the increase of r , and eventually lead to a decline in the e-tailer’s payoff.
+The strategy of BO / PM2 is a symmetric scenario of BO / PM1. We omit the analysis here.
+
+4.2. HS/PM1
+In this scenario, the e-tailer adopts the HS mode. She signs a profit-sharing contract with manufacturer 1 and requires him to
+provide a drop-shipping service. The sequence of events in this scenario is listed as follows (see Fig. 5(b)):
+Stage 1: The e-tailer first approaches manufacturer 1. Then, manufacturer 1 determines product 1′s supply quantity q1.
+Stage 2: The e-tailer contacts manufacturer 2 and requires him to determine product 2′s wholesale price w2 .
+Stage 3: The e-tailer decides the product 2′s order quantity q2 after receiving q1 and w2 .
+Solving the problem backwardly, we first derived the e-tailer’s best response to the manufacturers’ decisions. Given that the profitsharing ratio is an exogenous parameter and product 1′s price is a function of q2 , we used q2 to represent the e-tailer’s payoff
+HS / PM1
+(q2) = (1 q1 rq2) q1 + (1 rq1 q2 w2 ) q2 . Intuitively, RHS / PM1 is strictly concave in q2 , and the e-tailer’s optimal
+R
+1
+purchasing quantity of product 2 should meet the condition of q2HS / PM1 = 2 (1 rq1 r q1 w2) . We present our findings in the
+following proposition.
+Proposition 4. Under the HS /PM1 strategy, the manufacturer 2′s optimal wholesale price, the manufacturer 1′s optimal sales quantity, and
+8 r (1 + )(4 + r )
+8 r (1 + )(4 + r )
+4 r
+= 8[4 r 2 (1 + )] ,
+the e-tailer’s optimal procurement quantity are w2HS / PM1 = 4[4 r 2 (1 + )] , q1HS / PM1 = 2(4 r 2 r 2 ) and q2HS / PM1
+respectively. The e-tailer’s equilibrium payoff is given by
+HS / PM1
+R
+
+=
+
+r 4 (1 + )2 + 8r 3 (1 + 6 + 5 2) 16r 2 (8 + 7 )
+64[4 r 2 (1 + )]2
+
+64r (1 + ) + 64(1 + 4 )
+
+We see that manufacturer 2′s wholesale price w2HS / PM1 and the e-tailer’s payoff RHS / PM1 decrease with r , which shows that fierce
+market competition will lead manufacturer 2 to decrease his wholesale price, thus resulting in lower retail prices for both products.
+This condition, in turn, hurts the e-tailer’s payoff. Note that product 1′s market share, represented by
+
+q1HS / PM1
+HS / PM1
+q1
++ q2HS / PM1
+
+, increases
+
+with r . This effect occurs because manufacturer 1 decides product 1′s supply quantity and has a first mover advantage, by which he
+can transfer the negative effects of competition to manufacturer 2. For a given r , both the e-tailer’s order quantity q2HS / PM1
+and
+manufacturer 2′s wholesale price w2HS / PM1 decrease with , but manufacturer 1′s supply quantity q1HS / PM1 , the e-tailer’s payoff, and
+product 1′s market share all increase with . This effect means that a higher profit-sharing ratio allows the e-tailer to gain more profit
+from product 1, which eventually leads the e-tailer to order more from manufacturer 1 and less from manufacturer 2, even though
+manufacturer 2 lowers the wholesale price of product 2.
+4.3. HS/PM2
+In this case, the e-tailer will still adopt the HS mode. Different from the HS /PM1 strategy, the e-tailer chooses to approach
+manufacturer 2 first. During a single selling season, firms engage in three stages of decision making. The sequence of events is as
+follows (see Fig. 5(d)):
+115
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+Stage 1: The e-tailer chooses to approach manufacturer 2 first. Then, manufacturer 2 determines product 2′s wholesale price w2 .
+Stage 2: The e-tailer decides product 2′s order quantity q2 .
+Stage 3: The e-tailer approaches manufacturer 1. Then, manufacturer 1 determines product 1′s sales quantity q1.
+Again, we solve this problem backwards. We first derived manufacturer 1′s best response to the other firms’ decisions.
+)(1 q1 rq2 ) q1, which is concave by q1. Thus, manufacturer 1′s
+Manufacturer 1′s payoff can be expressed as MHS1 / PM2 (q1) = (1
+1
+optimal supply quantity should meet the condition of q1HS / PM2 = 2 (1 rq2 ) . Then, anticipating manufacturer 2′s decision on w2 , the
+
+2w2 ) +
+[4 r 2 (2 + )] q22} , which is strictly concave
+e-tailer decides q2 to maximize her payoff RHS / PM2 (q2 ) = 4 {2q2 (2 r r
+by q1. Therefore, according to the first-order condition, the e-tailer’s best response to manufacturer 2 can be expressed as
+2 r r
+2w
+q2HS / PM2 = 4 2r 2 r 2 2 . We present the equilibrium results in the following proposition.
+1
+
+Proposition 5. Under the HS /PM2 strategy, manufacturer 2′s optimal wholesale price, manufacturer 1′s optimal sales quantity and the e1
+
+tailer’s optimal order quantity are w2HS / PM2 = 4 (2
+tailer’s equilibrium payoff is given by
+
+HS / PM2
+R
+
+=
+
+r ) , q2HS / PM2
+
+r
+
+4(1 + 4 )
+
+4r (1 + ) + r 2 (1
+16
+
+[4
+
+=
+6
+
+2
+
+r
+
+r
+
+8 2r 2 (2 + )
+3 2)
+
+, and q1HS / PM2 =
+
+8
+
+2r
+
+r 2 (3 + )
+
+4
+
+[4
+
+r 2 (2 + )]
+
+, respectively. The e-
+
+.
+
+r 2 (2 + )]
+
+According to Proposition 5, manufacturer 2′s wholesale price w2HS / PM2 and the e-tailer’s payoff RHS / PM2 decrease with r . Unlike in
+the HS /PM1 strategy, the product substitutability r under the HS /PM2 strategy has a non-monotonic effect on product 2′s sales
+quantity q2HS / PM2 and product 1′s market share
+
+q1HS / PM2
+HS / PM2
+q1
++ q2HS / PM2
+
+. Such outcome arises because manufacturer 1 loses the first
+
+mover advantage under the HS /PM2 strategy. In such case, manufacturer 1 still sells more products than manufacturer 2, as
+
+q1HS / PM2
+
+q2HS / PM2
+
+=
+
+4 + 2r
+
+r 2 (3 + )
+
+4 [4 r 2 (2 + )]
+q1HS / PM1
+
+> 0.
+
+In
+
+comparison
+
+to
+
+the
+
+situation
+
+under
+
+HS /PM1,
+
+q2HS / PM2 ) (
+q2HS / PM1 ) < 0 with the HS /PM2 strategy. Thus, the e-tailer can reduce the effect of the
+(q1HS/ PM2
+drop-shipping policy on the product’s demand by adopting the HS /PM2 strategy, an approach which may be to her benefit. The
+comparisons between these strategies will be analyzed in the next section.
+4.4. E-tailer’s procurement strategy
+In this section, we will compare the equilibrium results under simultaneous and sequential structures to derive the optimal
+solution for the e-tailer. Table 1 lists the e-tailer’s equilibrium payoffs.
+Proposition 6. Comparison of the e-tailer’s equilibrium payoffs for these scenarios reveals that
+HS / PM2
+> RHS / PM1 > RHS / S .
+R
+
+BO / S
+R
+
+>
+
+BO / PM1
+R
+
+=
+
+BO / PM2
+R
+
+and
+
+Proposition 6 indicates that the e-tailer’s payoffs under the strategies BO / PM1 and BO / PM2 are the same since the two manufacturers are symmetric, i.e., RBO / PM1 = RBO / PM2 . Moreover, when the e-tailer adopts the BO / S strategy, she can obtain the highest
+payoff. Thus, the e-tailer in the BO mode can earn more profit under a simultaneous structure than a sequential one. The reason for
+such result is that the double marginalization effect is more serious under the sequential structure, thereby leading to a lower payoff
+for the e-tailer. By contrast, HS /PM2 is the best strategy when the e-tailer decides to adopt the HS mode. The manufacturers will gain
+more by making decisions first, but this will be detrimental to the e-tailer’s payoff. By adopting the HS /PM2 strategy, the e-tailer can
+determine the order quantity of product 2 before manufacturer 1 announces his supply quantity. Thus, the e-tailer achieves a higher
+profit than with the other two strategies (HS /S and HS /PM1 ).
+According to the analysis above, the e-tailer in BO and HS modes can achieve the highest payoff by adopting the BO / S and
+HS /PM2 strategies. The next step examines how the e-tailer chooses between the BO / S and HS /PM2 strategies.
+Corollary 2. We define a set for the profit-sharing ratio :
+R:
+
+=
+
+{
+
+|
+
+BO / S
+R
+
+=
+
+HS / PM2
+R
+
+}
+
+where the e-tailer’s payoff remains the same for either the BO / S or the HS /PM2 strategy. There exists
+1. In addition, we define:
+can benefit from HS /PM2 whenever R <
+
+R
+
+R,
+
+such that the e-tailer
+
+Table 1
+E-tailer’s payoffs under different strategies.
+BO
+S
+PM1
+
+HS
+1
+
+32
+
+8r
+
+64(4
+
+PM2
+
+r 4 (1 + )2 + 4r 3 (1 + 5 + 4 2)
+
+6r 2 + 2r 3
+
+8
+
+32
+
+8r
+
+64(4
+
+4
+
+3r 2
+
+4r 2 (1 + 13 + 11 2)
+[8 3r 2 (1 + )]2
+
+r 4 (1 + )2 + 8r 3 (1 + 6 + 5 2)
+
+16r 2 (8 + 7 )
+64[4 r 2 (1 + )]2
+
+r 2)
+3r 2
+
+4(1 + 4 )
+
+r 2)
+
+4r (1 + ) + r 2 (1 6
+r 2 (2 + )]
+
+16[4
+
+116
+
+3 2)
+
+16r (1 + ) + 64 + 16
+
+64r (1 + ) + 64(1 + 4 )
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+Fig. 6. E-tailer and manufacturer 1 strategy choices.
+M1:
+
+=
+
+{
+
+|
+
+BO / S
+M1
+
+=
+
+HS / PM2
+M1
+
+}
+
+where manufacturer 1′s payoff remains the same for the two strategies. There exists M1
+M1 such that manufacturer 1 can benefit
+< M1.
+from the HS /PM2 strategy whenever 0
+To explain our main results, Fig. 6 presents the e-tailer and manufacturer 1′s preferences.
+From Fig. 6, we can infer that the e-tailer is more willing to choose the HS /PM2 strategy in region I and otherwise prefers the BO / S
+strategy in region II (see Fig. 6[a]). Intuitively, a high profit-sharing coefficient benefits the e-tailer. However, with the increase of
+intense competition, a higher profit-sharing ratio is needed to ensure that the e-tailer adopts the HS /PM2 strategy. By contrast,
+manufacturer 1 prefers the BO / S strategy in region I and the HS /PM2 strategy in region II (see Fig. 6[b]). This outcome can be
+attributed to the low profit-sharing ratio benefits manufacturer 1. The increase of competition intensity gives manufacturer 1 more
+opportunity in the HS /PM2 strategy. The optimal strategic choice for the e-tailer and manufacturer 1 will be the same in region III
+(Fig. 7).
+Three regions (Fig. 7) are generated by comparing the e-tailer and manufacturer 1′s preferences. Specifically, in region I, the etailer prefers HS /PM2 , but manufacturer 1 prefers BO / S . In region II, manufacturer 1 wishes the e-tailer to adopt the HS /PM2 strategy,
+which is not the optimal choice for the e-tailer. The preferences of the e-tailer and manufacturer 1 become consistent in region III,
+because a moderate profit-sharing ratio will increase both firms’ payoff by adopting the HS /PM2 strategy. As the products’ substitutability increases, the consistent region for HS /PM2 narrows as a higher profit-sharing ratio should be agreed upon by both
+players to compensate for the e-tailer’s loss in adopting HS /PM2 . As a result, when the market competition is so intense that the two
+sides can not reach a consistent profit-sharing ratio, the e-tailer will turn to the BO / S strategy.
+4.5. Summary of main results
+The key differences between the simultaneous and sequential models are summarized below.
+(1) The e-tailer prefers the BO / S strategy in the BO mode. This outcome is because the sequential strategies exacerbate the double
+marginal effect which gives the e-tailer a lower payoff relative to that acquired with the simultaneous strategy.
+(2) In the HS mode, the e-tailer prefers the HS /PM2 strategy. By adopting the HS /PM2 strategy, the e-tailer can take a first-mover
+advantage over manufacturer 1, which gives her a higher payoff than when she adopts the other two strategies.
+1.0
+0.8
+
+E-tailer
+
+Manufacturer 1
+
+0.6
+0.4
+0.2
+0.0
+
+0.0
+
+0.2
+
+0.4
+
+r
+
+0.6
+
+0.8
+
+1.0
+
+Fig. 7. E-tailer and manufacturer 1 preferences toward HS / PM2 and BO / S
+117
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+11
+
+10
+
+9
+
+0
+
+0.05
+
+0.1
+
+0.15
+
+c
+
+0.2
+
+(a) r = 0.2
+
+0.25
+
+0.3
+
+15
+
+The payoff of the e-tailer (x100)
+
+The payoff of the e-tailer (x100)
+
+The payoff of the e-tailer (x100)
+
+BO/S
+BO/PM1
+BO/PM2
+
+12
+
+8.5
+
+20
+
+16
+
+13
+
+BO/S
+BO/PM1
+BO/PM2
+
+14
+13
+12
+11
+10
+9
+8
+
+0
+
+0.05
+
+0.1
+
+0.15
+
+c
+
+0.2
+
+0.25
+
+0.3
+
+BO/S
+BO/PM1
+BO/PM2
+
+18
+
+16
+
+14
+
+12
+
+10
+
+8
+
+0
+
+0.05
+
+(b) r = 0.5
+
+0.1
+
+0.15
+
+c
+
+0.2
+
+0.25
+
+0.3
+
+(c) r = 0.8
+
+Fig. 8. Effects of c on e-tailer’s payoff in the BO mode (c M1 = c , c M2 = 0 ).
+
+(3) The e-tailer and manufacturer 1 have different preferences toward BO / S and HS /PM2 , but their preferences become consistent in
+region III (Fig. 7), where a moderate profit-sharing ratio can ensure that both firms benefit from the HS /PM2 strategy.
+5. Extensions
+In the previous section, we examined the effect of drop-shipping on an e-tailer’s procurement strategy by analyzing a channel
+structure with two competing manufacturers and a common e-tailer that sells both manufacturers’ products. For ease of exposition,
+we exerted some constraints on the model setting. In this section, those constraints are relaxed and we discuss the robustness of our
+main results.
+5.1. Asymmetric production costs
+In the basic model, we assumed that both manufacturers’ costs were equal to zero. We now analyze the scenarios wherein the
+manufacturers face asymmetric production costs. This approach helps examine the effect of costs on the e-tailer’s procurement
+strategy choice and equilibrium payoffs.
+We first investigate the e-tailer’s optimal batch ordering strategy with different production costs by denoting manufacturer 1′s
+cost as c and normalizing manufacturer 2′s cost to zero (i.e., c M1 = c , c M2 = 0 ). Fig. 8 illustrates the effects of c on these payoffs. For
+the symmetry of the two manufacturers, we just interchange the equilibrium results of M1 and M2 when we consider the situation in
+which c M1 = 0 and c M2 = c . The e-tailer’s payoffs decrease with c and her optimal strategy is BO / S (see Fig. 8). Note that RBO / PM2 is
+always higher than RBO / PM1 , thereby implying that the e-tailer prefers to give the first-mover advantage to the manufacturer with the
+lower production cost in the BO mode.
+Then, we examine the e-tailer’s optimal hybrid shipping strategy with different production costs. Given that the two manufacturers are asymmetrical, we consider two situations, i.e., c M1 = c , c M2 = 0 and c M1 = 0 , c M2 = c . We assume that r = 0.5, and
+= 0.2,
+0.4,
+0.6 . Figs. 9 and 10 illustrate the effects of c on the e-tailer’s payoffs. In the examples, RHS / PM2 is always higher
+than RHS / PM1 and RHS / S , thus the e-tailer prefers the RHS / PM2 strategy and is more willing to give the first-mover advantage to
+manufacturer 2 in the HS mode.
+Fig. 11 shows the effects of on the e-tailer and manufacturer 1′s preferences with asymmetric production. The e-tailer and
+manufacturer 1′s preferences are consistent in the region where the profit-sharing ratio is moderate (see the shaded region in Fig. 11).
+These results are consistent with the main findings of our basic model.
+
+Fig. 9. Effects of c on e-tailer’s payoff in the HS mode (c M1 = c , c M2 = 0 ).
+118
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+HS/S
+HS/PM1
+HS/PM2
+
+8.5
+
+8
+
+7.5
+
+7
+
+6.5
+
+6
+
+5.5
+0
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+c
+（a）r = 0.5, φ = 0.2
+
+0.25
+
+HS/S
+HS/PM1
+HS/PM2
+
+13
+
+12.5
+
+12
+
+11.5
+
+11
+
+10.5
+
+0.3
+
+The payoff of the e-tailer(x100)
+
+The payoff of the e-tailer(x100)
+
+The payoff of the e-tailer(x100)
+
+18
+
+13.5
+
+9
+
+0
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+c
+（b）r = 0.5, φ = 0.4
+
+0.25
+
+HS/S
+HS/PM1
+HS/PM2
+
+17.5
+
+17
+
+16.5
+
+16
+
+15.5
+
+15
+
+0.3
+
+0
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+0.25
+
+c
+（c）r = 0.5, φ = 0.6
+
+0.3
+
+Fig. 10. Effects of c on e-tailer’s payoff in the HS mode (c M1 = 0 , c M2 = c ).
+25
+
+16
+
+The manufacturer 1‘s payoff under BO/S
+
+The manufacturer 1‘s payoff under BO/S
+
+The manufacturer 1‘s payoff under HS/PM2
+
+The manufacturer 1‘s payoff under HS/PM2
+
+14
+
+The e-tailer‘s payoff under BO/S
+
+The e-tailer‘s payoff under BO/S
+
+The e-tailer‘s payoff under HS/PM2
+
+20
+
+The e-tailer‘s payoff under HS/PM2
+
+payoff (x100)
+
+payoff (x100)
+
+12
+10
+
+iii
+
+i
+
+8
+
+ii
+
+6
+
+15
+
+10
+
+4
+5
+2
+0
+0.1
+
+0.15
+
+0.2
+
+0.25
+
+0.3
+
+0.35
+
+0.4
+
+0.45
+
+0.5
+
+The profit sharing ratio
+
+Fig. 11. Effect of
+
+0.55
+
+0
+0.1
+
+0.6
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.7
+
+The profit sharing ratio
+
+0.8
+
+0.9
+
+on e-tailer and manufacturer 1′s preferences under asymmetric production costs (r = 0.5, c = 0.2 ).
+
+5.2. Different market sizes
+In this section, we analyze the e-tailer’s optimal strategy under different market sizes. Without loss of generality, we assume that
+product 1′s market size is a , and product 2′s market size is 1 a . Figs. 12 and 13 illustrate the effects of a on the e-tailer’s payoffs
+under the two basic modes, respectively.
+We first investigate the e-tailer’s optimal batch ordering strategy with different market sizes. Fig. 12 presents the effects of the
+market size on the e-tailer’s payoffs in the BO mode. BO / S is the best strategy for the e-tailer in the BO mode (Fig. 12), a result which
+1
+1
+is consistent with Proposition 6. Note that, RBO / PM1 < RBO / PM2 if a < 2 and RBO / PM1 > RBO / PM2 if a > 2 , thereby implying that the etailer prefers to give the first-mover advantage to the manufacturer with the higher market size in the BO mode.
+Then, we examine the e-tailer’s optimal hybrid shipping strategy with different market sizes. As with Section 5.1, we again assume
+= 0.2,
+0.4,
+0.6 in the HS mode. Fig. 13 shows that for a given r , the e-tailer’s payoffs are provided by
+that r = 0.5, and
+HS / PM2
+> RHS / PM1 > RHS / S , thereby indicating that the e-tailer prefers to give the first-mover advantage to manufacturer 2 in the HS
+R
+mode.
+Fig. 14 shows the effect of on the e-tailer and manufacturer 1′s preferences with an asymmetric market size. A region (see the
+
+3.2
+
+BO/S
+HS/PM1
+HS/PM2
+
+3.1
+
+3
+
+0.42
+
+0.44
+
+0.46
+
+0.48
+
+a
+
+0.5
+
+0.52
+
+0.54
+
+0.56
+
+0.58
+
+0.6
+
+The payoff of the e-tailer (x100)
+
+3.3
+
+2.95
+0.4
+
+5.5
+
+4
+
+The payoff of the e-tailer (x100)
+
+The payoff of the e-tailer (x100)
+
+3.35
+
+3.8
+
+3.6
+BO/S
+BO/PM1
+BO/PM2
+
+3.4
+
+3.2
+
+3
+
+2.8
+0.4
+
+0.42
+
+0.44
+
+0.46
+
+0.48
+
+0.5
+
+a
+
+0.52
+
+0.54
+
+0.56
+
+0.58
+
+0.6
+
+5
+
+4.5
+
+3.5
+
+3
+
+2.5
+0.4
+
+Fig. 12. Effects of a on e-tailer’s payoff in the BO mode.
+119
+
+BO/S
+BO/PM1
+BO/PM2
+
+4
+
+0.42
+
+0.44
+
+0.46
+
+0.48
+
+0.5
+
+a
+
+0.52
+
+0.54
+
+0.56
+
+0.58
+
+0.6
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+2.4
+
+2.3
+
+2.2
+
+2.1
+
+0.42
+
+0.44
+
+0.46
+
+a
+
+0.48
+
+0.5
+
+0.52
+
+0.54
+
+0.56
+
+0.58
+
+3.8
+
+HS/S
+HS/PM1
+HS/PM2
+
+3.7
+3.6
+3.5
+3.4
+3.3
+3.2
+3.1
+3
+2.9
+0.4
+
+0.6
+
+The payoff of the e-tailer(x100)
+
+The payoff of the e-tailer(x100)
+
+The payoff of the e-tailer(x100)
+
+HS/S
+HS/PM1
+HS/PM2
+
+2.5
+
+2
+0.4
+
+6
+
+3.9
+
+2.6
+
+0.42
+
+0.44
+
+0.46
+
+0.48
+
+a
+
+0.5
+
+0.52
+
+0.54
+
+0.56
+
+0.58
+
+HS/S
+HS/PM1
+HS/PM2
+
+5.5
+
+5
+
+4.5
+
+4
+
+0.4
+
+0.6
+
+0.42
+
+0.44
+
+0.46
+
+0.48
+
+0.5
+
+a
+
+0.52
+
+0.54
+
+0.56
+
+0.58
+
+0.6
+
+Fig. 13. Effects of a on e-tailer’s payoff in the HS mode.
+7
+The manufacturer 1‘s payoff under BO/S
+
+6
+
+The manufacturer 1‘s payoff under HS/PM2
+The e-tailer‘s payoff under BO/S
+The e-tailer‘s payoff under HS/PM2
+
+payoff (x100)
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+0.1
+
+Fig. 14. Effect of
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+The profit sharing ratio
+
+0.7
+
+0.8
+
+0.9
+
+on e-tailer and manufacturer 1′s preferences under asymmetric market sizes (r = 0.5, a = 0.5 ).
+
+shaded region in Fig. 14) exists in which a moderate profit-sharing ratio will ensure that both the e-tailer and manufacturer 1 benefit
+from the same strategy of HS /PM2 .
+Overall, we demonstrate that the main results in the basic model remain robust in these extensions.
+6. Conclusions
+Drop-shipping is regarded as one of the most effective and economical methods for handling the number of small online orders
+that retailers receive. Although they have warehouses and distribution centers, some dominant e-tailers still use drop-shipping as a
+procurement strategy because it allows them to expand their product lines considerably without increasing inventory or warehouse
+costs. Major e-tailers appear to be emancipating themselves from the former pure batch ordering procurement strategy and are
+moving toward a hybrid strategy for satisfying customer demand. This observation was our motivation for studying the effects of
+drop-shipping and products’ substitutability on a large e-tailer’s procurement strategy. In this study, we investigate a supply chain
+consisting of an e-tailer and two competitive manufacturers. From the perspective of the e-tailer, we consider her procurement
+approach sequence on the two manufacturers. We investigate different procurement strategies where the e-tailer adopts either batch
+ordering or a drop-shipping strategy in a channel under each structure. Specifically, two procurement modes are discussed: a pure
+batch ordering (BO ) mode and a hybrid shipping (HS ) mode. To focus on the effect of drop-shipping and product substitutability, we
+first conduct simultaneous analysis and shed light on the e-tailer’s strategic choice that allows her to choose the appropriate strategy
+according to the corresponding parameters. Then, we conduct the sequential analysis and compare the e-tailer’s payoffs in different
+modes.
+We derive interesting results: (1) When the profit-sharing ratio is relatively high and the products’ substitutability is sufficiently
+low, the e-tailer prefers the HS mode; otherwise, she prefers the BO mode; (2) A comparison of e-tailer equilibrium payoffs in the BO
+mode indicates that the e-tailer prefers BO / S the most; (3) In the HS mode, the e-tailer prefers the batch ordering manufacturer to
+move first; (4) As the competition intensifies, the e-tailer becomes increasingly reluctant to adopt the HS mode; and (5) The e-tailer’s
+optimal procurement strategy is not always detrimental to the drop-shipping manufacturer’s payoff. Specifically, the drop-shipping
+120
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+manufacturer is in line with the e-tailer’s procurement strategy when the profit-sharing ratio falls into a moderate range. This paper
+provides important guidance for e-tailers in choosing their procurement strategy for drop-shipping, contributes to the literature on
+dual procurement channels with two competing manufacturers selling through a monopoly common retailer, and has applications for
+supply chain management in drop-shipping.
+Our study also has some limitations from which we can extend the current work. First, manufacturer 2′s drop-shipping policy is
+ignored in this study. Hence, an interesting theme for future research would be to investigate the drop-shipping options for both
+manufacturers. Second, we posit that firms have full information. Information asymmetry on product demand in our supply chain
+setting would be another noteworthy topic. Third, the spillover effect may occur when the e-tailer adopts a drop-shipping policy.
+Analysis of the e-tailer’s optimal procurement strategies in the presence of the spillover effect is also worth exploring in future
+research.
+Acknowledgements
+The authors sincerely thank the editors and anonymous reviewers for their insightful comments and suggestions. This research is
+partially supported by the National Natural Science Foundation of China under the Grant nos. 71971027, 91746110, 71871091,
+71372019, 71471057, and 71521002; the Special Items Fund of Beijing Municipal Commission of Education.
+Appendix A
+Proof of Lemma 1. We solve this case backwards to identify the equilibrium. Specifically, we first derive the e-tailer’s best response.
+For any given w1 and w2 , the e-tailer’s profit function RBO / S can be expressed as
+BO / S
+(q1,
+R
+
+q2 ) = q1 (1
+
+2 BO / S
+R
+Note that
+q12
+BO
+/
+S
+BO
+/
+S
+2
+2
+R
+R
+q1 q2
+q12
+
+H=
+
+2 BO / S
+R
+
+=
+
+rq2
+
+4(1
+
+w1) + q2 (1
+2 BO / S
+R
+q22
+
+and
+
+2<0
+
+=
+
+2 BO / S
+R
+q22
+
+q2 q1
+
+q1
+
+q2
+
+=
+
+(A1)
+
+rq1
+
+w 2)
+
+2 < 0,
+
+and
+
+the
+
+Hessian
+
+Matrix
+
+H
+
+meets
+
+the
+
+condition
+
+of
+
+r )> 0 , thereby indicating that the e-tailer’s profit function is the joint concave function of the
+
+q2BO / S ) meets the condition of 1 2q1 2rq2 w1 = 0 and
+e-tailer’s strategy. Therefore, a unique optimal set ( q1BO / S ,
+1 2rq1 2q2 w2 = 0 . By solving the first-order condition, we obtain the following equilibrium quantities ( q1BO / S ,
+q2BO / S )
+w2 ):
+for any given ( w1 ,
+1
+
+q1BO / S * =
+
+r w1 + rw2 BO / S *
+1
+q2
+=
+2(1 r 2)
+
+r + rw1
+2(1 r 2)
+
+w2
+
+(A2)
+
+Proof of Proposition 1. The two manufacturer’s profit functions
+BO / S
+M1
+
+= w1
+
+1
+
+r w1 + rw2
+2(1 r 2)
+
+BO / S
+M2
+
+and
+
+By taking the second-order derivative of
+2
+
+BO / S
+Mi
+wi2
+
+=
+
+1
+r2
+
+1
+
+= w2
+
+BO / S
+Mi
+
+1
+
+BO / S
+Mi
+
+r + rw1
+2(1 r 2)
+
+( i = 1, 2) can be expressed as
+w2
+
+.
+
+(A3)
+
+with respect to wi , we ascertain that
+
+<0
+
+Therefore, the manufacturers’ optimal wholesale prices can be determined uniquely by investigating the first-order condition. In
+solving
+
+BO / S
+Mi
+
+wi
+
+= 0 , we obtain wiBO / S =
+
+qiBO / S =
+
+1
+4 + 2r
+
+1
+2
+
+r
+.
+r
+
+Substituting wiBO / S into (A2) reveals that
+
+2r 2
+
+The payoffs are shown below:
+BO / S
+M1
+
+=
+
+2(2
+
+1 r
+,
+r )2 (1 + r )
+
+BO / S
+M2
+
+=
+
+2(2
+
+1 r
+r )2 (1 + r )
+
+and
+
+BO / S
+R
+
+=
+
+8
+
+1
+.
+6r 2 + 2r 3
+
+This completes the proof. □
+Proof of Lemma 2. To identify the equilibrium for this case, we solve it backwards. Specifically, we first derive the e-tailer’s best
+response. For any given q1 and w2 , the e-tailer’s profit function RHS / S can be expressed as
+HS / S
+(q2)
+R
+
+= q1 (1
+
+q1
+
+rq2) + q2 (1
+
+rq1
+
+q2
+
+w 2)
+
+Thus, for any given q1 and w2 , the e-tailer’s best response can be derived as
+
+q2HS / S * =
+
+1
+(1
+2
+
+r (1 + ) q1HS / S *
+
+w2HS / S *)
+
+(A4)
+121
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+Proof
+
+of
+
+Proposition
+
+(
+
+q1
+
+order derivative of
+
+HS / S
+Mi
+
+HS / S
+M1
+
+= (1
+
+) q1 1
+
+2.
+
+The
+
+1
+r (1
+2
+
+two
+
+rq1
+
+manufacturer’s
+
+r q1
+
+w 2)
+
+)
+
+and
+
+profit
+
+HS / S
+M2
+
+=
+
+2 HS / S
+M1
+q12
+
+with respect to q1 and w2 , we obtain
+
+functions
+
+1
+(1
+2
+
+rq1
+
+=
+
+HS / S
+Mi
+
+(1
+
+4 r
+3r 2 (1 + )
+
+4
+
+2r (1 + )
+
+r 2 (1 + )
+
+= 8
+=
+and
+8 3r 2 (1 +
+reveals the e-tailer’s ordering quantity decision:
+
+q2HS / S =
+
+w2HS / S
+
+)
+
+. Substituting
+
+and
+
+q1HS / S
+
+be
+
+2 HS / S
+M2
+w22
+
+r 2 (1 + )) < 0 and
+
+)(2
+
+HS / S
+M1
+
+implies the manufacturers’ profit functions are strictly concave. By solving
+
+q1HS / S
+
+can
+
+( i = 1, 2)
+
+expressed
+
+as
+
+w2 ) w2 , respectively. By taking the second-
+
+r q1
+
+q1
+
+w2HS / S
+
+HS / S
+M2
+
+= 0 and
+
+w2
+
+=
+
+1 < 0 , which
+
+= 0 , we ascertain that
+
+into the e-tailer's reaction function (A4)
+
+2r (1 + ) r 2 (1 + )
+16 6r 2 (1 + )
+
+4
+
+The payoffs are shown as follows:
+HS / S *
+M1
+
+=
+
+HS / S *
+R
+
+=
+
+r ) 2 (1
+2(8
+
+(4
+
+)(2 r 2 (1 + ))
+3r 2 (1 + )) 2
+
+HS / S *
+M2
+
+,
+
+2r (1 + ) r 2 (1 + ))2
+2(8 3r 2 (1 + ))2
+
+(4
+
+=
+
+16r (1 + ) + r 4 (1 + )2 + 4r 3 (1 + 5 + 4 2 )
+4(8 3r 2 (1 + )) 2
+
+16 + 64
+
+4r 2 (1 + 13 + 11 2 )
+
+This completes the proof. □
+Proof of Proposition 3. Similarly, we solve this case backwards. First, we derive the e-tailer’s best response when she receives the
+wholesale price from manufacturer 2:
+BO / PM1
+(q2 )
+R
+
+= q1 (1
+
+q1
+
+rq2
+
+w1) + q2 (1
+
+rq1
+
+q2
+
+(A5)
+
+w2 )
+2 BO / PM1
+R
+q22
+
+Calculating the second-order derivative of (A5) on q2 generates
+BO / PM1
+R
+
+concave by q2 . By solving
+
+1
+= (1
+2
+
+q2BO / PM1
+
+q2
+
+2rq1
+
+= 0 , we obtain
+
+w2)
+
+(A6)
+
+Second, manufacturer 2′s profit function
+derivative of
+
+BO / PM1
+M2
+
+with respect to w2 , we derive
+
+BO / PM1
+M2
+
+can be expressed as
+2 BO / PM1
+M2
+w22
+
+=
+
+1
+= (1
+2
+
+BO / PM1
+M2
+
+=
+
+1
+(1
+2
+
+w2 ) w2 . By taking the second-order
+
+2rq1
+
+1 < 0 . Thus, the manufacturer’s profit function is strictly concave by
+BO / PM1
+M2
+
+w2 . If the optimal wholesale pricing decision meets the condition of
+w2BO / PM1
+
+2 < 0 . Thus, the e-tailer’s profit function is strictly
+
+=
+
+w2
+
+= 0 , then
+
+2rq1)
+
+(A7)
+
+Third, we derive the e-tailer’s best response to manufacturer 1. For any given w1, the e-tailer’s profit function
+expressed as
+BO / PM1
+R
+
+(q1) =
+
+1
+(1
+16
+
+4(4
+
+r 2 ) q12 + 4q1 (4
+
+r
+
+=
+
+4
+
+r
+2(4
+
+(A8)
+
+4w1
+r 2)
+
+w1BO / PM1 =
+
+r
+8
+
+,
+
+=
+
+1
+(4
+2
+
+r 2 ) < 0 . Solving
+
+BO / PM1
+R
+
+q1
+
+= 0 reveals that
+
+BO / PM1
+M1
+
+= w1
+
+4 r 4w1
+.
+2(4 r 2)
+
+Similarly, we have
+
+2 BO / PM1
+M2
+w22
+
+4
+
+=
+
+4
+
+r2
+
+< 0 and w1BO / PM1 =
+
+4
+
+r
+8
+
+.
+
+into (A9), solving (A6), (A7), and (A9) reveals the channel member’s optimal decisions as follows:
+
+w1BO / PM1
+4
+
+2 BO / PM1
+R
+q12
+
+(A9)
+
+Fourth, manufacturer 1′s profit function is
+By substituting
+
+can be
+
+4w1))
+
+By taking the second-order derivative of (A5) on q1, we obtain
+
+q1BO / PM1
+
+BO / PM1
+R
+
+w2BO / PM1 =
+
+8
+
+4r r 2
+,
+4(4 r 2)
+
+q1BO / PM1 =
+
+4
+4(4
+
+r
+r 2)
+
+and q2BO / PM1
+
+=
+
+8
+
+4r r 2
+.
+8(4 r 2)
+
+Their payoffs are
+BO / PM1*
+M1
+
+=
+
+(4 r )2
+32(4 r 2)
+
+,
+
+BO / PM1*
+M2
+
+=
+
+(8 4r r 2 ) 2
+,
+32(4 r 2)2
+
+and
+
+BO / PM1*
+R
+
+=
+
+32 8r 3r 2
+.
+64(4 r 2)
+
+This completes the proof. □
+Proof of Proposition 4. To identify the equilibrium for this case, we solve it backwards. We obtain the e-tailer’s best response to the
+two manufacturers using the same method for the solution.
+First, for any given w2 and q1, the e-tailer’s profit function RHS / PM1 can be expressed as
+122
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+HS / PM1
+(q2)
+R
+
+=
+
+(1
+
+q1
+
+rq2) q1 + (1
+
+rq1
+
+q2
+
+(A10)
+
+w2 ) q2
+
+By taking the second-order derivative of (A10) on q2 , we obtain
+
+1
+(1
+2
+
+q2HS / PM1 =
+
+rq1
+
+r q1
+
+2 HS / PM1
+R
+q22
+
+=
+
+HS / PM1
+R
+
+2 < 0 . Solving
+
+q2
+
+= 0 reveals that
+
+w 2)
+
+(A11)
+
+Second, manufacturer 2′s profit function can be expressed as
+HS / PM1
+M2
+
+Given
+
+1
+(1
+2
+
+=
+
+2 HS / PM1
+M2
+w 22
+
+rq1
+
+w2 ) w2
+
+(A12)
+
+1 < 0 , manufacturer 2′s profit function is known to be strictly concave. By solving
+
+=
+
+1
+= (1
+2
+
+w2HS / PM1
+
+r q1
+
+rq1
+
+HS / PM1
+M2
+
+w2
+
+= 0 , we have
+
+r q1)
+
+(A13)
+
+Then, manufacturer 1′s profit function can be expressed as
+HS / PM1
+M1
+
+1
+(1
+4
+
+=
+
+) q1 (4
+
+r
+
+(4
+
+r 2 (1 + )) q1)
+
+By taking the second-order derivative of
+HS / PM1
+M1
+
+q1
+
+HS / PM1
+M1
+
+with respect to q1, we obtain
+
+2 HS / PM1
+M2
+q12
+
+=
+
+1
+(1
+2
+
+r 2 (1 + )) < 0 . Solving
+
+)(4
+
+= 0 reveals that
+
+q1HS / PM1 =
+
+4
+
+r
+r2
+
+2(4
+
+r2 )
+
+Finally, by plugging q1HS / PM1 into (A13), calculating (A11) and (A13) expresses the channel member’s optimal decisions as
+follows:
+
+q1HS / PM1 =
+
+4
+
+r
+r2
+
+2(4
+
+r2 )
+
+, q2HS /PM1 =
+
+8
+
+r (1 + )(4 + r )
+8(4 r 2 (1 + ))
+
+and w2HS / PM1 =
+
+8
+
+r (1 + )(4 + r )
+.
+4(4 r 2 (1 + ))
+
+Their payoffs are
+HS / PM1*
+M1
+
+=
+
+(4 r ) 2 (1
+)
+16(4 r 2 (1 + ))
+
+HS / PM1*
+R
+
+=
+
+r 4 (1 + )2 + 8r 3 (1 + 6 + 5 2) 16r 2 (8 + 7 )
+64(4 r 2 (1 + ))2
+
+HS / PM1*
+M2
+
+,
+
+=
+
+(8 r (1 + )(4 + r )) 2
+, and
+32(4 r 2 (1 + )) 2
+64r (1 + ) + 64(1 + 4 )
+
+This completes the proof. □
+Proof of Proposition 5. We solve this case backwards. First, we derive manufacturer 1′s best response to the other members.
+Manufacturer 1′s profit function can be expressed as
+HS / PM2
+(q1)
+M1
+
+= (1
+
+)(1
+
+q1
+
+rq2 ) q1
+
+For any given w2 and q2 , by taking the second-order derivative of
+Solving
+
+HS / PM2
+M1
+
+q1
+
+q1HS / PM2
+
+=
+
+HS / PM2
+(q2)
+R
+
+1
+(1
+2
+
+rq2 )
+
+2 HS / PM2
+M1
+q12
+
+=
+
+2(1
+
+) < 0.
+
+(A14)
+
+=
+
+1
+(2q2 (2
+4
+
+HS / PM2
+R
+
+r
+
+r
+
+can be expressed as
+
+2w2 ) +
+
+By taking the second-order derivative of
+q2
+
+with respect to q1, we obtain
+
+= 0 reveals that
+
+Second, the e-tailer’s payoff
+
+HS / PM2
+R
+
+HS / PM2
+M1
+
+(4
+HS / PM2
+R
+
+r 2 (2 + )) q22 )
+with respect to q2 , we obtain
+
+2 HS / PM2
+R
+q22
+
+=
+
+1
+(4
+2
+
+r 2 (2 + )) < 0 . Solving
+
+= 0 shows that
+
+q2HS / PM2 =
+
+2
+
+r
+4
+
+r
+2r 2
+
+2w 2
+r2
+
+(A15)
+
+Third, manufacturer 2′s payoff can be expressed as
+HS / PM2
+M2
+
+= w2
+
+2
+
+r
+4
+
+r
+2r 2
+
+2w 2
+r2
+123
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+As
+
+2 HS / PM2
+M2
+w 22
+
+=
+
+4
+2r 2
+
+4
+
+1
+(2
+4
+
+w2HS / PM2 =
+
+r2
+
+r
+
+Finally, by plugging
+follows:
+
+HS / PM2
+M2
+
+< 0 , solving
+
+w2
+
+r )
+
+(A16)
+
+w2HS / PM2
+
+into (A15) and calculating (A14) and (A15), we obtain the channel member’s optimal decisions as
+
+1
+
+w2HS / PM2 = 4 (2 r r ), q1HS / PM2 =
+Their payoffs are given by
+HS / PM2*
+M1
+
+=
+
+HS / PM2*
+R
+
+(1
+
+)(8
+
+2r
+
+=
+
+r 2 (3 + ))2
+
+r 2 (2 + ))2
+
+16(4
+
+= 0 indicates that
+
+4(1 + 4 )
+
+8
+
+HS / PM2*
+M2
+
+,
+
+r 2 (3 + )
+
+2r
+
+and q2HS / PM2 =
+
+r 2 (2 + ))
+
+4(4
+
+(2
+
+=
+
+8(4
+
+4r (1 + ) + r 2 (1
+16(4 r 2 (2 + ))
+
+r
+
+r )2
+
+2
+8
+
+r
+
+r
+
+2r 2 (2 + )
+
+..
+
+, and
+
+r 2 (2 + ))
+6
+3 2)
+
+Proof of Proposition 6.
+(a) The proof of
+
+>
+
+=
+
+BO / S
+R
+
+BO / S BO / PM1
+
+(b) The proof of
+
+BO / PM1
+R
+
+BO / S
+R
+
+HS / PM1
+R
+
+HS / PM1 HS / S
+
+>
+
+BO / PM1
+R
+
+HS / S
+R
+
+HS / PM1
+R
+
+=
+
+BO / PM2
+R
+
+=
+
+=
+
+.
+BO / PM1
+R
+
+=
+
+BO / PM2
+R
+
+.
+HS / S
+R
+
+=
+
+64(8
+
+(4 r ) r 3 (1 + )
+F
+3r 2 (1 + )) 2 (r 2 (1 + )
+
+) + 7r 4 (1 + )3 + 4r 3 (1 + ) 2 (5
+
+F = 128(1
+
+32 8r 3r 2
+r (16 + r (46 r (5 + 3r )))
+=
+> 0.
+64(4 r 2)
+64(2 r ) 2 (1 + r )(2 + r )
+
+1
+6r 2 + 2r 3
+
+8
+
+19 ) + 16r 2 (
+
+2
+
+4)2
+3
+
+, where
+4) + 64r (4
+
+2
+
++3
+
+1)
+
++ ) > 0 , we know that the value of HS / PM1 HS / S is either positive
++
++ )
+> 0 and (4
+From 64(8
+or negative depending on the value of F . Hence, we calculate the derivatives of F with respect to , and derive
+3r 2 (1
+
+)) 2 (r 2 (1
+
+F = 21r 4 (1 + )2 + 16r 2 (2
+
+12r 3 (3 + 22 + 19 2 )
+
+3) + 64r (3 + 8 )
+
+F = 2r(256 + 16r + 21r 3 (1 + )
+F = r3 (42r
+
+r ) r 3 (1
+
+4)2
+
+128
+
+12r2 (11 + 19 ))
+
+456)
+
+Now, we prove F > 0 in the following steps.
+0, 1 ) and
+in [0, 1]. By taking ( , r ) = (
+Considering F = r3 (42r 456) < 0 , we can infer that F decreases with
+) = 92 < 0 . Therefore, there exists a threshold
+) = 322 > 0 and F ( 1, 1
+( , r ) = ( 1, 1 ) as examples, we find F ( 0, 1
+0 when 0 < r
+r2 ( ) ( 0, 1 ], such that F
+r2 ( ) and F < 0 when r2 ( ) < r 1.
+r2 ( ) , F is increasing with . By taking ( , r ) = (
+0, 0.3 ) and ( , r ) = ( 1, 0.3 ) as examples, we find that
+When 0 < r
+F ( 1, 0.3 ) = 137.32 > 0 ,
+F ( 0, 0.3 ) = 194.692 > 0
+and
+an
+outcome
+which
+means ( 0, 0.3 )
+and
+1, 0.3 ) = 68.18 > 0 . We can deduce that
+0, 0.3 ) = 75.52 < 0 and F (
+(1, 0.3) [0, 1] × (0, r2 ( )]. Note that F (
+0 when 0 < r
+r1 ( ) (0, r2 ( )] exists, such that F
+r1 ( ) and F > 0 when r1 ( ) < r r2 ( ) .
+r (r2 ( ), 1], F ( , r2 ( )) > F ( > , r2 ( )) , and the minimum value of F
+When r2 ( ) < r 1, F decreases with . That is,
+= 1, we have F = 128 + 704r 16r 2 528r 3 + 84r 4 and we derive that when
+should be taken at ( = 1, r2 (1)) . Let
+2
+
+2
+
+107 )) > 0 , from which we can deduce that r2 (1) > 7 (11
+( 7 (11
+107 ), 1], F > 0 . Note that F (1, 7 (11
+107 ) and F > 0 .
+r1 ( ) , F decreases with . Let
+= 1, we have F = 384r 96r 2 224r 3 + 56r 4 > 0 . When
+In summary, when 0 < r
+r1 ( ) < r 1, F increases with . Let = 0 , we have F = 128 64r 64r 2 + 20r 3 + 7r 4 > 0 . Therefore, we have F > 0 for all
+( , r ) [0, 1] × (0, 1].
+Finally, we obtain HS / PM1 HS / S > 0 .
+
+r
+
+2
+
+(c) The proof of
+
+F=
+
+HS / PM2
+R
+
+>
+
+HS / PM1
+R
+
+.
+
+HS / PM2 HS / PM1
+
+64(1 + ) + 32r (1 + 4 + 3 2)
+
+From 64(4 r 2 (1 + ))2 (r 2 (2 + )
+depending on the value of F . Let
+
+k=
+
+=
+
+HS / PM2
+R
+
+HS / PM1
+R
+
+=
+
+64(4
+
+8r 3 (7 + 10 + 3 2) + r 4 (1 + )2 (23
+
+r 2F
+, where
+r 2 (1 + ))2 (r 2 (2 + ) 4)
+2
+2
++ 12
+6) + r (20 + 8
+
+4) < 0 and r 2 > 0 , we know that the value of
+F
+r
+
+= 32(1 + 4 + 3 2)
+
+HS / PM2 HS / PM1
+
+2
+
+and derive that
+
+124
+
+48 3)
+
+is either positive or negative
+
+24r 2 (7 + 10 + 3 2 )
+
++ 4r 3 (1 + ) 2 ( 6 + 23 + 12 2 ) + 2r (20 + 8
+First, we calculate the derivatives of k with respect to
+
+76
+
+76
+
+2
+
+48 3).
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+k = 32(4 + 6 )
++ 2r (8
+k = 192
+
+24r 2 (10 + 6 ) + 4r 3 (1 + )2 (23 + 24 )
+144 2)
+
+152
+
+2r (152 + 288 )
+48r 2 (10
+
+24r 2 (7 + 10 + 3 2 ) + 8r 3 (1 + )(12
+
++ 23
+
+6),
+
+144r 2 + 96r 3 (1 + ) 2
+
++6 )+
+
+16r 3 (1
+
+576r
+
+432r2
+
+k = 576r 3 (1 + ) + 24r3 (23 + 24 )
+
+2
+
++ )(23 + 24 ) + 8r 3 (23 + 12
+
+2
+
+6),
+
+= 1152r 3 > 0
+
+k
+
+Second, we prove k > 0 in the following four steps:
+Step 1. We consider k = 1152r 3 > 0 when r (0, 1] and infer that k increases with
+in the interval [0, 1]. By taking
+k (
+0, 0.8
+) = 159.744 < 0
+( , r) = (
+0, 0.8 )
+( , r ) = ( 1, 0.8 )
+and
+as
+examples,
+we
+find
+and
+0 when 0 < r
+k (
+1, 0.8
+) = 430.08 > 0 . Therefore, there exists a threshold r3 ( ) (0, 1 ], such that k
+r3 ( ) and k > 0
+when r3 ( ) < r 1.
+Step 2. We examine two cases for r .
+0 and k decreases with . By taking ( , r ) = (
+r3 ( ) , k
+0, 0.3 ) and ( , r ) = ( 1, 0.3 ) as examples, we
+When 0 < r
+0, 0.3
+) = 181.224 < 0 and k (
+1, 0.3
+) = 150.12 < 0 , which means (0, 0.3) and (1, 0.3) [0, 1] × (0, r3 ( )].
+have k (
+0 when
+Note that k ( 0, 0.3 ) = 68.83 > 0 and k ( 1, 0.3 ) = 96.84 < 0 . Thus, r21 ( ) (0, r3 ( )] exists, such that k
+0<r
+r21 ( ) and k < 0 when r21 ( ) < r r3 ( ) .
+0, 1 ) and ( , r ) = ( 1, 1) as examples, we have
+When r3 ( ) < r 1, k > 0 and k increases with . By taking ( , r ) = (
+k (
+0, 1 ) = 120 > 0 and k (
+1, 1 ) = 1272 > 0 , which means (0, 1) and (1, 1) [0, 1] × (r3 ( ), 1]. Note that
+k ( 0, 1 ) = 176 < 0 and k ( 1, 1 ) = 520 > 0 . We can deduce that r22 ( ) (r3 ( ), 1] exists, such that k < 0 when
+0 when r22 ( ) r 1.
+r3 ( ) < r < r22 ( ) and k
+In summary, we have shown that
+
+k
+
+0,
+
+when
+k < 0,
+
+0<r
+when
+
+r21 ( )
+
+or
+
+r22 ( )
+
+r
+
+1 ,
+
+r21 ( ) < r < r22 ( ).
+
+Step 3. We examine three cases for r .
+0 and k increases with . Considering = 0 , we have k = 128 + 16r 168r 2 + 44r 3 > 0 . Therefore,
+r21 ( ) , k
+When 0 < r
+r21 ( ) , k is always positive.
+when 0 < r
+0, 0.6 ) and ( , r ) = ( 1, 0.6) as examples, we
+When r21 ( ) < r < r22 ( ) , k < 0 , and k decreases with . By taking ( , r ) = (
+k ( 1, 0.6 ) = 206.4 < 0 ,
+k ( 0, 0.6 ) = 73.344 < 0
+(0, 0.6)
+and
+which
+means
+and
+ascertain
+that
+(1, 0.6) [0, 1] × (r21 ( ), r22 ( )). Note that k ( 0, 0.6 ) = 86.624 > 0 and k ( 1, 0.6 ) = 73.984 < 0 . We can deduce that
+0 when r21 ( ) < r
+r11 ( ) (r21 ( ), r22 ( )) exists, such that k
+r11 ( ) and k < 0 when r11 ( ) < r < r22 ( ) .
+When r22 ( ) < r 1, k > 0 , and k increases with . By taking ( , r ) = ( 0.5, 1 ) and ( , r ) = ( 1, 1) as examples, we have
+k ( 0.5, 1 ) = 28 > 0 and k ( 1, 1 ) = 520 > 0 , which means (0.5, 1) and (1, 1) [0, 1] × (r22 ( ), 1]. Note that
+k ( 0.5, 1 ) = 29 < 0 and k ( 1, 1 ) = 96 > 0 . Therefore, there exists a threshold r12 ( ) (r22 ( ), 1], such that k < 0 when
+0 when r12 ( ) r 1.
+r22 ( ) < r < r12 ( ) , and k
+We summarize the conclusion of this step as follows:
+
+k
+
+0,
+
+when
+k < 0,
+
+0<r
+when
+
+r11 ( )
+
+or
+
+r12 ( )
+
+r
+
+1,
+
+r11 ( ) < r < r12 ( ).
+
+Step 4. Again we examine three cases for r .
+0 , and k increases with . Considering = 0 , we have k = 32 + 40r 24r 3 > 0 when r (0, 1].
+r11 ( ) , k
+When 0 < r
+r11 ( ) , k is always positive.
+Therefore, when 0 < r
+When r11 ( ) < r < r12 ( ) , k < 0 , and k decreases with . Considering = 1, we have k = 256 192r 480r 2 + 24r 3 > 0 , when
+r (0, 1]. Therefore, when r11 ( ) < r < r12 ( ) , k is always positive.
+1, k > 0 , and k increases with . Considering = 0 , we have k = 32 24r 3 + 40r > 0 , when r (0, 1].
+When r12 ( ) r
+1, k is always positive.
+Therefore, when r12 ( ) < r
+In summary, k > 0 when ( , r ) [0, 1] × (0, 1].
+Third, we prove HS /PM2 HS / PM1 > 0 .
+18 < 0 for all
+For k > 0 , we can deduce that F increases with r . Considering r = 1, we have F = 12 4 25 3 8 2 + 27
+[0, 1]. Finally, we can derive
+HS / PM2 HS / PM1
+
+=
+
+64(4
+
+r 2F
+r 2 (1 + ))2 (r 2 (2 + )
+
+4)
+
+>0
+
+This completes the proof. □
+
+125
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+References
+Abhishek, V., Jerath, K., Zhang, Z.J., 2016. Agency selling or reselling? Channel structures in electronic retailing. Manage. Sci. 62 (8), 2259–2280.
+Alawneh, F., Zhang, G., 2018. Dual-channel warehouse and inventory management with stochastic demand. Transp. Res. Part E Logistics Transp. Rev. 112, 84–106.
+Ayanso, A., Diaby, M., Nair, S.K., 2006. Inventory rationing via drop-shipping in Internet retailing: a sensitivity analysis. Eur. J. Operat. Res. 171 (1), 135–152.
+Chakraborty, T., Chauhan, S.S., Vidyarthi, N., 2015. Coordination and competition in a common retailer channel: Wholesale price versus revenue-sharing mechanisms.
+Int. J. Prod. Econ. 166, 103–118.
+Chen, B., Chen, J., 2017. When to introduce an online channel, and offer money back guarantees and personalized pricing? Eur. J. Operat. Res. 257 (2), 614–624.
+Chen, J., Bell, P.C., 2012. Implementing market segmentation using full-refund and no-refund customer returns policies in a dual-channel supply chain structure. Int. J.
+Prod. Econ. 136 (1), 56–66.
+Chen, J., Chen, Y., Parlar, M., Xiao, Y., 2011. Optimal inventory and admission policies for drop-shipping retailers serving in-store and online customers. IIE Trans. 43
+(5), 332–347.
+Chen, J., Pun, H., Li, W., 2018. Using online channel to defer the launch of discount retailing store. Transp. Res. Part E: Logistics Transp. Rev. 120, 96–115.
+Chen, J.M., Chen, T.H., 2007. The profit-maximization model for a multi-item distribution channel. Transp. Res. Part E: Logistics Transp. Rev. 43 (4), 338–354.
+Chiang, W.Y.K., Chhajed, D., Hess, J.D., 2003. Direct marketing, indirect profits: A strategic analysis of dual-channel supply-chain design. Management science 49 (1),
+1–20.
+Chiang, W., Feng, Y., 2010. Retailer or e-tailer? Strategic pricing and economic-lot-size decisions in a competitive supply chain with drop-shipping. J. Operat. Res. Soc.
+61 (11), 1645–1653.
+Choi, S.C., 1991. Price competition in a channel structure with a common retailer. Market. Sci. 10 (4), 271–296.
+Choi, S.C., 1996. Price competition in a duopoly common retailer channel. J. Retailing 72 (2), 117–134.
+Choi, T.M., 2018. Launching the right new product among multiple product candidates in fashion: optimal choice and coordination with risk consideration. Int. J.
+Prod. Econ. 202, 162–171.
+Choi, T.M., Chen, Y., Chung, S.H., 2019. Online-offline fashion franchising supply chains without channel conflicts: choices on postponement and contracts. Int. J.
+Prod. Econ. 215, 174–184.
+Choi, T.M., Cheng, T.C.E., Zhao, X., 2016. Multi-methodological research in operations management. Prod. Operat. Manage. 25, 379–389.
+Choi, T.M., He, Y., 2019. Peer-to-peer collaborative consumption for fashion products in the sharing economy: platform operations. Transp. Res. Part E: Logistics
+Transp. Rev. 126, 49–65.
+Chung, H., Lee, E., 2017. Asymmetric relationships with symmetric suppliers: strategic choice of supply chain price leadership in a competitive market. Eur. J. Operat.
+Res. 259 (2), 564–575.
+Gan, X., Sethi, S.P., Zhou, J., 2010. Commitment-penalty contracts in drop-shipping supply chains with asymmetric demand information. Eur. J. Operat. Res. 204 (3),
+449–462.
+Ha, A.Y., Tong, S., Zhang, H., 2011. Sharing demand information in competing supply chains with production diseconomies. Manage. Sci. 57 (3), 566–581.
+Hagiu, A., Wright, J., 2014. Marketplace or reseller? Manage. Sci. 61 (1), 184–203.
+Hao, L., Fan, M., 2014. An analysis of pricing models in the electronic book market. MIS Quart. 38 (4), 1017–1032.
+Huang, S., Guan, X., Xiao, B., 2018. Incentive provision for demand information acquisition in a dual-channel supply chain. Transp. Res. Part E: Logistics Transp. Rev.
+116, 42–58.
+Jerath, K., Zhang, Z.J., 2010. Store within a store. J. Market. Res. 47 (4), 748–763.
+Jiang, B., Jerath, K., Srinivasan, K., 2011. Firm strategies in the “mid tail” of platform-based retailing. Market. Sci. 30 (5), 757–775.
+Khouja, M., 2001. The evaluation of drop shipping option for e-commerce retailers. Comput. Indust. Eng. 41 (2), 109–126.
+Khouja, M., Stylianou, A.C., 2009. A (Q, R) inventory model with a drop-shipping option for e-business. Omega 37 (4), 896–908.
+Kwark, Y., Chen, J., Raghunathan, S., 2014. Online product reviews: Implications for retailers and competing manufacturers. Inform. Syst. Res. 25 (1), 93–110.
+Li, G., Li, L., Sethi, S.P., Guan, X., 2019a. Return strategy and pricing in a dual-channel supply chain. Int. J. Prod. Econ. 215, 153–164.
+Li, G., Zhang, X., Chiu, S.M., Liu, M., Sethi, S.P., 2019b. Online market entry and channel sharing strategy with direct selling diseconomies in the sharing economy era.
+Int. J. Prod. Econ. 218, 135–147.
+Li, G., Zheng, H., Sethi, S.P., Guan, X., 2018. Inducing downstream information sharing via manufacturer information acquisition and retailer subsidy. Decision Sci.
+https://doi.org/10.1111/deci.12340.
+Li, S., Jia, S., 2019. A Benders decomposition algorithm for the order fulfilment problem of an e-tailer with a self-owned logistics system. Transp. Res. Part E: Logistics
+Transp. Rev. 122, 463–480.
+Liu, M., Cao, E., Salifou, C.K., 2016. Pricing strategies of a dual-channel supply chain with risk aversion. Transp. Res. Part E: Logistics Transp. Rev. 90, 108–120.
+Matsui, K., 2018. When and what wholesale and retail prices should be set in multi-channel supply chains? Eur. J. Operat. Res. 267 (2), 540–554.
+Ma, S., Jemai, Z., Sahin, E., Dallery, Y., 2017. The news-vendor problem with drop-shipping and resalable returns. Int. J. Prod. Res. 55 (22), 6547–6571.
+Mahar, S., Wright, P.D., 2009. The value of postponing online fulfillment decisions in multi-channel retail/e-tail organizations. Comput. Operat. Res. 36 (11),
+3061–3072.
+Mahar, S., Wright, P.D., 2017. In-store pickup and returns for a dual channel retailer. IEEE Trans. Eng. Manage. 64 (4), 491–504.
+Mukhopadhyay, S.K., Zhu, X., Yue, X., 2008. Optimal contract design for mixed channels under information asymmetry. Prod. Operat. Manage. 17 (6), 641–650.
+Netessine, S., Rudi, N., 2004. Supply chain structures on the internet. In: Handbook of Quantitative Supply Chain Analysis. Springer, Boston, MA, pp. 607–641.
+Netessine, S., Rudi, N., 2006. Supply chain choice on the internet. Manage. Sci. 52 (6), 844–864.
+Pan, K., Lai, K.K., Leung, S.C., Xiao, D., 2010. Revenue-sharing versus wholesale price mechanisms under different channel power structures. Eur. J. Operat. Res. 203
+(2), 532–538.
+Peinkofer, S.T., Esper, T.L., Smith, R.J., Williams, B.D., 2019. Assessing the impact of drop-shipping fulfilment operations on the upstream supply chain. Int. J. Prod.
+Res. 57 (11), 3598–3621.
+Rabinovich, E., Rungtusanatham, M., Laseter, T.M., 2008. Physical distribution service performance and Internet retailer margins: the drop-shipping context. J.
+Operat. Manage. 26 (6), 767–780.
+Randall, T., Netessine, S., Rudi, N., 2002. Should you take the virtual fulfillment path? Supply Chain Manage. Rev. 6 (6), 54–58.
+Randall, T., Netessine, S., Rudi, N., 2006. An empirical examination of the decision to invest in fulfillment capabilities: a study of internet retailers. Manage. Sci. 52 (4),
+567–580.
+Scheel, N.T., 1990. Drop shipping as a marketing function. A Handbook of Methods and Policies. Quorum Books.
+Serel, D.A., 2015. Production and pricing policies in dual sourcing supply chains. Transp. Res. Part E: Logistics Transp. Rev. 76, 1–12.
+Sun, J., Li, G., Xu, S.X., Dai, W., 2019a. Intermodal transportation service procurement with transaction costs under belt and road initiative. Transp. Res. Part E:
+Logistics Transp. Rev. 127, 31–48.
+Sun, X., Tang, W., Chen, J., Li, S., Zhang, J., 2019b. Manufacturer encroachment with production cost reduction under asymmetric information. Transp. Res. Part E:
+Logistics Transp. Rev. 128, 191–211.
+Tan, Y., Carrillo, J.E., Cheng, H.K., 2016. The agency model for digital goods. Decision Sci. 47 (4), 628–660.
+Tarn, J.M., Razi, M.A., Wen, H.J., Perez Jr, A.A., 2003. E-fulfillment: the strategy and operational requirements. Logistics Inform. Manage. 16 (5), 350–362.
+Tian, L., Vakharia, A.J., Tan, Y.R., Xu, Y., 2018. Marketplace, reseller, or hybrid: strategic analysis of an emerging e-commerce model. Prod. Operat. Manage. 27 (8),
+1595–1610.
+Wang, Y., Qu, Z., Tan, B., 2018. How do assurance mechanisms interact in online marketplaces? A signaling perspective. IEEE Trans. Eng. Manage. 65 (2), 239–251.
+Wu, X., Zhou, Y., 2017. The optimal reverse channel choice under supply chain competition. Eur. J. Operat. Res. 259 (1), 63–66.
+Xiao, T., Choi, T.M., Cheng, T.E., 2017. Pricing and benefit of decentralization for competing supply chains with fixed costs. IEEE Trans. Eng. Manage. 65 (1), 99–112.
+
+126
+
+Transportation Research Part E 130 (2019) 108–127
+
+G. Li, et al.
+
+Yan, Y., Zhao, R., Liu, Z., 2018. Strategic introduction of the marketplace channel under spillovers from online to offline sales. Eur. J. Operat. Res. 267 (1), 65–77.
+Yao, D.Q., Yue, X., Mukhopadhyay, S.K., Wang, Z., 2009. Strategic inventory deployment for retail and e-tail stores. Omega 37 (3), 646–658.
+Yu, D.Z., Cheong, T., Sun, D., 2017. Impact of supply chain power and drop-shipping on a manufacturer’s optimal distribution channel strategy. Eur. J. Operat. Res.
+259 (2), 554–563.
+Zhang, H., 2002. Vertical information exchange in a supply chain with duopoly retailers. Prod. Operat. Manage. 11 (4), 531–546.
+Zhang, J., Liu, F., Tang, J., Li, Y., 2019a. The online integrated order picking and delivery considering Pickers’ learning effects for an O2O community supermarket.
+Transp. Res. Part E: Logistics Transp. Rev. 123, 180–199.
+Zhang, P., He, Y., Zhao, X., 2019b. “Preorder-online, pickup-in-store” strategy for a dual-channel retailer. Transp. Res. Part E: Logistics Transp. Rev. 122, 27–47.
+
+127
+
+

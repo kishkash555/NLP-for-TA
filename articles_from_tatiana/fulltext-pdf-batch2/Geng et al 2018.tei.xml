@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">How Add-on Pricing Interacts with Distribution Contracts</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability status="unknown"><p>Copyright Wiley</p>
+				</availability>
+				<date type="published" when="2018-01-15">2018-01-15</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xianjun</forename><surname>Geng</surname></persName>
+							<email>geng@utdallas.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yinliang</forename><forename type="middle">Ricky</forename><surname>Tan</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lai</forename><surname>Wei</surname></persName>
+							<email>laiwei@sjtu.edu.cn</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Jindal School of Management</orgName>
+								<orgName type="institution">The University of Texas at Dallas</orgName>
+								<address>
+									<postCode>75080</postCode>
+									<settlement>Richardson</settlement>
+									<region>Texas</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">School of Business</orgName>
+								<orgName type="institution">Tulane University</orgName>
+								<address>
+									<postCode>70118</postCode>
+									<settlement>New Orleans</settlement>
+									<region>Louisiana</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Antai College of Economics and Management</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<postCode>200030</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">How Add-on Pricing Interacts with Distribution Contracts</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Production and Operations Management</title>
+						<title level="j" type="abbrev">Prod Oper Manag</title>
+						<idno type="ISSN">1059-1478</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<biblScope unit="volume">27</biblScope>
+							<biblScope unit="issue">4</biblScope>
+							<biblScope unit="page" from="605" to="623"/>
+							<date type="published" when="2018-01-15" />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/poms.12831</idno>
+					<note type="submission">Received: December 2016; Accepted: November 2017 by Subodha Kumar, after 1 revision.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<p>W ith the rise of the Internet economy, an increasing number of firms are offering their core products through online platforms, but retail add-ons directly to consumers. Meanwhile, many online platforms have also started adopting the agency (model) contract, where the upstream firms decide the retail prices of products while the downstream platforms take a predetermined cut from each sale. This study examines the interaction between an upstream firm&apos;s add-on strategy and a downstream online platform&apos;s distribution contract choice. We find that such a firm prefers bundling the add-on and the core product together under the wholesale contract, but prefers retailing the add-on separately under the agency contract. Our research thus is the first to suggest that the distribution contract can critically affect a firm&apos;s choice between add-on pricing and bundling. On the platform side, we show that a higher commission rate does not always result in a higher profit for the platform under the agency contract. We further identify two conditions under which the platform prefers the agency contract over the wholesale contract: The commission rate for the platform cannot be too low, and the market potential of the add-on cannot be too large. For the overall channel, we show that the interaction between add-on pricing and distribution contracts leads to sub-optimal channel performance. That said, it is possible for both the firm and the platform to obtain higher profits under the agency contract than under the wholesale contract. Finally, we also demonstrate the robustness of our findings under several alternative model specifications.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

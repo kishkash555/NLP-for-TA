@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The marketplace dilemma: Selling to the marketplace vs. selling on the marketplace</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability status="unknown"><p>Copyright Wiley</p>
+				</availability>
+				<date type="published" when="2020-12-12">2020-12-12</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arda</forename><surname>Yenipazarli</surname></persName>
+							<email>ayenipazarli@georgiasouthern.edu</email>
+							<idno type="ORCID">0000-0003-0280-0223</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Logistics and Supply Chain Management</orgName>
+								<orgName type="institution">Georgia Southern University</orgName>
+								<address>
+									<settlement>Statesboro</settlement>
+									<region>Georgia</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Logistics and Supply Chain Management</orgName>
+								<orgName type="institution">Southern University</orgName>
+								<address>
+									<postCode>30460</postCode>
+									<settlement>Statesboro</settlement>
+									<region>GA</region>
+									<country>Georgia, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The marketplace dilemma: Selling to the marketplace vs. selling on the marketplace</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Naval Research Logistics (NRL)</title>
+						<title level="j" type="abbrev">Naval Research Logistics</title>
+						<idno type="ISSN">0894-069X</idno>
+						<idno type="eISSN">1520-6750</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<date type="published" when="2020-12-12" />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1002/nav.21964</idno>
+					<note type="submission">Received: 13 December 2019 Revised: 13 October 2020 Accepted: 3 November 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-01-20T09:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>online marketplace</term>
+					<term>product positioning</term>
+					<term>upstream competition</term>
+					<term>vertical differentiation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Online marketplaces are rapidly shifting the trajectory of the e-commerce landscape. Brand manufacturers are starkly more dependent on online marketplaces, and for most brands, marketplace presence is not optional but mandatory. At this point, brand executives face a pivotal question in addressing their marketplace presence: What product selling (or distribution) approach should be adopted to leverage this channel for their brand? At its core, there are effectively two options offered to brand executives: selling to the online marketplace (as a 1p vendor); and selling on the marketplace platform (as a 3p seller). Whereas the conventional 1p vendor model is quintessentially the entry point to an online marketplace, some brand manufacturers migrate to the 3p seller model. Many others, however, avoid pulling the 3p trigger. In this paper, we address these two options a brand manufacturer has for selling (or allowing sales of) his product on a marketplace. On the grounds that online marketplaces retain brands at distinct price/quality tiers so as to be both comprehensive and robust, we propose a model of competition between two brand manufacturers whose products (in a category) are vertically differentiated on a quality/performance attribute and a convex marginal production cost is incurred for providing the higher quality. Given there is no single selling strategy on a marketplace that is ideal for all brand manufacturers and strategies would work the best under different market and competitive conditions, we investigate the impact of where a brand stands (vis-á-vis his competitor) on the two dimensions of a product-attribute space on the transitions of 1p brands to 3p sellers on the marketplace platform. We also extend the analysis to the setting where an online retailer decides on whether or not to add a marketplace platform to her existing online marketplace and (if so) on the referral fee percentage at which the product category would be listed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

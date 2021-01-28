@@ -1,0 +1,469 @@
+@article{0,
+  author = {Abhishek, V and Jerath, K and Zhang, Z},
+  title = {Agency selling or reselling? Channel structures in electronic retailing},
+  journal = {Manage. Sci},
+  year = {2016},
+  pages = {2259--2280},
+  volume = {62},
+  number = {8}
+}
+
+@article{1,
+  author = {Affisco, J and Paknejad, M and Nasri, F},
+  title = {Quality improvement and setup reduction in the joint economic lot size model},
+  journal = {Eur. J. Oper. Res},
+  year = {2002},
+  pages = {497--508},
+  volume = {142},
+  number = {3}
+}
+
+@article{2,
+  author = {Arunachalam, D and Kumar, N and Kawalek, J},
+  title = {Understanding big data analytics capabilities in supply chain management: Unravelling the issues, challenges and implications for practice},
+  journal = {Transp. Res. Part E: Logist. Transp. Rev},
+  year = {2018},
+  pages = {416--436},
+  volume = {114}
+}
+
+@article{3,
+  author = {Babich, V and Hilary, G},
+  title = {Distributed ledgers and operations: what operations management researchers should know about Blockchain technology},
+  journal = {Manuf. Serv. Oper. Manage},
+  year = {2019},
+  doi = {10.1287/msom.2018.0752}
+}
+
+@article{4,
+  author = {Baryannis, G and Validi, S and Dani, S and Antoniou, G},
+  title = {Supply chain risk management and artificial intelligence: state of the art and future research directions},
+  journal = {Int. J. Prod. Res},
+  year = {2019},
+  pages = {2179--2202},
+  volume = {57},
+  number = {7}
+}
+
+@article{5,
+  author = {Beltagui, A and Kunz, N and Gold, S},
+  title = {The role of 3D printing and open design on adoption of socially sustainable supply chain innovation},
+  journal = {Int. J. Prod. Econ. Article in press},
+  year = {2019},
+  doi = {10.1016/j.ijpe.2019.07.035}
+}
+
+@article{6,
+  author = {Ben-Daya, M and Hariga, M},
+  title = {Lead-time reduction in a stochastic inventory system with learning consideration},
+  journal = {Int. J. Prod. Res},
+  year = {2003},
+  pages = {571--579},
+  volume = {41},
+  number = {3}
+}
+
+@article{7,
+  author = {Bernstein, F and Federgruen, A},
+  title = {A general equilibrium model for industries with price and service competition},
+  journal = {Oper. Res},
+  year = {2004},
+  pages = {868--886},
+  volume = {52},
+  number = {6}
+}
+
+@article{8,
+  author = {Billington, P},
+  title = {The Classic Economic Production Quantity Model with Setup Cost as a Function of Capital Expenditure},
+  journal = {Decis Sci},
+  year = {1987},
+  pages = {25--42},
+  volume = {18},
+  number = {1}
+}
+
+@article{9,
+  author = {Cai, X and Chen, J and Xiao, Y and Xu, X},
+  title = {Optimization and coordination of fresh product supply chains with freshness keeping effort},
+  journal = {Prod. Oper. Manag},
+  year = {2010},
+  pages = {261--278},
+  volume = {19},
+  number = {3}
+}
+
+@article{10,
+  author = {Chan, H and Griffin, J and Lim, J and Zeng, F and Anthony, S and Chiu},
+  title = {The impact of 3D Printing Technology on the supply chain: Manufacturing and legal perspectives},
+  journal = {Int. J. Prod. Econ},
+  year = {2018},
+  pages = {156--162},
+  volume = {205},
+  number = {11}
+}
+
+@article{11,
+  author = {Chang, H and Ouyang, L and Wu, K and Ho, C},
+  title = {Integrated vendor-buyer cooperative inventory models with controllable lead time and ordering cost reduction},
+  journal = {Eur. J. Oper. Res},
+  year = {2006},
+  pages = {481--495},
+  volume = {170},
+  number = {2}
+}
+
+@article{12,
+  author = {Chen, Y and Dai, T and Korpeoglu, C and Körpeoğlu, E and Sahin, O and Tang, C and Xiao, S},
+  title = {Innovative online platforms: Research opportunities},
+  journal = {Manuf. Serv. Oper. Manage. Article in press},
+  year = {2019},
+  doi = {10.1287/msom.2018.0757}
+}
+
+@article{13,
+  author = {Choi, T},
+  title = {Incorporating social media observations and bounded rationality into fashion quick response supply chains in the big data era},
+  journal = {Transp. Res. Part E: Logist. Transp. Rev},
+  year = {2018},
+  pages = {386--397},
+  volume = {114}
+}
+
+@article{14,
+  author = {Choi, T},
+  title = {Blockchain-technology-supported platforms for diamond authentication and certification in luxury supply chains},
+  journal = {Transp. Res. Part E: Logist. Transp. Rev},
+  year = {2019},
+  pages = {17--29},
+  volume = {128}
+}
+
+@article{15,
+  author = {Choi, T and Feng, L and Li, R},
+  title = {Information disclosure structure in supply chains with rental service platforms in the blockchain technology era},
+  journal = {Int. J. Prod. Econ. Artical in press},
+  year = {2019},
+  doi = {10.1016/j.ijpe.2019.08.008}
+}
+
+@article{16,
+  author = {Choi, T and He, Y},
+  title = {Peer-to-peer collaborative consumption for fashion products in the sharing economy: Platform operations},
+  journal = {Transp. Res. Part E: Logist. Transp. Rev},
+  year = {2019},
+  pages = {49--65},
+  volume = {126}
+}
+
+@article{17,
+  author = {Choi, T and Luo, S},
+  title = {Data quality challenges for sustainable fashion supply chain operations in emerging markets: Roles of blockchain, government sponsors and environment taxes},
+  journal = {Transp. Res. Part E: Logist. Transp. Rev},
+  year = {2019},
+  pages = {139--152},
+  volume = {131}
+}
+
+@article{18,
+  author = {Choi, T and Wallace, S and Wang, Y},
+  title = {Big data analytics in operations management},
+  journal = {Prod. Oper. Manage},
+  year = {2018},
+  pages = {1868--1883},
+  volume = {27},
+  number = {10}
+}
+
+@article{19,
+  author = {Choi, T and Guo, S and Liu, N and Shi, X},
+  title = {Optimal pricing in on-demand-service-platform-operations with hired agents and risk-sensitive customers in the blockchain era},
+  journal = {Eur. J. Oper. Res. Article in press},
+  year = {2020},
+  doi = {10.1016/j.ejor.2020.01.049}
+}
+
+@article{20,
+  author = {Chung, S and Ma, H and Hansen, M and Choi, T},
+  title = {Data science and analytics in aviation},
+  journal = {Transp. Res. Part E: Logist. Transp. Rev},
+  year = {2020},
+  volume = {134},
+  number = {101837}
+}
+
+@article{21,
+  author = {Du, S and Wang, L and Hu, L and Zhu, L},
+  title = {Platform-led green advertising: Promote the best or promote by performance},
+  journal = {Transp. Res. Part E: Logist. Transp. Rev},
+  year = {2019},
+  pages = {115--131},
+  volume = {128}
+}
+
+@article{22,
+  author = {Ge, Z and Hu, Q and Xia, Y},
+  title = {Firms' R&D cooperation behavior in a supply chain},
+  journal = {Prod. Oper. Manage},
+  year = {2014},
+  pages = {599--609},
+  volume = {23},
+  number = {4}
+}
+
+@article{23,
+  author = {Giannakis, M and Louis, M},
+  title = {A multi-agent based system with big data processing for enhanced supply chain agility},
+  journal = {J. Enterp. Inf. Manage},
+  year = {2016},
+  pages = {706--727},
+  volume = {29},
+  number = {5}
+}
+
+@article{24,
+  author = {Glock, C},
+  title = {Lead time reduction strategies in a single-vendor-single-buyer integrated inventory model with lot size-dependent lead times and stochastic demand},
+  journal = {Int. J. Prod. Econ},
+  year = {2012},
+  pages = {37--44},
+  volume = {136},
+  number = {1}
+}
+
+@article{25,
+  author = {Govindan, K and Cheng, T and Mishra, N and Shukla, N},
+  title = {Big data analytics and application for logistics and supply chain management},
+  journal = {Transp. Res. Part E: Logist. Transp. Rev},
+  year = {2018},
+  pages = {343--349},
+  volume = {114}
+}
+
+@article{26,
+  author = {Hagiu, A and Wright, J},
+  title = {Marketplace or reseller?},
+  journal = {Manage. Sci},
+  year = {2015},
+  pages = {184--203},
+  volume = {61},
+  number = {1}
+}
+
+@article{27,
+  author = {Jerath, K and Kim, S.-H and Swinney, R},
+  title = {Product quality in a distribution channel with inventory risk},
+  journal = {Market Sci},
+  year = {2017},
+  pages = {747--761},
+  volume = {36},
+  number = {5}
+}
+
+@article{28,
+  author = {Jiang, B and Jerath, K and Srinivasan, K},
+  title = {Firm strategies in the mid tail of platform-based retailing},
+  journal = {Market Sci},
+  year = {2011},
+  pages = {757--775},
+  volume = {30},
+  number = {5}
+}
+
+@article{29,
+  author = {Kim, S and Hayya, J and Hong, J},
+  title = {Setup Reduction in the Economic Production Quantity Model},
+  journal = {Decis Sci},
+  year = {1992},
+  pages = {500--508},
+  volume = {23},
+  number = {2}
+}
+
+@article{30,
+  author = {Kraus, M and Feuerriegel, S and Oztekin, A},
+  title = {Deep learning in business analytics and operations research: Models, applications and managerial implications},
+  journal = {Eur. J. Oper. Res},
+  year = {2020},
+  pages = {628--641},
+  volume = {281},
+  number = {3}
+}
+
+@article{31,
+  author = {Kung, L and Zhong, G},
+  title = {The optimal pricing strategy for two-sided platform delivery in the sharing economy},
+  journal = {Transp. Res. Part E: Logist. Transp. Rev},
+  year = {2017},
+  pages = {1--12},
+  volume = {101}
+}
+
+@article{32,
+  author = {Li, X and Li, Y and Cai, X and Shan, J},
+  title = {Service channel choice for supply chain: Who is better off by undertaking the service?},
+  journal = {Prod. Oper. Manag},
+  year = {2016},
+  pages = {516--534},
+  volume = {25},
+  number = {3}
+}
+
+@article{33,
+  author = {Liu, Z and Li, M and Kou, J},
+  title = {Selling information products: Sale channel selection and versioning strategy with network externality},
+  journal = {Int. J. Prod. Econ},
+  year = {2015},
+  pages = {1--10},
+  volume = {166}
+}
+
+@article{34,
+  author = {Lu, Q and Shi, V and Huang, J},
+  title = {Who benefit from agency model: A strategic analysis of 34 pricing models in distribution channels of physical books and e-books},
+  journal = {Eur. J. Oper. Res},
+  year = {2018},
+  pages = {1074--1091},
+  volume = {264},
+  number = {3}
+}
+
+@article{35,
+  author = {Mcguire, T and Staelin, R},
+  title = {An industry equilibrium analysis of downstream vertical integration},
+  journal = {Mark. Sci},
+  year = {1983},
+  pages = {161--191},
+  volume = {2},
+  number = {2}
+}
+
+@article{36,
+  author = {Ouyang, L and Chen, C and Chang, H},
+  title = {Quality improvement, setup cost and lead-time reductions in lot size reorder point models with an imperfect production process},
+  journal = {Comput. Oper. Res},
+  year = {2002},
+  pages = {1701--1717},
+  volume = {29},
+  number = {12}
+}
+
+@article{37,
+  author = {Porteus, E},
+  title = {Investing in new parameter values in the discounted EOQ model},
+  journal = {Nav. Res. Logist},
+  year = {1986a},
+  pages = {39--48},
+  volume = {33}
+}
+
+@article{38,
+  author = {Porteus, E},
+  title = {Investing in Reduced Setups in the EOQ Model},
+  journal = {Manage. Sci},
+  year = {1985},
+  pages = {998--1010},
+  volume = {31},
+  number = {8}
+}
+
+@article{39,
+  author = {Porteus, E},
+  title = {Optimal Lot Sizing, Process Quality Improvement and Setup Cost Reduction},
+  journal = {Oper. Res},
+  year = {1986b},
+  pages = {137--144},
+  volume = {34},
+  number = {1}
+}
+
+@article{40,
+  author = {Ryan, J and Sun, D and Zhao, X},
+  title = {Competition and coordination in online marketplaces},
+  journal = {Prod. Oper. Manage},
+  year = {2012},
+  pages = {997--1014},
+  volume = {21},
+  number = {6}
+}
+
+@article{41,
+  author = {Sanders, N and Ganeshan, R},
+  title = {Big Data in Supply Chain Management},
+  journal = {Prod. Oper. Manag},
+  year = {2019},
+  pages = {1745--1748},
+  volume = {27},
+  number = {10}
+}
+
+@article{42,
+  author = {Sarac, A and Absi, N and Dauzère-Pérès, S},
+  title = {A literature review on the impact of RFID technologies on supply chain management},
+  journal = {Int. J. Prod. Econ},
+  year = {2010},
+  pages = {77--95},
+  volume = {128},
+  number = {1}
+}
+
+@article{43,
+  author = {Shi, H and Liu, Y and Petruzzi, N},
+  title = {Consumer Heterogeneity, Product Quality, and Distribution Channels},
+  journal = {Manage. Sci},
+  year = {2013},
+  pages = {1162--1176},
+  volume = {59},
+  number = {5}
+}
+
+@article{44,
+  author = {Tian, L and Vakharia, A and Tan, Y and Xu, Y},
+  title = {Marketplace, Reseller, or Hybrid: Strategic analysis of an E-merging E-Commerce model},
+  journal = {Prod. Oper. Manage},
+  year = {2018},
+  pages = {1595--1610},
+  volume = {27},
+  number = {8}
+}
+
+@article{45,
+  author = {Zelbst, P and Green, K and Sower, V and Reyes, P},
+  title = {Impact of RFID on manufacturing effectiveness and efficiency},
+  journal = {Int. J. Oper. Prod. Manage},
+  year = {2012},
+  pages = {329--350},
+  volume = {32},
+  number = {3}
+}
+
+@article{46,
+  author = {Zhan, Y and Tan, K},
+  title = {An analytic infrastructure for harvesting big data to enhance supply chain performance},
+  journal = {Eur. J. Oper. Res},
+  year = {2020},
+  pages = {559--574},
+  volume = {281},
+  number = {3}
+}
+
+@article{47,
+  author = {Zhang, J and Cao, Q and He, X},
+  title = {Contract and product quality in platform selling},
+  journal = {Eur. J. Oper. Res},
+  year = {2019},
+  pages = {928--944},
+  volume = {272},
+  number = {3}
+}
+
+@article{48,
+  author = {Zhu, K and Zang, R and Tsung, F},
+  title = {Pushing quality along the supply chain},
+  journal = {Manag. Sci},
+  year = {2007},
+  pages = {421--436},
+  volume = {53},
+  number = {3}
+}
+

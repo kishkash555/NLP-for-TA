@@ -1,0 +1,1562 @@
+European Journal of Operational Research 281 (2020) 231–239
+
+Contents lists available at ScienceDirect
+
+European Journal of Operational Research
+journal homepage: www.elsevier.com/locate/ejor
+
+Interfaces with Other Disciplines
+
+Strategic contracting and hybrid use of agency and wholesale
+contracts in e-commerce platformsR
+Yusuke Zennyo
+Graduate School of Business Administration, Kobe University, 2-1 Rokkodai, Nada, Kobe 657-8501, Japan
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 19 April 2019
+Accepted 13 August 2019
+Available online 20 August 2019
+Keywords:
+E-commerce
+Strategic contracting
+E-commerce platforms
+Agency contract
+Wholesale contract
+
+a b s t r a c t
+This paper examines strategic contracting between a monopoly platform and suppliers that sell their
+goods through the platform. I consider two competing suppliers: a high-volume supplier with the larger
+potential demand and a low-volume supplier with the smaller one. Each supplier chooses one of two contracts: wholesale or agency. The platform has to strategically determine the royalty rate for the agency
+contract by taking into account which contracts the suppliers will choose. I show that the platform offers
+a low (high) royalty rate to induce the suppliers to adopt the agency (wholesale) contract when product
+substitutability is low (high) enough. More interestingly, when the degree of substitution is at an intermediate level, asymmetric contracting, in which only the low-volume supplier adopts the agency contract,
+can arise in equilibrium. This result is related to the fact that many long-tail and niche products with
+lower potential market sizes are traded on platform-based marketplaces, such as Amazon Marketplace
+and Walmart Marketplace.
+© 2019 Elsevier B.V. All rights reserved.
+
+1. Introduction
+E-commerce platforms such as Amazon, eBay, Rakuten in Japan,
+Taobao in China, and Flipkart in India, have experienced rapid and
+strong growth in the past decade. On February 1, 2018, Amazon announced that net sales increased 38% to $60.5 billion in the fourth
+quarter of 2017. For the full year 2017, net sales increased 31% to
+$177.9 billion, compared to $136.0 billion in 2016. According to the
+US Department of Commerce, online retail sales were reported to
+be $453 billion in 2017, accounting for 13.0% of total retail sales.
+Such rapidly growing online retail channels are too important for
+manufacturers and suppliers to ignore.
+To sell products or services via online platforms, suppliers need
+to sign a contract with the platform they use. In online platforms,
+two classes of contracts are used: wholesale contracts and agency
+contracts. The major difference between these two contracts is
+who has the right to decide retail prices. On the one hand, under
+wholesale contracts, retail platforms decide retail prices. Each
+supplier sets the wholesale price for its product before the platform chooses the retail price. On the other hand, under agency
+contracts, retail pricing is delegated to suppliers. That is, each
+R
+Special thanks go to Kenji Matsui for his helpful comments on earlier versions
+of this study. This work was supported by JSPS KAKENHI Grant Numbers 16K17126
+and 17H00959.
+E-mail address: xyzennyo@b.kobe-u.ac.jp
+
+https://doi.org/10.1016/j.ejor.2019.08.026
+0377-2217/© 2019 Elsevier B.V. All rights reserved.
+
+supplier can directly determine the retail price for its product
+given a revenue-sharing rule (so-called royalty rate or commission fee) offered by the platform. The revenue from sales is
+split between the supplier and the platform according to the
+revenue-sharing rule.1
+Interestingly, asymmetric contracting prevails in online platform
+markets, that is, some suppliers adopt a wholesale contract, while
+others adopt an agency contract. For example, Amazon purchases
+and resells a wide variety of products (i.e., wholesale model). In
+addition, at the same time, it also operates Amazon Marketplace,
+which enables third-party sellers to sell their products to Amazon’s
+customer base (i.e., agency model). According to Amazon’s full-year
+2017 ﬁnancial results, net sales from online stores (i.e., wholesale
+model) were $108.4 billion and net sales from third-party seller
+services (i.e., agency model) were $31.9 billion. In particular, Amazon sells only a limited number of products that are expected to
+generate huge sales, and the remaining huge number of long-tail
+and niche products with lower potential market sizes are sold by
+third-party sellers (Jiang, Jerath, & Srinivasan, 2011).
+
+1
+The revenue-sharing rule I consider in the agency contract is a little different
+from the revenue-sharing contract studied in Cachon and Lariviere (2005), who assume that a retailer pays a supplier a wholesale price for each unit purchased, plus
+a percentage of the revenue the retailer generates. There are many studies that
+incorporate this type of revenue sharing (e.g., Chakraborty, Chauhan, & Vidyarthi,
+2015; Pan, Lai, Leung, & Xiao, 2010).
+
+232
+
+Y. Zennyo / European Journal of Operational Research 281 (2020) 231–239
+
+The research questions of this paper are:
+•
+•
+
+When do competing suppliers choose different contracts?
+What kind of supplier prefers an agency contract to a wholesale
+contract: a major supplier or a niche supplier?
+
+To answer the above questions, I develop a simple stylized
+model with a monopoly platform and two suppliers. The suppliers
+are assumed to have different potential demands. I call the supplier with the larger demand the high-volume supplier and call the
+other one with the smaller demand the low-volume supplier. When
+each supplier chooses one of the two contracts, the royalty rate
+must already be offered by the platform. As the royalty rate significantly affects the suppliers’ decisions on which contract to adopt,
+the platform needs to strategically determine it by taking the suppliers’ contract choices into consideration. To capture this strategic contracting, the timeline of the model is as follows. First, the
+platform determines the royalty rate, which will be applied only
+to the suppliers that choose the agency contract in the next stage.
+Second, each supplier chooses between the wholesale and agency
+contracts. Third, if there exists a supplier that chose the wholesale
+contract, that supplier sets its wholesale price. If neither supplier
+did so, the game proceeds to the next stage. Fourth, retail prices
+for both suppliers’ products are determined. If a supplier chose the
+wholesale contract, the retail price is set by the retail platform. If
+a supplier chose the agency contract, that supplier can charge its
+retail price directly.
+I show that, if the degree of substitution between the competing suppliers is high (low) enough, then the platform offers a high
+(low) royalty rate in order to induce them to choose the wholesale
+(agency) contract. The intuition is as follows.2 When the products
+are nearly homogeneous (i.e., high substitutability), the monopoly
+platform has substantial power against both suppliers. Therefore,
+there is little incentive to delegate the decision right of retail pricing to the suppliers. Consequently, the platform sets the royalty
+rate at a signiﬁcantly high level in order to prevent the suppliers
+from choosing the agency contract. On the contrary, when the
+products are highly differentiated (i.e., low substitutability), both
+suppliers can set their wholesale prices at the high level under
+the wholesale contract. Then, by delegating the retail pricing
+to the suppliers, the platform invites ﬁercer price competition
+among them, which can increase the gross revenue in the supply
+chain. Therefore, the platform ﬁnds it proﬁtable to discount the
+royalty rate in an effort to force the suppliers to select the agency
+contract.
+These results suggest that the platform should charge different royalty rates for each product category. In fact, Amazon uses
+such price discrimination for third-party sellers depending on the
+product categories. For example, Amazon sets its royalty rate at a
+relatively high level for nearly homogeneous categories (e.g., 15%
+for Books, Video & DVD, Music, Software & Computer, and Video
+Games) and at lower levels for relatively differentiated categories
+(e.g., 6% for Personal Computers; and 8% for Camera & Photo, Consumer Electronics, Cell Phone Devices, Unlocked Cell Phones, and
+Video Game Consoles).3 This pricing strategy is highly supported
+by the ﬁndings of this paper.
+Moreover, I ﬁnd that asymmetric contracting occurs only when
+the degree of substitution is at an intermediate level. Interestingly, in this asymmetric equilibrium, only the low-volume supplier adopts the agency contract. This result is signiﬁcantly related
+to the fact observed in online platforms that a huge number of
+
+2
+The intuition is similar to that of Jerath and Zhang (2010), who do not, however,
+examine endogenous strategic contracting.
+3
+Source: https://services.amazon.com/selling/pricing.htm/ Last visited July 8,
+2019.
+
+long-tail and niche products with lower potential market demands
+are sold by third-party sellers.
+As an extension, I also investigate a model in which only the
+high-volume supplier chooses a preferred one between the two
+contracts, whereas the low-volume supplier has no choice but to
+sell under the agency contract. This framework can be compatible
+with industry practices in e-commerce platforms. On the one hand,
+Amazon and Walmart Marketplace are open to all who seek to sell
+their products at these online platforms. On the other hand, suppliers require a request or invitation from those platforms in order
+to distribute their products under the wholesale agreement. Otherwise, they need to reach an agreement with the platforms on their
+use of the wholesale contract. In this regard, high-volume suppliers tend to have a stronger bargaining power than low-volume
+ones. These business practices incentivize me to extend the original model. The extended analysis shows that the results derived in
+the original model remain robust. That is, if the degree of substitution between the suppliers is high (low), then the platform offers
+a high (low) royalty rate in order to encourage the high-volume
+supplier to choose the wholesale (agency) contract. Eventually, it
+shows that, as compared to the original model, asymmetric contracting is more likely to occur.
+The remainder of the paper is structured as follows.
+Section 2 provides a review of the literature relating to wholesale
+and agency contracts. I describe the model with a monopoly platform and two competing suppliers in Section 3, and then obtain
+the subgame perfect Nash equilibrium in Section 4. In Section 5,
+I extend the model in a way such that a high-volume supplier
+chooses a preferred one between wholesale and agency contracts,
+whereas a low-volume supplier has no choice but to sell under
+the agency contract. The ﬁnal section concludes the paper.
+2. Literature
+Wholesale contracts and agency contracts are the two most
+popular and simple contracts adopted by online platforms and
+their suppliers. Therefore, it is of practical relevance to study the
+question of under what conditions one contract is preferred to the
+other from the perspective of management (e.g., Geng, Tan, & Wei,
+2018; Gerchak & Wang, 2004; Hao & Fan, 2014; Lu, Shi, & Huang,
+2018; Tan & Carrillo, 2017; Tan, Carrillo, & Cheng, 2016; Yan, Zhao,
+& Liu, 2018; Yan, Zhao, & Xing, 2019) and economics (e.g., Dantas,
+Taboubi, & Zaccour, 2014; Foros, Kind, & Shaffer, 2017; Johnson,
+2017).
+The recent literature on platform contracting has identiﬁed
+several important factors, e.g., product substitutability (Jerath &
+Zhang, 2010), online reviews (Kwark, Chen, & Raghunathan, 2017),
+degree of competition among platforms (Abhishek, Jerath, & Zhang,
+2015), and level of marketing efforts (Hagiu & Wright, 2015; 2019),
+and provided insights as to how these factors inﬂuence the equilibrium contracting outcome.
+A work closely related to this paper is Jerath and Zhang (2010),
+who study the equilibrium contracting outcome when a monopoly
+retailer allows manufacturers to set up stores within a store (which
+can be considered as the brick-and-mortar analog to online platforms). In particular, they show that the retailer prefers agency
+(wholesale) contracting when product substitutability is low (high)
+and that asymmetric contracting arises for intermediate values of
+substitutability.4 They consider that the monopoly retailer offers
+4
+Jiang et al. (2011), Yan et al. (2018, 2019), and Wei, Lu, and Zhao (2019) also
+study the situation where both wholesale and agency contracts coexist in the same
+platform. However, they do not examine the decision of which contract each supplier chooses. For example, Yan et al. (2018, 2019) consider a model consisting
+of a manufacturer and an e-tailer, and then show that the manufacturer introduces the marketplace channel (i.e., agency model) in addition to the conventional
+
+Y. Zennyo / European Journal of Operational Research 281 (2020) 231–239
+
+each manufacturer a take-it-or-leave-it contract that includes a
+ﬁxed slotting fee. In their store-within-a-store arrangement, the
+retailer’s proﬁt is sourced only from the slotting fees the manufacturers pay. On the contrary, in the agency contract of this paper, a monopoly platform offers two competing suppliers a common royalty rate instead of ﬁxed slotting fees. This fee structure
+is more suitably compatible with practical operations observed in
+e-commerce platforms. Furthermore, unlike this paper, Jerath and
+Zhang (2010) do not examine strategic contracting among channel
+members, whereby manufacturers must accept the contract that is
+unilaterally offered by a monopoly retailer.
+The recent study by Tian, Vakharia, Tan, and Xu (2018) is
+the ﬁrst to address endogenous strategic contracting between a
+monopoly intermediary and competing suppliers. In their model,
+if a proportional fee offered by the intermediary is too high, then
+suppliers can reject it and choose the traditional reselling mode.
+They demonstrate that even in a model with such strategic contracting, the results are qualitatively consistent with those of Jerath
+and Zhang (2010): the platform offers a high (low) proportional fee
+in order to induce the suppliers to choose the reselling (platform)
+mode when the substitutability between the suppliers is high (low)
+enough and asymmetric contracting arises when the degree of substitution is at an intermediate level.
+In Tian et al. (2018), because of their assumption on symmetrically identical suppliers, the competition might fall within
+a chicken-game paradigm with multiple asymmetric equilibria: either one of the suppliers adopts the agency contract and the other
+chooses the wholesale contract. In reality, however, asymmetric
+environments have been widely seen where initial market sizes are
+not identical. Thus, this paper considers the difference in the potential demand between competing suppliers in order to answer
+the following important question: Which supplier tends to adopt the
+agency contract: a major supplier with the larger potential demand or
+a long-tail and niche supplier with the smaller one? This study complements Tian et al. (2018) from a different perspective by addressing the above research question that stems from the asymmetry of
+potential demands.
+Furthermore, the asymmetry of potential demands also raise
+an additional issue to be investigated. Broadly, long-tail and niche
+suppliers with lower potential market sizes may lack the ability to
+negotiate the wholesale contract with recent powerful platforms.
+Meanwhile, the agency selling format is commonly open to every supplier who is willing to sell through the platforms. Therefore, as an extension, I also consider a more realistic situation that
+has not been examined in the literature, in which only the highervolume supplier chooses a preferred one between the two contracts, whereas the lower-volume supplier has no choice but to sell
+under the agency contract. In these regards, this paper contributes
+to the literature by providing more practical implications for the
+management of e-commerce platforms that confront the issues of
+strategic contracting.
+3. The model
+I consider a supply chain model with a retail platform and two
+suppliers (i = 1, 2). Supplier i produces good i and sells it through
+the platform. The suppliers’ products are horizontally differentiated
+and are imperfect substitutes. Let pi and di be the price and the
+demand for good i, respectively. For simplicity, the marginal cost
+of producing goods is assumed to be identical for both suppliers,
+which is normalized to zero.
+reseller channel (i.e., wholesale model). That is, there is no strategic interaction between manufacturers, which is in sharp contrast to the present paper showing that
+a manufacturer adopts the wholesale model and the other one chooses the agency
+model.
+
+233
+
+According to Choi (1991, 1996), Jeuland and Shugan (1983) and
+Tan et al. (2016), the demand function for good i is given by
+
+
+
+d1 ( p1 , p2 ) = 1 − p1 + γ p2 ,
+d2 ( p2 , p1 ) = a − p2 + γ p1 ,
+
+(1)
+
+where a ∈ (0, 1] represents the potential market size of supplier 2,
+while that of supplier 1 is normalized to one.5 This implies supplier 1 has a larger potential demand than supplier 2. Actually, in
+many markets, low-volume suppliers compete against high-volume
+rivals. Then, this paper calls supplier 1 a high-volume supplier and
+calls supplier 2 a low-volume supplier, respectively. The cross-price
+sensitivity parameter γ ∈ [0, 1) denotes the degree of substitution
+between the two goods. The horizontal differentiation stems not
+only from consumers’ preferences for products sold (e.g., design,
+color, taste, etc), but also from consumers’ preferences for suppliers. Thus, if two suppliers sell different products, the goods are, of
+course, differentiated. Furthermore, even if two suppliers sell the
+same product, the goods are said to be differentiated if consumers
+have different preferences for each supplier. Both goods are imperfect substitutes of each other, unless γ = 0. If γ is equal to zero,
+both goods are perfectly differentiated.6 As γ becomes larger, the
+goods become more substitutable.
+This paper considers two kinds of contracts between the platform and each supplier: the wholesale contract and the agency
+contract. If supplier i chooses the wholesale contract, it sets the
+wholesale price wi before the platform sets the retail price pi . In
+this case, the proﬁt of supplier i is given by πi = wi di , and the
+platform obtains i = ( pi − wi )di from sales of good i. In contrast,
+if supplier i adopts the agency contract, the retail pricing is delegated to supplier i. Thus, supplier i can set retail price pi directly,
+but has to pay a part of its sales revenue as a royalty fee according
+to the revenue-sharing rule r ∈ [0, 1] preliminarily chosen by the
+platform.7 The proﬁt of supplier i is given by πi = (1 − r ) pi di , and
+the platform derives i = r pi di from sales of good i. Then, the to
+tal proﬁt of the platform is computed as  = i=1,2 i . Because
+of revenue sharing between platform and supplier, disregarding
+marginal costs is not without loss of generality. Revenue sharing
+without variable costs is essentially equivalent to proﬁt sharing,
+implying that there is no double marginalization under the agency
+contract in this paper.
+This paper examines the suppliers’ decisions on which contract
+to adopt. Let si be the contract selected by supplier i. That is,
+si = W when supplier i chooses the wholesale contract and si = A
+when supplier i chooses the agency contract. I use s = (s1 , s2 ) to
+denote the pair of contracts selected by the two suppliers. Note
+that multiple equilibria may arise regarding the contract choices. I
+assume that when multiple equilibria arise and there is an equilibrium that payoff-dominates the other equilibria, the competing
+suppliers choose the payoff-dominant equilibrium strategy.
+Furthermore, the decisions on which contract to choose would
+be crucially affected by the royalty rate. Therefore, at the time of
+the suppliers’ contract choices, the royalty rate must already be offered by the platform. To capture those realities, the game has the
+following timeline.
+
+5
+Tian et al. (2018) studies a model with two competing suppliers that have the
+same potential demand (i.e., a = 1). Instead, they incorporate the order-fulﬁllment
+cost into their model, which is the ﬁxed cost incurred either by the platform under
+the wholesale contract or by the supplier under the agency contract.
+6
+When γ = 0, the analysis is equivalent to a successive monopoly model with
+one platform and one supplier.
+7
+In this paper, I assume that the platform cannot discriminate the royalty rate
+among suppliers. In fact, Amazon sets the same royalty rate for all goods in the
+same category.
+
+234
+
+Y. Zennyo / European Journal of Operational Research 281 (2020) 231–239
+Table 1
+Outcomes of each subgame in Stage 3.
+s
+
+(W, W)
+
+(A, A)
+
+(W, A)
+
+(A, W)
+
+w1
+
+2+aγ
+4 −γ 2
+
+–
+
+2+aγ −γ (a+γ )r
+2 ( 2 −γ 2 )
+
+–
+
+w2
+
+2a+γ
+4 −γ 2
+
+–
+
+–
+
+2a+γ −γ (1+aγ )r
+2 ( 2 −γ 2 )
+
+p1
+
+6+5aγ −3γ 2 −2aγ 3
+8−10γ 2 +2γ 4
+
+2+aγ
+4 −γ 2
+
+(2+aγ )(3−γ 2 )+γ (a−γ −aγ 2 )r
+(2−γ 2 ){4−(1+r )γ 2 }2
+
+8+6aγ −3γ 2 −2aγ 3 −γ 2 (1+aγ )r
+2(2−γ 2 ){4−(1+r )γ 2 }
+
+p2
+
+6a+5γ −3aγ −2γ
+8−10γ 2 +2γ 4
+
+2a+γ
+4 −γ 2
+
+8a+6γ −3aγ −2γ −γ (a+γ )r
+2(2−γ 2 ){4−(1+r )γ 2 }
+
+(2a+γ )(3−γ 2 )+γ (1−aγ −γ 2 )r
+(2−γ 2 ){4−(1+r )γ 2 }2
+
+d1
+
+2+aγ
+2 ( 4 −γ 2 )
+
+2+aγ
+4 −γ 2
+
+2+aγ −γ (a+γ )r
+2{4−(1+r )γ 2 }
+
+8+6aγ −3γ 2 −2aγ 3 −γ 2 (1+aγ )r
+2(2−γ 2 ){4−(1+r )γ 2 }
+
+d2
+
+2a+γ
+2 ( 4 −γ 2 )
+
+2a+γ
+4 −γ 2
+
+8a+6γ −3aγ 2 −2γ 3 −γ 2 (a+γ )r
+2(2−γ 2 ){4−(1+r )γ 2 }
+
+2a+γ −γ (1+aγ )r
+2{4−(1+r )γ 2 }
+
+π1
+
+(2+aγ )2
+2 ( 4 −γ 2 ) 2
+
+(1−r )(2+aγ )2
+( 4 −γ 2 ) 2
+
+{2+aγ −γ (a+γ )r}2
+2(2−γ 2 ){4−(1+r )γ 2 }
+
+(1−r ){8+6aγ −3γ 2 −2aγ 3 −γ 2 (1+aγ )r}2
+4(2−γ 2 )2 {4−(1+r )γ 2 }2
+
+π2
+
+( 2a+γ )2
+2 ( 4 −γ 2 ) 2
+
+(1−r )(2a+γ )2
+( 4 −γ 2 ) 2
+
+(1−r ){8a+6γ −3aγ 2 −2γ 3 −γ 2 (a+γ )r}2
+4(2−γ 2 )2 {4−(1+r )γ 2 }2
+
+{2a+γ −γ (1+aγ )r}2
+4(2−γ )2 {4−(1+r )γ 2 }
+
+
+
+(1+a )(4+5γ )+2aγ (8+γ )
+4(1−γ 2 )(4−γ 2 )2
+
+Note:
+
+2
+
+2
+
+3
+
+2
+
+2
+
+2
+
+r{(1+a )(4+γ )+8aγ }
+( 4 −γ 2 ) 2
+2
+
+2
+
+3
+
+2
+
+X
+4(2−γ 2 )2 {4−(1+r )γ 2 }2
+
+Y
+4(2−γ 2 )2 {4−(1+r )γ 2 }2
+
+X = (2 + aγ ) (2 − γ ) + (64a + 112aγ + 44γ − 40a γ − 76aγ − 28γ + 3a2 γ 4 + 12aγ 5 + 4γ 6 + a2 γ 6 )r
+− γ 2 (a + γ )(28a + 24γ − 14aγ 2 − 12γ 3 + aγ 4 + γ 5 )r 2 + γ 4 (a + γ )2 (3 − γ 2 )r 3
+Y = (2a + γ )2 (2 − γ 2 )2 + (64 + 112aγ − 40γ 2 + 44a2 γ 2 − 76aγ 3 + 3γ 4 − 28a2 γ 4 + 12aγ 5 + γ 6 + 4a2 γ 6 )r
+− γ 2 (1 + aγ )(28 + 24aγ − 14γ 2 − 12aγ 3 + γ 4 + aγ 5 )r 2 + γ 4 (1 + aγ )2 (3 − γ 2 )r 3
+2
+
+2 2
+
+2
+
+2
+
+2
+
+2
+
+3
+
+4
+
+1. The monopoly platform determines the royalty rate r, which
+will be applied only to the suppliers that choose the agency
+contract in the next stage.
+2. Each supplier chooses either the wholesale or the agency contract.
+3. Pricing stage:
+3-1. If there is a supplier that chose the wholesale contract, that
+supplier decides its wholesale price. Otherwise, if neither
+supplier did so, the game proceeds to the next stage.
+3-2. The retail price for the supplier that chose the wholesale
+contract is set by the platform, while the retail price for the
+supplier that chose the agency contract is set by that supplier itself.
+
+4.1.2. Both suppliers choose the agency contract: s = (A, A )
+Given r charged by the platform in Stage 1, each supplier
+chooses its retail price pi to maximize πi = (1 − r ) pi di . Solving
+these problems yields pAA
+= (2 + aγ )/(4 − γ 2 ) and pAA
+= ( 2a +
+1
+2
+γ )/(4 − γ 2 ). Using these retail prices, I obtain the corresponding
+outcomes (diAA , πiAA , AA ), as shown in Table 1.
+
+The equilibrium concept I use is the subgame perfect Nash equilibrium. I derive the equilibrium outcome by backward induction.
+
+p1 =
+
+4. Equilibrium analysis
+This section examines the subgame perfect Nash equilibrium
+by backward induction. Section 4.1 solves the pricing decisions in
+Stage 3. Section 4.2 studies the suppliers’ decisions on which contract to choose in Stage 2. Finally, Section 4.3 addresses the platform’s optimal decision on the royalty rate in Stage 1.
+4.1. Analysis for Stage 3: pricing
+Depending on the suppliers’ decisions in Stage 2, there are four
+possible subgames. The ﬁrst one is s = (W, W ), where both suppliers choose the wholesale contract. The second is s = (A, A ), where
+both suppliers choose the agency contract. The third and fourth
+ones are s = (W, A ) and s = (A, W ), in which the competing suppliers choose different contracts. I solve the pricing game for each
+subgame. All outcomes are summarized in Table 1.
+4.1.1. Both suppliers choose the wholesale contract: s = (W, W )
+Given w1 and w2 , the platform chooses retail prices p1 and p2
+
+to maximize  = i i = ( p1 − w1 )d1 + ( p2 − w2 )d2 . Solving this
+problem, I derive
+
+p1 =
+
+1 + aγ + (1 − γ 2 )w1
+,
+2 ( 1 − γ )2
+
+p2 =
+
+a + γ + ( 1 − γ 2 )w2
+.
+2 ( 1 − γ )2
+
+(2)
+
+Based on this retail pricing strategy of the platform, each supplier charges its wholesale price wi to maximize πi = wi di , which
+W = (2 + aγ )/ (4 − γ 2 ) and wW W = (2a + γ )/ (4 − γ 2 ).
+implies wW
+1
+2
+Using these wholesale prices, I can derive the corresponding outW , dW W , π W W , W W ), as shown in Table 1.
+comes ( pW
+i
+i
+i
+
+4.1.3. Only the high-volume supplier chooses the wholesale contract:
+s = (W, A )
+In this subgame, given r and w1 , the platform chooses p1 to
+maximize  = ( p1 − w1 )d1 + r p2 d2 and supplier 2 chooses p2 to
+maximize π2 = (1 − r ) p2 d2 . Solving these problems yields
+
+(1 + r )aγ + 2(1 + w1 )
+,
+4 − ( 1 + r )γ 2
+
+p2 =
+
+2a + γ + γ w1
+.
+4 − ( 1 + r )γ 2
+
+(3)
+
+Based on these pricing behaviors, supplier 1 chooses its wholesale price w1 to maximize π1 = w1 d1 , which implies wWA
+1 = {2 +
+aγ − γ (a + γ )r}/{2(2 − γ 2 )}. Using this wholesale price, I can derive the corresponding outcomes ( pWA
+, dWA
+, πiWA , WA ), as shown
+i
+i
+in Table 1.
+4.1.4. Only the high-volume supplier chooses the agency contract:
+s = (A, W )
+Given r and w2 , supplier 1 chooses p1 to maximize π1 = (1 −
+r ) p1 d1 and the platform chooses p2 to maximize  = r p1 d1 +
+( p2 − w2 )d2 . Solving these problems yields
+
+p1 =
+
+2 + aγ + γ w2
+,
+4 − ( 1 + r )γ 2
+
+p2 =
+
+( 1 + r )γ + 2 ( a + w2 )
+.
+4 − ( 1 + r )γ 2
+
+(4)
+
+Based on these pricing behaviors, supplier 2 chooses its wholesale
+price w2 to maximize π2 = w2 d2 , which implies wAW
+= {2a + γ −
+2
+γ (1 + aγ )r}/{2(2 − γ 2 )}. Using this wholesale price, I can derive
+the corresponding outcomes ( pAW
+, diAW , πiAW , AW ), as shown in
+i
+Table 1.
+4.2. Analysis for Stage 2: contract choices
+In Stage 2, given r, each supplier decides which contract to
+adopt. By using the suppliers’ proﬁts obtained in Section 4.1, I
+analyze the suppliers’ contract selections. Let BRi (sj ) be the best
+response strategy of supplier i given the rival supplier’s contract
+choice sj .
+As one would expect, the suppliers tend to select the wholesale
+contract when the higher royalty rate is offered by the platform.
+Thus, I can derive the threshold value of the royalty rate, above
+
+Y. Zennyo / European Journal of Operational Research 281 (2020) 231–239
+
+235
+
+Fig. 1. Partition of the parameter space that determines the orders of four threshold values.
+
+which choosing the wholesale contract is the best response strategy. I use rW
+and riA to denote the threshold values of supplier
+i
+i when the rival supplier chooses the wholesale and agency contract, respectively.8 Formally, the following lemma summarizes the
+best response strategy for each supplier.
+Lemma 1. There exists a pair of threshold values (rW
+, r1A , rW
+, r2A ). The
+1
+2
+best response strategies for high-volume and low-volume suppliers are
+respectively given by
+
+
+
+BR1 (s2 = W ) =
+
+if
+
+A
+
+if 0 ≤ r ≤ rW
+1
+r1A
+
+<r≤1
+
+W
+
+if
+
+A
+
+if 0 ≤ r ≤ r1A
+
+
+BR2 (s1 = W ) =
+
+rW
+2
+
+<r≤1
+
+A
+
+if 0 ≤ r ≤ rW
+2
+if r2A < r ≤ 1
+
+A
+
+if 0 ≤ r ≤ r2A
+
+Proof. See the Appendix.
+
+0
+
+.
+
+(W, A)
+
+0
+
+(W, A)
+
+(A, A)
+
+r
+
+1
+
+r
+
+(W, W )
+r2W
+
+1
+
+r
+
+(W, W )
+
+(W, A)
+
+(W, A)
+
+1
+
+r2W
+
+r2A
+
+r
+
+r
+
+r
+
+(W, W )
+
+(W, A)
+
+& (A, W )
+W
+1
+
+A
+1
+
+r2A
+
+r1W
+
+(W, A)
+
+1
+(W, W )
+
+(W, W )
+
+(W, A)
+r2A
+
+r1A
+
+,
+
+r2W
+
+r
+
+(A, A)
+
+r2A
+
+(W, W )
+
+& (A, A)
+A
+1
+
+r
+
+0
+
+(W, W )
+
+(A, A)
+
+(A, A)
+
+r1A
+
+r2W
+
+W
+1
+
+(5)
+r1W
+
+r1A
+
+0
+
+if
+
+W
+
+(A, A)
+
+(A, A)
+
+,
+
+W
+
+
+BR2 (s1 = A ) =
+
+<r≤1
+
+W
+
+
+BR1 (s2 = A ) =
+
+rW
+1
+
+r1W
+
+0
+
+(A, A)
+
+(W, A)
+
+r2W
+
+(W, A)
+
+r2A
+
+(W, W )
+
+1
+
+r
+
+(W, W )
+
+,
+Fig. 2. Detailed analysis of Stage 2.
+
+(6)
+
+
+
+Next, let me characterize the order of all four thresholds. As
+they are represented by the only two parameters a and γ , I can
+numerically divide the whole parameter space (γ , a) ∈ [0, 1]2 into
+ﬁve regions, as shown in Fig. 1.
+In each region, given r, I can derive the resulting contracts
+chosen by the two suppliers in Stage 2, as detailed in Fig. 2.
+Note that in Regions I and III, there can be multiple equilibria, as
+shown in Fig. 2. This paper assumes that, when multiple equilibria
+arise and there is an equilibrium that payoff-dominates the other
+equilibria, the competing suppliers choose the payoff-dominant
+equilibrium strategy. In Region I, when rW
+< r < r1A , s = (W, W )
+2
+WW
+8
+= π1AW (r ) and r1A is the
+Note that rW
+1 is the unique solution of equation π1
+unique solution of π1WA (r ) = π1AA (r ). Similarly, rW
+2 is the unique solution of equation
+π2WW = π2WA (r ) and r2A is the unique solution of π2AW (r ) = π2AA (r ).
+
+payoff-dominates s = (A, A ). Similarly, in Region III, s = (W, A )
+payoff-dominates s = (A, W ).
+The adoption of the payoff-dominant equilibrium in this paper can be justiﬁed by the following practical interpretation. Although this paper considers a simultaneous move by the two suppliers in Stage 2, their decision sequences might slightly differ in
+practice. That is, either supplier might make a decision before the
+rival one. In the present model, even if I consider such sequential moves (regardless of which supplier is a leader or a follower),
+the payoff-dominant strategy pair with simultaneous moves constitutes a unique equilibrium. For this reason, the equilibrium reﬁnement based on the payoff dominance criterion is never an arbitrary assumption to implement a desired result.9
+
+9
+This justiﬁcation has been widely used (e.g., Balasubramanian, Bhattacharya, &
+Krishnan, 2015). For this point, I would like to thank an anonymous reviewer for
+his/her helpful comments.
+
+236
+
+Y. Zennyo / European Journal of Operational Research 281 (2020) 231–239
+
+As a result, Regions II, III, IV, and V yield the same qualitative outcome about strategic contracting. The following proposition
+summarizes the results of the resulting contracts s(r).
+
+1.0
+
+Region B:
+
+Proposition 1. In Region I, the contracts chosen by the two suppliers
+are as follows.
+
+
+
+s (r ) =
+
+(A, A )
+if 0 ≤ r ≤
+(W, W ) if rW
+2 < r ≤1
+rW
+2
+
+(7)
+0.6
+
+a
+
+(8)
+
+Proposition 1 shows a predictable result that the suppliers are
+more likely to choose the agency contract if a low royalty rate is
+charged by the platform, whereas the suppliers tend to select the
+wholesale contract if a high royalty rate is offered, as shown in Tan
+and Carrillo (2017).
+Moreover, in Regions II–V, when a royalty rate is set at an
+intermediate level, the competing suppliers choose different contracts from each other, in which high-volume supplier 1 chooses
+the wholesale contract while low-volume supplier 2 chooses the
+agency contract, i.e., s = (W, A ). In other words, opposite asymmetric contracting s = (A, W ) never occurs, which is in contrast to Tian
+et al. (2018). In their model, because the competing suppliers are
+assumed to have the same potential demand (i.e., a = 0), the competition might fall within a chicken-game paradigm with multiple
+asymmetric equilibria.10
+4.3. Analysis for Stage 1: royalty rate
+Here, I analyze the platform’s decision on royalty rate r ∈ [0, 1].
+I use superscript ‘∗’ to denote the equilibrium outcome.
+First, in Region I, the proﬁt function of the platform is given as
+follows.
+
+ AA
+ (r ) if 0 ≤ r ≤ rW
+2
+(r ) =
+W W
+if rW
+<
+r
+≤
+1
+2
+
+(9)
+
+As shown in Table 1, AA is a monotonically increasing function of
+r and WW is independent of r. In addition, it always holds that
+W W . Therefore, in Region I, the platform chooses r ∗ =
+AA (rW
+2 )>
+rW
+,
+and
+then
+the two suppliers adopt the agency contract, that is,
+2
+s∗ = (A, A ).
+Next, in Regions II–V, the proﬁt function of the platform is written as follows.
+
+⎧ AA
+A
+⎨ (r ) if 0 ≤ r ≤ r1
+(r ) = WA (r ) if r1A < r ≤ rW
+2
+⎩ WW
+
+if rW
+2 < r ≤1
+
+s W,A
+
+s A,A
+
+In Regions II–V, the contracts chosen by the two suppliers are as follows.
+
+⎧
+if 0 ≤ r ≤ r1A
+⎨(A, A )
+s(r ) = (W, A ) if r1A < r ≤ rW
+2
+⎩
+(W, W ) if rW
+<
+r
+≤
+1
+2
+
+Region I:
+
+0.8
+
+(10)
+
+As both AA (r) and WA (r) are increasing functions of r and WW
+is independent of r, there are three possible candidates for the
+optimal royalty rate: (i) charging r = r1A leading to s = (A, A ); (ii)
+charging r = rW
+2 leading to s = (W, A ); and (iii) charging any r ∈
+(rW
+,
+1]
+leading
+to s = (W, W ).
+2
+Then, the union set of Regions II–V can be newly divided into
+three regions: Regions A, B, and C, as depicted in Fig. 3. The optimal royalty rate is charging r = r1A in Region A, charging r = rW
+2
+10
+The results obtained in Tian et al. (2018) are consistent with those of Jerath and
+Zhang (2010), who do not examine the endogenous strategic contracting between
+the platform and each supplier. Jerath and Zhang (2010) assume that the platform
+can offer its preferable contract to each supplier on a take-it-or-leave-it offer basis.
+That is, the suppliers must accept the contract unilaterally offered by the platform.
+
+Region A:
+
+Region C:
+
+s A,A
+
+s W,W
+
+0.4
+
+0.2
+
+0.0
+0.0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1.0
+
+Fig. 3. Equilibrium contracts chosen by competing suppliers.
+
+in Region B, and charging r ∈ (rW
+2 , 1] in Region C. The following
+proposition summarizes the preceding analysis.
+Proposition 2. Depending on the parameter values (γ , a), the equilibrium royalty rate is set at the following level.
+
+r∗ =
+
+⎧W
+r2
+⎪
+⎪
+⎪
+⎨A
+
+if (γ , a ) ∈ Region I
+
+r1
+
+if (γ , a ) ∈ Region A
+
+⎪
+rW
+⎪
+2
+⎪
+⎩
+
+if (γ , a ) ∈ Region B
+
+(11)
+
+r ∈ (rW
+2 , 1] if (γ , a ) ∈ Region C
+
+Then, in equilibrium, the resulting contracts chosen by the two suppliers are as follows.
+
+⎧
+if (γ , a ) ∈ Region I or Region A
+⎨(A, A )
+s∗ = (W, A ) if (γ , a ) ∈ Region B
+⎩
+(W, W ) if (γ , a ) ∈ Region C
+
+(12)
+
+Proposition 2 shows the equilibrium royalty rate and the resulting contracts. First, consider Region C, where both goods are suﬃciently substitutable, which means that the platform has substantial power against the suppliers. Thus, there will be no incentive
+for the platform to delegate the unilateral power of retail pricing to
+suppliers. As an extreme case, let me consider the case where two
+products are homogeneous (i.e., γ = 1), i.e., consumers have no
+preference between them. The platform purchases only from the
+supplier that sets the lowest wholesale price, and then sells to consumers at the monopoly price. Although this single sourcing arises
+only for the extreme case of γ = 1, the similar argument holds
+even when the two goods are highly homogeneous. Fierce wholesale price competition among the suppliers causes the equilibrium
+wholesale price to fall to the marginal production cost, which implies that the platform can earn all of the maximum proﬁt that
+can be generated in the supply chain. Therefore, in equilibrium, the
+platform has an incentive to charge a suﬃciently high royalty rate
+to prevent the suppliers from choosing the agency contract.
+On the contrary, in Regions I and A, both goods are suﬃciently
+differentiated. Then, if both suppliers adopt the wholesale contract, they can charge the relatively high wholesale price. Given
+
+Y. Zennyo / European Journal of Operational Research 281 (2020) 231–239
+
+the high wholesale price, the platform has to set the retail prices
+at a very high level due to the double-marginalization problem,
+which reduces the total demands and the gross revenue in the
+channel. Therefore, the platform has an incentive to steer the suppliers to the agency contract by lowering the royalty rate, because
+the agency contract can facilitate direct price competition between
+both suppliers and can raise the gross revenue of the channel.
+Finally, I obtain an interesting result in Region B with an intermediate degree of substitution. I ﬁnd that the suppliers adopt
+asymmetric contracting, that is, the high-volume supplier chooses
+the wholesale contract, while the low-volume supplier chooses the
+agency contract. In this case, the platform has an incentive to encourage the suppliers to choose the agency contract. However, in
+order to steer both suppliers toward the agency contract, the platform must offer a signiﬁcantly low royalty rate. As a compromise
+plan, in equilibrium, the platform charges the royalty rate at which
+only the low-volume supplier will choose the agency contract.
+It is worth noting that, in the asymmetric equilibrium, only
+the low-volume supplier adopts the agency contract. In other
+words, opposite asymmetric contract choices s = (A, W ) never occur, which is in sharp contrast to Tian et al. (2018). This ﬁnding
+is related to the anecdotal evidence that many long-tail and niche
+products are being traded on platform-based marketplaces, such as
+Amazon Marketplace.11
+
+237
+
+Fig. 4. Equilibrium contracts when the low-volume supplier is ﬁxed to choose the
+agency contract.
+
+5. Discussion
+Heretofore, this paper has assumed that, after observing a royalty rate set by a monopoly platform, both high- and low-volume
+suppliers can choose between wholesale and agency contracts. In
+this section, for the robustness of the results obtained above, I discuss two different scenarios.
+First, let me consider a situation where the platform can unilaterally choose a contract for each supplier. In this scenario, the
+agency contract would be chosen by the platform because of its
+ﬁrst-mover advantage in the supply chain, as shown in Johnson
+(2017).
+Next, I examine a more practical scenario. Actually, in many ecommerce platforms such as Amazon and Walmart Marketplace,
+while the agency selling format is open to everyone who wants to
+sell products through e-commerce platforms, suppliers who seek
+to use the wholesale agreement need to reach a deal with the platform. Generally, as compared to long-tail and niche suppliers, major suppliers have a stronger bargaining power that makes it possible to win wholesale contracts. In other words, higher-volume
+suppliers can choose between the two contracts, whereas lowervolume suppliers have no choice but to accept the agency contract.
+To better capture this practical situation, I extend the original
+model in a way that, in Stage 2, a high-volume supplier chooses
+either a wholesale or agency contract, whereas a low-volume supplier has to use the agency contract. As above, I solve the game
+backwards.
+The analyses for Stage 3 (i.e., pricing) remain unchanged as in
+Section 4.1. For Stage 2, the result of Lemma 1 implies that, given
+the low-volume supplier accepting the agency contract, the highvolume supplier’s optimal contract choice is characterized as the
+following.
+Lemma 2. Suppose the low-volume supplier has to accept the agency
+contract. If royalty rate r is small enough to satisfy 0 ≤ r ≤ r1A , then
+the high-volume supplier selects the agency contract. Otherwise, if
+r1A < r ≤ 1, then the high-volume supplier chooses the wholesale contract.
+
+11
+
+For example, see Jiang et al. (2011) for detailed empirical evidence.
+
+Consequently, the proﬁt of the platform can be written by
+
+(r ) =
+
+ AA
+ (r ) if 0 ≤ r ≤ r1A ,
+WA (r ) if r1A < r ≤ 1,
+
+(13)
+
+which takes a similar form to Eq. (10). The only difference is
+that, as for rW
+< r ≤ 1, the proﬁt function of the platform is equal
+2
+to WA (r), not to WW , because the low-volume supplier cannot
+choose the wholesale contract.
+Here, AA (r) and WA (r) increase with r. Thus, the platform has
+the two following possible candidates: (i) charging r = r1A leading
+to s = (A, A ) and (ii) charging r = 1 leading to s = (W, A ). Comparing AA (r1A ) and WA (1) yields the following proposition.
+Proposition 3. Suppose the low-volume supplier has to accept the
+agency contract. Depending on the parameter values (γ , a), the equilibrium royalty rate is set at the following level:
+
+
+
+r
+
+∗∗
+
+=
+
+r1A
+
+if (γ , a ) ∈ Region X,
+
+1
+
+if (γ , a ) ∈ Region Y,
+
+(14)
+
+where Regions X and Y are depicted in Fig. 4.12 Then, in equilibrium,
+the resulting contracts are as follows.
+
+
+
+s
+
+∗∗
+
+=
+
+(A, A ) if (γ , a ) ∈ Region X
+(W, A ) if (γ , a ) ∈ Region Y
+
+(15)
+
+I use ‘∗∗’ to represent the equilibrium outcomes derived in the
+extended model. In Region X of Fig. 4 where the degree of substitution between the two products is low, the platform sets a royalty
+rate at the highest level that induces the high-volume supplier to
+select the agency contract, leading to s∗∗ = (A, A ) where both suppliers use the agency contract. On the contrary, in Region Y where
+the two products are not too highly differentiated, the platform
+
+12
+The partition of regions in Fig. 4 is conducted by numerical analysis because
+simply solving AA (r ) = WA (r ) within (γ , a) ∈ [0, 1]2 yields a very complicated
+solution. Thus, I decided not to present the solution for space-saving reasons.
+
+238
+
+Y. Zennyo / European Journal of Operational Research 281 (2020) 231–239
+
+offers an extremely high royalty rate (i.e., r ∗∗ = 1 in this model),13
+implying that the high-volume supplier selects the wholesale
+contract and that the whole surplus of the low-volume supplier
+that must use the agency contract is extracted by the platform.
+Proposition 3 implies that, as compared with the original analysis in Section 4, the asymmetric contracting, s = (W, A ), occurs
+in the wider parameter range when only the high-volume supplier selects a preferred contract. In other words, by considering
+the more realistic situation, the relevant result on asymmetric contracting is strengthened.
+
+however, the percentage of revenue that both retailers retain is assumed to be an exogenously given parameter. In this regard, although Abhishek et al. (2015) endogenize this decision on the fraction of revenue share, strategic contracting, that this paper mainly
+examines, is not considered, whereby manufacturers must accept
+the contract that is unilaterally offered by retailers. Therefore, further analysis that incorporates strategic contracting into suppliers’
+channel management issues would be an important future direction.
+Appendix A. Proof of Lemma 1
+
+6. Conclusion
+This paper investigates strategic contracting between a
+monopoly platform and competing suppliers. Two suppliers
+are assumed to have different potential demands. This enabled me
+to answer the question: Which supplier is more likely to choose the
+agency contract: the major supplier or the niche supplier?
+I showed that, if the suppliers’ goods are nearly homogeneous,
+then the platform charges a suﬃciently high royalty rate to prevent them from signing the agency contract. On the contrary, if
+the goods are highly differentiated, then the platform offers a low
+royalty rate to induce both suppliers to choose the agency contract.
+These results regarding the platform’s optimal strategy are consistent with the behavior of real-life online platforms. For example, as
+described in Section 1, Amazon sets the royalty rate at a relatively
+high level for nearly homogeneous categories (e.g., 15% for Books,
+Video & DVD, Music, Software & Computer, and Video Games) and
+at a lower level for relatively differentiated categories (e.g., 6% for
+Personal Computers; and 8% for Camera & Photo, Consumer Electronics, Cell Phone Devices, Unlocked Cell Phones, and Video Game
+Consoles).
+Furthermore, of special interest is when the degree of differentiation is at an intermediate level. In this case, asymmetric contracting where only the niche supplier adopts the agency contract
+can arise. This result is consistent with the fact that many niche
+products are traded on platform-based marketplaces, such as Amazon Marketplace.
+I mention a couple of future research agenda. First, this paper
+only considered horizontal differentiation among competing suppliers. In real-world online platforms, there are a huge number of
+products that are differentiated not only horizontally, but also vertically (i.e., quality differentiation). Further analysis that takes quality differentiation into consideration would be a potentially fruitful
+direction for future research.
+Next, in practice, if suppliers decide to sell their products under
+the agency contract, they must also be in charge of inventory management and delivery of the products, which may also affect the
+suppliers’ decision making. It would be interesting to take these
+practical aspects into consideration.
+Finally, it would also be interesting to incorporate physical
+brick-and-mortar channels into the present model, as well as ecommerce channels. Such physical brick-and-mortar channels are
+examined in Abhishek et al. (2015) and Tan et al. (2016). Tan et al.
+(2016) compare wholesale and agency selling schemes in a supply
+chain model with a book publisher and two competing e-book retailers. As an extension, they also consider that only one of the two
+retailers has the physical book supply chain. In their agency model,
+
+13
+
+This result depends on a simplifying assumption that the outside option of the
+suppliers is zero, as assumed in Jerath and Zhang (2010). In reality, however, suppliers have an outside option of positive values, e.g., distributing through a brick-andmortar retailer instead of the platform and opening its direct selling channel. With
+a positive outside option, the equilibrium royalty rate is set at a level such that the
+low-volume supplier’s proﬁt is equal to the payoff of its outside option, which is
+lower than one.
+
+First, consider the best response strategy for supplier 1 when
+the rival supplier chooses the wholesale contract. It is clear that
+π1W W − π1AW (r ) is increasing in r. In addition, π1W W − π1AW (0 ) < 0
+and π1W W − π1AW (1 ) > 0 hold. Thus, there exists a unique threshold
+value rW
+such that π1W W = π1AW (rW
+).
+1
+1
+Second, consider the best response strategy for supplier 1 when
+the rival supplier chooses the agency contract. As above, it is clear
+that π1WA (r ) − π1AA (r ) is increasing in r, π1WA (0 ) − π1AA (0 ) < 0, and
+π1WA (1 ) − π1AA (1 ) > 0. Then, I can ﬁnd a unique threshold r1A by
+solving π1WA (r ) = π1AA (r ).
+Third, the best response strategy for supplier 2 when the rival
+supplier chooses the wholesale contract can also be obtained in
+the same way. That is, π2W W − π2WA (r ) is increasing in r, π2W W −
+π2WA (0 ) < 0, and π2W W − π2WA (1 ) > 0 hold. Then, there exists a
+unique threshold rW
+that satisﬁes π2W W = π2WA (rW
+).
+2
+2
+Finally, I derive the best response strategy for supplier 2 when
+the rival supplier chooses the agency contract. The difference
+between π2AW and π2AA is computed as follows.
+
+π2AW − π2AA =
+=
+
+{2a + γ − γ (1 + aγ )r}2
+(1 − r )(2a + γ )2
+−
+4 ( 2 − γ )2 {4 − ( 1 + r )γ 2 }
+( 4 − γ 2 )2
+1
+4 ( 2 − γ )2 ( 2 + γ )2 ( 2 − γ 2 ){4 − ( 1 + r )γ 2 }
+
+⎡
+
+⎤
+−(2 − γ )(2 + γ )(2a + γ )2 (4 − 3γ )
+⎢+2(2a + γ )(32a − 32aγ 2 + 8aγ 4 − γ 5 − aγ 6 ) · r⎥
+⎢
+⎥
+×⎢
+⎥
+⎣
+⎦
+16 − 32a2 − 16γ 2 + 32a2 γ 2
++γ 2
+· r2
++5γ 4 − 8a2 γ 4 + 2aγ 5 + a2 γ 6
+
+(A.1)
+
+Solving π2AW − π2AA = 0, I derive two solutions r2A and RA2 ,
+where
+r2A
+
+⎛
+( 2a + γ )⎝
+
+=
+
+γ2
+
+
+
+
+
+a γ 6 − 8γ 4 + 32γ 2 − 32 + γ 5
+
+⎞
+
+
+3  
+
+
+  ⎠
+γ 2 − 2 a2 γ 6 − 8γ 4 + 32γ 2 − 32 + 2aγ 5 + 4 γ 2 − 2 γ 2
+
+,
+16 − 32a2 − 16γ 2 + 32a2 γ 2 + 5γ 4 − 8a2 γ 4 + 2aγ 5 + a2 γ 6
+
++2
+
+
+
+(A.2)
+
+RA
+2
+
+⎛
+
+=
+
+
+
+
+
+a γ 6 − 8γ 4 + 32γ 2 − 32 + γ 5
+
+⎞
+
+
+3  
+
+
+  ⎠
+−2 γ 2 − 2
+a2 γ 6 − 8γ 4 + 32γ 2 − 32 + 2aγ 5 + 4 γ 2 − 2 γ 2
+
+
+.
+γ 2 16 − 32a2 − 16γ 2 + 32a2 γ 2 + 5γ 4 − 8a2 γ 4 + 2aγ 5 + a2 γ 6
+
+( 2a + γ )⎝
+
+(A.3)
+The solution of inequality π2AW − π2AA ≷ 0 depends on the sign
+A ≡ 16 − 32a2 − 16γ 2 + 32a2 γ 2 + 5γ 4 − 8a2 γ 4 + 2aγ 5 + a2 γ 6 .
+
+of
+There is the following relation.
+
+A ≷ 0 ⇐⇒ a ≶
+
+γ5
+
+32 − 32γ 2 + 8γ 4 + γ 6
+
+
++2
+
+( 4 − γ 2 )2 ( 2 − γ 2 )3
+≡ a˜(γ )
+(32 − 32γ 2 + 8γ 4 + γ 6 )2
+
+(A.4)
+
+Y. Zennyo / European Journal of Operational Research 281 (2020) 231–239
+
+0
+
+r2A
+
+1
+AW
+2
+
+R2A
+AW
+2
+
+AA
+2
+
+0
+
+r2A
+
+r
+
+AA
+2
+
+1
+AW
+2
+
+R2A
+
+r
+
+AA
+2
+
+Fig. A.1. Derivation of the threshold value r2A .
+
+When a > a˜(γ ), it holds that A < 0, which implies that π2AW −
+π2AA is a concave function. Then, solving π2AW − π2AA ≥ 0, I derive
+
+r2A ≤ r ≤ RA2 . However, in this parameter range, it always holds that
+RA2 > 1. As depicted in Fig. A.1(i), π2AW ≥ π2AA holds if and only if
+r2A ≤ r ≤ 1.
+Otherwise, when a < a˜(γ ), it holds that A > 0, which implies
+that π2AW − π2AA is convex function. Then, solving π2AW − π2AA ≥ 0,
+I derive r ≤ RA2 and r2A ≤ r. However, in this parameter range, it always holds that RA2 < 0 and 0 < r2A < 1. As depicted in Fig. A.1(ii),
+π2AW ≥ π2AA holds if and only if r2A ≤ r ≤ 1.
+In sum, for all parameters, it holds that π2AW − π2AA ≥ 0 if and
+only if r2A ≤ r ≤ 1.
+References
+Abhishek, V., Jerath, K., & Zhang, Z. J. (2015). Agency selling or reselling? Channel
+structures in electronic retailing. Management Science, 62(8), 2259–2280.
+Balasubramanian, S., Bhattacharya, S., & Krishnan, V. V. (2015). Pricing information
+goods: A strategic analysis of the selling and pay-per-use mechanisms. Marketing Science, 34(2), 218–234.
+Cachon, G. P., & Lariviere, M. A. (2005). Supply chain coordination with revenue-sharing contracts: strengths and limitations. Management Science, 51(1),
+30–44.
+Chakraborty, T., Chauhan, S. S., & Vidyarthi, N. (2015). Coordination and competition
+in a common retailer channel: Wholesale price versus revenue-sharing mechanisms. International Journal of Production Economics, 166, 103–118.
+Choi, S. C. (1991). Price competition in a channel structure with a common retailer.
+Marketing Science, 10(4), 271–296.
+
+239
+
+Choi, S. C. (1996). Price competition in a duopoly common retailer channel. Journal
+of Retailing, 72(2), 117–134.
+Dantas, D. C., Taboubi, S., & Zaccour, G. (2014). Which business model for e-book
+pricing? Economics Letters, 125(1), 126–129.
+Foros, O., Kind, H. J., & Shaffer, G. (2017). Apple’s agency model and the role of
+most-favored-nation clauses. The RAND Journal of Economics, 48(3), 673–703.
+Geng, X., Tan, Y., & Wei, L. (2018). How add-on pricing interacts with distribution
+contracts. Production and Operations Management, 27(4), 605–623.
+Gerchak, Y., & Wang, Y. (2004). Revenue-sharing vs. wholesale-price contracts in
+assembly systems with random demand. Production and Operations Management,
+13(1), 23–33.
+Hagiu, A., & Wright, J. (2015). Marketplace or reseller? Management Science, 61(1),
+184–203.
+Hagiu, A., & Wright, J. (2019). Controlling vs. enabling. Management Science, 65(2),
+577–595.
+Hao, L., & Fan, M. (2014). An analysis of pricing models in the electronic book market. MIS Quarterly, 38(4), 1017–1032.
+Jerath, K., & Zhang, Z. J. (2010). Store within a store store within a store. Journal of
+Marketing Research, 47(4), 748–763.
+Jeuland, A. P., & Shugan, S. M. (1983). Managing channel proﬁts. Marketing Science,
+2(3), 239–272.
+Jiang, B., Jerath, K., & Srinivasan, K. (2011). Firm strategies in the “mid tail” of platform-based retailing. Marketing Science, 30(5), 757–775.
+Johnson, J. P. (2017). The agency model and MFN clauses. The Review of Economic
+Studies, 84(3), 1151–1185.
+Kwark, Y., Chen, J., & Raghunathan, S. (2017). Platform or wholesale? A strategic tool
+for online retailers to beneﬁt from third-party information. MIS Quarterly, 41(3),
+763–785.
+Lu, Q., Shi, V., & Huang, J. (2018). Who beneﬁt from agency model: A strategic analysis of pricing models in distribution channels of physical books and e-books.
+European Journal of Operational Research, 264(3), 1074–1091.
+Pan, K., Lai, K., Leung, S. C., & Xiao, D. (2010). Revenue-sharing versus wholesale
+price mechanisms under different channel power structures. European Journal
+of Operational Research, 203(2), 532–538.
+Tan, Y., & Carrillo, J. E. (2017). Strategic analysis of the agency model for digital
+goods. Production and Operations Management, 26(4), 724–741.
+Tan, Y., Carrillo, J. E., & Cheng, H. K. (2016). The agency model for digital. Decision
+Sciences, 47(4), 628–660.
+Tian, L., Vakharia, A. J., Tan, Y., & Xu, Y. (2018). Marketplace, reseller, or hybrid:
+Strategic analysis of an emerging e-commerce model. Production and Operations
+Management, 27(8), 1595–1610.
+Wei, J., Lu, J., & Zhao, J. (2019). Interactions of competing manufacturers’ leader–
+follower relationship and sales format on online platforms. European Journal of
+Operational Research forthcoming.
+Yan, Y., Zhao, R., & Liu, Z. (2018). Strategic introduction of the marketplace channel under spillovers from online to oﬄine sales. European Journal of Operational
+Research, 267(1), 65–77.
+Yan, Y., Zhao, R., & Xing, T. (2019). Strategic introduction of the marketplace channel
+under dual upstream disadvantages in sales eﬃciency and demand information.
+European Journal of Operational Research, 273(3), 968–982.
+
+

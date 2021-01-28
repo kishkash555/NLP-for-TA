@@ -1,0 +1,22 @@
+Id,Label,timeset,Degree,Weighted Degree,Eccentricity,closnesscentrality,harmonicclosnesscentrality,betweenesscentrality,modularity_class
+avinadav2020revenuesharing,avinadav2020revenuesharing,,12,14,4,0.645161,0.779167,0.652778,3
+choi2004optimal,choi2004optimal,,1,1,4,0.307692,0.341667,0,3
+guo2020green,guo2020green,,13,28,4,0.666667,0.804167,0.476263,2
+degiovanni2020blockchain,degiovanni2020blockchain,,3,4,4,0.487805,0.545833,0,0
+dematta2017competition,dematta2017competition,,9,17,3,0.606061,0.708333,1.391667,3
+li2020reducing,li2020reducing,,16,54,3,0.8,0.891667,9.455231,0
+liu2020impacts,liu2020impacts,,15,57,4,0.714286,0.854167,4.046898,0
+shen2020selling,shen2020selling,,14,32,3,0.740741,0.841667,10,0
+xu2018supply,xu2018supply,,1,5,4,0.444444,0.479167,0,4
+yan2018strategic,yan2018strategic,,15,70,3,0.769231,0.866667,5.351263,1
+zennyo2020strategic,zennyo2020strategic,,15,71,3,0.769231,0.866667,2.955231,2
+zhang2020agency,zhang2020agency,,11,36,3,0.666667,0.766667,0.933333,4
+zhen2020manufacturers,zhen2020manufacturers,,15,56,3,0.769231,0.866667,21.117929,4
+grieger2003electronic,grieger2003electronic,,2,3,3,0.434783,0.483333,19,3
+jiang2017p2p,jiang2017p2p,,5,6,4,0.512821,0.595833,0,1
+li2019etailers,li2019etailers,,15,72,3,0.769231,0.866667,2.955231,2
+mantin2014strategic,mantin2014strategic,,13,27,4,0.666667,0.804167,2.935354,1
+ryan2012competition,ryan2012competition,,11,23,2,0.689655,0.775,36.803211,3
+tian2018marketplace,tian2018marketplace,,15,80,3,0.769231,0.866667,2.955231,3
+xu2020coordination,xu2020coordination,,14,49,4,0.689655,0.829167,5.61912,2
+yan2019strategic,yan2019strategic,,15,79,3,0.769231,0.866667,5.351263,1

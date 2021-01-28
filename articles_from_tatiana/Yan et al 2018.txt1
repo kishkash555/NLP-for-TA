@@ -1,0 +1,1940 @@
+European Journal of Operational Research 267 (2018) 65–77
+
+Contents lists available at ScienceDirect
+
+European Journal of Operational Research
+journal homepage: www.elsevier.com/locate/ejor
+
+Production, Manufacturing and Logistics
+
+Strategic introduction of the marketplace channel under spillovers
+from online to oﬄine sales
+Yingchen Yan a, Ruiqing Zhao a,∗, Zhibing Liu b
+a
+b
+
+College of Management and Economics, Tianjin University, Tianjin 300072, China
+College of Mathematics and Physics, Huanggang Normal University, Hubei 438000, China
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 16 January 2017
+Accepted 8 November 2017
+Available online 16 November 2017
+Keywords:
+Supply chain management
+Multi-channel retailing
+E-channel spillover
+Sales eﬃciency
+Game theory
+
+a b s t r a c t
+In recent years, the increasing prevalence of online retailing has given rise to a novel e-channel—the
+marketplace—in which manufacturers sell their products directly to consumers by paying fees to e-tailers.
+This e-channel, unlike the conventional reseller e-channel, endows manufacturers with absolute control
+over prices, which helps protect brick-and-mortar channels, especially in the presence of different types
+of spillovers from online to oﬄine sales. However, the marketplace channel is nevertheless not used in
+practice in some instances as a result of the e-tailer’s costly platform fees and the manufacturer’s inefﬁciency in direct retail sales. These different attitudes raise key questions of whether and under what
+conditions the marketplace channel should be introduced in addition to the reseller channel. In this paper, we study these problems by measuring the combined effects of the online spillover, the platform
+fee and the manufacturer’s retailing ineﬃciency. We demonstrate that the manufacturer’s willingness to
+employ the marketplace channel increases and the e-tailer’s willingness to do so decreases in the level of
+spillovers; when combining the two, we ﬁnd that a Pareto improvement can be achieved under a moderate spillover. We also present an interesting insight that the introduction of the marketplace channel
+fundamentally changes the effects of the spillover on the e-tailer while merely strengthening those on
+the manufacturer. Moreover, a higher platform fee does not necessarily incentivize the e-tailer to join
+the marketplace, and the manufacturer’s retailing ineﬃciency may either beneﬁt or harm the e-tailer,
+depending on the size of the platform fee.
+© 2017 Elsevier B.V. All rights reserved.
+
+1. Introduction
+Online retailing has experienced strong growth in the past
+decade. For instance, in the U.S., online retail sales reached $290
+billion in 2013, accounting for 9% of total U.S. retail sales (Sehgal,
+2014). In China, the country with the largest scale and highest
+rate of e-channel development, online retail sales reached 3.2 trillion RMB and accounted for 11% of total retail sales in 2015 (Sun,
+2016). With the increasing prevalence of online retailing, a novel
+e-channel—the marketplace—has emerged, in which an upstream
+manufacturer is able to engage in direct selling while paying a
+platform fee to an e-tailer to access online customers. This channel has been widely embraced, for example, by Amazon (through
+Amazon Marketplace), Sears (through the Marketplace at Sears),
+Taobao in China (Bonﬁls, 2012), and Flipkart in India (Tiwari, 2014).
+For Amazon, the largest online retailer, transactions through the
+∗
+
+Corresponding author.
+E-mail addresses: ychyan@tju.edu.cn (Y. Yan), zhao@tju.edu.cn (R. Zhao),
+lzb8401552@hgnu.edu.cn (Z. Liu).
+
+https://doi.org/10.1016/j.ejor.2017.11.011
+0377-2217/© 2017 Elsevier B.V. All rights reserved.
+
+marketplace channel accounted for approximately 40% of sales in
+2012 (Barr, 2012), up from 30% in 2009 (Stone, 2009). Amazon has
+contended that the novel marketplace and conventional resellers
+can complement one another; for instance, in the context of book
+sales, the introduction of the marketplace channel offers a “service
+to readers that allows them to explore new authors and areas of
+interest.” Thus, both Amazon and publishers can beneﬁt from this
+practice in the long run (Mantin, Krishnan, & Dhar, 2014).
+Nevertheless, some manufacturers and e-tailers have refused to
+adopt the novel marketplace. For instance, in some mature digital industries, this new channel has yet to be introduced, and the
+conventional reseller continues to prevail as the dominant channel.
+For example, most artists and record labels still sign reseller agreements with online music stores, e.g., iTunes, Spotify, and AliMusic. The marketplace channel is also frequently rejected by e-tailers
+in other industries, such as by Everlane, an American fashion etailer, VANCL, the fourth-largest online apparel e-tailer in China,
+and JMEI, the number one cosmetics platform in China.
+These different attitudes have sparked interest in understanding the economics of the marketplace channel. Generally, a major
+
+66
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+characteristic of the marketplace channel is to endow manufacturers with absolute control over retail prices (Abhishek, Jerath, &
+Zhang, 2015), which plays a critical role in protecting the brickand-mortar channel in multichannel retailing, especially in the
+presence of spillovers between online and oﬄine sales (Wogahn,
+2013). As the executive of American eyeglass e-tailer Warby Parker
+contended, “The future of retail sits at the intersection of ecommerce and brick and mortar” (Shearman, 2016). The crosschannel spillover is fairly common and essential in practice and,
+further, its directions often differ. For instance, in some industries,
+such as apparel and computers, online sales can negatively affect oﬄine demand (Brynjolfsson, Hu, & Rahman, 2009; Goolsbee,
+2001). Conversely, in media industries, such as movies and music,
+e-channel sales strongly stimulate sales in the traditional channel
+because these e-channel sales attract new customers (Mortimer,
+Nosko, & Sorensen, 2012; Smith & Telang, 2010). In other cases,
+such as for books, the spillover effect of online sales on oﬄine
+sales is positive but small (Hilton & Wiley, 2010). This variety in
+the effects of the spillover makes a manufacturers’ decision of
+whether to introduce the marketplace channel more diﬃcult, as
+that decision will change sales levels in the e-channel, which will,
+in turn, impact sales in the brick-and-mortar channel and, ultimately, the aggregate proﬁt.
+Moreover, with respect to the introduction of the marketplace,
+manufacturers and e-tailers also cannot ignore other characteristics of this novel e-channel, such as the platform fee, which allocates proﬁts between two parties, and the manufacturers’ sales
+disadvantage relative to the e-tailers. In practice, it is common for
+(incumbent) e-tailers to provide the consumer with a more satisfactory experience in the sales process, which is akin to manufacturers’ skill in production. The e-tailers’ advantage in retailing may
+stem from better product quality and return services, from more
+direct contact with customers and superior knowledge of customer
+preferences or from economies of scope with other retailing activities. For instance, Amazon’s safe return policies and guarantees
+have become one of its largest advantages in attracting consumers.
+These combined effects of the online spillover, the platform fee,
+and the manufacturers’ sales ineﬃciency, make it more complicated to predict the manufacturer and e-tailer’s attitudes toward
+the introduction of the marketplace channel, thus giving rise to interesting questions that are worthy of exploration. First, how will
+the manufacturer and the e-tailer respond to the introduction of
+the marketplace channel? Whether and under what conditions can
+they reach an agreement? Second, what impacts will the different
+types of spillover (the stimulation spillover and the cannibalization
+spillover) have on the manufacturer and e-tailer? Will the impacts
+remain constant with the introduction of the marketplace channel? Third, how will the platform fee and the manufacturers’ retailing ineﬃciency affect the preferences of the manufacturer and
+e-tailer? Will the e-tailer always beneﬁt from a higher platform fee
+and greater retailing ineﬃciency on the part of his rival manufacturer?
+To capture the aforementioned issues, we develop a model in
+which a manufacturer (she) cooperates with an e-tailer (he) to
+sell her products to online consumers through two e-channels—
+the reseller and the marketplace. The manufacturer also sells her
+products through a brick-and-mortar channel, which is either positively or negatively affected by the online sales volume. Under
+this framework, we explore the manufacturer and e-tailer’s payoffs with and without the introduction of the marketplace channel. Further, to emphasize the effect of spillovers, we study these
+questions in the absence and presence of spillovers. After deriving
+the equilibrium solutions of these cases, we obtain the equilibrium
+strategies and gain some novel management insights.
+First, we ﬁnd that the manufacturer’s willingness to adopt the
+marketplace increases with the level of the spillover, while the
+
+e-tailer’s willingness to adopt it declines with the level of the
+spillover; thus, they can achieve a Pareto improvement by introducing the marketplace channel with a moderate spillover. This
+is because the double marginalization in the reseller channel will
+hinder the manufacturer from adjusting online output to maintain oﬄine sales, which directly incentivizes her to introduce the
+marketplace channel that endows her with absolute control over
+prices. Moreover, a moderate spillover, i.e., not too high or too
+low, does not provide the manufacturer with a strong incentive to
+greatly increase or decrease online output from the perspective of
+maximizing total proﬁt. Thus, the online sales volume will not be
+greatly distorted, which guarantees the e-tailer’s participation in
+the marketplace channel.
+Second, we ﬁnd that, regardless of whether the marketplace
+channel is introduced, the cannibalization spillover always harms
+the manufacturer, while the stimulation spillover always beneﬁts
+her; the introduction of the marketplace merely strengthens the
+effects of spillovers on the manufacturer. Counterintuitively, while
+the cannibalization spillover always harms the e-tailer, the stimulation spillover has different impacts on him with and without
+the marketplace channel. When the marketplace channel is not introduced, the stimulation spillover always beneﬁts the e-tailer because the only method that a manufacturer can use to increase
+online output to stimulate oﬄine sales is to decrease her wholesale price, thereby reducing the e-tailer’s acquisition cost. However,
+once the marketplace channel is introduced, the manufacturer can
+directly reduce the retail price in the marketplace channel, which
+considerably harms the e-tailer owing to not only the loss of the
+lower acquisition cost but also the competitive pressure from the
+rival’s price reduction.
+Third, whereas a higher platform fee always diminishes the
+manufacturer’s motivation to introduce the marketplace channel,
+this does not necessarily incentivize the e-tailer to introduce the
+marketplace channel. This is because, given a suﬃciently high platform fee, nearly all of the proﬁt from retailing is captured by the
+e-tailer, which is similar to the situation without the marketplace
+channel. However, in this case, the e-tailer suffers from competition between the two e-channels and from sales ineﬃciency in
+the marketplace channel. Thus, he prefers to reject the marketplace
+channel. Moreover, we ﬁnd that the manufacturer’s retailing inefﬁciency always harms the manufacturer and may also harm the etailer, depending on the platform fee. With a suﬃciently high platform fee, the marketplace channel not only acts as a competitor of
+the reseller channel but also becomes a considerable proﬁt source
+for the e-tailer. Thus, he will also be harmed by this retailing inefﬁciency.
+The remainder of this paper is organized as follows. In
+Section 2, we brieﬂy review the related literature. In Section 3, we
+set up the model. In Section 4, we study the manufacturer and
+e-tailer’s equilibrium strategies with respect to introducing marketplace in the absence of spillovers. In Section 5, we further investigate the two parties’ equilibrium strategies in the presence of
+spillovers. In Section 6, we emphasize the impacts of spillovers on
+the manufacturer and e-tailer with and without the introduction
+of the marketplace. In Section 7, we extend our results by altering
+the assumptions of the model. In Section 8, we conclude the paper
+with a brief discussion.
+2. Literature review
+Our research lies at the intersection of the bodies of literature
+on (i) multi-channel supply chains, (ii) online selling formats, and
+(iii) interactions between electronic and traditional channels. Next,
+we describe how our work relates to the literature in these areas.
+Multi-channel supply chains have been extensively researched
+in the literature. Research on this problem proceeds from various
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+focuses, such as production and inventory strategies (Chiang, 2010;
+Chiang & Monahan, 2005; Hsieh, Chang, & Wu, 2014), coordination of dual-channel supply chains (Cai, 2010; Feng, Govindan, & Li,
+2017; Xiao & Shi, 2016), retail services (Chen, Kaya, & Özer, 2008;
+Dumrongsiri, Fan, Jain, & Moinzadeh, 2008), and pricing strategies (Chen & Chen, 2017; Huang & Swaminathan, 2009; Jin, Wu, &
+Hu, 2017; Matsui, 2017; Wang, Li, & Cheng, 2016). For further details, interested readers can refer to Tsay and Agrawal (2004) and
+Agatz, Fleischmann, and Van Nunen (2008), which present excellent reviews of and research opportunities regarding multiplechannel supply chains. Our work is in the speciﬁc stream of pricing strategies. In this ﬁeld, Chiang, Chhajed, and Hess (2003) develop a price-setting game between a manufacturer and a retailer
+and ﬁnd that adding a direct channel is not always detrimental to
+the retailer. Cattani, Gilland, Heese, and Swaminathan (2006) propose a generalized equal pricing strategy that can mitigate channel
+conﬂict after the introduction of a direct channel. Kurata, Yao, and
+Liu (2007) explore multiple channels under the competition between a store brand and a national brand that further can be distributed through both a direct channel and a local store. Huang and
+Swaminathan (2009) study four prevalent pricing strategies when
+a product can be sold on the Internet and through a traditional
+channel. Chen, Zhang, and Sun (2012) examine a manufacturer’s
+pricing strategies in a dual-channel supply chain and demonstrate
+the conditions under which the manufacturer and the retailer both
+prefer a dual-channel supply chain. Wang et al. (2016) consider
+channel operating costs and ﬁnd that the gap between the online and oﬄine channels’ operating costs is critical to the retailer’s
+channel selection strategy. Chen, Liang, Yao, and Sun (2017) investigate price and quality decisions in dual-channel supply chains and
+demonstrate that quality can be improved when a new channel is
+introduced.
+In this paper, we investigate a problem with respect to introducing a second channel in online retailing. While considering
+channel selection and pricing strategies, we emphasize different
+types of the spillover from online to oﬄine sales, a key factor that
+is fairly common in practice but has not yet received suﬃcient research attention. We verify the mutual effect between the crosschannel spillovers and the equilibrium channel structure. Additionally, we incorporate a characteristic of online platform retailing by
+allowing the manufacturer to sell directly through the marketplace
+channel provided by the e-tailer, which is quite different from the
+situation in which the manufacturer launches a direct-selling channel on its own; this also causes a more complex coopetition relationship between the upstream manufacturer and downstream etailer.
+Our work is also related to the literature that explores online
+selling formats. Recent contributions have concentrated on an etailer’s choice between the reseller and the marketplace. Jiang,
+Jerath, and Srinivasan (2011) report that the marketplace faces
+the threat of being replaced by the reseller that is completely
+controlled by the e-tailer, leading to strategic underselling in the
+marketplace. Hagiu and Wright (2014) ﬁnd that the preference
+for the marketplace or the reseller depends on whether independent suppliers or the intermediaries have more important information relevant to the optimal tailoring of marketing activities for
+each speciﬁc product. Kwark, Chen, and Raghunathan (2013) analyze the impact of online reviews and report that online reviews
+can increase upstream competition and beneﬁt the retailer under
+the reseller channel, while depressed prices harm the retailer in
+the marketplace. In contrast to these works, Ryan, Sun, and Zhao
+(2012) and Mantin et al. (2014) address another question, namely,
+whether the retailer should sell through the marketplace channel in addition to the existing conventional reseller channel. Ryan
+et al. (2012) focus on the tradeoff between expansion of the available market and participation costs. Mantin et al. (2014) ﬁnd that
+
+67
+
+a retailer can improve its bargaining position in negotiations with
+the manufacturer by committing to maintaining an active marketplace. Similar to Ryan et al. (2012) and Mantin et al. (2014), our
+work considers the decision of whether to introduce a marketplace
+but further incorporates interactions between online and oﬄine
+sales, which can fundamentally impact decisions about the channel structure. We demonstrate the equilibrium area in which both
+the manufacturer and the e-tailer can achieve a Pareto improvement by introducing the marketplace channel. Moreover, we provide some guidelines to help e-tailers determine the optimal platform fee under different spillover effects for the novel marketplace
+channel.
+Our study is also related to a body of literature that explores
+interactions between online and traditional channels. Various prior
+studies have found associations between online and oﬄine sales.
+Balasubramanian (1998) studies how the introduction of an e-tailer
+affects the competing, horizontally differentiated, traditional channels and ﬁnds that, in the presence of an e-tailer, existing retailers
+begin to compete with the e-tailer rather than with one another.
+However, Yoo and Lee (2011) account for heterogeneous customer
+preferences with respect to the e-channel and present a contrasting insight: the introduction of an e-channel does not necessarily intensify competition. In addition to the impact on horizontal competition among retailers, Zettelmeyer (20 0 0) and Chiang
+et al. (2003) suggest that e-channel sales can improve a manufacturer’s bargaining power with a traditional retailer. Rather than
+the effect of the introduction of an e-channel on traditional retail,
+Abhishek et al. (2015) focus on e-channel interactions with the traditional channel. They analyze two competitive, homogeneous etailers’ preferences between the reseller and the marketplace in
+the presence of spillovers and ﬁnd that, if the spillover effect is
+negative, e-tailers prefer the marketplace channel; otherwise, they
+prefer the reseller channel. In this study, we focus on different
+types of spillover effects on coopetition between the upstream
+manufacturer and the downstream e-tailer and explore their preferences with respect to introducing the marketplace channel in
+addition to the existing reseller channel. We also study impacts
+of spillover with and without the introduction of the marketplace
+and show that the introduction of the marketplace channel fundamentally changes the effects of the spillover on the e-tailer while
+merely strengthening those on the manufacturer.
+3. Model setup
+3.1. Online channel structure
+We consider a manufacturer (she) that cooperates with an etailer (he) to sell her products to online consumers. They initially
+cooperate through a conventional e-channel format—the reseller—
+in which the e-tailer buys products from the manufacturer at a
+wholesale price w and then sells them to online consumers. In addition, a novel e-channel format is emerging—the marketplace—in
+which the e-tailer offers the manufacturer an option to engage in
+direct selling by charging a fraction r of the proﬁt as fee to access
+online customers via the platform. Here, we assume a constant
+linear fee contract applied by the e-tailer because it is generally
+applied in practice (e.g., by Amazon, Taobao, JD.COM) and is also
+widely employed in studies on platform pricing, such as Abhishek
+et al. (2015) and Jerath and Zhang (2010).
+3.2. Online demand speciﬁcation
+We derive the online demand function from consumer behavior.
+Note that online consumers can choose from one of three available options: (i) buying through the reseller channel, (ii) buying
+
+68
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+through the marketplace channel, or (iii) forgoing buying completely. Adopting the classical consumer utility model in Mussa
+and Rosen (1978), we assume that the income (or willingness to
+pay) of a consumer, denoted i, is uniformly distributed over [0,
+1]. The utility of a consumer buying through the reseller channel
+is i − pr , while that of buying through the marketplace channel
+is ρ i − pm . Here, pr and pm represent the prices of products sold
+through the reseller and marketplace channels, respectively. Further, ρ ∈ (0, 1) denotes the discount factor of the consumer utility
+gained from products sold through the marketplace channel, which
+is also adopted by Mantin et al. (2014). Thus, as ρ decreases, the
+products sold through the marketplace channel give the consumer
+less utility than do those purchased through the reseller channel,
+which also implies the greater retailing ineﬃciency of the manufacturer relative to the e-tailer.
+The setting is reasonable because the (incumbent) e-tailer often has an advantage in the sales process to provide the consumer
+with a more satisfactory experience, akin to a manufacturer’s production skills. Speciﬁcally, the higher consumer utility when buying through reseller channel might stem from the better logistics
+and return services, from the more guaranteed product qualify,
+from more direct contact with customers and superior knowledge
+of customer preferences or from economies of scope with other
+retailing activities. Note that we assume the e-tailer has an advantage in logistics services here. This is primarily because the
+e-tailer’s self-operating logistics can provide a higher consumer
+utility, which is aligned with our model setup. The higher’s utility is derived from the more timely delivery of goods, the better
+service attitudes, the perfect information system connected to order information, and the cash-on-delivery services (Chen, 2016; Li,
+2011). For instance, JD.COM promises that the delivery time for
+consumers in Beijing is 3 hours and the delivery time for some
+other typical cities is 1–2 day; the consumers can also determine
+the receiving time or choose to pick goods from JD.COM street cabinets. These service can provide consumers great convenience but
+cannot be done by the third-party logistics.1
+Next, from the utility functions presented above, we can obtain
+the consumers’ choices based on both their individual rationality
+(IR) and incentive compatibility (IC) constraints. A consumer will
+buy through the reseller channel if the following conditions are
+satisﬁed:
+
+⎧
+⎨i − pr  0 ⇒ i  pr ,
+
+(IR-R)
+
+⎩i − pr  ρ i − pm ⇒ i  pr − pm .
+1−ρ
+
+(IC-R)
+
+Analogously, a consumer will buy through marketplace if the
+following conditions are satisﬁed:
+
+⎧
+p
+⎨ρ i − pm  0 ⇒ i  m ,
+ρ
+⎩ρ i − pm  i − pr ⇒ i  pr − pm .
+1−ρ
+
+(IR-M)
+(IC-M)
+
+Similar to Mantin et al. (2014), we focus attention only on marpm
+pm
+m
+kets in which p1r −p
+−ρ > ρ , equivalent to ρ > pr , to guarantee the
+coexistence of products in both the reseller and marketplace channels. Therefore, we can obtain the demand expression
+
+qr = 1 −
+
+pr − pm
+1−ρ
+
+and
+
+qm =
+
+pm
+pr − pm
+−
+,
+1−ρ
+ρ
+
+respectively. Furthermore, it can be also veriﬁed that pr > pm for
+ρ < 1.
+
+1
+
+https://help.jd.com/user/issue/103-983.html
+
+Fig. 1. Spillover of online to oﬄine sales.
+
+3.3. Online spillover effect
+To incorporate the spillover effect, we assume that there is already an existing brick-and-mortar retail channel (also denoted by
+traditional channel for convenience) in which the manufacturer
+sells products at a per-unit price normalized to $1 with a baseline demand Q̄ in the absence of an electronic channel. The baseline demand Q̄ represents the general demand of traditional channel when the manufacturer does not sell products online. Sales in
+the traditional channel are affected by sales in the electronic channel. We incorporate this reality, similarly to Abhishek et al. (2015),
+by denoting the sales quantity in the traditional channel as Q̄ +
+τ (qr + qm ), in which τ represents the net change in sales through
+the traditional channel for each unit sold though the electronic
+channel. In other words, τ characterizes the net overall spillover
+effect of online retailing on the existing traditional oﬄine sales.
+)(r2 ρ +3rρ −6r+2 )
+1−r )
+Note that τ should satisfy ρrρ(12−r
+< τ < (2−ρ )(
+to
+r
+−7r ρ −ρ 2 +8r+5ρ −8
+
+maintain the participation of both the manufacturer and the etailer. For a more intuitive explanation, a schematic diagram is presented in Fig. 1.
+This formulation can capture cases of no effect (τ = 0), a decrease (τ < 0), or an increase (τ > 0) in the oﬄine sales resulting from each unit of online sales. Speciﬁcally, when τ = 0, the
+spillover exerts no effect, which is similar to the setup in most existing research. However, when τ < 0, the spillover effect will cannibalize oﬄine sales, i.e., each unit sold in the electronic channel leads to a τ unit decrease in sales in the traditional channel.
+This negative effect is widespread in reality, especially for durable
+goods that will not be purchased again in the near term. In such
+cases, consumers are less likely to visit physical stores to buy the
+product once they have bought it online. However, various studies
+also report that the spillover effect can sometimes stimulate ofﬂine sales, i.e., τ > 0. This positive effect often results from word
+of mouth. For example, a consumer who has bought an e-book
+on Apple’s iBook store or Amazon Kindle likely discusses it with
+his family and friends, and they may become interested and buy
+a print version at a physical store (Hilton & Wiley, 2010). Moreover, people who have very high regard for certain pieces of music or books often buy print editions to collect, commemorate and
+display. Therefore, the availability of an electronic version might
+generate increased sales in the traditional channel, especially for
+media goods, such as books, music and movies (Smith & Telang,
+2010).
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+69
+
+Table 1
+List of notations and symbols.
+Notation
+
+Description
+
+w
+r
+pr
+pm
+
+The
+The
+The
+The
+The
+The
+The
+
+ρ
+τ
+
+Q̄
+
+wholesale price, decided by the manufacturer.
+platform fee rate.
+retail price of products selling through the reseller channel, decided by the e-tailer.
+retail price of products selling through the marketplace channel, decided by the manufacturer.
+discount factor of the consumer utility gained from products sold through the marketplace channel.
+net change in oﬄine sales volume for each unit sold online.
+baseline demand in the brick-and-mortar channel without the spillover effect.
+
+Here, we also assume that online sales do not affect the oﬄine
+price, for two reasons. One is high menu costs, existing reference
+prices in stores and so forth. For instance, the retail price of a collector’s edition marked with a printed sticker price will not be affected by the sales of the electronic edition. The second rationale is
+that the base demand Q̄ is often markedly higher than the smallscale demand derived from the cross-channel effect, since online
+sales account for 11% of total sales at most (Sun, 2016). Therefore,
+from this perspective, the price in the traditional channel cannot
+be substantially affected. Moreover, Abhishek et al. (2015) further
+extend their model to incorporate endogenous consumer choice
+across the electronic and traditional channels and report that the
+results remain qualitatively unchanged.
+Table 1 lists the notations and symbols used in this paper.
+After introducing the model setup, we ﬁrst analyze the situation
+in the absence of spillover in Section 4 to acquire the equilibrium
+strategies. Then, in Section 5, we further investigate the equilibrium strategies in the presence of spillover.
+4. Analysis in the absence of spillover
+Before beginning the analysis of how the spillover affects the
+equilibrium strategies with respect to introducing the marketplace channel, we ﬁrst present the equilibrium in the absence of
+spillovers. In this case, the manufacturer and the e-tailer ignore
+the interaction between online and oﬄine sales when determining the equilibrium e-channel structure. In the following, we ﬁrst
+characterize the simple case in which the marketplace channel is
+not introduced and then investigate the complex case in which the
+marketplace channel is introduced. Finally, we derive the equilibrium strategies for both the manufacturer and e-tailer.
+4.1. No marketplace introduction in the absence of spillovers
+When the marketplace channel is not introduced, the e-tailer
+only acts as a merchant that procures products from the manufacturer and then sells them to online customers. The sequence of this
+subgame is as follows. The manufacturer ﬁrst decides the wholesale price. Then, the e-tailer determines the retail price and sells
+the goods in the market. Backward induction is employed to identify the equilibrium of the game.
+Given the wholesale price w, the e-tailer chooses his retail price
+pr in the reseller channel by maximizing his proﬁts:
+
+max ( pr − w ) (1 − pr ).
+In consideration of the e-tailer’s reaction, the manufacturer determines her wholesale price w as the solution to
+
+max w (1 − pr ).
+By solving the ﬁrst-order conditions, we obtain that if the marketplace channel is not introduced in the absence of spillovers,
+the manufacturer’s optimal wholesale price is wAN = 12 , and the e3
+tailer’s optimal retail price in the reseller channel is pAN
+r = 4.
+
+4.2. Marketplace introduction in the absence of spillovers
+In this case, the marketplace channel is introduced in addition to the reseller channel. In other words, the manufacturer and
+the e-tailer sell products simultaneously using two cooperative approaches. The game between two parties proceeds as follows: (i)
+First, the manufacturer establishes the wholesale price w. (ii) Then,
+the e-tailer chooses his retail price pr in the reseller channel. (iii)
+Then, the manufacturer determines the retail price pm of the product she plans to sell through the marketplace channel. (iv) Finally, the proﬁts of the manufacturer and the e-tailer are realized.
+Backward induction is employed to identify the equilibrium of the
+game.
+Next, we present the proﬁt functions of the manufacturer and
+the e-tailer. If the marketplace channel is introduced in addition to
+the reseller channel, the manufacturer’s proﬁt is derived from two
+segments: the ﬁrst is from the reseller channel, in which she sells
+products at the wholesale price; and the second is from the marketplace channel, in which she directly sells to consumers. Thus,
+the manufacturer decides her retailing price pm in the marketplace
+channel as
+
+
+
+max w 1 −
+
+pr − pm
+1−ρ
+
+
+
++ ( 1 − r ) pm
+
+
+p − p
+pm
+r
+m
+−
+.
+1−ρ
+ρ
+
+Moreover, the e-tailer’s proﬁt can be also decomposed into two
+components: the ﬁrst comes from the reseller channel, in which he
+procures products and then sells them to the end consumers; the
+second comes from the marketplace channel, in which he charges
+the manufacturer a platform usage fee. Hence the e-tailer determines his retailing price pr in the reseller channel by
+
+
+
+max ( pr − w ) 1 −
+
+pr − pm
+1−ρ
+
+
+
++ r pm
+
+
+p − p
+pm
+r
+m
+−
+.
+1−ρ
+ρ
+
+From the above proﬁt functions of the manufacturer and etailer, we can obtain the optimal strategies of both parties, which
+are presented in Proposition 1.
+Proposition 1. If the marketplace channel is introduced in the absence of spillover, the following equilibrium exists:
+(i) The manufacturer’s optimal wholesale price is
+
+wAI =
+
+(1 − r )
+2
+
+
+
+ρ+
+
+
+(1 − ρ ) (2 − ρ ) (4 − ρ )
+.
+ρ 2 − (5 + r )(1 − r )ρ + 8(1 − r )
+
+(ii) The e-tailer’s optimal retail price on the reseller channel is
+
+pAIr =
+
+2(1 − r )(1 − ρ ) + (2 − 2 r + rρ )wAI
+.
+(1 − r ) (4 − 2 ρ − r ρ )
+
+(iii) The manufacturer’s optimal retail price on the marketplace
+channel is
+
+pAIm =
+
+2 ρ (1 − ρ )(1 − r ) + 2 ρ (3 − r − ρ )wAI
+.
+2 (1 − r ) (4 − 2 ρ − r ρ )
+
+Proposition 1 presents the optimal strategies of both the manufacturer and e-tailer when they introduce the marketplace channel. We ﬁnd that the wholesale price wAI set by the manufacturer decreases with the platform fee r. Given a higher platform
+
+70
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+(i) The manufacturer is better off introducing the marketplace
+channel when the platform fee r is low and worse off otherwise.
+(ii) The e-tailer is better off introducing the marketplace channel
+when the platform fee r is not fairly high or low and worse off
+otherwise.
+(iii) Therefore, both the manufacturer and the e-tailer are better off
+introducing the marketplace channel when the platform fee r is
+relatively low.
+
+1
+0.9
+
+IN
+
+0.8
+
+II
+
+0.7
+
+ρ
+
+0.6
+0.5
+
+NI
+
+0.4
+0.3
+
+NN
+
+0.2
+0.1
+0
+
+0
+
+0.2
+
+0.4
+
+r
+
+0.6
+
+0.8
+
+1
+
+Fig. 2. Preferred strategies of the manufacturer and the e-tailer in the absence of
+spillover.
+
+fee, the manufacturer, who retains a smaller share of the proﬁt
+earned through the marketplace channel, prefers to transfer her
+output from the marketplace channel to the reseller channel. Thus,
+she will reduce the wholesale price to induce a larger order from
+the e-tailer through the reseller channel while increasing the retail
+price pAI
+m to reduce the output through the marketplace channel.
+Further, we ﬁnd that, with the increased platform fee, the etailer will instead increase his retail price pAI
+r in the reseller channel despite that the wholesale price decreases. This is because,
+given a higher platform fee, the e-tailer, contrary to the manufacturer’s incentive, prefers to sell more through the marketplace
+channel. Thus, to compel the manufacturer to sell more through
+the marketplace channel, he will set a higher retail price to reduce
+the output from the reseller channel. Moreover, the manufacturer’s
+higher retail price pAI
+m also reduces the competitive pressure faced
+by the e-tailer, providing him with greater space to increase his
+retail price pAI
+r .
+4.3. Equilibrium strategies in the absence of spillovers
+Applying the solutions of the different subgames analyzed
+above, we now solve the ﬁrst stage of the game in which the manufacturer and the e-tailer decide whether to introduce the marketplace channel in the absence of spillovers.
+Here, we assume that the manufacturer determines whether to
+introduce the marketplace channel before deciding the wholesale
+price, as it is easier for her to change the price than the channel
+structure. In other words, the decision on the channel structure is
+a longer-term decision compared to that on wholesale price. This
+timing is also in accordance with modeling choices in previous papers on online channel selection, e.g., Jerath and Zhang (2010) and
+Abhishek et al. (2015).
+Next, we explore the preferences of the manufacturer and the
+e-tailer, as described in the following proposition and illustrated in
+Fig. 2.
+Proposition 2. In the absence of spillovers, the optimal strategies of
+the manufacturer and e-tailer are as follows:
+
+Result (i) in Proposition 2 indicates that the manufacturer
+prefers to introduce the marketplace channel only when the platform fee is low because she can obtain a large share of the proﬁt
+earned from the marketplace channel despite that competition is
+introduced. Result (ii) indicates the e-tailer prefers to introduce
+the marketplace channel with a platform fee that is neither high
+nor low, which means a suﬃciently high platform fee will also
+harm the e-tailer. Note that, in this case, nearly all of the proﬁt derived from retailing is still captured by the e-tailer, which is similar
+to the situation without the marketplace channel, but she suffers
+from the competition created by the two channels, and the consumer’s utility is reduced if the products are sold through the marketplace channel. These do not help the e-tailer’s proﬁt maximization. By merging the two parties’ preferable strategies, result (iii)
+presents a “win–win” area, in which the manufacturer can beneﬁt
+from selling directly through the marketplace channel and the etailer also beneﬁts from the platform fee. Therefore, the two reach
+an agreement to introduce the marketplace channel.
+To provide a more intuitive presentation, the results in
+Proposition 2 are illustrated in Fig. 2. Note that, in the absence of
+spillovers, we have two exogenous parameters—the platform fee r
+and the discount factor ρ . Hence, we derive the online selling formats introduced by the manufacturer and e-tailer in equilibrium
+for every tuple (r, ρ ) in the ﬁgure. “II”, “IN”, “NI” and “NN” denote
+the areas of the respective preferred strategies of the manufacturer
+and e-tailer, where “IN” means that the manufacturer is made better off by introducing the marketplace channel, while the e-tailer
+is made better off by not introducing the marketplace channel, and
+so forth. Only in the “II” area will the marketplace channel be introduced in equilibrium.
+Next, we discuss how the decisions regarding the introduction
+of the marketplace channel vary with the discount factor ρ , as
+stated in the proposition below and further illustrated in Fig. 2.
+Proposition 3. In the absence of spillovers, the changes in attitudes
+of the manufacturer and e-tailer with the discount factor ρ are as
+follows:
+(i) Given a moderate platform fee r, the manufacturer is more willing to introduce the marketplace channel as the discount factor
+ρ increases.
+(ii) Given a low platform fee r, the e-tailer is less willing to introduce the marketplace channel as the discount factor ρ increases; however, given a high platform fee r, the e-tailer is
+more willing to introduce the marketplace channel as the discount factor ρ increases.
+Result (i) in Proposition 3 presents the manufacturer’s decision
+(note that this result exists only when the platform fee is moderate
+because the manufacturer’s decision remains the same for all values of ρ when the platform fee is relatively low or high) because
+a higher ρ means that the manufacturer’s direct channel is more
+competitive, thereby improving her proﬁt. She will thus be more
+willing to introduce the marketplace channel.
+Nevertheless, from result (ii) in Proposition 3, we ﬁnd that the
+e-tailer’s attitude toward ρ is different. On the one hand, when
+the platform fee is relatively low, the e-tailer is less willing to introduce the marketplace channel as the discount factor ρ increases
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+because she focuses more on acquiring proﬁt through the reseller
+channel by considering the markedly small share of proﬁt received
+through the marketplace channel. Thus, the increase in ρ beneﬁts
+his competitor and harms him. On the other hand, we ﬁnd that
+when the platform fee is relatively high, the e-tailer prefers the
+introduction of the marketplace channel at a larger value of ρ . In
+this case, he can obtain a considerable share of the proﬁt derived
+from selling through the marketplace channel. This makes the etailer interested in the overall performance of the two channels.
+Therefore, he would not like any ineﬃciency to exist in the two
+formats, including the obvious decrease in consumer utility from
+the marketplace channel.
+5. Analysis in the presence of spillovers
+In this subsection, we present the equilibrium in the presence
+of spillovers. Here, the manufacturer and the e-tailer will consider
+the interaction between online and oﬄine sales when deciding the
+channel structure. Similar to Section 4, we ﬁrst characterize the
+simple case in which the marketplace channel is not introduced
+and then investigate the complex case in which the marketplace
+channel is introduced. Finally, we derive the equilibrium strategies.
+5.1. No marketplace introduction in the presence of spillover
+In this part, we explore the case in which the marketplace
+channel is not introduced with spillovers. The game between two
+parties proceeds as follows: The manufacturer ﬁrst decides the
+wholesale price. Then, the e-tailer determines the retail price and
+sells the goods in the market. Backward induction is employed to
+identify the equilibrium of the game.
+In this case, the e-tailer’s proﬁt function is identical to that
+in Section 4.1. The manufacturer, given the spillover effect, determines the wholesale price as
+
+max w (1 − pr ) + 1 · (Q̄ + τ (1 − pr )).
+By solving the ﬁrst-order conditions, we can obtain the optimal
+strategies of both parties as follows.
+Proposition 4. If the marketplace channel is not introduced in the
+presence of spillover, the following equilibrium exists:
+(i) The manufacturer’s optimal wholesale price is wPN = 1−2 τ .
+(ii) The e-tailer’s optimal retail price on the reseller channel is
+3−τ
+pPN
+r = 4 .
+Proposition 4 indicates the decisions of the manufacturer and
+the e-tailer, which are affected by the spillover, relative to those
+in Section 4.1. Speciﬁcally, we ﬁnd that the wholesale and retail
+prices both decrease linearly with the spillover factor. To clarify the
+presentation, we separately analyze the spillover in two respects—
+the cannibalization effect and the stimulation effect. When the
+spillover leads to a cannibalization effect, i.e., τ < 0, increased online sales will decrease oﬄine sales. To avoid this cannibalization and to maintain the sales volume in the traditional channel,
+the manufacturer has to increase the wholesale price to induce
+a higher retail price and a lower quantity sold via the electronic
+channel. However, when the spillover takes the opposite sign and
+exerts a stimulation effect, i.e., τ > 0, increases in online sales will
+instead increase oﬄine sales. The manufacturer begins to take advantage of this effect to stimulate oﬄine sales. Hence, she decreases the wholesale price to induce a lower retail price and increase the quantity sold online.
+Furthermore, we ﬁnd that the double marginalization problem
+exists in the reseller channel, thereby causing channel ineﬃciency.
+The manufacturer has diﬃculty controlling the online sales volume
+because the only method to do so is to change her wholesale price,
+
+71
+
+thereby indirectly affecting the retail price set by the e-tailer. This
+also motivates the manufacturer to open a direct sales channel—
+the marketplace—which can endow her with pricing power to adjust online output both directly and eﬃciently.
+Moreover, we can obtain the corresponding payoffs of the manufacturer and the e-tailer:
+
+πMPN =
+
+( 1 + τ )2
+8
+
++ Q̄
+
+and
+
+πEPN =
+
+( 1 + τ )2
+16
+
+,
+
+both of which are convex and increasing in the spillover factor τ .
+This indicates, ﬁrst, that the manufacturer will always beneﬁt from
+the increased spillover factor because as the spillover factor shifts
+from negative to positive, online sales will not cannibalize but instead stimulate oﬄine sales, thereby improving the manufacturer’s
+total proﬁt. Moreover, we ﬁnd that the e-tailer also always beneﬁts
+from the increased spillover factor. This results from the manufacturer’s strategy at this point. If only the reseller channel exists, a
+manufacturer who wants to increase online sales has to decrease
+the wholesale price, thereby reducing the e-tailer’s acquisition cost
+and improving his proﬁt.
+5.2. Marketplace introduction in the presence of spillovers
+In this subsection, the manufacturer and the e-tailer sell products using two cooperative approaches simultaneously. The sequence of this subgame is as follows. (i) First, the manufacturer
+establishes the wholesale price w. (ii) Then, the e-tailer chooses
+his retail price pr in the reseller channel. (iii) Then, the manufacturer determines the retail price pm of the product that she plans
+to sell through the marketplace channel. (iv) Finally, the proﬁts of
+the manufacturer and the e-tailer are realized. Backward induction
+is employed to identify the equilibrium of the game.
+In this case, the e-tailer’s proﬁt function is identical to that in
+Section 4.2. Furthermore, the manufacturer, under the spillover effect, determines her retail price pm in the marketplace channel as
+the solution to
+
+
+
+
+
+
+
+pr − pm
+pm
+pr − pm
++ ( 1 − r ) pm
+−
+1−ρ
+1−ρ
+ρ
+
+
+
+pm
++1 · Q̄ + τ 1 −
+.
+
+max w 1 −
+
+
+
+ρ
+
+Thus, we can obtain the decisions of both parties, as presented
+in Proposition 5.
+Proposition 5. If the marketplace channel is introduced in the presence of spillover, the following equilibrium exists:
+(i) The manufacturer’s optimal wholesale price is
+
+wPI =
+
+
+
+(1 − ρ ) (2 − ρ ) (4 − ρ )
+2
+ρ 2 − (5 + r )(1 − r )ρ + 8(1 − r )
+
+
+τ
+r (1 − ρ ) (4 − ρ )
+−
+1+ 2
+.
+2
+ρ − (5 + r )(1 − r )ρ + 8(1 − r )
+(1 − r )
+
+
+
+ρ+
+
+(ii) The e-tailer’s optimal retail price on the reseller channel is
+
+pPI
+r =
+
+2(1 − r )(1 − ρ ) + (2 − 2 r + rρ )wPI − (1 − ρ )τ
+.
+(1 − r ) (4 − 2 ρ − r ρ )
+
+(iii) The manufacturer’s optimal retail price on the marketplace
+channel is
+
+pPI
+m =
+2 ρ (1 − ρ )(1 −r ) +2 ρ (3−r− ρ )wPI − (1− ρ )(4− ρ −rρ )τ
+.
+2(1 −r )(4 −2 ρ −rρ )
+Proposition 5 demonstrates the optimal decisions of the manufacturer and the e-tailer. We can easily verify that the wholesale
+price wPI decreases in the spillover factor, similar to the above case
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+in which the marketplace channel is not introduced. Additionally,
+PI
+we also ﬁnd that the two retail prices pPI
+r and pm also decrease in
+the spillover.
+Furthermore, based on the downward trends of the prices wPI ,
+PI
+pPI
+r and pm , one may expect the outputs of both channels to improve as the spillover factor increases. However, we ﬁnd that this
+is not the necessarily the case, as described in the following corollary.
+Corollary 1. If the marketplace channel is introduced in the presence
+of spillover, the output sold through the marketplace channel
+
+qPI
+m
+
+ρ (1 −r ) r2 ρ +3 rρ −6 r+2 − rρ 2 −7 rρ − ρ 2 +8 r+5 ρ −8 τ
+=
+2 ρ (1 −r ) r 2 ρ +4 rρ + ρ 2 −8 r−5 ρ + 8
+increases with τ markedly but the output sold through the reseller
+channel
+
+qPI
+r
+
+(r ρ − 2 r + 2 ) (r ρ − 2 r − ρ + 2 − r τ )
+=
+2 (1 − r ) r 2 ρ + 4 r ρ + ρ 2 − 8 r − 5 ρ + 8
+
+decreases with τ moderately.
+Corollary 1 veriﬁes the upward trend of the output sold through
+the marketplace channel. When the spillover is negative, the manufacturer appears less interested in directly selling high volumes
+through the marketplace channel. However, if the spillover is positive, the manufacturer will markedly increase the output sold
+through the marketplace channel to stimulate oﬄine sales. Furthermore, Corollary 1 depicts an interesting downward trend in
+the output sold through the reseller channel; with an increased
+spillover factor, the e-tailer reduces the output sold through the reseller channel, despite that the manufacturer’s wholesale price decreases. This is because the manufacturer, who has a strong incentive to increase online output, reduces not only the wholesale price
+but also the retail price pPI
+m in the marketplace channel, thereby increasing the e-tailer’s competitive pressure and, in turn, reducing
+his sales quantity through the reseller channel.
+Next, we analyze the payoffs of the manufacturer and the etailer, which are no longer both monotonic in the spillover factor, in contrast to those in Section 5.1. The results are presented
+in Corollary 2 and further illustrated in Fig. 3.
+Corollary 2. If the marketplace channel is introduced in the presence
+of spillover, the trends of the proﬁts of the manufacturer and the etailer are as follows:
+(i) As the spillover factor τ increases, the manufacturer’s total
+proﬁt π M from both online and oﬄine sales always increases.
+OF from oﬄine sales ﬁrst decreases and
+Speciﬁcally, her proﬁt πM
+ON from online sales ﬁrst inthen increases, and her proﬁt πM
+creases and then decreases.
+(ii) As the spillover factor τ increases, the e-tailer’s proﬁt π E ﬁrst
+increases and then decreases.
+Result (i) in Corollary 2 presents the trends in the manufacturer’s proﬁts obtained through different channels with respect to
+the spillover factor. First, we explain the trend in the manufacOF . In the presence of spillovers,
+turer’s proﬁt from oﬄine sales πM
+the manufacturer possesses a tool to further stimulate traditional
+sales, and a more pronounced spillover can improve the eﬃciency
+of this tool. Hence, a marked spillover provides the manufacturer
+with a higher proﬁt obtained from the traditional channel by adjusting the online sales volume, leading her oﬄine proﬁt to initially decrease and then increase. Further, with respect to the manON , we ﬁnd that the trend is
+ufacturer’s proﬁt from online sales πM
+the opposite of that for oﬄine proﬁts because, to improve traditional sales, the manufacturer can no longer determine the optimal online sales solely from the perspective of maximizing online
+
+πM
+0.3
+OF
+πM
+
+0.25
+
+0.2
+
+π
+
+72
+
+0.15
+ON
+πM
+
+0.1
+
+πE
+0.05
+
+0
+−0.5
+
+−0.4
+
+−0.3
+
+−0.2
+
+−0.1
+
+0
+
+τ
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+Fig. 3. Proﬁts of the manufacturer and the e-tailer if marketplace is introduced in
+the presence of spillover.
+
+proﬁt. Her incentive to increase oﬄine output will distort the online sales volume and then reduce the manufacturer’s online proﬁt.
+This distortion will be more substantial given a marked spillover,
+thereby causing her online proﬁt to initially increase and then decrease. Finally, we ﬁnd that the manufacturer’s total proﬁt π M from
+both online and oﬄine sales always increases in the spillover factor. This is because the manufacturer generally no longer needs to
+sacriﬁce one to beneﬁt the other, as online sales stop cannibalizing
+and begin stimulating oﬄine sales.
+Result (ii) in Corollary 2 states that the e-tailer’s proﬁt ﬁrst
+increases and then decreases in the spillover factor. This is
+attributable primarily to the manufacturer’s action. When the
+spillover effect is positive, the manufacturer will sharply decrease
+her retail price in the marketplace channel, which in turn reduces
+the e-tailer’s sales volume through the reseller channel under competitive pressure; by contrast, when the spillover effect is negative, the manufacturer will set a very high wholesale price, increasing the e-tailer’s acquisition cost. These both increase the e-tailer’s
+burden and lead to his deteriorating performance as the spillovers
+become increasingly high or low.
+Moreover, to offer a more intuitive presentation, all of the reOF , and π ON
+sults in Corollary 2 are further shown in Fig. 3. π M , πM
+M
+in the ﬁgure represent the manufacturer’s proﬁt from both types
+of sales, from oﬄine sales, and from online sales, respectively; π E
+represents the e-tailer’s proﬁt from online sales.
+
+5.3. Equilibrium strategies in the presence of spillovers
+Having solved the two subgames, we now analyze the ﬁrst
+stage of the game in which the manufacturer and the e-tailer
+determine whether to introduce the marketplace channel. In the
+following, we ﬁrst explore the manufacturer’s preferred channel
+structure and then consider the e-tailer’s choice. Finally, we give
+the equilibrium strategies by merging the two, as the marketplace
+channel, a form of cooperation, will be introduced only when both
+parties agree.
+The manufacturer’s attitudes under different spillover factors
+are presented in the Proposition 6 and further illustrated in Fig. 4.
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+1
+
+1
+
+E−tailler does not sell
+through the reseller.
+
+0.9
+
+0.7
+
+NI
+
+Manufacturer does
+not sell through the
+marketplace.
+
+II
+
+0.6
+
+ρ
+
+r
+
+0.5
+
+τ̄m
+
+0.4
+
+τ̄m
+
+0.8
+
+0.7
+
+0.6
+
+NI
+
+0.9
+
+NN
+
+0.8
+
+II
+
+0.5
+
+Manufacturer does
+not sell through the
+marketplace.
+
+0.4
+
+0.3
+
+0.3
+
+0.2
+
+IN
+
+τ̄e
+
+IN
+
+τ̄e
+
+0.2
+
+0.1
+
+0
+
+73
+
+0.1
+
+−0.4
+
+−0.3
+
+−0.2
+
+−0.1
+
+0
+
+τ
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+−0.4
+
+−0.3
+
+−0.2
+
+−0.1
+
+0
+
+τ
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+Fig. 4. Preferred strategies of the manufacturer and the e-tailer in the presence of spillover.
+
+Proposition 6. In the presence of spillover, the manufacturer is worse
+off introducing the marketplace channel when the spillover factor
+)(r ρ +3rρ −6r+2 )
+1−r )
+τ ∈ ( ρrρ(12−r
+, min{τ̄m , (2−ρ )(
+} ), and better off otherr
+−7r ρ −ρ 2 +8r+5ρ −8
+2
+
+wise.2
+
+Proposition 6 reveals that the manufacturer prefers to introduce
+the marketplace channel when the spillover factor is relatively
+high. Here, if only the reseller channel exists, the manufacturer has
+to set a very low wholesale price for the e-tailer, which in turn
+imposes a moderately low retail price; the double marginalization
+problem will harm the channel’s eﬃciency. On the contrary, if the
+marketplace channel is introduced, the manufacturer will be endowed with a new tool to directly control output—adjusting the
+retail price in the marketplace channel. Furthermore, by setting a
+low retail price in the marketplace channel, the manufacturer can
+induce the e-tailer to reduce his retail price in the reseller channel through competitive pressure; this can indirectly enhance total
+online output. In summary, considering the direct and indirect impacts on increasing online selling volume, the manufacturer will be
+better off by introducing the marketplace channel.
+Further, we can observe that the manufacturer’s decision regarding the introduction of the marketplace channel does not depend on the value of the oﬄine baseline demand Q̄ because we assume the cross-channel spillover as an incremental form and then
+Q̄ will be eliminated when we compare proﬁts with and without
+introducing the marketplace channel. In Section 7, we extend the
+oﬄine demand to a more realistic form, in which the baseline demand can exert an effect on the equilibrium strategy. The speciﬁc
+effect of the baseline demand of the traditional channel on the
+manufacturer’s and e-tailer’s decisions is analyzed there.
+To provide a more intuitive presentation, the trends in τ̄m and
+the areas (denoted “II” and “IN”) in which the manufacturer prefers
+2(1 − r )(r 4 ρ 2 − 4r 3 ρ − (3ρ 2 − 13ρ + 6 )r 2
+−
++(2ρ 2 − 10ρ + 8 )r + ρ − 1 )(r 2 ρ + 4rρ + ρ 2 − 8r − 5ρ + 8 )
+(1 − r )(r2 ρ − 2rρ 2 + 10rρ + ρ 2 − 12r − 5ρ + 8 ))/(r3 ρ 2 + (ρ 2 − 4ρ )r2 + (ρ 3 −
+9ρ 2 + 24ρ − 16 )r − ρ 3 + 7ρ 2 − 18ρ + 16 ). Furthermore, note that the manufacturer
+will be always made better off by introducing the marketplace in the feasible area
+)(r 2 ρ +3rρ −6r+2 )
+. We omit this uninteresting situation in the presentation
+if τ̄m < ρrρ(12 −r
+−7r ρ −ρ 2 +8r+5ρ −8
+in Proposition 6 to avoid trivial discussions. See Appendix A for details.
+2
+
+to introduce the marketplace channel are further illustrated in
+Fig. 4. We also observe that, with a higher platform fee, τ̄m generally increases, thereby diminishing the range over which the introduction of the marketplace channel is favorable. This is because
+an increase in the platform fee will reduce the proﬁt that the manufacturer obtains from the marketplace channel. Thus, only when
+the spillover factor becomes suﬃciently high will the manufacturer
+recover the loss from the smaller share and then agree to introduce
+the marketplace.
+Next, we discuss the e-tailer’s attitudes given different
+spillovers, as indicated in the following proposition and illustrated
+in Fig. 4.
+Proposition 7. In the presence of spillover, the e-tailer is better off
+introducing the marketplace channel when the spillover factor τ ∈
+)(r ρ +3rρ −6r+2 )
+1−r )
+( ρrρ(12−r
+, min{τ̄e , (2−ρ )(
+}], and worse off otherwise.3
+r
+−7r ρ −ρ 2 +8r+5ρ −8
+2
+
+Proposition 7 reveals, in contrast to the manufacturer’s inclination, that the e-tailer will forgo introducing the marketplace channel when the spillover factor is relatively high. There are two main
+reasons for this result. On the one hand, with a high spillover factor, if the marketplace is not introduced, the manufacturer will decrease her wholesale price, which directly reduces the e-tailer’s acquisition cost and then diminishes his incentive to introduce the
+marketplace channel. On the other hand, when the spillover is sufﬁciently high, the manufacturer would like to upward distort online output on a large scale, which will harm an e-tailer who only
+sells goods online. Thus, here, the e-tailer rejects the introduction
+of the marketplace channel, which greatly facilitates the adjustment of online output for the manufacturer. In summary, to enjoy the lower acquisition cost and avoid the considerably distorted
+online output, the e-tailer will forego the introduction of the marketplace channel when the spillover factor is relatively high.
+
+τ̄m = ρ (
+
+3
+The form of τ̄e is very complicated, and thus we describe it in Appendix A. Further, note that the e-tailer will be always worse off by introducing the marketplace
+)(r 2 ρ +3rρ −6r+2 )
+. We omit this uninteresting situation
+in the feasible area if τ̄e < ρrρ(12 −r
+−7r ρ −ρ 2 +8r+5ρ −8
+in the presentation of Proposition 7 to avoid trivial discussions. See Appendix A for
+details.
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+Furthermore, Fig. 4 indicates the trend of τ̄e and the areas (“II”
+and “NI”) in which the e-tailer prefers to introduce the marketplace channel. From this ﬁgure, we can observe that τ̄e reaches its
+maximum under a moderate platform fee. When the platform fee
+is relatively low, a positive correlation between τ̄e and the platform
+fee is generated because the e-tailer, considering the increased
+beneﬁt from platform fee, would like to introduce the marketplace
+and can tolerate some loss from a higher spillover level. However,
+when the platform fee is relatively high, a negative correlation between τ̄e and the platform fee is generated instead. Here, nearly
+all of the proﬁt derived from retailing is captured by the e-tailer,
+which is similar to the situation without the marketplace channel.
+Thus, considering the channel competition and the discounted consumer’s utility in the marketplace channel, the e-tailer will prefer
+to reject it.
+After deriving the two parties’ preferred strategies, we provide
+the areas in which both choose to introduce the marketplace channel. The equilibrium areas are also illustrated in Fig. 4.
+
+1
+0.9
+
+ρ = 0.9
+
+0.8
+
+ρ = 0.7
+
+0.7
+0.6
+0.5
+
+r
+
+74
+
+0.4
+
+ρ = 0.5
+
+0.3
+
+ρ = 0.3
+
+0.2
+0.1
+
+Remark 1. In the presence of spillover, both the manufacturer
+and the e-tailer are better off introducing the marketplace channel
+when the spillover factor τ
+
+)(r2 ρ +3rρ −6r+2 )
+∈ [max{ ρrρ(12−r
+, τ̄m }, τ̄e ].4
+−7r ρ −ρ 2 +8r+5ρ −8
+
+0
+
+−0.4
+
+−0.3
+
+−0.2
+
+−0.1
+
+0
+
+τ
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+Fig. 5. Trends of the optimal platform fee with the spillover factor.
+
+Remark 1 demonstrates that both the manufacturer and the etailer can achieve a Pareto improvement through the introduction
+of the marketplace channel with a spillover that is not markedly
+positive or negative, as shown in Fig. 4. In this case, with a
+spillover that is not too low, the manufacturer will not yet have
+great incentives to dramatically limit online output; thus, she is
+still willing to introduce the marketplace channel to improve online proﬁt. Furthermore, the mild spillover does not provide the
+manufacturer with a suﬃcient incentive to greatly distort online
+output to maximize her total proﬁt, which also guarantees the etailer’s participation in the marketplace channel. Therefore, in this
+situation, both the manufacturer and the e-tailer can beneﬁt from
+the introduction of the marketplace channel.
+Moreover, with respect to the “II” area in Fig. 4, we see that
+when the spillovers are mildly positive, both the manufacturer and
+the e-tailer beneﬁt under a moderate platform fee. However, when
+the spillover effect is mildly negative, both beneﬁt from a relatively low platform fee. This means that the acceptable allocation
+of proﬁt for both parties varies as the spillover exerts opposing effects. In fact, when the spillover factor is positive, the manufacturer
+can gain more from the introduction of the marketplace channel
+that helps increase online output. Meanwhile, as she increases online output, the downstream e-tailer also acquires a larger proﬁt.
+Thus, here, both parties beneﬁt from stimulation spillovers; a moderate platform fee will provide an acceptable allocation of profits when the marketplace channel is introduced. On the contrary,
+when the spillover factor is mildly negative, the manufacturer will
+be harmed by the cannibalization, which diminishes her incentive to introduce the marketplace channel. However, as shown in
+Proposition 7, under these conditions, the e-tailer would like to introduce the marketplace channel to avoid the high acquisition cost
+and greatly decreased online sales. Therefore, a greater share of the
+proﬁt derived from the marketplace channel will be assigned to
+the manufacturer than to the e-tailer to maintain the existence of
+the marketplace channel, that is, the platform fee will be relatively
+low.
+
+4
+
+Note that the “II” area will never exist in the feasible area if τ̄e <
+
+max
+
+ρ (1−r )(r2 ρ +3rρ −6r+2 )
+, τ̄m . We omit this uninteresting situation in the presenr ρ 2 −7r ρ −ρ 2 +8r+5ρ −8
+
+tation of Remark 1 to avoid trivial discussions.
+
+5.4. Optimal platform fee under equilibrium
+The marketplace channel on online platforms is a novel retailing channel, which demands further exploration. In this part, we
+provide some guidelines to help e-tailers determine the optimal
+platform fee under the different spillover effects, as shown in the
+following proposition and illustrated in Fig. 5.
+Proposition 8. If the marketplace channel is introduced in the presence of spillovers, the optimal platform fee charged by the e-tailer ﬁrst
+increases and then decreases with the spillover factor τ .
+Proposition 8 presents an interesting trend in the optimal platform fee, which is nonmonotonic in the spillover factor. Note that
+when e-channel sales exert a fairly negative spillover effect on
+traditional channel sales, the e-tailer has to set a suﬃciently low
+platform fee to encourage the manufacturer to sell more through
+the e-channel. When the spillover factor is increasing, the cannibalization effect decreases such that the e-tailer can gradually increase the platform fee. Nevertheless, as the spillover increases further and becomes suﬃciently positive, we ﬁnd that the optimal
+platform fee decreases again. Here, the manufacturer would like
+to substantially distort online sales volume upward; this sacriﬁce
+of online sales will harm the e-tailer. Therefore, to decrease the
+extent of the distortion, the e-tailer has to reduce the platform
+fee again to encourage the manufacturer to focus on online sales
+and not excessively distort online volume. In summary, when the
+spillover is extreme, the manufacturer will probably regard online
+sales as a tool to adjust oﬄine sales; correspondingly, to avoid this
+sacriﬁce of online sales, the e-tailer has to reduce the platform fee
+to ensure that the manufacturer continues to devote suﬃcient attention to online sales.
+Moreover, from Fig. 5, we see that, given a spillover factor, the
+extent of the change in the optimal fee increases as ρ decreases. As
+mentioned above, ρ represents the reduction in consumer utility
+gained from products sold through the marketplace channel. With
+a decreased value of ρ , the competitiveness of the marketplace
+channel decreases, and the manufacturer’s online proﬁt decreases;
+this will make him focus less on acquiring proﬁt from online sales
+and then regard online sales as a tool to adjust oﬄine sales. Hence,
+with a decreased ρ , the e-tailer has to reduce the platform fee to
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+75
+
+0.025
+
+0.15
+
+PI
+AI
+πm
+− πm
+
+0.02
+
+πeP N − πeAN
+
+0.1
+0.015
+0.01
+0.05
+
+πeP I − πeAI
+
+0.005
+
+PN
+AN
+πm
+− πm
+
+0
+
+0
+
+−0.005
+−0.05
+−0.01
+−0.015
+−0.1
+−0.02
+
+−0.4
+
+−0.3
+
+−0.2
+
+−0.1
+
+0
+
+τ
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+−0.025
+−0.25
+
+−0.2
+
+−0.15
+
+−0.1
+
+(a) Manufacturer
+
+−0.05
+
+0
+
+τ
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+0.25
+
+(b) E-tailer
+Fig. 6. Spillover effect on the manufacturer and the e-tailer.
+
+a greater extent to maintain the manufacturer’s online proﬁt and
+avoid substantial volume distortions.
+
+(ii) The stimulation spillover always beneﬁts the e-tailer when the
+marketplace channel is not introduced, but it ﬁrst beneﬁts and
+then harms him when the marketplace channel is introduced.
+
+6. Effect of the two types of the spillover
+In this section, we emphasize the effect of two types of the
+spillover—the stimulation effect and the cannibalization effect—on
+the manufacturer and e-tailer.
+First, we compare the manufacturer’s proﬁts in the presence
+and absence of the spillover to investigate the effect. The corresponding results are shown in the following proposition and illustrated in Fig. 6(a).
+Proposition 9.
+(i) Regardless of whether the marketplace channel is introduced, the
+stimulation spillover always beneﬁts the manufacturer, while the
+cannibalization spillovers always harms her.
+(ii) The introduction of the marketplace channel will strengthen the
+effects of the spillover on the manufacturer.
+Proposition 9 veriﬁes that the manufacturer beneﬁts from the
+stimulation effect but is harmed by the cannibalization spillover,
+which is in line with common sense. Moreover, result (ii) states
+that the manufacturer will be more sensitive when introducing the
+marketplace channel, primarily because the introduction of a second e-channel further increases online output, strengthening the
+spillover effect on sales in the traditional channel. Therefore, when
+the spillover is positive, the manufacturer enjoys greater stimulation; when the spillover is negative, the manufacturer suffers
+greater cannibalization.
+Next, we emphasize the effects of spillovers on the e-tailer using a similar method as in the above analysis. Interestingly, we
+ﬁnd that compared with the effect on the manufacturer, the introduction of the marketplace channel will fundamentally alter the
+spillover effects on the e-tailer rather than merely reinforce those
+effects. The results are shown in the following proposition and illustrated in Fig. 6(b).
+Proposition 10.
+(i) Regardless of whether the marketplace channel is introduced,
+the cannibalization spillover always harms the e-tailer.
+
+Result (i) in Proposition 10 states that the cannibalization
+spillover harms the e-tailer, which is similar to the effect on the
+manufacturer. When the spillover is negative, the manufacturer
+will decrease online output by increasing the wholesale price in
+the reseller channel, which increases the e-tailer’s acquisition cost
+and then harms the e-tailer.
+Nevertheless, result (ii) in Proposition 10 yields an interesting
+insight that the stimulation spillover may have distinctive impacts
+on the e-tailer in the presence or absence of the marketplace channel. In the case of a fairly positive spillover, if the marketplace
+channel is not introduced, the only method for the manufacturer
+to increase online sales is to decrease her wholesale price; this
+directly reduces the e-tailer’s acquisition cost and thus improves
+his proﬁt. However, once the marketplace channel is introduced,
+the manufacturer is endowed with another method to increase online sales volume. Hence the e-tailer not only loses the beneﬁts
+from the lower acquisition cost but also suffers from the competitive pressure of the rival’s price reduction. Consequently, when the
+spillovers are fairly positive, the stimulation spillovers have radically different impacts on the e-tailer.
+7. Extension to endogenous pricing in the traditional channel
+In the previous analysis, we set the prices in the traditional
+channel to be exogenously ﬁxed. In this section, we extend the
+baseline model by assuming prices in the brick-and-mortar channel to be determined endogenously and to rely on the online outcome.
+We suppose that the manufacturer sells her products through
+a reseller arrangement with a traditional retailer through the
+brick-and-mortar channel. The manufacturer determines a wholesale price wt , and then the traditional retailer selects a retail price pt . The demand function for the traditional channel
+is extended to be qt = A − pt + τ (qr + qm ), which also incorporates the online spillover that changes oﬄine demand. Thus, here,
+the manufacturer’s proﬁt function in the absence of spillovers is
+
+76
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+1
+
+1
+
+E−tailler does not sell
+through the reseller.
+
+0.9
+
+0.9
+
+NN
+Manufacturer does
+not sell through the
+marketplace.
+
+0.8
+
+1
+
+IN
+
+NI
+
+0.9
+
+0.8
+
+NI
+
+0.7
+
+II
+
+0.8
+
+0.7
+
+0.7
+
+Manufacturer does
+not sell through the
+marketplace.
+
+NI
+
+II
+r
+
+0.5
+
+0.6
+
+0.5
+
+0.4
+
+0.3
+
+0.3
+
+0.2
+
+0.4
+
+0.3
+
+0.2
+
+IN
+
+0.1
+
+0
+
+0.5
+
+Manufacturer does
+not sell through the
+marketplace.
+
+II
+0.4
+
+A
+
+0.6
+
+ρ
+
+0.6
+
+−0.4
+
+−0.3
+
+−0.2
+
+−0.1
+
+0
+
+τ
+
+0.1
+
+0.2
+
+0.3
+
+0.2
+
+IN
+
+0.1
+
+0.4
+
+0
+
+0.1
+
+−0.4
+
+−0.3
+
+−0.2
+
+−0.1
+
+0
+
+τ
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0
+
+−0.4
+
+−0.3
+
+−0.2
+
+−0.1
+
+0
+
+τ
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+Fig. 7. Preferred strategies of the manufacturer and the e-tailer with endogenous oﬄine pricing.
+
+now
+
+w (1 − pr ) + pt (A − pt + τ (1 − pr ) );
+
+oﬄine market size, the manufacturer will focus more on the ofﬂine sales and less on the online sales, which will cause the online
+output distorted more and harm the e-tailer directly.
+
+the manufacturer’s proﬁt function in the presence of spillovers is
+now
+
+8. Conclusion
+
+
+
+
+p − p
+pm
+r
+m
++ ( 1 − r ) pm
+−
+1−ρ
+ρ
+
+
+pm
++ pt A − pt + τ (1 −
+) .
+ρ
+
+pr − pm
+w 1−
+1−ρ
+
+
+
+The e-tailer’s proﬁt functions in two situations are both identical
+to that in the above.
+Through maximizing their proﬁts, we solve for the optimal retail and wholesale prices in each of the three channels. Considering that the forms are very complicated, we relegate them and the
+solution process to Appendix B for better readability. Furthermore,
+for a more intuitive presentation, we provide typical examples to
+illustrate the preferred strategies of the manufacturer and e-tailer
+when the prices in the traditional channel can be determined endogenously, as shown in Fig. 7.
+By comparing the ﬁrst two plots in Fig. 7 and the two plots
+in Fig. 4, we ﬁnd that, even when the oﬄine prices are determined endogenously, the main outcomes are qualitatively similar
+to those described in Propositions 6 and 7 and Remark 1. Speciﬁcally, we observe that the manufacturer would still prefer to introduce the marketplace channel in the presence of a large spillover
+while the e-tailer prefers to introduce the marketplace channel
+when the spillover is not to large, meaning that the “II” area exists
+only with a moderate spillover. Moreover, when the price becomes
+endogenous, the slight difference is that, here, the e-tailer is more
+willing to introduce the marketplace channel, thus causing the “II”
+area to expand. This is because when the manufacturer can endogenously determine the price in the traditional channel, she can
+better control and balance outputs through the three channels under the cross-channel spillover effect. Thus, the online volume will
+not be distorted excessively as it was before. Hence, with a larger
+spillover, the e-tailer will still prefer to introduce the marketplace
+channel.
+Moreover, the last plot in Fig. 7 illustrates the effect of the
+baseline demand A on the equilibrium strategies. We ﬁnd that the
+manufacturer will be more willing to introduce the marketplace
+channel as the baseline demand A increases because the online
+spillover can exert a larger effect here and then the manufacturer
+can beneﬁt more from the introduction of the marketplace channel
+that helps to adjust the online output. However, we also observe
+that the e-tailer will be more reluctant to introduce the marketplace with an increased baseline demand A. In confront of a larger
+
+With the rise of the novel marketplace channel, upstream manufacturers and e-tailers often need to consider whether to introduce this new channel in addition to the existing reseller channel.
+Furthermore, the presence of spillover from online sales, which can
+exert a stimulation or cannibalization effect on traditional sales,
+will qualitatively affect their strategies with respect to the online
+channel structure.
+To explore the speciﬁc effect of such spillovers on equilibrium
+strategies, we establish a model in which a manufacturer cooperates with an e-tailer to sell products through two online formats
+in addition to traditional sales. Our analysis offers several managerial implications. We demonstrate that the manufacturer and
+the e-tailer can both achieve Pareto improvement through introducing the marketplace channel with a medium spillover. This is
+because the double marginalization in the reseller channel will
+hinder the manufacturer from adjusting online output to maintain oﬄine sales, which directly incentivizes her to introduce the
+marketplace channel that endows her with absolute control over
+prices. Besides, the online output under a moderate spillover will
+not be distorted greatly to maintain oﬄine sales, which also guarantees the participation of the e-tailer. And, interestingly, we ﬁnd
+that the introduction of the marketplace channel changes fundamentally the effect of spillover on the e-tailer, while it just reinforces that on the manufacturer. Moreover, a higher platform fee
+does not necessarily incentivize the e-tailer to join the marketplace
+channel, and the manufacturer’s retailing ineﬃciency may either
+beneﬁt or hurt the e-tailer, depending on the size of the platform
+fee.
+Despite the encouraging results obtained in this paper, there
+are numerous other factors to be considered regarding the manufacturer and e-tailer’s strategies. First, in this paper, we analyze
+whether the marketplace should be introduced in addition to an
+existing reseller. However, some other channel forms also exist in
+practice. Amazon offers its some upstream parters various alternative cooperation modes, such as Associate, Advantage, and WebStore. How do manufacturers respond to these channel forms in
+addition to the marketplace and reseller channels? Extensions to
+other different channel structures represent another direction deserving of future study. Furthermore, we assume one type of product. Hence, studies on multiple types of products should be pursued. How the manufacturer and e-tailer make decisions regarding
+
+Y. Yan et al. / European Journal of Operational Research 267 (2018) 65–77
+
+which products to sell thought these different channels should be
+investigated. Moreover, we have not modeled how multiple manufacturers or e-tailers compete in online sales; this would be an
+interesting direction for future research.
+Acknowledgments
+This work was supported by the National Natural Science Foundation of China under Grant no. 71771165, and the Natural Science Foundation of Hubei Province of Key Project under Grant no.
+2015CFA144.
+Supplementary material
+Supplementary material associated with this article can be
+found, in the online version, at 10.1016/j.ejor.2017.11.011.
+References
+Abhishek, V., Jerath, K., & Zhang, Z. J. (2015). Agency selling or reselling? Channel
+structures in electronic retailing. Management Science, 62(8), 2259–2280.
+Agatz, N. A., Fleischmann, M., & Van Nunen, J. A. (2008). E-fulﬁllment and multichannel distribution—a review. European Journal of Operational Research, 187(2),
+339–356.
+Balasubramanian, S. (1998). Mail versus mall: A strategic analysis of competition
+between direct marketers and conventional retailers. Marketing Science, 17(3),
+181–195.
+Barr, A. (2012). Brands cry foul over unauthorized sellers on amazon – Reuters. Accessed date March 27, 2013. Available at http://www.reuters.com/article/2012/
+10/23/us- amazon- sellers- idUSBRE89M1CT20121023
+Bonﬁls, M. (2012). Taobao SEO: A guide to one of the world’s
+largest
+consumer
+marketplaces.
+Search
+Engine
+Watch.
+August
+24.
+Available
+at.
+http://searchenginewatch.com/article/2200749/
+Taobao- SEO- A- Guide- to- One- of- the- Worlds- Largest- Consumer- Marketplaces.
+Brynjolfsson, E., Hu, Y., & Rahman, M. S. (2009). Battle of the retail channels: How
+product selection and geography drive cross-channel competition. Management
+Science, 55(11), 1755–1765.
+Cai, G. G. (2010). Channel selection and coordination in dual-channel supply chains.
+Journal of Retailing, 86(1), 22–36.
+Cattani, K., Gilland, W., Heese, H. S., & Swaminathan, J. (2006). Boiling frogs: Pricing
+strategies for a manufacturer adding a direct channel that competes with the
+traditional channel. Production and Operations Management, 15(1), 40.
+Chen, B., & Chen, J. (2017). When to introduce an online channel, and offer money
+back guarantees and personalized pricing? European Journal of Operational Research, 257(2), 614–624.
+Chen, J., Liang, L., Yao, D. Q., & Sun, S. (2017). Price and quality decisions in
+dual-channel supply chains. European Journal of Operational Research, 259(3),
+935–948.
+Chen, J., Zhang, H., & Sun, Y. (2012). Implementing coordination contracts in a manufacturer stackelberg dual-channel supply chain. Omega, 40(5), 571–583.
+Chen, K. Y., Kaya, M., & Özer, O. (2008). Dual sales channel management with
+service competition. Manufacturing & Service Operations Management, 10(4),
+654–675.
+Chen, Y. (2016). Research on b2c e-commerce logistics service formats: An example
+of JD.COM (in Chinese). Modern Business, 32(1), 12–13.
+Chiang, W. Y. K. (2010). Product availability in competitive and cooperative dualchannel distribution with stock-out based substitution. European Journal of Operational Research, 200(1), 111–126.
+Chiang, W. Y. K., Chhajed, D., & Hess, J. D. (2003). Direct marketing, indirect proﬁts:
+A strategic analysis of dual-channel supply-chain design. Management Science,
+49(1), 1–20.
+Chiang, W. Y. K., & Monahan, G. E. (2005). Managing inventories in a two-echelon
+dual-channel supply chain. European Journal of Operational Research, 162(2),
+325–341.
+Dumrongsiri, A., Fan, M., Jain, A., & Moinzadeh, K. (2008). A supply chain model
+with direct and retail channels. European Journal of Operational Research, 187(3),
+691–718.
+Feng, L., Govindan, K., & Li, C. (2017). Strategic planning: Design and coordination
+for dual-recycling channel reverse supply chain considering consumer behavior.
+European Journal of Operational Research, 260(2), 601–612.
+
+77
+
+Goolsbee, A. (2001). Competition in the computer industry: Online versus retail. The
+Journal of Industrial Economics, 49(4), 487–499.
+Hagiu, A., & Wright, J. (2014). Marketplace or reseller? Management Science, 61(1),
+184–203.
+Hilton III, J., & Wiley, D. (2010). The short-term inﬂuence of free digital versions of
+books on print sales. Journal of Electronic Publishing, 13(1), 0–7.
+Hsieh, C. C., Chang, Y. L., & Wu, C. H. (2014). Competitive pricing and ordering decisions in a multiple-channel supply chain. International Journal of Production
+Economics, 154, 156–165.
+Huang, W., & Swaminathan, J. M. (2009). Introduction of a second channel: Implications for pricing and proﬁts. European Journal of Operational Research, 194(1),
+258–279.
+Jerath, K., & Zhang, Z. J. (2010). Store within a store. Journal of Marketing Research,
+47(4), 748–763.
+Jiang, B., Jerath, K., & Srinivasan, K. (2011). Firm strategies in the “mid tail” of platform-based retailing. Marketing Science, 30(5), 757–775.
+Jin, Y., Wu, X., & Hu, Q. (2017). Interaction between channel strategy and store brand
+decisions. European Journal of Operational Research, 256(3), 911–923.
+Kurata, H., Yao, D. Q., & Liu, J. J. (2007). Pricing policies under direct vs. indirect
+channel competition and national vs. store brand competition. European Journal
+of Operational Research, 180(1), 262–281.
+Kwark, Y., Chen, J., & Raghunathan, S. (2013). Platform or wholesale? A strategic tool
+for online retailers to beneﬁt from third-party information. MIS Quarterly, 41(3),
+763–785.
+Li, J. (2011). Chinese BtoC e-commerce logistics problem: A practical example of
+JD.COM. Logistics Technology, 10(1), 108–111.
+Mantin, B., Krishnan, H., & Dhar, T. (2014). The strategic role of third–party marketplaces in retailing. Production and Operations Management, 23(11), 1937–1949.
+Matsui, K. (2017). When should a manufacturer set its direct price and wholesale
+price in dual-channel supply chains? European Journal of Operational Research,
+258(2), 501–511.
+Mortimer, J. H., Nosko, C., & Sorensen, A. (2012). Supply responses to digital distribution: Recorded music and live performances. Information Economics and Policy, 24(1), 3–14.
+Mussa, M., & Rosen, S. (1978). Monopoly and product quality. Journal of Economic
+Theory, 18(2), 301–317.
+Ryan, J. K., Sun, D., & Zhao, X. (2012). Competition and coordination in online marketplaces. Production and Operations Management, 21(6), 997–1014.
+Sehgal, V. (2014). Forrester research online retail forecast, 2013 to
+2018.
+Forrester
+Research.
+Available
+at
+http://www.forrester.com/
+Forrester- Research- Online- Retail- Forecast- 2013- To- 2018- US/fulltext/- /
+E-RES115941
+Shearman, S. (2016). Back to bricks and mortar: How e-commerce has embraced the real world. The Guardian. Available at https://www.theguardian.com/
+media- network/2016/jul/07/bricks- and- mortar- ecommerce- retail- digital
+Smith, M. D., & Telang, R. (2010). Piracy or promotion? The impact of broadband internet penetration on DVD sales. Information Economics and Policy, 22(4),
+289–298.
+Stone, B. (2009). Can Amazon be the Wal-Mart of the web?. New York Times. September 20
+Sun, B. (2016). Online retail sales of China continue to win the ﬁrst place all over
+the world in 2015. (In Chinese). People’s network. February 26. Available at
+http://ﬁnance.people.com.cn/n1/2016/0223/c1004-28143131.
+Tiwari, A. (2014). Flipkart to grow marketplace to compete with amazon. DNA india. April 17. Available at http://www.dnaindia.com/money/
+report-ﬂipkart-to-grow-marketplace-to-compete-with-amazon-1979084
+Tsay, A. A., & Agrawal, N. (2004). Modeling conﬂict and coordination in multi-channel distribution systems: A review. In Handbook of quantitative supply chain
+analysis (pp. 557–606). US: Springer.
+Wang, W., Li, G., & Cheng, T. C. E. (2016). Channel selection in a supply chain with a
+multi-channel retailer: The role of channel operating costs. International Journal
+of Production Economics, 173, 54–65.
+Wogahn, D. (2013). Amazon advantage vs amazon marketplacean FAQ.
+Available at http://www.authorimprints.com/amazon-advantage-vs-amazonmarketplace- an- faq/.
+Xiao, T., & Shi, J. J. (2016). Pricing and supply priority in a dual-channel supply
+chain. European Journal of Operational Research, 254(3), 813–823.
+Yoo, W. S., & Lee, E. (2011). Internet channel entry: A strategic analysis of mixed
+channel structures. Marketing Science, 30(1), 29–41.
+Zettelmeyer, F. (20 0 0). Expanding to the internet: Pricing and communications
+strategies when ﬁrms compete on multiple channels. Journal of Marketing Research, 37(3), 292–308.
+
+

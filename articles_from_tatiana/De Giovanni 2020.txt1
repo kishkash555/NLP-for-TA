@@ -1,0 +1,3307 @@
+Int. J. Production Economics 228 (2020) 107855
+
+Contents lists available at ScienceDirect
+
+International Journal of Production Economics
+journal homepage: www.elsevier.com/locate/ijpe
+
+Blockchain and smart contracts in supply chain management: A game
+theoretic model
+Pietro De Giovanni
+Luiss University, Rome, Italy
+
+ARTICLE
+
+INFO
+
+Keywords:
+Supply chain management
+Blockchains
+Smart contracts
+Online platforms
+Revenue sharing contract
+Risk analysis
+Game theory
+
+ABSTRACT
+This paper proposes a supply chain game that is composed of two firms, one supplier and one retailer. The
+supplier sells goods to the retailer and sets the service strategy efforts. The retailer determines the optimal
+quantity to purchase and the selling price. The supply chain can be managed through either a traditional
+online platform or a blockchain. In the former, firms face business risks due to delivery and service and also
+pay high transaction costs. In the latter, they work on a blockchain platform, remove all risks over the supply
+chain, and save the transaction costs. However, the blockchain requires initial implementation investments as
+well as variable costs. Furthermore, the firms gain in terms of visibility, transparency, and security, which are
+summarized in tokens. We identify the conditions and the stochastic cases in which the blockchain is not worth
+implementing. Then, we investigate the suitability of a smart wholesale price contract and a smart revenue
+sharing contract to better coordinate firms’ relationships and negotiations. We highlight all cases in which
+the use of smart contracts makes blockchain applications more operationally convenient and economically
+appealing.
+
+1. Introduction
+The recent digital transformation that firms and supply chains have
+experienced through Industry 4.0 technologies poses important strategic considerations and economic implications. The adoption of Industry
+4.0 technologies has been both fashionable and appealing in recent
+years due to their potential benefits and the role that they play in the
+digital worlds (Ivanov et al., 2019a,b; Frank et al., 2019). However,
+firms and supply chains require further analysis to better understand
+such rapid and increasing trends, specifically, whether Industry 4.0
+technologies supply real operational advantages and concrete market
+opportunities (Hofmann and Rüsch, 2017; Liu and De Giovanni, 2019)
+or whether their adoption is only a contemporary tendency inspired
+by the current technological progress and incentivized by generous
+government development plans (Liao et al., 2017; Kiel et al., 2017). In
+any case, it seems clear that firms and supply chains need a comprehensive analysis of the strategic behavioral changes required to properly
+select and use Industry 4.0 technologies, an accurate estimation of their
+economic outcomes, and a careful assessment of the implications for the
+whole supply chain (Ivanov et al., 2019a,b; Saberi et al., 2019a; Ivanov
+et al., 2016).
+One popular technology that can effectively enable all Industry
+4.0 applications in Supply Chain (SC) Management is the blockchain
+(Kshetri, 2018). A blockchain consists of a set of digital applications
+enabling firms and SCs to track, trace, and verify how goods tran-
+
+sit and move along the supply (Casey and Wong, 2017), from the
+manufacturers to retailers through distribution centers and logistics
+facilities (Cole et al., 2019). Such shared information on a blockchain
+platforms allows all supply chain members to be updated, integrated,
+and involved in any transaction (Pournader et al., 2019). Today, SCs
+are geographically very extended and dispersed, making the boundaries
+of their business and competition difficult to even identify (Saberi
+et al., 2019a). In addition to the intricate network of relationships
+that firms can establish worldwide and that are complicated by the
+use of Industry 4.0 technologies, issues like inefficient transactions and
+suppliers’ performance, frauds and fake deals, cultural barriers and language differences, international regulations and legislative constraints,
+lack of trust and commitment of some suppliers call for additional
+information visibility, transparency, and verifiability to better manage
+and control the supply chain network, remove all potential business
+risks and mitigate the inefficient transactions characterizing the SC
+linkages (Dolgui et al., 2019). Blockchains enable trustless networks,
+because the parties can transact even though they do not trust each
+other (Christidis and Devetsikiotis, 2016) .
+Currently, SCs use traditional Enterprise Resource Planning (ERP)
+along with online platforms to manage the flows of goods, information,
+and money. However, these Information Systems (IS) solutions cannot
+
+E-mail address: pdegiovanni@luiss.it.
+https://doi.org/10.1016/j.ijpe.2020.107855
+Received 5 October 2019; Received in revised form 30 June 2020; Accepted 1 July 2020
+Available online 4 July 2020
+0925-5273/© 2020 Elsevier B.V. All rights reserved.
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+business risks and transaction costs. In addition, increasing the number of tokens supplies even more economic advantages. Even though,
+firms require a careful analysis of both the delivery and the consumer
+risks when assessing the economic convenience of implementing a
+blockchain. The delivery risk has a more important impact on the
+supply chain profitability, while traditional online platforms can be
+sufficient in absorbing the volatility linked to the consumers risks.
+Furthermore, we characterize two scenarios in which the blockchain
+has been developed to complement the current firms’ negotiations with
+smart contracts using ethereum. First, we allow the blockchain to also
+modify the wholesale price. That is, the retailer seeks to identify a
+wholesale price increase that incentivizes the supplier to carry out
+negotiations by using a blockchain. We identify the wholesale price
+changes that allow the supplier to be economically better off with a
+smart wholesale price contract, leading to the adoption of this technology for handling SC affairs. Furthermore, we characterize an SC game
+in which the retailer offers a smart revenue sharing contract (RSC)
+to the supplier. Generally, although highly efficient, RSCs are difficult
+to implement in business because of the need to control and enforce
+the other parties’ work. We identify the conditions of the smart RSC
+to make all SC members economically better off independent of the
+blockchain marginal cost.
+The paper is organized as follows. Section 2 reviews the literature of
+blockchains and SC management. Section 3 proposes the game theoretical models in which the SC can be managed on a traditional online
+platform and with a blockchain application. In Section 4, we show
+the equilibria for the games and compare the findings in Section 5.
+Section 6 analyzes the business risks associated to traditional SCs and
+their impact on the decision to implement blockchain technologies.
+7 presents scenarios in which the blockchain is complemented with
+smart contracts. Section 8 suggests managerial insights and Section 9
+concludes, proposes extensions, and highlights the limitations of this
+study.
+
+control for a certain number of risks linked to business transactions,
+ensure the full visibility and transparency of all SC members, or record
+and make the transaction contents available to interested parties (Dolgui et al., 2018). IBM has proposed blockchain applications to the food
+industry to assist the food transformation from origin to consumption
+since food is constantly changing over the SC tiers so that firms and
+society can know more about it. Several SC partners like Dole and
+Walmart complement their ERP with blockchains to document and
+make visible all information regarding how food originates, how it is
+produced, how it is pushed along the SC, and how it is transported, with
+the final objective to make food trustable (www.ibm.com). SAP proposes the use of blockchains in humanitarian logistics and SCs as they
+allow systems to be connected. When relief agencies, governments and
+non-governmental organizations send inputs (e.g., drugs, transportation
+means, people) into a location affected by a disaster, the availability of
+a blockchain allows all parties to trust the inputs from all locations and
+to be informed on how the inputs are used. Therefore, each blockchain
+participant knows whether all parties stick to the contractual terms
+defined within the platform and adjust their decisions accordingly.
+Finally, aids can be provided efficiently and further delays can be
+avoided by removing all unnecessary decisions (www.sap.com).
+To overcome the traditional IS limitations, firms and SCs can effectively use blockchain applications and pursue their digital transformation (Chakrabarti and Chaudhuri, 2017). Accurate analysis and
+overall assessment of blockchain applications embrace both the positive
+advantages and the negative implications for business, management,
+operations, SCs and stakeholders (Cole et al., 2019). To achieve this
+goal, this paper investigates the firms’ convenience of moving from a
+traditional online platform to a blockchain application for managing SC
+transactions. We start from a simple SC composed of one supplier and
+one retailer, negotiating through an online system. The supplier informs
+of its availability to sell products at a certain wholesale price; the
+retailer decides the number of goods to be purchased from the supplier
+and sets the selling price. The supplier takes care of all the post-sale
+activities by investing in service. When firms use a traditional online
+platform, they encounter two main drawbacks. First, each transaction
+generates a marginal transaction cost, whose impact on the firms’ profits depends on the quantity moved across the SC and/or the good sold.
+Second, managing relationships in a classical platform can generate
+business risks that firms cannot control during the negotiation process.
+The retailer, which is the firm most likely affected by the negative
+implications of a tradition online platform, can decide to move to a
+blockchain platform. The latter has the main objective of mitigating
+the business risks in the SC, making the transactions secure, visible, and
+transparent. Furthermore, this allows firms to fully save the transaction
+costs existing in traditional negotiations. At the same time, blockchain
+applications create new business implications for SCs. On the one hand,
+the SC members face costs linked to the blockchain implementation and
+management. On the other hand, the SC members gain a number of
+tokens (option value) which is exemplified by the translation of information transparency, trust, security, and risk mitigation in economic
+terms.
+Our findings highlight the detrimental effects that both transaction
+costs and business risks can have on SC performance. While the adoption of a blockchain clearly removes these negative effects, firms can
+find its implementation and business implications economically inconvenient. The fixed cost for implementing a blockchain is not important
+for firms because they can easily adjust their strategies to recover such
+investment. Rather, the tokens and the marginal blockchain cost have
+important business repercussions with the marginal cost being more
+important than the tokens. Therefore, firms implementing a blockchain
+should first evaluate the marginal costs: When those are high, the
+blockchain should not be implemented because neither the number of
+tokens nor the risk and transaction cost mitigation justifies its adoption.
+However, if the marginal costs for a blockchain are affordable, all
+SC members can be economically better off through simply removing
+
+2. Literature review
+Blockchain is a general purpose technology. The latter is defined
+as a technology that plays the role of ‘‘enabler’’, opening up new
+opportunities rather than offering complete, final solutions (Bresnahan
+and Trajtenberg, 1995). Therefore, blockchain is a complementary
+innovation since it supports existing innovations to reach goals never
+achieved before. Sakoshi Nakamoto was the initiators of blockchain
+technology, which was created to support bitcoin transactions and consisted of a distributed database able to maintain a continuously growing
+list of records (blocks) from tampering or revision (Nakamoto, 2019).
+Previous generations of technologies were most likely about fastening
+and securely exchanging of information. Rather, blockchain is about
+creating value by enabling firms and individuals to exchange assets
+of any kind without relying of third party managing the transactions
+(Mulligan et al., 2018).
+Blockchain technology can effectively boost the value created in
+SCs, in which the transactions occur at a global scale, there is uncertainty on a some operational features (e.g., delivery, last mile management, bullwhip effect), and traditional vendor rating procedures
+can be ineffective in finding trusty parties (Babich and Hilary, 2019).
+Blockchain enables the reduction of two significant costs that challenge
+all supply chains: The cost of verifying the attributes of a transaction
+and the cost of exchanging value within a network without relying
+on intermediaries (Michelman, 2017). The transaction and verification
+costs link to all issues arising when treating a transaction in supply
+chain management. Currently, Blockchain can substantially help in this
+regards, by allowing the distributed ledger to manage all these tasks,
+hence ensuring security and trustworth of suppliers and transactions
+(De Giovanni, 2019a). Therefore, blockchain can efficiently manage
+all issues linked to settlement and reconciliation that can occur over
+supply chains (Catalini and Gans, 2016). For example, blockchain
+2
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+not at all superfast (Pournader et al., 2019), allow SC members to
+finalize transactions faster than traditional exchange systems (Ivanov
+et al., 2019a). Furthermore, blockchains eliminate all intermediate
+actors over a certain transaction, leading to considerable cost savings
+any time a transaction is carried out, independent of the country,
+region, and distance. Hence, blockchains guarantee zero transaction
+downtimes thereby ensuring SCs’ synchronization of flows, movements,
+and operations (Morkunas et al., 2019).
+Clearly, Blockchains are also characterized by several weaknesses
+that SCs should consider before diving into such projects:
+1. The implementation of blockchain applications requires that all
+SC members take into account the complex regulatory, tax, auditability,
+risk, and compliance implications linked to any global transaction
+platform (Cole et al., 2019). Therefore, SCs need to hire highly skilled
+and competent Blockchain developers to project, create, and implement
+a blockchain contemplating the earlier mentioned features (Liao et al.,
+2017). Accordingly, the implementation cost and time can proportionally increase according to the peculiar context in which the digital
+application is supposed to work (Misra, 2018).
+2. Blockchains are composed of networks of nodes and blocks.
+Hence, when a node must to be processed, the application should
+transversally come across all preceding nodes, process all intermediate
+nodes, and then reach the target node (Ganeriwalla et al., 2018).
+As a result, there is a continuous redundancy of processing nodes,
+requiring time, energy, and, consequently, costs (Saberi et al., 2019b).
+These implications can even be worsened by the procedure allowing SC
+members to reach a consensus. Depending on the SC size as well as the
+number of blocks and nodes, blockchains can request intense peer-topeer communications and exchanges to achieve a common consensus
+(Büyüközkan and Göçer, 2018).
+3. A blockchains consensus limits the total amount of transactions
+that SC members can finalize in a given time. Clearly, firms have
+opportunities to increase the transaction capacity per unit of time (distributed ledger technology) but this implies additional costs (Hofmann
+and Rüsch, 2017). In addition, increasing the number of transactions
+also implies rapid expansion of the blockchain size, causing a further
+issue of capacity storage. SC members adopting blockchains must need
+to define the parties that will manage and govern the distributed ledger
+to identify the party responsible for system maintenance and upgrades
+(Kshetri, 2018).
+In this research, we seek to characterize a game theory model of
+SC that embeds positive and negative business implications due to
+blockchain. We start our investigation from the implementation and
+analysis of a traditional supply chain that uses a conventional online
+platform to finalize and manage transactions at a global scale. Then,
+the adoption of blockchain technology is evaluated within the same
+framework, by addressing the most relevant positive and negative
+implications for SCs as emerged from Babich and Hilary (2019), Griffith
+(2018) and Gurtu and Johny (2019), as well as by the empirical
+research by van Hoek (2019). When applied to SCs, blockchain plays a
+key role in enabling the reduction of transaction costs, eliminating of
+delivery risks, mitigating of market uncertainty, and creating new value
+through tokens. Furthermore, blockchain also implies implementation
+investments, learning costs for firms that need to modify business
+model, shifting the culture and modus operandi, operational practices and daily procedures. Finally, blockchain enables the adoption of
+smart contracts through ethereum, which creates new challenges and
+complexity linked to the identification of smart contract clauses and
+terms. These features require the engineering of protocols and routines
+that artificial intelligence and virtual machines run seeking to execute
+procedures, verify conditions, and monitor suppliers’ acceptance and
+performance. As explained by Barrera and Catalini (2018), searching
+for all these features requires the use of game theory since firms’
+interactions, frictions, incentives, objectives, penalties, and behavior
+should all be included in the smart contract protocols. The comparison of traditional supply chain platforms with blockchain applications
+allow us to highlight the operational and economic advantages of
+blockchain technologies and define its boundaries of applications and
+future developments.
+
+can mitigate any supply chain issue linked to non-conform goods, by
+generating payments and finalizing transactions only when conformity
+is fully checked. In this sense, the use of blockchain technology preserves the brand value from possible deterioration due to quality issues
+(De Giovanni, 2019b).
+The second cost that blockchain aims at removing its the networking
+cost, which are very popular in SC management. De Giovanni (2016)
+build up on the Transaction Cost Theory by Williamson (1979) and
+identify two cost categories that can be removed through blockchain
+technology: Bargaining and enforcement costs. Bargaining costs are the
+costs required to define an acceptable agreement with the other SC
+party to a transaction or drawing up an appropriate contract in global
+contexts. Enforcement costs are the costs of making sure the other party
+sticks to the contractual terms, exemplified by the costs of controlling and monitoring the SC participants behavior and commitments.
+Furthermore, blockchain enables the networking cost reduction by
+acting on the cost of bootstrapping, operating, and scaling an economic
+network (Catalini and Gans, 2016). Bootstrapping refers to subsidizing
+mining via the block reward to get bitcoin to a stage where it is
+relatively safe from hash rate related attacks. Operating costs link to the
+ability to verify property rights, check the states, and define incentives
+without the use of intermediaries. Scaling costs depend on the blocks
+size and the block rate, which are inversely linked to the blockchain
+security: high size (rate) leads to high (low) security (Greyblock, 2018).
+Traditional research in SC management investigates the firms’ transactions and networking by mainly using game theory (cachon, 2003;
+De Giovanni, 2009). However, after the advent of bitcoins and
+blockchain through Nakamoto’s developments, no research has investigated blockchain technology in SCs using game theory, leaving a
+research gap that we intend to fulfill. The current research in SCs linked
+to blockchain is purely theoretical and qualitative, that is, it describes
+what blockchain is, the possible benefits in operations and SC, the
+limitations and barriers, and the future research directions (e.g., Babich
+and Hilary (2019), Griffith (2018), Gurtu and Johny (2019); van Hoek
+(2019)). Nevertheless, there is no research that evaluates and quantifies
+the real benefits of blockchain by identifying and evaluating its positive
+and negative implications for SCs. Regarding the points linked to SCs,
+firms initiating blockchain projects can pursue the following benefits:
+1. Blockchains are decentralized systems without any central authority controlling and supervising the transactions. Therefore, transactions among the SC members are fully visible and quickly exchangeable
+without any central administrator permission (Chang et al., 2020).
+The idea is that third parties like governments, intermediaries, and
+banks are too vulnerable and can be easily attacked. The blockchain
+advantages are then exemplified by cost savings of not having to hire
+IS experts to prevent, control, and stop cyberattacks and eventually
+restore the whole set of functionalities (Kiel et al., 2017).
+2. Blockchains allow data, information and transactions to be visible
+and transparent (Cole et al., 2019). Any SC member records transactions in the blockchain such that all other SC members can visualize
+and keep track of all actions, affairs, and movements (Francisco and
+Swanson, 2018). In addition, the records are immutable and unalterable, meaning that SC members’ actions and decisions are all recorded
+and documented on the blockchain. When their actions imply good outcomes, all SC members become permanently aware of the correctness of
+these actions. Also, when firms’ affairs lead to questionable outcomes
+and arguable business implications, SC members keep track of them
+and adjust their decisions in finalizing future transactions (Hawlitschek
+et al., 2018). Therefore, SC members working through blockchains have
+strong incentives to perform the best operations ever (De Giovanni,
+2019a). Finally, the recorded transactions are immutable, or at least
+they can be modified only when all firms, SC members, and stakeholders involved in the same transaction give their consensus (Kshetri,
+2018).
+3. Transactions with banks can take a long time and be quite
+expensive (Misra, 2018). However, the current blockchains, which are
+3
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+3. Model
+
+the retailer receives due to scant quality controls over the shipments.
+𝜙 is the error linked to the lower amount that the supplier invests in
+online service, for which the supply chain has not full knowledge since
+the amount cannot be traced. We assume that both 𝛾 and 𝜙 are uniform
+distributed in the domain (0,1] and the density functions are 𝑓 (𝑥) and
+𝑓 (𝑦), respectively. Then, we use Firouzi et al.’s (2016) approach to
+model the stochastic components. Therefore, the non-conforming rate
+1
+is given by 𝛼 ∫𝛾 𝑓 (𝑥) 𝑑𝑥 such that the expected value of this component
+is 𝛼 (1 − 𝛾). We assume that the same structure applies for the service
+risks.
+– 𝑝 − 𝑐𝑅 is the marginal revenue for the retailer, with 𝑐𝑅 being
+the marginal purchasing cost.
+– 𝑄 𝑤 is the total amount of money that the retailer pays to the
+supplier;
+( )2
+– 𝑐𝑄 𝑄 ∕2 is the amount of money that the retailer invests
+to search for the best supplier that, among all constellations of online
+suppliers, displays the best wholesale price, 𝑤, and offers the product
+that the retailer really needs. The comments that we left above on the
+𝐴′ s structure are also valid for 𝑄 . Note that we analyze a SC using
+online platforms; therefore, as it happens for Amazon and Alibaba,
+all information about the seller’s wholesale prices are displayed on
+the online platforms. The buyer chooses the sellers by analyzing their
+evaluations, locations, and services before making a decision. This
+justifies the presence of these efforts in our model along with an
+exogenous wholesale price.
+– 𝜆𝑅 𝑄 𝑐𝑇 is the total amount of transaction cost paid by the retailer
+within the online platform that the firms are using. Note that we assume
+that the marginal transaction cost, 𝑐𝑇 , is the same for the two firms.
+In the -game, both firms are profit maximizers and play the game
+in a non-cooperative manner.
+In the -game, the firms’ objective functions are given by:
+}
+{
+( )2
+(
+) 𝑐𝐴 𝐴
+𝛱𝑆 = max 𝑄 𝑤 − 𝑐𝑆 − 𝑐𝐵 −
++ 𝑣𝐴
+(3)
+2
+𝐴
+{
+( )2
+𝑐𝑄 𝑄
+( 
+)(
+)
+𝛱𝑅 = max
+𝛼𝑄 − 𝛽𝑝 + 𝜃𝐴 𝑝 − 𝑐𝑅 + 𝑣 − 𝑄 𝑤 −
+2
+𝑝 ,𝑄
+}
+
+In this paper, we seek to analyze a simple supply chain (SC) model
+with the main goal of evaluating the operational and economic benefits
+that SC members can obtain when moving from a traditional platform
+to blockchain when making transactions. In this regard, we investigate
+an SC that is composed of one supplier, firm 𝑆 (he), and one retailer,
+firm 𝑅 (she). The firms negotiate and set their strategies in an online
+platform. The supplier is the chain leader and sets a certain amount of
+online services, 𝐴, to be delivered. The retailer is the chain follower,
+shows a certain willingness to purchase from the supplier and sets
+the final price of the products, 𝑝, as well as the number of goods to
+purchase, 𝑄. Since the firms work in an online platform, the game
+moves according to the following steps:
+1. The supplier displays online information about the availability of
+goods as well as the selling price, 𝑤, which is assumed to be exogenous.
+2. The retailer seeks to purchase from the supplier a certain quantity
+𝑄. At the same time, she also decides the optimal selling price, 𝑝, at
+which she seeks to sell the goods.
+3. The supplier considers the retailer’s strategies and offers a certain
+package of online services by investing some efforts, 𝐴.
+We assume that the supplier has an infinite production capacity,
+works in a make-to-order mode, and is always able to satisfy the
+retailer’s requests. The SC can be managed by using two different digital
+platforms, either a traditional online marketplace or a blockchain.
+We aim to identify the conditions under which the implementation
+of a blockchain is operationally and economically convenient. Therefore, we characterize a traditional online marketplace (-game) and
+compare it to a blockchain setting (-game).
+In the -game, the firms’ objective functions are given by:
+}
+{
+( )2
+(
+)
+(
+) 𝑐𝐴 𝐴
+
+
+
+
+− 𝜆𝑆 𝑄 + 𝐴 𝑐 𝑇
+(1)
+𝛱𝑆 = max 𝑄 𝑤 − 𝑐𝑆 −
+2
+𝐴
+{
+[ 
+](
+)
+𝛱𝑅 = max
+𝛼𝑄 (1 − 𝛾) − 𝛽𝑝 + 𝜃𝐴 (1 − 𝜙) 𝑝 − 𝑐𝑅
+𝑝 ,𝑄
+
+( )2 }
+(
+) 𝑐𝑄 𝑄
+−𝑄 𝑤 + 𝜆𝑅 𝑐𝑇 −
+2
+
+(2)
+
+−𝐹 − 𝑐𝐵 𝑄
+
+where:
+– 𝑤 − 𝑐𝑆 is the marginal revenue for the supplier, with 𝑐𝑆 being the
+marginal production cost.
+( )2
+– 𝑐𝐴 𝐴 ∕2 is the online service investments made by the supplier,
+with 𝑐𝐴 reflecting the marginal impact of these efforts in the firm’s
+objective function. The particular quadratic form of these efforts supports the concavity assumptions; dividing by half allows the analytical
+development to be lighter, while that effect can be later controlled by
+using the parameter 𝑐𝐴 (De Giovanni and Zaccour, 2019a).
+– 𝑐𝑇 is the marginal transaction cost that the supplier faces according to the quantity moved over the supply chain 𝑄 , as well as the
+amount invested in online efforts 𝐴 , implying several interactions with
+stakeholders belonging to the SC. Note that 𝜆𝑆 is a scaling parameter
+that allows us to express 𝑄 in economic terms and make it comparable
+to 𝐴 .
+– 𝐷 = 𝛼𝑄 (1 − 𝛾) − 𝛽𝑝 + 𝜃𝐴 (1 − 𝜙) is the retailer’s demand
+function, which is composed as follows: 𝑄 is the amount of goods
+that she purchased from the supplier, which is subject to the nonconforming rate 𝛼; therefore, this is a proxy of the market potential as
+she cannot sell more than 𝛼𝑄 , which represents the shelf availability.
+𝛽 is the consumers’ sensitivity to price and informs on the number of
+consumers that the retailer loses for any marginal increase in price.
+𝜃 informs on consumers’ sensitivity to online services and reflects the
+consumers who are willing to purchase when additional online service
+are provided by the supplier. Note that 𝛾 and 𝜙 represent two error
+terms linked to the use of online platforms. 𝛾 is the noise linked to the
+amount that the supplier delivers and represents the lower amount that
+
+(4)
+
+where:
+– 𝑐𝐵 is the marginal cost linked to the use of the blockchain.
+– 𝑐𝐴 (𝐴 )2 ∕2 is the cost faced by the supplier linked to the amount
+of services guaranteed through the blockchain, including the validation
+and the record of information, data computing and storage, and cost for
+commitment to a transaction.
+– 𝑐𝐵 𝑄 is the cost for verification, commitments, and monitoring of
+transactions, as well as implementation of a smart contract, networking
+and identification of the digital identity.
+– 𝑣 is the marginal number of tokens (option value) that the firms
+obtain because they work through a blockchain. Specifically, 𝑣 informs
+on the recognition and trust that firms acquire by using transparent
+ways of publishing their transactions.1 In this regard, we link the
+recognition obtainable through tokens to the main responsibility of
+firms. On the one hand, the supplier is responsible to invest the amount
+of money that he claims. Therefore, these investments generate tokens
+for the supplier’s wallet. On the other hand, the retailer is most likely
+responsible for the amount of goods that she sells. Consequently, the
+
+1
+An example of reputational token is given by Reputaction.com, which
+offers crypto wallets for making international transactions in compliance
+with all legislations, transferring tokens, reducing the risk of transaction
+with non-commendable people, gaining reputation and making recognition
+through it, promoting product quality, techniques used, and corporate social
+responsibility.
+
+4
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+higher is number of transactions through the blockchain, the higher
+the number of tokens she receives.
+– 𝐹 is the fixed cost that the retailer spends to implement the
+blockchain. We assume that this cost is entirely covered by the retailer
+since she is the firms subject to the business and has the main motivations for securing the transactions through blockchains. According to
+the report by EY (2019), the fix cost for implementing a blockchain do
+not depend on the business risks amplitude but rather they link to the
+type of blockchain (e.g., private or public) as well as the technology
+used.
+
+that consumers prefer to purchase online because they have a high
+sensitivity to price and enjoy savings through online channels (Chiang
+and Dholakia, 2003). When consumers’ sensitivity to price is low or
+negligible, firms do not need to carry out online purchasing activities
+and incur purchasing and supply risks. Therefore, the entire online
+structure is not fully trustable, secure, and transparent.
+We focus our analysis on three key parameters, 𝑐𝑇 , 𝛾, and 𝜙, namely,
+transaction inefficiency, whose amplitude influences the firms’ behavior
+when playing the -game.
+Proposition 2. When the SC is managed through a traditional online
+platform, the transaction inefficiency discourages the supplier’s investment
+in services.
+
+4. Equilibria
+
+(
+)
+Proof. The triple 𝑐𝑇 , 𝛾, 𝜙 creates considerable inefficiencies for
+𝜕𝐴
+the supplier’s strategy, which can be quantified as follows: 𝜕𝑐
+=
+
+In this section, we present the equilibria for the -game and game, which are both played à la Stackelberg with the supplier being
+the leader. Therefore, the supplier informs the chain of his capability to
+produce and distribute a certain product and sell at a wholesale price,
+𝑤.
+
+−
+
+0 and
+
+4.1. Equilibria in the 𝑂-game
+
+Proposition 1. The optimal firms’ strategies in the -game are:
+(
+)
+(
+)
+𝛼𝜃 (1 − 𝛾) (1 − 𝜙) 𝑤 − 𝑐𝑆 − 𝑐𝑇 𝜆𝑆 − 𝑐𝑇 2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+,
+𝐴∗ =
+(
+)
+𝑐𝐴 2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+( (
+)
+)
+𝛼𝜃𝐴∗ (1 − 𝛾) (1 − 𝜙) − 𝛽 2 𝑤 + 𝜆𝑅 𝑐𝑇 + 𝛼𝑐𝑅 (1 − 𝛾)
+𝑄∗ =
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+( ∗
+)
+(
+)
+𝑐𝑄 𝜃𝐴 (1 − 𝜙) + 𝛽𝑐𝑅 − 𝛼 𝑤 + 𝜆𝑅 𝑐𝑇 (1 − 𝛾) − 𝑐𝑅 𝛼 2 (1 − 𝛾)2
+𝑝∗ =
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+Using the optimal strategies, one can obtain the sales as given in Box I and
+then easily obtain the optimal profits 𝛱𝑆∗ and 𝛱𝑅∗ .
+Proof. See Appendix. □
+For all the strategies to be feasible, we need to ensure that the
+following condition holds:
+Condition 1. 𝛽 >
+strategies over the game.
+
+=−
+
+𝜕𝐴
+𝜕𝛾
+
+𝛼𝜃(1−𝛾)(1−𝜙)(𝑤−𝑐𝑆 −𝑐𝑇 𝜆𝑆 )
+(
+)
+𝑐𝐴 2𝛽𝑐𝑄 −𝛼 2 (1−𝛾)2
+
+=−
+
+𝑇)
+(
+(1−𝜙)(𝑤−𝑐𝑆 −𝑐𝑇 𝜆𝑆 ) 2𝛽𝑐𝑄 +𝛼 2 (1−𝛾)2
+(
+)2
+𝑐𝐴 2𝛽𝑐𝑄 −𝛼 2 (1−𝛾)2
+
+<
+
+< 0. □
+
+Proposition 3. When the SC is managed through a traditional online
+platform, the transaction inefficiency discourages the retailer that orders
+smaller quantities and charges lower prices.
+
+is a sufficient condition to guarantee positive
+
+Proof. Refer to 𝑁𝑈 𝑀{⋅} and 𝐷𝐸𝑁{⋅} as the numerator and the
+denominator of {⋅}, respectively.
+( Using) the Envelop Theorem, we
+derive the impact of the triple 𝑐𝑇 , 𝛾, 𝜙 { on 𝑄[ and 𝑝 as] follows:
+}
+
+Proof. Consider the defect rate 𝛼 ∈ (0, 1) and the delivery risk 𝛾 ∈ (0, 1).
+[
+]
+Accordingly, max 𝛼 2 (1 − 𝛾)2 = 1, and then 𝛽 > 2𝑐1 is a sufficient
+𝑄
+
+condition for having positive strategies, sales, and profits.
+
+𝜕𝐴
+𝜕𝜙
+
+< 0,
+
+According to Proposition 2, the supplier is highly discouraged by
+the presence of transaction costs and risks. In fact, his efforts in online
+service constantly decrease with the transaction cost and, consequently,
+the number of services guaranteed is low as well. This signifies that the
+supplier faces important transaction costs that limit sales development.
+In fact, the service efforts have a direct and positive connection with
+sales. Therefore, the transaction costs may be a considerable deterrent
+for the suppliers’ service efforts. In the same vein, the distortion existing
+between services and sales pushes the supplier to reduce the efforts
+in service. This is mainly linked to the appreciation that consumers
+have of the service package offered when the service comes from
+online sources. According to Chiang and Dholakia (2003), consumers
+have a different perception of the benefits obtainable from online and
+offline services since the online service can present issues like long
+delivery time and low online services (Abdul-Muhmin, 2010). This is
+even more evident when consumers do not fully trust the firm providing
+the services and lower their expectations regarding the real services
+to be received. This lack of trust translates into a lower amount that
+the supplier invests in services, which deteriorates the sales through
+the amplitude of 𝜃. Finally, the supplier knows that the transition
+between him and the retailer might be not be secure and that the
+related uncertainty discourages the SC business. From his side, the
+supplier has no practical tool to assure the SC members regarding
+security, volatility, and risks of transactions. Therefore, he knows that
+all these uncertainties translate into lower appeal for online business
+and expects retailers to be less willing to close transactions or to finalize
+a transaction with big orders. Therefore, the supplier sets small efforts
+for services due to pessimistic forecasts.
+
+In the -game, the firms adopt a traditional online platform for the
+SC negotiations rather than using blockchain. Therefore, their transactions occur through third parties (e.g., banks, financial intermediaries),
+implying some marginal transaction costs for both of them. The game
+evolves according to the following moves: The supplier announces
+that he will be able to deliver goods at a wholesale price, 𝑤, which
+is exogenous; the retailer reacts to this announcement by setting the
+optimal quantity 𝑄 to be purchased as well as the selling price, 𝑝 ;
+the supplier takes this information into consideration and decides the
+optimal services efforts to be invested, 𝐴 . The equilibria of the -game
+are displayed in the following proposition:
+
+1
+2𝑐𝑄
+
+𝜆𝑆 𝛼𝜃(1−𝛾)(1−𝜙)+2𝛽𝑐𝑄 −𝛼 2 (1−𝛾)2
+(
+)
+𝑐𝐴 2𝛽𝑐𝑄 −𝛼 2 (1−𝛾)2
+
+
+
+□
+
+𝜕𝑄
+𝜕𝑐𝑇
+
+Interestingly, Condition 1 informs that the game feasibility is always
+guaranteed when the inefficiency linked to the searching and purchasing cost, 𝑐𝑄 , and the consumers’ sensitivity to price, 𝛽, are such that
+𝛽 > 2𝑐1 . Nevertheless, a less restrictive condition 2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2 > 0
+𝑄
+that applies when 𝛼 ≠ 1 and 𝛾 ≠ 0 is a necessary condition for the SC
+game feasibility. Accordingly, the firms should adjust their strategies to
+compare consumers’ sensitivity to price with the overall convenience
+of carrying online activities. It is well documented in the literature
+
+=
+
+𝛼𝜃(1−𝛾)(1−𝜙) 𝜕𝐴
+−2𝜆𝑅 𝛽
+𝜕𝑐
+𝑇
+
+< 0,
+
+2𝛽𝑐𝑄 −𝛼 2 (1−𝛾)2
+
+𝛼 2 (1−𝛾)𝑁𝑈 𝑀{𝑄 }
+[
+]2
+2 2𝛽𝑐𝑄 −𝛼 2 (1−𝛾)2
+
+<
+
+0,
+
+𝜕𝑄
+𝜕𝜙
+
+
+
+2𝛽𝑐𝑄
+
+−
+5
+
+𝑇
+−𝛼 2 (1−𝛾)2
+
+2𝛼 2 (1−𝛾)𝑁𝑈 𝑀{𝑝 }
+[
+]2
+2𝛽𝑐𝑄 −𝛼 2 (1−𝛾)2
+
+< 0,
+
+𝜕𝑝
+𝜕𝛾
+
+< 0 and
+
+=
+
+𝜕𝑝
+𝜕𝜙
+
+=
+
+
+𝛼𝜃(1−𝜙) 𝜕𝐴
+(1−𝛾)−𝐴 +𝛼𝑐𝑅 𝛽
+𝜕𝛾
+
+2
+2
+2𝛽𝑐𝑄 −𝛼
+[
+] (1−𝛾)
+
+
+𝛼𝜃(1−𝛾) 𝜕𝐴
+(1−𝜙)−𝐴
+𝜕𝜙
+
+=
+[
+
+𝑐𝑄 𝜃(1−𝜙) 𝜕𝐴
+−𝛼𝜆𝑅 (1−𝛾)
+𝜕𝑐
+
+𝜕𝑄
+𝜕𝛾
+
+2𝛽𝑐𝑄 −𝛼 2 (1−𝛾)2
+
+<
+
+0,
+
+𝜕𝑝
+𝜕𝑐𝑇
+
+−
+=
+
+]
+𝜕𝐴
+𝑐 𝜃(1−𝜙)−(𝑤+𝑐𝑇 𝜆𝑅 +2𝛼𝑐𝑅 (1−𝛾))𝛼 𝐷𝐸𝑁{𝑝 }
+𝜕𝛾 𝑄
+[
+𝑐𝑄 𝜃
+
+=
+
+𝜕𝐴
+𝜕𝜙
+
+2
+2
+2𝛽𝑐𝑄 −𝛼
+] (1−𝛾)
+
+(1−𝜙)−𝐴∗
+
+2𝛽𝑐𝑄 −𝛼 2 (1−𝛾)2
+
+< 0. □
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+𝐷∗ =
+
+(
+)
+(
+(
+))
+𝜃𝐴∗ 𝛽𝑐𝑄 + 𝛽𝜙𝑐𝑄 + 𝛼 2 (1 − 𝛾) (𝛾 − 𝜙) − 𝛽 𝑤𝛼 (1 + 𝛾) + 𝛽𝑐𝑄 𝑐𝑅 + 𝛼 𝑐𝑅 𝛾𝛼 (1 − 𝛾) + 𝜆𝑅 𝑐𝑇 (𝛾 + 1)
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+
+Box I.
+
+Proposition 4. When the SC is managed through a traditional online
+platform, the transactions inefficiency discourages sales.
+
+Proposition 5. When the SC is managed through a traditional online
+platform, the transactions inefficiency deteriorates the firms’ profits.
+
+Proof. Using the Envelop Theorem as well as the results in Proposi(
+)
+tions 1 and 2, we can derive the impact of the triple 𝑐𝑇 , 𝛾, 𝜙 on 𝐷
+as follows:
+)
+ (
+𝜃 𝜕𝐴
+𝛽𝑐𝑄 (1 + 𝜙) + 𝛼 2 (1 − 𝛾) (𝛾 − 𝜙) − 𝛽𝛼𝜆𝑅 (𝛾 + 1)
+𝜕𝑐𝑇
+𝜕𝐷
+=
+< 0,
+𝜕𝑐𝑇
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+)
+ (
+𝛽𝑐𝑄 (1 + 𝜙) + 𝛼 2 (1 − 𝛾) (𝛾 − 𝜙) − 𝛼 2 (1 − 𝛾) 𝜃𝐴∗
+𝜃 𝜕𝐴
+𝜕𝜙
+𝜕𝐷
+<0
+=
+𝜕𝜙
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+
+Proof. Use the proofs of Propositions 1–3 to check that the triple
+(
+)
+𝑐𝑇 , 𝛾, 𝜙 has a negative impact on 𝛱𝑆 and 𝛱𝑅 . □
+(
+)
+The results in Proposition 5 reveal that the triple 𝑐𝑇 , 𝛾, 𝜙 is highly
+detrimental for the SC’s economic performance, whose outcomes fully
+depend on the absence of a platform allowing firms to remove the
+traditional transaction cost, mitigate the supplier risk, and eliminate
+the service risk due to missing transparency of the firms involved and
+a missing protocol to verify the legitimacy of transactions as well as
+ensure the supplier’s integrity, commitment, and trust. Accordingly, SCs
+can significantly enhance their financial outcomes by removing any
+(
+)
+effect of the triple 𝑐𝑇 , 𝛾, 𝜙 , adjusting their behavior accordingly, and
+achieving successful sales targets. In the next section, we allow the SC
+to achieve these objectives through the implementation of blockchain
+applications.
+
+and
+
+𝜕𝐷
+𝜕𝛾
+
+is given in Box II.
+
+Propositions 3 and 4 inform on the negative implications that downstream firms experience when missing any blockchain application. As
+with the supplier, the retailer also faces important transaction costs,
+which are a function of both the quantity ordered and the supplier’s
+service. In the former case, the transaction cost links to any unit of
+goods that is moved over the supply chain; in the latter case, the retailer
+faces transaction costs to connect her consumers with the supplier. Consequently, the retailer pays a double bill and the overall convenience
+of the costly transaction decreases considerably, with negative effects
+on the quantity involved. Interestingly, a generally accepted result in
+economics is that decreasing quantity (and then demand) leads to a
+price increase, which allows the decision maker to balance quantity
+and price. Within the framework that we are modeling, we see that the
+price follows the same direction as the quantity ordered. In fact, the
+retailer knows that the supplier invests fewer efforts in service, with a
+negative impact on sales. This negative impact is then counter-balanced
+by a price decrease.
+Because the supply chain connections and transactions are not
+regulated, the supplier faces a high risk of receiving a lower amount
+than the real quantity ordered. Abdul-Muhmin (2010) shows that the
+supplier risk for non-regulated online purchasing can considerably
+influence firms’ performance. This risk makes the retailer more prudent when deciding the quantity orders leading to lower lot sizes
+corroborated by an increase of the connections with different suppliers
+(suppliers risk diversification). Under such circumstances, the supplier
+might want to ensure a high capital turnover by charging a lower price.
+Also, the presence of low quantity on the retailer’s shelf reflects into
+a lower level of service, exemplified by the product availability. The
+low price seeks to also balance the (scarce) goods availability at an
+accessible price.
+Finally, the service risk that the retailer experiences has a negative
+influence on both the quantity and the price. From the retailer’s side,
+this effect implies doubts regarding the supplier and the suspicion that
+the service efforts will eventually translate in low consumer satisfaction
+and, consequently, low sales. This dubious situation drives the retailer
+through the decision to invest less in the business by ordering a lower
+final quantity. The intention would probably be to get experience in
+working with the supplier before diving into more important and involved connections. Since acquiring trust needs time, no formal tool or
+standard ensures the correct order finalization. On the other hand, the
+retailer charges low prices to balance the overall inefficiency created
+by doubtful orders and uncertain investments in service.
+
+4.2. Equilibria in the -game
+In the -game, the retailer seeks to carry out the SC affairs on
+a blockchain. Therefore, she invests in a new platform that implies
+fixed cost, 𝐹 , variable costs linked to the transactions within the
+blockchain, 𝑐𝐵 , and the tokens, 𝑣. While the adoption of a blockchain
+activates the effect of the triple (𝐹 , 𝑐𝐵 , 𝑣), it also nullifies the effect
+(
+)
+of the triple 𝑐𝑇 , 𝛾, 𝜙 . The new triple consists of two cost elements
+for the firms, 𝐹 and 𝑐𝐵 , and one positive element, 𝑣. 𝐹 enter into
+the retailer’s objective function because she is the only firm investing
+in a fixed cost for the blockchain, which is exemplified by hiring IS
+developers and experts to implement the blockchain and integrate it
+within the current IS as well as the energy cost. In contrast, 𝑐𝐵 and 𝑣
+enter into all firms’ profit functions. The former still depends on the
+transactions linked to the quantity moved along the supply chain; the
+latter represents trust, transparency, commitments, and visibility that
+all firms gain, when working through a blockchain. Also, 𝑣 provides
+value to all other SC members not taking part in the transactions as
+well as all other stakeholders surrounding the business. Finally, the
+supply chain transactions occur on the blockchain platforms and the
+game evolves according to the following moves: The supplier publishes
+in the blockchain that he will be able to deliver goods at a wholesale
+price, 𝑤, which is exogenous, fix, and transparent; the retailer reacts
+to this announcement by setting the optimal quantity 𝑄 to purchase
+as well as the selling price, 𝑝 , whose information is available on
+the blockchain; the supplier determines and publishes the amount of
+services, 𝐴 , on the blockchain. The equilibria of the  -game are
+displayed in the following proposition.
+Proposition 6. The firms’ strategies in the -game are:
+( (
+)
+)
+2𝑣𝛽𝑐𝑄 + 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼
+∗
+𝐴 =
+,
+(
+)
+2𝛽𝑐𝑄 − 𝛼 2 𝑐𝐴
+( ∗
+(
+)) (
+)
+𝛼 𝐴 𝜃 + 𝛽 𝑣 − 𝑐𝑅 − 𝑤 + 𝑐𝐵 𝛽
+𝑄∗ =
+2𝛽𝑐𝑄 − 𝛼 2
+( ∗
+(
+))
+( (
+)
+)
+𝑐𝑄 𝐴 𝜃 + 𝛽 𝑣 − 𝑐𝑅 + 𝛼 𝛼 𝑣 − 𝑐𝑅 − 𝑤 − 𝑐𝐵
+∗
+𝑝 =
+2𝛽𝑐𝑄 − 𝛼 2
+6
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+{
+𝜕𝐷
+=
+𝜕𝛾
+
+
+
+𝜃 𝜕𝐴
+𝜕𝛾
+
+(
+
+)
+(
+(
+))}
+{ }
+{ }
+𝛽𝑐𝑄 (1 + 𝜙) + 𝛼 2 (1 − 𝛾) (𝛾 − 𝜙) + 𝜃𝐴∗ 𝛼 2 (𝜙 − 2𝛾 + 1) − 𝛽 𝑤𝛼 + 𝛼 𝑐𝑅 𝛼 (1 − 2𝛾) + 𝜆𝑅 𝑐𝑇
+𝐷𝐸𝑁 𝐷 − 2𝛼 2 (1 − 𝛾) 𝑁𝑈 𝑀 𝐷
+< 0.
+[
+]2
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+
+□
+
+Box II.
+
+Proof. Using the results of Proposition
+7)
+and the Envelop Theorem, one
+(
+
+and the optimal sales are:
+( ∗
+(
+))
+𝐴 𝜃 + 𝛽 𝑐𝑅 − 𝑣 𝛽𝑐𝑄
+𝐷∗ =
+2𝛽𝑐𝑄 − 𝛼 2
+
+can easily check that:
+(
+
+𝜕𝑝∗
+𝜕𝑣
+
+By substitution, the optimal profits turn out to be 𝛱𝑆∗ and 𝛱𝑅∗ .
+
+𝑐𝑄
+
+=
+
+𝜕𝐴∗
+𝜕𝑣
+
+)
+𝜃+𝛽 +𝛼 2
+
+𝜕𝑄∗
+𝜕𝑣
+
+and
+
+2𝛽𝑐𝑄 −𝛼 2
+
+=
+
+∗
+𝛼 𝜕𝐴𝜕𝑣 𝜃+𝛽
+
+𝜕𝑝∗
+𝜕𝑐𝐵
+
+2
+2𝛽𝑐𝑄 −𝛼
+(
+
+𝑐𝑄
+
+=
+
+𝜕𝐴∗
+𝜕𝑣
+
+𝜕𝑄∗
+𝜕𝑐𝐵
+
+> 0,
+
+)
+𝜃 −𝛼
+
+∗
+
+=
+
+𝛼𝜃 𝜕𝐴𝜕𝑣 −𝑐𝐵
+2𝛽𝑐𝑄 −𝛼 2
+
+< 0,
+
+< 0. □
+
+2𝛽𝑐𝑄 −𝛼 2
+
+According to Proposition 8, the retailer exploits the benefits of a
+blockchain application in several ways. First, as for the supplier, she
+fully removes the uncertainty from the transactions, which then become
+trustful and transparent. Therefore, she exploits the benefits of no
+transactional risks which are exemplified by purchasing more quantity,
+displaying more goods on the shelf to achieve the maximum market
+potential, and increasing the price at the same time. This dual effect
+contrasts with the general economic trade-off between quantity and
+pricing. Nevertheless, our findings depend on the brick-and-mortar SC
+that we modeled where the quantity on the shelf determines the market
+size. Second, making transactions on a blockchain leads to tokens
+through which all firms and stakeholders around the retailer acquire
+confidence and trust in developing future business and transactions.
+This effect is important for balancing the higher level of confidence
+and trust with a larger price. When the transactions are secure, the
+consumers have better feelings when purchasing and suppliers become
+aware of the supply chain visibility in the transactions.
+Note that the retailer should compare the positive effect of tokens to
+the cost implications. In fact, the blockchain implies both variable costs
+for the retailer (e.g., coding, protocol agreement, number of accesses)
+and fixed costs (e.g., cost for implementing the blockchain and integrating it within the IS). Increasing the marginal blockchain transaction
+cost harms the retailer’s willingness to implement this technology, the
+positive implications of removing the risk terms, as well as the overall
+convenience of the purchase. In such cases, increasing the price may
+be detrimental since the market will not positively perceive the pricing
+policy, although it is generated through transparent, fair, and visible
+transactions. In addition, the convenience of purchasing a large amount
+of goods through a trustful transaction may not be justified by the
+related market expansion. Therefore, the negative cost effects induced
+by a blockchain may lead to a discrepancy between the goods displayed
+on the shelf and the market potential to be achieved.
+In principle, the adoption of a blockchain makes consumers more
+secure about the transactions carried out by the firms involved in the
+goods’ delivery. The absence of supply chain and delivery risks makes
+products more available on the shelf, leading consumers to have higher
+accessibility and goods availability. Furthermore, the absence of a
+service risk makes consumers more comfortable with the entire package
+of post-sale services, which increases their confidence in the purchase
+and their willingness to purchase more. At the same time, these higher
+levels of services imply higher prices for consumers. Therefore, overall,
+the implementation of a blockchain does not necessarily lead to a sales
+increase. Rather, firms need to balance the higher efforts needed for
+adopting this new technology with the potential negative implications
+for the demand.
+
+Proof. See Appendix. □
+To ensure feasibility, all the strategies request that denominators to
+be positive.
+Condition 2. 2𝛽𝑐𝑄 − 𝛼 2 > 0 ensures that all strategies for the -game are
+positive.
+Condition 2 is more restrictive than Condition 1 and informs that
+2
+𝛽 > 2𝑐𝛼 , meaning that the retailer faces more problems externally
+𝑄
+
+with consumers than internally through the entire purchasing process.
+The high consumer sensitivity to price indicates that the firms face
+high pressures to decrease the price since consumers’ motivations for
+purchasing online through a blockchain is mainly due to low online
+prices. Condition 2 ensures that the numerator of 𝐴 is always positive
+as 𝑤 − 𝑐𝐵 − 𝑐𝑆 > 0 by construction. Otherwise, the supplier has negative
+marginal revenues when finalizing transactions through a blockchain.
+Finally, we need to ensure positive numerators for 𝑄∗ and 𝑝∗ by
+𝛽 (𝑣−𝑐𝑅 )
+𝛼 (𝛼 (𝑣−𝑐𝑅 )−𝑤−𝑐𝐵 )
+(𝑤+𝑐𝐵 )𝛽
+making sure that 𝐴∗ >
+−
+and 𝐴∗ >
+−
+𝛼𝜃
+𝜃
+𝜃𝑐𝑄
+𝛽 (𝑣−𝑐𝑅 )
+hold. When these conditions hold, all the firms’ strategies, sales,
+𝜃
+and profits are positive and lead to a feasible solution.
+Proposition 7. When the SC is managed through a Blockchain, the supplier
+invests more in services depending on 𝛽 ⋛ 𝛼(𝜃+𝛼)
+.
+2𝑐
+𝑄
+
+Proof. Compute the change in the service efforts according to the
+
+
+= 𝑐1 > 0 and 𝜕𝐴
+blockchain parameters, 𝑣 and 𝑐𝐵 as follow: 𝜕𝐴
+=
+𝜕𝑣
+𝜕𝑐𝐵
+𝐴
+| 𝜕𝐴 |
+𝛼𝜃
+𝜕𝐴
+|
+|
+− 𝑐 2𝛽𝑐 −𝛼2 < 0. Use these computations to derive 𝜕𝑣 − | 𝜕𝑐 | =
+)
+𝐴(
+𝑄
+| 𝐵|
+(2𝛽𝑐𝑄 −𝛼(𝜃+𝛼))
+⋛
+0
+⇔
+2𝛽𝑐
+⋛
+𝛼
++
+𝛼).
+□
+(𝜃
+𝑄
+2
+𝑐𝐴 (2𝛽𝑐𝑄 −𝛼 )
+The supplier exploits the blockchain in three ways. First, using
+(
+)
+the blockchain fully removes the triple 𝑐𝑇 , 𝛾, 𝜙 , thus removing all
+inefficiency linked to the transaction with the banks as well as the
+supply and delivery risks. Second, the supplier invests more in service
+when it gains a high amount of tokens, which is exemplified by the
+high level of appreciation gained by suppliers, consumers, and stakeholders, who highly trust and believe in the supplier’s actions and
+express additional willingness to work together in the future. Third,
+the blockchain still generates costs for transactions which are linked
+to the transaction volume and size, the consensus protocol, and the
+node hosting method. Nevertheless, these are most likely lower than
+the transaction cost 𝑐𝑇 and, in case they are higher, companies evaluate
+the balance created by 𝑣 and 𝑐𝐵 . The higher service efforts inspired by
+the use of a blockchain generate an increase in demand, suggesting for
+an overall reconsideration of the supplier’s strategies and behavior.
+
+Proposition 9. When the SC is managed through a blockchain, the firms’
+(
+)
+profits depend on the triple 𝐹 , 𝑐𝐵 , 𝑣 .
+Proof. Use the results in Propositions 7 and 8( and)the Envelop Theorem
+
+Proposition 8. When the SC is managed through a blockchain, the retailer
+orders higher quantity and charges higher prices.
+
+to compute
+7
+
+𝜕𝛱𝑆
+𝜕𝑣
+
+=
+
+𝜕𝑄
+𝜕𝑣
+
+(
+)
+𝑤 − 𝑐𝑆 − 𝑐𝐵 −
+
+𝑐𝐴
+
+𝜕𝐴
+𝜕𝑣
+
+2
+
+2
+
++
+
+𝜕𝐴
+𝑣
+𝜕𝑣
+
++ 𝐴 > 0,
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+(
+𝜕𝛱𝑆
+𝜕𝑐𝐵
+
+𝜕𝛱𝑅
+
+𝜕𝑣
+
+𝜕𝛱𝑅
+
+𝜕𝑐𝐵
+
+𝜕𝛱𝑅
+𝜕𝐹
+
+= −𝑄 +
+=
+=
+
+𝜕𝐷
+𝜕𝑣
+𝜕𝐷
+𝜕𝑐𝐵
+
+𝜕𝑄
+𝜕𝑐𝐵
+
+(
+)
+𝑤 − 𝑐𝑆 − 𝑐𝐵 −
+
+𝑐𝐴
+
+𝜕𝐴
+𝜕𝑐𝐵
+
+)2
+
+2
+
+( 
+)
+( 
+)
+𝑝 − 𝑐𝑅 + 𝑣 + 𝐷 𝜕𝑝𝜕𝑣 + 1 −
+( 
+)
+
+𝑝 − 𝑐𝑅 + 𝑣 + 𝐷 𝜕𝑝
+−
+𝜕𝑐
+𝐵
+
+𝜕𝑄
+𝜕𝑐𝐵
+
++
+𝜕𝑄
+𝜕𝑣
+
+𝜕𝐴
+𝑣
+𝜕𝑐𝐵
+
+< 0,
+
+(
+)
+𝑤 + 𝑐𝐵 −
+
+(
+)
+𝑤 + 𝑐𝐵 −
+
+(
+
+𝑐𝑄
+
+𝜕𝑄
+𝜕𝑐𝐵
+
+2
+
+𝜕𝛱𝑆
+𝜕𝐹
+(
+𝑐𝑄
+
+)2
+
+= 0,
+
+𝜕𝑄
+𝜕𝑣
+
+2
+
+)2
+
+,
+
+< 0, and
+
+= −1. □
+
+The adoption of a blockchain brings positive and negative news
+for firms. On the one hand, the blockchain fully removes the risk
+in purchasing and service, leading to high transparency on the real
+transactions occurring over the supply chain and mutual enhancement
+of trust. The latter can be quantified through an option value (tokens),
+which represents the future benefits that the companies will acquire
+after managing their business through the blockchain. For example,
+firms and stakeholders will know on the true quantity that has been
+moved in transactions, the real amount of investments in services,
+and the market prices for the goods exchanged. On the other hand,
+the blockchain carries some fixed costs due to its implementation and
+integration with the current IS. Furthermore, it still implies transaction
+costs that link to consensus protocols, transaction size and volume,
+cloud costs, and node hosting. All these trade-offs can make the adoption of a blockchain economically inconvenient and raise the questions
+regarding the extent to which this technology really works. Clearly,
+in the particular case when 𝑐𝐵 = 0, the firms’ strategies and sales
+(
+)
+increase considerably. Therefore, the analysis of the triple 𝐹 , 𝑐𝐵 , 𝑣
+informs on the real economic convenience of adopting a blockchain.
+We numerically analyze the effect of this triple in the next section due
+to the highly involved network of relationships among all parameter
+values.
+
+(
+)
+Fig. 1. 𝐴 (blue) and 𝐴 (orange) in the 𝑐𝐵 , 𝑣 -plane. (For interpretation of the
+references to color in this figure legend, the reader is referred to the web version of
+this article.)
+
+a direct impact on sales, the blockchain efficiency, most likely deter(
+)
+mined by the couple 𝑐𝐵 , 𝑣 , determines the success of implementing
+a blockchain and incentivizes firms to use blockchains even more to
+develop their business. Note that the blue plan, which refers to 𝐴 ,
+moves up (down) according to decreasing (increasing) values for the
+triple (𝜙, 𝛾, 𝑐𝑇 ) (see Proposition 2). Therefore, the supplier finds further
+strategic incentive for investing more in service when the blockchain
+marginal costs are low and the triple (𝜙, 𝛾, 𝑐𝑇 ) takes high values. Note
+that when 𝑣 = 0, the supplier still finds the blockchain strategic because
+it removes both delivery and service risks. Instead, when 𝑐𝐵 is high,
+the supplier is discouraged from investing more in service, even with
+very high 𝑣. Hence, the marginal blockchain costs 𝑐𝐵 really determine
+the supplier’s strategic behavior. More in general, for a given triple
+(𝜙, 𝛾, 𝑐𝑇 ), we define the efficient blockchain frontier as the set 𝛺 that
+(
+)
+contains all pairs 𝑐𝐵 , 𝑣 , which results in 𝐴 = 𝐴 . Therefore, 𝛺
+{
+}
+{
+}
+= 𝑐𝐵 , 𝑣 ∶ 𝐴 > 𝐴 and 𝛺 = 𝑐𝐵 , 𝑣 ∶ 𝐴 < 𝐴 .
+
+5. Comparison between the -game and -game
+To appreciate the benefits of a blockchain, we carry out a numerical analysis on the key parameters. The two games differ along six
+parameters, specifically, 𝛾, 𝜙, 𝑐𝑇 , 𝑐𝐵 , 𝐹 , and 𝑣, with 𝛾 and 𝜙 describing
+some stochastic components and, consequently, the retailer’s risks for
+purchasing and service. To properly compare the solutions and derive
+managerial insights, we fix the parameter values for 𝛾 = 0.01, 𝜙 =
+0.01, and 𝑐𝑇 = 0.05, whose effects have been checked analytically in
+Section 3. We then focus on the remaining three parameters: 𝑣, 𝑐𝐵 , and
+𝐹 . In addition, the other parameters have been fixed as follows: 𝛼 = 0.9,
+𝛽 = 1, 𝜃 = 1, 𝜔 = 0.8, 𝑐𝑆 = 0.02, 𝑐𝑅 = 0.02, 𝑐𝐴 = 0.05, 𝑐𝑄 = 0.05,
+𝜆𝑆 = 0.01, and 𝜆𝑅 = 0.01. To fix these parameters, we referred to
+real estimations linked to business reports (e.g., EY, 2019), secondary
+information available (Azati, 2019), empirical estimations reported in
+the literature (e.g., van Hoek, 2019; Hackius and Petersen, 2017) as
+well as the parameter estimations from the literature of game theory
+(e.g., Genc and De Giovanni, 2020). By fixing these parameters, we
+ensure that all conditions that we have previously introduced are met
+and that both games are feasible.
+
+5.2. Quantity, price and sales
+Fig. 2 shows the behavior of the retailer’s order quantity and price,
+as well as the sales that she obtains. Although these three are measured
+in different scales (vertical dimension), the comparison over the two
+games shows equivalent shapes. The main difference with respect to
+Fig. 1 is on the amplitude of the -game outcomes over the -game
+outcomes. Accordingly, the retailer gains more confidence than the
+supplier when implementing a blockchain, which translates into higher
+purchasing quantity. Intuitively, this quantity is positively (negatively)
+influenced by token 𝑣 (marginal blockchain cost 𝑐𝐵 ). The high trust and
+confidence that the retailer obtains through the blockchain have immediate links and benefits for sales, as all business risks are effectively
+removed from the decision-making process. In addition, the retailer
+enjoys the absence of transaction costs linked to the use of traditional
+online platforms. Although the adoption of blockchains removes several
+inefficiencies linked to a traditional supply chain and transactions, the
+inefficient installation and management of blockchains can limit the
+firms’ willingness to adopt this type of project. The existence of fixed
+and variable costs deriving from blockchain applications makes the
+benefits very small. In fact, the traditional transaction cost might simply
+be substituted by the blockchain cost, with the result that the project
+could appear marginally appealing. While the risk mitigation is a clear
+advantage, the existence of additional blockchain costs means that
+retailers charge higher prices, with the result that the products become
+less appealing to consumers. As a consequence, retailers purchase less
+quantity, demonstrating that the business is marginally worthy. This
+perception becomes a real issue for the supplier, who invests less in
+
+5.1. Service strategies
+We first compare the service strategies for the two games in Fig. 1.
+The graphical findings corroborate the results in Proposition 7 and
+provide additional information: 𝐴 increases in 𝑣 at a smaller rate than
+a decrease in 𝑐𝐵 . Hence, firms should assign a higher importance to
+the blockchain variable costs than to the marginal values generated
+through tokens, 𝑣. Put differently, the blockchain costs matter more
+than the blockchain token generation. When the latter (the marginal
+blockchain cost) is high, the supplier has more (less) motivation for
+investing in service, being that the transactions behind the use of a
+blockchain are highly appealing (discouraging). Since the service has
+8
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+′
+
+′
+
+c. Since 𝛩 ⊂ 𝛩, 𝛩∗ = 𝛩 is the Pareto-improving region when
+{
+}
+firms undertake a blockchain project resulting 𝛩 = 𝐹 , 𝑐𝐵 , 𝑣 ∶ 𝛱𝑆 >
+
+
+
+𝛱𝑆 ∪ 𝛱𝑅 > 𝛱𝑅 .
+d. 𝛩# is the region inside which firms have contrasting pref{
+}
+erences and results 𝛩# = 𝛩 ∩ 𝛩′ = 𝐹 , 𝑐𝐵 , 𝑣 ∶ 𝛱𝑆 < 𝛱𝑆 ∪ 𝛱𝑅 >
+
+𝛱𝑅 .
+e. 𝛩# corresponds to the case in which both firms are economically worse off with the implementation of a blockchain. As mentioned earlier, this result is mainly driven by the presence of variable
+costs generated by managing transactions within the blockchain that,
+although they mitigate the traditional transaction costs, imply new variable costs on the consensus protocol, the data size, and volumes, and
+the protection of transactions that make the blockchain economically
+unappealing.
+3. Contrary to the findings that we obtained for the strategies, the
+(
+)
+firms’ profits are more sensitive to the couple 𝑣, 𝑐𝐵 . That is, while
+the firms’ strategies mainly change with respect to 𝑐𝐵 , the token value
+𝑣 also makes a contribution to the final decision on the adoption of a
+blockchain. Therefore, the strategic behavior of firms working in a digital environment is only marginally dictated by the token implied by the
+digital transformation. However, the final evaluation of the blockchain
+application is most likely economically driven, being that the firms
+(
+)
+are profit-maximizers. Thus, the couple 𝑣, 𝑐𝐵 yields higher monetary
+value and acquires great attention by firms. However, 𝑐𝐵 gives a
+sufficient condition for implementing a blockchain. For example, when
+𝑐𝐵 = 0, both firms have high operational and economic motivations for
+implementing a blockchain, independent of the amplitude of the token,
+𝑣. In contrast, when 𝑣 = 0, the amplitude of 𝑐𝐵 determines the firms’
+willingness to pursue such a project.
+
+Fig. 2. Comparison between 𝑝 (blue) and 𝑝 (orange). (For interpretation of the
+references to color in this figure legend, the reader is referred to the web version
+of this article.)
+
+service leading to a deterioration of the overall sales. Finally, 𝛺′ ⊂ 𝛺
+represents the blockchain efficient frontier that makes the retailers’
+strategies and sales indifferent when choosing to work with traditional
+′
+online platforms or pursue blockchain applications. Accordingly, 𝛺 =
+{
+}
+{
+}
+𝑐𝐵 , 𝑣 ∶ 𝑝 > 𝑝 , 𝑄 > 𝑄 , and 𝐷 > 𝐷 ; similarly, 𝛺′ = 𝑐𝐵 , 𝑣 ∶
+′
+
+𝑝 < 𝑝 , 𝑄 < 𝑄 , and 𝐷 < 𝐷 . Interestingly, 𝛺# = 𝛺 ∩ 𝛺 inside
+which firms have divergent behavior with the implementation of a
+{
+}
+blockchain; specifically, 𝛺# = 𝑐𝐵 , 𝑣 ∶ 𝑝 > 𝑝 , 𝑄 > 𝑄 , 𝐴 < 𝐴 ,
+and 𝐷 > 𝐷 . This is due to the power that the supplier has over the SC
+by playing the role of leader. Therefore, he knows that the retailer is the
+most interested firm in implementing a blockchain since she will gain
+two effects: Reduction in the delivery and service risks and mitigation
+of transaction costs. In contrast, the supplier will only enjoy the latter
+effect. Consequently, the supplier pushes the retailer to do more when
+a blockchain is implemented.
+
+6. Stochastic components 𝜸 and 𝝓
+The analysis that we carried out in Section 5 allowed us to identify the regions inside which the adoption of blockchain technologies
+makes firms economically better off. So far, we treated the stochastic
+components 𝛾 and 𝜙 as exogenous to focus the investigation on the
+business parameters that have the most relevant impact on the firms’
+decisions while considering the risks associated to the supply and the
+demand as given. That is, so far we assumed that firms have a belief
+on the stochastic components and use that information to set the best
+strategies and maximize their profits. Hereby, we adopt a different
+approach by considering 𝛾 and 𝜙 as random variables that distribute
+according to a uniform distribution.
+(
+)
+To focus on the stochastic components, we work inside the 𝐹 , 𝑐𝐵 , 𝑣
+−𝑠𝑝𝑎𝑐𝑒 in which the firms’ decisions are borderline between implementing or disregarding the implementation of a blockchain. Specifically, we
+fix 𝐹 = 0.5, 𝑐𝐵 = 0.12, and 𝑣 = 0.1. By doing so, we can really appreciate
+the impact of the stochastic components in the decision making process.
+Put differently, in the region corresponding to the triple 𝐹 = 0, 𝑐𝐵 = 0,
+and 𝑣 = 0.2, the impact of the stochastic components will not help
+firms in improving their decision-making process because the adoption
+of blockchain technology will be convenient. Hence, the values of the
+stochastic components will never revert the findings. Similarly, in the
+region corresponding to the triple 𝐹 = 1, 𝑐𝐵 = 0.15, and 𝑣 = 0, firms
+have no interest for blockchains. Therefore, the stochastic components,
+which basically have detrimental impact on the business, will never
+revert the firms’ preferences as well.
+
+5.3. Profits
+Fig. 3 displays the supplier’s profits on the left-hand side (LHS) and
+the retailer’s profits on the right-hand side (RHS). The figure confirms
+the insights that have been derived from the analysis of strategies and
+sales. Therefore, we can offer the following additional intuitions:
+1. The fixed cost required for implementing and integrating the
+blockchain within the current online platforms and ERP only has a
+marginal impact on firm profits. On the one hand, the supplier’s profits
+are not at all influenced by the implementation cost due to the missing
+interfaces with strategies. On the other hand, the retailer’s profit is
+– clearly – negatively influenced by such investments. Nevertheless,
+the negative impact on the retailer’s economic outcomes is most likely
+negligible. This implies that the investment in blockchains does not
+represent at all a limit since the firms’ strategies can be adjusted to
+take the invested amount into consideration.
+2. The surface identifying the cases in which the supplier is economically better off corresponds to all cases in which the adoption of
+a blockchain leads to a profit-Pareto-improving situation. Accordingly,
+we can identify the following regions:
+a. 𝛩 is the frontier for the retailer that identifies the triples
+(
+)
+𝐹 , 𝑐𝐵 , 𝑣 informing on the indifferent combinations of these three
+{
+}
+{
+}
+parameters. Therefore, 𝛩 = 𝐹 , 𝑐𝐵 , 𝑣 ∶ 𝛱𝑅 > 𝛱𝑅 and 𝛩 = 𝐹 , 𝑐𝐵 , 𝑣 ∶
+𝛱𝑅 < 𝛱𝑅 .
+b. 𝛩′ is the frontier for the supplier that identifies the triples
+(
+)
+𝐹 , 𝑐𝐵 , 𝑣 informing on the indifferent combinations of these three
+{
+}
+′
+parameters, e.g., 𝛱𝑆 = 𝛱𝑆 . Therefore, 𝛩 = 𝐹 , 𝑐𝐵 , 𝑣 ∶ 𝛱𝑆 > 𝛱𝑆
+{
+}
+and 𝛩′ = 𝐹 , 𝑐𝐵 , 𝑣 ∶ 𝛱𝑆 < 𝛱𝑆 .
+
+6.1. Analysis of the delivery risk, 𝛾
+The delivery risk, 𝛾, profoundly modifies the firms’ preferences for
+the implementation of blockchain technology.
+Fig. 4a shows the supplier’s profits in various settings when varying
+𝛾. Note the profits 𝛱𝑆 described by a red line are the only ones being a
+function of 𝛾. The green line refers to the supplier’s profits 𝛱𝑆 = 3.451,
+which is independent of 𝛾. The other three lines are drawn considering
+9
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+(
+)
+Fig. 3. Supplier’s (LHS) and Retailer’s (RHS) profits in the 𝐹 , 𝑐𝐵 , 𝑣 − 𝑠𝑝𝑎𝑐𝑒.
+
+Fig. 4. Firm 𝑖’s profits (𝑖 = 𝑆, 𝑅) and the delivery risk, 𝛾. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this
+article.)
+
+𝛾 as a random variable uniformly distributed, 𝑈 ∼ [0, ̂
+𝛾 ]. Therefore, we
+simulate three random distributions describing three potential states,
+in which the delivery risk can be either low (̂
+𝛾 = 0.01), or medium
+(
+)
+(
+)
+̂
+𝛾 = 0.05 , or high ̂
+𝛾 = 0.1 . This allow us to analyze how different
+realizations and uncertainty levels can influence the results and allow
+us to leave the following comments:
+1. The comparison of 𝛱𝑆 and 𝛱𝑆 informs that low delivery risks
+suggest not to implement the blockchain. This finding remains valid
+also when ̂
+𝛾 = 0.01. The gray line in Fig. 4 has been derived by
+generating a set of data using 𝑈 ∼ [0, 0.01] and simulating a thousand distributions. The simulated distribution has 𝐸[𝛱𝑆 ] = 5.23. As
+illustrated in Fig. 4a, the related distribution is always above 𝛱𝑆 ,
+indicating that the supplier finds the implementation of blockchain
+not economically worth. We have also checked this result empirically
+by using the statistical tests available in Mathematica to check the
+difference between 𝛱𝑆 and 𝐸[𝛱𝑆 ∣ ̂
+𝛾 = 0.01]. For all simulations
+that we run we find that 𝛱𝑆 and 𝐸[𝛱𝑆 ] are statistically different with
+𝑝 − 𝑣𝑎𝑙𝑢𝑒 < 0.05 and always results that 𝐸[𝛱𝑆 ∣ ̂
+𝛾 = 0.01] > 𝛱𝑆 .
+2. We fix medium level for the delivery risk, e.g., ̂
+𝛾 = 0.05, and
+generated a set of data using 𝑈 ∼ [0, 0.05]. The path of the related
+profits is displayed in yellow in Fig. 4a and informs of an increasing
+uncertainty that moves around 𝛱𝑆 with 𝐸[𝛱𝑆 ∣ ̂
+𝛾 = 0.05] = 3.18. We
+have used the statistical tests available in Mathematica and verified that
+𝐸[𝛱𝑆 ∣ ̂
+𝛾 = 0.05] = 𝛱𝑆 with 𝑝 − 𝑣𝑎𝑙𝑢𝑒 > 0.05 in 71% of our simulations.
+Consequently, the presence of medium delivery risk, e.g., ̂
+𝛾 = 0.05, does
+
+not justify the implementation of a blockchain since the supplier will
+have a probability of (only) 29% to get a significant increase in profits.
+3. When the delivery risk is highly uncertain and distributes through
+the distribution 𝑈 ∼ [0, 0.1], the delivery risk substantially harms the
+supplier’s business resulting 𝐸[𝛱𝑆 ∣ ̂
+𝛾 = 0.1] < 𝛱𝑆 for all simulated
+cases. As it results from Fig. 4, the profits 𝐸[𝛱𝑆 ∣ ̂
+𝛾 = 0.1] (blue line)
+are below 𝛱𝑆 in most of the cases and show considerable spikes that
+exemplify the high volatility existing in this scenario. Note that the
+realizations of ̂
+𝛾 leading to 𝐸[𝛱𝑆 ∣ ̂
+𝛾 = 0.1] > 𝛱𝑆 result to be nonsignificant in 94% of the simulations. Therefore, high volatile delivery
+suggests the adoption of blockchain technology.
+We carried out a similar analysis for the retailer, whose results
+are shown in Fig. 4b. The green line refers to the retailer’s profits
+𝛱𝑅 = 27.541 while the red line refers to 𝛱𝑅 , which is decreasing in
+𝛾. As previously, the other three lines link to 𝛾 as a random variable
+uniformly distributed, 𝑈 ∼ [0, ̂
+𝛾 ], with the same realizations obtained
+for the supplier. Accordingly, the following comments can be left:
+1. 𝛱𝑅 > 𝛱𝑅 when the delivery risks is known and the entire delivery process is secure and well managed, e.g., 𝛾 < 0.02. Furthermore,
+𝐸[𝛱𝑅 ∣ ̂
+𝛾 = 0.01] > 𝛱𝑅 always holds since the random error distributed
+as 𝑈 ∼ [0, 0.01] generates a level of variability that the system always
+tolerates. This implies 𝐸[𝛱𝑅 ∣ ̂
+𝛾 = 0.01] = 36.37 which is always higher
+than 𝛱𝑅 . This is confirmed by our simulations results, all resulting in
+a 𝑝 − 𝑣𝑎𝑙𝑢𝑒 < 0.05. Accordingly, as for the supplier, the presence of
+10
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+delivery risk. In fact, traditional online platforms are able to absorb the
+business volatility linked to services in most of the cases. Our simulations show that both firms have an economic incentive to implement a
+blockchain only when 𝜙̂ > 0.25, resulting 𝐸[𝛱𝑖 ∣ 𝜙̂ = 0.25] < 𝛱𝑖 with
+𝑝 − 𝑣𝑎𝑙𝑢𝑒 < 0.05 and 𝑖 = 𝑆, 𝑅.
+
+a low delivery risk suggests for not pursuing the implementation of a
+blockchain.
+2. When the delivery risk takes values according to the stochastic
+distribution 𝑈 ∼ [0, 0.05], it results that 𝛱𝑅 = 𝛱𝑅 in 83% of our
+simulation results, statistically supported by 𝑝 − 𝑣𝑎𝑙𝑢𝑒 > 0.05 (yellow
+line in Fig. 4b). In these cases, the probability that a blockchain grants
+sufficient economic advantages is very marginal, suggesting that a
+supply chain managed through a traditional online system is able to
+absorb the medium levels of delivery risks even without the adoption
+of blockchain technologies.
+3. High delivery risks distributed through 𝑈 ∼ [0, 0.1] always call
+for the adoption of blockchain as 𝐸[𝛱𝑅 ∣ ̂
+𝛾 = 0.1] = 12.63 < 𝛱𝑅 is
+always statistically supported with 𝑝 − 𝑣𝑎𝑙𝑢𝑒 < 0.05. Fig. 4b describes
+the behavior of the retailer’s profits under this scenario and shows that
+𝐸[𝛱𝑅 ∣ ̂
+𝛾 = 0.1] < 𝛱𝑅 in most of the cases: Our statistical tests
+confirm this result in 98% of the cases, suggesting that the adoption
+of blockchains entails a profit-improving effect with high probability.
+To summarize, the analysis of the stochastic delivery risk shows a
+direct connection between 𝛾 and the decision of adopting blockchains.
+High (low) volatility of deliveries suggest to adopt (disregard)
+blockchain technology, while the presence of medium delivery risk
+creates several economic doubts. In fact, traditional online platforms
+can still absorb medium levels of delivery risks and ensure an effective
+management of transactions without the use of blockchains.
+
+7. Smart contracts in blockchains
+In this section, we explore two options available for the SC to
+pursue a blockchain project while allowing some contract terms to be
+automatically adjusted by a Virtual Machine or/and an Artificial Intelligence (AI) (De Giovanni, 2019a). Smart contracts, which use ethereum
+for a proper implementation, allow self-executing scripts that reside
+on the blockchain, leading to an integration of these concepts within
+the SC negotiations and allowing for proper, distributed, and heavily automated workflows (Christidis and Devetsikiotis, 2016). Raskin
+(2017) defines a smart contract as an agreement wherein execution
+is automated by a computer that ensures performance and execution
+without recourse to the courts and mitigating any human discretion.
+Therefore, a smart contract is a computer protocol intended to digitally facilitate, verify, and enforce the negotiation or performance of
+a contract (Szabo, 1994). Proponents of smart contracts claim that
+many kinds of contractual clauses may be made partially or fully selfexecuting, self-enforcing, or both (Brown, 2015), and can be based on
+both forward and reverse activities (De Giovanni and Zaccour, 2019b).
+Considering the framework under investigation we propose two smart
+contracts: a smart wholesale price contract and a smart revenue sharing
+contract. To activate these two contracts, blockchain technology needs
+to be connected to the eco-system by using oracles. These are drivers
+that allow firms to move from the physical world to the digital world
+and solve off-line operational issues like the first mile and the last
+mile. The oracles can be of several types: Hardware oracles (data from
+physical world), software oracles (data from online world), human
+oracles (consensus for data validation), inbound oracles (external data
+as input for the smart contract), and outbound oracles (smart contract
+as an input for the external world). The oracles take information from
+the physical world, create and adjust incentives for every undertaken
+action, and distribute tokens and/or cryptocurrencies through the smart
+contracts and according to the information exchange.
+
+6.2. Analysis of the service risk, 𝜙
+Compared to the delivery risk, the service risk, 𝜙, has a lower impact
+on the firms’ choices of adopting a blockchain. We report the analysis
+of the firms’ profits in Fig. 5.
+Note the firms profits 𝛱𝑆 and 𝛱𝑅 are described by a red line
+and both decrease in 𝜙, while the green lines corresponds to 𝛱𝑆 and
+𝛱𝑅 , which are independent of 𝜙. The other lines reflect the firms’
+profits that were obtained by simulating the uniformly distributed,
+̂
+̂
+𝑈
+( ∼ [0, 𝜙],) where the(service )risk can take low (𝜙 = 0.01), or medium
+𝜙̂ = 0.05 , or high 𝜙̂ = 0.1 values. This analysis informs on how
+different realizations and uncertainty levels linked to 𝜙 influence the
+firms’ preferences in the implementation of blockchains. Accordingly,
+we can observe that:
+1. The supplier should evaluate the adoption of blockchain only
+when the service risk is very high. Our analysis informs that 𝐸[𝛱𝑆 ∣
+𝜙̂ = 0.01] = 4.81 > 𝛱𝑆 in all simulations, with 𝑝 − 𝑣𝑎𝑙𝑢𝑒 < 0.05;
+therefore, the supplier never implements the blockchain when the
+consumer risk is low because there is a significant statistical evidence
+that the suppliers’ profits would be always penalized by adopting the
+technology. Similarly, 𝐸[𝛱𝑆 ∣ 𝜙̂ = 0.05] = 4.39 > 𝛱𝑆 in all simulations
+with 𝑝 − 𝑣𝑎𝑙𝑢𝑒 > 0.05; hence, implementing blockchain technology
+does not supply any significant economic improvement. Finally, when
+𝑈 ∼ [0, 0.1], the supplier has certain probability to improve the profits
+as the difference between 𝐸[𝛱𝑆 ∣ 𝜙̂ = 0.05] = 3.86 and 𝛱𝑆 would
+not be statistically different from zero in 34% of the case. Therefore,
+the supplier can improve the profits through the implementation of
+blockchain technology with 66% probability of success.
+2. As the supplier, also the retailer finds the service risk less detrimental than the delivery risk. We obtain that 𝐸[𝛱𝑅 ∣ 𝜙̂ = 0.01] =
+32.66 > 𝛱𝑅 in all simulations, with 𝑝 − 𝑣𝑎𝑙𝑢𝑒 < 0.05; therefore, the
+retailer considers the implementation of a blockchain as not economically convenient for low consumer risk, e.g., 𝜙̂ = 0.01. Also, 𝐸[𝛱𝑅 ∣
+𝜙̂ = 0.05] = 29.67 > 𝛱𝑅 in all simulations with 𝑝 − 𝑣𝑎𝑙𝑢𝑒 > 0.05;
+hence, the retailer does not obtain any statistically significant profit
+improvement through blockchain when 𝜙̂ = 0.05. Finally, it results
+̇ 𝑆 in 57% of the cases that we
+that 𝐸[𝛱𝑅 ∣ 𝜙̂ = 0.1] = 20.14>𝛱
+explored. Consequently, the service risk affects the retailer’s profits only
+marginally, while it has significant effect only for very high levels.
+To summarize, the analysis of 𝐸[𝛱𝑆 ] informs that both firms have
+lower troubles when facing the service risk than when managing the
+
+7.1. A smart wholesale price contract
+When the blockchain can carry out smart wholesale price contracts,
+the AI determines the best wholesale price to finalize the transactions.
+Within our framework, this signifies that the wholesale price, 𝑤, is no
+longer a fixed contractual term but rather varies according to the AI
+algorithms and protocols developed in the blockchain. As mentioned
+for the -game, the retailer is the main initiator of a blockchain technology because her business is considerably affected by the transaction
+inefficiency and business risks. Therefore, the retailer should work with
+blockchain developers to define a protocol that allows the Blockchain
+̃ to allow the supplier to close
+to determine a new wholesale price, 𝑤,
+the negotiations on blockchains rather than on online platforms. Hence,
+̃ represents an economic incentive that the supplier receives if he
+𝑤
+agrees to adopt a blockchain with a smart wholesale price. To do so, the
+retailer must guarantee that the AI protocol determines the wholesale
+̃ > 𝑤; otherwise, the solid area depicted in Fig. 3 (LHS)
+price such that 𝑤
+is reduced even more. Therefore, in all cases in which 𝛱𝑆 > 𝛱𝑆 , the
+supplier expects the wholesale price to be set in a way that he gains at
+least the same profits as in the -game. Finally, the AI should search
+̃∶𝑤
+̃ > 𝑤 and 𝛱𝑆 ≤ 𝛱  ̃ .
+for 𝑤
+𝑆∣𝑤=𝑤
+Proposition 10. When using a smart wholesale price contract in the
+̃∶𝑤
+̃ > 𝑤 and 𝛱𝑆 ≤ 𝛱  ̃ .
+blockchain, the AI fixes 𝑤
+𝑆∣𝑤=𝑤
+11
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+Fig. 5. Firm 𝑖’s profits (𝑖 = 𝑆, 𝑅) and service risk, 𝜙.
+
+Proof. Compute
+
+(
+)
+𝜕 𝛱𝑆 −𝛱𝑆
+𝜕𝑤
+
+as by the variable cost linked to the amount of data exchanged within
+the blockchain platform, the number and size of the transactions,
+and the time spent over the blockchain to obtain the consensus of
+all participants. Therefore, we aim at implementing a revenue-based
+blockchain that smartly identifies the contractual terms (and in particular the sharing parameter) through which the digital transformation
+can represent a convenient step for all SC members. Therefore, we
+complement the existing contract with a smart RSC, requiring firms
+to play a new game. Accordingly, the firms’ profits are modified as
+follows:
+{
+( )2
+[ 
+]
+(
+) 𝑐𝐴 𝐴
+𝛱𝑆 = max
+𝛼𝑄 − 𝛽𝑝 + 𝜃𝐴 𝑝 𝜎 + 𝑄 𝑤 − 𝑐𝑆 −
+2
+𝐴
+}
+
+and solve with respect to 𝑤 to obtain:
+
+⎧
+⎫
+(
+(
+))
+𝛼 2 𝑐𝑆 2𝛽(𝛾 − 2)𝛾𝛤1 𝛤3 + 𝜃 2 (𝛾 − 2)𝛾 − 𝛤12 (1 − 𝛾)2 𝜙 (𝜙 + 2)
+⎪
+⎪
+(
+(
+)) ( (
+)
+( 2
+))⎬
+⎨
+2
+2
+𝛤3 𝛤5 + 2𝛽𝜆𝑅 − 𝜆𝑆 𝛤5 + 2𝛽𝛤3 ⎪
+⎪−𝛼𝛽𝛾𝑐𝑅 𝛤1 𝛤3 + 𝑐𝑇 𝛤1 + 𝛼𝛤3 𝛽𝑣𝛤1 + 𝜃 𝛼𝑐𝐵 𝜃 + 𝛤1 𝑣
+⎩
+⎭
+̃=
+𝑤
+(
+(
+))
+𝛼 2 4𝛽(𝛾 − 2)𝛾𝛤1 𝛤3 + 𝜃 2 (𝛾 − 2)𝛾𝛤42 − (1 − 𝛾)2 𝜙2 𝛤12 + 2(1 − 𝛾)2 𝜙𝛤12
+
+where 𝛤1 = 𝛼 2 − 2𝛽𝑐𝑄 , 𝛤2 = 𝛼 2 (1 − 𝛾) − 2𝛽𝑐𝑄 , 𝛤3 = 𝛼 2 (1 − 𝛾)2 − 2𝛽𝑐𝑄 ,
+𝛤4 = 𝛼(1 − 𝛾) − 2𝛽𝑐𝑄 , and 𝛤5 = 𝛼(1 − 𝛾)𝜃(1 − 𝜙). □
+̃ is the contract parameter detected by the AI that makes the
+𝑤
+supplier willing to accept working through a blockchain. This new
+contractual clause is also beneficial for the retailer, as it clearly results
+from the following proposition:
+
++𝐴 𝑣 − 𝑄 𝑐𝐵
+
+Proposition 11. When using a smart wholesale price contract in the
+blockchain, the firms’ strategies change positively and the retailer’s profits
+increase.
+Proof. Check that
+𝜕𝑄∗
+𝜕𝑤
+
+=
+
+∗
+𝛼 𝜕𝐴𝜕𝑤
+
+𝜃−𝛽
+
+2𝛽𝑐𝑄 −𝛼 2
+
+𝜕𝐴∗
+𝜕𝑤
+
+=
+
+> 0 and
+
+𝛼𝜃
+(2𝛽𝑐𝑄 −𝛼2 )𝑐𝐴
+𝜕𝐷∗
+𝜕𝑤
+
+=
+
+> 0,
+
+𝜕𝑝∗
+𝜕𝑤
+
+𝜕𝐴∗ 𝜃𝛽𝑐𝑄
+𝜕𝑤 2𝛽𝑐𝑄 −𝛼 2
+
+=
+
+𝜕𝐴∗
+𝜕𝑤
+
+{
+𝛱𝑅 = max
+
+𝑝 ,𝑄
+
+𝜃𝑐𝑄 −𝛼 2
+
+2𝛽𝑐𝑄 −𝛼 2
+
+> 0,
+−
+
+> 0. Therefore, Since
+
+[ 
+](
+)
+(
+)
+𝛼𝑄 − 𝛽𝑝 + 𝜃𝐴 𝑝 (1 − 𝜎) − 𝑐𝑅 + 𝑣 − 𝑄 𝑤 + 𝑐𝐵
+
+( )2
+𝑐𝑄 𝑄
+2
+
+(5)
+
+}
+− 𝐹
+
+(6)
+
+where 𝜎 ∈ (0, 1) is the sharing parameter and informs on the fraction
+of the retailer’s revenues that are transferred to the supplier. Note that
+the supplier is much more involved in the SC business than in the other
+cases because his profits also depend on the revenues that the retailer
+generates. Accordingly, we characterize the equilibria for the game in
+the following proposition.
+
+̃ > 𝑤, it results that 𝐴∗ ̃ > 𝐴∗ , 𝑄∗ ̃ > 𝑄∗ , 𝑝∗ ̃ > 𝑝∗ and
+𝑤
+∣𝑤=𝑤
+∣𝑤=𝑤
+∣𝑤=𝑤
+∗
+
+𝐷∣𝑤=
+> 𝐷∗ . Consequently, 𝛱𝑅∣𝑤=
+> 𝛱𝑆 . □
+̃
+̃
+𝑤
+𝑤
+
+Our simulations, which are displayed in Fig. 6 and summarize the
+results in Propositions 10 and 11, show that the smart wholesale param̃ guarantees a positive impact of blockchains on firms’ profits.
+eter, 𝑤,
+Fig. 6 shows the results for the -game when 𝑤 = 0.8 (benchmark
+̃ = 𝑤 + 𝛥𝑤, where
+value) and the results for the -game with 𝑤
+𝛥𝑤 is a positive percentage increase and informs how much the AI
+̃ > 𝑤 and 𝛱𝑆 ≤
+should increase the wholesale price such that 𝑤
+
+𝛱𝑆∣𝑤=
+.
+Accordingly,
+the
+retailer
+can
+persuade
+the
+supplier to work in
+̃
+𝑤
+
+Proposition 12. The firms’ strategies in the -game are:
+𝑄∗ =
+𝑝∗
+
+(
+(
+))
+(
+)
+𝛼 𝐴∗ 𝜃 (1 − 𝜎) + 𝛽 𝑣 − 𝑐𝑅 − 2 𝑤 + 𝑐𝐵 𝛽
+
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝜎)
+( (
+(
+))
+)
+(
+)
+(1 − 𝜎) 𝛼 𝑤 + 𝑐𝐵 + 𝛼 𝑐𝑅 − 𝑣 − 𝐴∗ 𝜃𝑐𝑄 − 𝑐𝑄 𝛽 𝑐𝑅 − 𝑣
+=
+(
+)
+2
+(1 − 𝜎) 2𝛽𝑐𝑄 − 𝛼 (1 − 𝜎)
+{
+[
+]
+𝑣(2𝑐𝑄 𝛽 2 − 𝛼 2 (1 − 𝜎) + 𝑐𝑄 𝜎𝛽𝜃 ) + 𝛼𝜃(𝑐𝐵 (1 − 𝜎)2 𝛼 2 − 2𝑐𝐵 𝑐𝑄 𝛽
+
+(7)
+(8)
+}
+
+a blockchain and then close the SC negotiations only when the supplier
+gets a wholesale price 22.5% higher than the wholesale price charged
+in the -game. The smart wholesale price allows the supplier to be
+indifferent between traditional online platforms and blockchains, while
+leading the retailer’s profits to a considerable increase (+18%).
+
+By substitution, the optimal sales and firms’ profits are 𝐷∗ , 𝛱𝑆∗ and 𝛱𝑅∗ .
+
+7.2. A smart revenue sharing contract (-game)
+
+Proof. See Appendix. □
+
+This section investigates the option of adopting a smart Revenue
+Sharing contract (RSC) in the SC. The idea behind the creation of an
+ad-hoc contract comes from the inefficiency that the adoption of a
+blockchain leaves, which is exemplified by the cost for implementing
+and integrating its functionalities within the IS that firms use as well
+
+Interestingly, the implementation of a smart RSC is the only scenario in which the supplier’s service efforts are also influenced by the
+retailer’s price. Therefore, the analytical solution on 𝐴 is much more
+involved than in other scenarios. However, compared to the  -game,
+the solution gives new insights only with the respect to the sharing
+parameter 𝜎, which we display in Fig. 7.
+
+𝐴∗ =
+
+12
+
+−((1 − 𝜎)2 𝛼 2 − 2𝑐𝑄 (1 − 2𝜎)𝛽)𝑤) − 𝛼𝜃(𝑐𝑄 𝜎𝛼𝛽𝑐𝑅 + (1 − 𝜎)(2𝑐𝑄 𝛽(1 − 𝜎)𝛼 2 )𝑐𝑆 )
+𝑐𝐴((−1 + 𝜎)𝛼 2 + 2𝑐𝑄 𝛽)2 − 2𝑐𝑄2 𝜎𝛽𝜃 2
+
+.
+
+(9)
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+Fig. 6. Profits and smart wholesale price.
+
+Proposition 14. When using a blockchain with a smart RSC, the retailer
+purchases higher quantity, charges higher prices, and sells more units when
+𝜎 ∈ 𝛴(0, 𝜎].
+Proof. Use the results in Proposition 13 and the Envelop Theorem to
+
+show – 𝜕𝑄
+given in Box III.
+𝜕𝜎
+When proposing a smart RSC, the retailer becomes very proactive
+in the SC business development through digital transformation tools.
+The use of blockchains complemented with smart RSCs makes the sales
+the driver of success. On the one hand, the retailer needs to boost the
+sales to recover a part of his revenues that will go to the supplier. On
+the other hand, increasing the sales allows the retailer to provide high
+levels of incentives to the supplier to increase the service efforts. In fact,
+different from the other scenarios, the supplier’s profits also depend on
+sales; therefore, he has a certain interest in increasing sales as much
+as possible. In contrast, in the other scenarios, the supplier’s profits
+depend only on the quantity sold to the retailer. The higher level of
+responsibility, involvement, and commitment of the supplier translates
+into higher chances to increase the firm’s economic outcomes.
+Note that the business opportunities offered through a smart RSC developed and proposed by blockchain applications leaves the consumers
+worse off from an economic point of view. As displayed in Proposition 14, the retailer charges higher prices when a smart RSC is in place,
+leading several consumers to turn away. However, the higher price does
+not translate into lower sales. This is due to the higher quantity that the
+retailer puts in the market, which increases the availability of the goods
+to a wider population. Therefore, a compensating effect exists between
+quantity availability and service with the pricing strategy that goes in
+favor of increasing overall sales under a smart RSC in blockchains.
+
+Fig. 7. Service efforts, 𝐴 , and sharing parameter, 𝜎.
+
+Different from all other scenarios, the supplier’s service efforts are
+highly dictated by the amplitude of the sharing parameter suggested
+by the smart contract. Interestingly, we can see that a discontinuity
+point exists around 𝜎 = 0.05, meaning that the retailer shares 5% of
+her revenues with the supplier. Clearly, the suppliers efforts increase
+proportionally to the sharing parameter lower than 5%, resulting in
+𝜕𝐴
+> 0 ⟺ 𝜎(0, 𝜎], with 𝜎 = 0.05. After the threshold 𝜎, the
+𝜕𝜎
+smart contract requires too many efforts from the supplier’s side, whose
+service efforts become non-feasible (e.g., the supplier invests a negative
+quantity to push the retailer to abandon the idea of using the smart
+RSC). Therefore, we can formulate the following claim:
+Claim 1. The smart RSC incentivizes the supplier to invest more in service.
+However, overly high incentives require a large service investment that the
+supplier may not be able to afford.
+
+Proposition 15. When using a blockchain with a smart RSC, the SC
+members’ profits increase in the sharing parameter when 𝜎 ∈ 𝛴(0, 𝜎]. In
+comparison to the profits in the -game, three cases are possible:
+1. 𝜎 ∈ (0, 𝜎𝑅 ]; therefore, 𝛱𝑆 < 𝛱𝑆 and 𝛱𝑅 ≤ 𝛱𝑅 ;
+
+Note that for 𝜎 > 0.2 the service efforts become positive again.
+Nevertheless, they lead to losses for the supplier, suggesting that the
+only way for a smart RSC to grant economic advantages to the whole
+SC is to set up a share 𝜎 ∶ 𝜎 ∈ 𝛴(0, 𝜎].
+
+2. 𝜎 ∈ (𝜎𝑅 , 𝜎𝑆 ]; therefore, 𝛱𝑆 ≤ 𝛱𝑆 and 𝛱𝑅 > 𝛱𝑅 ;
+3. 𝜎 ∈ (𝜎𝑆 , 𝜎]; therefore, 𝛱𝑆 > 𝛱𝑆 and 𝛱𝑅 > 𝛱𝑅 .
+The findings in Proposition 13, which are also summarized in Fig. 8,
+can be explained as follows:
+1. The blockchain will never propose a smart RSC with a sharing
+parameter lower than 𝜎𝑅 . In fact, the region of sharing parameter
+𝜎 ∈ (0, 𝜎𝑅 ] identifies the space inside which none of the SC members
+benefits from the adoption of a blockchain complemented with a smart
+RSC. This insight signals to SC members that, for non-digital SC applications, the use of sharing agreements can results in a worst-case
+
+Proposition 13. When using a blockchain with a smart RSC, the supplier
+invests more in service when 𝜎 ∈ 𝛴(0, 𝜎].
+The sharing parameter region 𝛴 that ensures higher investments in
+service also guarantees that the supplier’s strategy is positive. Therefore, it becomes a necessary condition for optimality, which ensures
+positivity of the other strategies, sales, and profits.
+13
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+[
+] 
+( ( (
+)
+(
+))
+)
+𝛼𝜃 (1 − 𝜎) 2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝜎) 𝜕𝐴
++ 𝛼 𝛼 2 𝑤 + 𝑐𝐵 + 𝛼 𝑐𝑅 − 𝑣 − 2𝐴𝜃𝑐𝑄 𝛼𝛽
+𝜕𝑄
+𝜕𝜎
+=
+> 0,
+–
+(
+)2
+𝜕𝜎
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝜎)
+}
+{
+{ }
+(
+)
+{ }
+[
+(
+)]
+
+𝜃𝑐𝑄 (1 − 𝜎) 𝐷𝐸𝑁 𝑝 − 2 𝛽𝑐𝑄 − 𝛼 2 (1 − 𝜎) 𝑁𝑈 𝑀 𝑝
+𝐴 𝜃𝑐𝑄 − 𝛼 𝑤 + 𝑐𝐵 + 𝛼 𝑐𝑅 − 𝑣 − 𝜕𝐴
+𝜕𝜎
+𝜕𝑝
+–
+=
+> 0,
+(
+)2
+𝜕𝜎
+(1 − 𝜎)2 2𝛽𝑐 − 𝛼 2 (1 − 𝜎)
+𝑄
+
+𝜕𝑝
+𝜕𝑄
+𝜕𝐴
+𝜕𝐷
+=
+−𝛽
++𝜃
+> 0. □
+–
+𝜕𝜎
+𝜕𝜎
+𝜕𝜎
+𝜕𝜎
+Box III.
+
+option when the negotiation ends without a proper arrangement of the
+financial flows. At the same time, this finding informs that firms seeking
+to implement this type of digital blockchain configuration should be
+ready to share a bit more revenues than firms in classical business.
+2. When the blockchain is fully managed by the retailer and the
+intent is to optimize only the retailer’s profits, the smart RSC will
+suggest offering 𝜎 ∈ (𝜎𝑅 , 𝜎𝑆 ]. This solution may be a bit risky for the
+retailer because the supplier is in a worse situation than a traditional
+online business. Hence, the supplier can decide not to accept the
+contract if other options are available in the market. Consequently,
+retailers are advised to undertake a blockchain with a smart RSC and
+propose 𝜎 ∈ (𝜎𝑅 , 𝜎𝑆 ] only when the supplier does not have alternative
+retailers to work with, resulting in a weaker market position.
+3. When the smart RSC suggests to offering a 𝜎 ∈ (𝜎𝑆 , 𝜎], both firms
+are in a better off negotiation and achieve a profit-Pareto-improving
+situation. In this case, it is in the best interest of both firms to have a
+blockchain algorithm that suggests to the retailer offering the maximum
+sharing parameter, 𝜎; in such a case, the supplier gets a large portion of
+the retailer’s profits and then has considerable incentive to invest the
+highest possible amount in service. From her side, the retailer purchases
+the maximum possible quantity from the supplier and charges the
+highest possible price to extract as much economic value as possible
+from the market. Overall, the smart RSC makes the SC highly efficient
+and profitable when 𝜎 ∈ (𝜎𝑆 , 𝜎]. In particular, the retailer allows the
+blockchain to smartly change the sharing parameter and offering a
+share of 2.5% to make the supplier indifferent between negotiating in
+blockchains or in traditional online platforms.
+
+cost for energy to run the blockchains, cost for the blockchain usage,
+and cost for the time spent waiting for the block change consensus.
+Therefore, managers can properly assess the real benefits of blockchains
+only when a correct comparison between the cost savings from traditional transactions and the business risk mitigation generate more value
+than the blockchain implementation and management. Furthermore,
+managers should also spend some time to quantify the tokens granted
+by a blockchain. This is exemplified by, for example, the trust that
+the firm gains within the SC, the knowledge of the other companies’
+behavior and performance, the visibility of all operations, and the
+warranty to always perform to consumers’ expectations. These (soft)
+features gained through a blockchain are not immediately quantifiable;
+however, managers should assign a value to the single knowledge
+creation piece acquired through the use of the blockchain to properly
+evaluate its implementation.
+3. Beyond transaction costs and investments, managers should carefully evaluate the impact of business risks on their economic performance. The service risks have a marginal impact on the decision to
+implement a blockchain. This is most likely linked to the information
+flows that consumers generate through online systems, social networks,
+and sharing platforms, which allow firms to update their strategies
+accordingly. Differently, the delivery risks are more dangerous for SC
+management; therefore, managers should properly map all business
+risks associated to the delivery process and setup a blockchain system
+that considers and optimizes all of them.
+4. The ‘‘pure’’ adoption of a blockchain cannot be very appealing,
+especially from an economic point of view. That is, investing in a
+blockchain only to gain transparency, visibility, and security while
+getting rid of transaction costs and business risks may not be sufficient
+to justify the implementation of blockchain technology. In such circumstances, we suggest that managers look at smart contract parameters
+to be modified autonomously by the Blockchain. One of the most
+interesting parameters that blockchains can modify in our setting is
+the wholesale price. Therefore, once the blockchain becomes operative,
+the wholesale price is determined by the AI rather than be predefined.
+Clearly, the blockchain is able to generate the wholesale price variation
+that is needed to increase firms’ willingness to use Blockchains. For example, the retailer should give a higher wholesale price to the supplier
+. Specifically, a 25% increment in the wholesale price leads the supplier
+to be willing to use blockchains while granting an 18% increase in
+the retailer’s profits. Hence, using a smart wholesale price gives a true
+chance to gain all benefits linked to blockchain technologies.
+5. Although the smart wholesale price works well to make the
+blockchain function, the wholesale price increase can be considered
+as to be too high and retailers can be reluctantly to move forward
+with blockchains. Thus, we suggest that managers complement the
+blockchain technology with a smart RSC. In such a case, the AI of
+the blockchain determines the fraction of the retailer’s revenues to be
+transferred to the supplier to make it willing to use the new digital
+platform. Our results indicate that a share of 2.5% already gives sufficient economic incentive to the supplier to use the blockchain, while
+generating a 110% increase in the supplier’s profit. Differently from the
+smart wholesale price, the smart RSC makes the supplier responsible
+
+8. Managerial insights
+This section offers managerial insights, which can help managers
+better evaluate whether to pursue a project based on blockchain technologies. The managerial insights can be summarized in four main
+points, as detailed below:
+1. Managers should look at investments in blockchain technologies
+when the transaction costs over the SC are high and when the related
+business risks are high as well. Among all constellations of business
+risks that exist in nature, we focus on two: The delivery risks and
+the service risks. Both have a negative impact on firms’ business and
+the whole SC efficiency. Therefore, when one of those features takes
+a high value, firms should evaluate the implementation, integration,
+and use of blockchains along with their current IS. Firms can expect
+both operational advantages and economic gains. The operational improvements link to: (a) better consumer service and, hence, level of
+service, (b) increasing the competitive position through a wider market
+offer and increasing sales (with market share implications as well),
+and (c) the possibility to charge higher final prices and, consequently,
+extract more economic value from the market. The pricing strategy does
+not discourage consumers from purchasing thanks to the compensating
+effect of better services and market presence.
+2. Managers should be aware that blockchains are not free. They
+carry costs for installing and integrating them in firms’ current IS.
+There are also additional marginal (variable) costs to consider, such as
+14
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+Fig. 8. Profits and smart RSC.
+
+in the retailer’s revenue achievement and is more adequate when the
+blockchain efficiency and business risks have considerable impact on
+the SC affairs.
+
+in the decision-making process. Therefore, SCs should compare the
+transaction costs and the business risks of a traditional online platform
+with the variable blockchain cost. The firms’ strategies and policies can
+always be set to overcome the limits of the initial investments, while
+the number of tokens alone is not sufficient to justify the adoption of
+a blockchain. Furthermore, the transaction costs and the business risks
+of traditional platforms have a considerable impact on the blockchain’s
+economic advantages. Specifically, when the transaction costs and/or
+the business risks are negligible, the adoption of blockchains is operationally inefficient and economically not appealing. Our simulations
+demonstrate that the delivery risks have more prominent effects than
+service risks. The latter can be mitigated by a traditional online platform in most of the cases, being detrimental only for volatility higher
+than 20%. In contrast, the delivery risk has considerable effect on both
+firms profits. Delivery risk of 10% suggests to implement blockchain
+technology. We demonstrate that the blockchain should request a smart
+wholesale price to overcome these limitations. In particular, the retailer
+can offer a (minimum) wholesale price increase of 25% to improve its
+profits of 18% while allowing the supplier to gain the same amount of
+money as in an online platform. Therefore, the smart wholesale price
+allows the SC to achieve a profit-Pareto-improving situation and make
+the blockchain successful.
+Although the smart wholesale price can be a good incentive for
+suppliers to work and finalize transactions on a blockchain, having the
+retailer offering a 25% wholesale price increase may imply huge investments for her side. This insight leaves rooms to complement blockchain
+applications with a smart RSC. Based on the previous statements, the
+blockchain alone is not always convenient even if it generates a smart
+contract based on a classical wholesale price mechanism. Therefore,
+we evaluate the existence of an AI supporting the blockchain that
+adds new features to the negotiations and that proposes a smart RSC.
+In contrast to the smart wholesale price, which is a pure monetary
+incentive based on the quantity that the retailer orders, the smart RSC
+incentivizes the supplier in two ways: First, it proposes a share of
+the retailer’s revenues coming on top of its profits; second, the smart
+RSC makes the supplier responsible for the retailer’s revenue growth
+by acting through the services. Our analysis demonstrates that the
+supplier can offer a minimum 2.5% share to increase its profits of
+110%, while ensuring to the supplier a profit as in an online platform.
+Therefore, blockchain technologies complemented with smart RSC are
+more successful than both traditional online platforms and blockchains
+based on smart wholesale contracts.
+Our analysis depends on several simplifying assumptions that lead
+to some limitations. First, we characterize a game on a brick-andmortar SC. Other configuration types can be developed to investigate
+
+9. Conclusions
+This paper investigates the operational and economic advantages
+that firms in a supply chain (SC) can obtain when managing their
+businesses through a blockchain rather than using traditional online
+platforms. We analyze a simple brick-and-mortar SC composed of one
+supplier and one retailer. The use of a traditional online platform
+carries both transaction costs and business risks. The former is linked to
+the management of global SC connections, requiring several intermediaries, governmental constraints, and cultural differences. The latter
+refer to the supply and delivery risks, which are not manageable by
+SC members, as well as by the service risks, linked to the real services
+provided by global suppliers differing from the original expectations.
+These weaknesses can lead the traditional online platforms to inefficient negotiations and risky businesses. All SC members adjust their
+strategic behavior accordingly: The supplier invests the lowest possible
+efforts in services, which may find very low appreciation by partners
+and consumers, especially in a global context; also, the retailer orders
+smaller quantity batches and sets lower prices since the overall business
+is strategically unappealing and highly risky.
+SCs can effectively overcome these negative issues through the
+implementation of a blockchain application. The blockchain has several
+good features (see Cole et al. (2019) for a comprehensive analysis),
+among which the information visibility, transparency, and security
+allow both the transaction costs and the supply and service risks to
+be fully mitigated. As with all Industry 4.0 technologies and digital
+transformation projects, blockchains imply undoubted drawbacks. In
+the particular SC framework that we model, SCs seeking to implement
+blockchains face fixed costs (e.g., investments for hiring IS experts) as
+well as variable costs (e.g., time and energy consumed when running
+complex blockchain networks). Hence, firms and SCs need to evaluate the negative implications of traditional online platforms with the
+blockchain inefficiency, along with the possible tokens and option value
+that the blockchain may imply. The latter refers to the gains in terms
+of trust, visibility and knowledge over the entire business, which allow
+decision makers to better adjust their strategies and define the most
+valuable policies. According to all these ingredients, our findings suggest that SCs have operational and economic motivations to implement
+blockchains when the variable cost due to the technology adoption,
+implementation, integration and usage is not too high. In contrast, the
+blockchain fixed cost and token value only have a marginal impact
+15
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+whether our findings can be generalized. Furthermore, future research
+can investigate the implications of other chain structures and check
+how different power structures and leadership positions can affect
+the results. This direction can be corroborated by endogenizing some
+ingredients that we considered as exogenous in this research, like the
+wholesale price and the fix cost for the blockchain implementation.
+Our blockchain model is composed of one block only, consisting of
+the transaction between the supplier and the retailer. Future research
+can look at the existence of more blocks and, consequently, more firms
+interacting within the SC, to see how the blockchain implications linked
+to the consensus affect its suitability. For example, future research
+can use the framework that we analyze as a benchmark and evaluate
+it within some specific settings, like, Walmart and Dole, which we
+mention in the introduction. We assume that the retailer covers the
+entire cost for implementing a blockchain since she is most likely
+affected by unsecure transactions. Future work can look at the area of
+collaborative planning and SC coordination to establish collaborative
+programs among firms pursuing blockchain projects. One interesting
+feature of a blockchain is that it allows the SC to accumulate knowledge
+over time and use this knowledge in the decision-making process.
+Future research can then look at dynamic modeling where firms using
+a blockchain accumulate knowledge through a dynamic equation and
+exploit it when dynamically setting their strategies. We focus our analysis on service, pricing and quantity, while other ingredients like lead
+time, quality, R&D, advertising, and location (just to mention a few)
+can be further considered to investigate the blockchain’s advantages.
+These features can lead to the analysis of new smart contracts
+based on quantity (e.g., quantity discount), pricing (e.g., minimum suggested price), sales (e.g., sales rebate), or performance
+achievements (e.g., strategic incentives). Future research can also
+look at testing the results of this research through empirical studies or
+through clinical cases. We have based parameter estimations, simulations, and framework according to a theoretical setting. Future research
+can start the analysis of blockchain from a case study, develop the
+parameter estimations accordingly, and run simulations within that
+particular framework. The blockchain is only one technology linked to
+the current digital transformation that has been analyzed. Other technologies (e.g., Industry 4.0) can complement our findings to investigate
+the synergistic effects among them. This is a current research theme
+that the authors are exploring.
+
+𝑝 =
+
+[
+(
+)]
+(
+)
+𝛼𝜃 (1 − 𝛾) (1 − 𝜙) 𝛼𝜃 (1 − 𝛾) (1 − 𝜙) 𝑤 − 𝑐𝑆 − 𝑐𝑇 𝜆𝑆 − 𝑐𝑇 2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+(
+)2
+𝑐𝐴 2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+( (
+)
+)
+𝛽 2 𝑤 + 𝜆𝑅 𝑐𝑇 + 𝛼𝑐𝑅 (1 − 𝛾)
+−
+(15)
+2
+2
+2𝛽𝑐𝑄 − 𝛼 (1 − 𝛾)
+(
+)
+(
+)
+(
+)
+𝑐𝑄 (1 − 𝜙)2 𝛼𝜃 2 (1 − 𝛾) 𝑤 − 𝑐𝑆 − 𝑐𝑇 𝜆𝑆 + 𝑐𝑄 𝛽𝑐𝑅 𝑐𝐴 − 𝑐𝑇 𝜃 (1 − 𝜙) 2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+
+𝑝 =
+(
+)2
+𝑐𝐴 2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+(
+)
+𝛼 𝑤 + 𝜆𝑅 𝑐𝑇 (1 − 𝛾) + 𝑐𝑅 𝛼 2 (1 − 𝛾)2
+(16)
+−
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+
+𝑄 =
+
+Using the constant terms 𝐾1 = 𝛼𝜃 (1 − 𝛾) (1 − 𝜙) and 𝐾2 = 2𝛽𝑐𝑄 −
+𝛼 2 (1 − 𝛾)2 , the optimal strategies can be rewritten as follows:
+(
+)
+𝐾1 𝑤 − 𝑐𝑆 − 𝑐𝑇 𝜆𝑆 − 𝑐𝑇 𝐾2
+𝐴 =
+(17)
+𝑐𝐴 𝐾2
+[ (
+)
+]
+𝐾1 𝐾1 𝑤 − 𝑐𝑆 − 𝑐𝑇 𝜆𝑆 − 𝑐𝑇 𝐾2
+𝑄 =
+𝑐𝐴 𝐾2
+( (
+)
+)
+𝛽 2 𝑤 + 𝜆𝑅 𝑐𝑇 + 𝛼𝑐𝑅 (1 − 𝛾)
+−
+(18)
+𝐾
+( 2
+)
+(
+)
+𝑐𝑄 (1 − 𝜙) 𝜃𝐾1 𝑤 − 𝑐𝑆 − 𝑐𝑇 𝜆𝑆 + 𝑐𝑄 𝛽𝑐𝑅 𝑐𝐴 − 𝑐𝑇 𝜃 (1 − 𝜙) 𝐾2
+𝑝 =
+(19)
+𝑐𝐴 𝐾22
+(
+)
+𝛼 𝑤 + 𝜆𝑅 𝑐𝑇 (1 − 𝛾) + 𝑐𝑅 𝛼 2 (1 − 𝛾)2
+−
+(20)
+𝐾2
+Substituting inside the firms’ objective function yields Eqs. (21)–(26)
+given in Box IV.
+Proof of Proposition 6. The firms objective functions are:
+( )2
+(
+) 𝑐𝐴 𝐴
+𝛱𝑆 = 𝑄 𝑤 − 𝑐𝑆 −
++ 𝐴 𝑣 − 𝑄 𝑐𝐵
+2
+( )2
+𝑐𝑄 𝑄
+[
+](
+)
+𝛱𝑅 = 𝛼𝑄 − 𝛽𝑝 + 𝜃𝐴 𝑝 − 𝑐𝑅 + 𝑣 − 𝑄 𝑤 −
+2
+−𝐹  − 𝑄 𝑐𝐵
+
+−𝜆𝑅 𝑄 𝑐𝑇 𝑅
+
+(10)
+(  )2
+𝑐𝑄 𝑄
+2
+
+Maximizing the retailer’s objective function with respect to price, 𝑝 ,
+and the quantity to order, 𝑄 , we obtain the following best response
+functions:
+𝑄 =
+
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+
+(28)
+
+Plugging these equations inside the supplier’s objective function gives:
+(
+(
+))
+(
+)
+𝛼 𝐴 𝜃 + 𝛽 𝑣 − 𝑐𝑅 − 2 𝑤 + 𝑐𝐵 𝛽 (
+)
+𝛱𝑆 =
+𝑤 − 𝑐𝑆 − 𝑐𝐵
+2𝛽𝑐𝑄 − 𝛼 2
+( )2
+𝑐𝐴 𝐴
+( )
+−
++ 𝐴 𝑣
+(29)
+2
+
+(11)
+
+( (
+)
+)
+𝛼𝜃𝐴 (1 − 𝛾) (1 − 𝜙) − 𝛽 2 𝑤 + 𝜆𝑅 𝑐𝑇 + 𝛼𝑐𝑅 (1 − 𝛾)
+
+(27)
+
+Maximizing the retailer’s objective function with respect to price, 𝑝 ,
+and the quantity to order, 𝑄 , we obtain the following best response
+functions:
+(
+(
+))
+(
+)
+𝛼 𝐴 𝜃 + 𝛽 𝑣 − 𝑐𝑅 − 2 𝑤 + 𝑐𝐵 𝛽
+𝑄 =
+2𝛽𝑐𝑄 − 𝛼 2
+( 
+(
+))
+( (
+)
+)
+𝑐𝑄 𝐴 𝜃 + 𝛽 𝑣 − 𝑐𝑅 + 𝛼 𝛼 𝑣 − 𝑐𝑅 − 𝑤 − 𝑐𝐵
+𝑝 =
+2𝛽𝑐𝑄 − 𝛼 2
+
+Appendix
+
+[
+)
+](
+= 𝛼𝑄 (1 − 𝛾) − 𝛽𝑝 + 𝜃𝐴 (1 − 𝜙) 𝑝 − 𝑐𝑅 − 𝑄 𝑤 −
+
+(13)
+
+Solving with respect to the service efforts, 𝐴 , gives: Accordingly, the
+retailer’s strategies become:
+
+I would thank the Editors and the two anonymous reviewers for the
+time and the efforts spent in handling and reviewing this paper. Their
+valuable comments allowed me to improve the research. I would also
+thank my colleagues at the Department of Business and Management
+at Luiss University (Rome), for the feedback that they give me when
+presenting a preliminary version of the research to a Faculty seminar.
+
+𝛱𝑅
+
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+
+Plugging these equations inside the supplier’s objective function gives:
+( (
+)
+)
+𝛼𝜃𝐴 (1 − 𝛾) (1 − 𝜙) − 𝛽 2 𝑤 + 𝜆𝑅 𝑐𝑇 + 𝛼𝑐𝑅 (1 − 𝛾)
+
+𝛱𝑆 =
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝛾)2
+( )2
+(
+) 𝑐𝐴 𝐴
+× 𝑤 − 𝑐𝑆 − 𝜆𝑆 𝑐𝑇 −
+− 𝐴 𝑐𝑇
+(14)
+2
+
+Acknowledgments
+
+Proof of Proposition 1. The firms objective functions are:
+( )2
+(
+)
+(
+) 𝑐𝐴 𝐴
+− 𝜆𝑆 𝑄 + 𝐴 𝑐𝑇 𝑅
+𝛱𝑆 = 𝑄 𝑤 − 𝑐𝑆 −
+2
+
+(
+)
+(
+)
+𝑐𝑄 𝜃𝐴 (1 − 𝜙) + 𝛽𝑐𝑅 − 𝛼 𝑤 + 𝜆𝑅 𝑐𝑇 (1 − 𝛾) − 𝑐𝑅 𝛼 2 (1 − 𝛾)2
+
+Solving with respect to the online service efforts, 𝐴 , gives:
+( (
+)
+)
+2𝑣𝛽𝑐𝑄 + 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼
+𝐴 =
+(
+)
+2𝛽𝑐𝑄 − 𝛼 2 𝑐𝐴
+
+(12)
+16
+
+(30)
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
+)]
+)
+) [
+( (
+(
+𝐾12 𝑤 − 𝑐𝑆 − 𝑐𝑇 𝜆𝑆 − 𝑐𝑇 𝐾1 + 𝛽 2 𝑤 + 𝜆𝑅 𝑐𝑇 + 𝛼𝑐𝑅 (1 − 𝛾) 𝐾2 (
+)
+𝑤 − 𝑐𝑆 − 𝜆𝑆 𝑐𝑇
+𝐾22 𝑐𝐴
+(
+)
+(𝑐
+) 𝐾 𝑤−𝑐 −𝑐 𝜆 −𝑐 𝐾
+1
+𝑆
+𝑇 𝑆
+𝑇 2
+− 𝐴 + 𝑐𝑇
+2
+𝑐𝐴 𝐾2
+{
+}
+⎡𝛼 𝐾1 [𝐾1 (𝑤−𝑐𝑆 −𝑐𝑇 𝜆𝑆 )−𝑐𝑇 𝐾2 ] − 𝛽 (2(𝑤+𝜆𝑅 𝑐𝑇 )+𝛼𝑐𝑅 (1−𝛾)) (1 − 𝛾) + 𝜃 𝐾1 (𝑤−𝑐𝑆 −𝑐𝑇 𝜆𝑆 )−𝑐𝑇 𝐾2 (1 − 𝜙)⎤
+𝑐𝐴 𝐾2
+𝐾2
+𝑐 𝐴 𝐾2
+⎢
+⎥
+⎛ 𝑐𝑄 (1−𝜙)𝜃𝐾1 (𝑤−𝑐𝑆 −𝑐𝑇 𝜆𝑆 )+𝑐𝑄 (𝛽𝑐𝑅 𝑐𝐴 −𝑐𝑇 𝜃(1−𝜙))𝐾2 ⎞
+⎢
+⎥
+= ⎢
+2
+⎥
+⎜
+⎟
+𝑐 𝐴 𝐾2
+−𝛽 ⎜
+⎥
+⎢
+⎟
+𝛼 (𝑤+𝜆𝑅 𝑐𝑇 )(1−𝛾)+𝑐𝑅 𝛼 2 (1−𝛾)2
+⎢
+⎥
+⎜
+⎟
+−
+−
+𝑐
+𝑅
+𝐾
+⎣
+⎦
+⎝
+⎠
+2
+
+𝛱𝑆 =
+
+𝛱𝑅
+
+⎛ 𝑐𝑄 (1−𝜙)𝜃𝐾1 (𝑤−𝑐𝑆 −𝑐𝑇 𝜆𝑆 )+𝑐𝑄 (𝛽𝑐𝑅 𝑐𝐴 −𝑐𝑇 𝜃(1−𝜙))𝐾2 ⎞
+⎜
+⎟
+𝑐𝐴 𝐾22
+⎜
+⎟
+𝛼 (𝑤+𝜆𝑅 𝑐𝑇 )(1−𝛾)+𝑐𝑅 𝛼 2 (1−𝛾)2
+⎜
+⎟
+−
+− 𝑐𝑅
+𝐾2
+⎝
+⎠
+[
+[ (
+)
+]
+( (
+)
+)]
+𝐾1 𝐾1 𝑤 − 𝑐𝑆 − 𝑐𝑇 𝜆𝑆 − 𝑐𝑇 𝐾2 − 𝑐𝐴 𝛽 2 𝑤 + 𝜆𝑅 𝑐𝑇 + 𝛼𝑐𝑅 (1 − 𝛾)
+−
+𝑐𝐴 𝐾2
+(
+(
+)
+{ [ (
+)
+]
+( (
+)
+)} )
+2𝑐𝐴 𝐾2 𝑤 + 𝜆𝑅 𝑐𝑇 𝑅 + 𝑐𝑄 𝐾1 𝐾1 𝑤 − 𝑐𝑆 − 𝑐𝑇 𝜆𝑆 − 𝑐𝑇 𝐾2 − 𝑐𝐴 𝛽 2 𝑤 + 𝜆𝑅 𝑐𝑇 + 𝛼𝑐𝑅 (1 − 𝛾)
+𝑐𝐴 𝐾2
+
+(21)
+
+(22)
+
+(23)
+
+(24)
+
+(25)
+
+□
+
+(26)
+
+Box IV.
+
+
+
+𝑄
+
+𝑝
+
+[
+( (
+)
+)] (
+(
+)
+(
+) )(
+)
+𝛼𝜃 2𝑣𝛽𝑐𝑄 + 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼 + 𝛼𝛽𝑐𝐴 𝑣 − 𝑐𝑅 − 2 𝑤 + 𝑐𝐵 𝛽 2𝛽𝑐𝑄 − 𝛼 2
+=
+(
+)2
+2𝛽𝑐𝑄 − 𝛼 2 𝑐𝐴
+[
+( (
+)
+)]
+(
+)( (
+)
+( (
+)
+))
+𝑐𝑄 𝜃 2𝑣𝛽𝑐𝑄 + 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼 + 𝑐𝐴 2𝛽𝑐𝑄 − 𝛼 2 𝛽 𝑣 − 𝑐𝑅 + 𝛼 𝛼 𝑣 − 𝑐𝑅 − 𝑤 − 𝑐𝐵
+=
+(
+)2
+2𝛽𝑐𝑄 − 𝛼 2 𝑐𝐴
+
+(31)
+
+(32)
+
+Box V.
+
+
+
+𝛱𝑆 =
+
+[
+( (
+)
+)] (
+(
+) (
+) )(
+)
+𝛼𝜃 2𝑣𝛽𝑐𝑄 + 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼 + 𝛼𝛽𝑐𝐴 𝑣 − 𝑐𝑅 − 𝑤 + 𝑐𝐵 𝛽 2𝛽𝑐𝑄 − 𝛼 2 (
+)
+𝑤 − 𝑐𝑆 − 𝑐𝐵
+(
+)2
+2𝛽𝑐𝑄 − 𝛼 2 𝑐𝐴
+(
+( (
+)
+)) (
+( (
+)
+))
+2𝑣𝛽𝑐𝑄 + 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼 2
+2𝑣𝛽𝑐𝑄 − 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼 2
++
+(
+)
+2 2𝛽𝑐𝑄 − 𝛼 2 𝑐𝐴
+(
+
+
+
+𝛱𝑅
+
+(33)
+
+)
+
+𝛼𝜃 (2𝑣𝛽𝑐𝑄 +𝛼 (𝜃 (𝑤−𝑐𝐵 −𝑐𝑆 )−𝑣𝛼 ))+(𝛼𝛽𝑐𝐴 (𝑣−𝑐𝑅 )−(𝑤+𝑐𝐵 )𝛽 ) 2𝛽𝑐𝑄 −𝛼 2
+⎤
+⎡
+⎥
+⎢ 𝛼
+(2𝛽𝑐𝑄 −𝛼 2 )2 𝑐𝐴
+= ⎢
+𝑐𝐴 𝛽 {𝑐𝑄 (𝐴𝜃+𝛽 (𝑣−𝑐𝑅 ))+𝛼 (𝛼 (𝑣−𝑐𝑅 )−𝑤−𝑐𝐵 )}+𝜃 {2𝑣𝛽𝑐𝑄 +𝛼 (𝜃 (𝑤−𝑐𝐵 −𝑐𝑆 )−𝑣𝛼 )} ⎥
+⎥
+⎢−
+2𝛽𝑐𝑄 −𝛼 2
+⎦
+⎣
+{
+[
+( (
+)
+)]
+(
+)
+(
+(
+)
+( (
+)
+))}
+2
+𝛽 𝑣 − 𝑐𝑅 + 𝛼 𝛼 𝑣 − 𝑐𝑅 − 𝑤 − 𝑐𝐵
+𝑄−𝛼
+⎞
+⎛ 𝑐𝑄 𝜃 2𝑣𝛽𝑐𝑄 + 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼( + 𝑐𝐴 2𝛽𝑐
+(
+)
+)
+2
+⎜
+⎟
++ 2𝛽𝑐𝑄 − 𝛼 2 𝑐𝐴 𝑣 − 𝑐𝑅
+⎟
+⎜
+(
+)
+2
+⎟
+⎜
+2
+2𝛽𝑐
+−
+𝛼
+𝑐
+𝑄
+𝐴
+⎜
+⎟
+⎠
+⎝
+[
+( (
+)
+)] (
+(
+) (
+) )(
+)
+𝛼𝜃 2𝑣𝛽𝑐𝑄 + 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼 + 𝛼𝛽𝑐𝐴 𝑣 − 𝑐𝑅 − 𝑤 + 𝑐𝐵 𝛽 2𝛽𝑐𝑄 − 𝛼 2
+−
+(
+)2
+2𝛽𝑐𝑄 − 𝛼 2 𝑐𝐴
+[
+( (
+)
+)] }
+{
+)
+(
+)
+𝛼𝑐𝑄 𝜃 2𝑣𝛽𝑐𝑄 + 𝛼 𝜃 𝑤 − 𝑐𝐵 − 𝑐𝑆 − 𝑣𝛼
+⎛ (
+2 2𝑐
+(
+) (
+) )(
+(
+) ⎞
+2
+2𝛽𝑐
+−
+𝛼
+𝑤
+−
+𝑐
+−
+𝑄
+𝐴
+𝐵
+⎜
+⎟
++𝑐𝑄 𝛼𝛽𝑐𝐴 𝑣 − 𝑐𝑅 − 𝑤 + 𝑐𝐵 𝛽 2𝛽𝑐𝑄 − 𝛼 2
+⎜
+⎟−𝐹 □
+(
+)2
+⎜
+⎟
+2 2𝛽𝑐𝑄 − 𝛼 2 𝑐𝐴
+⎜
+⎟
+⎝
+⎠
+
+Box VI.
+
+Accordingly, the retailer’s strategies become Eqs. (31) and (32) given in
+
+Proof of Proposition 12. The firms’ objective functions are:
+
+Box V. Substituting inside the firms’ objective function yields Eqs. (33)
+
+( )2
+[
+]
+(
+) 𝑐𝐴 𝐴
+𝛱𝑆 = 𝛼𝑄 − 𝛽𝑝 + 𝜃𝐴 𝑝 𝜎 + 𝑄 𝑤 − 𝑐𝑆 −
+2
+
+and (34) given in Box VI.
+17
+
+(34)
+
+International Journal of Production Economics 228 (2020) 107855
+
+P. De Giovanni
+
++𝐴 𝑣 − 𝑄 𝑐𝐵
+
+𝛱𝑅
+
+( )2
+𝑐𝑄 𝑄
+[
+](
+)
+= 𝛼𝑄 − 𝛽𝑝 + 𝜃𝐴 𝑝 (1 − 𝜎) − 𝑐𝑅 + 𝑣 − 𝑄 𝑤 −
+2
+−𝐹  − 𝑄 𝑐𝐵
+
+(35)
+
+De Giovanni, P., 2019b. An optimal control model with defective products and goodwill
+damages. Ann. Oper. Res. 1–12.
+De Giovanni, P., Zaccour, G., 2019a. Optimal quality improvements and pricing
+strategies with active and passive product returns. Omega 88, 248–262.
+De Giovanni, P., Zaccour, G., 2019b. A selective survey of game-theoretic models of
+closed-loop supply chains. 4OR 17 (1), 1–44.
+Dolgui, A., Ivanov, D., Potryasaev, S., Sokolov, B., Ivanova, M., Werner, F., 2019.
+Blockchain-oriented dynamic modelling of smart contract design and execution in
+the supply chain. Int. J. Prod. Res. 1–16.
+Dolgui, A., Ivanov, D., Sokolov, B., 2018. Ripple effect in the supply chain: an analysis
+and recent literature. Int. J. Prod. Res. 56 (1–2), 414–430.
+EY, 2019. The total cost of ownership for blockchain solutions. April.
+Firouzi, F., Jaber, M.Y., Baglieri, E., 2016. Trust in supply forecast information sharing.
+Int. J. Prod. Res. 54 (5), 1322–1333.
+Francisco, K., Swanson, D., 2018. The supply chain has no clothes: Technology adoption
+of blockchain for supply chain transparency. Logistics 2 (1), 2.
+Frank, A.G., Dalenogare, L.S., Ayala, N.F., 2019. Industry 4.0 technologies: Implementation patterns in manufacturing companies. Int. J. Prod. Econ. 210,
+15–26.
+Ganeriwalla, A., Casey, M., Shrikrishna, P., Bender, J.P., Gstettner, S., 2018. Does
+Your Supply Chain Need a Blockchain? Boston Consulting Group, available
+at
+https://www.bcg.com/engb/publications/2018/does-your-supply-chain-needblockchain.aspx.
+Genc, T.S., De Giovanni, P., 2020. Closed-loop supply chain games with innovation-led
+lean programs and sustainability. Int. J. Prod. Econ. 219, 440–456.
+Greyblock, 2018. Blockchain scaling. Why pow networks can’t scale. https://medium.
+com/coinmonks/blockchain-scaling-30c9e1b7db1b.
+Griffith, E., 2018. 187 Things the Blockchain is Supposed to Fix. Wired, May 25,
+www.wired.com.
+Gurtu, A., Johny, J., 2019. Potential of blockchain technology in supply chain
+management: a literature review. Int. J. Phys. Distrib. Logist. Manage..
+Hackius, N., Petersen, M., 2017. Blockchain in logistics and supply chain: Trick or
+treat?. In: Proceedings of the Hamburg International Conference of Logistics (HICL)
+– 23, October 2017.
+Hawlitschek, F., Notheisen, B., Teubner, T., 2018. The limits of trust-free systems:
+A literature review on blockchain technology and trust in the sharing economy.
+Electron. Commer. Res. Appl. 29, 50–63.
+van Hoek, R., 2019. Exploring blockchain implementation in the supply chain. Int. J.
+Oper. Prod. Manage..
+Hofmann, E., Rüsch, M., 2017. Industry 4.0 and the current status as well as future
+prospects on logistics. Comput. Ind. 89, 23–34.
+Ivanov, D., Dolgui, A., Sokolov, B., 2019b. The impact of digital technology and
+industry 4.0 on the ripple effect and supply chain risk analytics. Int. J. Prod. Res.
+57 (3), 829–846.
+Ivanov, D., Dolgui, A., Sokolov, B., Werner, F., Ivanova, M., 2016. A dynamic model and
+an algorithm for short-term supply chain scheduling in the smart factory industry
+4.0. Int. J. Prod. Res. 54 (2), 386–402.
+Ivanov, D., Tsipoulanidis, A., Schönberger, J., 2019a. Digital supply chain, smart
+operations and industry 4.0. In: Global Supply Chain and Operations Management.
+Springer, Cham, pp. 481–526.
+Kiel, D., Müller, J.M., Arnold, C., Voigt, K.I., 2017. Sustainable industrial value creation:
+Benefits and challenges of industry 4.0. Int. J. Innov. Manage. 21 (08), 1740015.
+Kshetri, N., 2018. 1 blockchain’s roles in meeting key supply chain management
+objectives. Int. J. Inf. Manage. 39, 80–89.
+Liao, Y., Deschamps, F., Loures, E.D.F.R., Ramos, L.F.P., 2017. Past, present and future
+of Industry 4.0-a systematic literature review and research agenda proposal. Int. J.
+Prod. Res. 55 (12), 3609–3629.
+Liu, B., De Giovanni, P., 2019. Green process innovation through industry 4.0
+technologies and supply chain coordination. Ann. Oper. Res. 1–36.
+Michelman, P., 2017. Seeing beyond the blockchain hype. MIT Sloan Manage. Rev. 58
+(4), 17.
+Misra, P., 2018. 5 ways blockchain technology will change the way we do business.
+available at: https://www.entrepreneur.com/article/309164.
+Morkunas, V.J., Paschen, J., Boon, E., 2019. How blockchain technologies impact your
+business model. Bus. Horiz. 62 (3), 295–306.
+Mulligan, C., Scott, J.Z., Warren, S., Rangaswami, J.P., 2018. Blockchain beyond the
+hype: A practical framework for business leaders. In: World Economic Forum, White
+Paper.
+Nakamoto, S., 2019. Bitcoin: A Peer-to-Peer Electronic Cash System. Manubot.
+Pournader, M., Shi, Y., Seuring, S., Koh, S.L., 2019. Blockchain applications in supply
+chains, transport and logistics: a systematic review of the literature. Int. J. Prod.
+Res. 1–19.
+Raskin, M., 2017. The law and legality of smart contracts. Georget. Law Technol. Rev.
+305.
+Saberi, S., Kouhizadeh, M., Sarkis, J., 2019a. Blockchains and the supply chain: Findings
+from a broad study of practitioners. IEEE Eng. Manage. Rev..
+Saberi, S., Kouhizadeh, M., Sarkis, J., Shen, L., 2019b. Blockchain technology and its
+relationships to sustainable supply chain management. Int. J. Prod. Res. 57 (7),
+2117–2135.
+Szabo, N., 1994. Smart contracts. [Online]. Available: http://szabo.best.vwh.net/smart.
+contracts.html.
+Williamson, O.E., 1979. Transaction-cost economics: the governance of contractual
+relations. J. Law Econ. 22 (2), 233–261.
+
+(36)
+
+Maximizing the retailer’s objective function with respect to price, 𝑝 ,
+and the quantity to order, 𝑄 , we obtain the following best response
+functions:
+(
+(
+))
+(
+)
+𝛼 𝐴𝜃 (1 − 𝜎) + 𝛽 𝑣 − 𝑐𝑅 − 2 𝑤 + 𝑐𝐵 𝛽
+
+𝑄 =
+(37)
+2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝜎)
+( (
+(
+))
+)
+(
+)
+(1 − 𝜎) 𝛼 𝑤 + 𝑐𝐵 + 𝛼 𝑐𝑅 − 𝑣 − 𝐴𝜃𝑐𝑄 − 𝑐𝑄 𝛽 𝑐𝑅 − 𝑣
+(38)
+𝑝 =
+)
+(
+(1 − 𝜎) 2𝛽𝑐𝑄 − 𝛼 2 (1 − 𝜎)
+Plugging these equations inside the supplier’s objective function gives:
+⎛(
+)⎞
+𝑄 )−𝑐𝑄 𝛽 (𝑐𝑅 −𝑣)
+⎜ 𝛼 𝛼(𝐴𝜃(1−𝜎)+𝛽 (𝑣−𝑐2𝑅 ))−2(𝑤+𝑐𝐵 )𝛽 − 𝛽 (1−𝜎)(𝛼(𝑤+𝑐𝐵 +𝛼(𝑐𝑅 −𝑣))−𝐴𝜃𝑐
++ 𝜃𝐴 ⎟
+2𝛽𝑐𝑄 −𝛼 (1−𝜎)
+(1−𝜎)(2𝛽𝑐𝑄 −𝛼 2 (1−𝜎))
+⎜
+⎟
+⎜
+⎟
+𝛱𝑆 = ⎜ (1−𝜎)(𝛼(𝑤+𝑐𝐵 +𝛼(𝑐𝑅 −𝑣))−𝐴𝜃𝑐𝑄 )−𝑐𝑄 𝛽 (𝑐𝑅 −𝑣) 𝜎 + 𝛼(𝐴𝜃(1−𝜎)+𝛽 (𝑣−𝑐𝑅 ))−2(𝑤+𝑐𝐵 )𝛽 (𝑤 − 𝑐 ) ⎟
+𝑆
+2𝛽𝑐𝑄 −𝛼 2 (1−𝜎)
+(1−𝜎)(2𝛽𝑐𝑄 −𝛼 2 (1−𝜎))
+⎜
+⎟
+⎜
+⎟
+𝛼 (𝐴𝜃(1−𝜎)+𝛽 (𝑣−𝑐𝑅 ))−2(𝑤+𝑐𝐵 )𝛽
+𝑐𝐴 𝐴2
+⎜
+⎟
+−
++
+𝐴𝑣
+−
+𝑐
+𝐵
+2
+⎝
+⎠
+2
+2𝛽𝑐 −𝛼 (1−𝜎)
+
+(39)
+
+𝑄
+
+Maximizing the supplier’s objective function with respect to the service
+efforts, 𝐴 , gives:
+{
+
+2 2
+
+𝐴 =
+
+}
+
+[
+]
+𝑣(2𝑐𝑄 𝛽 2 − 𝛼 2 (1 − 𝜎) + 𝑐𝑄 𝜎𝛽𝜃 ) + 𝛼𝜃(𝑐𝐵 (1 − 𝜎)2 𝛼 2 − 2𝑐𝐵 𝑐𝑄 𝛽
+2
+
+−((1 − 𝜎) 𝛼 − 2𝑐𝑄 (1 − 2𝜎)𝛽)𝑤) − 𝛼𝜃(𝑐𝑄 𝜎𝛼𝛽𝑐𝑅 + (1 − 𝜎)(2𝑐𝑄 𝛽(1 − 𝜎)𝛼 )𝑐𝑆 )
+𝑐𝐴((−1 + 𝜎)𝛼 2 + 2𝑐𝑄 𝛽)2 − 2𝑐𝑄2 𝜎𝛽𝜃 2
+
+(40)
+
+Using the optimal service strategies, one can obtain the optimal pricing
+and quantity strategies, as well as the optimal firms’ profits. □
+References
+Abdul-Muhmin, A.G., 2010. Repeat purchase intentions in online shopping: The role of
+satisfaction, attitude, and online retailers’ performance. J. Int. Consum. Mark. 23
+(1), 5–20.
+Azati, 2019. How much does it cost to develop blockchain in 2019. https://azati.ai/
+how-much-does-it-cost-to-blockchain/.
+Babich, V., Hilary, G., 2019. Distributed ledgers and operations: What operations
+management researchers should know about blockchain technology. Manuf. Serv.
+Oper. Manage..
+Barrera, C., Catalini, C., 2018. Definition of cryptoeconomics. June 25, 2018. https:
+//ce.mit.edu/.
+Bresnahan, T.F., Trajtenberg, M., 1995. General purpose technologies ‘Engines of
+growth’? J. Econometrics 65 (1), 83–108.
+Brown, R.G., 2015. A simple model for smart contracts. Online im Internet: https:
+//gendal.me/2015/02/10/a-simple-model-for-smart-contracts/, Stand, 4, 2018.
+Büyüközkan, G., Göçer, F., 2018. Digital supply chain: literature review and a proposed
+framework for future research. Comput. Ind. 97, 157–177.
+cachon, G.P., 2003. Supply chain coordination with contracts. Handbooks Oper. Res.
+Mmanage. Sci. 11, 227–339.
+Casey, M., Wong, P., 2017. Global supply chains are about to get better, thanks to
+blockchain. Harv. Bus. Rev. 13, 1–6.
+Catalini, C., Gans, J.S., 2016. Some Simple Economics of the Blockchain. working paper
+# 5191-16, MIT Sloan School of Management, Cambridge, Massachusetts.
+Chakrabarti, A., Chaudhuri, A.K., 2017. Blockchain and its scope in retail. Int. Res. J.
+Eng. Technol. 4 (7), 3053–3056.
+Chang, Y., Iakovou, E., Shi, W., 2020. Blockchain in global supply chains and
+cross border trade: A critical synthesis of the state-of-the-art, challenges and
+opportunities. Int. J. Prod. Res. 58 (7), 2082–2099.
+Chiang, K.P., Dholakia, R.R., 2003. Factors driving consumer intention to shop online:
+an empirical investigation. J. Consum. Psychol. 13 (1), 177–183.
+Christidis, K., Devetsikiotis, M., 2016. Blockchains and smart contracts for the internet
+of things. Ieee Access 4, 2292–2303.
+Cole, R., Stevenson, M., Aitken, J., 2019. Blockchain technology: implications for
+operations and supply chain management. Supply Chain Manage.: Int. J. 24 (4),
+469–483.
+De Giovanni, P., 2009. The state of the art in static and dynamic games. Eur. Business
+Rev..
+De Giovanni, P., 2016. Coordination in a distribution channel with decisions on the
+nature of incentives and share-dependency on pricing. J. Oper. Res. Soc. 67 (8),
+1034–1049.
+De Giovanni, P., 2019a. Digital supply chain through dynamic inventory and smart
+contracts. Mathematics 7 (12), 1235.
+18
+
+

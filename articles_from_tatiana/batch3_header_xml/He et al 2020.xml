@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Transportation Research Part E</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-07-28">28 July 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bo</forename><surname>He</surname></persName>
+							<email>hebo@cqu.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Economics and Business Administration</orgName>
+								<orgName type="institution">Chongqing University</orgName>
+								<address>
+									<postCode>400030</postCode>
+									<settlement>Chongqing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Chongqing Key Laboratory of Logistics at</orgName>
+								<orgName type="institution">Chongqing University</orgName>
+								<address>
+									<postCode>400030</postCode>
+									<settlement>Chongqing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Prakash</forename><surname>Mirchandani</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Katz Graduate School of Business</orgName>
+								<orgName type="institution">University of Pittsburgh</orgName>
+								<address>
+									<postCode>15260</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yong</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Economics and Business Administration</orgName>
+								<orgName type="institution">Chongqing University</orgName>
+								<address>
+									<postCode>400030</postCode>
+									<settlement>Chongqing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">School of Economics &amp; Business Administration</orgName>
+								<orgName type="institution">Chongqing University</orgName>
+								<address>
+									<postCode>400030</postCode>
+									<settlement>Chongqing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Transportation Research Part E</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-07-28">28 July 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.tre.2020.102036</idno>
+					<note type="submission">Received 13 November 2019; Received in revised form 20 June 2020; Accepted 14 July 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>O2O platform Crowdsourced delivery Pricing scheme Self-scheduling capacity</keywords>
+			</textClass>
+			<abstract>
+				<p>An O2O (Online-to-Offline) channel has advantages over brick-and-mortar retailing and traditional e-commerce in the local market as it facilitates grocery retailers to offer online retailing and offline home delivery. This paper studies how an O2O platform can attract physical (offline) grocery retailers through pricing and market expansion, and customers by providing shopping convenience and home-delivery. We analyze both when the O2O platform has self-scheduling delivery capacity and when it does not. We find that two widely used pricing schemes-revenue sharing and fixed fee-are equivalent. If the O2O platform does not itself have any self-scheduling delivery capacity, it outsources home-delivery service to a delivery platform, which may result in incentive misalignment. We find that it is not always necessary for the O2O platform to coordinate the decentralized system. Under some conditions, the decentralized system will yield higher profit than the centralized system due to the risk protection effect. If coordination is needed, we propose subsidy contracts for the O2O platform to align its and the delivery platform&apos;s objectives.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

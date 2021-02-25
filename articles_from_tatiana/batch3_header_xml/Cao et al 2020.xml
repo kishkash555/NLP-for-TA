@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Whether a retailer should enter an e-commerce platform taking into account consumer returns</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kaiying</forename><surname>Cao</surname></persName>
+							<email>kycao@ncu.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Nanchang University</orgName>
+								<address>
+									<addrLine>999 Xuefu Avenue</addrLine>
+									<postCode>330031</postCode>
+									<settlement>Nanchang</settlement>
+									<region>Jiangxi</region>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuqiu</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Nanchang University</orgName>
+								<address>
+									<addrLine>999 Xuefu Avenue</addrLine>
+									<postCode>330031</postCode>
+									<settlement>Nanchang</settlement>
+									<region>Jiangxi</region>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiajia</forename><surname>Cao</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bing</forename><surname>Xu</surname></persName>
+							<email>xubing99@ncu.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Nanchang University</orgName>
+								<address>
+									<addrLine>999 Xuefu Avenue</addrLine>
+									<postCode>330031</postCode>
+									<settlement>Nanchang</settlement>
+									<region>Jiangxi</region>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jia</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Nanchang University</orgName>
+								<address>
+									<addrLine>999 Xuefu Avenue</addrLine>
+									<postCode>330031</postCode>
+									<settlement>Nanchang</settlement>
+									<region>Jiangxi</region>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Tourism &amp; Tourism Research Institute</orgName>
+								<orgName type="institution">Nanchang University</orgName>
+								<address>
+									<addrLine>999 Xuefu Avenue</addrLine>
+									<postCode>330031</postCode>
+									<settlement>Nanchang</settlement>
+									<region>Jiangxi</region>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">John Wiley &amp; Sons Ltd</orgName>
+								<address>
+									<addrLine>9600 Garsington Road, 350 Main St</addrLine>
+									<postCode>OX4 2DQ, MA02148</postCode>
+									<settlement>Oxford, Malden</settlement>
+									<country>UK and, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Whether a retailer should enter an e-commerce platform taking into account consumer returns</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/itor.12768</idno>
+					<note type="submission">Received 5 May 2019; received in revised form 13 December 2019; accepted 16 December 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>asymmetric information</term>
+					<term>e-commerce platform</term>
+					<term>return strategy</term>
+					<term>channel choice</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Considering consumers are increasingly shopping online nowadays and the online sales market is dominated by e-commerce giants, traditional retailers need to choose whether to enter e-commerce platforms. Moreover, traditional retailers need to determine whether to offer offline return services considering online return services are very popular. To address these challenges, we explore a retailer&apos;s optimal offline return strategy and channel choice of whether or not to enter a platform in the contexts of symmetric information and asymmetric information, respectively. We present conditions for the retailer to share information. Interestingly, we find that the retailer in some conditions has no motivation to improve customer satisfaction rate of offline store. Most important, we find that the retailer&apos;s channel choice depends on the magnitude of the annual service fee that is affected by offline return strategy and asymmetric information, and the offline return strategy depends on the magnitude of the average residual value of returned products.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

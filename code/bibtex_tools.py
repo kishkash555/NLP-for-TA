@@ -2,6 +2,7 @@ import json
 import networkx as nx
 from os import path
 import PyPDF2 as pdf
+import pickle
 
 example_bibtex =\
 """
@@ -98,7 +99,15 @@ class ref_dict(dict):
                     edge_id += 1
         return gr
 
+    def save(self,fname):
+        with open(fname,'wb') as a:
+            pickle.dump(self, a)
 
+    @staticmethod
+    def load(fname):
+        with open(fname,'rb') as a:
+            obj = pickle.load(a)
+        return obj
         
 
 
@@ -156,7 +165,7 @@ class ref_dict_tools:
 
     @staticmethod
     def add_nickname_field(item_data):
-        nonwords = {'the','a','on','do','does','in','note.','how','an','implementing'}
+        nonwords = {'the','a','on','do','does','in','note.','how','an','implementing','to'}
         item_data['nickname']="{}{}{}".format(
                 item_data['author_list'][0][0], 
                 item_data['year'], 

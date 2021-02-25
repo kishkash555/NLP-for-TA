@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Revenue-sharing between developers of virtual products and platform distributors</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-09-15">September 15, 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><surname>Avinadav</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar-Ilan University</orgName>
+								<address>
+									<postCode>5290 0 02</postCode>
+									<settlement>Ramat-Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tatyana</forename><surname>Chernonog</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar-Ilan University</orgName>
+								<address>
+									<postCode>5290 0 02</postCode>
+									<settlement>Ramat-Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eugene</forename><surname>Khmelnitsky</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Industrial Engineering</orgName>
+								<orgName type="institution">Tel Aviv University</orgName>
+								<address>
+									<postCode>6997801</postCode>
+									<settlement>Tel Aviv</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Revenue-sharing between developers of virtual products and platform distributors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-09-15">September 15, 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2020.08.036</idno>
+					<note type="submission">Received 15 July 2019 Accepted 21 August 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Production</term>
+					<term>Manufacturing</term>
+					<term>Transportation and Logistics Supply chain management Revenue sharing Information asymmetry Optimal control Virtual products</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>We investigate consignment contracts with revenue-sharing for selling virtual products subject to information asymmetry. In practice, distribution platforms commonly use unified contracts with identical revenue-sharing terms across the developers whose products they offer. We analyze the case of a developer who is better informed than his distribution platform regarding the demand. First, we prove that the developer has no incentive to voluntarily disclose his private information and that cheap-talk is not informative, so the distribution platform can either extract this information by designing a revelation mechanism via a menu of contracts or propose a less complicated, suboptimal but commonly used unified contract. Based on optimal control theory, we develop a menu of contracts over a continuous demand domain, which includes a mechanism that leaves out some developers who reduce the expected profit of the distribution platform. We find that (i) the distribution platform is willing to share the developer&apos;s cost to make the developer act in accordance with the actual base demand; (ii) the menu of contracts is more supportive of small businesses than the unified contract; and (iii) the menu of contracts can significantly improve the distribution platform&apos;s expected profit compared with that of the unified contract when the app quality exceeds the minimum required level. In addition, we develop a mathematical model for the case of an app developer who has the option of bypassing the distribution platform and selling his app directly to end consumers, although he would then face a smaller market.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

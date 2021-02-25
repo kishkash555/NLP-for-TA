@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">International Journal of Production Economics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2018-08-11">11 August 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xinhan</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<addrLine>670 Guoshun Road</addrLine>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiangfeng</forename><surname>Chen</surname></persName>
+							<email>chenxf@fudan.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<addrLine>670 Guoshun Road</addrLine>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fu</forename><surname>Jia</surname></persName>
+							<email>fu.jia@york.ac.uk</email>
+							<affiliation key="aff1">
+								<orgName type="department">The York Management School</orgName>
+								<orgName type="institution">University of York</orgName>
+								<address>
+									<postCode>YO10 5DD</postCode>
+									<settlement>Heslington</settlement>
+									<region>York</region>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steve</forename><surname>Brown</surname></persName>
+							<email>steve.brown@soton.ac.uk</email>
+							<affiliation key="aff2">
+								<orgName type="department">Southampton Business School</orgName>
+								<orgName type="institution">University of Southampton</orgName>
+								<address>
+									<postCode>SO17 1BJ</postCode>
+									<settlement>Southampton</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yu</forename><surname>Gong</surname></persName>
+							<email>y.gong@soton.ac.uk</email>
+							<affiliation key="aff2">
+								<orgName type="department">Southampton Business School</orgName>
+								<orgName type="institution">University of Southampton</orgName>
+								<address>
+									<postCode>SO17 1BJ</postCode>
+									<settlement>Southampton</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yifan</forename><surname>Xu</surname></persName>
+							<email>yfxu@fudan.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<addrLine>670 Guoshun Road</addrLine>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">International Journal of Production Economics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-08-11">11 August 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ijpe.2018.08.003</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Supply chain finance Literature review Bibliometric analysis Network analysis Co-citation Content analysis</keywords>
+			</textClass>
+			<abstract>
+				<p>Supply Chain Finance (SCF) is an effective method to lower financing costs and improve financing efficiency and effectiveness, and it has gained research momentum in recent years. This paper adopts a systematic literature review methodology combined with bibliometric, network and content analysis based on 348 papers identified from mainstream academic databases. This review provides insights not previously fully captured or evaluated by other reviews on this topic, including key authors, key journals and the prestige of the reviewed papers. Using rigorous bibliometric and visualisation tools, we identified four research clusters, including deteriorating inventory models under trade credit policy based on the EOQ/EPQ model; inventory decisions with trade credit policy under more complex situations; interaction between replenishment decisions and delay payment strategies in the supply chain and roles of financing service in the supply chain. Based on the clusters identified, we carried out a further content analysis of 112 papers, identifying research gaps and proposing seven actionable directions for future research. The findings provide a robust roadmap for further investigation in this field.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

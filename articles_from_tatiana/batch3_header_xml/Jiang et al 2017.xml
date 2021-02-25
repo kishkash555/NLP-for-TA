@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">P2P Marketplaces and Retailing in the Presence of Consumers&apos; Valuation Uncertainty</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lifei</forename><surname>Jiang</surname></persName>
+							<email>l43jiang@uwaterloo.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management Sciences</orgName>
+								<orgName type="institution">University of Waterloo</orgName>
+								<address>
+									<addrLine>200 University Avenue West</addrLine>
+									<postCode>N2L 3G1</postCode>
+									<settlement>Waterloo</settlement>
+									<region>Ontario Canada</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stanko</forename><surname>Dimitrov</surname></persName>
+							<email>sdimitro@uwaterloo.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management Sciences</orgName>
+								<orgName type="institution">University of Waterloo</orgName>
+								<address>
+									<addrLine>200 University Avenue West</addrLine>
+									<postCode>N2L 3G1</postCode>
+									<settlement>Waterloo</settlement>
+									<region>Ontario Canada</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benny</forename><surname>Mantin</surname></persName>
+							<email>bmantin@uwaterloo.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management Sciences</orgName>
+								<orgName type="institution">University of Waterloo</orgName>
+								<address>
+									<addrLine>200 University Avenue West</addrLine>
+									<postCode>N2L 3G1</postCode>
+									<settlement>Waterloo</settlement>
+									<region>Ontario Canada</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">P2P Marketplaces and Retailing in the Presence of Consumers&apos; Valuation Uncertainty</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/poms.12653</idno>
+					<note type="submission">Received: August 2014; Accepted: February 2016 by Haresh Gurnani, after 3 revisions.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>consumers&apos; valuation risk</term>
+					<term>P2P marketplace</term>
+					<term>retailing strategy</term>
+					<term>backward induction</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>C an peer-to-peer (P2P) marketplaces benefit traditional supply chains when consumers may experience valuation risk? P2P marketplaces can mitigate consumers&apos; risk by allowing them to trade mismatched goods; yet, they also impose a threat to retailers and their suppliers as they compete over consumers. Further, do profit-maximizing marketplaces always extract the entire consumer surplus from the online trades? Our two-period model highlights the effects introduced by P2P marketplaces while accounting for the platform&apos;s pricing decisions. We prove that with low product unit cost, the P2P marketplace sets its transaction fee to the market clearing price, thereby extracting all of the seller surplus. In this range of product unit cost, the supply chain partners are worse off due to the emergence of a P2P marketplace. However, when the unit cost is high, the platform sets its transaction fee to be less than the market clearing price, intentionally leaving money on the table, as a mechanism to stimulate first period demand for new goods in expectation for some of them to be traded later, in the second period, via the marketplace. It is not until the surplus left with the sellers is sufficiently high that the supply chain partners manage to extract some of this surplus, ultimately making them better off due to a P2P marketplace. We further analyze the impact of a P2P marketplace on consumer surplus and social welfare. In addition, we consider model variants accounting for a frictionless platform and consumer strategic waiting.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

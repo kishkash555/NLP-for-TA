@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-07-11">11 July 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pingping</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>30 0 072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruiqing</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>30 0 072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yingchen</forename><surname>Yan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>30 0 072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiang</forename><surname>Li</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">College of Economics and Management</orgName>
+								<orgName type="institution">Beijing University of Chemical Technology</orgName>
+								<address>
+									<postCode>10 0 029</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-07-11">11 July 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.omega.2019.07.001</idno>
+					<note type="submission">Received 3 October 2018 Accepted 5 July 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Multistage retailing Pricing Business model Retail competition Game theory</keywords>
+			</textClass>
+			<abstract>
+				<p>Online promotional channels provided by competitive conventional reselling or novel agency selling etailers are widely used by firms to stimulate significant sales in retail. Compared with reselling, agency selling gives firms the power to directly control prices, but it involves costly platform fees. Given the unique features of the reselling and agency selling business models, we develop game theoretic models to explore how the firm and e-tailers, under consideration of retail competition, should strategically use these two business models in promotion. Our analysis generates several insights. We demonstrate that the agency selling model might lead to a higher price than the reselling model, a result contrary to the double marginalization. We also present that without retail competition, there exists a &quot;win-win&quot; promotional strategy, which is also a Pareto-optimal situation for the firm and e-tailer. Specifically, this situation occurs when the e-tailer is in the reselling model under a moderate inventory level or in the agency selling model with a moderate platform fee under a high inventory level. However, under conditions of competitive e-tailers, both e-tailers being in the reselling model is no longer a &quot;win-win&quot; promotional strategy, while the hybrid selling model, i.e., one in the reselling model and the other in the agency selling model, can generate a Pareto improvement. In addition, low platform fees, customers&apos; high price sensitivities, increased selling costs or decreased competitive intensities will drive supply chain participants to seek direct pricing power in the agency selling model.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

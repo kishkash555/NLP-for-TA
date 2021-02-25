@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">&quot;Ship-from-store&quot; strategy in platform retailing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-11-30">30 November 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yi</forename><surname>He</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Hainan University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qingyun</forename><surname>Xu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Economics and Management</orgName>
+								<orgName type="institution">Harbin Institute of Technology</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhen</forename><surname>Shao</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Economics and Management</orgName>
+								<orgName type="institution">Harbin Institute of Technology</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Economics and Management</orgName>
+								<orgName type="institution">Harbin Institute of Technology</orgName>
+								<address>
+									<postCode>150001</postCode>
+									<settlement>Heilongjiang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">&quot;Ship-from-store&quot; strategy in platform retailing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-11-30">30 November 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.tre.2020.102153</idno>
+					<note type="submission">Received 19 April 2020; Received in revised form 25 September 2020; Accepted 3 November 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Ship-from-store Omnichannel retailing Pricing Platform</keywords>
+			</textClass>
+			<abstract>
+				<p>In the omnichannel retailing context, some online-first retailers open the offline channel to implement cross-channel operational strategies to improve the consumer&apos;s experience. This paper develops an analytical model of the retailer&apos;s offline entry and omnichannel fulfillment option (i. e., the Ship-from-Store option) under competition through the platform&apos;s self-run store. In the omnichannel scenario, the retailer can provide time-sensitive consumers with a quick logistics service by implementing the Ship-from-Store option. We focus on the value of the Ship-from-Store option and explore the effects of this option on the pricing decisions of the retailer and platform. We also explore how consumer heterogeneities (time sensitivity and transportation costs) affect the retailer&apos;s omnichannel operations. In addition, we identify conditions under which the retailer can benefit from the Ship-from-Store option. Some managerial insights are provided.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

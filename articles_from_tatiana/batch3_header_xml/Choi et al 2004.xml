@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimal returns policy for supply chain with e-marketplace</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tsan-Ming</forename><surname>Choi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Systems Engineering and Engineering Management</orgName>
+								<orgName type="institution">The Chinese University of Hong Kong</orgName>
+								<address>
+									<settlement>Shatin, Hong Kong</settlement>
+									<region>NT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Duan</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Systems Engineering and Engineering Management</orgName>
+								<orgName type="institution">The Chinese University of Hong Kong</orgName>
+								<address>
+									<settlement>Shatin, Hong Kong</settlement>
+									<region>NT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Houmin</forename><surname>Yan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Systems Engineering and Engineering Management</orgName>
+								<orgName type="institution">The Chinese University of Hong Kong</orgName>
+								<address>
+									<settlement>Shatin, Hong Kong</settlement>
+									<region>NT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimal returns policy for supply chain with e-marketplace</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/S0925-5273(03)00188-9</idno>
+					<note type="submission">Received 4 February 2002; accepted 30 May 2003</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Supply chain management</term>
+					<term>E-marketplace</term>
+					<term>Returns policy</term>
+					<term>Risk management</term>
+					<term>Mean-variance theory</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>We study in this paper a supply chain which is integrated by a returns policy. In the past, owing to a lack of sales channels, the returned products would worth very little. Now, with the advance of the e-commerce, the returned products can be sold with a higher price on the e-marketplace. In light of this, we first investigate the optimal returns policy under the existence of the e-marketplace. Through a mean-variance analysis, we further study the risk issue associated with the optimal policy. Extensive simulations are then carried out and the managerial insights are discussed.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

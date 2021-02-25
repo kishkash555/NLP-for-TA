@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">European Journal of Operational Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-08-20">20 August 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yusuke</forename><surname>Zennyo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Graduate School of Business Administration</orgName>
+								<orgName type="institution">Kobe University</orgName>
+								<address>
+									<addrLine>2-1 Rokkodai</addrLine>
+									<postCode>657-8501</postCode>
+									<settlement>Nada, Kobe</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">European Journal of Operational Research</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-08-20">20 August 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2019.08.026</idno>
+					<note type="submission">Received 19 April 2019 Accepted 13 August 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>E-commerce Strategic contracting E-commerce platforms Agency contract Wholesale contract</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper examines strategic contracting between a monopoly platform and suppliers that sell their goods through the platform. I consider two competing suppliers: a high-volume supplier with the larger potential demand and a low-volume supplier with the smaller one. Each supplier chooses one of two contracts: wholesale or agency. The platform has to strategically determine the royalty rate for the agency contract by taking into account which contracts the suppliers will choose. I show that the platform offers a low (high) royalty rate to induce the suppliers to adopt the agency (wholesale) contract when product substitutability is low (high) enough. More interestingly, when the degree of substitution is at an intermediate level, asymmetric contracting, in which only the low-volume supplier adopts the agency contract, can arise in equilibrium. This result is related to the fact that many long-tail and niche products with lower potential market sizes are traded on platform-based marketplaces, such as Amazon Marketplace and Walmart Marketplace.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

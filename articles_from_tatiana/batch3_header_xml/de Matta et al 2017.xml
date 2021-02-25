@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Contents lists available at ScienceDirect</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-04-07">07 April 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Int</forename><forename type="middle">J</forename><surname>Production Economics</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Renato</forename><surname>De Matta</surname></persName>
+							<email>renato-dematta@uiowa.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management Sciences</orgName>
+								<orgName type="institution">University of Iowa</orgName>
+								<address>
+									<postCode>52242-1000</postCode>
+									<settlement>Iowa City</settlement>
+									<region>IA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><forename type="middle">J</forename><surname>Lowe</surname></persName>
+							<email>timothy-lowe@uiowa.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management Sciences</orgName>
+								<orgName type="institution">University of Iowa</orgName>
+								<address>
+									<postCode>52242-1000</postCode>
+									<settlement>Iowa City</settlement>
+									<region>IA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dengfeng</forename><surname>Zhang</surname></persName>
+							<email>dengfeng.zhang@gmail.com</email>
+							<affiliation key="aff1">
+								<orgName type="department">Ping An Bank</orgName>
+								<address>
+									<addrLine>5047 East Shen Nan Road</addrLine>
+									<postCode>51800</postCode>
+									<settlement>Shenzhen</settlement>
+									<region>No, Guangdong</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Contents lists available at ScienceDirect</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-04-07">07 April 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ijpe.2017.03.022</idno>
+					<note type="submission">Received 2 September 2016; Received in revised form 29 March 2017; Accepted 30 March 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Price competition Supply chain management</keywords>
+			</textClass>
+			<abstract>
+				<p>We model the decisions in two simple, structurally different, fixed price online channel settings comprised of marketplaces (retailers) where two sellers of substitutable products transact with buyers (consumers) of those products. The first setting is a common retailer setting (CRS) with one marketplace, while the other is an exclusive retailer setting (ERS) where each seller is selling in an exclusive marketplace. We study how price competition and cost sharing in those settings influence the key factors that attract the seller and buyer to a marketplace, i.e. the seller&apos;s revenue share and price respectively. We formulate analytic and optimization models of the retailer revenue sharing decision and the suppliers pricing decision under CRS and ERS. Applying these models to market environments with different consumer demand patterns, cost structures, and levels of competition yielded a fairly consistent behavior in supplier price and retailer revenue share for each channel setting. The CRS retailer is better off (i.e. higher profits) than the ERS retailers, whereas the ERS suppliers are better off than the CRS suppliers. Finally, the buyer in ERS is better off because the seller in ERS charges a lower price.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

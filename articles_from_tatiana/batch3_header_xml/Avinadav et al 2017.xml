@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">European Journal of Operational Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-11-18">18 November 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><surname>Avinadav</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+								<address>
+									<postCode>5290 0 02</postCode>
+									<settlement>Ramat Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tatyana</forename><surname>Chernonog</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+								<address>
+									<postCode>5290 0 02</postCode>
+									<settlement>Ramat Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yael</forename><surname>Perlman</surname></persName>
+							<email>yael.perlman@biu.ac.il</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+								<address>
+									<postCode>5290 0 02</postCode>
+									<settlement>Ramat Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">European Journal of Operational Research</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-11-18">18 November 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2016.11.030</idno>
+					<note type="submission">Received 4 January 2016 Accepted 8 November 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Supply chain management Mergers and acquisitions Risk aversion Mean-variance criterion Game theory</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper evaluates mergers and acquisitions (M&amp;A) in a supply chain involving risk-averse parties. In contrast to prior literature, the analysis presented herein suggests that, because of risk considerations, different types of M&amp;A can yield different outcomes. Specifically, we distinguish among three types of M&amp;A arrangements-merger, forward acquisition and backward acquisition-and compare each arrangement to a decentralized supply chain (i.e., before M&amp;A). We further analyze an application of M&amp;A in the software industry. The expected utility gained by each party is examined under each type of M&amp;A, and the effect of each type of M&amp;A on the consumer is evaluated in terms of price and quality of the software product. We find that a merger yields higher expected utility to the parties and leads to higher product quality compared with forward and backward acquisitions; however, it may yield a higher price for the consumer. Moreover, we show that a decentralized supply chain can be more beneficial for the parties than a centralized supply chain (formed by acquisition).</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

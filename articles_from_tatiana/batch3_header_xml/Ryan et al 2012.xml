@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Competition and Coordination in Online Marketplaces *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">K</forename><surname>Ryan</surname></persName>
+							<email>ryanj6@rpi.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daewon</forename><surname>Sun</surname></persName>
+							<email>dsun@nd.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xuying</forename><surname>Zhao</surname></persName>
+							<email>xzhao1@nd.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Industrial &amp; Systems Engineering</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<addrLine>110 8th St</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">CII</orgName>
+								<address>
+									<addrLine>Suite 5015</addrLine>
+									<postCode>12180</postCode>
+									<settlement>Troy</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Management, Mendoza College of Business</orgName>
+								<orgName type="institution">University of Notre Dame</orgName>
+								<address>
+									<addrLine>Room 359, Notre Dame</addrLine>
+									<postCode>46556</postCode>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Management, Mendoza College of Business</orgName>
+								<orgName type="institution">University of Notre Dame</orgName>
+								<address>
+									<addrLine>Room 361, Notre Dame</addrLine>
+									<postCode>46556</postCode>
+									<region>IN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Competition and Coordination in Online Marketplaces *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/j.1937-5956.2012.01332.x</idno>
+					<note type="submission">Received: August 2010; Accepted: November 2011 by Amiya Chakravarty, after 2 revisions.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>e-Business</term>
+					<term>online marketplace</term>
+					<term>coordination</term>
+					<term>competition</term>
+					<term>game theory</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>O nline marketplaces, such as those operated by Amazon, have seen rapid growth in recent years. These marketplaces serve as an intermediary, matching buyers with sellers, whereas control of the good is left to the seller. In some cases, e.g., the Amazon marketplace system, the firm that owns and manages the marketplace system will also sell competing products through the marketplace system. This creates a new form of channel conflict, which is a focus of this article. We consider a setting in which a marketplace firm operates an online marketplace through which retailers can sell their products directly to consumers. We consider a single retailer, who currently sells its product only through its own website, but who may choose to contract with Amazon to sell its product through the marketplace system. Selling the product through the marketplace expands the available market for the retailer, but comes at some expense, e.g., a fixed participation fee or a revenue sharing requirement. Thus, a key question for the retailer is whether she should choose to sell through the marketplace system, and if so, at what price. We analyze the optimal decisions for both the retailer and the marketplace firm and characterize the system equilibrium.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

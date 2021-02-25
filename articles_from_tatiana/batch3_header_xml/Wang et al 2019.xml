@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">International Journal of Production Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-05-07">07 May 2019.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jing</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>300072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>300072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yingchen</forename><surname>Yan</surname></persName>
+							<idno type="ORCID">0000-0002-4798-994X</idno>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>300072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>300072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huibin</forename><surname>Du</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>300072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>300072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruiqing</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>300072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>300072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">International Journal of Production Research</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">Print</idno>
+						<imprint>
+							<date type="published" when="2019-05-07">07 May 2019.</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1080/00207543.2019.1612963</idno>
+					<note type="submission">Received 13 December 2018; accepted 10 April 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>green supply chain</term>
+					<term>green production investment</term>
+					<term>dual-channel</term>
+					<term>online channel format selection</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>With the increasing public awareness of environmental protection and the popularisation of suppliers&apos; green production, a growing number of e-tailers are also investing in green products or services. The greenization of an e-tailer brings additional sales to the online channel but weakens the bargaining power of the supplier and further complicates the supplier&apos;s online channel format choice. This study focuses on the interaction between the e-tailer&apos;s green investment strategy and the supplier&apos;s choice of online channel format. First, we find that the e-tailer&apos;s investment forces the supplier to consider a new factor, the supplier&apos;s investment efficiency, which the supplier does not consider when the e-tailer does not invest and completely changes the e-tailer&apos;s own preferences. Second, we obtain the counterintuitive result that the supplier does not always benefit from the e-tailer&apos;s greenization; in the reseller channel, a supplier with a high investment efficiency is made worse off due to the increased retail price resulting from the e-tailer&apos;s investment. Additionally, the e-tailer will go green only when the upstream investment efficiency is high, regardless of the online channel format. The intuition behind this result hinges on each player wanting to free ride but worrying that the other has the same idea.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

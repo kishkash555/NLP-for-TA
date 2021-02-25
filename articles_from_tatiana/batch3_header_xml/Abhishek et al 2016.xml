@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Agency Selling or Reselling? Channel Structures in Electronic Retailing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vibhanshu</forename><surname>Abhishek</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty Research</orgName>
+								<orgName type="institution">University of Pennsylvania ScholarlyCommons Finance Papers Wharton</orgName>
+								<address>
+									<postCode>8-2016</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kinshuk</forename><surname>Jerath</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty Research</orgName>
+								<orgName type="institution">University of Pennsylvania ScholarlyCommons Finance Papers Wharton</orgName>
+								<address>
+									<postCode>8-2016</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">John</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty Research</orgName>
+								<orgName type="institution">University of Pennsylvania ScholarlyCommons Finance Papers Wharton</orgName>
+								<address>
+									<postCode>8-2016</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Agency Selling or Reselling? Channel Structures in Electronic Retailing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1287/mnsc.2015.2230</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>multichannel retailing</term>
+					<term>electronic commerce</term>
+					<term>distribution channel</term>
+					<term>cross-channel spillovers</term>
+					<term>platform retailing; retail competition</term>
+					<term>game theory Disciplines</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In recent years, online retailers (also called e-tailers) have started allowing manufacturers direct access to their customers while charging a fee for providing this access, a format commonly referred to as agency selling. In this paper, we use a stylized theoretical model to answer a key question that e-tailers are facing: When should they use an agency selling format instead of using the more conventional reselling format? We find that agency selling is more efficient than reselling and leads to lower retail prices; however, the e-tailers end up giving control over retail prices to the manufacturer. Therefore, the reaction by the manufacturer, who makes electronic channel pricing decisions based on their impact on demand in the traditional channel (brick-andmortar retailing), is an important factor for e-tailers to consider. We find that when sales in the electronic channel lead to a negative effect on demand in the traditional channel, e-tailers prefer agency selling, whereas when sales in the electronic channel lead to substantial stimulation of demand in the traditional channel, etailers prefer reselling. This preference is mediated by competition between e-tailers-as competition between them increases, e-tailers prefer to use agency selling. We also find that when e-tailers benefit from positive externalities from the sales of the focal product (such as additional profits from sales of associated products), retail prices may be lower under reselling than under agency selling, and the e-tailers prefer reselling under some conditions for which they would prefer agency selling without the positive externalities.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

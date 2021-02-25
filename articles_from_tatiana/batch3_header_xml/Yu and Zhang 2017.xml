@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Data pricing strategy based on data quality q</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-08-09">9 August 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Haifei</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">Northeastern University</orgName>
+								<address>
+									<postCode>110819</postCode>
+									<settlement>Shenyang</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mengxiao</forename><surname>Zhang</surname></persName>
+							<email>mengxiaozhang47@hotmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">Northeastern University</orgName>
+								<address>
+									<postCode>110819</postCode>
+									<settlement>Shenyang</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Data pricing strategy based on data quality q</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-08-09">9 August 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.cie.2017.08.008</idno>
+					<note type="submission">Received 31 December 2016 Received in revised form 2 June 2017 Accepted 7 August 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Big data Data marketplace Data pricing Production management Bi-level programming model</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper presents a bi-level mathematical programming model for the data-pricing problem that considers both data quality and data versioning strategies. Data products and data-related services differ from information products or services in terms of quality assessment methods. For this problem, we consider two aspects of data quality: (1) its multidimensionality and (2) the interaction between the dimensions. We designed a multi-version data strategy and propose a data-pricing bi-level programming model based on the data quality to maximize the profit by the owner of the data platform and the utility to consumers. A genetic algorithm was used to solve the model. The numerical solutions for the data-pricing model indicate that the multi-version strategy achieves a better market segmentation and is more profitable and feasible when the multiple dimensions of data quality are considered. These results also provide managerial guidance on data provision and data pricing for platform owners.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

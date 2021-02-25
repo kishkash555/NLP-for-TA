@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Applying a platform to expand sales</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-03-03">03 Mar 2020.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wenche</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Kinesiology</orgName>
+								<orgName type="department" key="dep2">Center for Special Economic Zone Research</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<addrLine>Sport Management</addrLine>
+									<settlement>Ann Arbor</settlement>
+									<country>USA; b China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Shenzhen University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fan</forename><surname>Li</surname></persName>
+							<email>lifan@szu.edu.cn</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">&amp;</forename><surname>Zelong</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zelong</forename><surname>Yi</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Transportation Economics and Logistics Management</orgName>
+								<orgName type="department" key="dep2">College of Economics</orgName>
+								<orgName type="institution">Shenzhen University</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Center for Special Economic Zone Research</orgName>
+								<orgName type="institution">Shenzhen University</orgName>
+								<address>
+									<addrLine>Nanhai Ave 3688</addrLine>
+									<postCode>518060</postCode>
+									<settlement>Shenzhen</settlement>
+									<country>China, China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Applying a platform to expand sales</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">0160-5682 (Print) 1476-9360</idno>
+						<imprint>
+							<date type="published" when="2020-03-03">03 Mar 2020.</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1080/01605682.2019.1700193</idno>
+					<note type="submission">Received 10 January 2018 Accepted 8 November 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Pricing theory</term>
+					<term>customer behavior</term>
+					<term>intermediary platform</term>
+					<term>bargaining</term>
+					<term>twosided market</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Manufacturers often try to expand sales by making their products available on an intermediatory platform. This article examines fundamental issues related to firms&apos; decisions to use a platform. Due to favorable services that are provided by the platform, consumers would rather purchase from the platform than directly from the firms. In the absence of a platform, some would purchase from the firms while others would make no purchase. With a platform, on the other hand, strong-preference consumers will continue to purchase from the firms, since they are not within the platform&apos;s target market; low-preference consumers will continue to make no purchase; only moderate-preference consumers will switch from direct purchase to platform purchase. Moreover, the firm-direct sales prices are greater than the platform sales price, so the firms take advantage of strong-preference consumers to compensate for the fee of the platform. We also show that the optimal size of the platform is related to consumers&apos; evaluation of the products, the platform characteristics, and consumers&apos; disutility of buying a non-ideal product.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

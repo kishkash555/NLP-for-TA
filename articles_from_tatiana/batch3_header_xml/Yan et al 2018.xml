@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">European Journal of Operational Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-11-16">16 November 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yingchen</forename><surname>Yan</surname></persName>
+							<email>ychyan@tju.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>30 0 072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruiqing</forename><surname>Zhao</surname></persName>
+							<email>zhao@tju.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>30 0 072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhibing</forename><surname>Liu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">College of Mathematics and Physics</orgName>
+								<orgName type="institution">Huanggang Normal University</orgName>
+								<address>
+									<postCode>4380 0 0</postCode>
+									<settlement>Hubei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">European Journal of Operational Research</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-11-16">16 November 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2017.11.011</idno>
+					<note type="submission">Received 16 January 2017 Accepted 8 November 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Supply chain management Multi-channel retailing E-channel spillover Sales efficiency Game theory</keywords>
+			</textClass>
+			<abstract>
+				<p>In recent years, the increasing prevalence of online retailing has given rise to a novel e-channel-the marketplace-in which manufacturers sell their products directly to consumers by paying fees to e-tailers. This e-channel, unlike the conventional reseller e-channel, endows manufacturers with absolute control over prices, which helps protect brick-and-mortar channels, especially in the presence of different types of spillovers from online to offline sales. However, the marketplace channel is nevertheless not used in practice in some instances as a result of the e-tailer&apos;s costly platform fees and the manufacturer&apos;s inefficiency in direct retail sales. These different attitudes raise key questions of whether and under what conditions the marketplace channel should be introduced in addition to the reseller channel. In this paper, we study these problems by measuring the combined effects of the online spillover, the platform fee and the manufacturer&apos;s retailing inefficiency. We demonstrate that the manufacturer&apos;s willingness to employ the marketplace channel increases and the e-tailer&apos;s willingness to do so decreases in the level of spillovers; when combining the two, we find that a Pareto improvement can be achieved under a moderate spillover. We also present an interesting insight that the introduction of the marketplace channel fundamentally changes the effects of the spillover on the e-tailer while merely strengthening those on the manufacturer. Moreover, a higher platform fee does not necessarily incentivize the e-tailer to join the marketplace, and the manufacturer&apos;s retailing inefficiency may either benefit or harm the e-tailer, depending on the size of the platform fee.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

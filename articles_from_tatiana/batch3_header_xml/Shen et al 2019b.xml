@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">International Journal of Production Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-01-16">16 Jan 2019.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuelin</forename><surname>Shen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Business Administration</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University of Finance and Economics</orgName>
+								<orgName type="institution" key="instit2">Hangzhou People&apos;s Republic of China</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaodong</forename><surname>Yang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">International Business School</orgName>
+								<orgName type="institution">Shanghai University of International Business and Economics</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">International Business School</orgName>
+								<orgName type="institution">Beijing Foreign Studies University</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yue</forename><surname>Dai</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">International Journal of Production Research</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">0020-7543 (Print) 1366-588X</idno>
+						<imprint>
+							<date type="published" when="2019-01-16">16 Jan 2019.</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1080/00207543.2019.1566657</idno>
+					<note type="submission">Received 3 December 2017; accepted 27 December 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>supply chain management</term>
+					<term>multichannel retailing</term>
+					<term>platform retailing</term>
+					<term>revenue sharing</term>
+					<term>slotting fee</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Motivated by the emergence of dominant retail platforms operating using a store-within-a-store strategy, we study the interaction of such a retailer&apos;s decision on the selling format and a manufacturer&apos;s decision on the channel selection. The dominant retailer may elect to operate as a traditional reseller or a retail platform where the manufacturer manages his own store and pays a slotting fee and a portion of the revenue to the platform. The manufacturer makes the channel selection decision between the dominant retailer and a weak reseller. A Stackelberg game with the dominant retailer being the leader is formulated, and five relevant channel options are presented. We solve sub-games and characterise the equilibrium solution of the full game. Numerical studies shed light on the roles of the slotting fee and the outcomes of some prevailing selling formats in business practice. In particular, it is shown that the demand substitution between the dominant retailer and the weak retailer is crucial in determining channel selection.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

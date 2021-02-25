@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Retailer&apos;s vertical integration strategies under different business modes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-08-20">August 20, 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pei</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">Shanghai Lixin University of Accounting and Finance</orgName>
+								<address>
+									<postCode>201209</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Tan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">College of Business</orgName>
+								<orgName type="institution">Shanghai University of Finance and Economics</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guangyong</forename><surname>Wang</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Institute of Applied Economics</orgName>
+								<orgName type="department" key="dep2">Shanghai Academy of Social Sciences</orgName>
+								<address>
+									<postCode>20020</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hang</forename><surname>Wei</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">College of Business</orgName>
+								<orgName type="institution">Shanghai University of Finance and Economics</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jilan</forename><surname>Wu</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Information Management and Engineering</orgName>
+								<orgName type="institution">Shanghai University of Finance and Economics</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<address>
+									<country>Li</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Retailer&apos;s vertical integration strategies under different business modes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-08-20">August 20, 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2020.07.054</idno>
+					<note type="submission">Received 30 April 2019 Accepted 28 July 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Vertical integration Business mode Improvement in vertical integration strategy Endogenous proportional fee</keywords>
+			</textClass>
+			<abstract>
+				<p>Currently, increasingly more retailers wish to gain a competitive advantage through vertical integration. We consider a three-echelon supply chain comprising a retailer, a service supplier, and a manufacturer. The service supplier is responsible for the service level, and the manufacturer is responsible for product quality. The retailer has two business modes: reseller mode and platform mode. The retailer chooses one of three strategies, i.e., no vertical integration, forward integration, or backward integration, for these two business modes. By comparing the retailer&apos;s equilibrium profit under these vertical integration strategies, we obtain the optimal choice for the retailer and a high profit for the supply chain under different business modes. Moreover, we characterize the effects of the proportional fee, product quality, service level and business mode on vertical integration. We find that the cost effect is determined by product quality and service level and that the income distribution effect is determined by the proportional fee. The cost effect is a key factor affecting the retailer&apos;s vertical integration strategy under the reseller mode, and both of these effects jointly affect the retailer&apos;s choice under the platform mode. Furthermore, we design a cost-sharing contract to improve vertical integration efficiency and investigate the effect of vertical integration decisions on improvement strategies. Lastly, we consider an extension to analyse the effect of an endogenous proportional fee on retailers&apos; vertical integration strategies.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

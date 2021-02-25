@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Journal of Retailing and Consumer Services</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amir</forename><forename type="middle">Mohammad</forename><surname>Alaei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Industrial Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">University of Tehran</orgName>
+								<address>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammad</forename><surname>Amir</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Industrial Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">University of Tehran</orgName>
+								<address>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ata</forename><forename type="middle">Allah</forename><surname>Alaei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Industrial Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">University of Tehran</orgName>
+								<address>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Taleizadeh</surname></persName>
+							<email>taleizadeh@ut.ac.ir</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Industrial Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">University of Tehran</orgName>
+								<address>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Masoud</forename><surname>Rabbani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Industrial Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">University of Tehran</orgName>
+								<address>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Journal of Retailing and Consumer Services</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.jretconser.2020.102271</idno>
+					<note type="submission">Received 9 May 2019; Received in revised form 17 July 2020; Accepted 21 July 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Supply chain management Cross-channel Return policy Game theory</keywords>
+			</textClass>
+			<abstract>
+				<p>With the advent of e-commerce, new platform sales have been created in the online retailing industry, and choosing the best platform has become a challenge for manufacturers. For instance, marketplace and web-store are two e-channels for selling goods directly to end customers. In the marketplace, manufacturers sell their products directly to online customers through e-tailers&apos; platforms and share revenue with e-tailers. In the webstore channel, manufacturers sell their products directly to end customers through their platforms and do not need to e-tailers&apos; platforms. However, some manufacturers and e-tailers continue with reseller channel yet. Reseller channel is another conventional channel in which manufacturers distribute their products to e-tailers, then e-tailers choose retail prices and sell them to consumers. Therefore, with these three different channels, the key question is when and under what conditions manufacturers can choose marketplace or reseller channel in addition to their web-store channels to grow their market share. In this paper, we analyze these three different echannels and the conditions that manufacturers adopt the marketplace or reseller channel. For this purpose, we consider a model with two manufacturers and one e-tailer in which the manufacturers have their web-store channels, and they are willing to adopt another channel‫ـ‬ reseller or marketplace. The manufacturers offer a return policy in their web-store channels as a competitive strategy for attracting more customers. We find that offering return policy in web-store channels has no effect on the choice between the marketplace and reseller channel, but it has an impact on the amount of manufacturers&apos; profits in each channel. Also, we demonstrate that regardless of offering return policy, as the coefficient of cross-channel effect increases, the manufacturers&apos; profits, whether they choose reseller channel or marketplace channel, increase. But, as the coefficient of cross-channel effect increases, the e-tailer&apos;s profit increases when both manufacturers choose reseller channel, otherwise decreases. If manufacturers offer a return policy, the e-tailer&apos;s profit is highest when both manufacturers choose reseller channel, and if they do not offer a return policy, the e-tailer&apos;s profit is highest when both manufacturers choose marketplace channel.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

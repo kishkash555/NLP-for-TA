@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dual-channel decision in a shopping complex when considering consumer channel preference</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-06-17">17 Jun 2019.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yugang</forename><surname>Yu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Management, University of Science and Technology of China</orgName>
+								<address>
+									<postCode>230026</postCode>
+									<settlement>Hefei</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Libo</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Management, University of Science and Technology of China</orgName>
+								<address>
+									<postCode>230026</postCode>
+									<settlement>Hefei</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaolong</forename><surname>Guo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Management, University of Science and Technology of China</orgName>
+								<address>
+									<postCode>230026</postCode>
+									<settlement>Hefei</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dual-channel decision in a shopping complex when considering consumer channel preference</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">0160-5682 (Print) 1476-9360</idno>
+						<imprint>
+							<date type="published" when="2019-06-17">17 Jun 2019.</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1080/01605682.2019.1621221</idno>
+					<note type="submission">Received 25 June 2018 Accepted 10 May 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Dual-channel</term>
+					<term>platformbased supply chain</term>
+					<term>agency selling</term>
+					<term>platform retailing</term>
+					<term>direct channel</term>
+					<term>channel selection</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In practice, dual-channel structures are commonly adopted by manufacturers to reach a wider range of customers. This paper investigates a manufacturer&apos;s dual-channel (&quot;direct&quot; þ &quot;indirect&quot;) decision in a shopping complex, considering consumer channel preference between the direct and indirect channels, with the choices for the indirect channel being reselling and agency selling. We develop an analytical framework to study this problem. Our result demonstrates that the dual-channel structures should be adopted when there exists a significant channel preference gap between channels, which in turn could help the manufacturer reduce the substitution effect between channels. Besides, our analysis discloses that consumer channel preference plays a significant role when the manufacturer leverages different indirect selling formats. In the case of reselling, the manufacturer should adopt a dual-channel structure if consumers show a much higher preference for the direct channel. In the case of agency selling, a dual-channel structure should be adopted when consumers significantly prefer either the direct channel or the indirect (agency) platform. Finally, exact conditions are provided in this paper to help manufacturers make optimal dual-channel decisions in shopping complexes.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">European Journal of Operational Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-07-22">22 July 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xuelian</forename><surname>Qin</surname></persName>
+							<email>xuelianqin@hust.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Huazhong University of Science and Technology</orgName>
+								<address>
+									<postCode>430074</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhixue</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Huazhong University of Science and Technology</orgName>
+								<address>
+									<postCode>430074</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lin</forename><surname>Tian</surname></persName>
+							<email>tianlin@fudan.edu.cn</email>
+							<affiliation key="aff1">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">European Journal of Operational Research</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-07-22">22 July 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2020.07.029</idno>
+					<note type="submission">Received 13 December 2019 Accepted 16 July 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>E-commerce Online platform Selling mode Logistics service Channel strategy</keywords>
+			</textClass>
+			<abstract>
+				<p>In e-commerce, many online platforms operate as a reseller for some products and serve as a marketplace for others. Under both selling modes, the logistics service can be undertaken by the platform or the supplier. The combination between the selling mode and the logistics service strategy produces four typical scenarios: (a) the platform acts as a reseller and the supplier offers the logistics service, namely, the RS scenario; (b) the platform serves as a reseller and provides the logistics service, namely, the RP scenario; (c) the platform works as a marketplace and the supplier offers the logistics service, namely, the MS scenario; and (d) the platform operates as a marketplace and provides the logistics service, namely, the MP scenario. On this basis, this paper proposes an analytical model to examine how the selling mode choice interacts with the logistics service strategy. We find that the supplier&apos;s preference aligns with the improvement of the logistics service level. When the cost performance of the logistics service is high, the RP scenario will generate the highest logistics service level, in which the supplier will gain the highest profit; when the cost performance of the logistics service is low, the MS scenario will generate the highest logistics service level and give the supplier the highest profit. For the platform, as the logistics service&apos;s cost performance increases, his preferred scenario will evolve from MP to MS , and then to RP. Further, we examine the equilibrium scenario by considering the interactions between the supplier and the online platform. We find that the MS scenario will be the equilibrium when the logistics service&apos;s cost performance is in the medium range; otherwise, RP will become the equilibrium scenario.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

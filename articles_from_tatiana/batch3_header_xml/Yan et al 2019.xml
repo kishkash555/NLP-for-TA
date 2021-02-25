@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">European Journal of Operational Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2018-09-25">25 September 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yingchen</forename><surname>Yan</surname></persName>
+							<email>ychyan@tju.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>30 0 072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruiqing</forename><surname>Zhao</surname></persName>
+							<email>zhao@tju.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>30 0 072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tiantian</forename><surname>Xing</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Finance and Banking</orgName>
+								<orgName type="institution">Chinese Academy of Social Sciences</orgName>
+								<address>
+									<postCode>10 0 028</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">European Journal of Operational Research</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-09-25">25 September 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2018.09.022</idno>
+					<note type="submission">Received 18 September 2017 Accepted 19 September 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Production</term>
+					<term>Manufacturing</term>
+					<term>Transportation and Logistics Retailing Online retailing Dual-channel distribution Supply channel structure Game theory</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The increasing prevalence of online retailing has recently given rise to a novel marketplace channel, in which upstream manufacturers can sell their products directly to consumers by paying a fee to e-tailers. While it endows upstream manufacturers with direct access to consumers, it also requires them to personally perform sales work, which is not their strength, especially in the form of sales efficiency and demand information. In this paper, we apply a stylized theoretical model to examine whether the manufacturer and e-tailer should agree to introduce the marketplace channel by considering these dual upstream disadvantages. We present an interesting insight that the marketplace channel should be introduced under not only a low degree but also a high degree of upstream sales inefficiency, which also means that a weak direct channel would not necessarily become a burden for the two. Actually, here, its introduction leads to higher output, a lower wholesale price and a lower retail price, thus benefiting both the supply chain members and the overall economy. In contrast, we find that only when the upstream informational disadvantage is moderate can the two reach consensus and introduce the marketplace channel. These findings, counterintuitively, demonstrate the entirely different effects of two types of upstream disadvantage in the equilibrium channel structure. Further, we also illustrate how the manufacturer&apos;s two disadvantages interact with one another; a manufacturer with higher sales efficiency can screen information early, while a manufacturer with low sales efficiency has to suffer longer from poor demand information.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

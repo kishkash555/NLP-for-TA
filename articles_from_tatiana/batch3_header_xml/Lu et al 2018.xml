@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">European Journal of Operational Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-07-14">14 July 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qihui</forename><surname>Lu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">Zhejiang Gongshang University</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Victor</forename><surname>Shi</surname></persName>
+							<email>cshi@wlu.ca</email>
+							<affiliation key="aff1">
+								<orgName type="department">Lazaridis School of Business and Economics</orgName>
+								<orgName type="institution">Wilfrid Laurier University</orgName>
+								<address>
+									<postCode>N2L 3C5</postCode>
+									<settlement>Waterloo</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiazhou</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">Zhejiang Gongshang University</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">European Journal of Operational Research</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-07-14">14 July 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2017.07.002</idno>
+					<note type="submission">Received 31 March 2016 Accepted 3 July 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Supply chain management e-books Agency model Revenue sharing Multi-channel supply chain</keywords>
+			</textClass>
+			<abstract>
+				<p>We model a supply chain consisting of an author, a publisher, a physical bookstore (p-bookstore), and an electronic bookstore (e-bookstore). We employ game theory to examine and compare two types of pricing models of electronic books (e-books): wholesale model and agency model. Furthermore, we consider decentralized and horizontally centralized channels. The p-bookstore and e-bookstore are independent in the former but centralized in the latter. We adopt a simplified linear demand model to study when the publisher and the e-bookstore both benefit from the agency model. We find that a Pareto zone where both the publisher and e-bookstore benefit from the agency model always exists in the decentralized channels. In the agency model, the benefit from e-book sales may be more than the loss in physical book (p-book) sales. By contrast, a Pareto zone exists in the horizontally centralized channels if the wholesale price of p-books is not excessively low and the price elasticity is not extremely large. To check the robustness of our results, we relax model assumptions and conduct numerical studies in the Pareto zone to investigate how various parameters, such as authors royalty rate, affect profit improvement and readers welfare. We show that the publisher and bookstore have great potentials for profit improvement in the Pareto zone. Significant improvement is also observed in readers welfare.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">European Journal of Operational Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-07-05">5 July 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shichen</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>30 0 072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jianxiong</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Management and Economics</orgName>
+								<orgName type="institution">Tianjin University</orgName>
+								<address>
+									<postCode>30 0 072</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">European Journal of Operational Research</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-07-05">5 July 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ejor.2019.07.003</idno>
+					<note type="submission">Received 21 October 2018 Accepted 4 July 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Production</term>
+					<term>Manufacturing</term>
+					<term>Transportation and Logistics Supply chain management Information sharing Supplier offline entry Agency selling Game theory</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Nowadays, some suppliers are looking for offline expansion in addition to their preexisting online channels relying on e-tailers. This study focuses on the e-tailer&apos;s demand information sharing strategy with the supplier who may build upon brick-and-mortar stores. Both prevailing agreements between the supplier and the e-tailer are investigated: agency selling and reselling. The equilibrium results are quite different under these two agreements. Specifically, when the supplier&apos;s offline entry cost is very small or large, the e-tailer shares information under agency selling while keeps information private under reselling. When the entry cost is intermediate, channel substitution rate is large and information uncertainty is small, the e-tailer withholds the demand information under agency selling while shares information under reselling to deter the supplier from entering an offline channel. Furthermore, two extensions about consumer behavior in multichannel selection are discussed: showrooming and webrooming. With showrooming or webrooming, the e-tailer&apos;s information sharing decisions qualitatively hold, while with showrooming the drive factor behind may change; that is, withholding information under agency selling and sharing information under reselling may also serve as measures to encourage supplier offline entry when the effect of showrooming is strong.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

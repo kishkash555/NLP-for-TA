@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Channel Selection and Contracting in the Presence of a Retail Platform</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuelin</forename><surname>Shen</surname></persName>
+							<email>ylshen@zufe.edu.cn</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sean</forename><forename type="middle">P</forename><surname>Willems</surname></persName>
+							<email>swillems@utk.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yue</forename><surname>Dai</surname></persName>
+							<email>yuedai@fudan.edu.cn</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">Zhejiang University of Finance and Economics</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">James A. Haslam II College of Business</orgName>
+								<orgName type="institution">University of Tennessee</orgName>
+								<address>
+									<postCode>37996</postCode>
+									<settlement>Knoxville</settlement>
+									<region>Tennessee</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Fudan University</orgName>
+								<address>
+									<postCode>200433</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Channel Selection and Contracting in the Presence of a Retail Platform</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/poms.12977</idno>
+					<note type="submission">Received: October 2015; Accepted: November 2018 by Amiya Chakravarty, after 6 revisions.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>channel selection</term>
+					<term>retail platform</term>
+					<term>revenue sharing</term>
+					<term>slotting fee</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>T his paper studies how a manufacturer should engage with a platform retailer and a traditional reseller. Our work is motivated by the emergence of increasingly powerful retail platforms in China&apos;s consumer electronics and appliances markets. The manufacturer pays a slotting fee and a portion of its sales revenue to the platform retailer in exchange for the opportunity to manage its own space within the retailer&apos;s store. The manufacturer can also sell its product to a traditional reseller thereby earning its wholesale price. We first formulate a Stackelberg game where the platform retailer leads by setting the revenue-sharing rate while the manufacturer follows by choosing to sell through one or both channels. We derive the equilibrium channel and characterize each party&apos;s associated sales quantities, prices, and profits. After confirming, it is always beneficial for the platform retailer to determine the slotting fee and revenue-sharing rate simultaneously, we then formulate two bargaining models between the manufacturer and the platform retailer. In the first model, they can negotiate just the revenue-sharing rate and in the second they negotiate both the revenue-sharing rate and the slotting fee. In the second model, a win-win result for the manufacturer and platform retailer is possible. We find that the slotting fee is neither always beneficial to the platform retailer nor always harmful to the manufacturer; it depends on the demand substitution effect between the two retail channels.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Strategic information sharing in online retailing under a consignment contract with revenue sharing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-09-21">21 September 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tatyana</forename><surname>Chernonog</surname></persName>
+							<idno type="ORCID">0000-0002-8138-5007</idno>
+						</author>
+						<title level="a" type="main">Strategic information sharing in online retailing under a consignment contract with revenue sharing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-09-21">21 September 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1007/s10479-020-03807-1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Supply chain</term>
+					<term>Consignment contract with revenue sharing</term>
+					<term>Information asymmetry</term>
+					<term>Strategic information sharing</term>
+					<term>Uncertainty</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This work develops a general model of a two-echelon supply chain in which a dominant retailer interacts with a manufacturer via a consignment contract with revenue sharing. The manufacturer&apos;s cost function is known only to him, whereas the retailer has only an estimation of this function, which is based on common knowledge. We formulate the interaction between the parties as a Stackelberg game in which the less informed party (the retailer) moves first. We investigate a strategic information-sharing policy of the manufacturer under general formulations of (i) the supply chain&apos;s revenue and cost functions, and (ii) the manufacturer&apos;s decision functions. Two models are considered: (i) a point-estimation model-the retailer relies on a single-valued estimation of the manufacturer&apos;s cost function, based on her &quot;best belief&quot;; and (ii) an interval-estimation model-the retailer faces uncertainty with regard to the cost function and thus estimates its parameter values within intervals. We find a condition that distinguishes between a case in which it is optimal for both parties for the manufacturer to share his exact cost function and a case in which such information-sharing is not optimal for the manufacturer but is optimal for the retailer. In the interval-estimation model, equilibrium is obtained using a normative (probabilistic) approach as well as behavioral-decision criteria (max-max, max-min and regret minimization). Under a normative approach both hidden and known superiority of the manufacturer are considered. Finally, we use our model to analyze a supply chain of a mobile application.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

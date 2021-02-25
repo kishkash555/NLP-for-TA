@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Strategic Role of Third-Party Marketplaces in Retailing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benny</forename><surname>Mantin</surname></persName>
+							<email>bmantin@uwaterloo.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management Sciences</orgName>
+								<orgName type="institution">University of Waterloo</orgName>
+								<address>
+									<addrLine>200 University Avenue West</addrLine>
+									<postCode>N2L 3G1</postCode>
+									<settlement>Waterloo</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harish</forename><surname>Krishnan</surname></persName>
+							<email>krishnan@sauder.ubc.ca</email>
+							<affiliation key="aff1">
+								<orgName type="department">Sauder School of Business</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2053 Main Mall</addrLine>
+									<postCode>V6T 1Z2</postCode>
+									<settlement>Vancouver</settlement>
+									<region>British Columbia</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tirtha</forename><surname>Dhar</surname></persName>
+							<email>tirtha.dhar@uoit.ca</email>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Ontario Institute of Technology</orgName>
+								<address>
+									<postCode>L1H 7K4</postCode>
+									<settlement>Oshawa</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Strategic Role of Third-Party Marketplaces in Retailing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/poms.12203</idno>
+					<note type="submission">Received: April 2012; Accepted: November 2013 by Vishal Gaur, after 4 revisions.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>marketing channels</term>
+					<term>dual-format retailing</term>
+					<term>third-party marketplaces</term>
+					<term>internet retailing</term>
+					<term>bargaining</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>R etailers are increasingly adopting a dual-format model. In addition to acting as traditional merchants (buying and reselling goods), these retailers provide a platform for third-party (3P) sellers to access and compete for the same customers. We investigate the strategic rationale for a retailer to introduce a 3P marketplace. Our analysis provides insights into the growing prevalence of 3P marketplaces. We show that by committing to having an active 3P marketplace, the retailer creates an &quot;outside option&quot; that improves its bargaining position in negotiations with the manufacturer. This can explain the increasing prevalence of such marketplaces. On the other hand, the manufacturer would prefer to eliminate the retailer&apos;s outside option and should seek to limit or prevent sales through 3P marketplaces. This is consistent with actions that several manufacturers have taken to limit such sales. Interestingly, if the manufacturer fails to eliminate sales of competing products through the 3P marketplace, then the best strategy for the manufacturer is to allow the retailer to dictate the terms of their contract. This is because a powerful retailer will rely less on its outside option in generating profit, and therefore it will increase the fees charged to 3P sellers and soften the competition between 3P sellers and the manufacturer. The decrease in competition will lead to an increase in the value of outside option of the manufacturer and improve its profit. Additionally, we find that the presence of a 3P marketplace benefits consumers, but this benefit diminishes as the retailer becomes more powerful.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

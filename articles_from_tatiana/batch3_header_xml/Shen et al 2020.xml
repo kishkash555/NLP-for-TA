@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Transportation Research Part E</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-09-01">01 September 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bin</forename><surname>Shen</surname></persName>
+							<email>binshen@dhu.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Glorious Sun School of Business and Management</orgName>
+								<orgName type="institution">Donghua University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaoyan</forename><surname>Xu</surname></persName>
+							<email>xuxiaoyan012@126.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Glorious Sun School of Business and Management</orgName>
+								<orgName type="institution">Donghua University</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Quan</forename><surname>Yuan</surname></persName>
+							<email>quanyuan@zju.edu.cn</email>
+							<affiliation key="aff1">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Transportation Research Part E</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-09-01">01 September 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.tre.2020.102066</idno>
+					<note type="submission">Received 29 April 2020; Received in revised form 8 July 2020; Accepted 18 August 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Secondhand products Online marketplace Platform Permissioned blockchain technology</keywords>
+			</textClass>
+			<abstract>
+				<p>We examine the value of blockchain for disclosing secondhand product quality in a supply chain in which contributors consign secondhand products to an online platform that resells them and competes with suppliers of new products. We find that the platform is more likely to provide a uniform (differential) pricing strategy with new products when the revenue sharing portion of the consignment contract is sufficiently low (high). Moreover, surprisingly, without blockchain, the platform prefers moderately perceived and true quality secondhand products, instead of extremely high or low quality. With blockchain, the platform prefers selling low-uniqueness and low-quality (or high-uniqueness and high-quality) secondhand products. Furthermore, we find that with blockchain, horizontal integration is more effective in improving the supply chain&apos;s total profit. A win-win-win outcome can be achieved for the platform, the supplier, and consumers in a supply chain that sells low-uniqueness products.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

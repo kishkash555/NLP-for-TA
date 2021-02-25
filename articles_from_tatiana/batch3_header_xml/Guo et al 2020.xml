@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">International Journal of Production Research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-08-28">28 Aug 2019.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaolong</forename><surname>Guo</surname></persName>
+							<idno type="ORCID">0000-0002-1261-6852</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lihong</forename><surname>Cheng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jie</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Management</orgName>
+								<orgName type="institution">University of Science and Technology of China</orgName>
+								<address>
+									<settlement>Hefei</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">International Journal of Production Research</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">0020-7543 (Print) 1366-588X</idno>
+						<imprint>
+							<date type="published" when="2019-08-28">28 Aug 2019.</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1080/00207543.2019.1658911</idno>
+					<note type="submission">Received 6 April 2019; accepted 11 August 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>green supply chain</term>
+					<term>sustainable supply chain</term>
+					<term>sustainable operations</term>
+					<term>sales platform eco-label</term>
+					<term>agency contract</term>
+					<term>wholesale price contract</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Considering environmentally conscious consumers, a manufacturer, and a sales platform which provides eco-labels for qualified manufacturers, this paper develops a supply chain model to study how eco-labels affect green supply chain operations, from the profitability and environmental perspectives. The results show that the sales platform prefers the agency contract, but the manufacturer prefers the wholesale price contract. Considering the performance of the supply chain, the agency contract brings a higher profit while the wholesale price contract results in a bigger environmental improvement. An unexpected but interesting result is that when the agency contract is used and consumer green awareness increases, the sale price declines rather than increasing as it does under the wholesale price contract. This decline happens because the required marketing effort of the sales platform will be lower, which incentivises the platform to reduce the commission rate. Consequently, the manufacturer faces a lower commission rate and a higher margin when consumers display greater green awareness. Moreover, as the core and more powerful player of the supply chain, the sales platform can propose a platform-led revenue sharing contract to fully coordinate the supply chain, which improves the performance of the supply chain both in profitability and environmental perspectives.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

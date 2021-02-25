@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Commission Pricing Strategy on Online Retail Platforms: Power and Dependence in Triad</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xu</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0000-0003-1252-2087</idno>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zheng</forename><surname>Luo</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaojun</forename><surname>Wang</surname></persName>
+						</author>
+						<title level="a" type="main">Commission Pricing Strategy on Online Retail Platforms: Power and Dependence in Triad</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1109/TEM.2019.2957923</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Commission fee</term>
+					<term>game theory</term>
+					<term>online retailing</term>
+					<term>pricing strategy</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>With the increasing popularity of online retailing, in this article, we investigate the alternative online operation strategies regarding commission price when selling through the online platforms. We exploit a triadic network setting that consists of one online platform firm and two competing vendors and examine the strategic choice of the involved parties to effectively compete in the marketplace. We develop the game models for alternative commission pricing strategies and obtain the equilibrium solutions. Through a comparison of equilibrium solutions, our analysis reveals that alternative commission pricing strategies lead to the different economic results for the online platform and the two vendors individually and collectively. While vendors can take necessary actions (e.g., an additional fee for an exclusive pricing right) to maximize their own benefit, competing vendors can also respond to their rival&apos;s strategic choice to minimize the negative impact of the deal reached by the other two parties. Our findings also suggest that the exclusive pricing right that the leader vendor tries to secure results in a higher commission fee paid to the online platform. Through modeling strategic behavior and consequential economic results in the setting of a triad network, our research also responds to the proposition that the structural and behavioral approaches represent incommensurable ideas, and we show that a combined theoretical strategy appears well adapted to the complex realities of interfirm networks.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

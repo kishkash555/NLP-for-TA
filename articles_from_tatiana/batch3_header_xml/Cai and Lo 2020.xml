@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Omni-channel management in the new retailing era: A systematic review and future research agenda</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-04-06">6 April 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ya-Jun</forename><surname>Cai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Business Division</orgName>
+								<orgName type="department" key="dep2">Institute of Textiles and Clothing</orgName>
+								<orgName type="department" key="dep3">Faculty of Applied Science and Textiles</orgName>
+								<orgName type="institution">The Hong Kong Polytechnic University</orgName>
+								<address>
+									<addrLine>Hung Hom</addrLine>
+									<settlement>Kowloon, Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><forename type="middle">K Y</forename><surname>Lo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Business Division</orgName>
+								<orgName type="department" key="dep2">Institute of Textiles and Clothing</orgName>
+								<orgName type="department" key="dep3">Faculty of Applied Science and Textiles</orgName>
+								<orgName type="institution">The Hong Kong Polytechnic University</orgName>
+								<address>
+									<addrLine>Hung Hom</addrLine>
+									<settlement>Kowloon, Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Omni-channel management in the new retailing era: A systematic review and future research agenda</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-04-06">6 April 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ijpe.2020.107729</idno>
+					<note type="submission">Received 21 August 2019; Received in revised form 5 March 2020; Accepted 6 March 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Omni-channel management Omni-channel strategy Omni-channel retailing Review</keywords>
+			</textClass>
+			<abstract>
+				<p>Omni-channel retailing is a popular strategy in a new retailing era when digitalization, social media, big data and other emerging technologies (e.g., Artificial Intelligence (AI), virtual reality (VR), augmented reality (AR), blockchain, etc.) are transforming the retail business models. Meanwhile, omni-channel related operations impose a challenge on either well-established firms or new setups that they have to make &quot;right&quot; decisions to fit in the new retail environment. This review paper endeavors to reveal the established knowledge behind the omni-channel retailing literature, generate managerial implications for firms, and provides a guideline for future research. We conduct this systematic review by adopting citation network analysis (CNA). The CNA helps identify seven independent and interdependent research domains, which depict (or constitute) a whole picture of &quot;omnichannel management&quot;. The main path analysis reveals that each identified research domain is under study. We also find that the extant literature seldom examines the roles of how new technologies play in the &quot;omnichannel management&quot;. Moreover, the domain of supply chain management and inventory management in the omnichannel environment is absent in this systematic literature review. Therefore, we propose a prescribed framework for &quot;omnichannel management&quot; (PFOM), which contributes to the literature on &quot;omnichannel management&quot; and provides important managerial applications to the retail firms that plan to implement the omnichannel strategy.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Transportation Research Part E</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-04-09">09 April 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiang</forename><surname>Li</surname></persName>
+							<email>xiangli@nankai.edu.cn.</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Economic and Social Development</orgName>
+								<orgName type="institution">Nankai University</orgName>
+								<address>
+									<postCode>300071</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Transportation Research Part E</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-04-09">09 April 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.tre.2020.101927</idno>
+					<note type="submission">Received 31 December 2019; Received in revised form 1 March 2020; Accepted 25 March 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Smart supply chain Channel cost reduction Technology investment Platform</keywords>
+			</textClass>
+			<abstract>
+				<p>This paper establishes a modeling framework that incorporates channel costs as a decision variable when smart supply chain technology can be invested in. A traditional manufacturerretailer supply chain is studied, and the conditions under which the technology should be invested are identified. Issues of supply chain efficiency and coordination are addressed. A platform supply chain is also investigated, and it is found that a platform may invest in reducing the channel cost even if it does not bear any part of this cost. In this case, the percentage fee is found to be an important parameter.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

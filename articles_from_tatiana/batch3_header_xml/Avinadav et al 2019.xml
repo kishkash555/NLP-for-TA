@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">International Journal of Production Economics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><surname>Avinadav</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar-Ilan University</orgName>
+								<address>
+									<postCode>5290002</postCode>
+									<settlement>Ramat-Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tatyana</forename><surname>Chernonog</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Management</orgName>
+								<orgName type="institution">Bar-Ilan University</orgName>
+								<address>
+									<postCode>5290002</postCode>
+									<settlement>Ramat-Gan</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tal</forename><surname>Ben-Zvi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Business</orgName>
+								<orgName type="institution" key="instit1">Stevens Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Castle Point on Hudson</orgName>
+								<address>
+									<postCode>07030</postCode>
+									<settlement>Hoboken</settlement>
+									<region>NJ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">International Journal of Production Economics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.ijpe.2019.07.004</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Supply-chain management Information superiority Revenue sharing contract Risk aversion Sales effort and quality</keywords>
+			</textClass>
+			<abstract>
+				<p>Virtual products, such as mobile apps, 3D print files, e-music, etc., are produced with ample capacity and supplied with zero lead-time. We consider a two-echelon supply chain of a virtual product whose parties, a manufacturer and a retailer, operate under a revenue-sharing contract and face information asymmetry about demand. Demand is sensitive to the selling price and to the levels of sales effort and product quality. The manufacturer, who is more informed party, applies a strategic information-sharing policy. Assuming that the retailer is unaware of the manufacturer&apos;s information superiority, we find that when the retailer is risk-neutral, different beliefs regarding the distribution of the base demand will not affect the manufacturer&apos;s and the retailer&apos;s decisions as long as they share the same belief regarding the mean demand. In addition, we show that, given an actual base demand, the retailer is better off when her forecast is pessimistic, whereas the manufacturer is better off when the retailer&apos;s forecast is optimistic. Measuring the expected value of hidden manufacturer&apos;s information superiority compared with known and probabilistic superiorities, we prove that known superiority is better off for the retailer, whereas hidden superiority is better off for the manufacturer. Moreover, we prove that known superiority results in non-strategic information sharing, whereas probabilistic superiority may lead to strategic information sharing. We further extend our analysis and show that, under hidden superiority, interacting with a risk-averse retailer is more profitable for the manufacturer than interacting with a risk-neutral retailer, despite the risk-averse retailer&apos;s reduced investment in sales effort.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

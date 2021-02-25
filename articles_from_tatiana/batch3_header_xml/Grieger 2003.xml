@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Electronic marketplaces: A literature review and a call for supply chain management research</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Grieger</surname></persName>
+							<email>mg.om@cbs.dk</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Operations Management</orgName>
+								<orgName type="department" key="dep2">Copenhagen Business School</orgName>
+								<address>
+									<postCode>DK-2000</postCode>
+									<settlement>Frederiksberg</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Electronic marketplaces: A literature review and a call for supply chain management research</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Supply chain management</term>
+					<term>Electronic marketplaces</term>
+					<term>Electronic business</term>
+					<term>Relationships</term>
+					<term>Electronic commerce</term>
+					<term>Information technology</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>These days, Internet-based electronic marketplaces (EMs) are getting more and more popular. They emerge in different industries, supporting the exchange of goods and services of different kinds, with and for different types of actors, and are following different architectural principles. Most observers have assumed that EM would come to dominate the e-business landscape. Once you look beyond the publicity, however, you quickly see that most EMs are struggling. The supply chain dimension of an EM is largely neglected and poorly managed, while basic logistics operation is currently hampering turnover and revenues. The Paper at hand examines, based on a critical literature review, the actual EM discussion and calls for more supply chain management research within this field.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

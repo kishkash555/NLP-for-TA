@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/siegman/Documents/Shahar/years/y2021/t_and_t/grobid-server/grobid-0.6.1/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Transportation Research Part E</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-12-12">12 December 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xueping</forename><surname>Zhen</surname></persName>
+							<email>zhxueping842@163.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Management Science and Engineering</orgName>
+								<orgName type="department" key="dep2">School of Economics and Management</orgName>
+								<orgName type="institution">Shanghai Maritime University</orgName>
+								<address>
+									<postCode>201306</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Shi</surname></persName>
+							<email>shidan56@dlut.edu.cn</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of E-Commerce</orgName>
+								<orgName type="department" key="dep2">School of Business</orgName>
+								<orgName type="institution">Dalian University of Technology</orgName>
+								<address>
+									<postCode>124221</postCode>
+									<settlement>Panjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yongjian</forename><surname>Li</surname></persName>
+							<email>liyongjian@nankai.edu.cn</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Management Science and Engineering</orgName>
+								<orgName type="department" key="dep2">School of Business</orgName>
+								<orgName type="institution">Nankai University</orgName>
+								<address>
+									<postCode>300071</postCode>
+									<settlement>Tianjin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chu</forename><surname>Zhang</surname></persName>
+							<email>zhangchu@buaa.edu.cn</email>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Management Science and Engineering</orgName>
+								<orgName type="department" key="dep2">School of Economics and Management</orgName>
+								<orgName type="institution">Beihang University</orgName>
+								<address>
+									<postCode>100191</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Transportation Research Part E</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-12-12">12 December 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.tre.2019.101820</idno>
+					<note type="submission">Received 10 May 2019; Received in revised form 4 December 2019; Accepted 5 December 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.1" ident="GROBID" when="2021-02-02T11:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Third-party platform credit financing Retailer credit financing Capital constraint Dual-channel supply chain</keywords>
+			</textClass>
+			<abstract>
+				<p>The third-party platform channel has been widely used in addition to the traditional retail channel to sell products. In practice, some third-party platforms provide financing services to small businesses that sell products on them. However, few studies addressed the capital constraint problem faced by a manufacturer who sells products through both retailers and thirdparty platforms, especially when considering the third-party platform&apos;s lending service behavior. This research establishes a model where a capital-constrained manufacturer sells products through a retailer and a third-party platform and may pursue a financing strategy by borrowing from the third-party platform (3PF), the retailer (RF), or the bank (BF). We investigate the impact of the third-party platform&apos;s or retailer&apos;s dual role-lending provider and channel participant-on dual-channel operational management and study the manufacturer&apos;s financing strategy choices by comparing profits under different financing strategies. The results of our analysis show that for the manufacturer, the 3PF strategy is always better than the BF strategy. Furthermore, the manufacturer is more likely to prefer the RF strategy to the 3PF strategy as the channel competition increases or as the revenue sharing rate or unit production cost decreases. We also find that the retailer&apos;s retail price increases as the revenue sharing rate increases if there is no capital constraint, but it decreases under the BF and 3PF strategies. This indicates that the manufacturer&apos;s financing behavior has a significant impact on the retailer&apos;s retail price decision. We extend our model by considering random demand and find that these findings continue to hold when the potential demand equals its expected value.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

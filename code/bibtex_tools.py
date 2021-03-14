@@ -86,7 +86,7 @@ class ref_dict(dict):
         return gr
 
     def to_bib_coupling_graph(self):
-        ref_nick_sets = { k: set([ref['nickname'] for ref in v]) for k, v in self.items()}
+        ref_nick_sets = { k: set([ref['nickname'] for ref in v if ref['nickname']!='__missing__']) for k, v in self.items()}
         nodes = list(self.keys())
         gr = nx.Graph()
         gr.add_nodes_from(nodes)
@@ -107,6 +107,8 @@ class ref_dict(dict):
     def load(fname):
         with open(fname,'rb') as a:
             obj = pickle.load(a)
+            if type(obj)==dict:
+                obj = ref_dict(obj) 
         return obj
         
 
@@ -150,9 +152,9 @@ class ref_dict_tools:
             if new_header:
                 header = new_header
                 if header in ret:
-                    print(f"Warning: repeating header {header}")
-                else:
-                    ret[header] = []
+                    header = get_nonexistent_key(header,ret)
+                
+                ret[header] = []
             if row.strip():
                 current_record.append(row)
             elif current_record:
@@ -171,7 +173,7 @@ class ref_dict_tools:
                 item_data['year'], 
                 [
                     ''.join(c for c in word if c.isalnum()) 
-                    for word in item_data['title'].split() 
+                    for word in item_data.get('title' if 'title' in item_data else 'booktitle','notitle').split() 
                     if word.lower() not in nonwords
                 ][0]
             ).replace(' ','_').lower()
@@ -210,6 +212,29 @@ def get_pdf_metadata(fname):
         inp_file = pdf.PdfFileReader(f)
         d=inp_file.getDocumentInfo()
     return d
+
+def get_nonexistent_key(candidate, d):
+    """
+    Get the path to a filename which does not exist by incrementing path.
+
+    Examples
+    --------
+    >>> get_nonexistant_path('/etc/issue')
+    '/etc/issue-1'
+    >>> get_nonexistant_path('whatever/1337bla.py')
+    'whatever/1337bla.py'
+    """
+    if not candidate in d:
+        return candidate
+    i = 1
+    new_name = candidate.rsplit("-",1)[0] 
+    new_name = "{}-{}".format(new_name, i)
+    while new_name in d:
+        i += 1
+        new_name = "{}-{}".format(candidate, i)
+    print("Changed {} to {}".format(candidate, new_name))
+    return new_name
+
 
 if __name__ == "__main__":
     files = ['../articles_from_tatiana/fulltext-pdf-batch2/Cao et al 2020.pdf',

@@ -1,7 +1,6 @@
 import json
 import networkx as nx
 from os import path
-import PyPDF2 as pdf
 import pickle
 
 example_bibtex =\
